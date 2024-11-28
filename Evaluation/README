@@ -1,0 +1,10 @@
+Evaluation using LightEval
+
+This folder contains scripts and configurations for evaluating models using LightEval, a lightweight evaluation framework. Specifically, it demonstrates the evaluation of fine-tuned models on various datasets such as mmlu (college physics).
+
+Overview:
+
+Evaluation Framework: LightEval
+A versatile library for evaluating models across various benchmarks.
+Model: Evaluates any Hugging Face model (e.g., HuggingFaceTB/SmolLM2-360M) fine-tuned on domain-specific datasets.
+Dataset: Includes support for evaluating models on mmlu (e.g., college physics subset).
