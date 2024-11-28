@@ -1,0 +1,20 @@
+LoRA Fine-tuning on SmolLM-135M with Physics Dataset
+
+This repository contains the implementation of Low-Rank Adaptation (LoRA) applied to the SmolLM-135M model. The model has been fine-tuned on the dataset akhilfau/physics_decontaminated_2, enabling it to generate improved responses to physics-related questions.
+
+Overview:
+
+Base Model: SmolLM-135M
+Fine-tuning Technique: Low-Rank Adaptation (LoRA)
+Dataset: akhilfau/physics_decontaminated_2
+Dataset Content:
+Questions in the message_1 column
+Answers in the message_2 column
+Objective: Adapt SmolLM-135M to excel in physics question-answering while maintaining computational efficiency.
+
+
+Features:
+
+Efficient fine-tuning using LoRA, reducing memory requirements while preserving model quality.
+Tailored for physics-related tasks, leveraging the high-quality dataset.
+Can be easily integrated with Hugging Face Transformers for downstream evaluation and deployment.
