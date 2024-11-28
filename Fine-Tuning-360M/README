@@ -1,0 +1,21 @@
+Fine-Tuning SmolLM2-360M on camel-ai/physics Dataset
+
+This repository contains the implementation for fine-tuning the SmolLM2-360M model on the camel-ai/physics dataset. The fine-tuning process is aimed at adapting the model for physics-related text generation tasks, where message_1 contains the question, and message_2 contains the corresponding answer.
+
+Overview:
+
+Model: SmolLM2-360M
+A lightweight language model optimized for tasks requiring efficient text generation.
+Dataset: camel-ai/physics
+A physics domain dataset:
+message_1: Questions.
+message_2: Answers.
+Size: ~20k samples in total.
+Goal: Fine-tune SmolLM2-360M for generating high-quality answers to physics-related questions.
+ 
+
+Key Features:
+
+Fine-tunes the SmolLM2-360M model specifically for physics text generation.
+Prepares the dataset by tokenizing message_1 (input) and message_2 (target).
+Saves the fine-tuned model to the Hugging Face Hub for inference and future use.
