@@ -1,0 +1,26 @@
+Decontamination of Dataset: camel-ai/physics
+
+This repository contains the implementation of dataset decontamination applied to the camel-ai/physics dataset. The decontamination process ensures that the training dataset is free from overlapping or contaminated samples from evaluation datasets, particularly for use in fine-tuning language models.
+
+This code is based on the Decontamination Module from the Cosmopedia repository by Hugging Face.
+
+Overview:
+
+Original Dataset: camel-ai/physics
+Purpose: Physics-related question-answering dataset with:
+Questions in message_1 column
+Answers in message_2 column
+Size: ~20k rows
+Decontamination Goal: Remove potential overlaps with evaluation datasets to ensure clean, unbiased training data.
+Evaluation Dataset for Decontamination: lighteval/mmlu (subset: college_physics).
+
+
+Key Features:
+
+Decontamination Process:
+Tokenizes the training and evaluation datasets.
+Identifies overlapping n-grams between training and evaluation datasets.
+Filters out contaminated samples from the training dataset based on overlap thresholds.
+Output:
+A contamination report uploaded to Hugging Face Hub.
+A clean, decontaminated training dataset, ready for fine-tuning models.
