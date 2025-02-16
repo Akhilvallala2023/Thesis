@@ -1,0 +1,3066 @@
+Question_number,Solutions
+13.2,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a)}
+
+The kinetic energy \( K_p \) is given by:
+
+\[
+K_p = \frac{1}{2} q^2 r^2 B^2 m_p = \frac{1}{2} \times (1.6 \times 10^{-19})^2 \times (0.25)^2 \times (1.5)^2 \times \frac{1}{1.66 \times 10^{-27}}
+\]
+
+Calculating the above expression, we get:
+
+\[
+K_p = 2.17 \times 10^{-13} \, \text{J} = \frac{2.17 \times 10^{-13}}{1.6 \times 10^{-13}} \, \text{MeV} = 13.56 \, \text{MeV}
+\]
+
+The frequency \( f_p \) is given by:
+
+\[
+f_p = \frac{Bq}{2\pi m_p} = \frac{1.5 \times 1.6 \times 10^{-19}}{2\pi \times 1.66 \times 10^{-27}}
+\]
+
+Calculating the above expression, we get:
+
+\[
+f_p = 2.3 \times 10^7 \, \text{Hz} = 23 \, \text{MHz}
+\]
+
+\subsection*{(b)}
+
+The kinetic energy \( K_\alpha \) is approximately:
+
+\[
+K_\alpha \approx \frac{1}{2} (2e)^2 r^2 B^2 \frac{1}{4m_p} = K_p = 13.56 \, \text{MeV}
+\]
+
+The frequency \( f_\alpha \) is given by:
+
+\[
+f_\alpha = \frac{(B)(2e)}{2\pi \times 4m_p} = \frac{f_p}{2} = 11.5 \, \text{MHz}
+\]
+
+\end{document}
+```
+
+This LaTeX code will format the given physics problem and solution with proper mathematical notation and units."
+13.3,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+We start with the equation for the force on a charged particle moving in a magnetic field:
+
+\begin{equation}
+qvB = Eq \implies v = \frac{E}{B}
+\end{equation}
+
+For the centripetal force acting on the particle, we have:
+
+\begin{equation}
+m \frac{v^2}{r} = qvB' \implies r = \frac{mv}{qB'}
+\end{equation}
+
+The separation between two radii \( r_2 \) and \( r_1 \) is given by:
+
+\begin{align}
+\text{Separation} &= 2r_2 - 2r_1 \\
+&= 2(r_2 - r_1) \\
+&= \frac{2E}{qBB'}(m_2 - m_1)
+\end{align}
+
+where we have used equations (1) and (2).
+
+\end{document}
+```
+
+This LaTeX code will properly format the physics equations and align them correctly in a document."
+13.4,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+To find the mass of the particle, we start with the equation for the centripetal force in a magnetic field:
+
+\[
+m v^2 = B e v r
+\]
+
+Solving for \( m \), we have:
+
+\[
+m = \frac{B e r}{v}
+\]
+
+Substituting the given values:
+
+\[
+m = \frac{0.2 \times 1.6 \times 10^{-19} \times 0.2}{2.5 \times 10^7}
+\]
+
+Calculating the above expression:
+
+\[
+m = 2.56 \times 10^{-28} \, \text{kg}
+\]
+
+To express this mass in terms of the electron mass \( m_e \):
+
+\[
+m = \frac{2.56 \times 10^{-28}}{9.1 \times 10^{-31}} = 281 \, m_e
+\]
+
+Hence, the particle is identified as a pion (\(\pi\)-meson).
+
+\end{document}
+```"
+13.5,"Certainly! Here is the given physics text converted into properly formatted LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The acceleration is given by:
+\begin{equation}
+a = \frac{qE}{m}
+\end{equation}
+
+The equation for vertical displacement is:
+\begin{equation}
+y = \frac{1}{2} a t^2
+\end{equation}
+
+The equation for horizontal displacement is:
+\begin{equation}
+x = vt
+\end{equation}
+
+Combining equations (1), (2), and (3), we get:
+\begin{equation}
+y = \frac{qE x^2}{2mv^2}
+\end{equation}
+which is the equation of a parabola.
+
+\end{document}
+```
+
+This LaTeX code will format the equations and text properly, ensuring clarity and readability in a physics context."
+13.6,"To convert the given physics text into properly formatted LaTeX, we need to ensure that all mathematical expressions are correctly typeset. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+The radius \( r \) is given by:
+
+\[
+r = \frac{\sqrt{2mK}}{qB} = \frac{\sqrt{2 \times 9.1 \times 10^{-31} \times 5 \times 10^{3} \times 1.6 \times 10^{-19}}}{1.6 \times 10^{-19} \times 10^{-2}}
+\]
+
+Calculating the above expression, we find:
+
+\[
+r = 0.0238 \, \text{m} = 2.38 \, \text{cm}
+\]
+
+\end{document}
+```
+
+This LaTeX code will properly format the physics expression, displaying the calculation of the radius \( r \) with all components clearly laid out."
+13.7,"To convert the given physics text into properly formatted LaTeX, we need to ensure that the equations are correctly structured and aligned. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Given the equation for the force on a charged particle in both electric and magnetic fields:
+
+\begin{equation}
+qE = qvB
+\end{equation}
+
+Solving for the magnetic field \( B \), we have:
+
+\begin{equation}
+B = \frac{E}{v} = \frac{1500}{3000} = 0.5 \, \text{T}
+\end{equation}
+
+\end{document}
+```
+
+This code will produce a neatly formatted document with the equations properly displayed. The `amsmath` package is used for better handling of mathematical expressions."
+13.8,"To convert the given physics text into properly formatted LaTeX, we will break it down into two parts: (a) and (b). Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Physics Problem Solution}
+
+\begin{enumerate}
+    \item[(a)] 
+    \begin{align*}
+        v &= \frac{rqB}{m} \\
+        &= \frac{1.9 \times 1.6 \times 10^{-19} \times 3 \times 10^{-5}}{9.1 \times 10^{-31}} \\
+        &= 1.07 \times 10^{7} \, \text{m/s}
+    \end{align*}
+
+    \item[(b)] 
+    \begin{align*}
+        t &= \frac{2\pi r}{v} \\
+        &= \frac{2\pi \times 1.9}{1.07 \times 10^{7}} \\
+        &= 1.19 \times 10^{-6} \, \text{s} \\
+        &= 1.19 \, \mu\text{s}
+    \end{align*}
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary packages for mathematical formatting and units, and it presents the solution in a clear and structured manner. The calculations are aligned for readability, and the units are formatted using `\text{}` for text mode within math environments."
+13.9,"To convert the given physics text into properly formatted LaTeX, we will structure the equations using the `equation` environment and ensure all mathematical symbols and expressions are correctly represented. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{equation}
+    B = \frac{2\pi mf}{q} = \frac{2\pi \times 2.0141 \times 1.66 \times 10^{-27} \times 5 \times 10^{6}}{1.6 \times 10^{-19}} = 0.656 \, \text{Wb/m}^2
+\end{equation}
+
+\begin{equation}
+    K = \frac{1}{2} \frac{q^2 r^2 B^2}{m} = \frac{1}{2} \times (1.6 \times 10^{-19})^2 \times (0.762)^2 \times (0.325)^2 \div (2.0141 \times 1.66 \times 10^{-27}) = 4.696 \times 10^{-13} \, \text{J} = 2.9 \, \text{MeV}
+\end{equation}
+
+\end{document}
+```
+
+This code uses the `equation` environment for each equation, ensuring that all mathematical operations and units are clearly presented. The `amsmath` package is included for enhanced mathematical formatting capabilities."
+13.10,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+For deuterons:
+\[
+B = 2\pi \, \text{fm}
+\]
+\[
+q = \frac{2\pi \times 11.5 \times 10^6 \times 2.014 \times 1.66 \times 10^{-27}}{1.6 \times 10^{-19}} = 1.509 \, \text{Wb/m}^2
+\]
+
+For protons:
+\[
+f = \frac{qB}{2\pi m} = \frac{1.6 \times 10^{-19} \times 1.509}{2\pi \times 1.66 \times 10^{-27}} = 2.316 \times 10^7 \, \text{c/s} = 23.16 \, \text{Mc/s}
+\]
+
+\end{document}
+```
+
+This LaTeX code will correctly format the physics equations and calculations as described in the text."
+13.11,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Physics Problem Solutions}
+
+\subsection*{(a) Calculation of Frequency}
+
+The frequency \( f \) is given by the formula:
+\[
+f = \frac{Bq}{2\pi m}
+\]
+
+Substituting the given values:
+\[
+f = \frac{1.5 \times 1.6 \times 10^{-19}}{2\pi \times 3.32 \times 10^{-27}}
+\]
+
+Calculating the result:
+\[
+f = 11.5 \times 10^{6} \, \text{c/s} = 11.5 \, \text{Mc/s}
+\]
+
+\subsection*{(b) Calculation of Kinetic Energy}
+
+The kinetic energy \( K \) is given by the formula:
+\[
+K = \frac{1}{2} \frac{q^2 r^2 B^2}{m}
+\]
+
+Substituting the given values:
+\[
+K = \frac{1}{2} \left(1.6 \times 10^{-19} \times 0.5 \times 1.5\right)^2 \times \frac{1}{3.32 \times 10^{-27}}
+\]
+
+Calculating the result:
+\[
+K = 21.69 \times 10^{-13} \, \text{J} = 13.56 \, \text{MeV}
+\]
+
+\end{document}
+```"
+13.12,"Certainly! Below is the properly formatted LaTeX code for the given physics expression:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The current \( i \) is calculated as follows:
+
+\[
+i = q \cdot t = \frac{1.6 \times 10^{-19}}{1.5 \times 10^{-16}} = 1.06 \times 10^{-3} \, \text{A}
+\]
+
+\end{document}
+```
+
+This code will display the equation with correct formatting when compiled with a LaTeX editor."
+13.13,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item[(i)] \textbf{Magnetic and Electric Forces:}
+    \begin{align*}
+        \text{Magnetic force, } F_M &= qvB \\
+        \text{Electric force, } F_E &= qE \\
+        \text{For no deflection, } F_M &= F_E \\
+        \therefore qvB &= qE \\
+        \therefore v &= \frac{E}{B} = \frac{80 \times 10^3}{0.4} = 2 \times 10^5 \, \text{m/s}
+    \end{align*}
+
+    \item[(ii)] \textbf{Centripetal Force and Charge-to-Mass Ratio:}
+    \begin{align*}
+        \frac{mv^2}{r} &= qvB \\
+        \therefore \frac{q}{m} &= \frac{v}{Br} = \frac{E}{B^2 r} \\
+        &= \frac{80 \times 10^3}{(0.4)^2 (1.14 \times 10^{-2})} \\
+        &= 4.38 \times 10^7 \, \text{C/kg}
+    \end{align*}
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code formats the physics problem and solution into a clear and structured document, using equations and proper mathematical notation."
+13.14,"To convert the given physics text into properly formatted LaTeX, we will structure the equations and ensure proper alignment and formatting. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a) Lorentz Force}
+The Lorentz force is given by:
+\begin{equation}
+    \mathbf{F} = q\mathbf{E} + q\mathbf{v} \times \mathbf{B}
+\end{equation}
+
+\subsection*{(b) Energy in Electric and Magnetic Fields}
+
+In the electric field, the energy acquired is:
+\begin{equation}
+    K = qV
+\end{equation}
+
+Thus, the momentum is:
+\begin{equation}
+    p = \sqrt{2mK} = \sqrt{2mqV}
+\end{equation}
+
+In the magnetic field, the momentum is given by:
+\begin{equation}
+    p = qBr
+\end{equation}
+
+Combining the expressions for momentum in the electric and magnetic fields, we have:
+\begin{equation}
+    r = \frac{\sqrt{2mV}}{qB^2}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX document includes the necessary packages for mathematical formatting and provides a clear structure for the physics problem and its solution. Each equation is properly formatted and labeled for clarity."
+13.15,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the isotopes $^{235}\text{U}$ and $^{238}\text{U}$ be called 1 and 2, respectively. In the magnetic field, the momenta are given by
+
+\begin{align*}
+    p_1 &= qBr_1, \\
+    p_2 &= qBr_2, \\
+    p_2 - p_1 &= qB(r_2 - r_1) = 1.6 \times 10^{-19} \times 0.2 \times 2 \times 10^{-3} \\
+    &= 6.4 \times 10^{-21} \, \text{kg m/s}. \tag{1}
+\end{align*}
+
+In the electric field
+
+\begin{equation}
+    qV = \frac{p_1^2}{2m_1} = \frac{p_2^2}{2m_2} \tag{2}
+\end{equation}
+
+Thus,
+
+\begin{align*}
+    p_2 &= p_1 \sqrt{\frac{m_2}{m_1}} = p_1 \sqrt{\frac{3.95 \times 10^{-25}}{3.90 \times 10^{-25}}} \\
+    &= 1.00639 \, p_1. \tag{3}
+\end{align*}
+
+Combining (1) and (3)
+
+\begin{equation}
+    p_1 = 1.00159 \times 10^{-19} \, \text{kg m/s}. \tag{4}
+\end{equation}
+
+Substituting (4) into (2)
+
+\begin{align*}
+    V &= \frac{(10^{-19})^2}{2 \times 1.6 \times 10^{-19} \times 3.90 \times 10^{-25}} \\
+    &= 8 \times 10^4 \, \text{V}
+\end{align*}
+
+\end{document}
+```
+"
+13.16,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a) Motion of a Charged Particle in a Magnetic Field}
+
+The force on a charged particle moving in a magnetic field is given by:
+
+\[
+\vec{F} = q \vec{v} \times \vec{B}
+\]
+
+If the magnetic field \(\vec{B}\) is perpendicular to the velocity \(\vec{v}\), then the particle will move in a circle. The centripetal force required for circular motion is provided by the magnetic force:
+
+\[
+\frac{mv^2}{r} = qvB
+\]
+
+Solving for the radius \(r\) of the circular path, we have:
+
+\[
+r = \frac{mv}{qB}
+\]
+
+\subsection*{(b) Electromagnetic Induction}
+
+The electromotive force (emf) \(\xi\) induced in a coil with \(N\) turns is given by Faraday's law of electromagnetic induction:
+
+\[
+\xi = -\frac{d}{dt}(N\Phi) = -\frac{d}{dt}(NBA)
+\]
+
+Assuming the magnetic field \(B\) changes with time as \(B(t) = B_0 \cos(15t)\), the emf becomes:
+
+\[
+\xi = -NA \frac{d}{dt}(B_0 \cos(15t))
+\]
+
+Differentiating with respect to time, we obtain:
+
+\[
+\xi = -NA \left(-15B_0 \sin(15t)\right)
+\]
+
+Thus, the induced emf is:
+
+\[
+\xi = 15NAB_0 \sin(15t)
+\]
+
+\end{document}
+```"
+13.17,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Solution}
+
+\subsection*{(a)}
+
+The electric field is given by:
+\[
+E = \frac{q}{4\pi \varepsilon_0 r}
+\]
+Solving for \( q \):
+\[
+q = 4\pi \varepsilon_0 r E
+\]
+Substituting the given values:
+\[
+q = 4\pi \times 8.85 \times 10^{-12} \, \text{F/m} \times 10^{-6} \, \text{m} \times 5.8 \times 10^{-3} \, \text{V/m}
+\]
+\[
+q = 6.447 \times 10^{-19} \, \text{C}
+\]
+
+The number of electrons \( n \) is given by:
+\[
+n = \frac{q}{e} = \frac{6.447 \times 10^{-19} \, \text{C}}{1.6 \times 10^{-19} \, \text{C/electron}} = 4.029
+\]
+Thus, the number of electrons is approximately 4.
+
+\subsection*{(b)}
+
+The minimum electric field \( E \) required to prevent the droplet from falling is determined by equating the electric force to the gravitational force:
+\[
+qE = mg
+\]
+Solving for \( E \):
+\[
+E = \frac{mg}{q}
+\]
+The mass \( m \) of the droplet is given by:
+\[
+m = \frac{4}{3} \pi r^3 \rho
+\]
+Substituting the values:
+\[
+E = \frac{\frac{4}{3} \pi (10^{-6} \, \text{m})^3 \times 1000 \, \text{kg/m}^3 \times 9.8 \, \text{m/s}^2}{6.447 \times 10^{-19} \, \text{C}}
+\]
+\[
+E = 6.37 \times 10^4 \, \text{V/m}
+\]
+
+\end{document}
+```"
+13.18,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+When a charged particle moves at an angle $\theta$ to the field direction, the particle will move in a helical path. The vector velocity $\mathbf{v}$ of the particle can be resolved into two components, one parallel to $\mathbf{B}$ and one perpendicular to it:
+\[
+v_{\parallel} = v \cos \theta \quad \text{and} \quad v_{\perp} = v \sin \theta
+\]
+
+The parallel component determines the pitch of the helix, that is, the distance between the adjacent turns. The perpendicular component determines the radius $r$ of the helix:
+
+\[
+v = \sqrt{\frac{2K}{m}} = \sqrt{\frac{2 \times 1 \times 1.6 \times 10^{-19}}{9.1 \times 10^{-31}}} = 5.93 \times 10^{5} \, \text{m/s}
+\]
+
+\[
+r = \frac{mv \sin \theta}{|q| B} = \frac{9.1 \times 10^{-31} \times 5.93 \times 10^{5} \times \sin 60^\circ}{1.6 \times 10^{-19} \times 10^{-3}} = 2.92 \times 10^{-3} \, \text{m} = 2.92 \, \text{mm}
+\]
+
+Time period $T$:
+\[
+T = \frac{2\pi m}{|q| B} = \frac{2\pi \times 9.1 \times 10^{-31}}{1.6 \times 10^{-19} \times 10^{-3}} = 3.57 \times 10^{-8} \, \text{s}
+\]
+
+Pitch:
+\[
+\text{Pitch} = (v \cos \theta) T = 5.93 \times 10^{5} \times \cos 60^\circ \times 3.57 \times 10^{-8} = 0.1 \, \text{m}
+\]
+
+\end{document}
+```
+
+This LaTeX code formats the physics problem and solution with proper mathematical notation, ensuring clarity and precision in the representation of the equations and calculations."
+13.19,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Problem: Motion of an Electron in Electric and Magnetic Fields}
+
+(i) Choose the origin at \( O \), as shown in Fig. 13.21. The electric field \(\mathbf{E}\) acts along the \( y \)-direction, perpendicular to the plates which are located in the \( x \)-direction. The electric force on the electron is directed along the \( y \)-axis and the magnetic force along the \( z \)-axis. If the component of initial velocity in the direction of \(\mathbf{B}\) is zero, then the path of the electron will be contained entirely in the \( xy \)-plane.
+
+\begin{figure}[h]
+    \centering
+    % Include your figure here
+    \caption{Generating a cycloid}
+\end{figure}
+
+The Lorentz force is given by:
+\[
+\mathbf{F} = q\mathbf{E} + q\mathbf{v} \times \mathbf{B}
+\]
+
+In component form:
+\begin{align}
+    F_y &= m \frac{dv_y}{dt} = qE - qBv_x \label{eq:1} \\
+    F_x &= m \frac{dv_x}{dt} = qBv_y \label{eq:2}
+\end{align}
+
+For convenience, define:
+\[
+\omega = \frac{qB}{m}, \quad \gamma = \frac{E}{B}
+\]
+
+Equations \eqref{eq:1} and \eqref{eq:2} can be rewritten as:
+\begin{align}
+    \frac{dv_y}{dt} &= \omega \gamma - \omega v_x \label{eq:4} \\
+    \frac{dv_x}{dt} &= \omega v_y \label{eq:5}
+\end{align}
+
+Differentiating \eqref{eq:4} and using \eqref{eq:5}:
+\[
+\frac{d^2v_y}{dt^2} = -\omega \frac{dv_x}{dt} = -\omega^2 v_y
+\]
+or
+\[
+\frac{d^2v_y}{dt^2} + \omega^2 v_y = 0 \tag{6}
+\]
+
+With the initial conditions \( v_x = v_y = 0 \) at \( t = 0 \), equation (6) has the solution:
+\[
+v_y = A \sin \omega t \tag{7}
+\]
+where \( A = \text{constant} \).
+
+Thus,
+\[
+\frac{dv_y}{dt} = A \omega \cos \omega t = \omega \gamma - \omega v_x
+\]
+
+At \( t = 0 \), \( v_x = 0 \), hence:
+\[
+A \omega = \omega \gamma \Rightarrow A = \gamma
+\]
+
+Thus,
+\[
+v_y = \gamma \sin \omega t \tag{8}
+\]
+
+Substituting \eqref{eq:8} into \eqref{eq:5}, integrating and using the initial condition \( v_x = 0 \) at \( t = 0 \):
+\[
+v_x = \gamma (1 - \cos \omega t) \tag{9}
+\]
+
+(ii) The coordinates \( x \) and \( y \) at any time \( t \) can be found by integrating separately \eqref{eq:8} and \eqref{eq:9} with the initial condition \( x = y = 0 \) at \( t = 0 \):
+\begin{align}
+    y &= \frac{\gamma}{\omega} (1 - \cos \omega t) \tag{10} \\
+    x &= \gamma \left( t - \frac{\sin \omega t}{\omega} \right) \tag{11}
+\end{align}
+
+Using \eqref{eq:9} and \eqref{eq:10}, we get:
+\[
+v_x = \omega y \tag{12}
+\]
+
+(iii) The energy of the particle is unaffected in the static magnetic field. Under the electric field in the \( y \)-direction, the energy picked up will be:
+\[
+qV_y = \frac{1}{2} m v^2 = \frac{1}{2} m (v_x^2 + v_y^2)
+\]
+or
+\[
+v_y^2 = \frac{2qV_y}{m} - \omega^2 y^2 \"
+13.20,"It seems like the input text is incomplete. However, I can provide you with a general template for formatting physics problems and solutions in LaTeX. If you have specific content or equations you'd like to format, please provide them, and I'll be happy to assist further.
+
+Here's a basic template for a physics problem and solution in LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem}
+
+\textbf{Problem:} Referring to Fig. \ref{fig:example}, calculate the force exerted on the object.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{example-image} % Replace with your image file
+    \caption{Example figure caption.}
+    \label{fig:example}
+\end{figure}
+
+\section*{Solution}
+
+To solve this problem, we use Newton's second law of motion, which states:
+
+\begin{equation}
+    F = ma
+\end{equation}
+
+where \( F \) is the force, \( m \) is the mass of the object, and \( a \) is the acceleration.
+
+Assuming the mass of the object is \( m = 5 \, \text{kg} \) and the acceleration is \( a = 2 \, \text{m/s}^2 \), we can substitute these values into the equation:
+
+\begin{equation}
+    F = 5 \, \text{kg} \times 2 \, \text{m/s}^2 = 10 \, \text{N}
+\end{equation}
+
+Thus, the force exerted on the object is \( 10 \, \text{N} \).
+
+\end{document}
+```
+
+This template includes a section for the problem statement, a figure, and a solution using a basic physics equation. Replace the placeholder text and image with your specific content. If you have more details or specific equations, please let me know!"
+13.21,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+Setting $\theta = \omega t$ and $R = \frac{\gamma}{\omega}$, and from equations (10) and (11) of problem (13.19), we get the parametric equations of the cycloid:
+
+\begin{align}
+    y &= R(1 - \cos \theta) \label{eq:cycloid_y} \\
+    x &= R(\theta - \sin \theta) \label{eq:cycloid_x}
+\end{align}
+
+These equations define the path generated by a point on the circumference of a circle which rolls along the x-axis. The maximum displacement of the electron along the y-axis is equal to the diameter of the rolling circle, that is, $2R$. Identifying $2R = d$, we have:
+
+\begin{equation}
+    d^2 = R = \frac{\gamma}{\omega} = \frac{E}{B} = \frac{E m}{e B^2} \label{eq:displacement}
+\end{equation}
+
+where we have set $q = e$, for the electron charge. Also, $E = \frac{V}{d}$.
+
+Using equation \eqref{eq:displacement}:
+
+\begin{equation}
+    d^2 = \frac{2mV}{eB^2} \label{eq:condition}
+\end{equation}
+
+Thus, the condition that the electrons are able to arrive at the positive plate is:
+
+\begin{equation}
+    d^2 < \frac{2mV}{eB^2}
+\end{equation}
+
+For problem 13.21, using $B = \frac{\mu_0 i}{2\pi r}$, we find:
+
+\begin{align*}
+    i &= \frac{2\pi Br}{\mu_0} \\
+      &= \frac{2\pi \times 10^{-6} \times 0.4}{4\pi \times 10^{-7}} \\
+      &= 2\, \text{A}
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code formats the given physics text into a structured document with equations properly aligned and labeled."
+13.22,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Magnetic Field Due to a Current Element}
+
+\subsection*{(a) Magnetic Field from a Finite Wire}
+
+Consider a typical current element \( dx \). The magnitude of the contribution \( dB \) of this element to the magnetic field at point \( P \) is found from the Biot–Savart law and is given by
+
+\begin{equation}
+    dB = \frac{\mu_0 i \, dx \sin \theta}{4 \pi R^2}
+\end{equation}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig13_22.pdf}
+    \caption{Magnetic induction due to a current-carrying wire of finite length.}
+    \label{fig:magnetic_induction}
+\end{figure}
+
+Since the direction of the contribution \( dB \) at point \( P \) for all such elements is identical, i.e., at right angles to the plane of the paper, the resultant field is obtained by integrating \( dB \) from \( A \) to \( D \) in (1). Writing \( \sin \theta = \frac{r}{R} \), we have
+
+\begin{align}
+    B &= \int dB = \frac{\mu_0 i r}{4 \pi} \int_{-a}^{b} \frac{dx}{(x^2 + r^2)^{3/2}} \\
+    &= \frac{\mu_0 i r}{4 \pi r^2} \left[ \frac{x}{(x^2 + r^2)^{1/2}} \right]_{-a}^{b} \\
+    \therefore B &= \frac{\mu_0 i}{4 \pi r} (\cos \theta_1 + \cos \theta_2)
+\end{align}
+
+\subsection*{(b) Magnetic Field from an Infinite Wire}
+
+For an infinite wire, \( \theta_1 \to 0 \) and \( \theta_2 \to 0 \). In this limit, equation (2) becomes
+
+\begin{equation}
+    B = \frac{\mu_0 i}{2 \pi r}
+\end{equation}
+
+which is the expression for the magnetic field due to a long wire.
+
+\end{document}
+```
+
+This LaTeX code includes the necessary equations and explanations, formatted correctly with proper alignment and mathematical notation. The figure is included as a placeholder, assuming the image file `fig13_22.pdf` is available in the same directory."
+13.23,"Certainly! Below is the properly formatted LaTeX code for the given physics problem and solution:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The magnetic field \( B \) is given by the formula:
+\[
+B = \frac{\mu_0 i}{2r}
+\]
+
+Solving for the current \( i \), we have:
+\[
+i = \frac{2Br}{\mu_0}
+\]
+
+Substituting the given values:
+\[
+i = \frac{2 \times 10^{-5} \times 0.5}{4\pi \times 10^{-7}}
+\]
+
+Calculating the above expression, we find:
+\[
+i = 7.96 \, \text{A}
+\]
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and solution neatly, using equations and proper mathematical notation."
+13.24,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Magnetic Field Due to a Square Conducting Loop}
+
+The magnetic field $B_1$ due to a current $i$ in one segment of a square loop is given by (see Fig. 13.23):
+
+\begin{equation}
+B_1 = \frac{\mu_0 i}{4 \pi R} (\cos \theta_1 + \cos \theta_2)
+\end{equation}
+
+By setting $\theta_1 = \theta_2 = 45^\circ$ and $R = \frac{a}{2}$, we have:
+
+\begin{equation}
+B_1 = \frac{\mu_0 i \sqrt{2}}{\pi a}
+\end{equation}
+
+The fields due to the four sides of the square are equal and additive. Therefore, the net field $B$ at the center of the square is:
+
+\begin{equation}
+B = 4B_1 = \frac{2\sqrt{2} \mu_0 i}{\pi a}
+\end{equation}
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{fig13_23.png} % Placeholder for Fig. 13.23
+\end{center}
+
+\textbf{Fig. 13.23:} Magnetic induction at the center of a square conducting loop.
+
+\end{document}
+```
+
+Note: Ensure to replace `fig13_23.png` with the actual path to the image file for Fig. 13.23 if you have it, or remove the `\includegraphics` line if the image is not available."
+13.25,"To properly format the given physics text into LaTeX, we need to clearly define the magnetic fields, currents, and the resulting net magnetic field. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The magnetic fields in the upper branch and lower branch act in opposite directions. The current in the upper branch is $\frac{4I}{5}$ and in the lower branch is $\frac{I}{5}$. As the current is flowing through semicircles, the magnetic fields are given by:
+
+\[
+B_1 = \frac{\mu_0}{4a} \left(\frac{4I}{5}\right) = \frac{\mu_0 I}{5a}
+\]
+
+\[
+B_2 = \frac{\mu_0}{4a} \left(\frac{I}{5}\right) = \frac{\mu_0 I}{20a}
+\]
+
+The net magnetic field is:
+
+\[
+B = B_1 - B_2 = \frac{3\mu_0 I}{20a}
+\]
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the equations formatted correctly, showing the calculation of the magnetic fields in the upper and lower branches and the resulting net magnetic field."
+13.26,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+The magnetic field at the center due to three-fourths of the circle and the straight segment is given by:
+
+\begin{equation}
+    B_1 = \frac{3}{4} \times \frac{\mu_0 i}{2R}
+\end{equation}
+
+\begin{equation}
+    B_2 = \frac{\mu_0 i}{4\pi d} (\cos \theta_1 + \cos \theta_2)
+\end{equation}
+
+From the geometry of Fig. 13.24, we have:
+\[
+\theta_1 = \theta_2 = 45^\circ \quad \text{and} \quad d = \frac{R}{\sqrt{2}}
+\]
+
+Thus, the total magnetic field \( B \) at the center is:
+
+\begin{equation}
+    B = B_1 + B_2 = \frac{\mu_0 i}{2\pi R} \left( 1 + \frac{3\pi}{4} \right)
+\end{equation}
+
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{Fig13_24.png}
+\end{center}
+
+\textbf{Fig. 13.24:} Magnetic induction at the center of a current-carrying wire made of three-fourths of a circle and a chord.
+
+\end{document}
+```
+
+This LaTeX code includes the equations for the magnetic field contributions \( B_1 \) and \( B_2 \), as well as the total magnetic field \( B \). It also references a figure (Fig. 13.24) which should be included as an image file named `Fig13_24.png`. Make sure to replace the image file name with the correct one if it differs."
+13.27,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\begin{document}
+
+\section*{Magnetic Induction Due to Current-Carrying Wires}
+
+\subsection*{(a) Magnetic Induction from Straight Wires}
+
+The magnetic induction due to straight wires is given by:
+
+\begin{equation}
+B_1 = \frac{\mu_0 i}{4 \pi R} + \frac{\mu_0 i}{4 \pi R} = \frac{\mu_0 i}{2 \pi R}
+\end{equation}
+
+because the straight wires are of infinite length only on the left side. The induction at point \( O \) due to the semicircular portion is:
+
+\begin{equation}
+B_2 = \frac{\mu_0 i}{4 R}
+\end{equation}
+
+The total magnetic induction \( B \) is the sum of \( B_1 \) and \( B_2 \):
+
+\begin{equation}
+B = B_1 + B_2 = \frac{\mu_0 i}{2 \pi R} + \frac{\mu_0 i}{4 R} = \frac{\mu_0 i}{4 \pi R}(2 + \pi)
+\end{equation}
+
+\subsection*{(b) Contribution from the Straight Portions}
+
+The straight portions of the wire do not contribute to the field at \( O \) as the current is directed towards \( C \) and makes an angle \( \theta = 0^\circ \), for which the Biot–Savart formula gives \( B = 0 \). Thus, the entire induction comes from the semicircular portion of the wire, for which:
+
+\begin{equation}
+B = \frac{\mu_0 i}{4 R}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX document is structured to clearly present the physics problem and solution with properly formatted equations."
+13.28,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Magnetic Induction at the Centre of a Current-Carrying Regular $n$-Sided Polygon}
+
+\subsection*{(a) Magnetic Induction for a Regular $n$-Sided Polygon}
+
+Let the angle $\theta$ be subtended at the center by one side $AC$ of a regular $n$-sided polygon, as shown in Fig. 13.25. Then,
+
+\[
+\theta = \frac{2\pi}{n} \quad \text{or} \quad \frac{\theta}{2} = \frac{\pi}{n} \tag{1}
+\]
+
+The magnetic induction due to one side $AC$ at the center $O$ is given by
+
+\[
+B_1 = \frac{\mu_0 i}{4\pi r} (\cos \alpha + \cos \alpha) = \frac{\mu_0 i \cos \alpha}{2\pi r} \tag{2}
+\]
+
+where $r$ is the distance of $O$ from $AC$. The field $B$ due to $n$ sides will be additive and is given by
+
+\[
+B = n B_1 = \frac{\mu_0 n i \cos \alpha}{2\pi r} \tag{3}
+\]
+
+Now, $r = a \sin \alpha$, so that in (3)
+
+\[
+\frac{\cos \alpha}{r} = \frac{\cos \alpha}{a \sin \alpha} = \frac{1}{a} \cot \alpha = \frac{1}{a} \tan \left( \frac{\theta}{2} \right) = \frac{1}{a} \tan \left( \frac{\pi}{n} \right) \tag{4}
+\]
+
+where we have used (1). Using (4) in (3),
+
+\[
+B = \frac{\mu_0 n i}{2\pi a \tan \left( \frac{\pi}{n} \right)} \tag{5}
+\]
+
+\subsection*{(b) Limit as $n \to \infty$}
+
+In the limit $n \to \infty$, $\tan \left( \frac{\pi}{n} \right) \to \frac{\pi}{n}$ and (5) becomes
+
+\[
+B = \frac{\mu_0 i}{2a}
+\]
+
+an expression which is identical for $B$ for a circular loop. This is reasonable since as $n \to \infty$, the polygon approaches a circle.
+
+\end{document}
+```"
+13.29,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+For a square, the perimeter is given by \( l = 4a \), and for a circle, the circumference is \( l = 2\pi r \). Therefore, we have the relation:
+\[
+\frac{a}{r} = \frac{\pi}{2}
+\]
+
+At the center of the circle, the magnetic field \( B_c \) is given by:
+\[
+B_c = \frac{\mu_0 i}{2r}
+\]
+
+At the center of the square, the magnetic field \( B_s \) is given by:
+\[
+B_s = \frac{2\sqrt{2} \mu_0 i}{\pi a} \quad \text{(via problem 13.24)}
+\]
+
+Thus, the ratio of the magnetic fields is:
+\[
+\frac{B_c}{B_s} = \frac{\pi}{4\sqrt{2}} \cdot \frac{a}{r} = \frac{\pi^2}{8\sqrt{2}} \approx 0.87
+\]
+
+\end{document}
+```
+
+This LaTeX code will format the given physics problem and solution with correct mathematical notation and alignment."
+13.30,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Magnetic Induction at the Centre of a Circular Wire}
+
+\begin{enumerate}
+    \item[(a)] The magnetic induction $B$ at the centre of a circular wire is given by:
+    \[
+    B = \frac{\mu_0 i}{2r}
+    \]
+    Hence, for the arc which subtends an angle $\theta$ at the centre, the magnetic induction is:
+    \[
+    B = \frac{\mu_0 i}{2r} \cdot \frac{\theta}{2\pi} = \frac{\mu_0 i \theta}{4\pi r}
+    \]
+    The induction at point $C$ due to the inner arc is:
+    \[
+    B_1 = \frac{\mu_0 i \theta}{4\pi R_1}
+    \]
+    and due to the outer arc:
+    \[
+    B_2 = -\frac{\mu_0 i \theta}{4\pi R_2}
+    \]
+    The negative sign arises due to the fact that the current has reversed. As the radial part of the path points towards $C$, it does not contribute to $B$. Therefore, the resultant induction is:
+    \[
+    B = B_1 + B_2 = \frac{\mu_0 i \theta}{4\pi} \left( \frac{1}{R_1} - \frac{1}{R_2} \right)
+    \]
+    Note that for clockwise current, we take $B$ as positive, and for counter-clockwise, we take $B$ as negative.
+
+    \item[(b)] Put $\theta = \pi$ to obtain:
+    \[
+    B = \frac{\mu_0 i}{4} \left( \frac{1}{R_1} - \frac{1}{R_2} \right)
+    \]
+\end{enumerate}
+
+\end{document}
+```"
+13.31,"To properly format the given physics text into LaTeX, we need to ensure that the equations are clearly presented and aligned. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The total magnetic induction is given by adding the magnetic field \( B_s \) due to the straight conductor, which contributes on both sides of point \( P \), and \( B_c \) due to the circular path, both being directed out of the page (see Fig. 13.9).
+
+The magnetic field due to the straight conductor is given by:
+\[
+B_s = \frac{\mu_0 i}{2 \pi R}
+\]
+
+The magnetic field due to the circular path is:
+\[
+B_c = \frac{\mu_0 i}{2 R}
+\]
+
+Thus, the total magnetic induction \( B \) is:
+\[
+B = B_s + B_c = \frac{\mu_0 i}{2 \pi R} + \frac{\mu_0 i}{2 R} = \frac{\mu_0 i}{2 \pi R}(\pi + 1)
+\]
+
+\end{document}
+```
+
+This LaTeX code uses the `amsmath` package to ensure proper formatting of mathematical expressions. The equations are displayed using the `equation` environment, which centers them and numbers them automatically. The text is structured to provide a clear explanation of each component of the magnetic induction."
+13.32,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Biot–Savart Law and Magnetic Induction}
+
+The Biot–Savart law is given by:
+
+\begin{equation}
+    d\mathbf{B} = \frac{\mu_0 i}{4\pi} \frac{d\mathbf{s} \times \mathbf{r}}{r^3}
+\end{equation}
+
+The magnetic induction \( d\mathbf{B} \) at point \( P \) on the \( z \)-axis due to an element of length \( dl \) of the ring is shown in Fig. 13.26. Resolving \( d\mathbf{B} \) along the \( z \)-axis and perpendicular to it, and summing over all such elements, it is seen that the perpendicular components vanish for reasons of symmetry, and the parallel components get added up. Writing \( dl \) for \( d\mathbf{s} \) and noting that the angle between \( \mathbf{R} \) and \( dl \) is \( 90^\circ \), equation (1) can be written as:
+
+\begin{equation}
+    dB_z = (dB) \cos \alpha = \frac{\mu_0 i r dl \cos \alpha}{4\pi r^3}
+\end{equation}
+
+Writing \( dl = R d\phi \), where \( \phi \) is the azimuth angle and \( r \cos \alpha = R \), equation (2) becomes:
+
+\begin{equation}
+    dB_z = \frac{\mu_0 i R^2 d\phi}{4\pi r^3}
+\end{equation}
+
+Integrating, we find:
+
+\begin{equation}
+    B_z = B = \int dB_z = \frac{\mu_0 i R^2}{4\pi r^3} \int_0^{2\pi} d\phi = \frac{\mu_0 i R^2}{2(R^2 + z^2)^{3/2}}
+\end{equation}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig13_26.png}
+    \caption{Magnetic induction on the axis of a current-carrying ring}
+    \label{fig:magnetic_induction}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX document includes the equations and explanations formatted correctly, with a placeholder for the figure (Fig. 13.26) which you would need to replace with the actual image file."
+13.33,"To convert the given text into properly formatted LaTeX, we need to ensure that the equation is clear and correctly structured. Here is the LaTeX code for the provided equation:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+The magnetic field \( B \) inside a solenoid is given by the formula:
+
+\[
+B = \frac{\mu_0 N i}{l}
+\]
+
+Substituting the given values:
+
+\[
+B = \frac{4\pi \times 10^{-7} \, \text{T}\cdot\text{m/A} \times 500 \times 5 \, \text{A}}{1.0 \, \text{m}}
+\]
+
+Simplifying, we find:
+
+\[
+B = 3.14 \times 10^{-3} \, \text{T}
+\]
+
+\end{document}
+```
+
+This LaTeX code will produce a well-formatted document with the equation and the substitution of values clearly displayed."
+13.34,"Certainly! The expression you've provided seems to be related to the magnetic field due to a current-carrying wire. Here is the properly formatted LaTeX code for the given expression:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+The magnetic field \( B \) is given by:
+
+\[
+B = \frac{\mu_0 I}{2\pi} \left( \frac{1}{x} + \frac{1}{d-x} \right)
+\]
+
+where:
+\begin{itemize}
+    \item \( \mu_0 \) is the permeability of free space,
+    \item \( I \) is the current,
+    \item \( x \) is the distance from one end,
+    \item \( d \) is the total length.
+\end{itemize}
+
+\end{document}
+```
+
+This code will render the expression with proper fractions and alignment, and it also includes a brief description of the variables involved. Adjust the document preamble and packages as needed for your specific document setup."
+13.35,"To properly format the given physics text using LaTeX, we can write the equations and explanations as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Apply Ampère's Law inside the hollow cylindrical conductor:
+
+\begin{equation}
+    B \cdot (2\pi r) = \mu_0 i \frac{\pi (r^2 - a^2)}{\pi (b^2 - a^2)}
+\end{equation}
+
+where the right-hand side includes only the fraction of the current that passes through the surface enclosed by the path of integration.
+
+Solving for \( B \), we have:
+
+\begin{equation}
+    B = \frac{\mu_0 i}{2\pi r} \frac{(r^2 - a^2)}{(b^2 - a^2)}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the equations properly formatted, using Ampère's Law to solve for the magnetic field \( B \) inside the hollow cylindrical conductor. The equations are numbered for reference, and the fractions are displayed clearly."
+13.36,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The magnetic field at point \( P \), due to loop \( A \), is given by:
+\begin{equation}
+    B_A = \frac{\mu_0 I N R^2}{2(R^2 + x^2)^{3/2}}
+\end{equation}
+where \( x = AP = \frac{R}{2} \).
+
+Similarly, the magnetic field \( B_C \) due to the second loop is given by an identical expression with \( x = CP = \frac{R}{2} \). As the currents are in opposite directions, these two fields are added:
+
+\[
+\therefore B = B_A + B_C = \frac{\mu_0 I N R^2}{(R^2 + x^2)^{3/2}}
+\]
+
+Substitute \( x = \frac{R}{2} \) to find:
+\begin{equation}
+    B = \frac{8N\mu_0 I}{5^{3/2} R}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code properly formats the physics problem and solution, using equations and mathematical notation to clearly present the information."
+13.37,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Consider a ring of radius $r$, width $dr$, concentric with the disc. The charge on the ring, as shown in Fig. 13.27, is given by
+
+\begin{equation}
+    dq = \frac{q \cdot 2\pi r \, dr}{\pi R^2} = \frac{2q r \, dr}{R^2}
+\end{equation}
+
+The elementary current due to the rotation of charge with frequency $f$ is
+
+\begin{equation}
+    di = f \, dq = \frac{\omega}{2\pi} \cdot \frac{2q r \, dr}{R^2} = \frac{\omega q r \, dr}{\pi R^2}
+\end{equation}
+
+The magnetic induction at the center due to the current in the ring is
+
+\begin{equation}
+    dB = \frac{\mu_0 \, di}{2r} = \frac{\mu_0}{2r} \cdot \frac{\omega q r \, dr}{\pi R^2} = \frac{\mu_0 \omega q \, dr}{2\pi R^2}
+\end{equation}
+
+The total induction from the rotating disc is
+
+\begin{equation}
+    B = \int dB = \int_0^R \frac{\mu_0 \omega q \, dr}{2\pi R^2} = \frac{\mu_0 \omega q}{2\pi R}
+\end{equation}
+
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{Fig13_27.png}
+    \captionof{figure}{Magnetic induction at the centre of a charged rotating disc}
+\end{center}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary equations and a placeholder for the figure, assuming the image file is named `Fig13_27.png`. Adjust the image path and size as needed."
+13.38,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The field at any point $P_1$ at distance $x$ from $P$, the midpoint, is given by:
+
+\begin{equation}
+B = \frac{\mu_0 i N R^2}{2} \left\{ 
+\frac{1}{\left[ R^2 + \left(\frac{1}{2}R + x\right)^2 \right]^{3/2}} + 
+\frac{1}{\left[ R^2 + \left(\frac{1}{2}R - x\right)^2 \right]^{3/2}} 
+\right\}
+\end{equation}
+
+by prob. (13.36). Differentiate $B$ with respect to $x$ and evaluate $\left(\frac{\partial B}{\partial x}\right)_{x=0}$ to find the first derivative zero. Differentiate $B$ once again to find $\left(\frac{\partial^2 B}{\partial x^2}\right)_{x=0} = 0$. Thus, the field around $P$ is seen to be fairly uniform.
+
+\end{document}
+```
+
+This LaTeX code will correctly format the physics problem and solution, ensuring that the equations and derivatives are properly displayed."
+13.39,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Magnetic Field Calculations}
+
+\begin{enumerate}
+    \item For \( r > R \):
+    \begin{align}
+        B &= \frac{\mu_0 i}{2 \pi r} \tag{1} \\
+        &= \frac{4\pi \times 10^{-7} \times 100}{2\pi \times 1.0} \\
+        &= 2 \times 10^{-5} \, \text{T}
+    \end{align}
+
+    \item For \( r < R \):
+    \begin{align}
+        B &= \frac{\mu_0 i r}{2 \pi R^2} \tag{2} \\
+        &= \frac{4\pi \times 10^{-7} \times 100 \times 6 \times 10^{-3}}{2\pi \times (3 \times 10^{-2})^2} \\
+        &= 1.33 \times 10^{-6} \, \text{T}
+    \end{align}
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code formats the given physics equations and calculations neatly, using proper mathematical notation and alignment."
+13.40,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Magnetic Induction Due to a Current-Carrying Cylinder}
+
+\subsection*{(a) Outside the Cylinder ($r > R$)}
+
+According to Ampere's Law:
+
+\[
+\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 i
+\]
+
+For a circular path of radius $r$ enclosing the current $i$, the magnetic induction $\mathbf{B}$ is tangential to the circle, and the line integral simplifies to the circumference of the circle:
+
+\[
+B \oint d\mathbf{l} = B \cdot 2\pi r = \mu_0 i
+\]
+
+Thus, we have:
+
+\[
+B = \frac{\mu_0 i}{2\pi r} \quad (r > R)
+\]
+
+\subsection*{(b) Inside the Cylinder ($r < R$)}
+
+Consider a circular path $C$ at distance $r < R$. The current $i_0$ inside a cross-section of radius $r$ is proportional to the cross-sectional area:
+
+\[
+i_0 = i \frac{\pi r^2}{\pi R^2} = i \frac{r^2}{R^2}
+\]
+
+By Ampere's Law:
+
+\[
+\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 i_0 = \mu_0 i \frac{r^2}{R^2}
+\]
+
+Therefore:
+
+\[
+B \cdot 2\pi r = \mu_0 i \frac{r^2}{R^2}
+\]
+
+Solving for $B$, we get:
+
+\[
+B = \frac{\mu_0 i r}{2\pi R^2} \quad (r < R)
+\]
+
+\end{document}
+```
+
+This LaTeX document includes properly formatted equations and explanations for the magnetic induction due to a current-carrying cylinder, both inside and outside the cylinder. The equations are aligned and typeset using standard LaTeX conventions for clarity and readability."
+13.41,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+Let the radius of the inner arc of the loop be \( r \) and that of the outer arc be \( 2r \). Both the arcs are a quarter of a circle. The straight portions do not contribute to \( B \) as their directions pass through point \( P \). As the currents in the two arcs flow in the opposite sense, the magnetic field \( B \) will be directed downwards due to the current in the outer arc and upwards due to the current in the inner arc:
+
+\[
+\therefore B_{\text{net}} = \frac{1}{4} \frac{\mu_0 I}{2r} - \frac{1}{4} \frac{\mu_0 I}{2 \times 2r} = \frac{\mu_0 I}{16r} \text{ down}
+\]
+
+\end{document}
+```
+
+This LaTeX code will correctly format the physics problem and solution, ensuring clarity and proper mathematical representation."
+13.42,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+By problem (13.22) at point \( P \), as shown in Fig. 13.29, the magnetic field \( B \) is given by:
+\[
+B = \frac{\mu_0 I}{4\pi x} (\cos \theta_1 + \cos \theta_2)
+\]
+(1)
+
+If we set \(\theta_1 = \theta_2\), then \(\cos \theta_1 = \cos \theta_2 = \frac{L/2}{\sqrt{(L/2)^2 + x^2}}\). Substituting this into equation (1), we get:
+\[
+B = \frac{\mu_0 I}{4\pi x} \frac{L}{\sqrt{(L/2)^2 + x^2}}
+\]
+(2)
+
+(a) Let the square have a side length \( a = \frac{l}{4} \). The distance from the center of the square to a side is \( \frac{a}{2} \). Set \( x = \frac{a}{2} \) and \( L = a = \frac{l}{4} \) in equation (2) to find the magnetic field for one side:
+\[
+B_1 = \frac{2\sqrt{2} \mu_0 I}{\pi l}
+\]
+Since there are four equal sides, the total magnetic field is:
+\[
+B = 4B_1 = \frac{8\sqrt{2} \mu_0 I}{\pi l}
+\]
+The \( B \)-field will be perpendicular to the plane containing the wire and the field point.
+
+(b) Let each side of the equilateral triangle be \( a = \frac{l}{3} \). The distance from the center of the triangle to any side is \( x = \frac{a}{2\sqrt{3}} \). Set \( L = a = \frac{l}{3} \) and \( x = \frac{a}{2\sqrt{3}} \) in equation (1) to find the magnetic field for one side:
+\[
+B_1 = \frac{9\mu_0 I}{2\pi l}
+\]
+Hence, for three sides:
+\[
+B = 3B_1 = \frac{27\mu_0 I}{2\pi l}
+\]
+
+Therefore, the ratio of the magnetic fields is:
+\[
+\frac{B(\text{square})}{B(\text{triangle})} = \frac{\frac{27}{2}}{8\sqrt{2}} \approx 1.19
+\]
+
+\end{document}
+```
+
+This LaTeX code provides a clear and structured presentation of the physics problem and solution, with all equations properly formatted and aligned."
+13.43,"To convert the given physics text into properly formatted LaTeX, we need to ensure that all mathematical expressions are correctly typeset. Here's how you can format the given problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+By problem (13.36), the magnetic field \( B \) is given by:
+
+\[
+B = 8N \mu_0 I \frac{5^{3/2}}{R}
+\]
+
+Substituting the given values:
+
+\[
+B = (8)(100)(4\pi \times 10^{-7})(2) \frac{5^{3/2}}{0.2} \approx 9 \times 10^{-4} \, \text{T}
+\]
+
+\end{document}
+```
+
+This LaTeX code will correctly format the physics equation and the substitution of values into a clear and readable format. The use of `\mu_0` ensures that the permeability of free space is correctly typeset, and the `\approx` symbol is used for approximation."
+13.44,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+Ampere's Law is given by:
+\begin{equation}
+    \oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 I
+\end{equation}
+
+According to problem (13.43), the magnetic field inside a wire of radius \( R \) carrying a current \( I \) is:
+\begin{equation}
+    B = \frac{\mu_0 I r}{2 \pi R^2} \quad (r < R) \tag{1}
+\end{equation}
+
+Thus, for \( r = \frac{R}{2} \), the magnetic field is:
+\begin{equation}
+    B = \frac{\mu_0 I}{4 \pi R} \tag{2}
+\end{equation}
+
+For \( r > R \), the magnetic field is given by:
+\begin{equation}
+    B = \frac{\mu_0 I}{2 \pi r} \tag{3}
+\end{equation}
+
+Equating equations (2) and (3), we find:
+\begin{equation}
+    r = 2R
+\end{equation}
+
+Thus, at \( r = 2R \), the magnetic field is the same as at \( r = \frac{R}{2} \).
+
+\end{document}
+```
+
+This LaTeX code provides a clear and structured presentation of the problem and solution, using appropriate mathematical notation and alignment."
+13.45,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a)}
+
+In the absence of magnetic material, the number of flux linkages $N\phi_B$ (where $N$ is the number of turns) is proportional to the current:
+\begin{equation}
+    N\phi_B = Li
+\end{equation}
+
+If $n$ is the number of turns per unit length, $A$ the cross-sectional area, and $l$ the length of the solenoid, and $B$ the magnetic induction, then:
+\begin{equation}
+    N\phi_B = (nl)(BA)
+\end{equation}
+
+By Ampere’s theorem:
+\begin{equation}
+    B = \mu_0 ni
+\end{equation}
+
+Combining equations (1), (2), and (3), we find:
+\begin{equation}
+    L = \mu_0 n^2 A l
+\end{equation}
+
+\subsection*{(b)}
+
+\begin{align}
+    B &= \mu_0 ni = \frac{\mu_0 Ni}{l} \\
+    U_B &= u_B A l = \frac{B^2}{2\mu_0} \cdot A l = \frac{(\mu_0 Ni)^2 A l}{2\mu_0 l^2} \\
+    &= \frac{\mu_0 N^2 i^2 \pi r^2}{2l} \\
+    &= \frac{(4\pi \times 10^{-7})(100)^2(5)^2 \pi (0.01)^2}{2 \times 0.1} \\
+    &= 4.93 \times 10^{-4} \, \text{J}
+\end{align}
+
+\subsection*{(c)}
+
+\begin{align}
+    \phi &= BA = \frac{\mu_0 Ni}{l} \cdot \pi r^2 \\
+    &= \frac{4\pi \times 10^{-7} \times 100 \times 5 \times \pi \times (0.1)^2}{0.1} \\
+    &= 1.972 \times 10^{-4} \, \text{Wb}
+\end{align}
+
+The induced electromotive force (emf) is given by:
+\begin{equation}
+    \xi = -\frac{\Delta \phi}{\Delta t} = -\frac{1.972 \times 10^{-4}}{5} = -3.94 \times 10^{-5} \, \text{V}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code formats the given physics problem and solution with proper equations and alignment, ensuring clarity and readability."
+13.46,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+
+\begin{document}
+
+\section*{Solution}
+
+\begin{enumerate}
+    \item[(a)] 
+    \[
+    B = \frac{\mu_0 i}{2 \pi r} = \frac{4\pi \times 10^{-7} \times 3}{2\pi \times 50 \times 10^{-3}} = 1.2 \times 10^{-7} \, \text{T}
+    \]
+
+    \item[(b)] In vector form, the Biot-Savart law can be written as:
+    \[
+    \dd{B} = \frac{\mu_0 i}{4\pi} \frac{\dd{\vb{l}} \times \vb{r}}{r^3}
+    \]
+
+    \begin{enumerate}
+        \item[(i)] 
+        \[
+        \dd{B} = \frac{(4\pi \times 10^{-7})(2)(2\hat{k} \times 3\hat{i})}{4\pi \times 3^3} = 4.44 \times 10^{-8} \hat{j} \quad (\because \hat{k} \times \hat{i} = \hat{j})
+        \]
+        Thus, \(\dd{B} = 4.44 \times 10^{-8} \, \text{T}\) along the positive y-axis.
+
+        \item[(ii)] 
+        \[
+        \dd{B} = \frac{(4\pi \times 10^{-7})(2)(2\hat{k} \times (-6\hat{i}))}{4\pi \times 6^3} = -1.11 \times 10^{-8} \hat{j}
+        \]
+        Thus, \(\dd{B} = 1.11 \times 10^{-8} \, \text{T}\) along the negative y-axis.
+
+        \item[(iii)] 
+        \[
+        \dd{B} = 0 \quad (\because \hat{k} \times \hat{k} = 0)
+        \]
+
+        \item[(iv)] 
+        \[
+        \dd{B} = \frac{(4\pi \times 10^{-7})(2)(2\hat{k} \times 3\hat{j})}{4\pi \times 3^3} = -4.44 \times 10^{-8} \hat{i}
+        \]
+        Thus, \(\dd{B} = 4.44 \times 10^{-8} \, \text{T}\) along the negative x-axis.
+    \end{enumerate}
+\end{enumerate}
+
+\end{document}
+```"
+13.47,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+Given the problem, we need to calculate the magnetic field intensity \( H \) and the magnetic flux density \( B \) in both vacuum and material. We also need to find the magnetization \( M \).
+
+\subsection*{Magnetic Field Intensity}
+
+The formula for magnetic field intensity is given by:
+\[
+H = \frac{N_i}{2\pi r}
+\]
+
+Substituting the given values:
+\[
+H = \frac{100 \times 2}{2\pi \times 0.1} = 318.47 \, \text{A/m}
+\]
+
+\subsection*{Magnetic Flux Density}
+
+For vacuum:
+\[
+B = K \mu_0 H = 1 \times 4\pi \times 10^{-7} \times 318.47 = 4 \times 10^{-4} \, \text{T}
+\]
+
+For material:
+\[
+B = 500 \times 4\pi \times 10^{-7} \times 318.47 = 0.2 \, \text{T}
+\]
+
+\subsection*{Magnetization}
+
+In vacuum:
+\[
+M = \frac{B - \mu_0 H}{\mu_0} = 0
+\]
+
+In material:
+\[
+M = \frac{B}{\mu_0} - H = \frac{0.2}{4\pi \times 10^{-7}} - 318 = 1.59 \times 10^5
+\]
+
+\end{document}
+```
+
+This LaTeX document provides a structured and clear presentation of the physics problem, including the calculations for magnetic field intensity, magnetic flux density, and magnetization in both vacuum and material."
+13.48,"To properly format the given physics problem and solution in LaTeX, we can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+The magnetic field \( B(z) \) on the axis of a circular coil of radius \( r \) carrying current \( i \) is given by:
+
+\begin{equation}
+B(z) = \frac{\mu_0 i r^2}{2(r^2 + z^2)^{3/2}}
+\end{equation}
+
+where:
+\begin{align*}
+B &= 6 \times 10^{-5} \, \text{T}, \\
+\mu_0 &= 4\pi \times 10^{-7} \, \text{T}\cdot\text{m/A}, \\
+r &= 106 \, \text{m}, \\
+z &= 6.4 \times 10^6 \, \text{m}.
+\end{align*}
+
+We need to solve for the current \( i \). Rearranging Equation (1) for \( i \), we have:
+
+\begin{equation}
+i = \frac{2B(z)(r^2 + z^2)^{3/2}}{\mu_0 r^2}
+\end{equation}
+
+Substituting the given values into the equation:
+
+\begin{align*}
+i &= \frac{2 \times 6 \times 10^{-5} \times (106^2 + (6.4 \times 10^6)^2)^{3/2}}{4\pi \times 10^{-7} \times 106^2} \\
+&= 2.6 \times 10^{10} \, \text{A}.
+\end{align*}
+
+Thus, the order of magnitude of the current is \( 10^{10} \, \text{A} \).
+
+\end{document}
+```
+
+This LaTeX code includes the necessary packages for mathematical formatting and units, and it clearly presents the problem, the formula, the given values, and the solution."
+13.49,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+The induction midway between Helmholtz coils is given by:
+
+\begin{equation}
+    B = \frac{8N\mu_0 I}{5^{3/2} R}
+\end{equation}
+
+where:
+\begin{align*}
+    N &= 50, \\
+    I &= 10 \, \text{A}, \\
+    R &= 0.5 \, \text{m}, \\
+    \mu_0 &= 4\pi \times 10^{-7} \, \text{H/m}.
+\end{align*}
+
+Substituting the given values, we find:
+
+\begin{equation}
+    B = 8.94 \times 10^{-4} \, \text{T}
+\end{equation}
+
+The electromotive force (emf) generated between the center and the rim of the disc is:
+
+\begin{equation}
+    \xi = \pi r^2 B f
+\end{equation}
+
+where:
+\begin{align*}
+    r &= 0.1 \, \text{m}, \\
+    f &= 16.66 \, \text{Hz}.
+\end{align*}
+
+Substituting these values, we get:
+
+\begin{align*}
+    \xi &= \pi \times (0.1)^2 \times 8.94 \times 10^{-4} \times 16.66 \\
+        &= 468 \times 10^{-6} \, \text{V} \\
+        &= 468 \, \mu\text{V}.
+\end{align*}
+
+\end{document}
+```"
+13.50,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+
+\begin{document}
+
+Given:
+\[
+l = 1.0 \, \text{m}, \quad \bm{v} = 3\hat{\imath} + 2\hat{\jmath} + 3\hat{k}, \quad \bm{B} = \hat{\imath} + 2\hat{\jmath} + 3\hat{k}
+\]
+
+The voltage developed is given by:
+\[
+\xi = |\bm{v} \times \bm{B}| \, l \sin \phi = |\bm{v}| |\bm{B}| (\sin \theta) l \sin \phi
+\]
+where \(\theta\) is the angle between \(\bm{v}\) and \(\bm{B}\), and \(\phi\) is the angle which \(l\) makes with \(\bm{B}\).
+
+Calculate the magnitudes:
+\[
+|\bm{v}| = \sqrt{3^2 + 2^2 + 3^2} = \sqrt{14}
+\]
+\[
+|\bm{B}| = \sqrt{1^2 + 2^2 + 3^2} = \sqrt{14}
+\]
+
+Calculate \(\cos \theta\):
+\[
+\cos \theta = \frac{\bm{v} \cdot \bm{B}}{|\bm{v}| |\bm{B}|} = \frac{3 + 4 + 3}{\sqrt{14} \times \sqrt{14}} = \frac{5}{7}
+\]
+
+Thus, \(\sin \theta\) is:
+\[
+\sin \theta = \sqrt{1 - \cos^2 \theta} = \sqrt{1 - \left(\frac{5}{7}\right)^2} \approx 0.4898
+\]
+
+Substitute into the expression for \(\xi\):
+\[
+\xi = (\sqrt{14})(\sqrt{14})(0.4898)(1) \sin \phi = 6.857 \sin \phi
+\]
+
+The voltage \(\xi\) will be maximum for \(\phi = 90^\circ\) and zero for \(\phi = 0^\circ\) or \(180^\circ\).
+
+\end{document}
+```"
+13.51,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+
+\begin{document}
+
+The motion of the proton is equivalent to a current. The current density is given by
+\begin{equation}
+    \bm{J} = e\bm{v}
+\end{equation}
+
+The magnetic field due to a current-carrying circuit is given by the Biot–Savart law
+\begin{equation}
+    d\bm{B} = \frac{\mu_0 I}{4\pi} \left( \frac{d\bm{l}' \times \bm{R}}{R^3} \right)
+\end{equation}
+where $d\bm{l}'$ is the circuit element, and $\bm{R}$ is the vector which points from $d\bm{l}'$ to the field point. As there is only one proton, there is no need to integrate to find $\bm{B}$. Replacing the current by the current density $\bm{J}$, the Biot–Savart law is modified as
+\begin{equation}
+    \bm{B} = \frac{\mu_0}{4\pi} \left( \frac{\bm{J} \times \bm{R}}{R^3} \right)
+\end{equation}
+
+Substituting (1) into (3),
+\begin{equation}
+    \bm{B} = \frac{\mu_0 e}{4\pi} \left( \frac{\bm{v} \times \bm{R}}{R^3} \right)
+\end{equation}
+
+Given:
+\[
+\bm{R} = (\hat{\imath} + 2\hat{\jmath}) \, \text{m}
+\]
+\[
+\bm{v} = (\hat{\imath} + 3\hat{\jmath}) \times 10^4 \, \text{m/s}
+\]
+
+Calculating the cross product:
+\[
+\bm{v} \times \bm{R} = 10^4 \begin{vmatrix}
+\hat{\imath} & \hat{\jmath} & \hat{k} \\
+1 & 3 & 0 \\
+1 & 2 & 0
+\end{vmatrix} = -10^4 \hat{k}
+\]
+
+Substitute into the expression for $\bm{B}$:
+\[
+\bm{B} = \frac{4\pi \times 10^{-7}}{4\pi} \times 1.6 \times 10^{-19} \times \left( \frac{-10^4 \hat{k}}{\sqrt{5}^3} \right)
+\]
+
+Simplifying:
+\[
+\bm{B} = 1.43 \times 10^{-23} \hat{k} \, \text{T}
+\]
+
+\end{document}
+```"
+13.52,"To convert the given physics text into properly formatted LaTeX, we need to ensure the equation is clear and correctly structured. Here's the LaTeX code for the equation:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The force per unit length between two parallel current-carrying wires is given by:
+
+\begin{equation}
+    F_l = \frac{\mu_0 i_1 i_2}{2 \pi d}
+\end{equation}
+
+Substituting the given values:
+
+\begin{align*}
+    \mu_0 &= 4\pi \times 10^{-7} \, \text{T}\cdot\text{m/A}, \\
+    i_1 &= 2 \, \text{A}, \\
+    i_2 &= 3 \, \text{A}, \\
+    d &= 0.05 \, \text{m},
+\end{align*}
+
+we find:
+
+\begin{align*}
+    F_l &= \frac{4\pi \times 10^{-7} \times 2 \times 3}{2\pi \times 0.05} \\
+        &= 2.4 \times 10^{-5} \, \text{N}
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary packages and environment to properly display the physics equation and its solution."
+13.53,"Certainly! Below is the properly formatted LaTeX code for the given physics problem and solution:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The force per unit length between two parallel currents is given by:
+
+\[
+F_l = \frac{\mu_0 i_1 i_2}{2\pi d}
+\]
+
+Solving for \(i_2\), we have:
+
+\[
+i_2 = \frac{2\pi d}{\mu_0 i_1} \left(\frac{F}{l}\right)
+\]
+
+Substituting the given values:
+
+\[
+i_2 = \frac{2\pi \times 0.2 \times 10^{-5}}{4\pi \times 10^{-7} \times 10}
+\]
+
+Simplifying the expression:
+
+\[
+i_2 = 1.0 \, \text{A}
+\]
+
+The currents are parallel.
+
+\end{document}
+```
+
+This LaTeX code will render the equations and text in a clear and structured manner, suitable for a physics document."
+13.54,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+For equilibrium, the magnetic force is equal to the gravitational force. Therefore, we have:
+
+\[
+F = \frac{\mu_0 l i_1 i_2}{2 \pi d} = mg
+\]
+
+Solving for \(d\), we get:
+
+\[
+d = \frac{\mu_0 l i_1 i_2}{2 \pi mg}
+\]
+
+Substituting the given values:
+
+\[
+d = \frac{4\pi \times 10^{-7} \times 2 \times 10 \times 15}{2\pi \times 4 \times 10^{-3} \times 9.8}
+\]
+
+Calculating the above expression, we find:
+
+\[
+d = 1.53 \times 10^{-3} \, \text{m} = 1.53 \, \text{mm}
+\]
+
+\end{document}
+```
+
+This LaTeX code will properly format the physics problem and solution, ensuring clarity and correctness in the mathematical expressions."
+13.55,"To convert the provided physics text into properly formatted LaTeX, we will use the `align` environment for better alignment and readability of the equations. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{align*}
+    \text{(a) Net force per metre on the outer wire } \frac{F}{l} &= \frac{F_1}{l} + \frac{F_2}{l} \\
+    &= \frac{\mu_0 i_1 i_3}{2\pi d} + \frac{\mu_0 i_2 i_3}{2\pi \times 2d} \\
+    &= \frac{\mu_0 i_3 (2i_1 + i_2)}{4\pi d} \\
+    &= \frac{4\pi \times 10^{-7} \times 20 (2 \times 20 + 20)}{4\pi \times 0.1} \\
+    &= 1.2 \times 10^{-3} \, \text{N}
+\end{align*}
+
+\begin{align*}
+    \text{(b) Zero}
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code will format the equations neatly, ensuring that each step of the calculation is clear and easy to follow. The `align*` environment is used to align the equations at the equal signs, and the `\text{}` command is used to include text within the equations."
+13.56,"Certainly! Here is the properly formatted LaTeX code for the given physics equation:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{equation}
+    F = i l B + (i)(\pi R) B + i l B = i (2l + \pi R) B.
+\end{equation}
+
+\end{document}
+```
+
+This code will produce a neatly formatted equation in a LaTeX document. Make sure to compile it with a LaTeX editor to see the output."
+13.57,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Physics Problem: Force on a Coil}
+
+\begin{enumerate}
+    \item[(i)] The force on the horizontal segments is zero as they are perpendicular to the straight wire. For the vertical segments, the force is repulsive for antiparallel currents and attractive for parallel currents. The magnitude of the force is given by:
+    \begin{equation}
+        F = \frac{\mu_0 l i_1 i_2}{2 \pi d}
+    \end{equation}
+    where \( d \) is the distance of separation.
+
+    \noindent Force on the nearer vertical segment:
+    \begin{align}
+        F_1 &= -\frac{(4\pi \times 10^{-7}) (0.1) (20) (5)}{(2\pi)(0.02)} \\
+            &= -1 \times 10^{-4} \, \text{N}
+    \end{align}
+
+    \noindent Force on the farther vertical segment:
+    \begin{align}
+        F_2 &= +\frac{(4\pi \times 10^{-7}) (0.1) (20) (5)}{(2\pi)(0.07)} \\
+            &= +2.86 \times 10^{-5} \, \text{N}
+    \end{align}
+
+    \item[(ii)] The net force on the coil is:
+    \begin{equation}
+        F_{\text{net}} = F_1 + F_2 = -7.14 \times 10^{-5} \, \text{N}
+    \end{equation}
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code properly formats the physics problem and solution, including equations and units, using the `amsmath` and `siunitx` packages for better mathematical and unit formatting."
+13.58,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Magnetic Forces on a Coil}
+
+(a) Wire \( PQ \) will produce a field of induction \( B_1 \) at the segment \( AB \) of the coil. The magnitude of \( B_1 \) is given by
+
+\begin{equation}
+B_1 = \frac{\mu_0 I_1}{2\pi d}
+\end{equation}
+
+The right-hand rule shows that the direction of \( B_1 \) at the segment \( AB \) is downward. Wire \( AB \), which carries a current \( I_2 \), finds itself immersed in an external field of magnetic induction \( B_1 \). A length \( l \) of the segment \( AB \) will experience a sideways magnetic force equal to \( \mathbf{F} = I_2 \mathbf{l} \times \mathbf{B}_1 \), whose magnitude is
+
+\begin{equation}
+F_2 = I_2 l B_1 = \frac{\mu_0 l I_1 I_2}{2\pi d}
+\end{equation}
+
+The vector rule of signs shows that \( F_2 \) lies in the plane of the coil and points to the right. A similar reasoning shows that the force on the segment \( CD \) will be
+
+\begin{equation}
+F_3 = \frac{\mu_0 l I_1 I_2}{2\pi (d+l)}
+\end{equation}
+
+to the left in the plane of the coil. There is no force on the segments \( BC \) and \( AD \) as they are perpendicular to \( PQ \). The net force is
+
+\begin{equation}
+F_{\text{net}} = \frac{\mu_0 l I_1 I_2}{2\pi} \left[ \frac{1}{d} - \frac{1}{d+l} \right]
+\end{equation}
+
+to the right. Substituting the given values,
+
+\begin{align*}
+F_{\text{net}} &= \frac{(4\pi \times 10^{-7})(0.05)(1)(4)(10)}{2\pi} \left[ \frac{1}{0.1} - \frac{1}{0.1+0.05} \right] \\
+&= 1.335 \times 10^{-5} \, \text{N}
+\end{align*}
+
+where we have multiplied Equation (4) by 10 for the number of coils.
+
+\end{document}
+```"
+13.59,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a)}
+
+The flux $\phi_B$ enclosed by the loop, as shown in Fig. 13.30, is given by
+
+\begin{equation}
+    \phi_B = B l x
+\end{equation}
+
+where $l x$ is the area of that part of the loop in which $B$ is not zero. By Faraday’s law:
+
+\begin{equation}
+    \mathcal{E} = -\frac{d\phi_B}{dt} = -\frac{d}{dt}(B l x) = -B l \frac{dx}{dt} = B l v
+\end{equation}
+
+Here, the speed $v = -dx/dt$ represents the speed with which the connecting rod is pulled out of the magnetic field. The electromotive force (emf) $B l v$ sets up a current in the loop given by
+
+\begin{equation}
+    i = \frac{\mathcal{E}}{R} = \frac{B l v}{R}
+\end{equation}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics{fig13_30.png}
+    \caption{Illustration of the loop and magnetic field.}
+    \label{fig:13_30}
+\end{figure}
+
+\subsection*{(b)}
+
+The total power delivered to the resistor is just the Joule heat given by
+
+\begin{equation}
+    P_I = i^2 R = \frac{B^2 l^2 v^2}{R}
+\end{equation}
+
+Note that energy conservation tells us that for steady motion of the rod, the external agent must provide power equal to the Joule heat. This is confirmed by
+
+\begin{equation}
+    P = F_3 v = \frac{B^2 l^2 v^2}{R}
+\end{equation}
+
+\subsection*{(c)}
+
+The current in the loop produces forces $F_1$, $F_2$, and $F_3$ on the three sides of the loop in accordance with
+
+\begin{equation}
+    \mathbf{F} = i \mathbf{l} \times \mathbf{B}
+\end{equation}
+
+Because $F_1$ and $F_2$ are equal and opposite, they cancel each other, while $F_3$, which opposes the motion of the sliding rod, is given by equations (4) and (3) in magnitude as
+
+\begin{equation}
+    F_3 = i l B \sin 90^\circ = \frac{B^2 l^2 v}{R}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code formats the given physics text into a structured document with equations, explanations, and a figure placeholder. Make sure to replace `fig13_30.png` with the actual path to your image file."
+13.60,"To properly format the given physics text into LaTeX, we need to ensure that all mathematical expressions are correctly displayed, and the integration is clearly defined. Below is the LaTeX code for the given problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The elementary magnetic moment is given by
+\[
+d\mu = (di)(dA) = \left(\frac{\omega q r \, dr}{\pi R^2}\right) (\pi r^2)
+\]
+where \( dA \) is the area enclosed by \( r \), and the value of \( di \) is used from equation (2) of problem (13.37). Therefore, the magnetic moment of the disc is
+\[
+\mu = \int d\mu = \int_0^R \frac{\omega q r^3 \, dr}{R^2} = \frac{\omega q R^2}{4}.
+\]
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the correctly formatted equations for the elementary magnetic moment and the total magnetic moment of the disc. The integration is clearly shown, and all variables are properly typeset."
+13.61,"To convert the given text into properly formatted LaTeX, we need to ensure that all mathematical expressions are correctly typeset. Here's the LaTeX code for the provided physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The magnetic moment is given by:
+\[
+\mu = NiA = (1)(i)(\pi r^2)
+\]
+
+Solving for the current \( i \), we have:
+\[
+i = \frac{\mu}{\pi r^2} = \frac{6.4 \times 10^{21}}{\pi (6.4 \times 10^6)^2} = 4.98 \times 10^7 \, \text{A}
+\]
+
+\end{document}
+```
+
+This LaTeX code will correctly format the physics problem and solution, ensuring that the mathematical expressions are clear and properly aligned."
+13.62,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+The magnetic energy density is given by:
+
+\[
+u_B = \frac{1}{2\mu_0} B^2
+\]
+
+where \( B = \frac{\mu_0 i}{2r} \). Substituting for \( B \), we have:
+
+\[
+u_B = \frac{1}{2\mu_0} \left( \frac{\mu_0 i}{2r} \right)^2
+\]
+
+Simplifying, this becomes:
+
+\[
+u_B = \frac{1}{8} \frac{\mu_0 i^2}{r^2}
+\]
+
+Substituting the given values:
+
+\[
+u_B = \frac{4\pi \times 10^{-7} \times (100)^2}{8 \times (0.1)^2}
+\]
+
+Calculating the above expression, we find:
+
+\[
+u_B = 0.157 \, \text{J/m}^3
+\]
+
+\end{document}
+```
+
+This LaTeX code will correctly format the physics problem and solution, ensuring all equations are properly aligned and displayed."
+13.63,"To convert the given physics text into properly formatted LaTeX, we need to ensure that mathematical expressions are correctly formatted and variables are clearly defined. Here is the LaTeX code for the given expression:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The energy density of a magnetic field is given by the formula:
+
+\[
+u_B = \frac{1}{2\mu_0} B^2
+\]
+
+Substituting the given values:
+
+\[
+u_B = \frac{(13.5)^2}{2 \times 4\pi \times 10^{-7}} = 7.25 \times 10^7 \, \text{J/m}^3
+\]
+
+\end{document}
+```
+
+This code uses the `amsmath` package for improved mathematical formatting. The expression is enclosed in `\[ ... \]` for display math mode, which centers the equation on its own line. The variables and constants are formatted using LaTeX's math syntax."
+13.64,"To convert the given physics text into properly formatted LaTeX, we need to ensure that all mathematical symbols and equations are correctly represented. Here's the LaTeX code for the given expression:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The maximum torque is given by:
+\[
+\tau_{\text{max}} = iAB = i(\pi r^2)B
+\]
+
+Given that \( l = 2\pi r \), we can solve for \( r \):
+\[
+r = \frac{l}{2\pi}
+\]
+
+Substituting back into the expression for torque, we have:
+\[
+\tau_{\text{max}} = \pi i \left(\frac{l}{2\pi}\right)^2 B = \frac{l^2 i B}{4\pi}
+\]
+
+\end{document}
+```
+
+This LaTeX code will properly format the physics equations, ensuring clarity and correctness in mathematical representation."
+13.65,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the sphere of radius \( R \) rotate about the \( z \)-axis, as shown in Fig. 13.31. Consider a spherical shell of radius \( r \) (\( r < R \)) concentric with the sphere. Consider a volume element symmetrical about the \( z \)-axis. The volume element is given by:
+
+\begin{equation}
+dV = 2\pi r^2 \sin \theta \, d\theta \, dr
+\end{equation}
+
+where \( \theta \) is the polar angle and \( r \) is the distance of the volume element from the center. The charge \( dq \) residing in the volume element is:
+
+\begin{equation}
+dq = \frac{3q}{4\pi R^3} dV
+\end{equation}
+
+The current due to the rotation of charge is:
+
+\begin{equation}
+di = \omega \cdot \frac{dq}{2\pi} = \frac{3q\omega}{4\pi} \frac{r^2 \sin \theta \, d\theta \, dr}{R^3}
+\end{equation}
+
+where we have used equations (2) and (1). The magnetic moment due to \( di \) is:
+
+\begin{align}
+d\mu &= (di)(dA) \\
+&= \left(\frac{3q\omega r^2 \sin \theta \, d\theta \, dr}{4\pi R^3}\right) (\pi r^2 \sin^2 \theta) \\
+&= \frac{3}{4} \frac{\omega q r^4 \, dr \sin^3 \theta \, d\theta}{R^3}
+\end{align}
+
+where \( dA \) is the area enclosed by the circle of radius \( r \sin \theta \). The total magnetic moment \( \mu \) is:
+
+\begin{equation}
+\mu = \int d\mu = \frac{3}{4} \frac{\omega q}{R^3} \int_0^R r^4 \, dr \int_0^\pi \sin^3 \theta \, d\theta
+\end{equation}
+
+Evaluating the integrals, we have:
+
+\begin{align}
+\int_0^R r^4 \, dr &= \frac{R^5}{5} \\
+\int_0^\pi \sin^3 \theta \, d\theta &= \frac{4}{3}
+\end{align}
+
+Thus, the total magnetic moment becomes:
+
+\begin{equation}
+\mu = \frac{3}{4} \frac{\omega q}{R^3} \left(\frac{R^5}{5}\right) \left(\frac{4}{3}\right) = \frac{\omega q R^2}{5}
+\end{equation}
+
+The angular momentum of a sphere about a diameter is:
+
+\begin{equation}
+L = I \omega = \frac{2}{5} m R^2 \omega
+\end{equation}
+
+Therefore, the ratio of the magnetic moment to the angular momentum is:
+
+\begin{equation}
+\frac{\mu}{L} = \frac{q}{2m}
+\end{equation}
+
+\end{document}
+```"
+13.66,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+The potential energy \( U \) of a dipole in an electric field is given by the equation:
+
+\[
+U = -\mathbf{p} \cdot \mathbf{E} = -pE \cos \theta
+\]
+
+Substituting the given values:
+
+\[
+U = - (1.6 \times 10^{-29} \, \text{C}\cdot\text{m})(1000 \, \text{N/C}) \cos 30^\circ
+\]
+
+Calculating the cosine of \( 30^\circ \), which is \( \frac{\sqrt{3}}{2} \), the expression becomes:
+
+\[
+U = - (1.6 \times 10^{-29})(1000) \left(\frac{\sqrt{3}}{2}\right)
+\]
+
+Finally, calculating the result:
+
+\[
+U \approx -1.38 \times 10^{-26} \, \text{J}
+\]
+
+\end{document}
+```
+
+This LaTeX code will properly format the physics problem, including the equation for the potential energy of a dipole in an electric field, and the subsequent calculation with the provided values."
+13.67,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{align}
+    \frac{dr}{dt} &\propto \alpha t \quad \text{(by problem)} \tag{1} \\
+    \xi &= -\frac{d\phi}{dt} = \frac{d}{dt}(BA) \quad \text{(by Faraday's law)} \tag{2} \\
+    \text{But } B &\propto \frac{1}{r} \quad \text{and} \quad A = \pi r^2 \tag{3} \\
+    \therefore \xi &\propto \frac{dr}{dt} \tag{4} \\
+    \text{or } \xi &\propto t \tag{5} \quad \text{where we have used (1)}
+\end{align}
+
+\end{document}
+```
+
+This LaTeX code formats the given physics text into a series of equations, using proper mathematical notation and referencing each equation with a tag."
+13.68,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Physics Problem Solution}
+
+Given the following parameters:
+
+\begin{align*}
+    e &= 0.4 \times 80 \, \text{A/m} = 32 \, \text{A/m}, \\
+    B &= \mu_0 H = 4\pi \times 10^{-7} \times 32 = 4.02 \times 10^{-5} \, \text{T}, \\
+    v &= 720 \, \text{km/h} = 200 \, \text{m/s}, \\
+    \xi &= Blv = 4.02 \times 10^{-5} \times 30 \times 200 = 0.24 \, \text{V}.
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code will properly format the given physics equations and calculations, ensuring clarity and correct mathematical representation."
+13.69,"Certainly! Here is the given physics expression formatted in LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The expression for the voltage \( V \) is given by:
+
+\[
+V = \pi r^2 B f
+\]
+
+Substituting the given values:
+
+\[
+V = \pi (0.1)^2 \times 2 \times 10^{-5} \times 5
+\]
+
+Calculating the expression:
+
+\[
+V = 3.14 \times 10^{-6} \, \text{V}
+\]
+
+\end{document}
+```
+
+This LaTeX code will properly format the physics equation and its solution, ensuring clarity and correct mathematical representation."
+13.70,"Certainly! Below is the properly formatted LaTeX code for the given physics expression:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+The expression for resistance \( R \) is given by:
+
+\[
+R = BANq = 0.1 \times 0.001 \times 30 \times 10^{-5} = 300 \, \Omega
+\]
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document and uses the `amsmath` package for better formatting of mathematical expressions. The expression is displayed in a centered equation environment."
+13.71,"To convert the given physics text into properly formatted LaTeX, we need to ensure that all symbols and equations are correctly represented. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The electromotive force (\(\xi\)) is given by:
+
+\[
+\xi = -\sigma \frac{\Delta \phi}{\Delta t} = A \frac{\Delta B}{\Delta t} = 0.2 \times 0.25 \times 10^{-4} = 500 \, \text{V}
+\]
+
+The current (\(i\)) can be calculated using Ohm's Law:
+
+\[
+i = \frac{\xi}{R} = \frac{500}{20} = 25 \, \text{A}
+\]
+
+\end{document}
+```
+
+This LaTeX code includes the necessary packages and formatting to properly display the equations. The `amsmath` package is used for better handling of mathematical expressions. The equations are displayed using the `equation` environment for clarity."
+13.72,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The amplitude of the induced voltage is given by
+\[
+\xi_0 = \omega B A = 2\pi f B A = 2\pi \times 40 \times 0.5 \times (0.25)^2 = 7.85 \, \text{V}
+\]
+
+The amplitude of the induced current is
+\[
+I_0 = \frac{\xi_0}{R} = \frac{7.85}{4} = 1.96 \, \text{A}
+\]
+
+\end{document}
+```"
+13.73,"Certainly! Below is the properly formatted LaTeX code for the given physics problem and solution:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Given:
+\[
+\mathcal{E} = iR = 0.4 \times 5 = 2 \, \text{V}
+\]
+
+We know:
+\[
+\mathcal{E} = v l B
+\]
+
+Solving for \( v \):
+\[
+v = \frac{\mathcal{E}}{lB} = \frac{2}{0.2 \times 1.0} = 10 \, \text{m/s}
+\]
+
+\end{document}
+```
+
+This LaTeX code will format the equations neatly, using proper mathematical symbols and alignment."
+13.74,"To convert the given physics text into properly formatted LaTeX, we need to ensure that all mathematical expressions are correctly formatted and any accompanying text is clearly presented. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The electromotive force (EMF) is given by:
+\[
+\xi = -\frac{d\phi}{dt} = -A \frac{dB}{dt}
+\]
+where \( A \) is the area of the triangle sandwiched between the ends of the rod and the radii connecting the center with the ends, as shown in Fig. 13.18. The area \( A \) is calculated as:
+\[
+A = \frac{1}{2} (\text{base}) (\text{altitude}) = \frac{1}{2} l \sqrt{R^2 - \left(\frac{l}{2}\right)^2}
+\]
+Thus, the expression for the electromotive force becomes:
+\[
+\xi = -\frac{dB}{dt} \cdot \frac{l}{2} \sqrt{R^2 - \left(\frac{l}{2}\right)^2}
+\]
+
+\end{document}
+```
+
+This LaTeX document includes the necessary mathematical expressions and explanations, formatted for clarity and correctness. Adjust the text and figure references according to your specific document needs."
+13.75,"To convert the given physics text into properly formatted LaTeX, we can structure it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The gravitational force on the loop is given by:
+\[
+F_g = mg \sin \theta
+\]
+
+The magnetic force on the loop is expressed as:
+\[
+F_m = (B \cos \theta) i l = \frac{B \cos \theta \, \xi l}{R} = \frac{B \cos \theta \, l}{R} v B \cos \theta \cdot l = \frac{v B^2 l^2 \cos^2 \theta}{R}
+\]
+
+For steady speed, the net force is zero:
+\[
+F_{\text{net}} = F_m - F_g = 0
+\]
+
+Thus, we have:
+\[
+\frac{v B^2 l^2 \cos^2 \theta}{R} - mg \sin \theta = 0
+\]
+
+Solving for \( v \), we get:
+\[
+v = \frac{mg R \sin \theta}{B^2 l^2 \cos^2 \theta}
+\]
+
+\end{document}
+```
+
+This LaTeX code will properly format the physics equations and ensure they are displayed correctly when compiled."
+13.76,"Certainly! Below is the properly formatted LaTeX code for the given physics equation:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The electromotive force (\(\xi\)) is given by:
+
+\[
+\xi = \pi R^2 B f
+\]
+
+Solving for the magnetic field (\(B\)), we have:
+
+\[
+B = \frac{\xi}{\pi R^2 f}
+\]
+
+Substituting the given values:
+
+\[
+B = \frac{6.28 \times 10^{-3}}{3.14 \times (0.1)^2 \times \left(\frac{1200}{60}\right)}
+\]
+
+Calculating the above expression:
+
+\[
+B = 0.01 \, \text{T}
+\]
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the equations properly formatted and aligned."
+13.77,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\[
+\begin{aligned}
+    \text{[emf]} &= \text{[electric field][distance]} \\
+    &= \left[\frac{\text{force}}{\text{charge}}\right]\text{[distance]} \\
+    &= [MLT^{-2}Q^{-1}][L] \\
+    &= [ML^2T^{-2}Q^{-1}]
+\end{aligned}
+\]
+
+\[
+\begin{aligned}
+    \left[\frac{d\phi_B}{dt}\right] &= [\phi_B][T^{-1}] \\
+    &= [B][\text{area}][T^{-1}] \\
+    &= \left[\frac{\text{force}}{(\text{velocity}) \cdot \text{charge}}\right][L^2][T^{-1}] \\
+    &= \left[\frac{MLT^{-2}}{LT^{-1}Q}\right][L^2][T^{-1}] \\
+    &= [ML^2T^{-2}Q^{-1}]
+\end{aligned}
+\]
+
+\[
+\therefore \text{[emf]} = \left[\frac{d\phi_B}{dt}\right]
+\]
+
+\end{document}
+```"
+13.78,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+The flux through the coil is given by:
+\[
+\phi = \mathbf{B} \cdot \mathbf{A} = 15 \times 10^{-4} \times 3 \times 10^{-12} \sin(4 \times 10^{6} t)
+\]
+
+The induced electromotive force (emf) is calculated using Faraday's law of electromagnetic induction:
+\[
+\xi = -N \frac{d\phi}{dt} = -200 \times 15 \times 10^{-4} \times 3 \times 4 \times 10^{6} \times 10^{-12} \cos(4 \times 10^{6} t)
+\]
+
+Simplifying, we find:
+\[
+\xi = -3.6 \times 10^{-6} \cos(4 \times 10^{6} t) \, \text{V}
+\]
+
+\end{document}
+```
+
+This LaTeX code will properly format the given physics problem and solution, including the correct use of mathematical symbols and alignment."
+13.79,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+The electromotive force \( \xi \) is proportional to the rate of change of magnetic flux \( \phi \), which can be expressed as:
+\[
+\xi \propto \frac{d\phi}{dt} \quad \text{or} \quad \propto \frac{dB}{dt}
+\]
+
+Given the magnetic field \( B \) as a sinusoidal function:
+\[
+B = B_0 \sin(\omega t + \phi)
+\]
+
+The electromotive force \( \xi \) is then:
+\[
+\xi \propto \omega B_0 \cos(\omega t + \phi)
+\]
+
+The maximum electromotive force for television and radio can be compared as:
+\[
+\frac{\xi_{\text{max (television)}}}{\xi_{\text{max (radio)}}} = \frac{\omega_1}{\omega_2} = \frac{f_1}{f_2} = \frac{100}{1} = 100
+\]
+
+This is because \( B_0 \) is the same for both waves.
+
+\end{document}
+```"
+13.80,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The flux $\phi_B$ enclosed by a loop of area $A$ is given by $\phi_B = BA$, where $B$ is the magnetic field. Faraday’s law of induction states that the induced emf $\xi$ in a circuit is equal to the negative rate at which the flux through the circuit is changing. In symbols, this is expressed as:
+
+\[
+\xi = -\frac{d\phi_B}{dt}
+\]
+
+The current $I$ is given by:
+
+\[
+I = \frac{\xi}{R}
+\]
+
+where $R$ is the resistance. The magnetic force on a straight wire is given by:
+
+\[
+F = I l \times B
+\]
+
+For a loop, the magnetic flux is:
+
+\[
+\phi_B = BA = Blx = B(l \times B_\perp l)
+\]
+
+By Faraday’s law:
+
+\[
+\xi = -\frac{d\phi_B}{dt} = -\frac{d}{dt}(Blx) = -Bl\frac{dx}{dt} = Blv
+\]
+
+The current is:
+
+\[
+i = \frac{\xi}{R} = \frac{Blv}{R}
+\]
+
+Therefore, the force is:
+
+\[
+F = i l B = \frac{B^2 l^2 v}{R}
+\]
+
+If the magnetic force acts as a resisting force, then the equation of motion will be:
+
+\[
+ma = -\frac{B^2 l^2 v}{R}
+\]
+
+or
+
+\[
+m \frac{dv}{dt} = m \frac{dv}{ds} \frac{ds}{dt} = mv \frac{dv}{ds} = -\frac{B^2 l^2 v}{R}
+\]
+
+Thus,
+
+\[
+dv = -\left(\frac{B^2 l^2}{mR}\right) ds
+\]
+
+Integrating both sides, we have:
+
+\[
+\int dv = -\frac{B^2 l^2}{mR} \int ds + C
+\]
+
+where $C$ is the constant of integration. When $s = 0$, $v = u$, hence $C = u$. Therefore:
+
+\[
+s = \frac{(u - v)mR}{B^2 l^2}
+\]
+
+Thus, the maximum displacement $s_{\text{max}}$ is:
+
+\[
+s_{\text{max}} = \frac{umR}{B^2 l^2}
+\]
+
+where we have set $v = 0$.
+
+\end{document}
+```"
+13.81,"Certainly! Below is the properly formatted LaTeX code for the given physics text, which involves Faraday's law of electromagnetic induction:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{align*}
+    \xi &= -N \frac{d\phi}{dt} \\
+    &= -N \frac{d}{dt}(BA) \\
+    &= -N \pi r^2 \frac{dB}{dt} \quad \text{(Faraday's law)} \\
+    &= -100 \times \pi (0.1)^2 (0.1) \\
+    &= 0.314 \, \text{V}
+\end{align*}
+
+\end{document}
+```
+
+This code uses the `align*` environment to align the equations properly and includes comments to clarify the application of Faraday's law."
+13.82,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item[(i)] The flux on one side is equal and opposite to that on the other for $0 < r < b-x$, where $r$ is the distance of any point from the long wire. Only the flux through the portion $b-x < r < x$ is not cancelled:
+    \[
+    d\phi = (a \, dr) \, db = \frac{\mu_0 I a \, dr}{2\pi r}
+    \]
+    Therefore,
+    \[
+    \phi = \frac{\mu_0 I a}{2\pi} \int_{b-x}^{x} \frac{dr}{r} = \frac{\mu_0 I a}{2\pi} \ln \left( \frac{x}{b-x} \right)
+    \]
+
+    \item[(ii)] As $x \to b$, $\phi \to \infty$ and $\phi = 0$ for $x = b/2$.
+
+    \item[(iii)] For $I = 2t$ and $x = b/4$,
+    \[
+    \phi = \frac{\mu_0 a}{2\pi} \ln \left( \frac{1}{3} \right) 2t
+    \]
+    The rate of change of flux is given by
+    \[
+    \xi = -\frac{d\phi}{dt} = \frac{\mu_0 a \ln 3}{\pi}
+    \]
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code formats the physics problem and solution with proper mathematical notation and structure, ensuring clarity and readability."
+13.83,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Betatron Acceleration}
+
+A betatron is a machine used to accelerate electrons to high energy. It consists of an evacuated ""doughnut"" in which the electrons circulate under the influence of a changing magnetic field. If a magnetic flux $\phi$ changes in an electromagnet, it accelerates the electrons while simultaneously holding them in an orbit of fixed radius. 
+
+The average force acting on the particle during a single rotation is the work (induced voltage multiplied by charge) divided by the distance $2\pi R$. Equating this to the time rate of change of momentum, by Faraday's law of induction:
+
+\begin{equation}
+    e \frac{d\phi}{dt} = 2\pi R \frac{dP}{dt}
+\end{equation}
+
+where $e$ is the charge of the electron, $\frac{d\phi}{dt}$ is the rate of change of magnetic flux, and $\frac{dP}{dt}$ is the rate of change of momentum. This can be rewritten as:
+
+\begin{equation}
+    \frac{e}{2\pi R} \frac{d\phi}{dt} = \frac{dp}{dt} = \frac{d}{dt}(BeR)
+\end{equation}
+
+where $B$ is the magnetic field and $R$ is the radius. Integrating and assuming that initially the flux is zero and $R$ is constant, we find:
+
+\begin{equation}
+    \phi = 2\pi R^2 B
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX document includes the necessary equations and explanations for understanding the operation of a betatron, formatted correctly for clarity and readability."
+13.84,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Consider a strip of a conductor of width \( W \) and thickness \( t \) carrying a d.c. current \( i \) in the positive \( x \)-direction along its length, as shown in Fig. 13.32. A magnetic field \( \mathbf{B} \) set up in the \( z \)-direction (into the page) produces a deflection force in the positive \( y \)-direction, as the drift velocity of electrons is in the negative \( x \)-direction. Consequently, charge concentration builds up towards the upper edge of the strip. As the charges collect on one side of the strip, they set up an electric field that opposes the sideways motion of additional charge carriers inside the conductor. This build-up of charges establishes a potential \( V_H \) across the width of the strip, called Hall potential, and the phenomenon is known as the Hall effect. Eventually, equilibrium conditions are reached, and a maximum voltage, known as Hall voltage, is quickly established. The sign of the voltage gives the sign of charge carriers and its magnitude the number density \( n \) of charge carriers.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{hall_effect.png}
+    \caption{Hall effect}
+    \label{fig:hall_effect}
+\end{figure}
+
+\begin{itemize}
+    \item[(a)] The Hall electric field \( E_H \) is given by:
+    \[
+    E_H = v_d B = \frac{iB}{ne} = \frac{iB}{ne W b} = \frac{100 \times 10}{1.25 \times 10^{30} \times 1.6 \times 10^{-19} \times 10^{-3} \times 0.02} = 2.5 \times 10^{-4} \, \text{V/m}
+    \]
+    The field is along the positive \( y \)-direction.
+
+    \item[(b)] When equilibrium is established, the Lorentz force is zero:
+    \[
+    qE + q \mathbf{v}_d \times \mathbf{B} = 0
+    \]
+    or
+    \[
+    E = -\mathbf{v}_d \times \mathbf{B}
+    \]
+    Since \( \mathbf{v}_d \perp \mathbf{B} \), we have:
+    \[
+    E = -v_d B
+    \]
+    \[
+    E = \frac{V_H}{W} = v_d B = \frac{jB}{ne} = \frac{iB}{Wtn e}
+    \]
+    Therefore, the number density \( n \) is:
+    \[
+    n = \frac{iB}{etV_H} = \frac{100 \times 10}{1.6 \times 10^{-19} \times 10^{-3} \times 5 \times 10^{-6}} = 1.25 \times 10^{30} \, \text{m}^{-3}
+    \]
+\end{itemize}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary equations and explanations for the Hall effect, formatted correctly with mathematical expressions and a placeholder for a figure (Fig. 13.32). Adjust the figure path and dimensions as needed for your document."
+13.85,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+If \( R_H \) is the Hall coefficient and \( \sigma \) is the electrical conductivity, then the mobility \( \mu \) is given by
+
+\[
+\mu = R_H \sigma = (-7.3 \times 10^{-5}) (2 \times 10^3) = -0.146 \, \text{m}^2/\text{V/s}
+\]
+
+The magnitude is \( 0.146 \, \text{m}^2/\text{V/s} \).
+
+\end{document}
+```"

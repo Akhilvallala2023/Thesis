@@ -1,0 +1,1129 @@
+Question_number,Question
+9.1,"To convert the given text into properly formatted LaTeX, we will use the equation environment for clarity and ensure all mathematical symbols are correctly represented. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+From the continuity equation, we have:
+
+\begin{equation}
+    A_1 v_1 = A_2 v_2
+\end{equation}
+
+Solving for \( v_2 \), we get:
+
+\begin{equation}
+    v_2 = \frac{A_1 v_1}{A_2} = \frac{\pi r_1^2 v_1}{\pi r_2^2}
+\end{equation}
+
+Substituting the given values:
+
+\begin{equation}
+    v_2 = \frac{10^2 \times 4}{5^2} = \frac{100 \times 4}{25} = 16 \, \text{m/s}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the continuity equation, the derived formula for \( v_2 \), and the calculation using the given values."
+9.2,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Given the velocity components:
+\[
+v_x = 3x^2 - xy + 2z^2, \quad v_y = 2x^2 - 6xy + y^2, \quad v_z = -2xy - yz + 2y^2
+\]
+
+We need to compute the partial derivatives for the divergence:
+\[
+\frac{\partial v_x}{\partial x} = 6x - y, \quad \frac{\partial v_y}{\partial y} = -6x + 2y, \quad \frac{\partial v_z}{\partial z} = -y
+\]
+
+The divergence of the velocity field is given by:
+\[
+\nabla \cdot \mathbf{v} = \frac{\partial v_x}{\partial x} + \frac{\partial v_y}{\partial y} + \frac{\partial v_z}{\partial z}
+\]
+
+Substituting the partial derivatives, we have:
+\[
+\nabla \cdot \mathbf{v} = (6x - y) + (-6x + 2y) - y = 0
+\]
+
+Thus, the continuity equation for steady incompressible flow is satisfied.
+
+\end{document}
+```"
+9.3,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem Solution}
+
+\subsection*{Pressure Difference Across the Wing}
+
+The pressure difference across the wing is given by the Bernoulli's equation:
+
+\[
+\Delta p = \frac{1}{2} \rho (v_1^2 - v_2^2)
+\]
+
+Substituting the given values:
+
+\[
+\Delta p = \frac{1}{2} \times 1.293 \times (70^2 - 55^2)
+\]
+
+Calculating the values:
+
+\[
+\Delta p = \frac{1}{2} \times 1.293 \times (4900 - 3025) = \frac{1}{2} \times 1.293 \times 1875 = 1212 \, \text{Pa}
+\]
+
+\subsection*{Lift Force}
+
+The lift force is calculated as:
+
+\[
+\text{Lift} = (\text{pressure difference}) \times (\text{area})
+\]
+
+Substituting the known values:
+
+\[
+\text{Lift} = 1212 \times 4 = 4848 \, \text{N}
+\]
+
+\subsection*{Net Force}
+
+The net force is the difference between the lift and the weight of the plane:
+
+\[
+\text{Net force} = \text{Lift} - \text{Weight of plane}
+\]
+
+The weight of the plane is calculated as:
+
+\[
+\text{Weight of plane} = 300 \times 9.8 = 2940 \, \text{N}
+\]
+
+Thus, the net force is:
+
+\[
+\text{Net force} = 4848 - 2940 = 1908 \, \text{N}
+\]
+
+The net force acts in the upward direction.
+
+\end{document}
+```
+This LaTeX code formats the physics problem and solution with clear sections and equations, ensuring readability and correctness."
+9.4,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Physics Problem Solution}
+
+Given the change in pressure \(\Delta P\) and the velocity \(v\), we need to calculate the rate of flow of water \(Q\).
+
+\[
+\Delta P = \frac{1}{2} \rho v^2 \left( \frac{A_2}{A_1} - 1 \right)
+\]
+
+where \(A_1\) and \(A_2\) are the cross-sectional areas, and \(\rho\) is the density of water. 
+
+The area \(A\) is given by:
+
+\[
+A = \pi R^2
+\]
+
+For the given radii:
+
+\[
+\frac{\pi R^2}{\pi r^2} = \left(\frac{10}{5}\right)^2 = 4
+\]
+
+The pressure difference is calculated as:
+
+\[
+60,000 - 45,000 = \frac{1}{2} \times 1000 \times 15 \times v^2
+\]
+
+Solving for \(v\), we find:
+
+\[
+v = 1.414 \, \text{m/s} \quad \text{(throat)}
+\]
+
+The rate of flow of water \(Q\) is given by:
+
+\[
+Q = vA = (1.414) \left(\pi \times (0.01)^2 \right) = 0.0444 \, \text{m}^3/\text{s}
+\]
+
+\end{document}
+```
+
+This LaTeX code formats the given physics problem and solution into a structured document, using appropriate mathematical symbols and alignment for clarity."
+9.5,"To convert the given physics text into properly formatted LaTeX, we will use the `align` environment for clarity and proper alignment. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{align*}
+v &= \sqrt{\frac{2gh\rho'}{\rho}} \\
+  &= \sqrt{\frac{2 \times 9.8 \times 0.15 \times 810}{1.293}} \\
+  &= 42.9 \, \text{m/s} \\
+  &= 154.5 \, \text{km/h}
+\end{align*}
+
+\end{document}
+```
+
+This code uses the `align*` environment to align the equations at the equal signs and includes units for clarity. The square root and fraction are formatted correctly using LaTeX syntax."
+9.6,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The total area of the holes is given by:
+\begin{align*}
+    A &= 80 \times 2.5 \times 10^{-6} \, \text{m}^2 \\
+      &= 2 \times 10^{-4} \, \text{m}^2
+\end{align*}
+
+The volumetric flow rate \( Q \) is given by:
+\[
+    Q = Av
+\]
+
+Solving for the velocity \( v \), we have:
+\begin{align*}
+    v &= \frac{Q}{A} \\
+      &= \frac{2 \times 10^{-3}}{2 \times 10^{-4}} \\
+      &= 10 \, \text{m/s}
+\end{align*}
+
+\end{document}
+```"
+9.7,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem}
+
+\begin{enumerate}
+    \item[(a)] 
+    Given the velocity components:
+    \begin{align*}
+        v_x &= 3xy + y^2, \\
+        v_y &= 5xy + 2x.
+    \end{align*}
+    Calculate the partial derivatives:
+    \begin{align*}
+        \frac{\partial v_x}{\partial x} &= 3y, \\
+        \frac{\partial v_y}{\partial y} &= 5x.
+    \end{align*}
+    The sum of the partial derivatives is:
+    \begin{align*}
+        \frac{\partial v_x}{\partial x} + \frac{\partial v_y}{\partial y} &= 3y + 5x \neq 0.
+    \end{align*}
+    Therefore, steady incompressible flow is not possible.
+
+    \item[(b)] 
+    Given the velocity components:
+    \begin{align*}
+        v_x &= 3x^2 + y^2, \\
+        v_y &= -6xy.
+    \end{align*}
+    Calculate the partial derivatives:
+    \begin{align*}
+        \frac{\partial v_x}{\partial x} &= 6x, \\
+        \frac{\partial v_y}{\partial y} &= -6x.
+    \end{align*}
+    The sum of the partial derivatives is:
+    \begin{align*}
+        \frac{\partial v_x}{\partial x} + \frac{\partial v_y}{\partial y} &= 6x - 6x = 0.
+    \end{align*}
+    Thus, steady incompressible flow is possible.
+\end{enumerate}
+
+\end{document}
+```"
+9.8,"To convert the given physics text into properly formatted LaTeX, we need to ensure that all mathematical symbols and expressions are correctly represented. Here's the LaTeX code for the given problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The change in pressure, $\Delta P$, is given by the equation:
+
+\[
+\Delta P = \frac{1}{2} \rho (v_1^2 - v_2^2)
+\]
+
+Solving for $v_1$, we have:
+
+\[
+v_1 = \sqrt{\frac{2 \Delta P}{\rho} + v_2^2}
+\]
+
+Substituting the given values:
+
+\[
+v_1 = \sqrt{\frac{2 \times 1000}{1.293} + 1002}
+\]
+
+Calculating the above expression gives:
+
+\[
+v_1 = 107.45 \, \text{m/s}
+\]
+
+\end{document}
+```
+
+This LaTeX code will properly format the physics problem and solution, ensuring clarity and correct mathematical representation."
+9.9,"Certainly! Below is the properly formatted LaTeX code for the given physics problem and solution:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem and Solution}
+
+\begin{enumerate}
+    \item[(a)] 
+    \begin{align*}
+        Q &= v_{\text{throat}} A = v_{\text{pipe}} A \\
+        \therefore v_{\text{throat}} &= v_{\text{pipe}} \frac{A}{a} = v_{\text{pipe}} \frac{D^2}{d^2} \\
+        &= 10 \times \frac{4^2}{2^2} = 40 \, \text{m/s}
+    \end{align*}
+
+    \item[(b)]
+    \begin{align*}
+        \Delta p &= \frac{1}{2} \rho v^2 \left(\frac{A^2}{a^2} - 1\right) \\
+        &= \frac{1}{2} \times 1000 \times 40^2 \left(\frac{4^4}{2^4} - 1\right) \\
+        &= 12 \times 10^6 \, \text{Pa}
+    \end{align*}
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code uses the `amsmath` package for better formatting of equations and aligns the equations for clarity. The problem is divided into parts (a) and (b), with each part showing the step-by-step calculation."
+9.10,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Reynolds number is given by:
+\[
+R = \frac{\rho D v}{\eta}
+\]
+where:
+\begin{itemize}
+    \item $\rho$ is the density,
+    \item $D$ is the diameter,
+    \item $v$ is the velocity,
+    \item $\eta$ is the coefficient of viscosity.
+\end{itemize}
+
+\begin{enumerate}
+    \item[(a)] 
+    \[
+    R = \frac{1 \times 0.1 \times 300}{0.018} = 1667
+    \]
+    Flow is steady because $R < 2200$.
+    
+    \item[(b)] 
+    \[
+    R = \frac{1 \times 0.1 \times 300}{0.008} = 3750
+    \]
+    Flow is turbulent because $R > 2200$.
+    
+    \item[(c)] 
+    \[
+    R = \frac{1 \times 0.1 \times 300}{0.004} = 7500
+    \]
+    Flow is turbulent because $R > 2200$.
+\end{enumerate}
+
+\end{document}
+```"
+9.11,"To convert the given physics text into properly formatted LaTeX, we need to ensure that all mathematical expressions are correctly typeset. Here is the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Consider a mass element \( dm \) of the fluid at distance \( x \) from the vertical axis. The centrifugal force on \( dm \) is given by:
+
+\[
+dF = dm \, \omega^2 x = dm \, \frac{dv}{dt} = dm \, \frac{dv}{dx} v \, dv
+\]
+
+Integrating both sides, we have:
+
+\[
+\omega^2 x \, dx \int v \, dv = \omega^2 \int x \, dx
+\]
+
+Solving the integrals, we get:
+
+\[
+\frac{v^2}{2} = \frac{\omega^2}{2} x^2 \bigg|_L^{L-l}
+\]
+
+Therefore, the velocity \( v \) is:
+
+\[
+v = \omega l \sqrt{\frac{2L}{l} - 1}
+\]
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the physics problem and solution formatted correctly, including all necessary mathematical symbols and integrals."
+9.12,"To convert the given physics text into properly formatted LaTeX, we need to write the equations clearly and ensure proper alignment and notation. Here is the LaTeX code for the given problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Applying Bernoulli's equation to points \( A \) and \( B \):
+
+\begin{align}
+    p_A + \frac{1}{2} \rho v^2 &= p_B \tag{1} \\
+    p_A + \rho L g h &= p_B \tag{2}
+\end{align}
+
+Comparing equations (1) and (2), we find:
+
+\[
+v = \sqrt{\frac{2gh\rho_L}{\rho_g}}
+\]
+
+\end{document}
+```
+
+### Explanation:
+- The `align` environment is used to align the equations at the equals sign.
+- Subscripts are used for \( p_A \) and \( p_B \) to denote pressures at points \( A \) and \( B \).
+- The fractions are formatted using `\frac{}` for clarity.
+- The square root is formatted using `\sqrt{}`.
+- The equations are tagged for reference using `\tag{}`."
+9.13,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Apply Bernoulli’s equation at the sections \( A_1 \) and \( A_2 \):
+
+\begin{equation}
+    P_1 + \frac{1}{2} \rho v_1^2 = P_2 + \frac{1}{2} \rho v_2^2
+\end{equation}
+
+Therefore,
+
+\begin{equation}
+    P_2 - P_1 = \Delta P = \Delta h \rho g = \frac{1}{2} \rho (v_1^2 - v_2^2)
+\end{equation}
+
+Thus,
+
+\begin{equation}
+    2g \Delta h = v_1^2 - v_2^2
+\end{equation}
+
+The flow rate \( Q \) is given by:
+
+\begin{equation}
+    Q = v_1 A_1 = v_2 A_2
+\end{equation}
+
+Solving for \( v_2 \):
+
+\begin{equation}
+    v_2 = \frac{v_1 A_1}{A_2}
+\end{equation}
+
+Using equation (4) in equation (2):
+
+\begin{equation}
+    2g \Delta h = v_1^2 \left( \frac{A_2^2 - A_1^2}{A_2^2} \right)
+\end{equation}
+
+Solving for \( v_1 \):
+
+\begin{equation}
+    v_1 = A_2 \sqrt{\frac{2g \Delta h}{A_2^2 - A_1^2}}
+\end{equation}
+
+Thus, the flow rate \( Q \) becomes:
+
+\begin{equation}
+    Q = A_1 v_1 = A_1 A_2 \sqrt{\frac{2g \Delta h}{A_2^2 - A_1^2}}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code provides a clear and structured presentation of the physics problem and its solution using Bernoulli's equation, with equations properly numbered and aligned."
+9.14,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem}
+
+The volume of water flowing out per second is given by:
+\begin{equation}
+    Q = sv
+\end{equation}
+where \( v \) is the speed and \( s \) is the cross-sectional area.
+
+The volume flowing out over time \( t \) is:
+\begin{equation}
+    V = Qt = svt
+\end{equation}
+
+The kinetic energy per unit volume is given by:
+\begin{equation}
+    \frac{1}{2} \rho v^2 = P = \frac{F}{A} = \frac{FL}{AL} = \frac{W}{V}
+\end{equation}
+where \( L \) is the length of the cylinder and \( W \) is the work done.
+
+Thus, the work done is:
+\begin{equation}
+    W = \frac{1}{2} \rho \frac{V^3}{s^2 t^2}
+\end{equation}
+where we have used equation (2).
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and its equations properly, ensuring clarity and correct mathematical representation."
+9.15,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Problem}
+
+\begin{enumerate}
+    \item[(a)] The components of $m\omega^2 r$ parallel to the $x$-axis and $z$-axis are $m\omega^2 x$ and $m\omega^2 z$, respectively. Taking $y$ in the upward direction, we have:
+    \[
+    dp = \rho(\omega^2 x \, dx + \omega^2 z \, dz - g \, dy)
+    \]
+    In the $x-z$ plane, $y = \text{constant}$. Hence $dy = 0$. Integrating the equation, we get:
+    \[
+    p = \rho \frac{\omega^2 x^2}{2} + \rho \frac{\omega^2 z^2}{2} + C
+    \]
+    where $C$ is the constant of integration. Thus,
+    \[
+    p = \rho \frac{\omega^2}{2} (x^2 + z^2) + C = \frac{1}{2} \omega^2 r^2 + C
+    \]
+    Given $p = p_0$ at $r = 0$, then $C = p_0$. Therefore,
+    \[
+    p = p_0 + \frac{1}{2} \rho \omega^2 r^2
+    \]
+
+    \item[(b)] The particle at $P$ is in equilibrium under centrifugal force and gravity, as shown in Fig. 9.6. Let $PM$ be tangent at $P(r, y)$ making an angle $\theta$ with the $r$-axis. $PN$ is normal at $P$. If $N$ is the normal reaction, then:
+    \[
+    N \cos \theta = mg
+    \]
+    \[
+    N \sin \theta = m\omega^2 r
+    \]
+    Therefore,
+    \[
+    \tan \theta = \frac{\omega^2 r}{g}
+    \]
+    \[
+    \frac{dy}{dr} = \frac{\omega^2 r}{g}
+    \]
+    Integrating, we have:
+    \[
+    y = \int \frac{dy}{dr} \, dr = \frac{\omega^2}{g} \int r \, dr + c
+    \]
+    \[
+    y = \frac{\omega^2 r^2}{2g} + c
+    \]
+    Given $y = 0$ at $r = 0$, it follows that $c = 0$. Thus,
+    \[
+    y = \frac{1}{2} \frac{\omega^2 r^2}{g}
+    \]
+    The figure of revolution of the curve is a paraboloid.
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure_9_6.png}
+    \caption{Equilibrium of a particle under centrifugal force and gravity.}
+    \label{fig:9_6}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX document includes the equations and explanations formatted correctly, along with a placeholder for the figure referenced in the text. Make sure to replace `figure_9_6.png` with the actual image file if you have it."
+9.16,"To convert the given physics text into properly formatted LaTeX using Bernoulli's equation, we can write it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Using Bernoulli's equation:
+\begin{equation}
+    P_2 + \frac{1}{2} \rho v_2^2 = P_1 + \frac{1}{2} \rho v_1^2
+\end{equation}
+
+Substituting the given values:
+\begin{equation}
+    3.1 \times 10^5 + \frac{1}{2} \times 1000 \times v_2^2 = 3.5 \times 10^5 + 0
+\end{equation}
+
+Solving for \( v_2 \):
+\begin{equation}
+    v_2 = 8.94 \, \text{m/s}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will format the problem and solution using Bernoulli's equation, including the substitution of values and the final result for \( v_2 \)."
+9.17,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem: Bernoulli's Equation and Projectile Motion}
+
+\subsection*{(a) Application of Bernoulli's Equation}
+
+Use Bernoulli’s equation at two points A and B at heights $h_A$ and $h_B$, respectively, as shown in Fig. 9.7:
+
+\begin{equation}
+    P + \rho g h_A = P + \rho g h_B + \frac{1}{2} \rho v^2
+\end{equation}
+
+where $P$ is the atmospheric pressure, $\rho$ is the density of water, and $v$ is the efflux velocity.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure9_7.png}
+    \caption{Diagram illustrating points A and B at heights $h_A$ and $h_B$.}
+    \label{fig:9_7}
+\end{figure}
+
+Calling $h_A - h_B = h$, we have:
+
+\begin{equation}
+    v = \sqrt{2gh}
+\end{equation}
+
+Using simple kinematics, the range $R$ is given by:
+
+\begin{equation}
+    R = v t = \sqrt{2gh} \cdot \sqrt{\frac{2(H-h)}{g}} = 2\sqrt{h(H-h)}
+\end{equation}
+
+\subsection*{(b) Symmetry in Range}
+
+In equation (4), $R$ is unchanged if we replace $h$ by $H-h$. Therefore, the second hole must be punched at a depth $H-h$ to get the same range.
+
+\end{document}
+```
+
+This LaTeX code includes the necessary equations and a placeholder for the figure, ensuring that the physics problem is clearly presented and formatted correctly."
+9.18,"To convert the given physics text into properly formatted LaTeX, we will structure it with equations and explanations clearly laid out. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+From problem (9.17), the range \( R \) is given by:
+\begin{equation}
+R = 2\sqrt{h(H-h)}
+\end{equation}
+
+To find the maximum range, we set the derivative of \( R \) with respect to \( h \) to zero, while holding \( H \) constant. This gives:
+\[
+\frac{dR}{dh} = 0
+\]
+
+Solving this equation, we find:
+\[
+h = \frac{H}{2}
+\]
+
+Substituting this value back into equation (1), we obtain the maximum range:
+\[
+R_{\text{max}} = H
+\]
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the equations and derivations properly formatted and aligned."
+9.19,"To properly format the given physics problem and solution in LaTeX, we will use the equation environment for clarity and readability. Here is the formatted LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+For the water level to remain stationary, the volume efflux must equal the rate of filling. We have:
+
+\[
+vA = x
+\]
+
+where \( v \) is the velocity of efflux, \( A \) is the cross-sectional area, and \( x \) is the rate of filling. Given:
+
+\[
+x = 70 \, \text{cm}^3/\text{s}
+\]
+
+The velocity of efflux is given by Torricelli's law:
+
+\[
+v = \sqrt{2gh}
+\]
+
+Substituting back, we have:
+
+\[
+\sqrt{2gh} \cdot A = x
+\]
+
+Solving for \( h \):
+
+\[
+h = \frac{x^2}{2gA^2}
+\]
+
+Substitute the given values:
+
+\[
+h = \frac{(70)^2}{2 \times 980 \times (0.25)^2}
+\]
+
+Calculating this gives:
+
+\[
+h = 40 \, \text{cm}
+\]
+
+Therefore, the height \( h \) is 40 cm.
+
+\end{document}
+```
+
+This LaTeX document will produce a neatly formatted solution to the problem, using mathematical symbols and equations to clearly present the calculations."
+9.20,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the water level be at a height \( x \) at any instant. The efflux velocity will be 
+\[ v = \sqrt{2gx}. \]
+As the water flows out, the level of water comes down, as shown in Fig. 9.8.
+
+\begin{center}
+    \textbf{Fig. 9.8}
+\end{center}
+
+The volume flux, \( Q \), is given by
+\[ Q = av = a\sqrt{2gx}. \]
+
+The volume flux is also equal to 
+\[ Q = A \frac{dx}{dt}. \]
+
+Equating the two expressions for the volume flux, we have
+\[ a\sqrt{2gx} = A \frac{dx}{dt}. \]
+
+Rearranging and integrating both sides, we get
+\[
+t = \int dt = \frac{A}{a\sqrt{2g}} \int_{h_1}^{h_2} \frac{dx}{\sqrt{x}}.
+\]
+
+Evaluating the integral, we find
+\[
+t = \frac{A}{a\sqrt{2g}} \left[ \sqrt{h_1} - \sqrt{h_2} \right].
+\]
+
+\end{document}
+```"
+9.21,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Solution}
+
+The pressure at the bottom due to the water column is given by:
+\[
+\text{Pressure} = (3 - 1) \, \text{atm} = 2 \, \text{atm} = 2 \times 10^5 \, \text{Pa}
+\]
+
+Using the hydrostatic pressure formula:
+\[
+P = h \rho g
+\]
+
+We can solve for the height \( h \) of the water column:
+\[
+h = \frac{P}{\rho g} = \frac{2 \times 10^5}{1000 \times g} = \frac{200}{g}
+\]
+
+The velocity \( v \) of the water at the bottom is given by:
+\[
+v = \sqrt{2gh} = \sqrt{2g \times \frac{200}{g}} = 20 \, \text{m/s}
+\]
+
+\subsection*{Second Method: Bernoulli's Equation}
+
+Applying Bernoulli’s equation:
+\[
+P_1 + \frac{1}{2} \rho v_1^2 = P_2 + \frac{1}{2} \rho v_2^2
+\]
+
+where the left side refers to the point inside the tank and the right side to a point outside the tank. Given:
+\[
+3 \times 10^5 + 0 = 1 \times 10^5 + \frac{1}{2} \times 1000 \times v_2^2
+\]
+
+Solving for \( v_2 \):
+\[
+2 \times 10^5 = \frac{1}{2} \times 1000 \times v_2^2
+\]
+
+\[
+v_2^2 = \frac{2 \times 10^5 \times 2}{1000} = 400
+\]
+
+\[
+v_2 = \sqrt{400} = 20 \, \text{m/s}
+\]
+
+Thus, the velocity \( v_2 \) is \( 20 \, \text{m/s} \).
+
+\end{document}
+```"
+9.22,"To properly format the given physics text into LaTeX, we need to ensure that all mathematical expressions are correctly typeset. Here's the LaTeX code for the given problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{equation}
+    Q = v_1 A_1 = v_2 A_2 = \sqrt{2gh_1} \cdot (2A_2) = \sqrt{2gh_2} \cdot A_2
+\end{equation}
+
+\begin{equation}
+    \therefore \frac{h_1}{h_2} = \frac{1}{4}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code uses the `amsmath` package for better handling of mathematical expressions. The equations are aligned and formatted to clearly display the relationships and the final result."
+9.23,"To format the given physics text using LaTeX, we will use the `equation` environment for the equations and ensure all symbols and variables are properly formatted. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Apply Bernoulli’s equation to a point just outside the hole and a point at the top of the kerosene surface. If \( P \) is the atmospheric pressure, \( h_1 \) and \( h_2 \) are the heights of the water and kerosene columns, respectively, and \( \rho_1 \) and \( \rho_2 \) are the respective densities, we have:
+
+\begin{equation}
+P + \frac{1}{2} \rho_1 v_1^2 = P + h_1 \rho_1 g + h_2 \rho_2 g
+\end{equation}
+
+Solving for \( v_1 \), we get:
+
+\begin{equation}
+v_1 = \sqrt{2g \left( h_1 + h_2 \frac{\rho_2}{\rho_1} \right)}
+\end{equation}
+
+Substituting \( h_1 = 60 \, \text{cm} \), \( h_2 = 40 \, \text{cm} \), \( \rho_1 = 1 \), \( \rho_2 = 0.8 \), and \( g = 980 \, \text{cm/s}^2 \), we find:
+
+\begin{equation}
+v_1 = 425 \, \text{cm/s} \quad \text{or} \quad 4.25 \, \text{m/s}
+\end{equation}
+
+\end{document}
+```
+
+This code will produce a well-formatted document with the equations correctly typeset in LaTeX. The use of `amsmath` package ensures that the equations are displayed neatly, and the variables are clearly defined."
+9.24,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Volume and Mass Efflux at Points A and B}
+
+Consider the volume efflux at points A and B as shown in Fig. 9.9.
+
+\begin{align*}
+    Q_A &= v_A S \\
+    Q_B &= v_B S
+\end{align*}
+
+The mass efflux at points A and B is given by:
+
+\begin{align*}
+    (\text{Mass efflux})_A &= \rho v_A S \\
+    (\text{Mass efflux})_B &= \rho v_B S
+\end{align*}
+
+The force at point A, due to the rate of change of momentum, is:
+
+\begin{align*}
+    F_A &= (\text{rate of change of momentum})_A \\
+        &= \rho v_A S v_A \\
+        &= \rho S v_A^2 \\
+        &= \rho S (2gh) \\
+        &= 2 \rho S gh
+\end{align*}
+
+The force at point B is:
+
+\begin{align*}
+    F_B &= 2 \rho S g (h + \Delta h)
+\end{align*}
+
+The difference in force, considering the vector force is in the opposite direction, is:
+
+\begin{align*}
+    F_B - F_A &= 2 \rho S g \Delta h \\
+              &= 2 \times 1000 \times 1.0 \times 10^{-4} \times 9.8 \times 0.51 \\
+              &= 1.0 \, \text{N}
+\end{align*}
+
+\end{document}
+```"
+9.25,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Volume of Liquid Flowing per Second}
+
+The volume of liquid flowing per second is given by:
+
+\[
+V = \frac{\pi r^4 P}{8 \eta l}
+\]
+
+Solving for \( P \):
+
+\[
+P = \frac{8 \eta l V}{\pi r^4}
+\]
+
+Substituting the given values:
+
+\[
+P = \frac{8 \times 0.001 \times 4000 \times 0.002}{3.14 \times (0.04)^4}
+\]
+
+\[
+P = 0.0796 \times 10^5 \, \text{Pa}
+\]
+
+The pressure head \( h \) is calculated as:
+
+\[
+h = \frac{P}{\rho g} = \frac{0.0796 \times 10^5}{1000 \times 9.8}
+\]
+
+\[
+h = 0.8 \, \text{m}
+\]
+
+\end{document}
+```
+
+This LaTeX code formats the physics problem and solution with proper mathematical notation and alignment."
+9.26,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+We start with the equation:
+
+\[
+P_A - P_B = \frac{8 \eta l_1 Q}{\pi r^4} = \frac{8 \eta Q}{\pi (0.16) (2 \times 10^{-3})^4} = \frac{8 \eta Q (0.01)}{\pi \times 10^{-12}}
+\]
+
+\[
+P_B - P_0 = \frac{8 \eta Q \times (0.04)}{\pi \times 10^{-12}}
+\]
+
+Adding these two equations, we have:
+
+\[
+P_A - P_0 = \frac{8 \eta Q \times 0.05}{\pi \times 10^{-12}}
+\]
+
+Dividing equation (2) by equation (3), we get:
+
+\[
+\frac{P_B - P_0}{P_A - P_0} = 0.8
+\]
+
+Thus,
+
+\[
+P_B - P_0 = 0.8 \times (P_A - P_0) = 0.8 \times 3 = 2.4 \, \text{cm of water}
+\]
+
+\end{document}
+```"
+9.27,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The terminal velocity \( v_T \) is given by
+
+\begin{equation}
+v_T = \frac{2}{9} \frac{r^2 g (\rho_1 - \rho_2)}{\eta}
+\end{equation}
+
+where \( r \) is the radius of the drop, \( \rho_1 \) and \( \rho_2 \) are the densities of the drop and air, respectively, \( g \) is the gravity, and \( \eta \) is the coefficient of viscosity. If the new radius is \( r' \) and the new terminal velocity is \( v'_T \), then
+
+\begin{equation}
+\frac{v'_T}{v_T} = \frac{(r')^2}{r^2}
+\end{equation}
+
+Under the assumption that the drops are incompressible, the volume remains constant:
+
+\begin{equation}
+\frac{4\pi}{3} (r')^3 = 2 \times \frac{4\pi}{3} r^3 \quad \therefore \quad r' = 2^{1/3} r
+\end{equation}
+
+Using (3) in (2),
+
+\begin{equation}
+v'_T = 2^{2/3} v_T = 4^{1/3} v_T
+\end{equation}
+
+\end{document}
+```
+"
+9.28,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+For the first tube, the flow rate \( Q_1 \) is given by:
+
+\[
+Q_1 = \frac{\pi P r^4}{8 \eta l} = Q
+\]
+
+For the second tube, the flow rate \( Q_2 \) is:
+
+\[
+Q_2 = \frac{\pi P (2r)^4}{8 \eta \frac{l}{2}} = \frac{32 \pi P r^4}{8 \eta l} = 32Q
+\]
+
+The total quantity of water flowing is:
+
+\[
+Q_1 + Q_2 = Q + 32Q = 33Q
+\]
+
+\end{document}
+```"
+9.29,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the pressure at the beginning of the first tube be \( P_1 \) and at the end \( P_2 \). Since the water flow must be continuous, the rate of flow in the two tubes must be identical, that is, \( Q_1 = Q_2 \). Let the atmospheric pressure be \( P_0 \).
+
+\[
+P_1 - P_2 = \frac{8 \eta l Q_1}{\pi r^4} \quad \text{(for the first tube)} \tag{1}
+\]
+
+\[
+P_2 - P_0 = \frac{8 \eta (l/2) Q_2}{\pi (2r)^4} = \frac{8 \eta l Q_1}{32 \pi r^4} \quad \text{(for the second tube)} \tag{2}
+\]
+
+Adding (1) and (2):
+
+\[
+P_1 - P_0 = \frac{8 \eta l}{\pi r^4} \left( \frac{33 Q_1}{32} \right) \tag{3}
+\]
+
+But for a single tube of length \( l \) and radius \( r \):
+
+\[
+P_1 - P_0 = \frac{8 \eta l Q}{\pi r^4} \tag{4}
+\]
+
+Comparing (3) and (4), we get:
+
+\[
+Q_1 = \frac{32 Q}{33}
+\]
+
+\end{document}
+```
+
+This LaTeX code will produce a well-formatted document with the given physics equations and their explanations."

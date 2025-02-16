@@ -1,0 +1,2329 @@
+Question_number,Question
+5.1,"To convert the given physics text into properly formatted LaTeX, we will structure the equations and ensure all symbols and mathematical expressions are correctly formatted. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The gravitational force between two spheres is given by:
+
+\begin{equation}
+    F = \frac{G M_1 M_2}{r^2}
+\end{equation}
+
+If \( R \) is the radius of either sphere, the distance between the centers of the spheres in contact is \( r = 2R \). Given that \( M_1 = M_2 = M = \frac{4}{3} \pi R^3 \rho \), we can substitute these into the equation for force:
+
+\begin{equation}
+    F = \frac{G M^2}{(2R)^2}
+\end{equation}
+
+Substituting \( M = \frac{4}{3} \pi R^3 \rho \) into the equation, we have:
+
+\begin{align}
+    F &= \frac{G \left( \frac{4}{3} \pi R^3 \rho \right)^2}{4R^2} \\
+    &= \frac{G \left( \frac{16}{9} \pi^2 R^6 \rho^2 \right)}{4R^2} \\
+    &= \frac{4 \pi^2 G R^4 \rho^2}{9}
+\end{align}
+
+Substituting the given values:
+
+\begin{align}
+    F &= \frac{4 \pi^2}{9} \times 6.67 \times 10^{-11} \times (0.2)^4 \times (11300)^2 \\
+    &= 5.98 \times 10^{-5} \, \text{N}
+\end{align}
+
+\end{document}
+```
+
+This LaTeX code will produce a document with properly formatted equations, showing the derivation and calculation of the gravitational force between two spheres."
+5.2,"To properly format the given physics text into LaTeX, we need to clearly define the problem and solution, using appropriate mathematical notation and alignment. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+As the masses of objects \( A \) and \( B \) are identical and the distances \( PA = PB \), the magnitudes of the forces \( F_{PA} = F_{PB} \).
+
+Resolve these forces into horizontal and vertical components. The horizontal components, being in opposite directions, cancel each other out. The vertical components add up.
+
+Given:
+\[
+F_{PA} = F_{PB} = \frac{G \cdot (0.01) \cdot (0.26)}{(0.1)^2} = 0.26G
+\]
+
+Each vertical component:
+\[
+= 0.26G \times \frac{6}{10} = 0.156G
+\]
+
+Therefore, the net force \( F_{\text{Net}} \) is:
+\[
+F_{\text{Net}} = 2 \times 0.156G = 2 \times 0.156 \times 6.67 \times 10^{-11} \, \text{N} = 2.08 \times 10^{-11} \, \text{N}
+\]
+
+\end{document}
+```
+
+This LaTeX document uses the `amsmath` package for better handling of mathematical expressions. The equations are aligned and formatted to clearly show the steps in the calculation."
+5.3,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+At distance \( r \), the gravitational force between two masses \( M \) and \( m \) is given by:
+\[
+F = F_m = \frac{GMm}{r^2}
+\]
+
+The acceleration of mass \( m \) is:
+\[
+a_m = \frac{F_m}{m} = \frac{GM}{r^2}
+\]
+
+The acceleration of mass \( M \) is:
+\[
+a_M = \frac{F_m}{M} = \frac{Gm}{r^2}
+\]
+
+The relative acceleration \( a_{\text{rel}} \) is the sum of the individual accelerations:
+\[
+a_{\text{rel}} = a_m + a_M = \frac{G(M + m)}{r^2}
+\]
+
+The relative acceleration can also be expressed as:
+\[
+a_{\text{rel}} = \frac{dv_{\text{rel}}}{dt} = v_{\text{rel}} \frac{dv_{\text{rel}}}{dr} = \frac{G(M + m)}{r^2}
+\]
+
+Integrating both sides, we have:
+\[
+\int v_{\text{rel}} \, dv_{\text{rel}} = \frac{v_{\text{rel}}^2}{2} = G(M + m) \int \frac{d}{r^2} \, dr
+\]
+
+Evaluating the integral:
+\[
+\frac{v_{\text{rel}}^2}{2} = G(M + m) \left[-\frac{1}{r}\right]_{r=\infty}^{r=d} = \frac{G(M + m)}{d}
+\]
+
+Thus, the relative velocity is:
+\[
+v_{\text{rel}} = \sqrt{\frac{2G(M + m)}{d}}
+\]
+
+\end{document}
+```"
+5.4,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The gravitational force is given by:
+\[
+F = -\frac{GMm}{x^2}
+\]
+where \( M \) and \( m \) are the masses of the sun and the earth, which are a distance \( x \) apart. Earth's acceleration is:
+\[
+a = \frac{dv}{dt} = \frac{F}{m} = -\frac{GM}{x^2}
+\]
+Thus,
+\[
+\frac{dv}{dt} = v \frac{dv}{dx} = -\frac{GM}{x^2}
+\]
+\[
+v \, dv = -\frac{GM}{x^2} \, dx
+\]
+Integrating both sides:
+\[
+\int v \, dv = \frac{v^2}{2} = -GM \int \frac{dx}{x^2} + C
+\]
+where \( C \) is a constant. Therefore:
+\[
+\frac{v^2}{2} = \frac{GM}{x} + C
+\]
+Initially, \( v = 0 \), \( x = r \), so:
+\[
+C = -\frac{GM}{r}
+\]
+Thus:
+\[
+v = \frac{dx}{dt} = \sqrt{2GM} \sqrt{\frac{1}{x} - \frac{1}{r}}
+\]
+\[
+dt = \frac{1}{\sqrt{2GM}} \frac{dx}{\sqrt{\frac{1}{x} - \frac{1}{r}}}
+\]
+Integrating:
+\[
+t = \int dt = \frac{1}{\sqrt{2GM}} \int_0^r \frac{dx}{\sqrt{\frac{1}{x} - \frac{1}{r}}}
+\]
+Substitute \( x = r \cos^2 \theta \), \( dx = -2r \sin \theta \cos \theta \, d\theta \):
+\[
+t = -2 \sqrt{\frac{r^3}{2GM}} \int_0^{\pi/2} \cos^2 \theta \, d\theta
+\]
+\[
+= 2 \sqrt{\frac{r^3}{2GM}} \left[ \frac{\theta}{2} + \frac{\sin 2\theta}{4} \right]_0^{\pi/2}
+\]
+\[
+= \frac{\pi}{2\sqrt{2}} \sqrt{\frac{r^3}{GM}}
+\]
+But the period of Earth's orbit is:
+\[
+T = 2\pi \sqrt{\frac{r^3}{GM}}
+\]
+Thus:
+\[
+t = \frac{T}{4\sqrt{2}} = \frac{365}{4\sqrt{2}} \approx 64.53 \text{ days}
+\]
+
+\end{document}
+```"
+5.5,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+If the Earth were at rest, then the gravitational force on a body of mass at $P$ would be in the direction $PO$, i.e., towards the center of the Earth, as shown in Fig. 5.9. However, due to the rotation of the Earth about the polar axis $NS$, a part of the gravitational force is used to provide the necessary centripetal force to enable the mass $m$ at $P$ in the latitude $\lambda$ to describe a circular path with radius $PA = r = R \cos \lambda$, where $PO = R$ is the Earth's radius. This centripetal force is equal to $m \omega^2 r$, or $m \omega^2 R \cos \lambda$ towards the center and is represented by $CA$, where $\omega$ is the angular velocity of Earth's diurnal rotation.
+
+In the absence of rotation, the gravitational force $mg$ acts radially towards the center $O$ and is represented by $PO$. Resolve this into two mutually perpendicular components: one along $PA$ given by $mg \cos \lambda$ and the other along $PB$ given by $mg \sin \lambda$, represented by $PB$. Drop $CD$ perpendicular to the $EW$-axis. Then the resultant force $mg'$ is given by $PD$ both in magnitude and direction. A plumb line at $P$ will make a small angle $\theta (\angle OPD)$ with line $PO$.
+
+\[
+mg' = \sqrt{(mg \cos \lambda - m \omega^2 R \cos \lambda)^2 + (mg \sin \lambda)^2} = m \sqrt{g^2 - 2gR\omega^2 \cos^2 \lambda + \omega^4 R^2 \cos^2 \lambda}
+\]
+
+The third term in the radical is much smaller than the second term and is neglected. Thus,
+
+\[
+g' \approx \left( g^2 - 2gR\omega^2 \cos^2 \lambda \right)^{1/2} = g \left( 1 - \frac{2R}{g} \omega^2 \cos^2 \lambda \right)^{1/2} \approx g \left( 1 - \frac{R}{g} \omega^2 \cos^2 \lambda \right)^{1/2}
+\]
+
+where we have expanded binomially and retained only the first two terms.
+
+Now in $\triangle OPD$, 
+
+\[
+\frac{PD}{\sin \angle POD} = \frac{OD}{\sin \theta}
+\]
+
+or
+
+\[
+\frac{g - R\omega^2 \cos^2 \lambda}{\sin \lambda} = \omega^2 R \cos \lambda \sin \theta
+\]
+
+\[
+\sin \theta \approx \theta = \frac{\omega^2 R \cos \lambda \sin \lambda}{g - R\omega^2 \cos^2 \lambda}
+\]
+
+\[
+\theta \approx \frac{\omega^2}{g} R \cos \lambda \sin \lambda \quad (\text{since the second term in the denominator is much smaller than the first term})
+\]
+
+\[
+\approx \frac{2\pi^2 R}{g T^2} \sin 2\lambda
+\]
+
+(a) $\theta$ will be maximum when $\sin 2\lambda$ is maximum, i.e., $2\lambda = 90^\circ$ or $\lambda = 45^\circ$.
+
+(b) At the poles $\lambda = 90^\circ$ and so $\theta = 0^\circ$.
+
+(c) At the equator $\lambda = 0^\circ$ and so $\theta = 0^\circ$.
+
+\end{document}
+```"
+5.6,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Consider a spherical shell of radius \( r \) and thickness \( \mathrm{d}r \) concentric with the sphere of radius \( R \). If \( \rho \) is the density, then 
+
+\begin{equation}
+    \rho = \frac{3M}{4\pi R^3}
+\end{equation}
+
+The mass of the shell is given by 
+
+\[
+    \mathrm{d}m = 4\pi r^2 \mathrm{d}r \, \rho
+\]
+
+The mass of the sphere of radius \( r \), which is equal to \( \frac{4\pi r^3}{3} \rho \), may be considered to be concentrated at the centre. The gravitational potential energy between the spherical shell and the sphere of radius \( r \) is 
+
+\begin{align}
+    \mathrm{d}U &= - G \left( 4\pi r^2 \mathrm{d}r \, \rho \right) \left( \frac{4\pi r^3}{3} \rho \right) \frac{1}{r} \\
+    &= -\frac{16\pi^2 G \rho^2 r^4 \mathrm{d}r}{3}
+\end{align}
+
+The total gravitational energy of the Earth is 
+
+\begin{align}
+    U &= \int \mathrm{d}U = -\frac{16\pi^2 G \rho^2}{3} \int_0^R r^4 \mathrm{d}r \\
+    &= -\frac{16\pi^2 G \rho^2 R^5}{15} \\
+    &= -\frac{3}{5} \frac{GM^2}{R}
+\end{align}
+
+where we have used equation (1). Substituting the values, we have 
+
+\[
+    U = -6.67 \times 10^{-11} \times 0.6 \times \left( 6 \times 10^{24} \right)^2 \div 6.4 \times 10^6 = 2.25 \times 10^{32} \, \text{J}
+\]
+
+\end{document}
+```"
+5.7,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+If $g_0$ is the gravity at the Earth's surface, $g_h$ at height $h$, and $g_d$ at depth $d$, then
+
+\begin{equation}
+    g_h = g_0 \frac{R^2}{(R+h)^2}
+\end{equation}
+
+\begin{equation}
+    g_d = g_0 \left(1 - \frac{d}{R}\right)
+\end{equation}
+
+By problem, $g_d = g_h$ at $h = d$, 
+
+\begin{equation}
+    g_0 \left(1 - \frac{d}{R}\right) = g_0 \frac{R^2}{(R+d)^2}
+\end{equation}
+
+From equations (1) and (2), we get
+
+\begin{equation}
+    d^2 + dR - R^2 = 0
+\end{equation}
+
+Solving the quadratic equation, we have
+
+\begin{equation}
+    d = \frac{(\sqrt{5} - 1)}{2} R \approx 0.118R
+\end{equation}
+
+Substituting $R = 6400 \, \text{km}$, we find
+
+\begin{equation}
+    d = 0.118 \times 6400 = 755 \, \text{km}
+\end{equation}
+
+\end{document}
+```"
+5.8,"To convert the given physics text into properly formatted LaTeX, we need to ensure that all mathematical expressions are correctly typeset. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The weight of an object is given by:
+
+\[
+mg = \frac{GMm}{R^2}
+\]
+
+where \( M = \frac{4}{3}\pi R^3 \rho \). Therefore, the density \( \rho \) is:
+
+\[
+\rho = \frac{3g}{4\pi GR} = \frac{3 \times 980}{4\pi \times 6.67 \times 10^{-8} \times 6.38 \times 10^8} = 5.5 \, \text{g/cm}^3
+\]
+
+\end{document}
+```
+
+This LaTeX document includes the necessary mathematical expressions with appropriate formatting, such as fractions, exponents, and multiplication symbols. The density calculation is also clearly presented."
+5.9,"Here is the properly formatted LaTeX code for the given physics problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let \( M_s \) and \( M_E \) be the masses of the Sun and Earth, respectively. Let a body of mass \( m \) be at a distance \( x \) from the center of the Earth, and \( d \) be the distance between the centers of the Sun and the Earth. The forces are balanced if
+
+\[
+G \frac{m M_E}{x^2} = G \frac{m M_s}{(d-x)^2}
+\]
+
+Given that \( M_s = 3.24 \times 10^5 M_E \), \( x = \frac{d}{570.2} \), \( d = 9.3 \times 10^7 \, \text{km} \), and \( \frac{d}{570.2} = 1.631 \times 10^5 \, \text{km} \).
+
+\end{document}
+```
+
+This LaTeX document includes the necessary mathematical expressions and ensures that all variables and equations are correctly formatted."
+5.10,"To convert the given physics text into properly formatted LaTeX, we will structure the equations clearly and ensure correct syntax. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+By problem (5.5), the equation for the effective gravitational acceleration is given by:
+
+\begin{equation}
+    g' = g - R \omega^2 \cos^2 \lambda
+\end{equation}
+
+Setting \(\lambda = 0\), \(\omega = 7.27 \times 10^{-5} \, \text{rad/s}\), and \(R = 6.4 \times 10^8 \, \text{cm}\), we find:
+
+\begin{equation}
+    \Delta g = g - g' = R \omega^2
+\end{equation}
+
+Substituting the given values:
+
+\begin{align*}
+    \Delta g &= 6.4 \times 10^8 \times (7.27 \times 10^{-5})^2 \\
+             &= 3.38 \, \text{cm/s}^2
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX document includes the necessary packages and environments to properly format the equations. The calculations are clearly presented, and the variables are defined with their respective values."
+5.11,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+Figure 5.10 shows the cross-section of a solid sphere of mass $M$ and radius $a$ with constant density $\rho$, its centre being at $O$. It is required to find the potential $V(r)$ at the point $P$, at distance $r$ from the centre. The contribution to $V(r)$ comes from two regions, one $V_1$ from mass lying within the sphere of radius $r$ and the other $V_2$ from the region outside it. Thus
+
+\begin{equation}
+V(r) = V_1 + V_2
+\end{equation}
+
+The potential $V_1$ at $P$ is the same as due to the mass of the sphere of radius $r$ concentrated at the centre $O$ and is given by
+
+\begin{equation}
+V_1 = -G \frac{4\pi r^3}{3} \rho \frac{1}{r} = -\frac{4}{3} \pi G r^2 \rho
+\end{equation}
+
+For the mass outside $r$, consider a typical shell at distance $x$ from the centre $O$ and of thickness $dx$. The volume of the shell is $4\pi x^2 dx$. The mass of the shell is $(4\pi x^2 dx)\rho$. The potential due to this shell at the centre or at any point inside the shell, including at $P$, will be
+
+\begin{equation}
+dV_2 = -\frac{4\pi G \rho x^2 dx}{x} = -4\pi G \rho x dx
+\end{equation}
+
+The potential $V_2$ at $P$ due to the outer shells ($x > r$) is obtained by integrating (3) between the limits $r$ and $a$.
+
+\begin{equation}
+V_2 = \int dV_2 = -4\pi G \rho \int_{r}^{a} x \, dx = -2\pi G \rho (a^2 - r^2)
+\end{equation}
+
+Using (2) and (4) in (1) and using $\rho = \frac{3M}{4\pi a^3}$, we have
+
+\begin{equation}
+V(r) = -\frac{GM}{2a} \left( 3 - \frac{r^2}{a^2} \right)
+\end{equation}
+
+The potential (5) is that of a simple harmonic oscillator as the force
+
+\begin{equation}
+F = -\frac{dV}{dr} = -\frac{GMr}{a^3}
+\end{equation}
+
+i.e., the force is opposite and proportional to the distance.
+
+\end{document}
+```"
+5.12,"To convert the given physics text into properly formatted LaTeX, we will structure the equations and text for clarity and correctness. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Consider a length element \( dx \) of a thin rod of length \( L \), at a distance \( x \) from point \( P \) (see Fig. 5.11). The mass element is given by \( \left(\frac{M}{L}\right) dx \). The potential at \( P \) due to this mass element is
+
+\[
+dV = -\frac{GM}{L} \frac{dx}{x}
+\]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure5_11.png} % Placeholder for the actual figure
+    \caption{The potential at point \( P \) from the entire rod.}
+    \label{fig:5_11}
+\end{figure}
+
+The potential at \( P \) from the entire rod is given by
+
+\[
+V = \int dV = -\frac{GM}{L} \int_{d-\frac{L}{2}}^{d+\frac{L}{2}} \frac{dx}{x}
+\]
+
+Evaluating the integral, we have
+
+\[
+V = -\frac{GM}{L} \left[ \ln \left| x \right| \right]_{d-\frac{L}{2}}^{d+\frac{L}{2}} = -\frac{GM}{L} \left( \ln \left( d+\frac{L}{2} \right) - \ln \left( d-\frac{L}{2} \right) \right)
+\]
+
+Simplifying, the potential is
+
+\[
+V = -\frac{GM}{L} \ln \left( \frac{d+\frac{L}{2}}{d-\frac{L}{2}} \right)
+\]
+
+\end{document}
+```
+
+This LaTeX code includes the necessary formatting for the physics problem, including the integral setup and evaluation, as well as a placeholder for the figure mentioned in the text. The equations are properly aligned, and the logarithmic expression is simplified for clarity."
+5.13,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The linear speed of an object on the equator is given by:
+\[
+v = \omega R = (7.27 \times 10^{-5} \, \text{rad/s}) \times (6.4 \times 10^6 \, \text{m}) = 465.3 \, \text{m/s}
+\]
+
+The orbital velocity of a surface satellite is:
+\[
+v_0 = \sqrt{gr} = \sqrt{9.8 \, \text{m/s}^2 \times 6.4 \times 10^6 \, \text{m}} = 7920 \, \text{m/s}
+\]
+
+When launched in the westerly direction, the launching speed \(v_0\) will be added to \(v\) as the Earth rotates from west to east, while in the easterly direction, it will be subtracted. Therefore, the launching speeds are:
+
+\begin{align*}
+\text{Westerly launching speed} &= 7920 \, \text{m/s} + 465 \, \text{m/s} = 8385 \, \text{m/s} \\
+\text{Easterly launching speed} &= 7920 \, \text{m/s} - 465 \, \text{m/s} = 7455 \, \text{m/s}
+\end{align*}
+
+The percentage difference between the westerly and easterly launching speeds is:
+\[
+\frac{8385 - 7455}{7920} \times 100\% = \frac{930}{7920} \times 100\% \approx 11.74\%
+\]
+
+Thus, the difference in launching speeds is approximately 11\%.
+
+\end{document}
+```"
+5.14,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Consider an element of arc of length \( ds = R \, d\theta \), as shown in Fig. 5.12. The corresponding mass element is given by \( dm = \lambda \, ds = \lambda R \, d\theta \), where \( \lambda \) is the linear density (mass per unit length). The intensity at the origin due to \( dm \) will be:
+
+\[
+dE = \frac{G \lambda R \, d\theta}{R^2} = \frac{G \lambda \, d\theta}{R}
+\]
+
+The \( x \)-component of intensity at the origin due to \( dm \) will be:
+
+\[
+dE_x = \frac{G \lambda}{R} \, d\theta \sin \theta
+\]
+
+Therefore, the \( x \)-component of intensity due to the quarter of the circle at the origin will be:
+
+\[
+E_x = \frac{G \lambda}{R} \int_{0}^{\pi/2} \sin \theta \, d\theta = \frac{G \lambda}{R}
+\]
+
+Similarly, the \( y \)-component of intensity due to the quarter of the circle at the origin will be:
+
+\[
+E_y = \frac{G \lambda}{R} \int_{0}^{\pi/2} \cos \theta \, d\theta = \frac{G \lambda}{R}
+\]
+
+Thus, the total intensity \( E \) at the origin is given by:
+
+\[
+E = \sqrt{E_x^2 + E_y^2} = \sqrt{2} \frac{G \lambda}{R}
+\]
+
+\end{document}
+```
+
+This LaTeX code includes all the necessary equations and formatting to clearly present the physics problem and its solution. The equations are properly aligned and formatted for readability."
+5.15,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The gravitational field at point B is given by:
+\[
+g_B = \frac{F_B}{M} = \frac{GmM}{d^2M} = \frac{Gm}{d^2}
+\]
+
+The gravitational field at point C is given by:
+\[
+g_C = \frac{F_C}{M} = \frac{GmM}{(d+R)^2M} = \frac{Gm}{(d+R)^2}
+\]
+
+The difference in gravitational field between points B and C is:
+\[
+\Delta g = g_B - g_C = \frac{Gm}{d^2} - \frac{Gm}{(d+R)^2}
+\]
+
+Simplifying the expression, we have:
+\[
+\Delta g = Gm \left( \frac{1}{d^2} - \frac{1}{(d+R)^2} \right) = Gm \frac{(2Rd + R^2)}{d^2(d+R)^2}
+\]
+
+Since \(d \gg R\), we can approximate:
+\[
+\Delta g \approx \frac{2GmR}{d^3}
+\]
+
+\end{document}
+```
+
+This LaTeX code properly formats the given physics text into a structured and readable document, using appropriate mathematical notation and alignment."
+5.16,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+By problem (5.6), the gravitational energy is given by
+\begin{equation}
+    U = -\frac{3}{5} \frac{GM^2}{R}
+\end{equation}
+
+The volume of the star is
+\begin{equation}
+    V = \frac{4\pi R^3}{3}
+\end{equation}
+
+Therefore,
+\begin{equation}
+    R = \left(\frac{3V}{4\pi}\right)^{1/3}
+\end{equation}
+
+Substituting for \( R \) in the expression for \( U \), we have
+\begin{equation}
+    U = -\frac{3}{5} \left(\frac{4\pi}{3V}\right)^{1/3} GM^2
+\end{equation}
+
+The pressure \( P \) is given by
+\begin{equation}
+    P = -\frac{\partial U}{\partial V} = -\frac{1}{5} \left(\frac{4\pi}{3}\right) GM^2 V^{-4/3}
+\end{equation}
+
+Thus, \( P \propto V^{-4/3} \).
+
+\end{document}
+```
+
+This LaTeX code correctly formats the given physics text into a series of equations, ensuring clarity and proper mathematical representation."
+5.17,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Consider a line element \( dx \) at a distance \( x \) from \( O \), as shown in Fig. 5.13. The field point \( P \) is at a distance \( R \) from the infinite line. Let \( PA = r \). The \( x \)-component of the gravitational field at \( P \) due to this line element will get cancelled by a symmetric line element on the other side. However, the \( y \)-component will add up. If \( \lambda \) is the linear mass density, the corresponding mass element is \( \lambda dx \).
+
+The differential gravitational field \( dE \) in the \( y \)-direction is given by:
+
+\[
+dE = dE_y = -G \frac{\lambda dx \sin \theta}{r^2}
+\]
+
+where
+
+\[
+r^2 = x^2 + R^2 \tag{2}
+\]
+
+and
+
+\[
+x = R \cot \theta \tag{3}
+\]
+
+Substituting equation (3) into equation (2), we get:
+
+\[
+r^2 = R^2 \csc^2 \theta \tag{4}
+\]
+
+Differentiating equation (3), we find:
+
+\[
+dx = -R \csc^2 \theta \, d\theta \tag{5}
+\]
+
+Using equations (4) and (5) in equation (1), we have:
+
+\[
+dE = -G \lambda \frac{R \sin \theta \, d\theta}{R^2 \csc^2 \theta} = -G \lambda \frac{\sin \theta \, d\theta}{R}
+\]
+
+Integrating from \( 0 \) to \( \pi/2 \) for the contribution from the line elements on the left-hand side of \( O \) and doubling the result to account for contributions on the right-hand side, we get:
+
+\[
+E = -2 \int_{0}^{\pi/2} \frac{G \lambda \sin \theta}{R} \, d\theta = -\frac{2G \lambda}{R} \int_{0}^{\pi/2} \sin \theta \, d\theta
+\]
+
+Evaluating the integral:
+
+\[
+E = -\frac{2G \lambda}{R} \left[ -\cos \theta \right]_{0}^{\pi/2} = -\frac{2G \lambda}{R} \left( 0 - (-1) \right) = -\frac{2G \lambda}{R}
+\]
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Fig5_13.png} % Replace with actual figure file
+\end{center}
+
+\end{document}
+```"
+5.18,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the neutral point be located at distance \( x \) from the Earth's centre on the line joining the centres of the Earth and Moon. If \( M_e \) and \( M_m \) are the masses of the Earth and the Moon, respectively, and \( m \) is the mass of the body placed at the neutral point, then the force exerted by \( M_e \) and \( M_m \) must be equal and opposite to that of \( M_m \) on \( m \).
+
+\[
+G \frac{M_e m}{x^2} = G \frac{M_m m}{(d-x)^2}
+\]
+
+Canceling \( G \) and \( m \) from both sides, we get:
+
+\[
+\frac{M_e}{M_m} = \frac{x^2}{(d-x)^2}
+\]
+
+Given that \( \frac{M_e}{M_m} = 81 \), we have:
+
+\[
+81 = \frac{x^2}{(d-x)^2}
+\]
+
+Since \( d > x \), there is only one solution:
+
+\[
+\frac{x}{d-x} = \sqrt{81} = 9
+\]
+
+Solving for \( x \), we find:
+
+\[
+x = \frac{9}{10}d
+\]
+
+\end{document}
+```
+
+This LaTeX code will correctly format the given physics problem and solution, ensuring clarity and proper mathematical representation."
+5.19,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+For a homogeneous sphere of mass \( M \), the potential for \( r \leq R \) is given by
+\[
+V(r) = -\frac{1}{2} \frac{GM}{R} \left( 3 - \frac{r^2}{R^2} \right).
+\]
+
+At the center of the sphere, \( V(0) \) is
+\[
+V(0) = -\frac{3}{2} \frac{GM}{R}.
+\]
+
+For a hemisphere at the center of the base, \( V(0) \) is
+\[
+V(0) = -\frac{3}{4} \frac{GM}{R}.
+\]
+
+The work done to move a particle of mass \( m \) to infinity will be
+\[
+\frac{3}{4} \frac{GMm}{R}.
+\]
+
+\end{document}
+```"
+5.20,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the point \( P \) be at distance \( r \) from the center of the shell such that \( a < r < b \). The gravitational field at \( P \) will be effective only from matter within the sphere of radius \( r \). The mass within the shell of radii \( a \) and \( r \) is 
+
+\[
+\frac{4\pi}{3} (r^3 - a^3) \rho.
+\]
+
+Assume that this mass is concentrated at the center. Then the gravitational field at a point distance \( r \) from the center will be 
+
+\[
+g(r) = -\frac{4\pi}{3} \frac{(r^3 - a^3)}{r^2} \rho G.
+\]
+
+But 
+
+\[
+\rho = \frac{3M}{4\pi(b^3 - a^3)}
+\]
+
+\[
+\therefore \quad g(r) = -\frac{GM(r^3 - a^3)}{r^2(b^3 - a^3)}.
+\]
+
+\end{document}
+```"
+5.21,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Let the disc be located in the $xy$-plane with its centre at the origin. $P$ is a point on the $z$-axis at distance $z$ from the origin. Consider a ring of radii $r$ and $r+dr$ concentric with the disc, as shown in Fig. 5.14. The mass of the ring will be 
+
+\begin{equation}
+    dm = 2\pi r \, dr \, \sigma
+\end{equation}
+
+The horizontal component of the field at $P$ will be zero because for each point on the ring there will be another point symmetrically located on the ring which will produce an opposite effect. The vertical component of the field at $P$ will be
+
+\begin{equation}
+    dg_z = -G \times \frac{2\pi r \, dr \, \sigma \cos \theta}{(r^2 + z^2)}
+\end{equation}
+
+But 
+
+\begin{equation}
+    \cos \theta = \frac{z}{\sqrt{r^2 + z^2}}
+\end{equation}
+
+Thus, the gravitational field $g$ at point $P$ is given by
+
+\begin{equation}
+    g = g_z = \int dg_z = -2\pi \sigma G \int_0^a \frac{z r \, dr}{(r^2 + z^2)^{3/2}}
+\end{equation}
+
+In Fig. 5.14, let $r = z \tan \theta$ and $dr = z \sec^2 \theta \, d\theta$. Then
+
+\begin{equation}
+    g = -2\pi \sigma G \int_0^{\frac{z}{\sqrt{a^2 + z^2}}} \sin \theta \, d\theta = -2\pi \sigma G \left[ 1 - \frac{z}{\sqrt{z^2 + a^2}} \right]
+\end{equation}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Fig5_14.png}
+    \caption{Ring and point $P$ on the $z$-axis.}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code formats the given physics problem and solution, including equations and a figure reference, into a well-structured document. Make sure to replace `Fig5_14.png` with the actual path to your figure file."
+5.22,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Initially, the particle is located at a distance \(2R\) from the center of the spherical shell and is at rest. Its potential energy is given by
+
+\[
+U_i = -\frac{GMm}{2R}
+\]
+
+When the particle arrives at the opening, the potential energy will be
+
+\[
+U_f = -\frac{GMm}{R}
+\]
+
+and the kinetic energy will be
+
+\[
+K = \frac{1}{2}mv^2
+\]
+
+The kinetic energy gained is equal to the potential energy lost:
+
+\[
+\frac{1}{2}mv^2 = -\frac{GMm}{2R} - \left(-\frac{GMm}{R}\right) = \frac{1}{2} \frac{GMm}{R}
+\]
+
+Solving for \(v\), we have
+
+\[
+v = \sqrt{\frac{GM}{R}}
+\]
+
+After passing through the opening, the particle traverses a force-free region inside the shell. Thus, within the shell, its velocity remains unaltered. Therefore, it hits the point \(C\) with velocity
+
+\[
+v = \sqrt{\frac{GM}{R}}
+\]
+
+\end{document}
+```"
+5.23,"To properly format the given physics text into LaTeX, we will use the equation environment for the mathematical expressions and ensure all symbols and operations are correctly represented. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Energy conservation gives:
+\begin{equation}
+    \frac{1}{2}mv^2 - \frac{GmM}{R} = -\frac{GmM}{r} + 0
+\end{equation}
+where \( r \) is the distance from the Earth's center.
+
+Using \( v = \sqrt{\frac{GM}{2R}} \), we find:
+\begin{equation}
+    r = \frac{4}{3}R
+\end{equation}
+
+The maximum height attained is:
+\begin{equation}
+    h = r - R = \frac{R}{3}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary mathematical formatting for the equations, using fractions and square roots where appropriate. The document class and package `amsmath` are included to support the mathematical formatting."
+5.24,"To convert the given text into properly formatted LaTeX, we need to ensure that the equations are clear and the references to figures are properly formatted. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+In Fig.~5.15, the total energy at point $P$ is equal to the total energy at point $O$. 
+
+\begin{figure}[h]
+    \centering
+    % \includegraphics{path_to_figure} % Uncomment and specify the path to the figure
+    \caption{Illustration of the system described in the problem.}
+    \label{fig:5.15}
+\end{figure}
+
+From Fig.~\ref{fig:5.15}, we have the equation for total energy:
+
+\[
+-G \frac{mM}{\sqrt{2}R} = \frac{1}{2}mv^2 - G \frac{mM}{R}
+\]
+
+Solving for $v$, we find:
+
+\[
+v = \sqrt{\left(2 - \sqrt{2}\right) \frac{GM}{R}}
+\]
+
+\end{document}
+```
+
+This LaTeX code includes:
+- Proper referencing of the figure with `Fig.~5.15`.
+- The use of `\frac` for fractions and `\sqrt` for square roots.
+- A placeholder for the figure, which you can replace with the actual image path if needed.
+- Proper alignment and formatting of the equations."
+5.25,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The potential energy of the satellite on the Earth's surface is given by
+\begin{equation}
+    U(R) = -\frac{GMm}{R}
+\end{equation}
+where \( M \) and \( m \) are the mass of the Earth and the satellite, respectively, and \( R \) is the Earth's radius. The potential energy at a height \( h = 0.5R \) above the Earth's surface will be
+\begin{equation}
+    U(R+h) = -\frac{GMm}{R+h} = -\frac{GMm}{1.5R}
+\end{equation}
+
+The gain in potential energy is
+\begin{align}
+    \Delta U &= U(R+h) - U(R) \\
+    &= -\frac{GMm}{1.5R} - \left( -\frac{GMm}{R} \right) \\
+    &= \frac{GMm}{3R}
+\end{align}
+
+Thus, the work done \( W_1 \) in taking the satellite from the Earth's surface to a height \( h = 0.5R \) is
+\begin{equation}
+    W_1 = \frac{GMm}{3R}
+\end{equation}
+
+The extra work \( W_2 \) required to put the satellite in the orbit at an altitude \( h = 0.5R \) is equal to the extra energy that must be supplied:
+\begin{align}
+    W_2 &= \frac{1}{2}mv_0^2 \\
+    &= \frac{1}{2}m \left( \frac{GM}{R+h} \right) \\
+    &= \frac{GMm}{3R}
+\end{align}
+where \( v_0 \) is the satellite's orbital velocity. Thus, from equations (4) and (5), we have
+\begin{equation}
+    \frac{W_1}{W_2} = 1.0
+\end{equation}
+
+\end{document}
+```"
+5.26,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The initial angular momentum of the asteroid about the center of the planet is given by
+\[
+L = mv_0 d.
+\]
+At the turning point, the velocity \( v \) of the asteroid will be perpendicular to the radial vector. Therefore, the angular momentum \( L' \) is
+\[
+L' = mvR
+\]
+if the asteroid is to just graze the planet. Conservation of angular momentum requires that \( L' = L \). Therefore,
+\[
+mvR = mv_0 d \tag{1}
+\]
+or
+\[
+v = \frac{v_0 d}{R}. \tag{2}
+\]
+
+Energy conservation requires
+\[
+\frac{1}{2} mv_0^2 = \frac{1}{2} mv^2 - \frac{GMm}{R} \tag{3}
+\]
+or
+\[
+v^2 = v_0^2 + \frac{2GM}{R}. \tag{4}
+\]
+
+Eliminating \( v \) between equations (2) and (4), the minimum value of \( v_0 \) is obtained:
+\[
+v_0 = \sqrt{\frac{2GMR}{d^2 - R^2}}.
+\]
+
+\end{document}
+```
+
+This LaTeX code properly formats the physics problem and solution with equations aligned and labeled for clarity."
+5.27,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Kepler's Third Law and Mass Calculation}
+
+According to Kepler’s third law, we have:
+\begin{equation}
+    T^2 \propto r^3
+\end{equation}
+
+\subsection*{Verification of Kepler's Third Law}
+
+For Earth:
+\begin{equation}
+    \frac{T_E^2}{r_E^3} = \frac{(365.3)^2}{(1.5 \times 10^{11})^3} = 3.9539 \times 10^{-29} \, \text{days}^2/\text{m}^3
+\end{equation}
+
+For Venus:
+\begin{equation}
+    \frac{T_V^2}{r_V^3} = \frac{(224.7)^2}{(1.08 \times 10^{11})^3} = 4.0081 \times 10^{-29} \, \text{days}^2/\text{m}^3
+\end{equation}
+
+Thus, Kepler’s third law is verified.
+
+\subsection*{Calculation of Mass}
+
+The formula for the period \( T \) is given by:
+\begin{equation}
+    T = 2\pi \sqrt{\frac{r^3}{GM}}
+\end{equation}
+
+Rearranging for the mass \( M \) of the parent body, we have:
+\begin{equation}
+    M = \frac{4\pi^2}{G} \frac{r^3}{T^2}
+\end{equation}
+
+From the mean value obtained in part (i):
+\begin{equation}
+    \left\langle \frac{T^2}{r^3} \right\rangle = 3.981 \times 10^{-29} \, \text{days}^2/\text{m}^3 = 2.972 \times 10^{-19} \, \text{s}^2/\text{m}^3
+\end{equation}
+
+Substituting into the equation for \( M \):
+\begin{equation}
+    M = \frac{4\pi^2}{6.67 \times 10^{-11}} \times \frac{1}{2.972 \times 10^{-19}} = 1.99 \times 10^{30} \, \text{kg}
+\end{equation}
+
+\end{document}
+```"
+5.28,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+At the perihelion (nearest point from the focus), the velocity \( v_p \) is maximum, and at the aphelion (farthest point), the velocity \( v_A \) is minimum. At both these points, the velocity is perpendicular to the radius vector. Since the angular momentum is constant, we have:
+
+\[
+m v_A r_A = m v_p r_p
+\]
+
+or 
+
+\[
+r_A = \frac{v_p r_p}{v_A} \tag{1}
+\]
+
+where \( r_A = r_{\text{max}} \) and \( r_p = r_{\text{min}} \).
+
+The eccentricity \(\varepsilon\) is given by:
+
+\[
+\varepsilon = \frac{r_{\text{max}} - r_{\text{min}}}{r_{\text{max}} + r_{\text{min}}} = \frac{r_A - r_p}{r_A + r_p} = \frac{v_p - v_A}{v_p + v_A} \tag{2}
+\]
+
+where we have used equation (1).
+
+\[
+\varepsilon = \frac{30.0 - 29.2}{30.0 + 29.2} = 0.0135
+\]
+
+A small value of eccentricity indicates that the orbit is very nearly circular.
+
+\end{document}
+```"
+5.29,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Solution}
+
+\subsection*{(a) Circular Orbit}
+
+For a circular orbit, the period \( T \) is given by:
+\[
+T = 2\pi \frac{a}{v}
+\]
+Given:
+\[
+T = 14.4 \, \text{days} = 1.244 \times 10^6 \, \text{seconds}
+\]
+Solving for \( a \):
+\[
+2a = vT \pi = \frac{2.2 \times 10^5 \times 1.244 \times 10^6}{3.1416}
+\]
+\[
+a = \frac{8.7 \times 10^{10}}{2} \, \text{m}
+\]
+
+\subsection*{(b) Mass of Components}
+
+Since the velocity of each component is the same, the masses of the components are identical. Using the formula for gravitational force in circular motion:
+\[
+v^2 = \frac{G(M+m)}{a} = \frac{2GM}{a} \quad (\text{since } m = M)
+\]
+Solving for \( M \):
+\[
+M = \frac{av^2}{2G} = \frac{(4.35 \times 10^{10})(2.2 \times 10^5)^2}{2 \times 6.67 \times 10^{-11}}
+\]
+\[
+M = 1.58 \times 10^{31} \, \text{kg}
+\]
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and its solution neatly, using mathematical symbols and equations to clearly present the calculations involved."
+5.30,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+At the surface, the component of velocity of the satellite perpendicular to the radius $R$ is $v_0 \sin 30^\circ = \frac{v_0}{2}$ (see Fig.~\ref{fig:5.16}). Therefore, the angular momentum at the surface is given by:
+
+\[
+L_{\text{surface}} = m v_0 R \cdot \frac{1}{2} = \frac{1}{2} m v_0 R
+\]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure5_16.png} % Placeholder for Fig. 5.16
+    \caption{Diagram illustrating the velocity components of the satellite.}
+    \label{fig:5.16}
+\end{figure}
+
+At the apogee (farthest point), the velocity of the satellite is perpendicular to the radius vector. Therefore, the angular momentum at the apogee is:
+
+\[
+L_{\text{apogee}} = m v \left(\frac{5R}{2}\right)
+\]
+
+Conservation of angular momentum gives:
+
+\[
+\frac{1}{2} m v_0 R = m v \left(\frac{5R}{2}\right)
+\]
+
+Solving for $v$, we find:
+
+\[
+v = \frac{v_0}{5} \tag{1}
+\]
+
+The kinetic energy at the surface is:
+
+\[
+K_0 = \frac{1}{2} m v_0^2
+\]
+
+and the potential energy is:
+
+\[
+U_0 = -\frac{GMm}{R}
+\]
+
+Therefore, the total mechanical energy at the surface is:
+
+\[
+E_0 = \frac{1}{2} m v_0^2 - \frac{GMm}{R} \tag{2}
+\]
+
+At the apogee, the kinetic energy is:
+
+\[
+K = \frac{1}{2} m v^2
+\]
+
+and the potential energy is:
+
+\[
+U = -\frac{2GMm}{5R}
+\]
+
+Therefore, the total mechanical energy at the apogee is:
+
+\[
+E = \frac{1}{2} m v^2 - \frac{2}{5} \frac{GMm}{R} \tag{3}
+\]
+
+Conservation of total energy requires that $E = E_0$. Eliminating $v$ in (3) with the aid of (1) and simplifying, we get:
+
+\[
+v_0 = \sqrt{\frac{5GM}{4R}}
+\]
+
+\end{document}
+```
+
+This LaTeX code provides a structured and clear representation of the physics problem, including equations, figures, and logical flow. The equations are numbered and aligned for easy reference, and the figure is included with a placeholder for illustration."
+5.31,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+For an elliptic orbit, the velocity \( v \) is given by:
+
+\[
+v = \sqrt{\frac{GM}{\left( \frac{2}{r} - \frac{1}{a} \right)}}
+\]
+
+Thus, the maximum velocity \( v_{\text{max}} \) is:
+
+\[
+v_{\text{max}} = \sqrt{\frac{GM}{\left( \frac{2}{r_{\text{min}}} - \frac{1}{a} \right)}} = \sqrt{\frac{GM(2a - r_{\text{min}})}{ar_{\text{min}}}} = \sqrt{\frac{GMr_{\text{max}}}{ar_{\text{min}}}} \tag{1}
+\]
+
+since \( r_{\text{max}} + r_{\text{min}} = 2a \).
+
+Similarly, the minimum velocity \( v_{\text{min}} \) is:
+
+\[
+v_{\text{min}} = \sqrt{\frac{GM}{\left( \frac{2}{r_{\text{max}}} - \frac{1}{a} \right)}} = \sqrt{\frac{GM(2a - r_{\text{max}})}{ar_{\text{max}}}} = \sqrt{\frac{GMr_{\text{min}}}{ar_{\text{max}}}} \tag{2}
+\]
+
+Multiplying equations (1) and (2), we get:
+
+\[
+v_{\text{max}} v_{\text{min}} = \frac{GM}{a}
+\]
+
+or
+
+\[
+\sqrt{v_{\text{max}} v_{\text{min}}} = \sqrt{\frac{GM}{a}} = a \sqrt{\frac{GM}{a^3}} = \frac{2\pi a}{T}
+\]
+
+since \( T = 2\pi \sqrt{\frac{a^3}{GM}} \).
+
+Therefore, 
+
+\[
+a = \frac{T}{2\pi} \sqrt{v_{\text{max}} v_{\text{min}}}
+\]
+
+\end{document}
+```
+
+This LaTeX code properly formats the given physics text into a structured and readable document, using appropriate mathematical symbols and equations."
+5.32,"Certainly! Below is the properly formatted LaTeX code for the given physics equations:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The period \( T \) of an orbit can be expressed as:
+\begin{equation}
+    T = 2\pi \sqrt{\frac{r^3}{GM}}
+\end{equation}
+
+where \( r \) is the radius of the orbit, \( G \) is the gravitational constant, and \( M \) is the mass of the central body.
+
+Given that:
+\begin{equation}
+    r = a + b + c
+\end{equation}
+
+we can combine equations (1) and (2) to solve for \( M \):
+\begin{equation}
+    M = \frac{4\pi^2 (a+b+c)^3}{GT^2}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will format the equations neatly and ensure they are numbered and aligned correctly."
+5.33,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+The angular momentum \( L \) is given by:
+\[
+L = |\mathbf{r} \times \mathbf{p}| = rp \sin \theta
+\]
+The angular momentum per unit mass is:
+\[
+L_{\text{per unit mass}} = rv \sin \theta = (1.75 \times 10^{11})(3 \times 10^4) \sin 30^\circ = 3.9375 \times 10^{15} \, \text{m}^2/\text{s}
+\]
+When the comet is closest to the sun, its velocity will be perpendicular to the radius vector. The angular momentum \( L' \) is:
+\[
+L' = r'v'
+\]
+Angular momentum conservation requires \( L' = L \), thus:
+\[
+v' = \frac{L'}{r'} = \frac{L}{r} = \frac{3.9375 \times 10^{15}}{0.39 \times 1.5 \times 10^{11}} = 6.73 \times 10^4 \, \text{m/s} = 67.3 \, \text{km/s}
+\]
+The total energy per unit mass \( E \) is given by:
+\[
+E = \frac{1}{2}v^2 - \frac{GM}{r} = \frac{1}{2}(3 \times 10^4)^2 - \frac{6.67 \times 10^{-11} \times 2 \times 10^{30}}{1.75 \times 10^{11}} = -3.12 \times 10^8 \, \text{J}
+\]
+This is a negative quantity. Therefore, the orbit is bound.
+
+\end{document}
+```"
+5.34,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item[(a)] The centripetal force is provided by the gravitational force:
+    \begin{equation}
+        \frac{G M_E M_S}{R^2} = \frac{M_E v^2}{R} \quad \text{or} \quad G M_S = v^2 R
+    \end{equation}
+
+    \item[(b)] Total energy of the comet when it is closest to the sun:
+    \begin{equation}
+        E = \frac{1}{2} M_C (2v)^2 - \frac{G M_C M_S}{R/2}
+    \end{equation}
+    Using (1) in (2), we find \( E = 0 \).
+
+    \item[(c)] At the distance of the closest approach, the comet’s velocity is perpendicular to the radius vector. Therefore, the angular momentum:
+    \begin{equation}
+        L = M_C (2v) \left(\frac{R}{2}\right) = M_C v R
+    \end{equation}
+    Let \( v_t \) be the comet’s velocity which is tangential to the earth’s orbit at \( P \). Then the angular momentum at \( P \) will be:
+    \begin{equation}
+        L' = M_C v_t R
+    \end{equation}
+    Angular momentum conservation gives:
+    \begin{equation}
+        M_C v_t R = M_C v R
+    \end{equation}
+    or
+    \begin{equation}
+        v_t = v
+    \end{equation}
+
+    \item[(d)] The total energy of the comet at \( P \) is:
+    \begin{equation}
+        E' = \frac{1}{2} M_C (v')^2 - \frac{G M_S M_C}{R} = 0
+    \end{equation}
+    where \( v' \) is the comet’s velocity at \( P \), because \( E' = E = 0 \), by energy conservation. Using (1) in (7) we find:
+    \begin{equation}
+        v' = \sqrt{2} v
+    \end{equation}
+    If \( \theta \) is the angle between \( v' \) and the radius vector \( R \), angular momentum conservation gives:
+    \begin{equation}
+        M_C v R = M_C v' R \sin \theta = M_C \sqrt{2} v R \sin \theta
+    \end{equation}
+    or
+    \begin{equation}
+        \sin \theta = \frac{1}{\sqrt{2}} \quad \Rightarrow \quad \theta = 45^\circ
+    \end{equation}
+\end{enumerate}
+
+\end{document}
+```"
+5.35,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+At both perigee and apogee, the velocity of the satellite is perpendicular to the radius vector. In order to show that the angular momentum is conserved, we must show that \( m v_p r_p = m v_A r_A \) or \( v_p r_p = v_A r_A \), where \( m \) is the mass of the satellite.
+
+\[
+v_p r_p = 10.25 \times 6570 = 67342.5
+\]
+
+\[
+v_A r_A = 1.594 \times 42250 = 67346.5
+\]
+
+The data are therefore consistent with the conservation of angular momentum.
+
+\end{document}
+```
+"
+5.36,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a)}
+
+The initial velocity \( v_0 \) is given by:
+\[
+v_0 = \sqrt{\frac{GM}{\left(2r^{-1} - a\right)}}
+\]
+
+Given:
+\[
+GM = (6.67 \times 10^{-11})(6 \times 10^{24}) = 4 \times 10^{14}
+\]
+\[
+r = R = 6.4 \times 10^6 \, \text{m}
+\]
+\[
+a = 8 \times 10^7 \, \text{m}
+\]
+
+Substituting these values, we find:
+\[
+v_0 = 1.095 \times 10^4 \, \text{m/s} = 10.095 \, \text{km/s}
+\]
+
+\subsection*{(b)}
+
+The eccentricity \(\varepsilon\) is given by:
+\[
+\varepsilon = \sqrt{1 + \frac{2EJ^2}{G^2M^2m^3}}
+\]
+
+Where:
+\[
+J = mRv_0 \sin 45^\circ = \frac{mRv_0}{\sqrt{2}}
+\]
+
+And the energy \(E\) is:
+\[
+E = -\frac{GMm}{2a}
+\]
+
+Combining equations (1), (2), (3), and (4), we have:
+\[
+\varepsilon = \sqrt{1 - \frac{R}{a} + \frac{1}{2} \frac{R^2}{a^2}}
+\]
+
+Now, calculate \(\frac{R}{a}\):
+\[
+\frac{R}{a} = \frac{6400}{80000} = 0.08
+\]
+
+Thus, the eccentricity is:
+\[
+\varepsilon = 0.96
+\]
+
+\end{document}
+```"
+5.37,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The resultant velocity \( v \) of each fragment is obtained by combining the velocities \( \frac{1}{2}v_0 \) and \( v_0 \) vectorially, as shown in Fig. 5.17.
+
+\begin{equation}
+    v = \sqrt{\left(\frac{1}{2}v_0\right)^2 + v_0^2} = \frac{\sqrt{5}}{2}v_0
+\end{equation}
+
+Kinetic energy of each fragment:
+
+\begin{align}
+    K &= \frac{1}{2} \left(\frac{m}{2}\right) \left(\frac{\sqrt{5}}{2} v_0\right)^2 \\
+    &= \frac{5}{16}mv_0^2 \\
+    &= \frac{5}{16}m\frac{GM}{r}
+\end{align}
+
+Potential energy of each fragment:
+
+\begin{equation}
+    U = -\frac{GM \left(\frac{1}{2}m\right)}{r}
+\end{equation}
+
+Thus, the total energy \( E \) is:
+
+\begin{align}
+    E &= K + U \\
+    &= \frac{5GMm}{16r} - \frac{1}{2} \frac{GMm}{r} \\
+    &= -\frac{3}{16} \frac{GMm}{r}
+\end{align}
+
+If \( v \) makes an angle \( \theta \) with the radius vector \( r \), then \( v \sin \theta = v_0 \).
+
+The angular momentum of either fragment about the center of the Earth is:
+
+\begin{align}
+    J &= \frac{1}{2}mv_0r \\
+    &= mr \frac{1}{2} \sqrt{\frac{GM}{r}} \\
+    &= \frac{1}{2}m\sqrt{GMr}
+\end{align}
+
+\end{document}
+```
+
+This LaTeX code provides a structured and formatted representation of the physics problem and its solution, using appropriate mathematical notation and alignment."
+5.38,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The velocity at the nearer apse is given by
+
+\begin{equation}
+v_2 = \sqrt{GM \left[ \frac{2}{a(1-\varepsilon)} - \frac{1}{a} \right]} = \sqrt{\frac{GM}{a} \left(\frac{1+\varepsilon}{1-\varepsilon}\right)}
+\end{equation}
+
+as there is no instantaneous change of velocity. If \( a_1 \) is the semi-major axis for the new orbit, then
+
+\begin{equation}
+v_2 = \sqrt{GM \left[ \frac{2}{a(1-\varepsilon)} - \frac{1}{a_1} \right]}
+\end{equation}
+
+As the nearer and farther apses are interchanged, we have
+
+\begin{equation}
+a_1(1-\varepsilon_1) = a(1+\varepsilon)
+\end{equation}
+
+Equating the right-hand side of equations (1) and (2), and eliminating \( a_1 \) using equation (3), and solving for \( \varepsilon_1 \), we get
+
+\begin{equation}
+\varepsilon_1 = \frac{\varepsilon(3+\varepsilon)}{1-\varepsilon}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX document properly formats the given physics equations and text, ensuring clarity and correct mathematical representation."
+5.39,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem}
+
+\begin{enumerate}
+    \item[(a)] 
+    \[
+    \frac{1}{T} \int dt \, r = \frac{1}{T} \int d\theta \, \dot{r}\theta
+    \]
+    \begin{equation}
+    J = m r^2 \dot{\theta} \quad \text{(constant)}
+    \end{equation}
+    \[
+    \therefore \frac{1}{T} \int dt \, r = \frac{m}{TJ} \int r \, d\theta
+    \]
+    \begin{equation}
+    r = \frac{a(1-\varepsilon^2)}{1+\varepsilon \cos \theta}
+    \end{equation}
+    Using (4) in (3),
+    \[
+    \frac{1}{T} \int dt \, r = \frac{ma(1-\varepsilon^2)}{TJ} \int_0^{2\pi} \frac{d\theta}{1+\varepsilon \cos \theta} = \frac{ma(1-\varepsilon^2)}{TJ} \frac{2\pi}{\sqrt{1-\varepsilon^2}}
+    \]
+    where we have used the integral
+    \[
+    \int_0^{2\pi} \frac{d\theta}{a+b\cos\theta} = \frac{2\pi}{\sqrt{a^2 - b^2}}
+    \]
+    Further,
+    \begin{equation}
+    T = \frac{2\pi ma^2 \sqrt{1-\varepsilon^2}}{J}
+    \end{equation}
+    Using (6) in (5),
+    \[
+    \frac{1}{T} \int dt \, r = \frac{1}{a}
+    \]
+
+    \item[(b)]
+    \[
+    \frac{1}{T} \int v^2 dt = \frac{GM}{T} \int \left( \frac{2}{r} - \frac{1}{a} \right) dt = \frac{2GM}{a} - \frac{GM}{a} = \frac{GM}{a}
+    \]
+    where we have used (7) and put \(\int dt = T\).
+\end{enumerate}
+
+\end{document}
+```"
+5.40,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The distance between the focus and the end of the minor axis is $a$. Let the new semi-major axis be $a_1$. Since the instantaneous velocity does not change, we have:
+
+\[
+GM \left(2a - \frac{1}{a}\right) = G(M+m) \left(2a - \frac{1}{a_1}\right)
+\]
+
+Solving for $a_1$, we get:
+
+\[
+a_1 = a \left(1 + \frac{m}{M}\right) \left(1 + \frac{2m}{M}\right)^{-1} \approx a \left(1 + \frac{m}{M}\right) \left(1 - \frac{2m}{M}\right)
+\]
+
+Thus,
+
+\[
+a_1 = a \left(1 - \frac{m}{M}\right) \tag{1}
+\]
+
+The new time period $T_1$ is given by:
+
+\[
+T_1 = 2\pi \frac{a_1^{3/2}}{\sqrt{G(M+m)}} = 2\pi \frac{a^{3/2}}{\sqrt{GM}} \left(1 - \frac{m}{M}\right)^{3/2} \left(1 + \frac{m}{M}\right)^{-1/2}
+\]
+
+Using the binomial expansion, we approximate:
+
+\[
+T_1 \approx T \left(1 - \frac{3m}{2M}\right) \left(1 - \frac{m}{2M}\right) \approx T \left(1 - \frac{2m}{M}\right)
+\]
+
+where we have used the binomial expansion and the value of the old time period.
+
+\end{document}
+```"
+5.41,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Case 1: Apse is farther}
+
+It is sufficient to show that the total energy is zero.
+
+\[
+r_1 = a(1+\varepsilon) = a(1+0.5) = 1.5a
+\]
+
+\[
+v_1^2 = GM \left( \frac{2}{r_1} - \frac{1}{a} \right) = GM \left( \frac{2}{1.5a} - \frac{1}{a} \right) = \frac{GM}{3a}
+\]
+
+New velocity:
+
+\[
+v'_1 = 2v_1
+\]
+
+New kinetic energy:
+
+\[
+K'_1 = \frac{1}{2}m(v'_1)^2 = \frac{1}{2}m(2v_1)^2 = \frac{2GMm}{3a}
+\]
+
+The potential energy is unaltered and is therefore:
+
+\[
+U_1 = -\frac{GMm}{r_1} = -\frac{2GMm}{3a}
+\]
+
+Total energy:
+
+\[
+E'_1 = K'_1 + U_1 = \frac{2GMm}{3a} - \frac{2GMm}{3a} = 0
+\]
+
+\section*{Case 2: Apse is nearer}
+
+It is sufficient to show that the total energy is positive.
+
+\[
+r_2 = a(1-\varepsilon) = a(1-0.5) = 0.5a
+\]
+
+\[
+v_2^2 = GM \left( \frac{2}{r_2} - \frac{1}{a} \right) = GM \left( \frac{2}{0.5a} - \frac{1}{a} \right) = \frac{3GM}{a}
+\]
+
+New velocity:
+
+\[
+v'_2 = 2v_2
+\]
+
+New kinetic energy:
+
+\[
+K'_2 = \frac{1}{2}m(v'_2)^2 = \frac{1}{2}m(2v_2)^2 = \frac{6GMm}{a}
+\]
+
+Potential energy is unaltered and is given by:
+
+\[
+U_2 = -\frac{GMm}{r_2} = -\frac{GMm}{0.5a} = -\frac{2GMm}{a}
+\]
+
+Total energy:
+
+\[
+E_2 = K'_2 + U_2 = \frac{6GMm}{a} - \frac{2GMm}{a} = \frac{4GMm}{a}
+\]
+
+which is a positive quantity.
+
+\end{document}
+```"
+5.42,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The velocity of the particle in the orbit is given by:
+\[
+v^2 = GM \left( \frac{2}{r} - \frac{1}{a} \right)
+\]
+
+When the particle is at one extremity of the minor axis, \( r = a \):
+\[
+v^2 = GM \left( \frac{2}{a} - \frac{1}{a} \right) = \frac{GM}{a}
+\]
+
+Let the new axes be \( 2a_1 \) and \( 2b_1 \). By problem, the force is increased by half, but the velocity at \( r = a \) is unaltered:
+\[
+v^2 = 1.5GM \left( \frac{2}{a} - \frac{1}{a_1} \right) = \frac{GM}{a}
+\]
+
+Thus,
+\[
+2a_1 = 3a
+\]
+
+As \( v \) is unaltered in both magnitude and direction, the semi-latus rectum \( l = \frac{b^2}{a} = a(1-\varepsilon^2) \). The constant \( h^2 = (GM)(\text{semi-latus rectum}) \) is unchanged:
+\[
+GM \frac{b^2}{a} = \frac{3}{2} GM \frac{b_1^2}{a_1}
+\]
+
+Therefore,
+\[
+b_1^2 = \frac{2b^2}{3} \cdot \frac{a_1}{a} = \frac{2}{3} \cdot \frac{3}{4} b^2
+\]
+
+Thus,
+\[
+2b_1 = \sqrt{2}b
+\]
+
+\end{document}
+```"
+5.43,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item[(a)] The forces acting on the satellite are gravitational force and centripetal force.
+
+    \item[(b)] Equating the centripetal force and gravitational force:
+    \[
+    \frac{mv^2}{R} = mg
+    \]
+    Solving for \(v\):
+    \[
+    v = \sqrt{gR} = \frac{2\pi R}{T}
+    \]
+    Solving for \(T\):
+    \[
+    T = 2\pi \sqrt{\frac{R}{g}} = 2\pi \sqrt{\frac{R^3}{GM}}
+    \]
+    \begin{equation}
+    T = 2\pi \sqrt{\frac{R^3}{GM}}
+    \end{equation}
+
+    \item[(c)] The geocentric satellite must fly in the equatorial plane so that its centripetal force is entirely used up by the gravitational force. Second, it must fly at the right altitude so that its time period is equal to that of the diurnal rotation of the Earth.
+
+    \item[(d)] \(T = 24 \, \text{h}\).
+
+    \item[(e)] Using equation (1):
+    \[
+    r = \left(\frac{T^2 GM}{4\pi^2}\right)^{1/3}
+    \]
+    Using \(T = 86,400 \, \text{s}\), \(G = 6.67 \times 10^{-11} \, \text{kg}^{-1}\text{m}^3/\text{s}^2\), \(M = 6.4 \times 10^{24} \, \text{kg}\), we find:
+    \[
+    r = 4.23 \times 10^7 \, \text{m} \quad \text{or} \quad 42,300 \, \text{km}
+    \]
+\end{enumerate}
+
+\end{document}
+```"
+5.44,"To convert the provided text into properly formatted LaTeX, we need to clearly define the variables and equations while ensuring proper spacing and alignment. Here's the LaTeX code for the given text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+At both perigee and apogee, the velocity \( v \) is perpendicular to the radius \( r \). Angular momentum conservation gives:
+
+\begin{align*}
+    m v_A r_A &= m v_p r_p \\
+    r_A &= 2a - r_p \\
+    &= 4r - r \\
+    &= 3r \\
+    v_A &= \frac{v r}{3r} \\
+    &= \frac{v}{3}
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary equations and ensures that they are properly aligned and formatted. The use of `align*` allows for alignment of the equations at the equal signs, making it easier to read and understand the derivation."
+5.45,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The orbit of the small body will be a hyperbola with the heavy body at the focus $F$, as shown in Fig. 5.18. The equation for the hyperbolic orbit is given by:
+
+\begin{equation}
+    r = \frac{a(\varepsilon^2 - 1)}{\varepsilon \cos \theta - 1}
+\end{equation}
+
+As $r \to \infty$, the denominator on the right-hand side of equation (1) becomes zero and the limiting angle $\theta_0$ is given by:
+
+\begin{equation}
+    \cos \theta_0 = \frac{1}{\varepsilon} \quad \text{or} \quad \cot \theta_0 = \frac{1}{\sqrt{\varepsilon^2 - 1}}
+\end{equation}
+
+The complete angle of deviation $\phi$ is:
+
+\begin{equation}
+    \phi = \pi - 2\theta_0 \quad \text{or} \quad \frac{\phi}{2} = \frac{\pi}{2} - \theta_0
+\end{equation}
+
+Thus, we have:
+
+\begin{equation}
+    \tan \frac{\phi}{2} = \cot \theta_0 = \frac{1}{\sqrt{\varepsilon^2 - 1}}
+\end{equation}
+
+But $\varepsilon = \sqrt{1 + \frac{2Eh^2}{G^2M^2}}$ where $h = p v$ and $E = \frac{1}{2}v^2$. Therefore:
+
+\begin{equation}
+    \tan \frac{\phi}{2} = \frac{1}{\sqrt{\varepsilon^2 - 1}} = \frac{GM}{h\sqrt{2E}} = \frac{GM}{pv^2}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will format the physics equations and text properly, ensuring clarity and correct mathematical representation."
+5.46,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+In Fig.~5.19, the given parameters and equations are as follows:
+
+\begin{itemize}
+    \item $r = \frac{2a}{1 + \cos \theta}$
+    \item $r^2 \dot{\theta} = h$ (constant, law of areas)
+\end{itemize}
+
+The time taken for the object to move from $P_1$ to $P_2$ (Fig.~5.19) is given by:
+
+\[
+t = \int dt = \int \frac{r^2 d\theta}{h} = \frac{4a^2}{h} \int_0^\theta \frac{d\theta}{(1 + \cos \theta)^2}
+\]
+
+This can be rewritten using trigonometric identities:
+
+\[
+= \frac{a^2}{h} \int_0^\theta \sec^4 \left(\frac{\theta}{2}\right) d\theta 
+\]
+
+Substituting with the identity $\sec^2 \left(\frac{\theta}{2}\right) = 1 + \tan^2 \left(\frac{\theta}{2}\right)$, we have:
+
+\[
+= \frac{2a^2}{h} \int_0^\theta \left(1 + \tan^2 \left(\frac{\theta}{2}\right)\right) d\left(\tan \frac{\theta}{2}\right)
+\]
+
+Evaluating the integral, we get:
+
+\[
+= \frac{2a^2}{h} \left(\tan \frac{\theta}{2} + \frac{1}{3} \tan^3 \frac{\theta}{2}\right)
+\]
+
+Given that $h = \sqrt{GM \times \text{semi-latus rectum}} = \sqrt{2aGM}$, we substitute to find:
+
+\[
+t = \sqrt{\frac{2a^3}{GM}} \left(\tan \frac{\theta}{2} + \frac{1}{3} \tan^3 \frac{\theta}{2}\right)
+\]
+
+\end{document}
+```
+
+This LaTeX code will properly format the physics problem and solution with equations and integrals, ensuring clarity and readability."
+5.47,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The required time for traversing the arc \(PQT\) is obtained by the formula derived in problem (5.46), Fig. 5.20:
+
+\begin{equation}
+t_0 = 2t = 2 \sqrt{\frac{2a^3}{GM}} \left( \tan \frac{1}{2} \theta + \frac{1}{3} \tan^3 \frac{1}{2} \theta \right)
+\end{equation}
+
+For a parabola, we have:
+
+\begin{equation}
+r = \frac{2a}{1 + \cos \theta}
+\end{equation}
+
+or
+
+\begin{equation}
+\cos \theta = \frac{2a}{r} - 1
+\end{equation}
+
+Thus,
+
+\begin{equation}
+\tan \frac{\theta}{2} = \sqrt{\frac{1 - \cos \theta}{1 + \cos \theta}} = \sqrt{\frac{R}{a} - 1}
+\end{equation}
+
+where we have put \(r = R\), the radius of the Earth's orbit. Using (4) in (1), we get:
+
+\begin{equation}
+t_0 = \frac{2}{3} \sqrt{\frac{2}{GM}} (2a + R) \sqrt{R - a}
+\end{equation}
+
+\(t_0\) is maximized by setting \(\frac{dt_0}{da} = 0\). This gives:
+
+\begin{equation}
+a = \frac{R}{2}
+\end{equation}
+
+Using (6) in (5) gives:
+
+\begin{align}
+t_0(\text{max}) &= \frac{4}{3} \sqrt{\frac{R^3}{GM}} \\
+&= \frac{2}{3} \pi \sqrt{\frac{R^3}{GM}} \\
+&= \frac{2}{3} \pi T
+\end{align}
+
+where \(T = 2\pi \sqrt{\frac{R^3}{GM}} = 1 \text{ year}\) is the time period of the Earth. Thus, 
+
+\begin{equation}
+t_0(\text{max}) = \frac{2}{3} \pi \text{ years}.
+\end{equation}
+
+\end{document}
+```"
+5.48,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+We start with the equation:
+\begin{equation}
+    \frac{1}{p^2} = \frac{1}{r^2} + \frac{1}{r^4} \left( \frac{dr}{d\theta} \right)^2
+\end{equation}
+
+Given the relation:
+\begin{equation}
+    r = a \sin n\theta
+\end{equation}
+
+We can express \(\left( \frac{dr}{d\theta} \right)^2\) as:
+\begin{equation}
+    \left( \frac{dr}{d\theta} \right)^2 = n^2 a^2 (1 - \sin^2 n\theta) = n^2 a^2 \left( 1 - \frac{r^2}{a^2} \right)
+\end{equation}
+
+Substituting equation (3) into equation (1), we get:
+\begin{equation}
+    \frac{1}{p^2} = \frac{n^2 a^2}{r^4} + \frac{1 - n^2}{r^2}
+\end{equation}
+
+Differentiating with respect to \(r\), we have:
+\begin{equation}
+    -\frac{2}{p^3} \frac{dp}{dr} = -\frac{4n^2 a^2}{r^5} - \frac{2(1 - n^2)}{r^3}
+\end{equation}
+
+Or equivalently:
+\begin{equation}
+    \frac{1}{p^3} \frac{dp}{dr} = \frac{2n^2 a^2}{r^5} + \frac{1 - n^2}{r^3}
+\end{equation}
+
+The force per unit mass \(f\) is given by:
+\begin{equation}
+    f = -h^2 \frac{1}{p^3} \frac{dp}{dr} = -h^2 \left( \frac{2n^2 a^2}{r^5} + \frac{1 - n^2}{r^3} \right)
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will properly format the given physics equations and their derivations, ensuring clarity and correctness."
+5.49,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{align}
+    \frac{1}{p^2} &= \frac{1}{r^2} + \frac{1}{r^4} \left( \frac{dr}{d\theta} \right)^2 \tag{1} \\
+    r &= a(1 - \cos\theta) \\
+    \frac{dr}{d\theta} &= a\sin\theta \\
+    \left( \frac{dr}{d\theta} \right)^2 &= a^2\sin^2\theta = a^2 \left[ 1 - \left( 1 - \frac{r}{a} \right)^2 \right] = 2ar - r^2 \tag{2}
+\end{align}
+
+Using equation (2) in equation (1), we have:
+\begin{align}
+    \frac{1}{p^2} &= \frac{2a}{r^3} \quad \text{or} \quad p^2 = \frac{r^3}{2a} \tag{3}
+\end{align}
+
+The force per unit mass is given by:
+\begin{align}
+    f &= -\frac{h^2}{p^3} \frac{dp}{dr} \tag{4}
+\end{align}
+
+Differentiating equation (3):
+\begin{align}
+    2p \frac{dp}{dr} &= \frac{3r^2}{2a} \tag{5}
+\end{align}
+
+Using equation (5) in equation (4), we find:
+\begin{align}
+    f &= -\frac{3}{4} \frac{h^2 r^2}{ap^4} = -\frac{3ah^2}{r^4} \tag{6}
+\end{align}
+
+Thus, the force is proportional to the inverse fourth power of distance.
+
+\end{document}
+```
+
+This LaTeX code properly formats the physics problem and solution, ensuring that equations are aligned and numbered correctly."
+5.50,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+If \( u = \frac{1}{r} \), then at the apses, \(\frac{d\theta}{d\theta} = 0\) or \(-\frac{1}{r^2} \frac{dr}{d\theta} = 0\). Therefore, \(-\frac{1}{r^2} a \sin \theta = 0\), from which either \(\sin \theta = 0\) or \(r\) is infinite. The latter case is inadmissible as long as the particle is moving along the cardioid. Thus, \(\theta = \pi\) or \(0\).
+
+When \(\theta = \pi\), \(r = 2a\) and 
+\[
+Q = \frac{3ah^2}{r^4} = \frac{3ah^2}{16a^4} = \frac{3h^2}{16a^3}
+\]
+Also, 
+\[
+p^2 = \frac{r^2}{2a} = \frac{8a^3}{2a} = 4a^2
+\]
+and 
+\[
+v^2 = \frac{h^2}{p^2} = \frac{h^2}{4a^2}
+\]
+Thus, 
+\[
+4aQ = \frac{3h^2}{4a^2} = 3v^2
+\]
+
+When \(\theta = 0\), \(r = 0\) and \(p = 0\), and the particle is moving with infinite velocity along the axis of the cardioid and continues to move in a straight line.
+
+\end{document}
+```"
+5.51,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the force \( f = -k r^3 = -k u^3 \) where \( u = \frac{1}{r} \).
+
+The differential equation is given by:
+\[
+\frac{d^2 u}{d\theta^2} + u = -\frac{f}{h^2 u^2} = \frac{k u}{h^2}
+\]
+
+**Case (i):** \( \frac{k}{h^2} > 1 \)
+
+Let \( \frac{k}{h^2} - 1 = n^2 \). The equation becomes:
+\[
+\frac{d^2 u}{d\theta^2} - n^2 u = 0
+\]
+which has the solution:
+\[
+u = A e^{n\theta} + B e^{-n\theta}
+\]
+where the constants \( A \) and \( B \) depend on the initial conditions of projection. If these are such that either \( A \) or \( B \) is zero, then the path is an equiangular spiral.
+
+**Case (ii):** \( \frac{k}{h^2} = 1 \)
+
+The equation becomes:
+\[
+\frac{d^2 u}{d\theta^2} = 0
+\]
+whose solution is:
+\[
+u = A\theta + B
+\]
+a curve known as the reciprocal spiral curve.
+
+**Case (iii):** \( \frac{k}{h^2} < 1 \)
+
+Let \( 1 - \frac{k}{h^2} = n^2 \). The equation becomes:
+\[
+\frac{d^2 u}{d\theta^2} + n^2 u = 0
+\]
+whose solution is:
+\[
+u = A \cos(n\theta) + B \sin(n\theta)
+\]
+a curve with infinite branches.
+
+\end{document}
+```"
+5.52,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+We start with the given equations:
+
+\begin{equation}
+    \frac{1}{p^2} = \frac{1}{r^2} + \frac{1}{r^4} \left( \frac{dr}{d\theta} \right)^2
+\end{equation}
+
+\begin{equation}
+    r^2 = a^2 \cos^2 \theta
+\end{equation}
+
+\begin{equation}
+    r \frac{dr}{d\theta} = -a^2 \sin 2\theta
+\end{equation}
+
+From equation (3), we have:
+
+\begin{align}
+    \frac{1}{r^4} \left( \frac{dr}{d\theta} \right)^2 &= \frac{a^4}{r^6} \sin^2 2\theta \\
+    &= \frac{a^4}{r^6} \left( 1 - \frac{r^4}{a^4} \right) \\
+    &= \frac{a^4}{r^6} - \frac{1}{r^2}
+\end{align}
+
+Substituting into equation (1) gives:
+
+\begin{equation}
+    \frac{1}{p^2} = \frac{a^4}{r^6}
+\end{equation}
+
+Thus, we find:
+
+\begin{equation}
+    p = \frac{r^3}{a^2}
+\end{equation}
+
+Differentiating with respect to \( r \):
+
+\begin{equation}
+    \frac{dp}{dr} = \frac{3r^2}{a^2}
+\end{equation}
+
+Finally, we compute the force:
+
+\begin{equation}
+    f = -h^2 p^3 \frac{dp}{dr} = -3h^2 \frac{a^4}{r^7}
+\end{equation}
+
+where we have used equations (5) and (6).
+
+\end{document}
+```
+
+This LaTeX code correctly formats the given physics equations and steps, ensuring clarity and proper mathematical presentation."
+5.53,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+The polar equation of a circle with the origin on the circumference is given by:
+\begin{equation}
+    r = 2a \cos \theta
+\end{equation}
+where $a$ is the radius of the circle, as shown in Fig. 5.21.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{circle.png} % Placeholder for Fig. 5.21
+    \caption{Circle with origin on the circumference.}
+    \label{fig:circle}
+\end{figure}
+
+The equation for $p$ is given by:
+\begin{equation}
+    \frac{1}{p^2} = \frac{1}{r^2} + \frac{1}{r^4} \left( \frac{dr}{d\theta} \right)^2
+\end{equation}
+
+Substituting the expression for $r$:
+\begin{equation}
+    r = 2a \cos \theta
+\end{equation}
+
+The derivative of $r$ with respect to $\theta$ is:
+\begin{equation}
+    \frac{dr}{d\theta} = -2a \sin \theta
+\end{equation}
+
+Thus, squaring the derivative:
+\begin{equation}
+    \left( \frac{dr}{d\theta} \right)^2 = 4a^2 (1 - \cos^2 \theta) = 4a^2 - r^2
+\end{equation}
+
+Substituting back into the equation for $p$:
+\begin{equation}
+    \frac{1}{r^4} \left( \frac{dr}{d\theta} \right)^2 = \frac{4a^2}{r^4} - \frac{1}{r^2}
+\end{equation}
+
+Using equation (5) in (1) and simplifying, we get:
+\begin{equation}
+    p = \frac{r^2}{2a}
+\end{equation}
+
+Differentiating $p$ with respect to $r$:
+\begin{equation}
+    \frac{dp}{dr} = \frac{r}{a}
+\end{equation}
+
+The expression for $f$ is:
+\begin{equation}
+    f = -\frac{h^2}{p^3} \frac{dp}{dr} = -\frac{h^2 a^4}{r^5}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code includes the equations and their derivations, formatted correctly with proper mathematical notation. The figure placeholder is included for Fig. 5.21, which should be replaced with the actual image file."
+5.54,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Initially, the Earth's orbit is circular, and its kinetic energy would be equal to the modulus of potential energy:
+
+\begin{equation}
+    \frac{1}{2} m v_0^2 = \frac{1}{2} \frac{mGM}{r}
+\end{equation}
+
+Suddenly, the Sun's mass becomes half, and the Earth is placed with a new quantity of potential energy, its instantaneous value of kinetic energy remaining unaltered. The new total energy is given by:
+
+\begin{align*}
+    \text{New total energy} &= \text{new potential energy} + \text{kinetic energy} \\
+    &= -G \left(\frac{M}{2}\right) \frac{m}{r} + \frac{1}{2} m v_0^2 \\
+    &= -\frac{GMm}{2r} + \frac{1}{2} \frac{GMm}{r} \\
+    &= 0
+\end{align*}
+
+As the total energy \( E = 0 \), the Earth's orbit becomes parabolic.
+
+\end{document}
+```
+
+This LaTeX code properly formats the physics problem and solution, using equations and alignments to clearly present the mathematical expressions."
