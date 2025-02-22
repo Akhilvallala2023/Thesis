@@ -1,1 +1,1196 @@
-Question_number,Question
+Question_number,Questions
+1.1,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A car starts from rest at a constant acceleration of \(2.0 \, \text{m/s}^2\). At the same instant, a truck traveling with a constant speed of \(10 \, \text{m/s}\) overtakes and passes the car.
+
+\begin{enumerate}
+    \item[(a)] How far beyond the starting point will the car overtake the truck?
+    \item[(b)] After what time will this happen?
+    \item[(c)] At that instant, what will be the speed of the car?
+\end{enumerate}
+
+\end{document}
+```"
+1.2,"To format the given physics problem in LaTeX, we need to clearly define the variables and use appropriate mathematical notation. Here's how you can present the problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+From an elevated point \( A \), a stone is projected vertically upward. When the stone reaches a distance \( h \) below \( A \), its velocity is double of what it was at a height \( h \) above \( A \). Show that the greatest height obtained by the stone above \( A \) is \( \frac{5h}{3} \).
+
+\end{document}
+```
+
+This LaTeX code sets up the problem statement using mathematical symbols for the variables and ensures clarity in the presentation of the problem."
+1.3,"To convert the given physics text into properly formatted LaTeX, we need to clearly present the problem statement using mathematical notation and structure. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A stone is dropped from a height of 19.6 m above the ground, while a second stone is simultaneously projected from the ground with sufficient velocity to enable it to ascend 19.6 m. Determine when and where the stones will meet.
+
+\end{document}
+```
+
+This LaTeX code formats the problem statement clearly, using standard document structure and ensuring that the text is easy to read and understand. If you have any specific equations or additional details to include, they can be added using the `equation` environment or other appropriate LaTeX structures."
+1.4,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle moves according to the law 
+\[
+x(t) = A \sin(\pi t),
+\]
+where \( x \) is the displacement and \( t \) is time. Find the distance traversed by the particle in \( 3.0 \, \text{s} \).
+
+\end{document}
+```"
+1.5,"To convert the given text into properly formatted LaTeX, we need to structure the problem statement clearly and use appropriate LaTeX commands for units and formatting. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+A man of height \SI{1.8}{\meter} walks away from a lamp at a height of \SI{6}{\meter}. If the man's speed is \SI{7}{\meter/\second}, find the speed in \si{\meter/\second} at which the tip of the shadow moves.
+
+\end{document}
+```
+
+This code snippet will produce a well-formatted document with the problem statement clearly laid out. The `siunitx` package is used for consistent and proper formatting of units."
+1.6,"```latex
+The relation 
+\[
+3t = \sqrt{3x} + 6
+\]
+describes the displacement of a particle in one direction, where \( x \) is in metres and \( t \) is in seconds. Find the displacement when the velocity is zero.
+```"
+1.7,"Certainly! Below is the properly formatted LaTeX code for the given physics problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle projected upwards passes the same height at \( t = 2 \, \text{s} \) and \( t = 10 \, \text{s} \). Find the height \( h \) if \( g = 9.8 \, \text{m/s}^2 \).
+
+\end{document}
+```
+
+This LaTeX code will format the problem statement clearly, using mathematical notation for the variables and units."
+1.8,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Cars A and B are travelling in adjacent lanes along a straight road (see Fig.~\ref{fig:car_positions}). At time, $t = 0$, their positions and speeds are as shown in the diagram. If car A has a constant acceleration of $0.6 \, \text{m/s}^2$ and car B has a constant deceleration of $0.46 \, \text{m/s}^2$, determine when A will overtake B. \cite{university_of_manchester_2007}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figure1_2.png} % Replace with the actual path to the figure
+    \caption{Initial positions and velocities of Cars A and B.}
+    \label{fig:car_positions}
+\end{figure}
+
+\end{document}
+```
+
+Note: Replace `figure1_2.png` with the actual path to your figure file. The citation is formatted as a placeholder and should be replaced with the correct bibliography entry if needed."
+1.9,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Ab stands at a point $A$ in a field at a distance of $600 \, \text{m}$ from the road $BC$. In the field, he can walk at $1 \, \text{m/s}$, while on the road, he can walk at $2 \, \text{m/s}$. He can walk in the field along $AD$ and on the road along $DC$ to reach the destination $C$ (see Fig. 1.3). What should be his route so that he can reach the destination in the least time, and determine the time.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure1_3.png} % Replace with actual image file
+    \caption{Illustration of Ab's path from $A$ to $C$.}
+    \label{fig:1.3}
+\end{figure}
+
+\end{document}
+```
+
+Note: Replace `figure1_3.png` with the actual file name of the image you intend to use for Fig. 1.3."
+1.10,"To convert the given physics problem into LaTeX, we will format it using the `align` environment for clarity and structure. Here's how the problem can be presented:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Water drips from the nozzle of a shower onto the floor 2.45 m below. The drops fall at regular intervals of time, with the first drop striking the floor at the instant the third drop begins to fall. Locate the second drop when the first drop strikes the floor.
+
+\begin{align*}
+    &\text{Let } h = 2.45 \text{ m be the height from which the drops fall.} \\
+    &\text{Let } t_1 \text{ be the time taken for the first drop to reach the floor.} \\
+    &\text{The equation of motion for the first drop is:} \\
+    &h = \frac{1}{2} g t_1^2 \\
+    &\text{where } g \approx 9.81 \text{ m/s}^2 \text{ is the acceleration due to gravity.} \\
+    &\text{The first drop strikes the floor at } t = t_1. \\
+    &\text{The third drop begins to fall at } t = t_1. \\
+    &\text{The second drop falls for a time } t_2 = t_1 - \Delta t, \text{ where } \Delta t \text{ is the interval between drops.} \\
+    &\text{The position of the second drop when the first drop strikes the floor is:} \\
+    &y_2 = \frac{1}{2} g t_2^2 \\
+    &\text{Substitute } t_2 = t_1 - \Delta t \text{ to find } y_2.
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code provides a structured format for the problem, using equations and logical steps to describe the scenario. The `align*` environment is used to align the equations and text for better readability."
+1.11,"```latex
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+The velocity–time graph for the vertical component of the velocity of an object thrown upward from the ground, which reaches the roof of a building and returns to the ground, is shown in Fig.~\ref{fig:velocity_time_graph}. Calculate the height of the building.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{velocity_time_graph.png} % Replace with the actual path to the image
+    \caption{Velocity-time graph for the vertical component of the velocity.}
+    \label{fig:velocity_time_graph}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `velocity_time_graph.png` with the actual path to your image file. The `figure` environment is used to include and label the graph, and `\ref{fig:velocity_time_graph}` is used to reference the figure within the text."
+1.12,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A ball is dropped into a lake from a diving board 4.9 m above the water. It hits the water with velocity $v$ and then sinks to the bottom with the constant velocity $v$. It reaches the bottom of the lake 5.0 s after it is dropped. Find (a) the average velocity of the ball and (b) the depth of the lake.
+
+\end{document}
+```"
+1.13,"To convert the given text into properly formatted LaTeX, we need to structure it clearly and use appropriate mathematical notation. Here is the LaTeX code for the problem statement:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A stone is dropped into the water from a tower $44.1 \, \text{m}$ above the ground. Another stone is thrown vertically down $1.0 \, \text{s}$ after the first one is dropped. Both the stones strike the ground at the same time. What was the initial velocity of the second stone?
+
+\end{document}
+```
+
+This LaTeX code will format the problem statement clearly, using mathematical notation for the measurements and ensuring proper spacing and alignment."
+1.14,"To convert the given text into properly formatted LaTeX, we need to structure it clearly and use appropriate mathematical notation. Here's how you can format the problem statement in LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+An observer sees a cricket ball move up and down past a window that is 2 meters high. If the total time the ball is in sight is 1.0 seconds, find the height above the window that the ball rises.
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document structure with the `article` class and includes the `amsmath` package for any potential mathematical expressions. The problem statement is written in a clear and concise manner. If you need to include equations or further details, you can expand on this structure by adding mathematical expressions using LaTeX math mode."
+1.15,"To format the given physics problem in LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\title{Physics Problem: Free Fall}
+\author{}
+\date{}
+
+\maketitle
+
+\section*{Problem Statement}
+
+In the last second of a free fall, a body covered three-fourth of its total path:
+
+\begin{enumerate}
+    \item[(a)] For what time did the body fall?
+    \item[(b)] From what height did the body fall?
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code will format the problem statement neatly in a document, with the problem parts listed as sub-items."
+1.16,"To convert the given physics text into properly formatted LaTeX, we need to clearly present the problem statement and variables. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+A man traveling west at \SI{4}{\kilo\meter\per\hour} finds that the wind appears to blow from the south. On doubling his speed, he finds that it appears to blow from the southwest. Find the magnitude and direction of the wind's velocity.
+
+\end{document}
+```
+
+This LaTeX code uses the `siunitx` package for consistent unit formatting and presents the problem statement in a clear and structured manner."
+1.17,"To convert the given physics text into properly formatted LaTeX, we need to structure the problem statement clearly and use appropriate LaTeX commands for mathematical expressions and variables. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+An elevator of height $h$ ascends with constant acceleration $a$. When it crosses a platform, it has acquired a velocity $u$. At this instant, a bolt drops from the top of the elevator. Find the time for the bolt to hit the floor of the elevator.
+
+\end{document}
+```
+
+This LaTeX code uses mathematical symbols for the variables and ensures that the problem is clearly presented."
+1.18,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A car and a truck are both traveling with a constant speed of \(20 \, \text{m/s}\). The car is \(10 \, \text{m}\) behind the truck. The truck driver suddenly applies his brakes, causing the truck to decelerate at the constant rate of \(2 \, \text{m/s}^2\). Two seconds later, the driver of the car applies his brakes and just manages to avoid a rear-end collision. Determine the constant rate at which the car decelerated.
+
+\end{document}
+```"
+1.19,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+Ship A is 10 km due west of ship B. Ship A is heading directly north at a speed of 30 km/h, while ship B is heading in a direction $60^\circ$ west of north at a speed of 20 km/h.
+
+\begin{enumerate}
+    \item[(i)] Determine the magnitude and direction of the velocity of ship B relative to ship A.
+    \item[(ii)] What will be their distance of closest approach?
+\end{enumerate}
+
+\textit{[University of Manchester 2008]}
+\end{document}
+```"
+1.20,"Certainly! Below is the properly formatted LaTeX code for the given physics problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A balloon is ascending at the rate of \(9.8 \, \text{m/s}\) at a height of \(98 \, \text{m}\) above the ground when a packet is dropped. How long does it take the packet to reach the ground?
+
+\end{document}
+```
+
+This LaTeX code will format the problem statement clearly, using mathematical notation for the velocity and height."
+1.21,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+An object of mass \( m \) is thrown vertically upward. In the presence of heavy air resistance, the time of ascent \( t_1 \) is not equal to the time of descent \( t_2 \). Similarly, the initial speed \( u \) with which the body is thrown is not equal to the final speed \( v \) with which the object returns. Assuming that the air resistance \( F \) is constant, show that:
+
+\[
+\frac{t_2}{t_1} = \sqrt{\frac{g + \frac{F}{m}}{g - \frac{F}{m}}}
+\]
+
+and
+
+\[
+\frac{v}{u} = \sqrt{\frac{g - \frac{F}{m}}{g + \frac{F}{m}}}
+\]
+
+\end{document}
+```"
+1.22,"To express the problem of a body falling under gravity with air resistance proportional to velocity in LaTeX, we can set up the differential equation describing the motion. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Motion of a Body Falling Under Gravity with Air Resistance}
+
+Consider a body of mass \( m \) falling under the influence of gravity, with air resistance proportional to its velocity. Let \( v(t) \) be the velocity of the body at time \( t \), \( g \) be the acceleration due to gravity, and \( k \) be the proportionality constant for air resistance. The forces acting on the body are:
+
+1. Gravitational force: \( F_g = mg \)
+2. Air resistance: \( F_r = -kv(t) \)
+
+According to Newton's second law, the net force acting on the body is equal to the mass of the body times its acceleration:
+
+\[
+m \frac{dv}{dt} = mg - kv(t)
+\]
+
+This can be rearranged to form the following first-order linear differential equation:
+
+\[
+\frac{dv}{dt} = g - \frac{k}{m}v(t)
+\]
+
+The solution to this differential equation will describe the velocity \( v(t) \) of the body as a function of time, considering the initial conditions.
+
+\end{document}
+```
+
+This LaTeX code sets up the problem by defining the forces involved and the differential equation that models the motion of the body. You can compile this code using a LaTeX editor to see the formatted output."
+1.23,"To represent the motion of a body falling under gravity with air resistance proportional to the square of the velocity in LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Motion of a Body Falling Under Gravity with Air Resistance}
+
+Consider a body of mass $m$ falling under the influence of gravity. Let $v(t)$ be the velocity of the body at time $t$. The force due to gravity is given by $mg$, where $g$ is the acceleration due to gravity. The resistance of air is assumed to be proportional to the square of the velocity, which can be expressed as $kv^2$, where $k$ is a constant of proportionality.
+
+The equation of motion for the body can be written using Newton's second law:
+
+\begin{equation}
+    m \frac{dv}{dt} = mg - kv^2.
+\end{equation}
+
+Rearranging the terms, we have:
+
+\begin{equation}
+    \frac{dv}{dt} = g - \frac{k}{m}v^2.
+\end{equation}
+
+This is a first-order differential equation that describes the velocity of the body as a function of time, taking into account both the gravitational force and the air resistance.
+
+\end{document}
+```
+
+This LaTeX code sets up the problem by defining the forces acting on the body and formulates the differential equation that governs the motion of the body. It includes sections for the gravitational force, the air resistance, and the resulting equation of motion."
+1.24,"To properly format the given physics text in LaTeX, we can structure it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A body is projected upward with initial velocity \( u \) against air resistance, which is assumed to be proportional to the square of velocity. Determine the height to which the body will rise.
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document with the `article` class and includes the `amsmath` package for handling mathematical expressions. The text is then formatted with inline math mode for the initial velocity \( u \)."
+1.25,"To format the given physics text into LaTeX, we need to express the problem statement clearly and use appropriate mathematical notation. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Under the assumption that the air resistance is proportional to the square of the velocity, find the loss in kinetic energy when the body has been projected upward with velocity \( u \) and returns to the point of projection.
+
+\end{document}
+```
+
+This LaTeX code uses the `article` class and the `amsmath` package for better handling of mathematical expressions. The velocity \( u \) is formatted using inline math mode. The problem statement is clearly presented in a way suitable for a physics document."
+1.26,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+A particle moving in the $xy$-plane has velocity components 
+\[
+\frac{dx}{dt} = 6 + 2t \quad \text{and} \quad \frac{dy}{dt} = 4 + t
+\]
+where $x$ and $y$ are measured in metres and $t$ in seconds.
+
+\begin{enumerate}
+    \item[(i)] Integrate the above equations to obtain $x$ and $y$ as functions of time, given that the particle was initially at the origin.
+    
+    \item[(ii)] Write the velocity $\mathbf{v}$ of the particle in terms of the unit vectors $\hat{\mathbf{i}}$ and $\hat{\mathbf{j}}$.
+    
+    \item[(iii)] Show that the acceleration of the particle may be written as $\mathbf{a} = 2\hat{\mathbf{i}} + \hat{\mathbf{j}}$.
+    
+    \item[(iv)] Find the magnitude of the acceleration and its direction with respect to the $x$-axis.
+\end{enumerate}
+
+\noindent [University of Aberystwyth Wales 2000]
+
+\end{document}
+```"
+1.27,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Two objects are projected horizontally in opposite directions from the top of a tower with velocities \( u_1 \) and \( u_2 \). Find the time when the velocity vectors are perpendicular to each other and the distance of separation at that instant.
+
+\end{document}
+```"
+1.28,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+From the ground, an object is projected upward with sufficient velocity so that it crosses the top of a tower in time $t_1$ and reaches the maximum height. It then comes down and recrosses the top of the tower in time $t_2$, time being measured from the instant the object was projected up. A second object released from the top of the tower reaches the ground in time $t_3$. Show that $t_3 = \sqrt{t_1 t_2}$.
+
+\end{document}
+```"
+1.29,"To convert the given physics text into properly formatted LaTeX, we need to structure the statement clearly and use appropriate mathematical symbols. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+As a projectile is fired at an angle $\theta$ with the horizontal up a plane inclined at an angle $\alpha$, show that for maximum range, $\theta = \frac{\alpha}{2} + \frac{\pi}{4}$.
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document, includes the `amsmath` package for enhanced mathematical formatting, and properly formats the given statement using mathematical symbols."
+1.30,"To convert the given physics text into properly formatted LaTeX, we will structure the problem statement using appropriate LaTeX commands for clarity and readability. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A stone is thrown from ground level over horizontal ground. It just clears three walls, the successive distances between them being $r$ and $2r$. The inner wall is $\frac{15}{7}$ times as high as the outer walls, which are equal in height. The total horizontal range is $nr$, where $n$ is an integer. Find $n$. [University of Dublin]
+
+\end{document}
+```
+
+This LaTeX code formats the problem statement clearly, using mathematical notation for fractions and variables. Make sure to compile this code using a LaTeX editor to see the properly formatted document."
+1.31,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A boy wishes to throw a ball through a house via two small openings, one in the front and the other in the back window, the second window being directly behind the first. If the boy stands at a distance of 5 m in front of the house and the house is 6 m deep, and if the opening in the front window is 5 m above him and that in the back window 2 m higher, calculate the velocity and the angle of projection of the ball that will enable him to accomplish his desire. \emph{[University of Dublin]}
+
+\end{document}
+```"
+1.32,"To convert the given physics text into properly formatted LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A hunter directs his uncalibrated rifle toward a monkey sitting on a tree, at a height $h$ above the ground and at distance $d$. The instant the monkey observes the flash of the fire of the rifle, it drops from the tree. Will the bullet hit the monkey?
+
+\end{document}
+```
+
+This LaTeX code sets up a simple document with the physics problem statement, using mathematical symbols for the height and distance. Adjustments can be made based on specific document class requirements or additional formatting preferences."
+1.33,"To convert the given physics text into properly formatted LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+If $\alpha$ is the angle of projection, $R$ the range, $h$ the maximum height, and $T$ the time of flight, then show that:
+
+\begin{enumerate}
+    \item $\tan \alpha = \frac{4h}{R}$
+    \item $h = \frac{gT^2}{8}$
+\end{enumerate}
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document, uses the `amsmath` package for better mathematical formatting, and formats the given physics equations properly."
+1.34,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A projectile is fired at an angle of $60^\circ$ to the horizontal with an initial velocity of $800 \, \text{m/s}$:
+
+\begin{enumerate}
+    \item[(i)] Find the time of flight of the projectile before it hits the ground.
+    \item[(ii)] Find the distance it travels before it hits the ground (range).
+    \item[(iii)] Find the time of flight for the projectile to reach its maximum height.
+    \item[(iv)] Show that the shape of its flight is in the form of a parabola $y = bx + cx^2$, where $b$ and $c$ are constants.
+\end{enumerate}
+
+\textbf{Given:} Acceleration due to gravity $g = 9.8 \, \text{m/s}^2$.
+
+\textit{[University of Aberystwyth, Wales 2004]}
+\end{document}
+```"
+1.35,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+
+\begin{document}
+
+\title{Projectile Motion and Explosion Problem}
+\author{University of Manchester 2008}
+\date{}
+\maketitle
+
+\section*{Problem Statement}
+
+A projectile of mass $20.0 \, \mathrm{kg}$ is fired at an angle of $55.0^\circ$ to the horizontal with an initial velocity of $350 \, \mathrm{m/s}$. At the highest point of the trajectory, the projectile explodes into two equal fragments, one of which falls vertically downwards with no initial velocity immediately after the explosion. Neglect the effect of air resistance:
+
+\begin{enumerate}
+    \item[(i)] How long after firing does the explosion occur?
+    \item[(ii)] Relative to the firing point, where do the two fragments hit the ground?
+    \item[(iii)] How much energy is released in the explosion?
+\end{enumerate}
+
+\end{document}
+```"
+1.36,"To format the given physics problem in LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+An object is projected horizontally with a velocity of \(10 \, \text{m/s}\). Find the radius of curvature of its trajectory \(3 \, \text{s}\) after the motion has begun.
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document with the `amsmath` package for enhanced mathematical formatting. The problem statement is included in a clear and concise manner, using inline math mode for the velocity and time."
+1.37,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Points \( A \) and \( B \) are on opposite banks of a river of breadth \( d \), and \( AB \) is at right angles to the flow of the river (see Fig. 1.4). A boat leaves \( B \) and is rowed with constant velocity with the bow always directed toward \( A \). If the velocity of the river is equal to this velocity, find the path of the boat (see Fig. 1.5).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig1_4.png}
+    \caption{Diagram showing points \( A \) and \( B \) on opposite banks of the river.}
+    \label{fig:1.4}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig1_5.png}
+    \caption{Path of the boat as it rows from \( B \) to \( A \).}
+    \label{fig:1.5}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary formatting for the problem description and references to figures, assuming you have images named `fig1_4.png` and `fig1_5.png` for the diagrams. Adjust the image paths and sizes as needed."
+1.38,"To convert the given physics text into properly formatted LaTeX, we can structure it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+A ball is thrown from a height $h$ above the ground. The ball leaves the point located at a distance $d$ from the wall, at $45^\circ$ to the horizontal with velocity $u$. How far from the wall does the ball hit the ground (see Fig.~\ref{fig:ball_trajectory})?
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{path_to_figure/ball_trajectory.png}
+    \caption{Trajectory of the ball}
+    \label{fig:ball_trajectory}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `path_to_figure/ball_trajectory.png` with the actual path to your image file. This LaTeX code includes the necessary packages for mathematical formatting and figures, and it properly formats the physics problem statement."
+1.39,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Three vector forces $\mathbf{F}_1$, $\mathbf{F}_2$, and $\mathbf{F}_3$ act on a particle of mass $m = 3.80 \, \text{kg}$ as shown in Fig. 1.7:
+
+\begin{enumerate}
+    \item[(i)] Calculate the magnitude and direction of the net force acting on the particle.
+    \item[(ii)] Calculate the particle's acceleration.
+    \item[(iii)] If an additional stabilizing force $\mathbf{F}_4$ is applied to create an equilibrium condition with a resultant net force of zero, what would be the magnitude and direction of $\mathbf{F}_4$?
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure1_7.png} % Replace with the actual path of Fig. 1.7
+    \caption{Forces acting on the particle}
+    \label{fig:forces}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary formatting for the physics problem, with placeholders for the figure and a structured list of tasks to be addressed. Make sure to replace `figure1_7.png` with the actual path to your figure file."
+1.40,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+\subsection*{(a)}
+
+A thin cylindrical wheel of radius $r = 40 \text{ cm}$ is allowed to spin on a frictionless axle. The wheel, which is initially at rest, has a tangential force applied at right angles to its radius of magnitude $50 \text{ N}$ as shown in Fig. 1.8a. The wheel has a moment of inertia equal to $20 \text{ kg m}^2$. 
+
+\begin{enumerate}
+    \item[(i)] Calculate the torque applied to the wheel.
+    \item[(ii)] Calculate the angular acceleration of the wheel.
+    \item[(iii)] Calculate the angular velocity of the wheel after $3 \text{ s}$.
+    \item[(iv)] Calculate the total angle swept out in this time.
+\end{enumerate}
+
+\subsection*{(b)}
+
+The same wheel now has the same force applied but inclined at an angle of $20^\circ$ to the tangent as shown in Fig. 1.8b.
+
+\begin{enumerate}
+    \item[(i)] Calculate the torque applied to the wheel.
+    \item[(ii)] Calculate the angular acceleration of the wheel.
+\end{enumerate}
+
+\begin{center}
+    [University of Aberystwyth, Wales 2005]
+\end{center}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{fig1_8a.png}
+    \caption{Figure 1.8a: Force applied at right angles to the radius.}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{fig1_8b.png}
+    \caption{Figure 1.8b: Force applied at an angle of $20^\circ$ to the tangent.}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code provides a structured and properly formatted representation of the physics problem, including sections for each part of the problem, enumerated lists for the calculations required, and placeholders for figures."
+1.41,"To format the given physics text into LaTeX, we need to ensure that the problem is clearly presented with proper mathematical notation and structure. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A container of mass \(200 \, \text{kg}\) rests on the back of an open truck. If the truck accelerates at \(1.5 \, \text{m/s}^2\), what is the minimum coefficient of static friction between the container and the bed of the truck required to prevent the container from sliding off the back of the truck? 
+
+\begin{flushright}
+[University of Manchester 2007]
+\end{flushright}
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document with the problem statement formatted for clarity. The mass, acceleration, and other relevant quantities are properly typeset using math mode. The source of the problem is right-aligned for emphasis."
+1.42,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+A wheel of radius $r$ and weight $W$ is to be raised over an obstacle of height $h$ by a horizontal force $F$ applied to the centre. Find the minimum value of $F$ (see Fig. 1.9).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure1_9.png} % Replace with the actual path to the figure image
+    \caption{Illustration of the wheel being raised over an obstacle.}
+    \label{fig:1_9}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `figure1_9.png` with the actual path to your figure image file. This LaTeX document includes the necessary packages for mathematical formatting and figures, and it properly structures the problem statement with a reference to the figure."
+1.43,"To convert the given text into properly formatted LaTeX, we'll need to interpret the physics problem and format it accordingly. Here is the LaTeX code for the problem statement:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A thin uniform wire is bent into a semicircle of radius $R$. Locate the center of mass from the diameter of the semicircle.
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document with the problem statement formatted correctly. The use of `$R$` ensures that the radius is typeset in math mode, which is standard for variables in physics."
+1.44,"To format the given physics problem in LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem}
+
+Find the center of mass of a semicircular disc of radius $R$ and of uniform density.
+
+\end{document}
+```
+
+This LaTeX code sets up a simple document with a section for the problem statement, ensuring that mathematical symbols like the radius \( R \) are properly formatted."
+1.45,"To properly format the given physics text in LaTeX, we can write it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Locate the centre of mass of a uniform solid hemisphere of radius $R$ from the centre of the base of the hemisphere along the axis of symmetry.
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document structure and includes the necessary package for mathematical formatting. The text is included within the `document` environment, and the radius \( R \) is properly formatted using math mode."
+1.46,"To properly format the given physics text into LaTeX, we need to ensure that the text is clear and the mathematical symbols are correctly represented. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+At a circular disc of uniform density is of radius $R$. A circular hole of radius $\frac{1}{2}R$ is cut from the disc and is touching the disc’s circumference as shown in Fig. 1.10. Find the center of mass.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figure1_10.png} % Replace with actual figure file
+    \caption{Illustration of the disc with a hole.}
+    \label{fig:disc_with_hole}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `figure1_10.png` with the actual file name of your figure. This code snippet will format the text and include a placeholder for the figure, which should be added to your LaTeX document directory."
+1.47,"To properly format the given physics text into LaTeX, we can represent the problem statement and the relevant information using mathematical symbols and equations. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The mass of the Earth is 81\% the mass of the Moon. The distance between the centers of the Earth and the Moon is 60 times the radius of the Earth, where \( R = 6400 \, \text{km} \). Find the center of mass of the Earth–Moon system.
+
+\begin{itemize}
+    \item Let \( M_e \) be the mass of the Earth.
+    \item Let \( M_m \) be the mass of the Moon.
+    \item Given: \( M_e = 0.81 M_m \).
+    \item The distance between the centers of the Earth and the Moon is \( d = 60R = 60 \times 6400 \, \text{km} \).
+\end{itemize}
+
+The center of mass \( x_{\text{cm}} \) of the Earth–Moon system can be found using the formula:
+
+\[
+x_{\text{cm}} = \frac{M_e \cdot x_e + M_m \cdot x_m}{M_e + M_m}
+\]
+
+where \( x_e \) and \( x_m \) are the positions of the Earth and Moon, respectively, along the line joining their centers.
+
+\end{document}
+```
+
+This LaTeX document includes the necessary mathematical expressions and structure to clearly present the problem and the relevant data for determining the center of mass of the Earth-Moon system."
+1.48,"To format the given physics text into LaTeX, we need to express the problem statement clearly and use appropriate LaTeX commands for units and mathematical expressions. Here is the LaTeX code for the given problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+The distance between the center of carbon and oxygen atoms in a CO molecule is \SI{1.13}{\angstrom}. Locate the center of mass of the molecule relative to the carbon atom.
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document, includes the `amsmath` package for mathematical formatting, and the `siunitx` package for proper unit formatting. The distance is expressed using the `\SI{}` command to ensure the unit is correctly formatted."
+1.49,"To properly format the given physics text into LaTeX, we can structure it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The ammonia molecule \(\text{NH}_3\) is in the form of a pyramid with the three H atoms at the corners of an equilateral triangle base and the N atom at the apex of the pyramid. The H–H distance is \(1.014 \, \text{\AA}\) and the N–H distance is \(1.628 \, \text{\AA}\). Locate the centre of mass of the \(\text{NH}_3\) molecule relative to the N atom.
+
+\end{document}
+```
+
+This LaTeX code includes the necessary document class and package for mathematical formatting, and it uses inline math mode for the chemical formula and distances. The text is structured to clearly present the problem statement."
+1.50,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A boat of mass \(100 \, \text{kg}\) and length \(3 \, \text{m}\) is at rest in still water. A boy of mass \(50 \, \text{kg}\) walks from the bow to the stern. Find the distance through which the boat moves.
+
+\end{document}
+```
+
+This LaTeX code uses the `article` document class and the `amsmath` package for mathematical formatting. The text is formatted with appropriate mathematical notation for the masses and length."
+1.51,"To properly format the given physics text into LaTeX, we need to identify the key components and structure them accordingly. Here's the LaTeX code for the problem statement:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+At one end of the rod of length $L$, a body whose mass is twice that of the rod is attached. If the rod is to move with pure translation, at what fractional length from the loaded end should it be struck?
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document, using the `article` class and the `amsmath` package for any potential mathematical expressions. The problem statement is included in the `document` environment. Note that the text has been corrected for clarity and readability."
+1.52,"To find the center of mass of a solid cone of height \( h \), we need to set up the problem using LaTeX. Here's how you can format the problem statement and the necessary equations:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+Find the center of mass of a solid cone of height \( h \).
+
+\section*{Solution}
+
+To find the center of mass of a solid cone, we consider the cone with base radius \( R \) and height \( h \). The cone is oriented such that its vertex is at the origin and its base is parallel to the \( xy \)-plane at \( z = h \).
+
+The volume element in cylindrical coordinates is given by:
+\[
+dV = r \, dr \, d\theta \, dz
+\]
+
+The limits of integration for \( r \), \( \theta \), and \( z \) are:
+\[
+0 \leq r \leq \frac{R}{h}z, \quad 0 \leq \theta \leq 2\pi, \quad 0 \leq z \leq h
+\]
+
+The center of mass \( \bar{z} \) along the \( z \)-axis can be calculated using:
+\[
+\bar{z} = \frac{1}{V} \int_0^{2\pi} \int_0^h \int_0^{\frac{R}{h}z} z \, r \, dr \, d\theta \, dz
+\]
+
+where \( V \) is the total volume of the cone:
+\[
+V = \frac{1}{3} \pi R^2 h
+\]
+
+\end{document}
+```
+
+This LaTeX code sets up the problem of finding the center of mass of a solid cone, including the necessary integrals and limits of integration. The equations are properly formatted using the `amsmath` package for better readability."
+1.53,"To format the given physics text into LaTeX, we need to express the problem statement clearly using LaTeX syntax. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Find the centre of mass of a wire in the form of an arc of a circle of radius \( R \) which subtends an angle \( 2\alpha \) symmetrically at the centre of curvature.
+
+\end{document}
+```
+
+This LaTeX code snippet will correctly format the problem statement for a document. The mathematical symbols for the radius \( R \) and angle \( 2\alpha \) are properly formatted using the `\( \)` math mode."
+1.54,"To convert the given physics text into properly formatted LaTeX, we need to focus on the description of the problem and the relevant physics concepts. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Five identical pigeons are flying together northward with speed $v_0$. One of the pigeons is shot dead by a hunter, and the other four continue to fly with the same speed. Find the center of mass speed of the rest of the pigeons which continue to fly with the same speed after the dead pigeon has hit the ground.
+
+\end{document}
+```
+
+This LaTeX code snippet correctly formats the problem description, using inline math mode for variables like \( v_0 \). The text is clear and concise, suitable for a physics problem statement in a LaTeX document."
+1.55,"To format the given physics text into properly formatted LaTeX, we need to express the linear density as a function of position along the rod and then set up the integral to find the center of mass. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The linear density of a rod of length $L$ is directly proportional to the distance from one end. Let the linear density be given by $\lambda(x) = kx$, where $k$ is a constant of proportionality and $x$ is the distance from one end of the rod.
+
+To locate the center of mass from the same end, we use the formula for the center of mass $x_{\text{cm}}$ of a continuous mass distribution:
+
+\[
+x_{\text{cm}} = \frac{1}{M} \int_0^L x \lambda(x) \, dx
+\]
+
+where $M$ is the total mass of the rod, given by:
+
+\[
+M = \int_0^L \lambda(x) \, dx = \int_0^L kx \, dx
+\]
+
+Substituting $\lambda(x) = kx$ into the expression for $x_{\text{cm}}$, we have:
+
+\[
+x_{\text{cm}} = \frac{1}{M} \int_0^L x(kx) \, dx = \frac{k}{M} \int_0^L x^2 \, dx
+\]
+
+\end{document}
+```
+
+This LaTeX code sets up the problem by defining the linear density function and the integrals needed to find the center of mass. It does not solve the problem but provides the necessary expressions in a clear and structured format."
+1.56,"To format the given physics text into LaTeX, we need to represent the problem statement using LaTeX syntax for clarity and precision. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Particles of masses \( m, 2m, 3m, \ldots, nm \) are collinear at distances \( L, 2L, 3L, \ldots, nL \), respectively, from a fixed point. Locate the center of mass from the fixed point.
+
+\end{document}
+```
+
+This LaTeX code uses the `amsmath` package for better handling of mathematical expressions. The masses and distances are represented using inline math mode with `\( \)`, and ellipses `\ldots` are used to indicate the continuation of the sequence."
+1.57,"To convert the given text into properly formatted LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+A semicircular disc of radius $R$ has density $\rho$ which varies as $\rho = c r^2$, where $r$ is the distance from the centre of the base and $c$ is a constant. The centre of mass will lie along the $y$-axis for reasons of symmetry (see Fig. 1.11). Locate the centre of mass from $O$, the centre of the base. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{semicircle.png} % Replace with actual figure file
+    \caption{Semicircular disc with variable density}
+    \label{fig:semicircle}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `""semicircle.png""` with the actual file name of your figure. This code sets up a document with a description of the problem and includes a placeholder for a figure. The mathematical expressions are properly formatted using LaTeX syntax."
+1.58,"To format the given physics text into LaTeX, we need to represent the problem statement clearly, including any relevant symbols and units. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+Locate the center of mass of a water molecule, given that the OH bond has a length of \SI{1.77}{\angstrom} and the angle \(\angle \text{HOH}\) is \(105^\circ\).
+
+\end{document}
+```
+
+This LaTeX code uses the `siunitx` package for proper formatting of units like angstroms, and it includes the angle in degrees. The problem statement is clearly laid out for further analysis or solution."
+1.59,"Certainly! Below is the LaTeX code to format the given physics text. Since the problem involves locating the center of mass (CM) of a combined structure of three uniform square laminas, I'll format the text accordingly. Note that the figure reference is included as a placeholder since the actual figure is not provided.
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Three uniform square laminas are placed as in Fig. 1.12. Each lamina measures \(a\) on each side and has mass \(m\). Locate the center of mass (CM) of the combined structure.
+
+\begin{figure}[h]
+    \centering
+    % Include the figure here
+    \includegraphics[width=0.5\textwidth]{figure_placeholder.png} % Replace with actual figure file
+    \caption{Illustration of the arrangement of the three laminas.}
+    \label{fig:laminas}
+\end{figure}
+
+\end{document}
+```
+
+Please replace `figure_placeholder.png` with the actual filename of your figure. This code will format the text and include a placeholder for the figure, which should be replaced with the actual image file."
+1.60,"To convert the given physics text into properly formatted LaTeX, we need to ensure that mathematical expressions are correctly typeset and that the text is clear and structured. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Consider a particle of mass $m$ moving in one dimension under a force with the potential $U(x) = k(2x^3 - 5x^2 + 4x)$, where the constant $k > 0$. Show that the point $x = 1$ corresponds to a stable equilibrium position of the particle. 
+
+\begin{flushright}
+[University of Manchester 2007]
+\end{flushright}
+
+\end{document}
+```
+
+This code includes the necessary mathematical expressions and ensures that the text is clearly formatted. The potential function \( U(x) \) is properly typeset using LaTeX's math mode, and the problem statement is clearly presented."
+1.61,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Consider a particle of mass $m$ moving in one dimension under a force with the potential $U(x) = k(x^2 - 4xl)$, where the constant $k > 0$. Show that the point $x = 2l$ corresponds to a stable equilibrium position of the particle. Find the frequency of a small amplitude oscillation of the particle about the equilibrium position. [University of Manchester 2006]
+
+\end{document}
+```
+
+This LaTeX code includes the necessary mathematical formatting for the potential function and the equilibrium condition."
+1.62,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A cube rests on a rough horizontal plane. A tension parallel to the plane is applied by a thread attached to the upper surface. Show that the cube will slide or topple according to whether the coefficient of friction is less or greater than 0.5.
+
+\end{document}
+```"
+1.63,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+A ladder leaning against a smooth wall makes an angle $\alpha$ with the horizontal when in a position of limiting equilibrium. Show that the coefficient of friction between the ladder and the ground is $\frac{1}{2} \cot \alpha$.
+
+\section*{1.1}
+
+\subsection*{(a) Equation of motion for the truck:}
+
+\begin{equation}
+s = ut \tag{1}
+\end{equation}
+
+Equation of motion for the car:
+
+\begin{equation}
+s = \frac{1}{2} a t^2 \tag{2}
+\end{equation}
+
+The graphs for (1) and (2) are shown in Fig. 1.13. Eliminating $t$ between the two equations:
+
+\begin{equation}
+s \left( 1 - \frac{1}{2} \frac{a}{u^2} \right) = 0 \tag{3}
+\end{equation}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure1_13.png}
+    \caption{Graphical representation of equations (1) and (2).}
+    \label{fig:1.13}
+\end{figure}
+
+Either $s = 0$ or $1 - \frac{1}{2} \frac{a}{u^2} = 0$. The first solution corresponds to the result that the truck overtakes the car at $s = 0$ and therefore at $t = 0$. The second solution gives:
+
+\begin{equation}
+s = \frac{2u^2}{a} = \frac{2 \times 10^2}{2} = 100 \, \text{m}
+\end{equation}
+
+\subsection*{(b)}
+
+\begin{equation}
+t = \frac{s}{u} = \frac{100}{10} = 10 \, \text{s}
+\end{equation}
+
+\subsection*{(c)}
+
+\begin{equation}
+v = at = 2 \times 10 = 20 \, \text{m/s}
+\end{equation}
+
+\end{document}
+```"

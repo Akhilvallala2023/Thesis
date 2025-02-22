@@ -1,57 +1,2497 @@
-Question_number,Question
-12.1,Certainly! Please provide the physics text that you would like converted into LaTeX format.
-12.2,"Certainly! Please provide the physics text you would like to have converted into LaTeX, and I'll be happy to assist you with the formatting."
-12.3,"Of course! Please provide the physics text you would like to have converted into LaTeX, and I'll assist you with the formatting."
-12.4,Certainly! Please provide the physics text you would like to be converted into LaTeX format.
-12.5,"Of course! Please provide the physics text that you would like converted into LaTeX format, and I'll be happy to assist you."
-12.6,"Of course! Please provide the physics text you would like to have converted into LaTeX, and I'll be happy to assist you."
-12.7,"Certainly! Please provide the specific physics text or equations you would like to have formatted in LaTeX, and I'll be happy to assist you."
-12.8,"Certainly! Please provide the physics text that you would like to be converted into LaTeX format, and I'll be happy to assist you with that."
-12.9,"Of course! Please provide the physics text you would like to have converted into LaTeX, and I'll be happy to assist you."
-12.10,"Of course! Please provide the specific physics text or equations you would like converted into LaTeX, and I'll be happy to assist you."
-12.11,Of course! Please provide the specific physics text or equations you would like me to convert into LaTeX format.
-12.12,"Of course! Please provide the physics text that you would like converted into LaTeX format, and I'll be happy to assist you."
-12.13,Certainly! Please provide the physics text you would like to have converted into LaTeX format.
-12.14,"Of course! Please provide the physics text you would like converted into LaTeX format, and I'll be happy to assist you."
-12.15,"Of course! Please provide the physics text you would like converted into LaTeX, and I'll be happy to assist you with the formatting."
-12.16,"Of course! Please provide the physics text you would like to have converted into LaTeX format, and I'll be happy to assist you."
-12.17,Certainly! Please provide the physics text that you would like to be converted into LaTeX format.
-12.18,"Of course! Please provide the physics text you would like converted into LaTeX, and I'll be happy to assist you with the formatting."
-12.19,"Certainly! Please provide the physics text you would like converted into LaTeX, and I'll format it for you."
-12.20,"Certainly! Please provide the specific physics text or equations you would like to have formatted in LaTeX, and I'll be happy to assist you."
-12.21,Certainly! Please provide the physics text that you would like to have converted into LaTeX format.
-12.22,"Certainly! Please provide the physics text that you would like to be converted into LaTeX format, and I'll be happy to assist you."
-12.23,Certainly! Please provide the physics text you would like to be converted into LaTeX format.
-12.24,"Of course! Please provide the physics text you would like to have converted into LaTeX format, and I'll be happy to assist you."
-12.25,"Of course! Please provide the physics text that you would like converted into LaTeX, and I'll be happy to assist you with the formatting."
-12.26,Of course! Please provide the physics text that you would like to be converted into LaTeX format.
-12.27,"Of course! Please provide the physics text you would like converted into LaTeX, and I'll be happy to assist you."
-12.28,"Of course! Please provide the physics text you would like to convert into LaTeX, and I'll be happy to assist you."
-12.29,Certainly! Please provide the physics text you would like to have converted into LaTeX format.
-12.30,"Of course! Please provide the physics text you would like converted into LaTeX, and I'll be happy to assist you."
-12.31,"Of course! Please provide the physics text you would like to have converted into LaTeX format, and I'll be happy to assist you."
-12.32,Certainly! Please provide the physics text that you would like converted into LaTeX format.
-12.33,"Certainly! Please provide the specific physics text or equations you would like converted into LaTeX format, and I'll be happy to assist you."
-12.34,"Of course! Please provide the physics text you would like to convert into LaTeX, and I'll be happy to assist you."
-12.35,"Of course! Please provide the physics text you would like converted into LaTeX format, and I'll be happy to assist you."
-12.36,"Of course, please provide the physics text you would like to have formatted in LaTeX, and I'll be happy to assist you!"
-12.37,Of course! Please provide the specific physics text or equations you would like me to convert into LaTeX format.
-12.38,Certainly! Please provide the physics text you would like to have converted into LaTeX format.
-12.39,"Of course! Please provide the physics text you would like to have converted into LaTeX format, and I'll be happy to assist you."
-12.40,"Of course! Please provide the physics text you would like converted into LaTeX format, and I'll be happy to assist you."
-12.41,"Certainly! Please provide the physics text that you would like to be converted into LaTeX format, and I'll be happy to assist you."
-12.42,Certainly! Please provide the physics text you would like to have converted into LaTeX format.
-12.43,"Of course! Please provide the physics text you would like to have converted into LaTeX, and I'll be happy to assist you with the formatting."
-12.44,"Of course! Please provide the physics text you would like to convert into LaTeX, and I'll be happy to assist you with the formatting."
-12.45,"Of course! Please provide the physics text you would like to be converted into LaTeX format, and I'll be happy to assist you."
-12.46,"Certainly! Please provide the physics text you would like converted into LaTeX format, and I'll be happy to assist you."
-12.47,Certainly! Please provide the physics text that you would like me to convert into LaTeX format.
-12.48,"Of course! Please provide the physics text you would like to have converted into LaTeX, and I'll be happy to assist you with the formatting."
-12.49,"Certainly! Please provide the physics text that you would like to be converted into LaTeX format, and I'll be happy to assist you with that."
-12.50,"Certainly! Please provide the specific physics text or equations you would like converted into LaTeX, and I'll be happy to assist you."
-12.51,Certainly! Please provide the physics text you would like to have converted into LaTeX format.
-12.52,"Of course! Please provide the physics text you would like converted into LaTeX, and I'll format it for you."
-12.53,"Of course! Please provide the physics text you would like to be converted into LaTeX format, and I'll be happy to assist you."
-12.54,Of course! Please provide the physics text you would like to have converted into LaTeX format.
-12.55,"Of course! Please provide the physics text you would like converted into LaTeX, and I'll be happy to assist."
-12.56,"Of course! Please provide the physics text that you would like converted into LaTeX format, and I'll be happy to assist you."
+Question_number,Solutions
+12.1,"```latex
+In the segment \( \text{ACD} \), the two \( 3\,\Omega \) resistances give \( 6\,\Omega \), which with \( 6\,\Omega \) in parallel yields:
+\[
+\frac{6 \times 6}{6 + 6} = 3\,\Omega.
+\]
+This together with \( 3\,\Omega \) across \( \text{DE} \) in series, gives \( 6\,\Omega \), which together with \( 6\,\Omega \) across \( \text{AE} \) in parallel gives \( 3\,\Omega \).
+
+By similar reasoning, the resistance along \( \text{AFB} \) is \( 6\,\Omega \), which with \( 3\,\Omega \) across \( \text{AB} \) in parallel yields the effective resistance across \( \text{AB} \):
+\[
+R_{AB} = \frac{6 \times 3}{6 + 3} = 2\,\Omega.
+\]
+```"
+12.2,"To format the given physics text into LaTeX, we need to ensure that all symbols, fractions, and equations are properly formatted. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The resistance \( R \) is given by the formula:
+
+\[
+R = \frac{\rho l}{A} = \frac{\rho l^2}{A l} = \frac{\rho l^2}{v_0}
+\]
+
+where \( v_0 \) is the constant volume. The change in resistance \(\Delta R\) is given by:
+
+\[
+\Delta R = \frac{2 \rho l \Delta l}{v_0}
+\]
+
+Thus, the relative change in resistance is:
+
+\[
+\frac{\Delta R}{R} \equiv \frac{2 \Delta l}{l} \equiv 2 \times \frac{0.1}{100} = \frac{0.2}{100} \text{ or } 0.2\%
+\]
+
+\end{document}
+```
+
+This LaTeX code includes the necessary mathematical symbols and formatting to clearly present the equations and calculations."
+12.3,"To convert the given text into properly formatted LaTeX, we will define the equations clearly and ensure proper spacing and alignment. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the resistances be \( R_1 \) and \( R_2 \).
+
+For resistances in series, we have:
+\begin{equation}
+R_1 + R_2 = p \tag{1}
+\end{equation}
+
+For resistances in parallel, we have:
+\begin{equation}
+\frac{R_1 R_2}{R_1 + R_2} = q \tag{2}
+\end{equation}
+
+Combining equations (1) and (2), we find:
+\begin{equation}
+R_1 - R_2 = \pm \sqrt{n(n-4)}
+\end{equation}
+
+Since \( R_1 \) and \( R_2 \) are real, it follows that \( n \geq 4 \).
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the equations properly formatted, including the conditions for real resistances."
+12.4,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+Let a current \( i \) enter at \( A \) and leave at \( C \). Currents in various branches are given by the junction theorem, as shown in Fig. 12.31. The potential difference is given by:
+
+\[
+V_{AB} + V_{BD} = V_{AD} \implies 3i_1 + 5i_2 = 6(i - i_1)
+\]
+
+which simplifies to:
+
+\[
+9i_1 + 5i_2 = 6i \tag{1}
+\]
+
+Similarly, for the potential difference \( V_{AC} \):
+
+\[
+V_{AC} = V_{AB} + V_{BC} = V_{AD} + V_{DC} \implies 3i_1 + 2(i_1 - i_2) = 6(i - i_1) + 4(i - i_1 + i_2)
+\]
+
+which simplifies to:
+
+\[
+15i_1 - 6i_2 = 10i \tag{2}
+\]
+
+Solving equations (1) and (2), we find \( i_2 = 0 \). Thus, the middle branch \( BD \) is rendered ineffective. Two resistances of \( 3 \, \Omega \) and \( 2 \, \Omega \) in series in the upper branch are to be combined in parallel with two other resistances of \( 6 \, \Omega \) and \( 4 \, \Omega \) in series in the lower branch to obtain the effective resistance between \( A \) and \( C \). This is given by:
+
+\[
+R_{\text{eff}} = \frac{(3 + 2)(6 + 4)}{(3 + 2) + (6 + 4)} = 3.33 \, \Omega
+\]
+
+This particular problem could have been easily solved by noticing that the Wheatstone bridge balance requirement is fulfilled since \( \frac{P}{Q} = \frac{R}{S} \); here \( \frac{3}{2} = \frac{6}{4} \), in which case the current in the middle branch is zero (see problem 12.33).
+
+\end{document}
+```"
+12.5,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+The network in Fig.~12.3 can be recast as shown in Fig.~12.32. Here again, the balancing condition for the Wheatstone bridge is satisfied: 
+\[
+\frac{P}{Q} = \frac{R}{S}, \quad \frac{2}{4} = \frac{3}{6}.
+\]
+Therefore, the middle branch resistor of \(5\,\Omega\) is rendered ineffective. The total resistance in the upper branch is 
+\[
+2 + 4 = 6\,\Omega
+\]
+and in the lower branch 
+\[
+3 + 6 = 9\,\Omega.
+\]
+The equivalent resistance for \(6\,\Omega\) and \(9\,\Omega\) in parallel will be 
+\[
+R_{\text{eq}} = \frac{6 \times 9}{6 + 9} = 3.6\,\Omega.
+\]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig12_32.png}
+    \caption{Equivalent circuit diagram.}
+    \label{fig:12_32}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary mathematical expressions and a placeholder for the figure. Make sure to replace `fig12_32.png` with the actual file name of your figure."
+12.6,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+For convenience, the given network can be recast as in Fig.~\ref{fig:network}. It is seen that this network is exactly identical to that in Problem (12.5) in which the Wheatstone bridge condition is satisfied. Therefore, the resistance in the middle branch CE is rendered ineffective. The total resistance in the upper branch is obviously equal to $2R$, which is also the case for the lower branch. Therefore, the effective resistance between $D$ and $F$ will be:
+
+\begin{equation}
+    R_{\text{eff}} = \frac{2R \times 2R}{2R + 2R} = R
+\end{equation}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig12_33.png} % Replace with the actual figure file
+    \caption{Network identical to Problem (12.5) with the Wheatstone bridge condition satisfied.}
+    \label{fig:network}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `fig12_33.png` with the actual filename of your figure. This code will properly format your text with equations and include a figure with a caption."
+12.7,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let \( R_{\text{eq}} \) be the equivalent resistance of the circuit. Let a current \( i \) enter at \( X \) and emerge at \( Y \). The distribution of currents in various branches is shown in Fig. 12.34. The potential drop across \( X \) and \( Y \) is given by
+
+\begin{equation}
+V_{XY} = i R_{\text{eq}}
+\end{equation}
+
+Now,
+
+\begin{align}
+V_{XY} &= V_{XA} + V_{AY} \\
+       &= R(i - i_1) + 2R(i - i_1 - i_2) \\
+       &= 3Ri - 3Ri_1 - 2Ri_2
+\end{align}
+
+From equations (1) and (2), we have
+
+\begin{equation}
+i R_{\text{eq}} = R(3i - 3i_1 - 2i_2)
+\end{equation}
+
+The currents \( i_1 \) and \( i_2 \) can be expressed in terms of \( i \):
+
+For the loop \( V_{XB} = V_{XC} + V_{CB} = V_{XA} + V_{AB} \), we have
+
+\begin{equation}
+2Ri_1 = R(i - i_1) + Ri_2 \quad \Rightarrow \quad 3i_1 - i_2 = i
+\end{equation}
+
+Also, for the loop \( V_{AY} = V_{AB} + V_{BY} = V_{AD} + V_{DY} \), we have
+
+\begin{equation}
+Ri_2 + R(i_1 + i_2) = 2R(i - i_1 - i_2) \quad \Rightarrow \quad 3i_1 + 4i_2 = 2i
+\end{equation}
+
+Solving equations (4) and (5), we find
+
+\begin{align}
+i_1 &= \frac{2i}{5} \\
+i_2 &= \frac{i}{5}
+\end{align}
+
+Using the values of \( i_1 \) and \( i_2 \) in equation (3), we find
+
+\begin{equation}
+R_{\text{eq}} = \frac{7R}{5}
+\end{equation}
+
+\begin{center}
+\textbf{Fig. 12.34}
+\end{center}
+
+\end{document}
+```
+
+This LaTeX code properly formats the given physics problem and solution, ensuring correct alignment and notation for the equations."
+12.8,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Solution}
+
+\subsection*{(i)}
+
+Let the currents in segments \( AD \), \( DE \), and \( R \) be \( i_1 \), \( i_2 \), and \( i_3 \), respectively. According to the junction theorem, we have:
+
+\[
+i_3 = 5 - 2 = 3 \, \text{A}
+\]
+
+For the potential difference \( V_{AD} \):
+
+\[
+V_{AD} = V_{AC} + V_{CD}
+\]
+
+Thus,
+
+\[
+i_1 \times 6 = 5 \times 4 + 5 \times 2
+\]
+
+Solving for \( i_1 \):
+
+\[
+i_1 = 5 \, \text{A}
+\]
+
+And for \( i_2 \):
+
+\[
+i_2 = 2 + 5 = 7 \, \text{A}
+\]
+
+For the potential difference \( V_{CB} \):
+
+\[
+V_{CB} = V_{CD} + V_{DB}
+\]
+
+\[
+3R = 2 \times 5 + 7 \times 5
+\]
+
+Solving for \( R \):
+
+\[
+R = \frac{15}{\Omega}
+\]
+
+\subsection*{(ii)}
+
+The potential difference \( V_{AB} \) is given by:
+
+\[
+V_{AB} = V_{AC} + V_{CB} = 4 \times 5 + 15 \times 3 = 65 \, \text{V}
+\]
+
+\subsection*{(iii)}
+
+The heat developed per second, which is equivalent to the power, is calculated as:
+
+\[
+\text{Power} = \sum i_n^2 R_n = 5^2 \times 4 + 2^2 \times 5 + 5^2 \times 6 + 3^2 \times 15 + 7^2 \times 5
+\]
+
+\[
+= 650 \, \text{J/s} = \frac{650}{4.18} \, \text{Cal/s} = 155.5 \, \text{Cal/s}
+\]
+
+\end{document}
+```"
+12.9,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The combination of \(3 \, \Omega_1\) and \(7 \, \Omega_1\) resistance in series is \(10 \, \Omega_1\). This, in parallel with \(10 \, \Omega_1\) resistance, yields \(5 \, \Omega_1\). This is in series with another \(5 \, \Omega_1\) resistance, giving the combined resistance of \(10 \, \Omega_1\). This being in parallel with \(10 \, \Omega_1\) resistance across points \(A\) and \(B\) gives the effective resistance of \(5 \, \Omega_1\) across \(A\) and \(B\).
+
+\end{document}
+```
+
+This LaTeX code correctly formats the physics problem statement and solution, ensuring that all resistances are displayed with the correct symbols and units."
+12.10,"Here is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Let the effective resistance between points \( A \) and \( B \) be \( R \). By adding one more section to the infinite sections of resistors, the effective resistance will not change, as shown in Fig. 12.35. The middle resistor \( r \) is in parallel with \( R \), and the other two resistors \( r \) are in series. Therefore, we have:
+
+\[
+R = r + \frac{Rr}{R + r} + r
+\]
+
+Simplifying, we get:
+
+\[
+R^2 - 2Rr - 2r^2 = 0
+\]
+
+The solution to this equation is:
+
+\[
+R = r \left( 1 + \sqrt{3} \right)
+\]
+
+The second solution is ignored since \( R \) must be positive.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Fig12_35.png} % Replace with the actual path to the figure
+    \caption{Infinite sections of resistors.}
+    \label{fig:12_35}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `""Fig12_35.png""` with the actual path to your figure file. This LaTeX code includes the necessary mathematical expressions and a placeholder for the figure."
+12.11,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+Given the resistances \( R_I \) and \( R_C \) for two different materials, we have:
+
+\[
+R_I = \frac{\rho l}{A} = \frac{10 \times 10^{-6} \cdot l}{\pi (0.05)^2} = 1.274 \times 10^{-3} l
+\]
+
+\[
+R_C = \frac{\rho' l}{A} = \frac{49 \times 10^{-6} \cdot l}{\pi (0.05)^2} = 6.24 \times 10^{-3} l
+\]
+
+For a parallel arrangement of these resistances, the equivalent resistance \( R \) is given by:
+
+\[
+\frac{1}{R} = \frac{1}{R_I} + \frac{1}{R_C}
+\]
+
+Solving for \( R \):
+
+\[
+R = \frac{R_I R_C}{R_I + R_C} = \frac{(1.274 \times 10^{-3} l)(6.24 \times 10^{-3} l)}{1.274 \times 10^{-3} l + 6.24 \times 10^{-3} l}
+\]
+
+\[
+R = \frac{(1.274 \times 6.24) \times 10^{-6} l^2}{(1.274 + 6.24) \times 10^{-3} l} = 10.58 \times 10^{-3} l
+\]
+
+Given \( R = \frac{2}{\Omega} \), we equate and solve for \( l \):
+
+\[
+10.58 \times 10^{-3} l = \frac{2}{\Omega}
+\]
+
+\[
+l = \frac{2}{10.58 \times 10^{-3}} \approx 1890 \, \text{cm} = 18.9 \, \text{m}
+\]
+
+Thus, the length \( l \) is \( 18.9 \, \text{m} \).
+
+\end{document}
+```"
+12.12,"Certainly! Below is the properly formatted LaTeX code for the given physics equations:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{align*}
+    R_2 &= R_0(1 + \alpha t_2) \\
+    R_1 &= R_0(1 + \alpha t_1) \\
+    \therefore \frac{R_2}{R_1} &= \frac{1 + \alpha t_2}{1 + \alpha t_1} \\
+    \therefore \alpha &= \frac{R_2 - R_1}{R_1(t_2 - t_1)} \\
+    &= \frac{25.7 - 20.0}{20 \times (100 - 25)} \\
+    &= 3.8 \times 10^{-3} \, ^\circ\mathrm{C}^{-1}
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code uses the `align*` environment from the `amsmath` package to align the equations properly. The `\therefore` symbol is used to indicate logical steps in the derivation."
+12.13,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem: Resistance and Power Dissipation}
+
+\paragraph{Given:}
+\begin{itemize}
+    \item Resistance of each side: \( R_{\text{side}} = 10 \times 0.1 = 1\,\Omega \)
+    \item Resistance of the diagonal: \( R_{\text{diagonal}} = \sqrt{2}\,\Omega \)
+\end{itemize}
+
+\paragraph{Analysis:}
+The potential difference \( V_{AB} = V_{AD} \) because \( R_{AB} = R_{AD} \). Hence, no current flows through the diagonal \( BD \), as shown in Fig. 12.36.
+
+\paragraph{Effective Resistance:}
+The effective resistance of the network is obtained by combining the resistances:
+\begin{itemize}
+    \item Resistance \( AB \) and \( BC \) in series: \( R_{AB} + R_{BC} = 1 + 1 = 2\,\Omega \)
+    \item Resistance \( AD \) and \( DC \) in series: \( R_{AD} + R_{DC} = 1 + 1 = 2\,\Omega \)
+\end{itemize}
+
+These two series combinations are in parallel:
+\[
+R_{\text{eff}} = \frac{2 \times 2}{2 + 2} = 1\,\Omega
+\]
+
+\paragraph{Power Dissipation:}
+The power dissipated in the network is given by:
+\[
+P = \frac{\xi^2}{R} = \frac{2^2}{1} = 4\,\text{W}
+\]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure_12_36.png} % Placeholder for the actual figure
+    \caption{Circuit diagram illustrating the resistances and connections.}
+    \label{fig:12_36}
+\end{figure}
+
+\end{document}
+```
+
+Please replace `figure_12_36.png` with the actual file path of your figure if you have it. This LaTeX code formats the given physics problem and solution with proper mathematical notation and structure."
+12.14,"Certainly! Here is the given text formatted in LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The resistance \( R \) is given by the formula:
+
+\[
+R = \frac{V^2}{P} = \frac{(100)^2}{60} = 166.7 \, \Omega
+\]
+
+The temperature dependence of resistance is given by:
+
+\[
+R = R_0 (1 + \alpha t)
+\]
+
+Solving for \( t \):
+
+\[
+t = \frac{R - R_0}{R_0 \alpha} = \frac{166.7 - 20}{20 \times 0.0052} = 1410^\circ \text{C}
+\]
+
+\end{document}
+```
+
+This code will produce a document with the equations properly formatted and aligned. Make sure to compile it with a LaTeX editor to see the output."
+12.15,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Let a current of \(6 \, \text{A}\) be sent through the corner \(a\). Let a potential difference \(V_{ab}\) be established between \(a\) and \(b\) and current \(6 \, \text{A}\) flow out from \(b\). The currents in various branches are indicated in Fig. 12.37 from symmetry considerations. If \(R_{\text{eq}}\) is the equivalent resistance of this network across the body diagonal \(ab\), then
+
+\[
+V_{ab} = 6 R_{\text{eq}}
+\]
+
+But
+
+\[
+V_{ab} = V_{ac} + V_{cd} + V_{db} = 2R + R + 2R = 5R
+\]
+
+Thus,
+
+\[
+6 R_{\text{eq}} = 5R
+\]
+
+or
+
+\[
+R_{\text{eq}} = \frac{5}{6} R = \frac{5}{6} \times 10 = 8.33 \, \Omega
+\]
+
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{Fig12_37.png}
+    \captionof{figure}{Figure 12.37: Currents in various branches.}
+\end{center}
+
+\end{document}
+```
+
+Note: Ensure that the image `Fig12_37.png` is available in the same directory as your LaTeX document for the figure to be included. Adjust the path if necessary."
+12.16,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The power dissipated in a resistor is given by the formula:
+\[
+W = \frac{V^2}{R}
+\]
+
+For the first resistor \( R_1 \), with power \( W_1 = 25 \, \text{W} \) and voltage \( V = 220 \, \text{V} \), the resistance is calculated as:
+\[
+R_1 = \frac{V^2}{W_1} = \frac{(220)^2}{25} = \frac{48400}{25} = 1936 \, \Omega
+\]
+
+For the second resistor \( R_2 \), with power \( W_2 = 100 \, \text{W} \) and the same voltage \( V = 220 \, \text{V} \), the resistance is:
+\[
+R_2 = \frac{V^2}{W_2} = \frac{(220)^2}{100} = \frac{48400}{100} = 484 \, \Omega
+\]
+
+The Joule heat generated in \( R_1 \) is given by:
+\[
+H_1 = i^2 R_1 = 1936 i^2
+\]
+
+The Joule heat generated in \( R_2 \) is:
+\[
+H_2 = i^2 R_2 = 484 i^2
+\]
+
+Therefore, the 25 W bulb glows brighter.
+
+\end{document}
+```"
+12.17,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+By prob. (12.16), we have:
+\[
+R_1 = \frac{1936}{\Omega_1} \quad \text{and} \quad R_2 = \frac{484}{\Omega_1}
+\]
+
+The current through the first circuit is:
+\[
+H_1 = i_1 V = iV \frac{R_2}{R_1 + R_2}
+\]
+
+The current through the second circuit is:
+\[
+H_2 = i_2 V = iV \frac{R_1}{R_1 + R_2}
+\]
+
+Therefore, the 100 W bulb glows brighter.
+
+\end{document}
+```
+
+This LaTeX code will format the equations and text properly, ensuring clarity and correctness in the presentation of the physics problem and its solution."
+12.18,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Effective Resistance in Parallel}
+
+The effective resistance \( R \) in a parallel circuit is given by:
+
+\[
+\frac{1}{R} = \frac{1}{4} + \frac{1}{6} + \frac{1}{12} = \frac{1}{2}
+\]
+
+Thus, the resistance \( R \) is:
+
+\[
+R = 2 \, \Omega
+\]
+
+The total resistance \( R_{AB} \) is:
+
+\[
+R_{AB} = 2 + 1 + 2 = 5 \, \Omega
+\]
+
+The current in the circuit \( i \) is calculated as:
+
+\[
+i = \frac{V_{AB}}{R_{AB}} = \frac{120}{5} = 24 \, \text{A}
+\]
+
+The voltage \( V_{AC} \) is:
+
+\[
+V_{AC} = i \times R_{AC} = 24 \times 2 = 48 \, \text{V}
+\]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Fig12_38.png}
+    \caption{Circuit Diagram (Fig. 12.38)}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `Fig12_38.png` with the actual filename of the image you have for Figure 12.38. This code will format the physics problem and solution correctly using LaTeX, including equations and a placeholder for the figure."
+12.19,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Consider the following expressions:
+
+\[
+i = \frac{\xi}{R + r}
+\]
+
+The power delivered to \( R \) is given by:
+
+\[
+P = i^2 R = \left(\frac{\xi}{R + r}\right)^2 R
+\]
+
+To find the maximum power delivered to \( R \), we set the derivative of \( P \) with respect to \( R \) to zero:
+
+\[
+\frac{\partial P}{\partial R} = 0
+\]
+
+Solving this equation gives:
+
+\[
+R = r
+\]
+
+Thus, the maximum power \( P_{\text{max}} \) is:
+
+\[
+P_{\text{max}} = \frac{\xi^2 r}{(r + r)^2} = \frac{\xi^2}{4r}
+\]
+
+\end{document}
+```
+
+This LaTeX code includes the necessary mathematical expressions and derivations, formatted for clarity and correctness."
+12.20,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem: Joule Heating in Coils}
+
+Given the relationship for Joule heat \( H \) and time \( t \):
+
+\[
+H = P_1 t_1 = V^2 R_1 t_1
+\]
+
+where \( H \) is the Joule heat and \( t \) is time.
+
+Thus, for coil 1:
+
+\[
+t_1 = \frac{H}{V^2 R_1}
+\]
+
+For coil 2:
+
+\[
+t_2 = \frac{H}{V^2 R_2}
+\]
+
+\subsection*{(a) Coils in Series}
+
+When the coils are in series, the total time \( t \) is given by:
+
+\[
+t = \frac{H}{V^2 R} = \frac{H}{V^2 (R_1 + R_2)} = t_1 + t_2
+\]
+
+\subsection*{(b) Coils in Parallel}
+
+For coils in parallel, we have:
+
+\[
+\frac{1}{t_1} = \frac{V^2}{H R_1} \quad \text{(coil 1)}
+\]
+
+\[
+\frac{1}{t_2} = \frac{V^2}{H R_2} \quad \text{(coil 2)}
+\]
+
+Thus,
+
+\[
+\frac{1}{t_1} + \frac{1}{t_2} = \frac{V^2}{H} \left( \frac{1}{R_1} + \frac{1}{R_2} \right) = \frac{V^2}{H R} = \frac{1}{t}
+\]
+
+or
+
+\[
+t = \frac{t_1 t_2}{t_1 + t_2}
+\]
+
+\end{document}
+```"
+12.21,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Solution}
+
+\subsection*{(a)}
+
+The current \( i \) through the series circuit is given by:
+\[
+i = \frac{\xi}{R_1 + R_2 + r} = \frac{24}{4 + 6 + 2} = 2 \, \text{A}
+\]
+
+The power across \( R_1 \) is:
+\[
+P_1 = i^2 R_1 = 2^2 \times 4 = 16 \, \text{W}
+\]
+
+The power across \( R_2 \) is:
+\[
+P_2 = i^2 R_2 = 2^2 \times 6 = 24 \, \text{W}
+\]
+
+\subsection*{(b)}
+
+The effective resistance \( R \) of \( R_1 \) and \( R_2 \) in parallel is:
+\[
+R = \frac{R_1 R_2}{R_1 + R_2} = \frac{4 \times 6}{4 + 6} = 2.4 \, \Omega
+\]
+
+The current \( i \) through the parallel circuit is:
+\[
+i = \frac{\xi}{R + r} = \frac{24}{2.4 + 2} = 5.45 \, \text{A}
+\]
+
+The current through \( R_2 \) is:
+\[
+i_2 = \frac{i R_1}{R_1 + R_2} = \frac{5.45 \times 4}{4 + 6} = 2.18 \, \text{A}
+\]
+
+The current through \( R_1 \) is:
+\[
+i_1 = \frac{i R_2}{R_1 + R_2} = \frac{5.45 \times 6}{4 + 6} = 3.27 \, \text{A}
+\]
+
+The power across \( R_1 \) is:
+\[
+P_1 = i_1^2 R_1 = (3.27)^2 \times 4 = 42.8 \, \text{W}
+\]
+
+The power across \( R_2 \) is:
+\[
+P_2 = i_2^2 R_2 = (2.18)^2 \times 6 = 28.5 \, \text{W}
+\]
+
+\end{document}
+```"
+12.22,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Physics Problem Solution}
+
+\subsection*{Given:}
+
+\begin{itemize}
+    \item Total resistance of the cable: \( R = 0.7 \times 30 = 21 \, \Omega \)
+    \item Voltage: \( V = 100 \, \text{kV} = 10^5 \, \text{V} \)
+    \item Power: \( P = 10^4 \, \text{kW} = 10^7 \, \text{W} \)
+\end{itemize}
+
+\subsection*{Solution:}
+
+\paragraph{Current:}
+
+The current \( I \) is given by the formula:
+\[
+I = \frac{P}{V} = \frac{10^7}{10^5} = 100 \, \text{A}
+\]
+
+\paragraph{Power Dissipated:}
+
+The power dissipated \( P_{\text{dissipated}} \) in the cable is calculated using:
+\[
+P_{\text{dissipated}} = I^2 R = (100)^2 \times 21 = 2.1 \times 10^5 \, \text{W}
+\]
+
+\paragraph{Fractional Power Loss:}
+
+The fractional power loss is given by:
+\[
+\text{Fractional Power Loss} = \frac{2.1 \times 10^5}{10^7} = 0.021 \quad \text{or} \quad 2.1\%
+\]
+
+\end{document}
+```
+
+This LaTeX code formats the physics problem and solution with appropriate mathematical notation and structure."
+12.23,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let each of the three resistances be \( r \). In the series arrangement, the effective resistance \( R_1 \) is given by:
+
+\[
+R_1 = 3r
+\]
+
+The power \( P_1 \) is:
+
+\[
+P_1 = \xi^2 R_1 = \xi^2 \times 3r = 10
+\]
+
+Thus, we have:
+
+\[
+\xi^2 r = 30 \tag{1}
+\]
+
+In the parallel arrangement, the effective resistance \( R_2 \) is:
+
+\[
+R_2 = \frac{r}{3}
+\]
+
+The power \( P_2 \) is:
+
+\[
+P_2 = \xi^2 R_2 = 3\xi^2 r = 3 \times 30 = 90 \, \text{W}
+\]
+
+where we have used equation (1).
+
+\end{document}
+```"
+12.24,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+If the heater resistance is $R_0$, then 
+\[
+R_0 = \frac{V^2}{P} = \frac{100^2}{1000} = 10 \, \Omega.
+\]
+
+The combined resistance of $R_0$ and $R$ in parallel is given by
+\[
+R_{\text{parallel}} = \frac{10R}{R + 10}.
+\]
+
+This is in series with $10 \, \Omega$, so the effective resistance of the circuit $R_e$ is
+\[
+R_e = 10 + \frac{10R}{R + 10} = \frac{20R + 100}{R + 10}.
+\]
+
+If $P'$ is the power of the heater, we have
+\[
+R_e = \frac{20R + 100}{R + 10} = \frac{V^2}{P'} = \frac{100^2}{62.5}.
+\]
+
+Solving for $R$, we find
+\[
+R = 5 \, \Omega.
+\]
+
+\end{document}
+```
+
+This LaTeX code properly formats the physics problem and solution, including the equations and their derivations."
+12.25,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let $n$ cells of emf $\xi$ and internal resistance $r$ be wrongly connected. The effective emf of the battery is $(12 - 2n)\xi$. When the two cells and the battery aid each other, the net emf is $(12 - 2n)\xi + 2\xi$ or $(14 - 2n)\xi$. The total internal resistance is $14r$. By problem, when the two cells and battery aid each other, 
+
+\begin{equation}
+(14 - 2n)\xi = 3 \times 14r \tag{1}
+\end{equation}
+
+and when the two cells and battery oppose each other, the net emf is $(12 - 2n)\xi - 2\xi$ or $(10 - 2n)\xi$, the total internal resistance being $14r$. By problem,
+
+\begin{equation}
+(10 - 2n)\xi = 2 \times 14r \tag{2}
+\end{equation}
+
+Dividing (1) by (2),
+
+\[
+\frac{14 - 2n}{10 - 2n} = \frac{3}{2}
+\]
+
+Solving for $n$, we find $n = 1$.
+
+\end{document}
+```"
+12.26,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The total number of cells is \( N = m \times n \). Therefore, each row of cells will have an emf \( n\xi \) and the combined internal resistance \( nr \) (Fig. 12.39). The effective emf for \( m \) rows would again be \( n\xi \), but because the rows are in parallel, the effective internal resistance would become \( \frac{nr}{m} \). The total resistance then becomes \( R + \frac{nr}{m} \). The current through \( R \) will be 
+
+\[
+i = \frac{n\xi}{R + \frac{nr}{m}} = \frac{mnr}{Rm + nr} = \frac{Nr}{Rm + nr}
+\]
+
+Writing \( m = \frac{N}{n} \) in (1) and holding \( N \) as constant, maximum current \( i \) is found by setting \( \frac{\partial i}{\partial n} = 0 \). This gives 
+
+\[
+n^2 = \frac{RNr}{r} = \frac{Rmn}{r} \quad \text{or} \quad R = \frac{nr}{m}
+\]
+
+But the right-hand side is equal to the total internal resistance of the cells. Thus, the current is maximum when the cells are arranged such that their total internal resistance is equal to the external resistance. In particular, for a single cell, \( m = n = 1 \), and the condition for maximum current is \( R = r \), a result which is identical with that of problem (12.19).
+
+\begin{center}
+\textbf{Fig. 12.39}
+\end{center}
+
+\end{document}
+```"
+12.27,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let $\xi$ be the emf of each cell, $i$ the current flowing in the circuit, $r_1$ and $r_2$ be the internal resistance of the first and the second cells, respectively. The potential drop across the first cell will be 
+
+\begin{equation}
+    V_1 = \xi - i r_1 = 0 \quad \text{(by problem)}
+\end{equation}
+
+\begin{equation}
+    i = \frac{2\xi}{r_1 + r_2 + R}
+\end{equation}
+
+Combining (1) and (2), we have
+
+\begin{align*}
+    \xi &= i r_1 \\
+        &= \frac{2\xi r_1}{r_1 + r_2 + R}
+\end{align*}
+
+Therefore, 
+
+\begin{equation}
+    R = r_1 - r_2
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will format the equations and text appropriately, ensuring clarity and proper alignment for the physics problem and solution."
+12.28,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Solution}
+
+The total power is given by:
+\[
+P = P_1 + P_2 + P_3 = 103 \text{ Wh} \times 2 \text{ h} = 500 \text{ W}
+\]
+
+The power ratio is:
+\[
+P_1 : P_2 : P_3 = 5 : 3 : 2
+\]
+
+Thus, we can determine each power component:
+\[
+P_1 = 250 \text{ W}, \quad P_2 = 150 \text{ W}, \quad P_3 = 100 \text{ W}
+\]
+
+The resistances can be calculated using the formula \( R = \frac{V^2}{P} \).
+
+For \( R_1 \):
+\[
+R_1 = \frac{V^2}{P_1} = \frac{(200)^2}{250} = 160 \, \Omega
+\]
+
+For \( R_2 \):
+\[
+R_2 = \frac{V^2}{P_2} = \frac{(200)^2}{150} = 267 \, \Omega
+\]
+
+For \( R_3 \):
+\[
+R_3 = \frac{V^2}{P_3} = \frac{(200)^2}{100} = 400 \, \Omega
+\]
+
+In series, the total resistance \( R' \) is:
+\[
+R' = R_1 + R_2 + R_3 = 160 + 267 + 400 = 827 \, \Omega
+\]
+
+The required power for the series arrangement \( P' \) is calculated as:
+\[
+P' = \frac{V'^2}{R'} = \frac{(248)^2}{827} = 74.4 \text{ W}
+\]
+
+\end{document}
+```"
+12.29,"```latex
+The current flows from the positive to the negative terminal inside the battery. The potential difference between the two terminals of the battery is given by
+
+\[
+V = \mathcal{E} + i r = 2 + 5 \times 0.1 = 2.5 \, \text{V}
+\]
+
+where \( \mathcal{E} \) is the electromotive force (emf) of the battery, \( i \) is the current, and \( r \) is the internal resistance of the battery.
+```"
+12.30,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem: Effective Resistance and Power Dissipation}
+
+\begin{enumerate}
+    \item[(a)] The effective resistance in the circuit (Fig. 12.40) is calculated as follows:
+    \[
+    R_0 = R + \frac{R_1 R_2}{R_1 + R_2} = 3 + \frac{2 \times 5}{2 + 5} = 4.43\, \Omega
+    \]
+    The current \( i \) is given by:
+    \[
+    i = \frac{\xi}{R_0} = \frac{6}{4.43} = 1.35\, \text{A}
+    \]
+
+    \item[(b)] The current through \( R_1 \) is:
+    \[
+    i_1 = \frac{i R_2}{R_1 + R_2} = \frac{1.35 \times 2}{5 + 2} = 0.386\, \text{A}
+    \]
+    The power dissipated by \( R_1 \) is:
+    \[
+    P_1 = i_1^2 R_1 = (0.386)^2 \times 5 = 0.74\, \text{W}
+    \]
+    The current through \( R_2 \) is:
+    \[
+    i_2 = i - i_1 = 1.35 - 0.386 = 0.964\, \text{A}
+    \]
+    The power dissipated by \( R_2 \) is:
+    \[
+    P_2 = i_2^2 R_2 = (0.964)^2 \times 2 = 1.86\, \text{W}
+    \]
+    The power dissipated by \( R \) is:
+    \[
+    P = i^2 R = (1.35)^2 \times 3 = 5.47\, \text{W}
+    \]
+
+    \item[(c)] The total power dissipated by the resistances is:
+    \[
+    P_{\text{total}} = P_1 + P_2 + P = 0.74 + 1.86 + 5.47 = 8.07\, \text{W} \approx 8.1\, \text{W}
+    \]
+    The power supplied by the battery is:
+    \[
+    \text{Power supplied} = \xi i = 6 \times 1.35 = 8.1\, \text{W}
+    \]
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Fig12_40.png}
+    \caption{Circuit diagram for the problem.}
+    \label{fig:12.40}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX document includes the necessary calculations for effective resistance, current, power dissipation, and total power in a circuit, formatted with equations and a placeholder for the circuit diagram (Fig. 12.40)."
+12.31,"To convert the given text into properly formatted LaTeX, we need to clearly define the equations and ensure that all mathematical symbols are correctly represented. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The potential difference across AB is given by:
+
+\[
+\xi \frac{R}{R + r} = \frac{l}{l_0} \xi_0
+\]
+
+Given the equations:
+
+\[
+\xi \times \frac{20}{20 + r} = 150 \frac{l_0}{\xi_0}
+\]
+
+\[
+\xi \times \frac{10}{10 + r} = 120 \frac{l_0}{\xi_0}
+\]
+
+Dividing the last two equations, we have:
+
+\[
+\frac{2(10 + r)}{20 + r} = \frac{5}{4}
+\]
+
+Solving for \( r \), we find:
+
+\[
+r = 6.67 \, \Omega
+\]
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the equations formatted correctly, ensuring clarity and proper mathematical representation."
+12.32,"To convert the given physics text into properly formatted LaTeX, we need to structure the equations and text clearly. Here's how you can represent it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+For the section \( ABC \), we have:
+\[
+i = \frac{\xi_1}{R + r} = \frac{2.2}{1 + 0.1} = 2 \, \text{A}
+\]
+
+In the section \( BCD \), also:
+\[
+i = 2 \, \text{A}
+\]
+
+The resistance of a 26 cm wire is calculated as:
+\[
+\text{Resistance} = 26 \times \frac{50}{1} = 0.52 \, \Omega
+\]
+
+Neglecting the internal resistance of the second cell, we have:
+\[
+\xi_2 = 2 \times 0.52 = 1.04 \, \text{V}
+\]
+
+As no current flows through the galvanometer.
+
+\end{document}
+```
+
+This LaTeX code will format the physics equations and text into a neat and readable document. Each equation is separated and aligned properly, and the text is clearly presented."
+12.33,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a)}
+
+Given:
+\[
+V_{AB} = V_{AD}, \quad V_{BC} = V_{DC} \quad \therefore \quad i_1 P = i_2 R \tag{1}
+\]
+\[
+i_1 Q = i_2 S \tag{2}
+\]
+
+Dividing equation (1) by equation (2), we get:
+\[
+\frac{P}{Q} = \frac{R}{S} \tag{3}
+\]
+
+\subsection*{(b)}
+
+Assume that a non-zero current flows through the galvanometer of resistance \( G \).
+
+Applying the junction theorem at \( A \):
+\[
+i = i_1 + i_2 \tag{4}
+\]
+
+Applying the loop theorem to the loop \( ABDA \) and noting that there is no emf in this loop:
+\[
+i_g G + i_1 P - i_2 R = 0 \tag{5}
+\]
+
+Applying the loop theorem to the loop \( BCDB \), which also does not have an emf:
+\[
+(i_1 - i_g) Q - i_g G - (i_2 - i_g) S = 0 \tag{6}
+\]
+
+Combining equations (4), (5), and (6), we find:
+\[
+i_g i = \frac{QR - PS}{G(Q + S) + (P + R)(G + Q + S)}
+\]
+
+Note that \( i_g = 0 \) if \( QR - PS = 0 \), which is identical with the condition (3).
+
+\end{document}
+```
+
+This LaTeX code provides a clear and structured format for the physics problem and solution, ensuring that equations are properly aligned and labeled."
+12.34,"To properly format the given physics text using LaTeX, we need to structure it as a physics problem involving the application of the junction theorem (Kirchhoff's current law). Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Problem}
+
+Apply the junction theorem to obtain currents in various branches as indicated in Fig.~\ref{fig:circuit}. The current flowing through the ammeter is 6 A.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig12_41.png} % Replace with actual file name
+    \caption{Circuit diagram for applying the junction theorem.}
+    \label{fig:circuit}
+\end{figure}
+
+\section*{Solution}
+
+According to the junction theorem (Kirchhoff's current law), the sum of currents entering a junction is equal to the sum of currents leaving the junction. Mathematically, this can be expressed as:
+
+\begin{equation}
+    \sum I_{\text{in}} = \sum I_{\text{out}}
+\end{equation}
+
+Given that the current flowing through the ammeter is 6 A, we can set up the following equations based on the circuit configuration shown in Fig.~\ref{fig:circuit}:
+
+\begin{align*}
+    I_1 + I_2 &= I_3 \\
+    I_3 &= 6 \, \text{A} \\
+    \vdots & \quad \text{(additional equations based on the circuit)}
+\end{align*}
+
+Solving these equations will yield the currents in various branches of the circuit.
+
+\end{document}
+```
+
+**Notes:**
+- Replace `fig12_41.png` with the actual filename of the image file for Fig. 12.41.
+- Add any additional equations or details specific to the circuit as needed.
+- Ensure that the image file is in the same directory as your LaTeX document or provide the correct path."
+12.35,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the internal resistance of each battery be \( r \), the galvanometer resistance be \( G \), and the external resistance be \( R \). Then, in the series arrangement, the total resistance in the circuit (Fig. 12.42) is given by:
+
+\begin{equation}
+    R_{\text{eff}} = G + R + 2r
+\end{equation}
+
+The effective electromotive force (emf) is:
+
+\begin{equation}
+    \xi_{\text{eff}} = 2 \times 1.5 = 3 \, \text{V}
+\end{equation}
+
+Using Ohm's law, we have:
+
+\begin{equation}
+    \xi_{\text{eff}} = i (G + R + 2r)
+\end{equation}
+
+Substituting the values, we get:
+
+\begin{equation}
+    3 = 1 \times (G + R + 2r) \tag{1}
+\end{equation}
+
+In the parallel arrangement, the effective emf is:
+
+\begin{equation}
+    \xi_{\text{eff}} = 1.5 \, \text{V}
+\end{equation}
+
+The combined internal resistance is:
+
+\begin{equation}
+    \frac{r \times r}{r + r} = 0.5r
+\end{equation}
+
+Thus, the total resistance in the circuit is:
+
+\begin{equation}
+    R_{\text{eff}} = G + R + 0.5r
+\end{equation}
+
+Using Ohm's law again, we have:
+
+\begin{equation}
+    1.5 = 0.6 \times (G + R + 0.5r)
+\end{equation}
+
+Simplifying, we get:
+
+\begin{equation}
+    2.5 = G + R + 0.5r \tag{2}
+\end{equation}
+
+Subtracting equation (2) from equation (1), we find:
+
+\begin{equation}
+    r = 0.333 \, \Omega
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and solution with equations properly aligned and labeled, ensuring clarity and readability."
+12.36,"To properly format the given physics text into LaTeX, we need to structure the equations and text clearly. Below is the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+When the key is closed, the potential difference (P.D.) across the resistor $R$ is $V = iR$, and the electromotive force (emf) of the cell is $\xi = i(R + r)$, where $r$ is the internal resistance of the cell. Thus, we have:
+
+\[
+\frac{\xi}{V} = \frac{R + r}{R} = 1 + \frac{r}{R}
+\]
+
+When the key is open, let the balancing length be $X_1$ cm from the end $A$ against the emf $\xi$. When the key is closed, let the balancing length be $X_2$ against the P.D. of $V$ volts. Therefore:
+
+\[
+\frac{\xi}{V} = \frac{X_1}{X_2} = 1 + \frac{r}{R}
+\]
+
+Given the values:
+
+\[
+\frac{52}{40} = 1 + \frac{r}{R}
+\]
+
+Solving for $r$:
+
+\[
+\frac{52}{40} = 1 + \frac{r}{5}
+\]
+
+\[
+\frac{52}{40} - 1 = \frac{r}{5}
+\]
+
+\[
+\frac{12}{40} = \frac{r}{5}
+\]
+
+\[
+r = \frac{12}{40} \times 5 = 1.5 \, \Omega
+\]
+
+\end{document}
+```
+
+This code includes the necessary LaTeX packages and environment to properly display the equations and text. The equations are aligned and formatted for clarity."
+12.37,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Fig12_43.png} % Replace with actual figure path
+    \caption{Diagram of the potentiometer wire setup.}
+    \label{fig:12_43}
+\end{figure}
+
+\textbf{Resistance Calculation:}
+
+The resistance of a 40 cm portion of the potentiometer wire is given by:
+
+\[
+R_{\text{wire}} = \frac{40}{100} \times 10 = 4 \, \Omega
+\]
+
+The potential difference (P.D.) across the 40 cm wire due to a 2 V cell is:
+
+\[
+V = \frac{2 \times 4}{10 + R} = \frac{8}{10 + R}
+\]
+
+This is balanced by a 0.01 V due to the second cell:
+
+\[
+\frac{8}{10 + R} = 0.01
+\]
+
+Solving for \( R \), we have:
+
+\[
+8 = 0.01 \times (10 + R)
+\]
+
+\[
+8 = 0.1 + 0.01R
+\]
+
+\[
+7.9 = 0.01R
+\]
+
+\[
+R = \frac{7.9}{0.01} = 790 \, \Omega
+\]
+
+Thus, the resistance \( R \) is \( 790 \, \Omega \).
+
+\end{document}
+```
+
+This LaTeX document includes the necessary calculations and a placeholder for the figure, which you should replace with the actual image path. The equations are formatted to clearly show the steps involved in solving for the resistance \( R \)."
+12.38,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Solution}
+
+The resistance across \(ac\) (refer to Fig. 12.20) is calculated as follows:
+\[
+R_{ac} = \frac{14}{\Omega} \times 12,000 = \frac{3000}{\Omega}
+\]
+
+The combined resistance of the voltmeter \(\left(\frac{6000}{\Omega}\right)\) in parallel with \(\frac{3000}{\Omega}\) resistance is:
+\[
+R_{\text{parallel}} = \frac{\left(\frac{6000}{\Omega}\right) \times \left(\frac{3000}{\Omega}\right)}{\frac{6000}{\Omega} + \frac{3000}{\Omega}} = \frac{2000}{\Omega}
+\]
+
+The resistance across \(bc\) is:
+\[
+R_{bc} = \frac{34}{\Omega} \times 12,000 = \frac{9000}{\Omega}
+\]
+
+The effective resistance of the circuit is:
+\[
+R_{\text{effective}} = \frac{9000}{\Omega} + \frac{2000}{\Omega} = \frac{11,000}{\Omega}
+\]
+
+The potential difference (P.D.) across \(ac\) is given by:
+\[
+V = \frac{220 \times \frac{2000}{\Omega}}{\frac{11,000}{\Omega}} = 40 \, \text{V}
+\]
+
+Thus, the voltmeter reads \(40 \, \text{V}\).
+
+\end{document}
+```
+
+This LaTeX document includes the necessary calculations and formatting for the given physics problem, ensuring clarity and correctness in the presentation of the solution."
+12.39,"To convert the given physics text into properly formatted LaTeX, we need to clarify the equation and ensure that it is correctly structured. Here's a possible interpretation and formatting:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Given the equation:
+
+\[
+R \cdot 3.5 = \frac{l}{100 - l} = \frac{30}{100 - 30} = \frac{3}{7}
+\]
+
+Therefore, solving for \( R \):
+
+\[
+R = \frac{1.5}{\Omega_1}
+\]
+
+\end{document}
+```
+
+This LaTeX code assumes that the equation involves a resistance \( R \) and some length \( l \), with the given ratio and solution. Adjust the variables and context as necessary to fit the specific problem being addressed."
+12.40,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem Solution}
+
+\begin{enumerate}
+    \item[(a)] 
+    \begin{align*}
+        N &= \frac{i}{i_1} = \frac{100 \, \text{mA}}{1 \, \text{mA}} = 100 \\
+        S &= G \left(N - 1\right) = 80 \left(100 - 1\right) = 0.808 \, \Omega^{-1}
+    \end{align*}
+    A shunt of \(0.808 \, \Omega^{-1}\) should be provided for the moving coil meter.
+
+    \item[(b)]
+    \begin{align*}
+        V &= iG = 1 \times 10^{-3} \times 80 = 0.08 \, \text{V} \\
+        N &= \frac{80}{0.08} = 1000 \\
+        R &= (N - 1)G = (1000 - 1) \times 80 = 79,920 \, \Omega
+    \end{align*}
+    A resistance of \(79,920 \, \Omega\) must be connected in series with the moving coil galvanometer to give the required full-scale deflection.
+\end{enumerate}
+
+\end{document}
+```"
+12.41,"Certainly! Here is the given physics text converted into properly formatted LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+By Ohm's law, we have:
+\[
+\xi = i(R + r)
+\]
+
+Substituting the given values:
+\[
+9 = i(120 + 15)
+\]
+
+Solving for \(i\):
+\[
+\therefore i = \frac{9}{135} = \frac{1}{15} \, \text{A}
+\]
+
+The voltmeter would read:
+\[
+V = \xi - ir = 9 - \frac{1}{15} \times 15 = 8 \, \text{V}
+\]
+
+\end{document}
+```
+
+This LaTeX code will produce a well-formatted document with the equations and calculations clearly presented."
+12.42,"To convert the given physics text into properly formatted LaTeX, we need to ensure that the equations are clear and correctly structured. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The given problem involves calculating a quantity \( G \) based on the given parameters. The initial equation is:
+
+\[
+S = G \cdot (N-1)
+\]
+
+where \( i_1 = 1 \), \( i = 1 \), and \( N = 100 \).
+
+Therefore, we can express \( G \) as:
+
+\[
+G = \frac{S}{N-1}
+\]
+
+Substituting the given values, we have:
+
+\[
+G = \frac{1}{100-1} = \frac{1}{99}
+\]
+
+Thus, the final expression for \( G \) is:
+
+\[
+G = \frac{1}{99} \Omega_1
+\]
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the equations neatly formatted, showing the steps to solve for \( G \). The use of `amsmath` package ensures that the equations are properly aligned and displayed."
+12.43,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+By the junction theorem, we have:
+\begin{equation}
+    i = i_1 + i_2 \tag{1}
+\end{equation}
+
+Applying the loop theorem to the loop \( BE_1AE_2B \), traversing clockwise:
+\[
+    \xi_2 - i_2 r_2 - \xi_1 + i_1 r_1 = 0
+\]
+\[
+    \therefore 2i_2 - i_1 = 20 - 10 = 10 \tag{2}
+\]
+
+Applying the loop theorem to the loop \( BE_1ARB \):
+\[
+    \xi_1 = i_1 r_1 + i R
+\]
+\[
+    \therefore 10 = i_1 + 30i \quad \text{or} \quad 31 i_1 + 30 i_2 = 10 \tag{3}
+\]
+
+where we have used equation (1). Solving equations (2) and (3), we find:
+\[
+    i_1 = -3.04 \, \text{A}, \quad i_2 = 3.48 \, \text{A}
+\]
+
+The power dissipated through \( E_1 \) is:
+\[
+    i_1^2 r_1 = (3.04)^2 \times 1 = 9.24 \, \text{W}
+\]
+
+The power dissipated through \( E_2 \) is:
+\[
+    i_2^2 r_2 = (3.48)^2 \times 2 = 24.2 \, \text{W}
+\]
+
+The power dissipated through \( R \) is:
+\[
+    i^2 R = (0.44)^2 \times 30 = 5.8 \, \text{W}
+\]
+
+\(\because i = i_1 + i_2 = -3.04 + 3.48 = 0.44 \, \text{A}\)
+
+\end{document}
+```
+
+This LaTeX code formats the physics problem and solution with proper mathematical notation and alignment, making it suitable for academic or professional presentation."
+12.44,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Referring to Fig. 12.44, we have the junction theorem:
+
+\begin{equation}
+    i_1 + i_2 = i \tag{1}
+\end{equation}
+
+Traversing the loop \( BE_2AE_1B \) counterclockwise, the loop theorem gives:
+
+\[
+    \xi_2 - r_2 i_2 - (\xi_1 - r_1 i_1) = 0
+\]
+
+Substituting the given values:
+
+\[
+    1 - 2i_1 - (2 - 1i_1) = 0
+\]
+
+Simplifying, we get:
+
+\begin{equation}
+    i_1 - 2i_2 = 1 \tag{2}
+\end{equation}
+
+For the loop \( BE_1ARB \):
+
+\[
+    \xi_1 - i_1 r_1 - iR = 0
+\]
+
+Substituting the given values:
+
+\[
+    2 - 1i_1 - 10i = 0
+\]
+
+Simplifying, we obtain:
+
+\begin{equation}
+    11 i_1 + 10i_2 = 2 \tag{3}
+\end{equation}
+
+where we have used equation (1). Application of Kirchhoff’s laws to the loop \( BE_2ARB \) does not yield anything extra. From equations (1), (2), and (3), we find:
+
+\[
+    i_1 = 0.44 \, \text{A}, \quad i_2 = -0.28 \, \text{A}, \quad \text{and} \quad i = 0.16 \, \text{A}
+\]
+
+The negative sign of \( i_2 \) shows that its direction is opposite to that which has been assumed.
+
+\end{document}
+```"
+12.45,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+Given the equation for the total current:
+\begin{equation}
+i_1 + i_2 + i_3 = i = 5 \, \text{A} \tag{1}
+\end{equation}
+
+Assuming $\rho = \text{const}$ and using the formula for resistance $R = \frac{\pi d^2}{4}$ (see Fig. 12.45), we have the ratio of resistances:
+\[
+R_1 : R_2 : R_3 = \frac{l_1}{d_1^2} : \frac{l_2}{d_2^2} : \frac{l_3}{d_3^2}
+\]
+
+Substituting the given values:
+\begin{equation}
+R_1 : R_2 : R_3 = \frac{2}{3^2} : \frac{3}{4^2} : \frac{4}{5^2} = \frac{2}{9} : \frac{3}{16} : \frac{4}{25} \tag{2}
+\end{equation}
+
+Since the potential difference across all resistors is identical, we have:
+\begin{equation}
+i_1 R_1 = i_2 R_2 = i_3 R_3 \tag{3}
+\end{equation}
+
+Solving for $i_2$:
+\begin{equation}
+i_2 = i_1 \frac{R_1}{R_2} = i_1 \frac{\frac{2}{9}}{\frac{3}{16}} = \frac{32}{27} i_1 \tag{4}
+\end{equation}
+
+Solving for $i_3$:
+\begin{equation}
+i_3 = i_1 \frac{R_1}{R_3} = i_1 \frac{\frac{2}{9}}{\frac{4}{25}} = \frac{25}{18} i_1 \tag{5}
+\end{equation}
+
+Substituting into the total current equation:
+\begin{equation}
+i_1 + \frac{32}{27} i_1 + \frac{25}{18} i_1 = i = 5 \tag{6}
+\end{equation}
+
+Solving the above equation gives:
+\[
+i_1 = 1.4 \, \text{A}, \quad i_2 = 1.66 \, \text{A}, \quad i_3 = 1.94 \, \text{A}
+\]
+
+where we have used equations (1), (4), and (5).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig_12_45.png}
+    \caption{Figure 12.45}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code provides a structured and formatted representation of the physics problem, including equations, calculations, and a reference to a figure. Make sure to replace `fig_12_45.png` with the actual path to your figure file."
+12.46,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The potential difference (P.D) across the \(8\,\Omega\) and \(2\,\Omega\) resistors are equal, as shown in Fig. 12.46:
+
+\begin{equation}
+    2i_2 = 8i_3 \tag{1}
+\end{equation}
+
+As the P.D across the \(3\,\Omega\) and \(6\,\Omega\) resistors are equal:
+
+\begin{equation}
+    3i_4 = 6i_1 \tag{2}
+\end{equation}
+
+As the P.D across the \(4\,\Omega\) and \(6\,\Omega\) resistors are equal:
+
+\begin{equation}
+    6i_6 = 4i_5 \tag{3}
+\end{equation}
+
+Applying the junction theorem at Fig. 12.46:
+
+\begin{equation}
+    i = i_1 + i_2 + i_3 + i_4 \tag{4}
+\end{equation}
+
+\begin{equation}
+    i_2 + i_3 = i_5 + i_6 \tag{5}
+\end{equation}
+
+For the potential difference between points \(A\) and \(B\):
+
+\[
+    V_{AB} = V_{AD} + V_{DB}
+\]
+
+Thus,
+
+\begin{equation}
+    3i_4 = 8i_3 + 4i_5 \tag{6}
+\end{equation}
+
+Applying the loop theorem to loop \(CAFBC\):
+
+\begin{equation}
+    \xi - ir - 3i_4 = 0 \tag{7}
+\end{equation}
+
+Solving equations (1), (2), (3), (4), (5), (6), and (7), we find:
+
+\[
+    i_4 = 0.4\,\text{A} \quad \text{and} \quad i = 0.9\,\text{A}
+\]
+
+Applying the loop theorem to the entire circuit:
+
+\begin{equation}
+    \xi - ir - iR = 0 \tag{8}
+\end{equation}
+
+where \(R\) is the equivalent resistance of the circuit:
+
+\[
+    R = \frac{\xi}{i} = \frac{1.8}{0.9} - \frac{2}{3} = \frac{4}{3}
+\]
+
+The power dissipated in the entire circuit is:
+
+\[
+    P = i^2(R + r) = (0.9)^2 \left(\frac{4}{3} + \frac{2}{3}\right) = 1.62\,\text{W}
+\]
+
+\end{document}
+```"
+12.47,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let \( A \) and \( B \) be the midpoints of the coils. As no current flows through the galvanometer, the potential difference (P.D) across \( AB \) is zero. Applying the loop theorem to the main circuit, as shown in Fig. 12.47:
+
+\[
+\mathcal{E}_1 + \mathcal{E}_2 - i(R + R + r_1 + r_2) = 0
+\]
+
+Therefore, the current \( i \) is given by:
+
+\[
+i = \frac{\mathcal{E}_1 + \mathcal{E}_2}{2R + r_1 + r_2} = \frac{1.5 + 3}{2 \times 10 + 5 + r_2} = \frac{4.5}{25 + r_2} \tag{1}
+\]
+
+The P.D of the point \( B \) with respect to the negative terminal of the first cell is:
+
+\[
+V_B = \mathcal{E}_1 - \left(10 \times \frac{1}{2} + r_1\right) i = 1.5 - 10i \tag{2}
+\]
+
+The P.D of the point \( A \) with respect to the negative terminal of the first cell is:
+
+\[
+V_A = \mathcal{E}_1 + \mathcal{E}_2 - \left(10 \times \frac{1}{2} + r_2 + 10 + r_1\right) i = 1.5 + 3 - (5 + r_2 + 10 + 5)i = 4.5 - (20 + r_2)i
+\]
+
+But \( V_B = V_A \) (since no current flows through the galvanometer), hence:
+
+\[
+1.5 - 10i = 4.5 - (20 + r_2)i
+\]
+
+Solving for \( i \):
+
+\[
+i = \frac{3}{10 + r_2} \tag{3}
+\]
+
+From equations (1) and (3), we equate the expressions for \( i \):
+
+\[
+\frac{4.5}{25 + r_2} = \frac{3}{10 + r_2}
+\]
+
+Solving this equation for \( r_2 \), we find:
+
+\[
+r_2 = 20 \, \Omega
+\]
+
+\end{document}
+```"
+12.48,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem Solution}
+
+\subsection*{(a)}
+
+\begin{enumerate}
+    \item[(i)] Equivalent resistance:
+    \[
+    R_{\text{eq}} = \frac{R_1 R_2}{R_1 + R_2} + \frac{R_3 R_4}{R_3 + R_4} = \frac{8 \times 2}{8 + 2} + \frac{3.2 \times 3.2}{3.2 + 3.2} = 3.2 \, \text{k}\Omega
+    \]
+
+    \item[(ii)] Voltage across $R_1$:
+    \[
+    V_{p1} = \frac{320 \times 1.6}{3.2} = 160 \, \text{V}
+    \]
+
+    \item[(iii)] Voltage across $R_2$:
+    \[
+    V_{p2} = \frac{320 \times 1.6}{3.2} = 160 \, \text{V}
+    \]
+
+    \item[(iv)] Total current:
+    \[
+    I_T = \frac{\xi}{R_{\text{eq}}} = \frac{320}{3.2 \times 10^3} = 0.1 \, \text{A}
+    \]
+
+    Current through $R_2$:
+    \[
+    I_1 = I_T \times \frac{R_2}{R_1 + R_2} = 0.1 \times \frac{2}{8 + 2} = 0.02 \, \text{A}
+    \]
+
+    Current through $R_4$:
+    \[
+    I_3 = I_T \times \frac{R_4}{R_3 + R_4} = 0.1 \times \frac{3.2}{3.2 + 3.2} = 0.05 \, \text{A}
+    \]
+
+    \item[(v)] Total energy:
+    \[
+    W = I_T^2 R_{\text{eq}} = (0.1)^2 \times 3.2 \times 10^3 = 32 \, \text{J}
+    \]
+
+    Energy across $R_3$:
+    \[
+    W_3 = I_3^2 R_3 = (0.05)^2 \times 8 \times 10^3 = 20 \, \text{J}
+    \]
+\end{enumerate}
+
+\subsection*{(b)}
+
+Power:
+\[
+P = \frac{\xi^2}{r} = \frac{(24)^2}{0.01} = 5.76 \times 10^4 \, \text{J}
+\]
+
+\end{document}
+```"
+12.49,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem Solutions}
+
+\begin{enumerate}
+    \item[(i)] Calculate the current \( i \):
+    \[
+    i = \frac{\xi}{R + r} = \frac{24}{140 + 0.02} = 0.1714 \, \text{A}
+    \]
+
+    \item[(ii)] Calculate the voltage \( V \):
+    \[
+    V = \xi - ir = 24 - 0.1714 \times 0.02 = 23.9966 \, \text{V}
+    \]
+
+    \item[(iii)] Calculate the power across the resistor \( P_R \) and the internal resistance \( P_r \):
+    \[
+    P_R = i^2 R = (0.1714)^2 \times 140 = 4.113 \, \text{W}
+    \]
+    \[
+    P_r = i^2 r = (0.1714)^2 \times 0.02 = 5.87 \times 10^{-4} \, \text{W}
+    \]
+
+    \item[(iv)] In the absence of load resistance, the full voltage is available:
+    \[
+    V = \xi = 24 \, \text{V}
+    \]
+\end{enumerate}
+
+\end{document}
+```"
+12.50,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item[(i)] The equivalent resistance \( R_{\text{eq}} \) is given by:
+    \begin{align*}
+        R_{\text{eq}} &= \frac{R_1 R_2}{R_1 + R_2} + R_5 + \frac{R_3 R_4}{R_3 + R_4} \\
+        &= \frac{80 \times 80}{80 + 80} + 20 + \frac{40 \times 40}{40 + 40} \\
+        &= 40 + 20 + 20 \\
+        &= 80 \, \text{k}\Omega
+    \end{align*}
+
+    \item[(ii)] The total current \( I_T \) is:
+    \begin{align*}
+        I_T &= \frac{V}{R_{\text{eq}}} = \frac{300}{80 \times 10^3} \\
+        &= 3.75 \times 10^{-3} \, \text{A}
+    \end{align*}
+
+    The current \( I_1 \) is:
+    \begin{align*}
+        I_1 &= I_T \times \frac{R_2}{R_2 + R_1} \\
+        &= 3.75 \times 10^{-3} \times \frac{80}{80 + 80} \\
+        &= 1.875 \times 10^{-3} \, \text{A}
+    \end{align*}
+
+    The current \( I_3 \) is:
+    \begin{align*}
+        I_3 &= I_T \times \frac{R_4}{R_4 + R_3} \\
+        &= 3.75 \times 10^{-3} \times \frac{40}{40 + 40} \\
+        &= 1.875 \times 10^{-3} \, \text{A}
+    \end{align*}
+
+    \item[(iii)] The voltage \( V_1 \) is:
+    \begin{align*}
+        V_1 &= \frac{V}{R_{\text{eq}}} \times \frac{R_1 R_2}{R_1 + R_2} \\
+        &= \frac{300}{80} \times \frac{80 \times 80}{80 + 80} \\
+        &= 150 \, \text{V}
+    \end{align*}
+
+    The voltage \( V_2 \) is:
+    \begin{align*}
+        V_2 &= \frac{V R_5}{R_{\text{eq}}} \\
+        &= \frac{300 \times 20}{80} \\
+        &= 75 \, \text{V}
+    \end{align*}
+
+    The voltage \( V_3 \) is:
+    \begin{align*}
+        V_3 &= \frac{V}{R_{\text{eq}}} \times \frac{R_3 R_4}{R_3 + R_4} \\
+        &= \frac{300}{80} \times \frac{40 \times 40}{40 + 40} \\
+        &= 75 \, \text{V}
+    \end{align*}
+
+    \item[(iv)] The power \( P_5 \) is:
+    \begin{align*}
+        P_5 &= I_T^2 R_5 \\
+        &= (3.75 \times 10^{-3})^2 \times 20 \times 10^3 \\
+        &= 0.281 \, \text{W}
+    \end{align*}
+
+    The total power \( P \) is:
+    \begin{align*}
+        P &= I_T^2 R_{\text{eq}} \\
+        &= (3.75 \times 10^{-3})^2 \times 80 \times 10^3 \\
+        &= 1.125 \, \text{W}
+    \end{align*}
+\end{enumerate}
+
+\begin{center}
+    \textbf{Figure 12.48}
+\end{center}
+
+\end{document}
+```"
+12.51,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The equations for the unknown currents are derived from Kirchhoff's laws. 
+
+First, applying the junction theorem at a node, we have:
+\begin{equation}
+    i_1 = i_2 + i_3 \tag{1}
+\end{equation}
+
+Next, traversing the top loop counterclockwise (as shown in Fig. 12.48), we apply Kirchhoff's loop theorem:
+\[
+    \xi_1 - i_2 R_3 - \xi_3 - i_2 R_2 - \xi_2 - i_1 R_1 = 0
+\]
+Simplifying, we get:
+\[
+    13 - 300i_2 - 3 - 200i_2 - 30 - 100i_1 = 0
+\]
+or
+\begin{equation}
+    100i_1 + 500i_2 + 20 = 0 \tag{2}
+\end{equation}
+
+For the bottom loop, traversing counterclockwise, we have:
+\[
+    \xi_4 - i_3 R_4 - \xi_5 + i_2 R_2 - \xi_3 + i_2 R_3 = 0
+\]
+Simplifying, we find:
+\[
+    5 - 400i_3 - 8 + 200i_2 - 3 + 300i_2 = 0
+\]
+or
+\begin{equation}
+    500i_2 - 400i_3 - 6 = 0 \tag{3}
+\end{equation}
+
+The required equations for the unknown currents are equations \eqref{1}, \eqref{2}, and \eqref{3}.
+
+\end{document}
+```
+
+This LaTeX code formats the given physics problem using Kirchhoff's laws, providing a clear presentation of the equations involved."
+12.52,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Kirchhoff's Circuit Laws}
+
+\subsection*{(i) Kirchhoff's Rule 1 (Junction Theorem)}
+
+At any junction of an electric network (branched circuit), the algebraic sum of the currents flowing towards that junction is zero (see Fig. 12.49).
+
+\[
+i_1 = i_2 + i_3 \quad \text{(Junction theorem)}
+\]
+
+\subsection*{Kirchhoff's Rule 2 (Loop Theorem)}
+
+The sum of the changes in the potential encountered in traversing a loop (closed circuit) in a particular direction (clockwise or counterclockwise) is zero. If a resistor is traversed in the direction of the current, the change in the potential is $-iR$, while in the opposite direction it is $+iR$. If a seat of emf is traversed in the direction of emf, the change in potential is $+\xi$, while in the opposite direction it is $-\xi$.
+
+\subsubsection*{Traversing the Top Loop Counterclockwise}
+
+\[
+-\xi_1 - i_2 R_2 + \xi_3 + \xi_2 - i_1 R_1 = 0 \quad \text{(Loop theorem)}
+\]
+
+Simplifying, we have:
+
+\[
+-11 - 200i_2 + 33 + 22 - 100i_1 = 0
+\]
+
+or
+
+\[
+100i_1 + 200i_2 - 44 = 0 \quad (2)
+\]
+
+\subsubsection*{Traversing the Bottom Loop Counterclockwise}
+
+\[
+-\xi_4 - i_3 R_3 + \xi_5 - \xi_3 + i_2 R_2 = 0
+\]
+
+Simplifying, we have:
+
+\[
+-44 - 300i_3 + 55 - 33 + 200i_2 = 0
+\]
+
+or
+
+\[
+200i_2 - 300i_3 - 22 = 0 \quad (3)
+\]
+
+Equations (1), (2), and (3) are the required equations in the three unknown currents $i_1$, $i_2$, and $i_3$.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig12_49.png}
+    \caption{Circuit diagram illustrating Kirchhoff's rules.}
+    \label{fig:12.49}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary equations and descriptions for Kirchhoff's rules, formatted properly with equations and a placeholder for a figure. Adjust the path in the `\includegraphics` command to the actual path of your image file for Fig. 12.49."
+12.53,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(i) Equivalent Resistance and Voltages}
+
+The equivalent resistance of the circuit is given by:
+\[
+R_{\text{eq}} = R_1 + R_2 + \frac{R_3 R_4}{R_3 + R_4}
+\]
+
+Substituting the values:
+\[
+R_{\text{eq}} = 5 + 10 + \frac{20 \times 60}{20 + 60} = 30 \, \text{k}\Omega
+\]
+
+The voltage across \( R_1 \) is:
+\[
+V_1 = V \times \frac{R_1}{R_{\text{eq}}} = 300 \times \frac{5}{30} = 50 \, \text{V}
+\]
+
+The voltage across \( R_2 \) is:
+\[
+V_2 = V \times \frac{R_2}{R_{\text{eq}}} = 300 \times \frac{10}{30} = 100 \, \text{V}
+\]
+
+\subsection*{(ii) Voltage across Parallel Combination}
+
+The voltage across the parallel combination \( R_3 \) and \( R_4 \) is:
+\[
+V_p = V \times \frac{R_3 R_4}{R_{\text{eq}} (R_3 + R_4)}
+\]
+
+Substituting the values:
+\[
+V_p = 300 \times \frac{20 \times 60}{30 \times (20 + 60)} = 150 \, \text{V}
+\]
+
+\subsection*{(iii) Total Current and Branch Currents}
+
+The total current \( I_T \) is:
+\[
+I_T = \frac{V}{R_{\text{eq}}} = \frac{300}{30 \times 10^3} = 0.01 \, \text{A}
+\]
+
+The current through \( R_2 \) is:
+\[
+I_2 = I_T \times \frac{R_4}{R_4 + R_3} = 0.01 \times \frac{60}{60 + 20} = 0.0075 \, \text{A}
+\]
+
+The current through \( R_4 \) is:
+\[
+I_4 = I_T \times \frac{R_3}{R_4 + R_3} = 0.01 \times \frac{20}{60 + 20} = 0.0025 \, \text{A}
+\]
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and its solution with clear equations and proper alignment."
+12.54,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem: Circuit Analysis}
+
+Consider the following equations derived from the application of Kirchhoff's rules to the circuit shown in Fig. 12.50.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{circuit_diagram.png} % Replace with actual image file
+    \caption{Circuit diagram for analysis}
+    \label{fig:circuit}
+\end{figure}
+
+\subsection*{Equations}
+
+1. \textbf{Junction Theorem:}
+
+At the junction, the sum of currents is zero:
+\begin{equation}
+    i_1 - i_2 - i_3 = 0 \quad \text{(Junction theorem)}
+\end{equation}
+
+2. \textbf{Loop Theorem for the Top Loop:}
+
+Traversing clockwise the top loop in Fig. \ref{fig:circuit}, we have:
+\begin{equation}
+    \xi_1 + i_1 R_1 - \xi_2 - \xi_4 + i_2 R_2 + \xi_3 = 0 \quad \text{(Loop theorem)}
+\end{equation}
+
+Simplifying, we get:
+\begin{align*}
+    5 + 10i_1 - 10 - 20 + 20i_2 + 15 &= 0 \\
+    i_1 + 2i_2 - 1 &= 0 \quad \text{(2)}
+\end{align*}
+
+3. \textbf{Loop Theorem for the Bottom Loop:}
+
+Traversing clockwise the bottom loop, we have:
+\begin{equation}
+    -\xi_3 - i_2 R_2 + \xi_4 - \xi_6 + i_3 R_4 + \xi_5 + i_3 R_3 = 0 \quad \text{(Loop theorem)}
+\end{equation}
+
+Simplifying, we get:
+\begin{align*}
+    -15 - 20i_2 + 20 - 30 + 40i_3 + 25 + 30i_3 &= 0 \\
+    7i_3 - 2i_2 &= 0 \quad \text{(3)}
+\end{align*}
+
+\subsection*{Conclusion}
+
+The required equations for the unknown currents $i_1$, $i_2$, and $i_3$ are:
+\begin{align}
+    i_1 - i_2 - i_3 &= 0 \quad \text{(1)} \\
+    i_1 + 2i_2 - 1 &= 0 \quad \text{(2)} \\
+    7i_3 - 2i_2 &= 0 \quad \text{(3)}
+\end{align}
+
+These equations can be solved simultaneously to find the values of $i_1$, $i_2$, and $i_3$.
+
+\end{document}
+```"
+12.55,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem: Circuit Analysis}
+
+Consider the following equations derived from the circuit in Fig. 12.51:
+
+\begin{enumerate}
+    \item \textbf{Junction Theorem:}
+    \begin{equation}
+        i_1 - i_2 - i_3 = 0
+    \end{equation}
+
+    \item \textbf{Top Loop (Clockwise):}
+    \begin{equation}
+        \xi_4 - i_1 R_4 - \xi_5 - i_2 R_3 - \xi_2 - i_2 R_2 = 0
+    \end{equation}
+    Substituting the given values:
+    \begin{align*}
+        50 - 200i_1 - 30 - 80i_2 - 10 - 120i_2 &= 0 \\
+        20i_1 + 20i_2 - 1 &= 0
+    \end{align*}
+
+    \item \textbf{Outer Loop (Clockwise):}
+    \begin{equation}
+        \xi_4 - i_1 R_4 - \xi_5 - i_3 R_5 - \xi_3 - i_3 R_1 + \xi_1 - i_3 R_6 = 0
+    \end{equation}
+    Substituting the given values:
+    \begin{align*}
+        50 - 200i_1 - 30 - 100i_3 - 20 - 60i_3 + 40 - 40i_3 &= 0 \\
+        5i_1 + 5i_3 - 1 &= 0
+    \end{align*}
+\end{enumerate}
+
+The required equations are (1), (2), and (3) in three unknown currents $i_1$, $i_2$, and $i_3$. Note that by considering the bottom loop, no new information is provided as it is already contained in the other two loops. In general, it is sufficient to consider any two loops out of three.
+
+\end{document}
+```"
+12.56,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Solution}
+
+Consider the loop ABCDA traversed clockwise. The equation for the loop is:
+
+\[
+-iR - i_1 R_1 + \xi_2 - i r_2 - \xi_1 - i r_1 = 0
+\]
+
+Given:
+\[ i_1 = \frac{2i}{3}, \quad i_2 = \frac{i}{3} \]
+
+Substituting the known values into the equation:
+
+\[
+-4.5i - 3 \times \frac{2i}{3} + 8 - i - 4 - 0.5i = 0
+\]
+
+Simplifying:
+
+\[
+-4.5i - 2i + 8 - i - 4 - 0.5i = 0
+\]
+
+\[
+-8i + 4 = 0
+\]
+
+Solving for \( i \):
+
+\[
+i = 0.5 \, \text{A}
+\]
+
+Thus, the currents are:
+
+\[
+i_1 = \frac{2}{3} \times 0.5 = 0.33 \, \text{A}
+\]
+
+\[
+i_2 = \frac{1}{3} \times 0.5 = 0.165 \, \text{A}
+\]
+
+Now, calculate the potential difference across \( E_1 \) and \( E_2 \).
+
+Potential difference over \( E_1 \):
+
+\[
+V_1 = \xi_1 + i r_1 = 4 + 0.5 \times 0.5 = 4.25 \, \text{V}
+\]
+
+Potential difference over \( E_2 \):
+
+\[
+V_2 = \xi_2 - i r_2 = 8 - 0.5 \times 1 = 7.5 \, \text{V}
+\]
+
+\end{document}
+```"

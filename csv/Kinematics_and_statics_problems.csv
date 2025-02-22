@@ -1,1 +1,213 @@
-Question_number,Question
+Question_number,Questions
+1.1,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A car starts from rest with a constant acceleration of \(2.0 \, \text{m/s}^2\). At the same instant, a truck traveling with a constant speed of \(10 \, \text{m/s}\) overtakes and passes the car.
+
+\begin{enumerate}
+    \item[(a)] How far beyond the starting point will the car overtake the truck?
+    \item[(b)] After what time will this happen?
+    \item[(c)] At that instant, what will be the speed of the car?
+\end{enumerate}
+
+\end{document}
+```"
+1.2,"To format the given physics problem in LaTeX, we can write it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+From an elevated point $A$, a stone is projected vertically upward. When the stone reaches a distance $h$ below $A$, its velocity is double of what it was at a height $h$ above $A$. Show that the greatest height obtained by the stone above $A$ is $\frac{5h}{3}$. [Adelaide University]
+
+\end{document}
+```
+
+This LaTeX code will format the problem statement with the necessary mathematical symbols and expressions."
+1.3,"To convert the given physics text into properly formatted LaTeX, we need to structure it clearly and use appropriate mathematical notation. Here's how you can present the problem in LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\textbf{Problem:}
+
+A stone is dropped from a height of 19.6 m above the ground, while a second stone is simultaneously projected from the ground with sufficient velocity to enable it to ascend 19.6 m. Determine when and where the stones will meet.
+
+\textbf{Solution:}
+
+Let:
+\begin{itemize}
+    \item \( h_1 = 19.6 \, \text{m} \) be the initial height from which the first stone is dropped.
+    \item \( v_0 \) be the initial velocity of the second stone projected upwards.
+    \item \( g = 9.8 \, \text{m/s}^2 \) be the acceleration due to gravity.
+    \item \( t \) be the time in seconds after the stones are released.
+\end{itemize}
+
+The position of the first stone as a function of time is given by:
+\[
+y_1(t) = h_1 - \frac{1}{2} g t^2
+\]
+
+The position of the second stone as a function of time is given by:
+\[
+y_2(t) = v_0 t - \frac{1}{2} g t^2
+\]
+
+To find when and where the stones meet, set \( y_1(t) = y_2(t) \) and solve for \( t \).
+
+\end{document}
+```
+
+This LaTeX document sets up the problem clearly, defines the variables, and provides the equations needed to determine when and where the stones meet. Note that the actual solution to the problem is not provided, as per your request."
+1.4,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle moves according to the law \( x = A \sin(\pi t) \), where \( x \) is the displacement and \( t \) is time. Find the distance traversed by the particle in \( 3.0 \, \text{s} \).
+
+\end{document}
+```
+
+This LaTeX code uses the `amsmath` package for proper mathematical formatting and includes the equation within the text. The time unit is formatted to appear correctly in the document."
+1.5,"Certainly! Below is the properly formatted LaTeX code for the given physics problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A man of height \(1.8 \, \text{m}\) walks away from a lamp at a height of \(6 \, \text{m}\). If the man's speed is \(7 \, \text{m/s}\), find the speed in \(\text{m/s}\) at which the tip of the shadow moves.
+
+\end{document}
+```
+
+This LaTeX code will format the problem statement clearly, using mathematical notation for the heights and speed."
+1.6,"To convert the given physics text into properly formatted LaTeX, we will structure the equation and the description accordingly. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The relation describing the displacement of a particle in one direction is given by:
+
+\begin{equation}
+3t = \sqrt{3x} + 6d
+\end{equation}
+
+where \( x \) is in metres and \( t \) is in seconds. Find the displacement when the velocity is zero.
+
+\end{document}
+```
+
+This LaTeX code includes the equation in a properly formatted environment and provides the necessary context for the problem statement."
+1.7,"To properly format the given physics text into LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle projected upwards passes the same height at $t = 2 \, \text{s}$ and $t = 10 \, \text{s}$. Find the height $h$ if $g = 9.8 \, \text{m/s}^2$.
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document and uses the `amsmath` package for better mathematical formatting. The problem statement is formatted with inline math for the variables and units."
+1.8,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Cars A and B are travelling in adjacent lanes along a straight road (see Fig.~\ref{fig:car_positions}). At time $t = 0$, their positions and speeds are as shown in the diagram. If car A has a constant acceleration of $0.6 \, \text{m/s}^2$ and car B has a constant deceleration of $0.46 \, \text{m/s}^2$, determine when A will overtake B. [University of Manchester 2007]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figure1_2.png} % Replace with actual image file
+    \caption{Initial positions and velocities of cars A and B.}
+    \label{fig:car_positions}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `figure1_2.png` with the actual filename of the image you are using for Fig. 1.2. This code snippet includes a basic structure for a LaTeX document with a figure and the description of the problem."
+1.9,"To format the given physics text into LaTeX, we need to ensure clarity and proper structure. Here's how you can present the problem in LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+A boy stands at a point $A$ in a field at a distance of $600 \, \text{m}$ from the road $BC$. In the field, he can walk at a speed of $1 \, \text{m/s}$, while on the road, he can walk at $2 \, \text{m/s}$. He can walk in the field along the path $AD$ and on the road along $DC$ to reach the destination $C$ (see Fig. \ref{fig:route}). 
+
+What should be his route so that he can reach the destination in the least time? Determine the time taken.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{path_to_figure.png} % Replace with actual path to the figure
+    \caption{Illustration of the boy's route from $A$ to $C$.}
+    \label{fig:route}
+\end{figure}
+
+\end{document}
+```
+
+**Notes:**
+- Ensure that the figure file (`path_to_figure.png`) is available in the same directory as your LaTeX document or provide the correct path to the image.
+- The problem is presented in a clear and structured manner, with mathematical symbols and units properly formatted.
+- The figure is referenced and labeled for clarity."
+1.10,"To convert the given physics problem into properly formatted LaTeX, we can set up the problem statement using LaTeX's text formatting capabilities, while also preparing for any equations that might be involved in solving the problem. Here's how you can format the problem statement:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Water drips from the nozzle of a shower onto the floor 2.45 m below. The drops fall at regular intervals of time, the first drop striking the floor at the instant the third drop begins to fall. Locate the second drop when the first drop strikes the floor.
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document with the problem statement. If you need to include equations or further details, you can expand upon this by using the `equation` or `align` environments from the `amsmath` package."
+1.11,"```latex
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+The velocity–time graph for the vertical component of the velocity of an object thrown upward from the ground, which reaches the roof of a building and returns to the ground, is shown in Fig.~\ref{fig:velocity_time_graph}. Calculate the height of the building.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{velocity_time_graph.png}
+    \caption{Velocity-time graph for the vertical motion of an object.}
+    \label{fig:velocity_time_graph}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `velocity_time_graph.png` with the actual file name of your graph image. Adjust the `width` in the `\includegraphics` command as needed to fit your document layout."
