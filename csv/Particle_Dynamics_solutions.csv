@@ -1,0 +1,2621 @@
+Question_number,Question
+2.1,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item[(a)] Acceleration:
+    \begin{equation}
+        a = \frac{F}{m_1 + m_2 + m_3}
+    \end{equation}
+
+    \item[(b)] Tension:
+    \begin{align}
+        T_1 &= \text{Force acting on } m_1 \notag \\
+        T_2 &= m_1 a = m_1 \frac{F}{m_1 + m_2 + m_3} \tag{2}
+    \end{align}
+    where we have used equation (1).
+
+    Applying Newton's second law to $m_2$:
+    \begin{align*}
+        m_2 a &= T_2 - T_1 \\
+        T_2 &= m_2 a + T_1 \\
+        &= (m_1 + m_2) a \\
+        T_2 &= \frac{(m_1 + m_2) F}{m_1 + m_2 + m_3} \tag{3}
+    \end{align*}
+    where we have used equations (1) and (2).
+\end{enumerate}
+
+\end{document}
+```"
+2.2,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Equations of Motion}
+
+\begin{enumerate}
+    \item[(a)] The equations of motion are given by:
+    \begin{align}
+        ma &= mg - T \tag{1} \\
+        Ma &= T - \mu Mg \tag{2}
+    \end{align}
+
+    Solving equations (1) and (2), we find:
+    \begin{align}
+        a &= \frac{(m - \mu M)g}{m + M} \tag{3} \\
+        T &= \frac{Mm}{M + m}(1 + \mu)g \tag{4}
+    \end{align}
+
+    Thus, with the introduction of friction, the acceleration is reduced and the tension is increased compared to the motion on a smooth surface (\(\mu = 0\)).
+\end{enumerate}
+
+\end{document}
+```"
+2.3,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The maximum force \( F_{\text{max}} \) is given by:
+\begin{equation}
+    F_{\text{max}} = (m_1 + m_2) a \tag{1}
+\end{equation}
+
+The condition that \( m_1 \) may not slide is:
+\begin{equation}
+    a = \mu g \tag{2}
+\end{equation}
+
+Using equation (2) in equation (1), we have:
+\begin{equation}
+    F_{\text{max}} = (m_1 + m_2) \mu g
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will format the equations neatly, with each equation numbered and aligned properly."
+2.4,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item[(a)] The force of contact \( F_c \) between the blocks is equal to the force exerted on \( m_2 \):
+    \begin{equation}
+        F_c = m_2 a
+    \end{equation}
+    where the acceleration of the whole system is 
+    \begin{equation}
+        a = \frac{F}{m_1 + m_2}
+    \end{equation}
+    Therefore,
+    \begin{equation}
+        F_c = \frac{m_2 F}{m_1 + m_2}
+    \end{equation}
+
+    \item[(b)] Here the contact force \( F'_c \) is given by
+    \begin{equation}
+        F'_c = m_1 a = \frac{m_1 F}{m_1 + m_2}
+    \end{equation}
+    Notice that \( F'_c \neq F_c \) simply because \( m_1 \neq m_2 \).
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and solution with equations properly aligned and typeset."
+2.5,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a) Dragging the Box}
+
+When the box is dragged, the horizontal component of the force \( F \) is \( F \cos \theta \) and the vertical component (upward) is \( F \sin \theta \) as shown in Fig. 2.19. The reaction force \( N \) on the box by the floor will be:
+
+\begin{equation}
+N = mg - F \sin \theta
+\end{equation}
+
+\subsection*{(b) Equation of Motion for Dragging}
+
+The equation of motion will be:
+
+\begin{align}
+ma &= F \cos \theta - \mu N \\
+   &= F \cos \theta - \mu (mg - F \sin \theta) \\
+\therefore a &= \frac{F}{m} (\cos \theta + \mu \sin \theta) - \mu g
+\end{align}
+
+\subsection*{(c) Pushing the Box}
+
+When the box is pushed, the horizontal component of the force \( F \) will be \( F \cos \theta \) and the vertical component \( F \sin \theta \) (downwards), as shown in Fig. 2.20. The reaction force exerted by the floor on the box will be:
+
+\begin{equation}
+N' = mg + F \sin \theta
+\end{equation}
+
+which is seen to be greater than \( N \) (the previous case). The equation of motion will be:
+
+\begin{align}
+ma' &= F \cos \theta - \mu N' \\
+    &= F \cos \theta - \mu (mg + F \sin \theta) \\
+\therefore a' &= \frac{F}{m} (\cos \theta - \mu \sin \theta) - \mu g
+\end{align}
+
+A value which is less than \( a \) (the previous case). It therefore pays to pull rather than push at an angle with the horizontal. The difference arises due to the smaller value of the reaction in pulling than in pushing. This fact is exploited in handling a manual road roller or mopping a floor, which is pulled rather than pushed.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fig2_19.png}
+    \caption{Forces on the box when dragged.}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{fig2_20.png}
+    \caption{Forces on the box when pushed.}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `fig2_19.png` and `fig2_20.png` with the actual paths to your images for the figures."
+2.6,"To properly format the given physics problem in LaTeX, we will use the `align` environment for clarity and alignment of equations. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let \( x \) be the length of the chain hanging over the table. The length of the chain resting on the table will be \( L - x \).
+
+For equilibrium, the gravitational force on the hanging part of the chain equals the frictional force on the part of the chain resting on the table. If \( M \) is the mass of the entire chain, then we have:
+
+\begin{align*}
+    \frac{Mgx}{L} &= \mu g \frac{M(L-x)}{L} \\
+    \Rightarrow x &= \frac{\mu L}{\mu + 1}
+\end{align*}
+
+\end{document}
+```
+
+This code uses the `align*` environment to align the equations and includes necessary mathematical symbols and formatting for clarity."
+2.7,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Work Done to Pull the Hanging Part of the Chain}
+
+\subsection*{First Method}
+
+The center of mass of the hanging part of the chain is located at a distance $\frac{L}{6}$ below the edge of the table, as shown in Fig. 2.21. The mass of the hanging part of the chain is $\frac{M}{3}$. The work done to pull the hanging part onto the table is given by:
+
+\[
+W = Mg \cdot \frac{L}{6} \cdot \frac{1}{3} = \frac{MgL}{18}
+\]
+
+\subsection*{Second Method}
+
+We can obtain the same result by calculus. Consider an element of length $dx$ of the hanging part at a distance $x$ below the edge. The mass of the length $dx$ is $\frac{M}{L} dx$. The work required to lift the element of length $dx$ through a distance $x$ is:
+
+\[
+dW = \frac{M}{L} \cdot g \cdot x \cdot dx
+\]
+
+The work required to lift the entire hanging part is:
+
+\[
+W = \int dW = \int_0^{L/3} \frac{Mg}{L} x \, dx
+\]
+
+Evaluating the integral, we find:
+
+\[
+W = \frac{Mg}{L} \left[ \frac{x^2}{2} \right]_0^{L/3} = \frac{Mg}{L} \cdot \frac{(L/3)^2}{2} = \frac{MgL}{18}
+\]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure_2_21.png}
+    \caption{Diagram illustrating the hanging part of the chain.}
+    \label{fig:2_21}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code provides a structured and formatted presentation of the physics problem, including the equations and a placeholder for the figure. Make sure to replace `figure_2_21.png` with the actual path to your image file."
+2.8,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem Solution}
+
+\subsection*{(a) Equations of Motion}
+
+The equations of motion are given by:
+\begin{align}
+    Ma &= mg - T \tag{1} \\
+    ma &= T - Mg\mu \tag{2}
+\end{align}
+
+Solving equations (1) and (2) for acceleration \( a \), we have:
+\[
+a = \frac{(m - \mu M)g}{M + m} = \frac{(0.45 - 0.2 \times 2) \times 9.8}{2 + 0.45} = 0.2 \, \text{m/s}^2
+\]
+
+\subsection*{(b) Tension in the String}
+
+The tension \( T \) is given by:
+\[
+T = m(g - a) = 0.45(9.8 - 0.2) = 4.32 \, \text{N}
+\]
+
+\subsection*{(c) Velocity After 2 Seconds}
+
+After 2 seconds, the velocity \( v_1 \) will be:
+\[
+v_1 = 0 + at = 0.2 \times 2 = 0.4 \, \text{m/s}
+\]
+
+When the string breaks, the acceleration \( a_1 \) will be:
+\[
+a_1 = -\mu g = -0.2 \times 9.8 = -1.96 \, \text{m/s}^2
+\]
+
+The final velocity \( v_2 \) is determined by:
+\[
+S = \frac{v_2^2 - v_1^2}{2a_1} = \frac{0 - (0.4)^2}{2 \times (-1.96)} = 0.0408 \, \text{m} = 4.1 \, \text{cm}
+\]
+
+\end{document}
+```"
+2.9,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a) Net Force Down the Incline}
+
+The gravitational force down the incline is given by:
+\[
+F_{\text{gravity}} = Mg \sin \theta
+\]
+
+The frictional force up the incline is:
+\[
+F_{\text{friction}} = \mu Mg \cos \theta
+\]
+
+The net force \( F \) is then:
+\[
+F = \mu Mg \cos \theta - Mg \sin \theta = Mg (\mu \cos \theta - \sin \theta)
+\]
+
+Substituting the given values:
+\[
+F = 2 \times 9.8 \left( \frac{\sqrt{3}}{2} \cos 30^\circ - \sin 30^\circ \right)
+\]
+
+Calculating the numerical value:
+\[
+F = 4.9 \, \text{N}
+\]
+
+\subsection*{(b) Net Force Up the Incline}
+
+The net force \( F' \) when considering both gravitational and frictional forces is:
+\[
+F' = Mg \sin \theta + \mu Mg \cos \theta = Mg (\sin \theta + \mu \cos \theta)
+\]
+
+Substituting the given values:
+\[
+F' = 2 \times 9.8 \left( \sin 30^\circ + \frac{\sqrt{3}}{2} \cos 30^\circ \right)
+\]
+
+Calculating the numerical value:
+\[
+F' = 24.5 \, \text{N}
+\]
+
+\end{document}
+```"
+2.10,"Certainly! Below is the given physics text converted into properly formatted LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Consider the equation for \( y \):
+
+\[
+y = \frac{x^2}{20}
+\]
+
+The derivative \( \frac{dy}{dx} \) is given by:
+
+\[
+\frac{dy}{dx} = \tan \theta = \frac{x}{10}
+\]
+
+For equilibrium, the condition is:
+
+\[
+mg \sin \theta - \mu mg \cos \theta = 0
+\]
+
+which implies:
+
+\[
+\tan \theta = \mu = 0.5
+\]
+
+Substituting \( x = 10 \) into the equation for \(\tan \theta\):
+
+\[
+\tan \theta = \frac{x}{10} = \frac{10}{10} \times 0.5 = 0.5
+\]
+
+Thus, the value of \( x \) is:
+
+\[
+x = 10
+\]
+
+Substituting \( x = 5 \) into the equation for \( y \):
+
+\[
+y = \frac{x^2}{20} = \frac{5^2}{20} = \frac{25}{20} = 1.25 \, \text{m}
+\]
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the equations and conditions formatted correctly for a physics problem involving equilibrium and trigonometric functions."
+2.11,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item[(a)] 
+    \[
+    \mu = \tan \theta = \tan 30^\circ = 0.577
+    \]
+
+    \item[(b)] 
+    \[
+    ma = -(mg \sin \theta + \mu mg \cos \theta)
+    \]
+    \[
+    \therefore a = -g(\sin \theta + \mu \cos \theta) = -g(\sin \theta + \tan \theta \cos \theta)
+    \]
+    \[
+    = -9.8 \times (2 \sin 30^\circ) = -9.8
+    \]
+
+    \[
+    s = \frac{v_0^2}{-2a} = \frac{(2.5)^2}{2 \times 9.8} = 0.319 \, \text{m}
+    \]
+
+    Initial kinetic energy:
+    \[
+    K = \frac{1}{2} m v_0^2
+    \]
+
+    Potential energy:
+    \[
+    U = mgh = mg s \sin \theta
+    \]
+
+    \[
+    \therefore \frac{U}{K} = \frac{2mg s \sin \theta}{m v_0^2} = \frac{2 \times 9.8 \times 0.319 \times \sin 30^\circ}{(2.5)^2} = 0.5
+    \]
+
+    The remaining energy goes into heat due to friction.
+
+    \item[(c)] 
+    It will not slide down as the coefficient of static friction is larger than the coefficient of kinetic friction.
+\end{enumerate}
+
+\end{document}
+```"
+2.12,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a) Torque Calculation}
+
+The torque due to the external gravitational force on $M_1$ will be $M_1gr$, and the torque due to the external gravitational force on $M_2$ will be the component of $M_2g$ along the string times $r$, i.e., $(M_2g \sin \theta) r$. Now, these two torques act in opposite directions. Taking the counterclockwise rotation of the pulley as positive and assuming that the mass $M_1$ is falling down, the net torque is 
+
+\[
+\tau = M_1gr - (M_2g \sin \theta) r = (M_1 - M_2 \sin \theta) gr
+\]
+
+and is pointing out of the page.
+
+\subsection*{(b) Angular Momentum}
+
+When the string is moving with speed $v$, the pulley will be rotating with angular velocity $\omega = \frac{v}{r}$, so that its angular momentum is 
+
+\[
+L_{\text{pulley}} = I \omega = I \frac{v}{r}
+\]
+
+and that of the two blocks will be 
+
+\[
+L_{M_1} = r M_1 v
+\]
+\[
+L_{M_2} = r M_2 v
+\]
+
+All the angular momenta point in the same direction, positive if $M_1$ is assumed to fall. The total angular momentum is then given by 
+
+\[
+L_{\text{total}} = v \left[ (M_1 + M_2)r + \frac{I}{r} \right]
+\]
+
+\subsection*{(c) Using Equations (1) and (2)}
+
+Using equations (1) and (2), we have
+
+\[
+\tau = \frac{dL}{dt} = \frac{d v}{dt} \left[ (M_1 + M_2)r + \frac{I}{r} \right] = [M_1 - M_2 \sin \theta] gr
+\]
+
+The acceleration $a = \frac{dv}{dt}$ is given by
+
+\[
+a = \frac{[M_1 - M_2 \sin \theta] g}{(M_1 + M_2) + \frac{I}{r^2}}
+\]
+
+\end{document}
+```"
+2.13,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem: Equations of Motion on an Incline}
+
+\subsection*{(i) Equation of Motion: Up the Incline}
+
+The equation of motion for an object moving up an incline is given by:
+
+\begin{equation}
+    ma = F - mg \sin \theta
+\end{equation}
+
+Solving for \( F \):
+
+\begin{align*}
+    F &= ma + mg \sin \theta \\
+      &= m(a + g \sin \theta) \\
+      &= (1.0)\left(1 + 9.8 \times 0.5\right) \\
+      &= 5.9 \, \text{N} \quad (\theta = 30^\circ)
+\end{align*}
+
+\subsection*{(ii) Equation of Motion: Down the Incline}
+
+The equation of motion for an object moving down an incline is given by:
+
+\begin{equation}
+    ma = F + mg \sin \theta
+\end{equation}
+
+Solving for \( F \):
+
+\begin{align*}
+    F &= ma - mg \sin \theta \\
+      &= m(a - g \sin \theta) \\
+      &= (1.0)\left(1 - 9.8 \times 0.5\right) \\
+      &= -3.9 \, \text{N}
+\end{align*}
+
+The negative sign implies that the force \( F \) is to be applied up the incline.
+
+\end{document}
+```"
+2.14,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+The displacement on the edge is measured by \( s \) while that on the floor by \( x \). As the mass \( m \) goes down the wedge, the wedge itself would start moving towards the left, as shown in Fig. 2.22. Since the external force in the horizontal direction is zero, the component of momentum along the \( x \)-direction must be conserved:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure2_22.png} % Placeholder for the actual figure
+    \caption{Figure 2.22}
+\end{figure}
+
+\begin{equation}
+    (M + m) \frac{dx}{dt} - m \frac{ds}{dt} \cos \alpha = 0 \tag{1}
+\end{equation}
+
+Since the wedge is smooth, the only force acting down the plane is \( mg \sin \alpha \):
+
+\begin{equation}
+    m \left( \frac{d^2 s}{dt^2} - \frac{d^2 x}{dt^2} \cos \alpha \right) = mg \sin \alpha \tag{2}
+\end{equation}
+
+Differentiating (1):
+
+\begin{equation}
+    (M + m) \frac{d^2 x}{dt^2} - m \cos \alpha \frac{d^2 s}{dt^2} = 0 \tag{3}
+\end{equation}
+
+Solving equations (2) and (3), we find:
+
+\begin{align}
+    \frac{d^2 s}{dt^2} &= \frac{(M + m) g \sin \alpha}{M + m \sin^2 \alpha} \quad \text{(acceleration of \( m \))} \\
+    \frac{d^2 x}{dt^2} &= \frac{m g \sin \alpha \cos \alpha}{M + m \sin^2 \alpha} \quad \text{(acceleration of \( M \))}
+\end{align}
+
+\end{document}
+```
+
+This LaTeX code includes all the necessary equations and figures, formatted correctly for a physics problem involving momentum conservation and forces on a wedge."
+2.15,Error: Unable to process request after multiple attempts.
+2.16,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem}
+
+\subsection*{(a) Free Body Diagram}
+
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{figure_2_24.png} % Replace with actual figure path
+    \captionof{figure}{Free Body Diagram (Fig. 2.24)}
+\end{center}
+
+\subsection*{(b) Equations of Motion}
+
+\begin{align}
+    m_1 a &= T_1 - m_1 g \sin 30^\circ \tag{1} \\
+    m_2 a &= m_2 g \sin 60^\circ - T_2 \tag{2} \\
+    (T_2 - T_1) r &= I \alpha = \left(\frac{1}{2} M r^2 \right) \left(\frac{a}{r}\right) \tag{3}
+\end{align}
+
+\subsection*{(c) Combining and Simplifying}
+
+Combining equations (1), (2), and (3) and simplifying, we find:
+
+\begin{equation}
+    a = \frac{g (\sqrt{3} m_2 - m_1)}{M + 2(m_2 + m_1)}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code includes a section for the free body diagram, equations of motion, and the final simplified acceleration equation. The diagram is referenced as Fig. 2.24, and the equations are neatly formatted with appropriate mathematical symbols and alignment."
+2.17,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let \( m_1 = 2.1 \, \text{kg} \) and \( m_2 = 1.9 \, \text{kg} \). As shown in Fig. 2.25, the pulley is weightless, and the tension is the same on either side of the pulley. The equations of motion are as follows:
+
+\begin{align}
+    m_1 a &= m_1 g - T \quad \text{(1)} \\
+    m_2 a &= T - m_2 g \quad \text{(2)}
+\end{align}
+
+Adding equations (1) and (2), we get:
+
+\[
+(m_1 + m_2) a = (m_1 - m_2) g
+\]
+
+Thus, the acceleration \( a \) is given by:
+
+\[
+a = \frac{(m_1 - m_2) g}{m_1 + m_2} = \frac{(2.1 - 1.9) \times 9.8}{2.1 + 1.9} = 0.49 \, \text{m/s}^2
+\]
+
+The distance travelled by either mass, \( s = 40 \, \text{cm} = 0.4 \, \text{m} \).
+
+The time taken \( t \) is calculated using the formula:
+
+\[
+t = \sqrt{\frac{2s}{a}} = \sqrt{\frac{2 \times 0.4}{0.49}} = 1.28 \, \text{s}
+\]
+
+\end{document}
+```"
+2.18,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The equations of motion for an object on an inclined plane are given by:
+
+\begin{align}
+    m a_1 &= mg \sin \theta - \mu mg \cos \theta \quad \text{(rough incline)} \\
+    m a_2 &= mg \sin \theta \quad \text{(smooth incline)}
+\end{align}
+
+Solving for the accelerations, we have:
+
+\begin{align}
+    a_1 &= ( \sin \theta - \mu \cos \theta ) g \\
+    a_2 &= g \sin \theta
+\end{align}
+
+The time taken to travel a distance \( s \) on each incline is:
+
+\begin{align}
+    t_1 &= \sqrt{\frac{2s}{a_1}} \\
+    t_2 &= \sqrt{\frac{2s}{a_2}}
+\end{align}
+
+Thus, the ratio of the times is:
+
+\begin{align}
+    \frac{t_1}{t_2} &= \sqrt{\frac{a_2}{a_1}} = \sqrt{\frac{\sin \theta}{\sin \theta - \mu \cos \theta}}
+\end{align}
+
+Given that:
+
+\begin{align}
+    \frac{t_1}{t_2} &= \frac{4}{3}
+\end{align}
+
+We equate and solve:
+
+\begin{align}
+    \frac{4}{3} &= \sqrt{\frac{\sin 45^\circ}{\sin 45^\circ - \mu \cos 45^\circ}} = \frac{1}{\sqrt{1 - \mu}}
+\end{align}
+
+Solving for \(\mu\), we find:
+
+\begin{align}
+    \mu &= \frac{7}{16}
+\end{align}
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and solution with proper mathematical notation and alignment."
+2.19,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The normal reaction is given by:
+\[
+N = mg \cos \theta
+\]
+
+The resultant downward force is:
+\[
+F = mg \sin \theta - \mu mg \cos \theta
+\]
+
+Given that \( N = 2F \), we have:
+\[
+mg \cos \theta = 2mg (\sin \theta - 0.5 \cos \theta)
+\]
+
+Dividing both sides by \( mg \), we get:
+\[
+\cos \theta = 2 (\sin \theta - 0.5 \cos \theta)
+\]
+
+Simplifying, we find:
+\[
+\cos \theta = 2 \sin \theta - \cos \theta
+\]
+
+Rearranging terms, we have:
+\[
+2 \cos \theta = 2 \sin \theta
+\]
+
+Dividing both sides by \( \cos \theta \), we obtain:
+\[
+2 = 2 \tan \theta
+\]
+
+Thus:
+\[
+\tan \theta = 1
+\]
+
+Therefore, the angle \(\theta\) is:
+\[
+\theta = 45^\circ
+\]
+
+\end{document}
+```
+
+This LaTeX code formats the given physics problem and solution with proper mathematical notation and logical steps."
+2.20,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+By prob. (2.17), each mass will have acceleration 
+\[
+a = \frac{(m_1 - m_2)g}{m_1 + m_2}
+\]
+The heavier mass \(m_1\) will have acceleration \(a_1\) vertically down, while the lighter mass \(m_2\) will have acceleration \(a_2\) vertically up: 
+\[
+a_2 = -a_1
+\]
+The acceleration of the center of mass of the system will be 
+\[
+a_{\text{CM}} = \frac{m_1 a_1 + m_2 a_2}{m_1 + m_2} = \frac{(m_1 - m_2)a_1}{m_1 + m_2}
+\]
+Therefore, 
+\[
+a_{\text{CM}} = \frac{(m_1 - m_2)^2 g}{(m_1 + m_2)^2}
+\]
+
+\end{document}
+```"
+2.21,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Free body diagrams for the two blocks and the pulley are shown in Fig. 2.26. The forces acting on $m_2$ are tension $T_2$ due to the string, gravity, frictional force $f_2$ due to the movement of $m_1$, and the normal force which $m_1$ exerts on it to prevent it from moving vertically. The forces on $m_1$ due to $m_2$ are equal and opposite to those of $m_1$ on $m_2$. By Newton’s third law, the tensions $T_1$ and $T_2$ in the thread are not equal as the pulley has mass. The equations of motion for $m_1$, $m_2$, and the pulley are:
+
+\begin{align}
+    m_1 a &= F - f_1 - f_2 - T_1 \tag{1} \\
+    m_2 a &= T_2 - f_2 \tag{2} \\
+    \alpha I &= I a = r(T_1 - T_2) \tag{3}
+\end{align}
+
+Balancing the vertical forces:
+
+\begin{align}
+    N_2 &= m_2 g \\
+    N_1 &= N_2 + m_1 g = (m_1 + m_2) g
+\end{align}
+
+Frictional forces are:
+
+\begin{align}
+    f_2 &= \mu N_2 = \mu m_2 g \tag{4} \\
+    f_1 &= \mu N_1 = \mu (m_1 + m_2) g \tag{5}
+\end{align}
+
+Combining (1), (2), (3), (4), and (5), eliminating $f_1$, $f_2$, and $T$, we have:
+
+\[
+a = \frac{F - \mu (m_1 + 3m_2) g}{m_1 + m_2 + \frac{I}{r^2}}
+\]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure2_26.png}
+    \caption{Free body diagrams for the blocks and pulley.}
+    \label{fig:2_26}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary equations and a placeholder for the figure, ensuring that all mathematical expressions are correctly formatted and aligned."
+2.22,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The net force is given by:
+\begin{align*}
+    \vec{F} &= \vec{F}_1 + \vec{F}_2 \\
+            &= (\hat{i} + 2\hat{j} + 3\hat{k}) + (4\hat{i} - 5\hat{j} - 2\hat{k}) \\
+            &= 5\hat{i} - 3\hat{j} + \hat{k}
+\end{align*}
+
+The displacement is:
+\begin{align*}
+    \vec{r}_{12} &= \vec{r}_1 - \vec{r}_2 \\
+                 &= 7\hat{k} - (20\hat{i} + 15\hat{j}) \\
+                 &= -20\hat{i} - 15\hat{j} - 7\hat{k} \, \text{cm}
+\end{align*}
+
+The work done is:
+\begin{align*}
+    W &= \vec{F} \cdot \vec{r}_{12} \\
+      &= (5\hat{i} - 3\hat{j} + \hat{k}) \cdot (-0.20\hat{i} - 0.15\hat{j} + 0.07\hat{k}) \\
+      &= -0.48 \, \text{J}
+\end{align*}
+
+\end{document}
+```
+
+This code will produce a well-formatted document with the equations aligned and clearly presented. Make sure to compile it with a LaTeX editor that supports the `amsmath` package for proper rendering."
+2.23,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item[(i)] Consider the potential energy function:
+    \[
+    U(x) = 5x^2 - 4x^3
+    \]
+    The force \( F(x) \) is given by the negative derivative of the potential energy:
+    \[
+    F(x) = -\frac{dU}{dx} = -(10x - 12x^2) = 12x^2 - 10x
+    \]
+
+    \item[(ii)] For equilibrium, we set \( F(x) = 0 \):
+    \[
+    x(12x - 10) = 0 \quad \Rightarrow \quad x = 0 \quad \text{or} \quad x = \frac{5}{6}
+    \]
+
+    To determine the stability of these equilibrium positions, we calculate the derivative of the force:
+    \[
+    \frac{dF}{dx} = 24x - 10
+    \]
+
+    Evaluating at \( x = 0 \):
+    \[
+    \left. \frac{dF}{dx} \right|_{x=0} = (24x - 10) \big|_{x=0} = -10
+    \]
+    The position \( x = 0 \) is \textbf{stable} since \( \frac{dF}{dx} < 0 \).
+
+    Evaluating at \( x = \frac{5}{6} \):
+    \[
+    \left. \frac{dF}{dx} \right|_{x=\frac{5}{6}} = (24x - 10) \big|_{x=\frac{5}{6}} = +10
+    \]
+    The position \( x = \frac{5}{6} \) is \textbf{unstable} since \( \frac{dF}{dx} > 0 \).
+\end{enumerate}
+
+\end{document}
+```
+"
+2.24,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the body travel a distance \( s \) on the incline and come down through a height \( h \).
+
+The potential energy lost is given by:
+\[
+\Delta U = mgh = mgs \sin \theta
+\]
+
+The work done against friction \( W \) is:
+\[
+W = f \cdot s = \mu mg \cos \theta \cdot s
+\]
+
+According to the problem, we have:
+\[
+\mu mg \cos \theta \cdot s = \frac{70}{100} mg s \sin \theta
+\]
+
+Thus, solving for \( \mu \):
+\[
+\mu = 0.7 \tan \theta = 0.7 \tan 30^\circ = 0.404
+\]
+
+\end{document}
+```
+
+This LaTeX code will format the given physics problem and its solution properly, using mathematical environments for equations and ensuring clarity in the presentation of the problem."
+2.25,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+At the bottom of the ramp, the kinetic energy \( K \) available is equal to the loss of potential energy, \( mgh \):
+
+\begin{equation}
+K = mgh
+\end{equation}
+
+On the flat track, the entire kinetic energy is used up in the work done against friction:
+
+\begin{equation}
+W = fd = \mu mgd
+\end{equation}
+
+Thus, we have:
+
+\begin{equation}
+\mu mgd = mgh
+\end{equation}
+
+Solving for \(\mu\), we find:
+
+\begin{equation}
+\mu = \frac{h}{d}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will properly format the physics equations and text, ensuring clarity and correctness in the presentation."
+2.26,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item \textbf{Work done by the spring:}
+    \begin{align*}
+        W_s &= \frac{1}{2} k x^2 \\
+            &= \frac{1}{2} \times 20 \times 10^3 \times (0.12)^2 \\
+            &= 144 \, \text{J}
+    \end{align*}
+
+    \item \textbf{Work done by friction:}
+    \begin{align*}
+        W_f &= \frac{1}{2} m v^2 - W_s \\
+            &= \frac{1}{2} \times 50 \times 3^2 - 144 \\
+            &= 81 \, \text{J}
+    \end{align*}
+
+    \item \textbf{Coefficient of friction:}
+    \begin{align*}
+        W_f &= \mu m g s \\
+        \therefore \mu &= \frac{W_f}{m g s} \\
+            &= \frac{81}{50 \times 9.8 \times (0.60 + 0.12)} \\
+            &= 0.2296
+    \end{align*}
+
+    \item \textbf{Velocity of the crate as it passes position A after rebounding:}
+    \begin{align*}
+        \frac{1}{2} m v_1^2 &= W_s - \mu m g s \\
+        \frac{1}{2} \times 50 v_1^2 &= 144 - 0.2296 \times 50 \times 9.8 \times (0.60 + 0.12) \\
+        &= 63 \\
+        \therefore v_1 &= \sqrt{\frac{63}{\frac{1}{2} \times 50}} \\
+        &= 1.587 \, \text{m/s}
+    \end{align*}
+
+\end{enumerate}
+
+\end{document}
+```"
+2.27,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+In the center of mass (CMS) frame, the velocity of $m_1$ will be $\mathbf{v}_1^* = \mathbf{v} - \mathbf{v}_c$ and that of $m_2$ will be $\mathbf{v}_2^* = -\mathbf{v}_c$, as shown in Fig. 2.27. By definition, in the CMS, the total momentum is zero:
+
+\begin{figure}[h]
+    \centering
+    % \includegraphics{figure_2_27.png} % Uncomment and replace with actual figure file
+    \caption{Figure 2.27: Velocity vectors in the CMS.}
+\end{figure}
+
+\begin{equation}
+    m_1 \mathbf{v}_1^* + m_2 \mathbf{v}_2^* = 0
+\end{equation}
+
+Therefore, we have:
+
+\begin{align}
+    m_1 (\mathbf{v} - \mathbf{v}_c) - m_2 \mathbf{v}_c &= 0 \\
+    \Rightarrow \mathbf{v}_c &= \frac{m_1 \mathbf{v}}{m_1 + m_2} \tag{1}
+\end{align}
+
+Thus, the velocity $\mathbf{v}_1^*$ becomes:
+
+\begin{align}
+    \mathbf{v}_1^* &= \mathbf{v} - \mathbf{v}_c = \frac{m_2 \mathbf{v}}{m_1 + m_2} \tag{2}
+\end{align}
+
+Note that as the collision is elastic, the velocities of $m_1$ and $m_2$ after the collision in the CMS remain unchanged. The laboratory velocity $\mathbf{v}_1$ of $m_1$ is obtained by the vectorial addition of $\mathbf{v}_1^*$ and $\mathbf{v}_c$. From the triangle ABC, Fig.
+
+% Add further explanation or equations as needed.
+
+\end{document}
+```
+
+This LaTeX document includes the necessary equations and explanations, formatted correctly for a physics context. You can add figures and further explanations as needed."
+2.28,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+After the collision, the velocity \( v_{21} \) is given by:
+
+\begin{equation}
+v_{21} = v^*_{21} + v_{2c} - 2v^*_1 v_{c} \cos(180^\circ - \theta)
+\end{equation}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics{figure2_28.png} % Replace with actual file name
+    \caption{Illustration of the collision scenario}
+    \label{fig:collision}
+\end{figure}
+
+Using equations (1) and (2) and simplifying, we find:
+
+\begin{equation}
+v_1 = \frac{v}{m_1 + m_2} \sqrt{m_1^2 + m_2^2 + 2m_1 m_2 \cos \theta}
+\end{equation}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics{figure2_28a.png} % Replace with actual file name
+    \caption{Momentum vectors after scattering}
+    \label{fig:momentum}
+\end{figure}
+
+Let the initial momentum of one object be \( p \). After scattering, let the momenta be \( p_1 \) and \( p_2 \), with the angle \( \theta \) between them.
+
+\end{document}
+```
+
+This LaTeX document includes the equations and figures referenced in your text. Make sure to replace `figure2_28.png` and `figure2_28a.png` with the actual filenames of your figures. The equations are properly formatted, and the figures are included with captions and labels for reference."
+2.29,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Momentum and Energy Conservation}
+
+Consider the conservation of momentum:
+\[
+\mathbf{p} = \mathbf{p}_1 + \mathbf{p}_2
+\]
+
+Thus, the dot product of momentum with itself is:
+\[
+(\mathbf{p} \cdot \mathbf{p}) = p^2 = (\mathbf{p}_1 + \mathbf{p}_2) \cdot (\mathbf{p}_1 + \mathbf{p}_2)
+\]
+
+Expanding the dot product, we have:
+\[
+= \mathbf{p}_1 \cdot \mathbf{p}_1 + \mathbf{p}_2 \cdot \mathbf{p}_2 + \mathbf{p}_1 \cdot \mathbf{p}_2 + \mathbf{p}_2 \cdot \mathbf{p}_1
+\]
+
+This simplifies to:
+\[
+= p_1^2 + p_2^2 + 2 \mathbf{p}_1 \cdot \mathbf{p}_2 \tag{1}
+\]
+
+Now, consider the conservation of energy:
+\[
+\frac{p^2}{2m} = \frac{p_1^2}{2m} + \frac{p_2^2}{2m}
+\]
+
+This implies:
+\[
+p^2 = p_1^2 + p_2^2 \tag{2}
+\]
+
+Combining equations (1) and (2), we find:
+\[
+2 \mathbf{p}_1 \cdot \mathbf{p}_2 = 0
+\]
+
+Therefore, \(\mathbf{p}_1\) and \(\mathbf{p}_2\) are orthogonal.
+
+\begin{center}
+\textbf{Figures:} \\
+Fig. 2.29a \hspace{2cm} Fig. 2.29b
+\end{center}
+
+\end{document}
+```
+
+This LaTeX code is structured to display the physics problem with proper formatting for equations, ensuring clarity in the presentation of momentum and energy conservation principles."
+2.30,Error: Unable to process request after multiple attempts.
+2.31,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Momentum conservation gives:
+\begin{equation}
+    m_1 u_1 + m_2 u_2 = m_2 v_2 \tag{1}
+\end{equation}
+
+Conservation of kinetic energy in elastic collision gives:
+\begin{equation}
+    \frac{1}{2} m_1 u_1^2 + \frac{1}{2} m_2 u_2^2 = \frac{1}{2} m_2 v_2^2 \tag{2}
+\end{equation}
+
+By the problem:
+\begin{equation}
+    \frac{1}{2} m_1 u_1^2 = \frac{1}{2} m_2 u_2^2 \tag{3}
+\end{equation}
+
+\begin{equation}
+    u_2 = \alpha u_1 \tag{4}
+\end{equation}
+
+Thus,
+\begin{equation}
+    \alpha^2 = \frac{m_1}{m_2} \tag{5}
+\end{equation}
+
+Using (3) in (2):
+\[
+    m_2 u_2^2 = \frac{1}{2} m_2 v_2^2 \implies v_2 = \sqrt{2} u_2 \tag{6}
+\]
+
+Using (4) and (6) in (1):
+\[
+    m_1 u_1 + m_2 \alpha u_1 = \sqrt{2} m_2 u_2 = \sqrt{2} m_2 \alpha u_1
+\]
+or
+\[
+    m_1 + m_2 \alpha = \sqrt{2} \alpha m_2
+\]
+
+Dividing by \( m_2 \) and using (5) and rearranging:
+\[
+    \alpha \left[ \alpha - (\sqrt{2} - 1) \right] = 0
+\]
+
+Since \( \alpha \neq 0 \), \( \alpha = \sqrt{2} - 1 \).
+
+Thus,
+\[
+    \alpha = \frac{u_2}{u_1} = \sqrt{2} - 1
+\]
+
+Therefore,
+\[
+    \frac{u_1}{u_2} = \frac{1}{\sqrt{2} - 1} = \sqrt{2} + 1
+\]
+
+From (5):
+\[
+    \frac{m_1}{m_2} = \alpha^2 = (\sqrt{2} - 1)^2 = 3 - 2\sqrt{2}
+\]
+
+\end{document}
+```"
+2.32,Error: Unable to process request after multiple attempts.
+2.33,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the velocity of the particle moving below the \( x \)-axis be \( v' \). Momentum conservation along the \( x \)- and \( y \)-axis gives:
+
+\begin{align}
+    mv_0 &= mv \cos \theta + mv' \cos \beta \label{eq:momentum_x} \\
+    0 &= mv \sin \theta - mv' \sin \beta \label{eq:momentum_y}
+\end{align}
+
+Cancelling \( m \) and reorganizing equations \eqref{eq:momentum_x} and \eqref{eq:momentum_y}:
+
+\begin{align}
+    v' \cos \beta &= v_0 - v \cos \theta \label{eq:v_prime_cos_beta} \\
+    v' \sin \beta &= v \sin \theta \label{eq:v_prime_sin_beta}
+\end{align}
+
+Dividing equation \eqref{eq:v_prime_sin_beta} by \eqref{eq:v_prime_cos_beta}:
+
+\begin{equation}
+    \tan \beta = \frac{v \sin \theta}{v_0 - v \cos \theta} \label{eq:tan_beta}
+\end{equation}
+
+If the collision is elastic, kinetic energy must be conserved:
+
+\begin{align}
+    \frac{1}{2} mv_0^2 &= \frac{1}{2} mv^2 + \frac{1}{2} mv'^2 \label{eq:kinetic_energy_conservation}
+\end{align}
+
+or
+
+\begin{equation}
+    v_0^2 = v^2 + v'^2 \label{eq:kinetic_energy_simplified}
+\end{equation}
+
+Squaring equations \eqref{eq:v_prime_cos_beta} and \eqref{eq:v_prime_sin_beta} and adding:
+
+\begin{equation}
+    v'^2 = v^2 + v_0^2 - 2v_0v \cos \theta \label{eq:v_prime_squared}
+\end{equation}
+
+Eliminating \( v'^2 \) between equations \eqref{eq:kinetic_energy_simplified} and \eqref{eq:v_prime_squared} and simplifying:
+
+\begin{equation}
+    v = v_0 \cos \theta
+\end{equation}
+
+\end{document}
+```"
+2.34,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+The momenta of $\beta$ and $^{14}\text{Na}$ are indicated in both magnitude and direction in Fig. 2.31. The resultant $\mathbf{R}$ of these momenta is given from the diagonal $\overline{AC}$ of the rectangle (parallelogram law). The momentum of $u$ is obtained by extending $\overline{CA}$ to $E$ such that $\overline{AE} = \overline{AC}$.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure.png} % Replace with actual figure file
+    \caption{Decay of $^{14}\text{C}$ at rest}
+    \label{fig:decay}
+\end{figure}
+
+The resultant momentum $\mathbf{R}$ is calculated as follows:
+
+\[
+R = \sqrt{AB^2 + BC^2} = \sqrt{p^2 + \left(\frac{4p}{3}\right)^2} = \frac{5p}{3}
+\]
+
+The angle $\theta$ is given by:
+
+\[
+\tan \theta = \frac{BC}{AB} = \frac{4p/3}{p} = \frac{4}{3} \quad \therefore \quad \theta = 53^\circ
+\]
+
+Thus, the neutrino is emitted with momentum $\frac{5p}{3}$ at an angle $(180^\circ - 53^\circ) = 127^\circ$ with respect to the $\beta$ particle.
+
+\end{document}
+```"
+2.35,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Denoting the angles with $(^*)$ for the CM system transformation of angles from CMS to LS is given by
+
+\begin{equation}
+\tan \theta = \frac{\sin \theta^*}{\cos \theta^* + \frac{m}{M}}
+\end{equation}
+
+But $\theta^* = \pi - \phi^* = \pi - 2\phi$, therefore
+
+\[
+\sin \theta^* = \sin(\pi - 2\phi) = \sin 2\phi
+\]
+
+\[
+\cos \theta^* = \cos(\pi - 2\phi) = -\cos 2\phi
+\]
+
+Substituting these into equation (1), we have
+
+\begin{equation}
+\tan \theta = \frac{\sin 2\phi}{\frac{m}{M} - \cos 2\phi}
+\end{equation}
+
+Furthermore, 
+
+\[
+\sin \theta \cos \theta = \frac{\sin 2\phi}{\frac{m}{M} - \cos 2\phi}
+\]
+
+Cross-multiplying and rearranging gives
+
+\[
+\frac{m}{M} \sin \theta = \sin \theta \cos 2\phi + \cos \theta \sin 2\phi = \sin(\theta + 2\phi)
+\]
+
+Thus,
+
+\begin{equation}
+\frac{m}{M} = \frac{\sin(2\phi + \theta)}{\sin \theta}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code correctly formats the given physics problem and solution, using equations and trigonometric identities to express the transformations and relationships between the angles in the CMS and LS systems."
+2.36,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+In the lab system, let $M$ be projected at an angle $\phi$ with velocity $v$. In the CMS, the velocity $v^*$ for the struck nucleus will be numerically equal to $v_c$, the center of mass velocity. Therefore, $M$ is projected at an angle $2\phi$ with velocity
+
+\[
+v^* = \frac{mv}{M+m}.
+\]
+
+The CMS velocity is given by
+
+\[
+v_c = \frac{mv}{M+m}.
+\]
+
+The velocities $v^*$ and $v_c$ must be combined vectorially to yield $v$, as shown in Fig. 2.32. Since $v_c = v^*$, the velocity triangle ABC is an isosceles triangle. If $BD$ is perpendicular to $AC$, then
+
+\[
+AC = 2AD = 2AB \cos \phi.
+\]
+
+Thus, the velocity $v$ is
+
+\[
+v = 2v^* \cos \phi = \frac{2mv \cos \phi}{M+m}.
+\]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Fig2_32.png}
+    \caption{Velocity triangle illustrating the relationship between $v$, $v^*$, and $v_c$.}
+    \label{fig:velocity_triangle}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary equations and a placeholder for the figure (Fig. 2.32). Make sure to replace `Fig2_32.png` with the actual path to your figure file when compiling the document."
+2.37,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Solution}
+
+\subsection*{(a)}
+
+The kinetic energy of object A before the collision is given by:
+\[
+K_A = \frac{1}{2} (2m) u^2 = mu^2.
+\]
+Since object B is initially stationary, its kinetic energy is:
+\[
+K_B = 0.
+\]
+Hence, the total kinetic energy before the collision is:
+\[
+K_0 = mu^2 + 0 = mu^2.
+\]
+
+Let A and B move with velocities \( v_A \) and \( v_B \), respectively, after the collision, as shown in Fig. 2.33. The total kinetic energy after the collision is:
+\[
+K' = K'_A + K'_B = \frac{1}{2} (2m) v_A^2 + \frac{1}{2} (10m) v_B^2 = mv_A^2 + 5mv_B^2.
+\]
+
+If an energy \( Q \) is lost in the collision process, the conservation of total energy gives:
+\[
+mu^2 = mv_A^2 + 5mv_B^2 + Q \tag{1}
+\]
+
+Applying momentum conservation along the incident direction and perpendicular to it, we have:
+\[
+2mu = 10mv_B \cos 37^\circ = 8mv_B \tag{2}
+\]
+\[
+2mv_B = 10mv_B \sin 37^\circ = 6mv_B \tag{3}
+\]
+
+From equations (2) and (3), we find:
+\[
+v_A = \frac{3u}{4}, \quad v_B = \frac{u}{4}
+\]
+
+\subsection*{(b)}
+
+From equation (1), the energy lost \( Q \) is:
+\[
+Q = m(u^2 - v_A^2 - 5v_B^2) = m \left( u^2 - \frac{9u^2}{16} - \frac{5u^2}{16} \right) = \frac{mu^2}{8}
+\]
+
+Thus, the ratio of the energy lost to the initial kinetic energy of A is:
+\[
+\frac{Q}{K_A} = \frac{\frac{mu^2}{8}}{mu^2} = \frac{1}{8}
+\]
+
+Since \( Q \) is positive, energy is lost in the collision process.
+
+\end{document}
+```
+"
+2.38,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem}
+
+(a) In the elastic collision (head-on) of a particle of mass $m_1$ and kinetic energy $K_1$ with a particle of mass $m_2$ initially at rest, the fraction of kinetic energy imparted to $m_2$ is given by:
+
+\[
+\frac{K_2}{K_0} = \frac{4m_1m_2}{(m_1 + m_2)^2}
+\]
+
+Substituting $m_1 = 1$ and $m_2 = 12$, we have:
+
+\[
+\frac{K_2}{K_0} = \frac{4 \times 1 \times 12}{(1 + 12)^2} = \frac{48}{169}
+\]
+
+(b) The relation between the kinetic energies can be expressed as:
+
+\[
+\frac{\frac{1}{2} m_2 v_2^2}{\frac{1}{2} m_1 v_1^2} = \frac{1}{2} \frac{v_2^2}{v_0^2} = \frac{48}{169}
+\]
+
+Thus, solving for $v_2$, we obtain:
+
+\[
+v_2 = \frac{2}{13} v_0
+\]
+
+The remaining kinetic energy $K_1$ is:
+
+\[
+K_1 = K_0 - K_2 = K_0 - \frac{48}{169} K_0 = \frac{121}{169} K_0
+\]
+
+Therefore, the velocity $v_1$ is:
+
+\[
+\frac{1}{2} m_1 v_1^2 = \frac{121}{169} \times \frac{1}{2} m_1 v_0^2
+\]
+
+Solving for $v_1$, we find:
+
+\[
+v_1 = -\frac{11}{13} v_0
+\]
+
+The negative sign indicates that the neutron, being lighter than the carbon nucleus, will bounce back.
+
+\end{document}
+```
+
+This LaTeX code provides a clear and structured representation of the problem and solution, using appropriate mathematical formatting for clarity."
+2.39,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the heavy body of mass $M$ with momentum $P_0$ collide elastically with a very light body of mass $m$ initially at rest. After the collision, both bodies will be moving in the direction of incidence, the heavier one with velocity $v_H$ and the lighter one with velocity $v_L$. 
+
+Momentum conservation gives:
+\begin{equation}
+P_0 = P_L + P_H
+\end{equation}
+
+Energy conservation gives:
+\begin{equation}
+\frac{P_0^2}{2M} = \frac{P_L^2}{2m} + \frac{P_H^2}{2M}
+\end{equation}
+
+Eliminating $P_H$ between (1) and (2) and simplifying, we find:
+\begin{equation}
+P_L = \frac{2P_0 m}{M + m}
+\end{equation}
+
+Thus, the velocity of the lighter body is:
+\begin{equation}
+mv_L = \frac{2Mu}{M + m}
+\end{equation}
+
+or
+\begin{equation}
+v_L = \frac{2uM}{M + m} \approx 2u \quad (\text{since } m \ll M)
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX document correctly formats the given physics problem and solution, using equations and proper mathematical notation."
+2.40,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let a body of mass $m_1$ moving with velocity $u$ make a completely inelastic collision with a body of mass $m_2$ initially at rest. The combined mass moves with a velocity $v_c$ given by:
+
+\[
+v_c = \frac{m_1 u}{m_1 + m_2}
+\]
+
+Given that $m_1 = m_2$, we have:
+
+\[
+v_c = \frac{u}{2}
+\]
+
+The energy lost in the collision is calculated as follows:
+
+\[
+\text{Energy lost} = \frac{1}{2} m u^2 - \frac{1}{2} (2m) \left( \frac{u}{2} \right)^2
+\]
+
+Simplifying the expression:
+
+\[
+= \frac{1}{2} m u^2 - \frac{1}{2} (2m) \cdot \frac{u^2}{4}
+\]
+
+\[
+= \frac{1}{2} m u^2 - \frac{1}{4} m u^2
+\]
+
+\[
+= \frac{1}{4} m u^2
+\]
+
+This can also be expressed in terms of the initial kinetic energy $K_0$, where $K_0 = \frac{1}{2} m u^2$:
+
+\[
+\text{Energy lost} = \frac{1}{2} K_0
+\]
+
+\end{document}
+```
+
+This LaTeX code formats the physics problem and solution with proper mathematical notation and alignment, ensuring clarity and readability."
+2.41,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the speed of the bullet be \( u \). Let the block + bullet system be traveling with initial speed \( v \). If \( m \) and \( M \) are the masses of the bullet and the block, respectively, then momentum conservation gives
+
+\begin{equation}
+    mu = (M + m)v \tag{1}
+\end{equation}
+
+Thus, solving for \( v \),
+
+\begin{equation}
+    v = \frac{mu}{M + m} \tag{2}
+\end{equation}
+
+The initial kinetic energy of the block + bullet system is given by
+
+\begin{equation}
+    K = \frac{1}{2}(M + m)v^2 = \frac{1}{2} \frac{m^2u^2}{M + m}
+\end{equation}
+
+The work done to bring the block + bullet system to rest over a distance \( s \) is
+
+\begin{equation}
+    W = \mu(M + m)gs = \frac{1}{2} \frac{m^2u^2}{M + m}
+\end{equation}
+
+Solving for \( u \), we have
+
+\begin{equation}
+    u = \frac{(M + m)}{m} \sqrt{2\mu gs} = \frac{(2.000 + 0.005)}{0.005} \sqrt{2 \times 0.2 \times 9.8 \times 2} = 1123 \, \text{m/s}
+\end{equation}
+
+\end{document}
+```
+"
+2.42,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a)}
+
+Let $m_1 = m$ with velocity $u$ collide with $m_2 = M$, initially at rest. For an elastic collision, the final velocities will be:
+
+\begin{align}
+    v_1 &= \frac{(m_1 - m_2)}{m_1 + m_2} u = \frac{(m - M)}{m + M} u \quad (m < M) \tag{1} \\
+    v_2 &= \frac{2m_1}{m_1 + m_2} u = \frac{2m}{m + M} u \tag{2}
+\end{align}
+
+By problem condition, $-v_1 = v_2$ \tag{3}
+
+Combining (1), (2), and (3):
+
+\[
+\frac{M}{m} = \frac{3}{4}
+\]
+
+\subsection*{(b)}
+
+The velocity of the center of mass $v_c$ is given by:
+
+\begin{align}
+    v_c &= \frac{mu}{M + m} = \frac{mu}{3m + m} = \frac{u}{4} \tag{5}
+\end{align}
+
+\subsection*{(c)}
+
+The total kinetic energy $K^*$ is:
+
+\[
+K^* = K_1^* + K_2^* = \frac{1}{2} m v_1^{*2} + \frac{1}{2} M v_2^{*2}
+\]
+
+Where:
+
+\begin{align*}
+    v_1^* &= \frac{M u}{M + m} = \frac{3mu}{3m + m} = \frac{3u}{4} \\
+    v_2^* &= -v_c = -\frac{u}{4}
+\end{align*}
+
+Thus:
+
+\[
+K^* = \frac{1}{2} m \left(\frac{3u}{4}\right)^2 + \frac{1}{2} \cdot 3m \left(\frac{u}{4}\right)^2 = \frac{3}{8} mu^2
+\]
+
+\subsection*{(d)}
+
+The final kinetic energy $K_1(\text{final})$ is:
+
+\[
+K_1(\text{final}) = \frac{1}{2} m v_1^2 = \frac{1}{8} mu^2
+\]
+
+where we have used equations (1) and (4).
+
+\end{document}
+```
+
+This LaTeX code formats the physics problem and solution with proper mathematical notation and alignment. Each section is clearly labeled, and the equations are numbered for easy reference."
+2.43,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+We can work out this problem in the lab system. However, we prefer to use the center of mass system (CMS). The CMS and lab system (LS) scattering angles are related by
+
+\begin{equation}
+\tan \theta = \frac{\sin \theta^*}{\cos \theta^* + \frac{M}{m}}
+\end{equation}
+
+The maximum angle $\theta_{\text{max}}$ is obtained from the condition
+
+\begin{equation}
+\frac{d \tan \theta}{d \theta^*} = 0
+\end{equation}
+
+This gives
+
+\begin{equation}
+\cos \theta^* = \frac{m}{M}
+\end{equation}
+
+Therefore,
+
+\begin{equation}
+\sin \theta^* = \sqrt{\frac{M^2 - m^2}{M^2}}
+\end{equation}
+
+Using equations (3) and (4) in equation (1), we get
+
+\begin{equation}
+1 + \cot^2 \theta = \csc^2 \theta = \frac{M^2}{m^2}
+\end{equation}
+
+Thus,
+
+\begin{equation}
+\sin \theta_{\text{max}} = \frac{m}{M}
+\end{equation}
+
+or
+
+\begin{equation}
+\theta_{\text{max}} = \sin^{-1} \left( \frac{m}{M} \right)
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem with equations and conditions clearly, using appropriate mathematical notation and structure."
+2.44,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Momentum and Energy Analysis of a Bullet-Block System}
+
+The momentum of the bullet before collision is equal to the momentum of the block + bullet system immediately after the collision, as shown in Fig. 2.34:
+
+\begin{equation}
+    mv = (m+M)V \tag{1}
+\end{equation}
+
+where \( V \) is the initial speed of the block + bullet system.
+
+The kinetic energy of the system immediately after the impact is given by:
+
+\begin{equation}
+    K = \frac{1}{2}(m+M)V^2 \tag{2}
+\end{equation}
+
+Due to the impact, the pendulum would swing to the right and would be raised through the maximum height \( h \) vertically above the rest position of the pendulum, as shown in Fig. 2.34. At this point, the kinetic energy of the pendulum is entirely converted into gravitational potential energy:
+
+\begin{equation}
+    \frac{1}{2}(m+M)V^2 = (m+M)gh \tag{3}
+\end{equation}
+
+From equation (3), we can solve for \( V \):
+
+\begin{equation}
+    V = \sqrt{2gh} \tag{4}
+\end{equation}
+
+Using equation (4) in equation (1), we find the original velocity \( v \) of the bullet:
+
+\begin{equation}
+    v = \left(1 + \frac{M}{m}\right)\sqrt{2gh} \tag{5}
+\end{equation}
+
+By measuring \( h \) and knowing \( m \) and \( M \), the original velocity of the bullet can be calculated.
+
+\end{document}
+```
+
+This LaTeX code provides a structured and formatted representation of the physics problem and solution, including equations and references to figures."
+2.45,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Let the area of the nozzle through which the jet comes be $A \, \text{m}^2$. The mass of water in the jet per second is $\rho A v$, where $\rho$ is the density of water and $v$ the jet velocity. The momentum associated with this volume of water is 
+\[
+p = (\rho A v) v = \rho A v^2 \tag{1}
+\]
+The momentum after hitting the wall will also be equal to $\rho A v^2$ since the collision is assumed to be elastic. Resolve the momentum along the $x$-axis and $y$-axis, as shown in Fig. 2.35.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure_placeholder} % Replace with actual figure path
+    \caption{Resolution of momentum components.}
+    \label{fig:momentum_components}
+\end{figure}
+
+The change of the $x$-component of momentum is 
+\[
+\Delta p_x = p \sin \theta - (-p \sin \theta) = 2p \sin \theta \tag{2}
+\]
+The change in the $y$-component of momentum is 
+\[
+\Delta p_y = p \cos \theta - p \cos \theta = 0 \tag{3}
+\]
+Then 
+\[
+\Delta p = \Delta p_x = 2p \sin \theta = 2 \rho A v^2 \sin \theta \tag{4}
+\]
+Pressure exerted on the wall will be 
+\[
+P = \frac{\Delta p}{A} = 2 \rho v^2 \sin \theta \tag{5}
+\]
+For normal incidence, $\theta = 90^\circ$, and 
+\[
+P = 2 \rho v^2 \tag{6}
+\]
+
+\end{document}
+```"
+2.46,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+For a completely inelastic collision, there is no rebounding of the jet. The pressure on the wall is given by
+
+\begin{equation}
+    P = \rho v^2 \sin \theta
+\end{equation}
+
+For normal incidence, where \(\theta = 90^\circ\), the pressure simplifies to
+
+\begin{equation}
+    P = \rho v^2
+\end{equation}
+
+\end{document}
+```"
+2.47,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+Resolve the momentum $mv_1$ and $mv_2$ along the original line of motion and in a direction perpendicular to it. Along the original line of motion, the initial momentum must be equal to the sum of the components of momentum after the collision:
+
+\begin{equation}
+    mv_0 = mv_1 \cos 30^\circ + mv_2 \cos 30^\circ
+\end{equation}
+
+In the direction perpendicular to the original direction of motion, the sum of components of momentum after the collision must be equal to zero because before collision the balls do not have any component of momentum in the perpendicular direction:
+
+\begin{equation}
+    mv_1 \sin 30^\circ - mv_2 \sin 30^\circ = 0 \quad \text{or} \quad v_1 = v_2
+\end{equation}
+
+This result could have been anticipated from symmetry. Using (2) in (1),
+
+\begin{align*}
+    v_0 &= 2v_1 \cos 30^\circ \\
+    &= \sqrt{3}v_1 \\
+    \Rightarrow v_1 = v_2 &= \frac{v_0}{\sqrt{3}} = \frac{9}{\sqrt{3}} = 5.19 \, \text{m/s}
+\end{align*}
+
+Total kinetic energy of the two balls before collision:
+
+\begin{equation}
+    K_0 = \frac{1}{2} mv_0^2 + 0 = \frac{1}{2} mv_0^2
+\end{equation}
+
+Total kinetic energy after the collision:
+
+\begin{equation}
+    K' = \frac{1}{2} mv_1^2 + \frac{1}{2} mv_2^2 = mv_1^2 = \frac{1}{3} mv_0^2
+\end{equation}
+
+On comparing (3) and (4), we conclude that kinetic energy is not conserved. The collision is said to be inelastic.
+
+\end{document}
+```"
+2.48,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+The time taken for the ball to reach the plane in the initial fall is given by:
+\begin{equation}
+    t_0 = \sqrt{\frac{2h}{g}}
+\end{equation}
+
+The velocity with which it reaches the plane is:
+\begin{equation}
+    u_1 = \sqrt{2gh}
+\end{equation}
+
+The velocity with which it rebounds from the plane is:
+\begin{equation}
+    v_1 = e u_1 = e \sqrt{2gh}
+\end{equation}
+
+The time to reach the plane again is:
+\begin{equation}
+    t_1 = \frac{2v_1}{g} = \frac{2e \sqrt{2h}}{g} = 2e t_0
+\end{equation}
+
+If this process is repeated indefinitely, the total time \( T \) is:
+\begin{align}
+    T &= t_0 + t_1 + t_2 + \cdots + t_\infty \\
+      &= t_0 + 2e t_0 + 2e^2 t_0 + \cdots \\
+      &= t_0 \left[ 1 + 2e(1 + e + e^2 + \cdots) \right] \\
+      &= t_0 \left[ 1 + \frac{2e}{1-e} \right] \\
+      &= \sqrt{\frac{2h}{g}} \frac{1+e}{1-e}
+\end{align}
+
+where we have used the formula for the sum of an infinite number of terms of a geometric series.
+
+\end{document}
+```
+"
+2.49,"To convert the given physics text into properly formatted LaTeX, we need to structure the equation clearly and ensure all mathematical symbols and operations are correctly represented. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The total distance traversed \( S \) is given by:
+
+\begin{align*}
+S &= h + 2h_1 + 2h_2 + \cdots \\
+  &= h + 2e^2h + 2e^4h + 2e^6h + \cdots \\
+  &= h \left[ 1 + 2e^2 \left( \frac{1}{1-e^2} \right) \right] \\
+  &= h \frac{(1+e^2)}{1-e^2}
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code uses the `align*` environment to align the equations properly and includes necessary mathematical symbols and formatting. The exponential terms are correctly formatted using `e^n`, and fractions are represented using `\frac{}`."
+2.50,"To properly format the given physics text into LaTeX, we need to ensure that all mathematical expressions are correctly typeset. Here's the LaTeX code for the text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+On the first bounce, the velocity is given by:
+\[
+v_1 = e \sqrt{2gh}
+\]
+
+On the second bounce, the velocity is:
+\[
+v_2 = e^2 \sqrt{2gh}
+\]
+
+On the \(n\)-th bounce, the velocity is:
+\[
+v_n = e^n \sqrt{2gh}
+\]
+
+The height after the \(n\)-th bounce is:
+\[
+h_n = \frac{v_n^2}{2g} = e^{2n}h
+\]
+
+\end{document}
+```
+
+This LaTeX document will correctly format the physics equations, ensuring that exponents, square roots, and fractions are properly displayed."
+2.51,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the two bodies of mass $m_1$ and $m_2$ be travelling with the velocities $u_1$ and $u_2$ before the impact. The combined body of mass $m_1 + m_2$ with velocity $v$ after the impact is given by:
+
+\begin{equation}
+v = \frac{m_1 u_1 + m_2 u_2}{m_1 + m_2}
+\end{equation}
+
+The energy wasted, which is the total kinetic energy before the collision minus the total kinetic energy after the collision, is given by:
+
+\begin{align}
+W &= \left( \frac{1}{2} m_1 u_1^2 + \frac{1}{2} m_2 u_2^2 \right) - \frac{1}{2} (m_1 + m_2) v^2 \\
+  &= \frac{1}{2} m_1 u_1^2 + \frac{1}{2} m_2 u_2^2 - \frac{1}{2} \frac{(m_1 u_1 + m_2 u_2)^2}{m_1 + m_2} \\
+  &= \frac{1}{2} \frac{m_1 m_2}{m_1 + m_2} (u_1 - u_2)^2
+\end{align}
+
+\end{document}
+```
+
+This LaTeX code properly formats the physics problem and solution with aligned equations and correct mathematical notation."
+2.52,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Momentum Resolution at Points A and B}
+
+Resolve the momentum along the \(x\)- and \(y\)-axes at points \(A\) and \(B\), as shown in Fig. 2.36. Take the downward direction as positive:
+
+\[
+p_x(A) = p \cos \theta
+\]
+\[
+p_x(B) = p \cos \theta
+\]
+\[
+p_y(A) = -p \sin \theta
+\]
+\[
+p_y(B) = p \sin \theta
+\]
+
+The change in momentum along the \(x\)-axis is given by:
+\[
+\Delta p_x = p_x(B) - p_x(A) = p \cos \theta - p \cos \theta = 0
+\]
+
+The change in momentum along the \(y\)-axis is given by:
+\[
+\Delta p_y = p_y(B) - p_y(A) = p \sin \theta - (-p \sin \theta) = 2p \sin \theta
+\]
+
+Therefore, the total change in momentum is:
+\[
+\Delta p = \Delta p_y = 2p \sin \theta
+\]
+
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{Fig2_36.png}
+    \captionof{figure}{Fig. 2.36}
+\end{center}
+
+\end{document}
+```
+
+Make sure to replace `Fig2_36.png` with the actual path to your figure file. The above LaTeX code provides a structured and clear presentation of the problem and solution, with equations properly formatted and aligned."
+2.53,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the shell of mass \(2m\) explode into two pieces each of mass \(m\). At the highest point, the entire velocity consists of the horizontal component \((v \cos \theta)\) alone. Since one of the components retraces its path, it follows that it has velocity \(-v \cos \theta\), and therefore a momentum \(-mv \cos \theta\).
+
+Let the momentum of the other piece be \(p\). Now, the momentum of the shell just before the explosion was \(2m v \cos \theta\). Momentum conservation gives:
+
+\[
+p - mv \cos \theta = 2m v \cos \theta
+\]
+
+Solving for \(p\), we have:
+
+\[
+p = 3m v \cos \theta
+\]
+
+Thus, the velocity of the other piece is:
+
+\[
+\text{velocity} = \frac{p}{m} = 3v \cos \theta
+\]
+
+\end{document}
+```"
+2.54,"Certainly! Below is the given physics text converted into properly formatted LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Helicopter Airflow Problem}
+
+The volume of air moving down per second is given by:
+\[
+Q = Av
+\]
+where \( v \) is the air velocity moving down through an area \( A \).
+
+The mass of air moving down per second is:
+\[
+\text{Mass} = \rho Av
+\]
+
+The force is given by:
+\[
+F = \frac{\Delta p}{\Delta t} = \left(\text{mass per second}\right) \times \Delta v = \rho Av^2
+\]
+
+The reaction force upward is equal to the helicopter's weight:
+\[
+\rho Av^2 = Mg
+\]
+
+Solving for \( v \), we have:
+\[
+v = \sqrt{\frac{Mg}{\rho A}}
+\]
+
+Substituting the given values:
+\[
+v = \sqrt{\frac{500 \times 9.8}{1.3 \times 45}} = 9.15 \, \text{m/s}
+\]
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and solution with equations properly aligned and typeset. Make sure to compile it with a LaTeX editor to see the formatted document."
+2.55,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+If $v$ is the velocity of each bullet of mass $m$ and $n$ is the number of bullets that can be fired per second, then the rate of change of momentum will be
+
+\begin{equation}
+\frac{\Delta p}{\Delta t} = mnv
+\end{equation}
+
+Therefore,
+
+\begin{equation}
+\frac{\Delta p}{\Delta t} = F = mnv
+\end{equation}
+
+Given:
+
+\[
+n = \frac{F}{mv} = \frac{150}{(0.1)(1000)} = 1.5 \, \text{s}^{-1}
+\]
+
+Thus, the number of bullets that can be fired per minute will be
+
+\[
+60 \times 1.5 = 90
+\]
+
+\end{document}
+```"
+2.56,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+If $v$ is the velocity with which a particle of mass $m$ falls on the balance pan, the momentum before impact is $mv$ and after impact is $-mv$. Therefore, the change in momentum $\Delta p$ is given by:
+
+\begin{equation}
+    \Delta p = -mv - mv = -2mv
+\end{equation}
+
+If the height of fall is $h$, then the velocity $v$ can be calculated using the equation:
+
+\begin{equation}
+    v = \sqrt{2gh} = \sqrt{2 \times 9.8 \times 1.6} = 5.6 \, \text{m/s}
+\end{equation}
+
+If $n$ particles fall per second, the force exerted on the pan is:
+
+\begin{equation}
+    F = 2mnv = (2)(0.1) \left(\frac{441}{60}\right) (5.6) = 8.232 \, \text{N}
+\end{equation}
+
+Converting the force to kilogram weight:
+
+\begin{equation}
+    8.232 \, \text{N} = \frac{8.232}{9.8} \, \text{kg wt} = 0.84 \, \text{kg wt}
+\end{equation}
+
+\end{document}
+```
+This LaTeX document includes equations for momentum change, velocity calculation, force exerted, and conversion to kilogram weight, formatted correctly for a physics context."
+2.57,"To convert the given physics text into properly formatted LaTeX, we need to ensure that the equations are clearly presented and the text is properly structured. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+In this case, the particles will stick to the pan. Therefore, the scale reading will increase due to the weight of the particles that accumulate in the pan. For a completely inelastic collision, we have:
+
+\[
+\Delta p = mv
+\]
+
+As the final momentum is zero. The net force on the scale is given by the weight of the particle plus the force of impact. At time \( t \), the scale reading (in newtons) is:
+
+\[
+mngt + mn\sqrt{2gh} = mng \left[ t + \sqrt{\frac{2h}{g}} \right]
+\]
+
+The scale reading in kg wt is:
+
+\[
+mn \left[ t + \sqrt{\frac{2h}{g}} \right]
+\]
+
+\end{document}
+```
+
+This LaTeX code includes the necessary mathematical expressions and ensures that the equations are properly formatted and aligned. The text is also structured to provide a clear explanation of the physics involved."
+2.58,Error: Unable to process request after multiple attempts.
+2.59,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item[(a)] Distance traversed by the car before it falls off:
+    \begin{align*}
+        s &= 18 - 2 = 16 \, \text{m} \\
+        t &= \sqrt{\frac{2s}{a}} = \sqrt{\frac{2 \times 16}{4}} = 2\sqrt{2} \, \text{s}
+    \end{align*}
+
+    \item[(b)] By Newton’s third law, the force exerted by the car is equal to that by the boat plus the car:
+    \begin{align*}
+        (M + m)a_B &= ma \\
+        \text{where } M &= 8000 \, \text{kg}, \, m = 1200 \, \text{kg}, \, a = 4 \, \text{m/s}^2
+    \end{align*}
+    The acceleration of the boat:
+    \begin{align*}
+        a_B &= \frac{ma}{M + m} = \frac{1200 \times 4}{8000 + 1200} = 0.26 \, \text{m/s}^2
+    \end{align*}
+    The distance travelled by the boat in the opposite direction:
+    \begin{align*}
+        s_B &= \frac{1}{2} a_B t^2 = \frac{1}{2} \times 0.26 \times (2\sqrt{2})^2 = 1.04 \, \text{m}
+    \end{align*}
+
+    \item[(c)] Momentum conservation gives:
+    \begin{align*}
+        mv_c &= (M + m)v_B \\
+        \frac{v_B}{v_C} &= \frac{m}{M + m} = \frac{1200}{8000 + 1200} = 0.13
+    \end{align*}
+    which is independent of the car’s acceleration.
+\end{enumerate}
+
+\end{document}
+```"
+2.60,Error: Unable to process request after multiple attempts.
+2.61,"To convert the given physics text into properly formatted LaTeX, we need to ensure that each part of the equation is clearly defined and aligned. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Given the equations:
+
+\begin{align*}
+a &= 0.5g = \frac{v_r}{m} \frac{dm}{dt} - g \frac{dm}{dt} = 1.5mg, \\
+v_r &= \frac{1.5 \times 10^6 \times 9.8}{2000} = 7350 \, \text{kg/s}.
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code uses the `align*` environment to align the equations properly. The `amsmath` package is included for better handling of mathematical expressions. The equations are formatted to ensure clarity and readability."
+2.62,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem Solutions}
+
+\begin{enumerate}
+    \item[(a)] \textbf{Rocket Thrust:}
+    \begin{align*}
+        \text{Thrust} &= v_r \frac{dm}{dt} \\
+        &= 55 \times 10^3 \times 1290 \\
+        &= 71 \times 10^6 \, \text{N}
+    \end{align*}
+
+    \item[(b)] \textbf{Net Acceleration:}
+    \begin{align*}
+        a &= \frac{v_r}{m} \frac{dm}{dt} - g \\
+        &= \frac{71 \times 10^6}{2.72 \times 10^6} - 9.8 \\
+        &= 16.3 \, \text{m/s}^2
+    \end{align*}
+
+    \item[(c)] \textbf{Time to Reach Burn-out Velocity:}
+    \begin{align*}
+        t &= \frac{m_0 - m_B}{\alpha} \\
+        &= \frac{2.72 \times 10^6 - 2.52 \times 10^6}{1290} \\
+        &= 155 \, \text{s}
+    \end{align*}
+
+    \item[(d)] \textbf{Burn-out Velocity:}
+    \begin{align*}
+        v_B &= v_i + v_r \ln \frac{m_0}{m_B} - gt \\
+        &= 0 + 55,000 \ln \frac{2.72 \times 10^6}{2.52 \times 10^6} - (9.8 \times 155) \\
+        &= 2714 \, \text{m/s} \\
+        &\approx 2.7 \, \text{kms/s}
+    \end{align*}
+\end{enumerate}
+
+\end{document}
+```"
+2.63,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem: Rocket Dynamics}
+
+\begin{enumerate}
+    \item[(a)] \textbf{Weight of the rocket:}
+    \begin{align*}
+        M_0 g &= 5000 \times 9.8 = 49,000 \, \text{N}
+    \end{align*}
+    Let \( x \) kg of gas be ejected per second. Then,
+    \begin{align*}
+        x v_e &= M_0 g \\
+        x &= \frac{M_0 g}{v_e} = \frac{49,000}{1000} = 49 \, \text{kg/s}
+    \end{align*}
+
+    \item[(b)] \textbf{Upward acceleration required:}
+    \begin{align*}
+        a &= 2g
+    \end{align*}
+    \textbf{Upward thrust required:}
+    \begin{align*}
+        F &= M_0 a = (M_0)(2g) = 2M_0 g
+    \end{align*}
+    \textbf{Weight of the rocket:}
+    \begin{align*}
+        W &= M_0 g
+    \end{align*}
+    \textbf{Total force required:}
+    \begin{align*}
+        \text{Total force} &= F + W = 2M_0 g + M_0 g = 3M_0 g
+    \end{align*}
+    Let \( x' \) kg of gas be ejected per second with \( v_e = 1000 \, \text{m/s} \),
+    \begin{align*}
+        1000 x' &= 147,000 \\
+        x' &= 147 \, \text{kg/s}
+    \end{align*}
+\end{enumerate}
+
+\end{document}
+```"
+2.64,Error: Unable to process request after multiple attempts.
+2.65,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Consider the equation for the variable mass:
+
+\begin{equation}
+    m \frac{dv}{dt} + v \frac{dm}{dt} = F = 0 \tag{1}
+\end{equation}
+
+Given:
+
+\begin{equation}
+    \frac{dm}{dt} = k \tag{2}
+\end{equation}
+
+Substituting (2) into (1):
+
+\begin{equation}
+    m \frac{dv}{dt} + kv = 0 \tag{3}
+\end{equation}
+
+Integrating equation (2):
+
+\[
+    m = \int dm = \int k \, dt = kt + C_1
+\]
+
+where \( C_1 \) is a constant. At \( t = 0 \), \( m = W \), thus:
+
+\begin{equation}
+    m = kt + W \tag{4}
+\end{equation}
+
+Using equation (4) in equation (3):
+
+\[
+    \frac{dv}{v} = -\frac{k}{m} \, dt = -\frac{k \, dt}{kt + W}
+\]
+
+Integrating both sides:
+
+\[
+    \int \frac{dv}{v} = -\int \frac{k \, dt}{kt + W}
+\]
+
+\[
+    \ln v = -\ln(kt + W) + C_2
+\]
+
+where \( C_2 \) is a constant. At \( t = 0 \), \( v = v_0 \), thus:
+
+\[
+    C_2 = \ln v_0 + \ln W
+\]
+
+Therefore:
+
+\[
+    \ln \left(\frac{v_0}{v}\right) = \ln \left(1 + \frac{kt}{W}\right)
+\]
+
+\[
+    \frac{v_0}{v} = 1 + \frac{kt}{W}
+\]
+
+\[
+    v = \frac{ds}{dt} = \frac{v_0}{1 + \frac{kt}{W}}
+\]
+
+The distance traveled in time \( t \):
+
+\[
+    S = \int_0^s ds = v_0 \int_0^t \frac{dt}{1 + \frac{kt}{W}}
+\]
+
+\[
+    S = \frac{Wv_0}{k} \ln \left(1 + \frac{kt}{W}\right)
+\]
+
+\end{document}
+```
+
+This LaTeX code properly formats the given physics problem and solution, ensuring correct syntax and alignment for clarity and readability."
+2.66,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The pressure on the table consists of two parts: 
+\begin{enumerate}
+    \item The weight of the coil on the table producing the pressure.
+    \item The destruction of momentum producing the pressure.
+\end{enumerate}
+
+First, consider part (b). Let a length \( x \) be coiled up on the table. Since the chain is falling freely under gravity, the velocity of the chain will be \( \sqrt{2gx} \). In a small time interval \( \delta t \), the length which reaches the table is \( \delta t \sqrt{2gx} \).
+
+Thus, the momentum destroyed in time \( \delta t \) is 
+\[
+\delta p = \delta t \cdot \frac{M}{L} \cdot \sqrt{2gx} \cdot \sqrt{2gx} = \delta t \cdot \frac{M}{L} \cdot 2gx
+\]
+
+Therefore, the rate of destruction of momentum is 
+\[
+\frac{\delta p}{\delta t} = \frac{M}{L} \cdot 2gx
+\]
+
+Pressure due to part (a) will be 
+\[
+\frac{Mg}{L} \cdot x
+\]
+
+Thus, the total pressure on the table is 
+\[
+\frac{M}{L} \cdot 2gx + \frac{Mgx}{L} = \frac{3Mgx}{L}
+\]
+
+This is three times the weight of the coil on the table.
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and its solution correctly, ensuring all mathematical expressions are properly displayed."
+2.67,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Measuring \( x \) vertically down, the equation of motion is 
+
+\begin{equation}
+    \frac{d}{dt} \left( m \frac{dx}{dt} \right) = mg
+\end{equation}
+
+where \( m \) is the mass of the raindrop after time \( t \) and \( x \) the distance through which the drop has fallen. If \( \rho \) is the density and \( r \) the radius after time \( t \):
+
+\begin{equation}
+    m = \frac{4}{3} \pi r^3 \rho
+\end{equation}
+
+Thus,
+
+\begin{equation}
+    \frac{dm}{dt} = \frac{dm}{dr} \frac{dr}{dt} = 4 \pi \rho r^2 \frac{dr}{dt}
+\end{equation}
+
+By problem,
+
+\begin{equation}
+    \frac{dm}{dt} = k \rho 4 \pi r^2
+\end{equation}
+
+Comparing (3) and (4),
+
+\begin{equation}
+    \frac{dr}{dt} = k
+\end{equation}
+
+Integrating,
+
+\begin{equation}
+    r = kt + C_1
+\end{equation}
+
+where \( C_1 = \text{constant} \). At \( t = 0 \), \( r = R \) so \( C_1 = R \). Thus,
+
+\begin{equation}
+    r = kt + R
+\end{equation}
+
+Using (2) and (7) in (1),
+
+\begin{equation}
+    \frac{d}{dt} \left\{ \frac{4}{3} \pi \rho (R + kt)^3 \frac{dx}{dt} \right\} = \frac{4}{3} \pi \rho (R + kt)^3 g
+\end{equation}
+
+Integrating,
+
+\begin{equation}
+    (R + kt)^3 \frac{dx}{dt} = \frac{(R + kt)^4 g}{4k} + C_2
+\end{equation}
+
+But \( \frac{dx}{dt} = 0 \) when \( t = 0 \). Thus, \( C_2 = -\frac{R^4}{4kg} \).
+
+The velocity after time \( t \) is therefore
+
+\begin{equation}
+    v(t) = \frac{g}{4k} \left\{ (R + kt) - \frac{R^4}{(R + kt)^3} \right\}
+\end{equation}
+
+\end{document}
+```
+This LaTeX document is structured to properly format the given physics problem and solution, using equations and aligning them correctly for clarity."

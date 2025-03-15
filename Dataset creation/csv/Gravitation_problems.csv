@@ -1,0 +1,1212 @@
+Question_number,Questions
+5.1,"To convert the given physics text into properly formatted LaTeX, we need to present the problem statement and relevant equations clearly. Here is how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+Calculate the gravitational force between two lead spheres of radius 10 cm in contact with one another. The gravitational constant is given as \( G = 6.67 \times 10^{-11} \, \text{m}^3 \, \text{kg}^{-1} \, \text{s}^{-2} \). The density of lead is \( 11,300 \, \text{kg/m}^3 \).
+
+\section*{Solution Approach}
+
+To solve this problem, we need to use the formula for gravitational force between two masses:
+
+\[
+F = \frac{G \cdot m_1 \cdot m_2}{r^2}
+\]
+
+where:
+\begin{itemize}
+    \item \( F \) is the gravitational force,
+    \item \( G \) is the gravitational constant,
+    \item \( m_1 \) and \( m_2 \) are the masses of the two spheres,
+    \item \( r \) is the distance between the centers of the two spheres.
+\end{itemize}
+
+Since the spheres are in contact, the distance \( r \) is equal to twice the radius of one sphere, \( r = 2 \times 0.1 \, \text{m} = 0.2 \, \text{m} \).
+
+The mass of each sphere can be calculated using the formula for the volume of a sphere and the given density:
+
+\[
+m = \rho \cdot V = \rho \cdot \frac{4}{3} \pi r^3
+\]
+
+where:
+\begin{itemize}
+    \item \( \rho = 11,300 \, \text{kg/m}^3 \) is the density of lead,
+    \item \( r = 0.1 \, \text{m} \) is the radius of the sphere.
+\end{itemize}
+
+Substitute the values to find the gravitational force.
+
+\end{document}
+```
+
+This LaTeX code sets up the problem statement and outlines the approach for calculating the gravitational force between the two lead spheres. It includes the necessary equations and variables, formatted for clarity and readability."
+5.2,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+Considering Fig. 5.1, what is the magnitude of the net gravitational force exerted on the uniform sphere, of mass \(0.010 \, \text{kg}\), at point \(P\) by the other two uniform spheres, each of mass \(0.260 \, \text{kg}\), that are fixed at points \(A\) and \(B\) as shown. 
+
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{Fig5_1.png}
+\end{center}
+
+\begin{flushright}
+    [The University of Wales, Aberystwyth 2005]
+\end{flushright}
+
+\end{document}
+```
+
+Note: Ensure that the image `Fig5_1.png` is available in the same directory as your LaTeX file for the figure to be displayed correctly."
+5.3,"To format the given physics text into LaTeX, we will use appropriate mathematical symbols and structures. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Two bodies of mass $m$ and $M$ are initially at rest in an inertial reference frame at a great distance apart. They start moving towards each other under gravitational attraction. Show that as they approach a distance $d$ apart ($d \ll r$), their relative velocity of approach will be $\sqrt{2G(M+m) \frac{1}{d}}$, where $G$ is the gravitational constant.
+
+\end{document}
+```
+
+This code ensures that all mathematical expressions are properly formatted using LaTeX syntax. The use of `$` symbols denotes inline math mode, and `\sqrt{}` is used for the square root. The condition $d \ll r$ is formatted using the `\ll` command, which represents ""much less than."""
+5.4,"To convert the given physics problem into properly formatted LaTeX, we can present it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{physics}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+If the Earth suddenly stopped in its orbit, assumed to be circular, find the time that would elapse before it falls into the Sun.
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document with the problem statement clearly presented. It uses the `article` class and includes packages like `amsmath` and `physics` for potential mathematical formatting needs, although they are not explicitly used in the problem statement itself."
+5.5,"To convert the given physics text into properly formatted LaTeX, we can structure it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Because of the rotation of the Earth, a plumb bob when hung may not point exactly in the direction of the Earth’s gravitational force on the plumb bob. It may slightly deviate through a small angle.
+
+\begin{enumerate}
+    \item[(a)] Show that at latitude $\lambda$, the deflection angle $\theta$ in radians is given by
+    \begin{equation}
+        \theta = \frac{2\pi^2 R}{g T^2} \sin 2\lambda
+    \end{equation}
+    where $R$ is the radius of the Earth and $T$ is the period of the Earth's rotation.
+    
+    \item[(b)] At what latitude is the deflection maximum?
+    
+    \item[(c)] What is the deflection at the equator?
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary math environment to properly format the equation and uses an `enumerate` environment to list the parts of the problem. The equation is centered and formatted using the `equation` environment, and the variables are correctly typeset in math mode."
+5.6,"To format the given physics text into LaTeX, we need to ensure that the equations and variables are properly typeset. Here is the LaTeX code for the problem statement:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Show that the gravitational energy of Earth, assumed to be a uniform sphere of radius $R$ and mass $M$, is given by:
+
+\begin{equation}
+U = -\frac{3GM^2}{5R}
+\end{equation}
+
+where $G$ is the gravitational constant.
+
+What is the potential energy of Earth assuming it to be a uniform sphere with radius $R = 6.4 \times 10^6 \, \text{m}$ and mass $M = 6.0 \times 10^{24} \, \text{kg}$?
+
+\end{document}
+```
+
+This LaTeX code includes the necessary formatting for the equations and variables, ensuring that the physics content is clearly presented."
+5.7,"To format the given physics text into LaTeX, we need to express the problem statement clearly, using appropriate mathematical symbols and formatting. Here's how you can write it in LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem}
+
+Assuming that the Earth has constant density, at what distance \( d \) from the Earth's surface is the gravitational force above the Earth equal to that below the surface?
+
+\end{document}
+```
+
+This LaTeX code sets up a document with a section for the physics problem, using mathematical notation to express the distance \( d \). The `amsmath` package is included for enhanced mathematical formatting capabilities, although it is not strictly necessary for this simple expression."
+5.8,"To convert the given physics text into properly formatted LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Assuming the radius of the Earth to be \(6.38 \times 10^{8} \, \text{cm}\), the gravitational constant to be \(6.67 \times 10^{-8} \, \text{cm}^3/\text{g}/\text{s}^2\), and the acceleration due to gravity on the surface to be \(980 \, \text{cm/s}^2\), find the mean density of the Earth.
+
+\end{document}
+```
+
+This LaTeX code formats the given physics problem statement with proper mathematical notation and units."
+5.9,"To format the given physics text into LaTeX, we need to represent the problem statement using appropriate mathematical symbols and formatting. Here is the LaTeX code for the problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+How far from the Earth must a body be along a line towards the Sun so that the Sun's gravitational pull balances the Earth's? The Sun is about \(9.3 \times 10^7 \, \text{km}\) away and its mass is \(3.24 \times 10^5 M_e\), where \(M_e\) is the mass of the Earth.
+
+\end{document}
+```
+
+This LaTeX code uses the `amsmath` package for better handling of mathematical expressions and ensures that the scientific notation and variables are correctly formatted."
+5.10,"To properly format the given physics text into LaTeX, we can structure it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Assuming the Earth to be a perfect sphere of radius \(6.4 \times 10^8 \, \text{cm}\), find the difference due to the rotation of the Earth in the value of \(g\) at the poles and at the equator. 
+
+\begin{flushright}
+[Northern Universities of UK]
+\end{flushright}
+
+\end{document}
+```
+
+This LaTeX code snippet includes the necessary formatting for the physics problem statement, using mathematical notation for the radius and gravitational acceleration \(g\). The problem source is aligned to the right for clarity."
+5.11,"To derive the expression for the gravitational potential \( V(r) \) due to a uniform solid sphere of mass \( M \) and radius \( R \) when \( r < R \), we can use the following LaTeX code to format the problem statement and the relevant equations:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Gravitational Potential Inside a Uniform Solid Sphere}
+
+Derive an expression for the gravitational potential \( V(r) \) due to a uniform solid sphere of mass \( M \) and radius \( R \) when \( r < R \).
+
+\subsection*{Solution Outline}
+
+To find the gravitational potential \( V(r) \) inside the sphere, we consider the following:
+
+1. **Mass Distribution**: The sphere is uniformly distributed with mass \( M \) and radius \( R \).
+
+2. **Gravitational Potential**: The gravitational potential \( V(r) \) at a distance \( r \) from the center of the sphere is given by:
+   \[
+   V(r) = -\int \frac{G \, dm}{r}
+   \]
+   where \( G \) is the gravitational constant and \( dm \) is the mass element.
+
+3. **Integration Limits**: Since \( r < R \), we need to integrate from the center of the sphere to the point at distance \( r \).
+
+4. **Density of Sphere**: The density \( \rho \) of the sphere is constant and given by:
+   \[
+   \rho = \frac{M}{\frac{4}{3}\pi R^3}
+   \]
+
+5. **Mass Element**: The mass element \( dm \) can be expressed in terms of the volume element \( dV \) as:
+   \[
+   dm = \rho \, dV = \rho \, 4\pi r'^2 \, dr'
+   \]
+   where \( r' \) is the variable of integration.
+
+6. **Expression for \( V(r) \)**: The potential \( V(r) \) inside the sphere is then calculated by integrating over the volume from \( 0 \) to \( r \).
+
+\subsection*{Final Expression}
+
+The final expression for the gravitational potential \( V(r) \) inside the sphere is:
+\[
+V(r) = -\frac{G M}{2 R^3} \left(3R^2 - r^2\right)
+\]
+
+\end{document}
+```
+
+This LaTeX code provides a structured format for presenting the derivation of the gravitational potential inside a uniform solid sphere. It includes the problem statement, solution outline, and the final expression for the potential."
+5.12,"To derive an expression for the potential due to a thin uniform rod of mass \( M \) and length \( L \) at a point distant \( d \) from the center of the rod on the axial line of the rod, we start by considering the following setup:
+
+1. **Setup and Variables:**
+   - Let the rod be aligned along the \( x \)-axis, with its center at the origin.
+   - The rod extends from \( x = -\frac{L}{2} \) to \( x = \frac{L}{2} \).
+   - The point where we want to calculate the potential is located at a distance \( d \) from the center of the rod along the axial line.
+
+2. **Expression for Potential:**
+   - The potential \( V \) at a point due to a small element of mass \( dm \) is given by:
+     \[
+     dV = -\frac{G \, dm}{r}
+     \]
+     where \( G \) is the gravitational constant and \( r \) is the distance from the mass element \( dm \) to the point where the potential is being calculated.
+
+3. **Mass Element:**
+   - The linear mass density \( \lambda \) of the rod is:
+     \[
+     \lambda = \frac{M}{L}
+     \]
+   - A small element of the rod \( dx \) has mass:
+     \[
+     dm = \lambda \, dx = \frac{M}{L} \, dx
+     \]
+
+4. **Distance \( r \):**
+   - The distance \( r \) from the element \( dm \) at position \( x \) to the point at distance \( d \) is:
+     \[
+     r = |d - x|
+     \]
+
+5. **Total Potential:**
+   - Integrate \( dV \) over the length of the rod from \( x = -\frac{L}{2} \) to \( x = \frac{L}{2} \):
+     \[
+     V = -G \int_{-\frac{L}{2}}^{\frac{L}{2}} \frac{\lambda \, dx}{|d - x|}
+     \]
+   - Substituting \( \lambda = \frac{M}{L} \), the expression becomes:
+     \[
+     V = -\frac{GM}{L} \int_{-\frac{L}{2}}^{\frac{L}{2}} \frac{dx}{|d - x|}
+     \]
+
+This integral will yield the expression for the gravitational potential at the specified point. Note that the absolute value in the denominator ensures the correct distance is used regardless of the position of \( x \) relative to \( d \)."
+5.13,"To show that for a satellite moving close to the Earth's surface along the equator, moving in the western direction will require a launching speed 11% higher than that moving in the eastern direction, we start by considering the rotational speed of the Earth and how it affects the required launch speed.
+
+The Earth's rotational speed at the equator is given by:
+
+\[
+v_{\text{earth}} = \omega_{\text{earth}} R_{\text{earth}}
+\]
+
+where:
+- \(\omega_{\text{earth}}\) is the angular velocity of the Earth's rotation,
+- \(R_{\text{earth}}\) is the radius of the Earth.
+
+For a satellite moving in the eastern direction, the effective launch speed \(v_{\text{launch, east}}\) is reduced by the Earth's rotational speed:
+
+\[
+v_{\text{launch, east}} = v_{\text{orbital}} - v_{\text{earth}}
+\]
+
+For a satellite moving in the western direction, the effective launch speed \(v_{\text{launch, west}}\) is increased by the Earth's rotational speed:
+
+\[
+v_{\text{launch, west}} = v_{\text{orbital}} + v_{\text{earth}}
+\]
+
+We are given that the launch speed in the western direction is 11% higher than that in the eastern direction:
+
+\[
+v_{\text{launch, west}} = 1.11 \times v_{\text{launch, east}}
+\]
+
+Substituting the expressions for \(v_{\text{launch, east}}\) and \(v_{\text{launch, west}}\):
+
+\[
+v_{\text{orbital}} + v_{\text{earth}} = 1.11 \times (v_{\text{orbital}} - v_{\text{earth}})
+\]
+
+This equation can be solved to verify the relationship between the launch speeds in the eastern and western directions."
+5.14,"To format the given physics text into LaTeX, we will use the appropriate LaTeX commands to represent the symbols and structure the text properly. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+A thin wire of linear mass density $\lambda$ is bent in the form of a quarter circle of radius $R$ (see Fig. 5.2). Calculate the gravitational intensity at the centre $O$.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figure5_2.png} % Replace with the actual path to the figure file
+    \caption{Quarter circle wire configuration}
+    \label{fig:quarter_circle}
+\end{figure}
+
+\end{document}
+```
+
+In this LaTeX code:
+- The `amsmath` package is included for better handling of mathematical symbols.
+- The `graphicx` package is used to include the figure.
+- The linear mass density is represented by `$\lambda$`.
+- The radius of the quarter circle is represented by `$R$`.
+- The figure is referenced as ""Fig. 5.2"" and is included using the `\includegraphics` command, where you should replace `figure5_2.png` with the actual path to your image file.
+- The gravitational intensity calculation is mentioned but not solved, as per your request."
+5.15,"```latex
+At any point, a differential force is exerted on the ocean by the moon. This is estimated by the differential \(\Delta g\), which is the difference of the acceleration at \(B\) and that at \(C\) due to the moon (Fig. 5.3). If \(R\) is the radius of the Earth, \(d\) the distance of separation of the center of Earth and moon, \(M\) and \(m\) the mass of the Earth and moon, respectively, show that
+
+\[
+\Delta g \approx \frac{2GmR}{d^3}.
+\]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics{figure_5_3.png}
+    \caption{Illustration of the forces exerted by the moon on the ocean.}
+    \label{fig:5_3}
+\end{figure}
+```
+
+Make sure to replace `figure_5_3.png` with the actual path to your image file if you have one."
+5.16,"To convert the given physics text into properly formatted LaTeX, we need to express the relationship between gravitational pressure \( P \) and volume \( V \) for a star with uniform density. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Assume that a star has uniform density. Show that the gravitational pressure \( P \propto V^{-4/3} \), where \( V \) is the volume.
+
+\end{document}
+```
+
+This LaTeX code uses the `amsmath` package to ensure proper formatting of mathematical expressions. The proportionality symbol \(\propto\) is used to indicate the relationship between gravitational pressure and volume."
+5.17,"To express the problem of finding the gravitational field due to an infinite line mass with linear density \(\lambda\) at a distance \(R\) in LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+Find the gravitational field due to an infinite line mass of linear density \(\lambda\), at a distance \(R\).
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document with the problem statement formatted correctly. You can compile this code using a LaTeX editor to see the formatted output."
+5.18,"To format the given physics text into LaTeX, we need to express the problem statement using mathematical notation. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+If the Earth–Moon distance is \( d \) and the mass of the Earth is 81 times that of the Moon, locate the neutral point on the line joining the centers of the Earth and Moon.
+
+\end{document}
+```
+
+This LaTeX code uses the `amsmath` package for better handling of mathematical expressions and formats the problem statement with proper mathematical symbols. The Earth-Moon distance is denoted by \( d \), and the relationship between the masses is clearly stated."
+5.19,"To format the given physics text into LaTeX, we need to properly structure the problem statement and ensure the mathematical symbols are correctly represented. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle of mass $m$ was taken from the center of the base of a uniform hemisphere of mass $M$ and radius $R$ to infinity. Calculate the work done in overcoming the gravitational force due to the hemisphere.
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document with the problem statement formatted correctly. The mathematical symbols for mass ($m$, $M$) and radius ($R$) are included within math mode using dollar signs."
+5.20,"```latex
+The cross-section of a spherical shell of uniform density and mass \( M \) and of radii \( a \) and \( b \) is shown in Fig. 5.4. How does the gravitational field vary in the region \( a < r < b \)?
+
+\begin{figure}[h]
+    \centering
+    \includegraphics{path/to/figure5_4.png} % Replace with the correct path to the figure
+    \caption{Cross-section of a spherical shell with inner radius \( a \) and outer radius \( b \).}
+    \label{fig:spherical_shell}
+\end{figure}
+```
+
+Make sure to replace `path/to/figure5_4.png` with the actual path to your image file. The `\includegraphics` command is part of the `graphicx` package, so ensure you have `\usepackage{graphicx}` in your preamble."
+5.21,"To properly format the given physics text into LaTeX, we need to ensure that all symbols, variables, and mathematical expressions are correctly represented. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Find the variation of the magnitude of the gravitational field along the \( z \)-axis due to a disc of radius \( a \) and surface density \( \sigma \), lying in the \( xy \)-plane.
+
+\end{document}
+```
+
+This code uses the `amsmath` package for enhanced mathematical formatting and ensures that all variables and symbols are properly italicized and formatted."
+5.22,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure5_5.png} % Replace with actual image file
+    \caption{A spherical shell of mass $M$ and radius $R$ with an opening.}
+    \label{fig:5_5}
+\end{figure}
+
+Figure \ref{fig:5_5} shows a spherical shell of mass $M$ and radius $R$ in a force-free region with an opening. A particle of mass $m$ is released from a distance $R$ in front of the opening. Calculate the speed with which the particle will hit the point $C$ on the shell, opposite to the opening.
+
+\end{document}
+```
+
+Make sure to replace `figure5_5.png` with the actual filename of your image. The LaTeX code above includes the necessary packages and formatting to properly display the text and figure as described."
+5.23,"To format the given physics text into LaTeX, we need to ensure that all mathematical expressions and variables are properly typeset. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle of mass $m$ is fired upwards from the surface of a planet of mass $M$ and radius $R$ with velocity $v = \sqrt{\frac{GM}{2R}}$. Show that the maximum height which the particle attains is $\frac{R}{3}$.
+
+\end{document}
+```
+
+This code includes the necessary LaTeX commands to format the text and equations properly. The `amsmath` package is used for enhanced mathematical typesetting."
+5.24,"To convert the given physics text into properly formatted LaTeX, we need to ensure that all variables and mathematical expressions are correctly formatted. Here is the LaTeX code for the given problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Consider a nebula in the form of a ring of radius $R$ and mass $M$. A star of mass $m$ ($m \ll M$) is located at a distance $r$ from the centre of the ring on its axis, initially at rest. Show that the speed with which it crosses the centre of the ring will be 
+
+\[
+v = \sqrt{(2 - \sqrt{2}) \frac{GM}{R}}
+\]
+
+\end{document}
+```
+
+This LaTeX code sets up the problem statement with properly formatted mathematical expressions and variables, ensuring clarity and correctness in the presentation of the physics problem."
+5.25,"To convert the given physics text into properly formatted LaTeX, we need to clearly define the variables and equations involved. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+If $W_1$ is the work done in taking the satellite from the surface of the Earth of radius $R$ to a height $h$, and $W_2$ is the extra work required to put the satellite in the orbit at altitude $h$, and if $h = \frac{R}{2}$, then show that the ratio $\frac{W_1}{W_2} = 1.0$.
+
+\end{document}
+```
+
+This code includes the necessary mathematical symbols and formatting to clearly present the problem statement."
+5.26,"To format the given physics text into LaTeX, we need to ensure that all variables and parameters are properly typeset, and any references to figures are clearly indicated. Here's how you can format the text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+An asteroid is moving towards a planet of mass $M$ and radius $R$, from a long distance with initial speed $v_0$ and impact parameter $d$ (see Fig.~5.6). Calculate the minimum value of $v_0$ such that the asteroid does not hit the planet. 
+
+\begin{figure}[h]
+    \centering
+    % \includegraphics{figure5_6.png} % Uncomment this line and provide the correct path to the figure file
+    \caption{Illustration of the asteroid's trajectory towards the planet.}
+    \label{fig:5.6}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code snippet includes:
+
+- Proper formatting of variables ($M$, $R$, $v_0$, $d$) using math mode.
+- A reference to a figure (Fig.~5.6) with a placeholder for the image file, which you can replace with the actual path to your image.
+- A caption and label for the figure to maintain clarity and reference within the document."
+5.27,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The orbits of Earth and Venus around the Sun are very nearly circular with mean radius of the Earth's orbit $r_E = 1.50 \times 10^{11} \, \text{m}$ and mean radius of Venus' orbit $r_V = 1.08 \times 10^{11} \, \text{m}$. If the Earth's period of orbit around the Sun is 365.3 days and Venus' is 224.7 days:
+
+\begin{enumerate}
+    \item[(i)] Show that these figures are approximately consistent with Kepler's third law.
+    \item[(ii)] Derive a formula to estimate the mass of the Sun ($G = 6.67 \times 10^{-11} \, \text{Nm}^2/\text{kg}^2$).
+\end{enumerate}
+
+\textbf{(i) Kepler's Third Law:}
+
+Kepler's third law states that the square of the orbital period $T$ of a planet is directly proportional to the cube of the semi-major axis $r$ of its orbit:
+
+\[
+T^2 \propto r^3
+\]
+
+For Earth and Venus, we can express this as:
+
+\[
+\left(\frac{T_E}{T_V}\right)^2 = \left(\frac{r_E}{r_V}\right)^3
+\]
+
+where:
+\begin{align*}
+T_E &= 365.3 \, \text{days}, \\
+T_V &= 224.7 \, \text{days}, \\
+r_E &= 1.50 \times 10^{11} \, \text{m}, \\
+r_V &= 1.08 \times 10^{11} \, \text{m}.
+\end{align*}
+
+\textbf{(ii) Estimating the Mass of the Sun:}
+
+Using Newton's version of Kepler's third law, we have:
+
+\[
+T^2 = \frac{4\pi^2}{G M} r^3
+\]
+
+Solving for the mass of the Sun $M$, we get:
+
+\[
+M = \frac{4\pi^2 r^3}{G T^2}
+\]
+
+where $G = 6.67 \times 10^{-11} \, \text{Nm}^2/\text{kg}^2$ is the gravitational constant.
+
+\end{document}
+```"
+5.28,"To format the given physics text into LaTeX, we can present the problem statement clearly and use appropriate mathematical notation for the velocities and eccentricity. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The greatest and least velocities of a certain planet in its orbit around the sun are given as follows:
+\begin{align*}
+    v_{\text{max}} &= 30.0 \, \text{km/s}, \\
+    v_{\text{min}} &= 29.2 \, \text{km/s}.
+\end{align*}
+
+Find the eccentricity of the orbit.
+
+\end{document}
+```
+
+This LaTeX code sets up a simple document with the problem statement formatted using `align*` for the velocities, which allows for easy alignment and readability. The problem is clearly stated, and the task is to find the eccentricity of the orbit."
+5.29,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A binary star is formed when two stars bound by gravity move around a common centre of mass. Each component of a binary star has a period of revolution about their centre of mass, equal to 14.4 days, and the velocity of each component is 220 km/s. Further, the orbit is nearly circular. Calculate (a) the separation of the two components and (b) the mass of each component.
+
+\end{document}
+```
+
+This LaTeX code formats the given text into a properly structured document, suitable for further mathematical and physics calculations."
+5.30,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A satellite is fired from the surface of the moon of mass $M$ and radius $R$ with speed $v_0$ at $30^\circ$ with the vertical. The satellite reaches a maximum distance of $\frac{5R}{2}$ from the centre of the planet. Show that $v_0 = \sqrt{\frac{5GM}{4R}}$.
+
+\end{document}
+```"
+5.31,"To convert the given physics text into properly formatted LaTeX, we need to ensure that mathematical expressions are correctly formatted and that the text is clear. Here is the LaTeX code for the provided text:
+
+```latex
+If a satellite has its largest and smallest speeds given by \( v_{\text{max}} \) and \( v_{\text{min}} \), respectively, and has a time period equal to \( T \), then show that it moves on an elliptic path of semi-major axis \( \frac{T}{2\pi} \sqrt{v_{\text{max}} v_{\text{min}}} \).
+```
+
+This code uses LaTeX's math mode for the mathematical expressions and ensures that variables and symbols are correctly formatted."
+5.32,"To convert the given text into properly formatted LaTeX, we need to structure the problem statement clearly and format the equations using LaTeX syntax. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+As a satellite of radius \( a \) revolves in a circular orbit about a planet of radius \( b \) with period \( T \), if the shortest distance between their surfaces is \( c \), prove that the mass of the planet is given by:
+
+\[
+M = \frac{4\pi^2 (a + b + c)}{G T^2}
+\]
+
+where:
+\begin{itemize}
+    \item \( a \) is the radius of the satellite,
+    \item \( b \) is the radius of the planet,
+    \item \( c \) is the shortest distance between their surfaces,
+    \item \( T \) is the orbital period,
+    \item \( G \) is the gravitational constant.
+\end{itemize}
+
+\end{document}
+```
+
+This LaTeX code will format the problem statement and the equation properly, ensuring that all variables and constants are clearly defined."
+5.33,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+When a comet is at a distance $1.75 \, \text{AU}$ from the sun, it is moving with velocity $u = 30 \, \text{km/s}$ and its velocity vector is at an angle of $30^\circ$ relative to its radius vector $\mathbf{r}$ centered on the sun (see Fig. 5.7). What is the angular momentum per unit mass of the comet about the sun? The closest distance from the sun that the comet reaches is $0.39 \, \text{AU}$. What is the speed of the comet at this point? Is the comet’s orbit bound or unbound? 
+
+\begin{itemize}
+    \item $1 \, \text{AU} = 1.5 \times 10^{11} \, \text{m}$
+    \item Mass of the sun $= 2 \times 10^{30} \, \text{kg}$
+\end{itemize}
+
+[University of Durham 2002]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Fig5_7.png}
+    \caption{Illustration of the comet's orbit around the sun.}
+    \label{fig:comet_orbit}
+\end{figure}
+
+\end{document}
+```
+
+Note: The image file `Fig5_7.png` should be available in the same directory as your LaTeX file for the figure to be included. Adjust the file name and path as necessary."
+5.34,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+\begin{enumerate}
+    \item[(a)] Assuming that the Earth (mass $M_E$) orbits the Sun (mass $M_S$) in a circle of radius $R$ and with a speed $v$, write down the equation of motion for the Earth. Hence, show that $G M_S = v^2 R$.
+
+    \item[(b)] A comet is in orbit around the Sun in the same plane as the Earth's orbit, as shown in Fig. 5.8. Its distance of closest approach to the Sun's center is $R/2$, at which point it has speed $2v$. Using the condition for the Earth's orbit given in (a), show that the comet's total energy is zero. (Neglect the effect of the Earth on the comet.)
+
+    \item[(c)] Use conservation of angular momentum to determine the component of the comet's velocity which is tangential to the Earth's orbit at the point $P$, where the comet's orbit crosses that of the Earth.
+
+    \item[(d)] Use conservation of energy to find its speed at the point $P$. Hence, show that the comet crosses the Earth's orbit at an angle of $45^\circ$.
+
+    \hfill [University of Manchester 2008]
+\end{enumerate}
+
+\section*{Solution}
+
+\begin{enumerate}
+    \item[(a)] The gravitational force acting on the Earth due to the Sun is given by:
+    \[
+    F = \frac{G M_S M_E}{R^2}
+    \]
+    This force provides the necessary centripetal force for the Earth's circular motion:
+    \[
+    \frac{G M_S M_E}{R^2} = \frac{M_E v^2}{R}
+    \]
+    Simplifying, we obtain:
+    \[
+    G M_S = v^2 R
+    \]
+
+    \item[(b)] At the closest approach, the comet's speed is $2v$ and its distance from the Sun is $R/2$. The total energy $E$ of the comet is given by:
+    \[
+    E = \frac{1}{2} m (2v)^2 - \frac{G M_S m}{R/2}
+    \]
+    Using the condition from part (a), show that $E = 0$.
+
+    \item[(c)] By conservation of angular momentum, the angular momentum at the closest approach and at point $P$ are equal:
+    \[
+    m (2v) \frac{R}{2} = m v_t R
+    \]
+    Solve for $v_t$, the tangential component of the comet's velocity at point $P$.
+
+    \item[(d)] Using conservation of energy, find the speed $v_P$ at point $P$:
+    \[
+    \frac{1}{2} m v_P^2 - \frac{G M_S m}{R} = 0
+    \]
+    Solve for $v_P$ and show that the comet crosses the Earth's orbit at an angle of $45^\circ$.
+\end{enumerate}
+
+\end{document}
+```
+
+Note: The figure reference ""Fig. 5.8"" is mentioned in the text, but the figure itself is not provided. Ensure to include the figure in your document if available."
+5.35,"To demonstrate the consistency of the given data with the conservation of angular momentum for the satellite 'Apple', we can express the angular momentum \( L \) at perigee and apogee. According to the conservation of angular momentum, the angular momentum at perigee should equal the angular momentum at apogee. The angular momentum \( L \) is given by:
+
+\[
+L = m \cdot r \cdot v
+\]
+
+where \( m \) is the mass of the satellite, \( r \) is the radial distance from the center of the Earth, and \( v \) is the tangential velocity of the satellite. Since \( m \) is constant, we can equate the angular momentum at perigee and apogee:
+
+\[
+m \cdot r_p \cdot v_p = m \cdot r_A \cdot v_A
+\]
+
+Canceling the mass \( m \) from both sides, we have:
+
+\[
+r_p \cdot v_p = r_A \cdot v_A
+\]
+
+Substituting the given values:
+
+\[
+6570 \, \text{km} \times 10.25 \, \text{km/s} = 42250 \, \text{km} \times 1.594 \, \text{km/s}
+\]
+
+This equation should hold true if the data are consistent with the conservation of angular momentum."
+5.36,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{graphicx}
+
+\geometry{a4paper, margin=1in}
+
+\begin{document}
+
+\section*{Projectile Motion and Elliptical Orbits}
+
+\begin{enumerate}
+    \item[(a)] Assuming that the Earth is a sphere of radius \( R = 6400 \, \text{km} \), with what velocity must a projectile be fired from the Earth's surface in order that its subsequent path be an ellipse with a major axis equal to \( 80,000 \, \text{km} \)?
+
+    \item[(b)] If the projectile is fired upwards at an angle \( 45^\circ \) to the vertical, what would be the eccentricity of this ellipse?
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code sets up a document with the problem statement formatted for clarity. The physics problem is presented in a structured manner using an `enumerate` environment, and mathematical symbols are properly formatted using LaTeX math mode."
+5.37,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A satellite of mass $m$ is orbiting in a circular orbit of radius $r$ and velocity $v$ around the Earth of mass $M$. Due to an internal explosion, the satellite breaks into two fragments each of mass $m/2$. In the frame of reference of the satellite, the two fragments appear to move radially along the line joining the original satellite and the center of the Earth, each with the velocity $v_0/2$. Show that immediately after the explosion each fragment has total energy $-\frac{3GM}{16r}$ and angular momentum $m \frac{\sqrt{GMr}}{2}$, with reference to the center of the Earth.
+
+\end{document}
+```"
+5.38,"To properly format the given physics text into LaTeX, we can structure it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle describes an ellipse of eccentricity \( e \) under a force to a focus. When it approaches the nearer apse (turning point), the center of force is transferred to the other focus. Prove that the eccentricity of the new orbit is 
+
+\[
+\varepsilon = \frac{e(3+e)}{1-e}.
+\]
+
+\end{document}
+```
+
+This LaTeX code includes the necessary structure and formatting to display the problem statement and the expression for the eccentricity of the new orbit correctly."
+5.39,"To convert the given physics text into properly formatted LaTeX, we need to structure the equations and text clearly. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle of mass $m$ describes an elliptical orbit of semi-major axis $a$ under a force $\frac{mk}{r^2}$ directed to a focus. Prove that:
+
+\begin{enumerate}
+    \item The time average of the reciprocal distance:
+    \[
+    \frac{1}{T} \int \frac{dt}{r} = \frac{1}{a}
+    \]
+
+    \item The time average of the square of the speed:
+    \[
+    \frac{1}{T} \int v^2 \, dt = \frac{GM}{a}
+    \]
+\end{enumerate}
+
+\end{document}
+```
+
+This code includes the necessary mathematical expressions and structures the problem statement clearly. The equations are formatted using the `align` environment for better readability and alignment."
+5.40,"To format the given physics text into LaTeX, we will structure it properly, using mathematical symbols and ensuring clarity. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+As a meteor of mass $m$ falls into the Sun when the Earth is at the end of the minor axis of its orbit. If $M$ is the mass of the Sun, find the changes in the major axis and in the time period of the Earth.
+
+\end{document}
+```
+
+This LaTeX code uses the `article` class and the `amsmath` package for enhanced mathematical formatting. The variables $m$ and $M$ are properly formatted in math mode."
+5.41,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle is describing an ellipse of eccentricity $0.5$ under the action of a force to a focus. When it arrives at an apse (turning point), the velocity is doubled. Show that the new orbit will be a parabola or hyperbola accordingly as the apse is the farther or nearer one.
+
+\end{document}
+```"
+5.42,"To convert the given physics text into properly formatted LaTeX, we need to clearly define the problem and use appropriate mathematical notation. Here's how you can format the text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+When a particle is at the end of the minor axis of an ellipse, the force is increased by half. Prove that the axes of the new orbit are $\frac{3a}{2}$ and $\sqrt{2}b$, where $2a$ and $2b$ are the old axes.
+
+\end{document}
+```
+
+This LaTeX code uses the `amsmath` package for enhanced mathematical formatting. The axes are represented using fractions and square roots, and the text is clearly structured for readability."
+5.43,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Satellite in Circular Orbit}
+
+A satellite is placed in a circular orbit of radius $R$ around the Earth. We will explore various aspects of this satellite's motion and characteristics.
+
+\begin{enumerate}
+    \item[(a)] \textbf{Forces Acting on the Satellite:}
+    \begin{itemize}
+        \item The primary force acting on the satellite is the gravitational force exerted by the Earth.
+        \item The equilibrium condition for the satellite in a circular orbit can be expressed as:
+        \begin{equation}
+            F_{\text{gravity}} = \frac{G M_{\text{earth}} m}{R^2} = m \frac{v^2}{R}
+        \end{equation}
+        where $G$ is the gravitational constant, $M_{\text{earth}}$ is the mass of the Earth, $m$ is the mass of the satellite, and $v$ is the orbital velocity of the satellite.
+    \end{itemize}
+
+    \item[(b)] \textbf{Expression for the Time Period of the Satellite:}
+    \begin{itemize}
+        \item The time period $T$ of the satellite can be derived using the relationship between the orbital velocity and the circumference of the orbit:
+        \begin{equation}
+            T = \frac{2\pi R}{v}
+        \end{equation}
+        Substituting the expression for $v$ from the equilibrium condition, we get:
+        \begin{equation}
+            T = 2\pi \sqrt{\frac{R^3}{G M_{\text{earth}}}}
+        \end{equation}
+    \end{itemize}
+
+    \item[(c)] \textbf{Conditions for a Geocentric Satellite:}
+    \begin{itemize}
+        \item A geocentric satellite must have an orbital period equal to the Earth's rotational period (24 hours).
+        \item The orbit must be circular and lie in the plane of the Earth's equator.
+    \end{itemize}
+
+    \item[(d)] \textbf{Period of a Geosynchronous Satellite:}
+    \begin{itemize}
+        \item A geosynchronous satellite has a period $T_{\text{geo}}$ equal to one sidereal day, which is approximately 23.93 hours.
+    \end{itemize}
+
+    \item[(e)] \textbf{Radius of Orbit of a Geocentric Satellite:}
+    \begin{itemize}
+        \item The radius $R_{\text{geo}}$ of the orbit of a geocentric satellite can be calculated using the expression for the time period:
+        \begin{equation}
+            R_{\text{geo}} = \left( \frac{G M_{\text{earth}} T_{\text{geo}}^2}{4\pi^2} \right)^{1/3}
+        \end{equation}
+    \end{itemize}
+\end{enumerate}
+
+\end{document}
+```"
+5.44,"Certainly! Below is the given physics text converted into properly formatted LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+As a satellite moves in an elliptical path with the Earth at one focus, at the perigee (nearest point), its speed is $v$ and its distance from the center of the Earth is $r$. What is its speed at the apogee (farthest point)?
+
+\end{document}
+```
+
+This LaTeX code will format the text correctly when compiled, ensuring that mathematical symbols and terms are displayed appropriately."
+5.45,"To format the given physics text into LaTeX, we will ensure that the equation and variables are properly typeset. Here's how you can write it:
+
+```latex
+As a small body encounters a heavy body of mass \( M \). If at a great distance the velocity of the small body is \( v \) and the impact parameter is \( p \), and \( \phi \) is the angle of encounter, prove that
+
+\[
+\tan\left(\frac{\phi}{2}\right) = \frac{GM}{v^2 p}.
+\]
+```
+
+This LaTeX code includes the necessary mathematical symbols and formatting to clearly present the problem statement and the equation to be proved."
+5.46,"To express the time required to describe an arc of a parabola under the action of a force \( \frac{k}{r^2} \) directed towards the focus, starting from the end of the axis, we can set up the problem using the following LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Time Required to Describe an Arc of a Parabola}
+
+To find the time required to describe an arc of a parabola under the action of a force \( \frac{k}{r^2} \) directed towards the focus, starting from the end of the axis, we consider the following setup:
+
+\begin{itemize}
+    \item Let \( F \) be the focus of the parabola.
+    \item Let \( A \) be the starting point at the end of the axis.
+    \item The force acting on a particle is given by \( F = \frac{k}{r^2} \), where \( r \) is the distance from the focus \( F \).
+\end{itemize}
+
+The equation of motion can be derived from Newton's second law:
+
+\[
+m \frac{d^2 \mathbf{r}}{dt^2} = -\frac{k}{r^2} \hat{\mathbf{r}}
+\]
+
+where \( m \) is the mass of the particle, \( \mathbf{r} \) is the position vector, and \( \hat{\mathbf{r}} \) is the unit vector in the direction of \( \mathbf{r} \).
+
+To find the time \( t \) required to describe the arc, we need to integrate the motion equations. The integration will depend on the specific form of the parabola and initial conditions.
+
+The integral expression for the time \( t \) can be written as:
+
+\[
+t = \int_{A}^{B} \frac{ds}{v}
+\]
+
+where \( ds \) is the differential arc length and \( v \) is the velocity of the particle.
+
+The velocity \( v \) can be expressed in terms of the energy conservation principle:
+
+\[
+\frac{1}{2} m v^2 = \frac{k}{r} + C
+\]
+
+where \( C \) is the integration constant determined by initial conditions.
+
+Further simplification and evaluation of this integral will provide the expression for the time \( t \).
+
+\end{document}
+```
+
+This LaTeX code sets up the problem and outlines the necessary equations and integrals needed to find the time required to describe the arc of the parabola. Adjustments can be made based on specific initial conditions and parameters of the problem."
+5.47,"To properly format the given physics text into LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A comet describes a parabolic path in the plane of the Earth's orbit, assumed to be circular. Show that the maximum time the comet is able to remain inside the Earth's orbit is $\frac{2}{3}\pi$ of a year.
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document structure and includes the necessary mathematical formatting for the fraction \(\frac{2}{3}\pi\)."
+5.48,"To convert the given physics text into properly formatted LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Find the law of force for the orbit given by the equation:
+\[
+r = a \sin n\theta
+\]
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document and uses the `amsmath` package to format the equation for the orbit. The equation is displayed in a centered format, which is typical for presenting equations in physics."
+5.49,"To express the problem of finding the law of force for a particle moving in a cardioid orbit in LaTeX, we need to start by writing the given equation of the orbit and then proceed to find the force law. Here's how you can format the problem statement and the relevant equations in LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+Find the law of force to the pole when the orbit described by the cardioid is given by:
+
+\begin{equation}
+    r = a(1 - \cos\theta)
+\end{equation}
+
+\section*{Solution}
+
+To find the law of force, we start by considering the orbit equation in polar coordinates. The force \( F \) acting on a particle in polar coordinates is related to the potential energy \( V(r) \) by:
+
+\begin{equation}
+    F = -\frac{dV}{dr}
+\end{equation}
+
+For a central force problem, the effective potential \( V_{\text{eff}}(r) \) is given by:
+
+\begin{equation}
+    V_{\text{eff}}(r) = V(r) + \frac{L^2}{2mr^2}
+\end{equation}
+
+where \( L \) is the angular momentum and \( m \) is the mass of the particle. The angular momentum \( L \) is given by:
+
+\begin{equation}
+    L = mr^2\dot{\theta}
+\end{equation}
+
+Substituting the expression for \( r \) from the cardioid equation, we can derive the expression for the force \( F \) as a function of \( r \) and \( \theta \).
+
+\end{document}
+```
+
+This LaTeX code sets up the problem statement and provides the framework for deriving the force law from the given cardioid orbit equation. It includes the necessary equations and placeholders for further derivation, which you can complete based on the specific requirements of the problem."
+5.50,"To convert the given physics text into properly formatted LaTeX, we need to ensure that mathematical expressions are correctly typeset and any variables or equations are clearly presented. Here's how you can format the provided text:
+
+```latex
+In problem (5.49), prove that if \( Q \) is the force at the apse and \( v \) is the velocity, then \( 3v^2 = 4aQ \).
+```
+
+This LaTeX code uses inline math mode with `\( ... \)` to properly format the mathematical expressions and variables."
+5.51,"To format the given physics text into LaTeX, we need to ensure that it is clear and well-structured. Here's how you can present the text in LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle moves in a plane under an attractive force varying as the inverse cube of the distance. Find the equation of the orbit distinguishing three cases which may arise.
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document with the text formatted in a clear and readable manner. If you need to include equations or additional formatting, you can expand upon this basic structure."
+5.52,"To properly format the given physics text into LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Show that the central force necessary to make a particle describe the lemniscate 
+\[
+r^2 = a^2 \cos 2\theta
+\]
+is inversely proportional to \( r^7 \).
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document with the `amsmath` package for enhanced mathematical formatting. The equation for the lemniscate is displayed using the `equation` environment, and the proportionality statement is included in the text."
+5.53,"To properly format the given physics text into LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Show that if a particle describes a circular orbit under the influence of an attractive central force directed towards a point on the circle, then the force varies as the inverse fifth power of distance.
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document structure and includes the text as it was provided. If you need to include mathematical expressions or further details, please provide additional information or context."
+5.54,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+If the sun’s mass suddenly decreased to half its value, show that the earth’s orbit, assumed to be originally circular, would become parabolic.
+
+\section*{5.1}
+
+The gravitational force is given by:
+
+\begin{equation}
+F = \frac{G M_1 M_2}{r^2}
+\end{equation}
+
+If $R$ is the radius of either sphere, the distance between the centers of the spheres in contact is $r = 2R$. Let $M_1 = M_2 = M = \frac{4}{3} \pi R^3 \rho$. Then the force $F$ becomes:
+
+\begin{equation}
+F = \frac{G M^2}{4R^2} = \frac{4 \pi^2 G R^4 \rho^2}{9}
+\end{equation}
+
+Substituting the given values:
+
+\begin{equation}
+F = \frac{4 \pi^2}{9} \times 6.67 \times 10^{-11} \times (0.2)^4 \times (11300)^2 = 5.98 \times 10^{-5} \, \text{N}
+\end{equation}
+
+\section*{5.2}
+
+As the masses of $A$ and $B$ are identical and the distances $PA = PB$, the magnitude of the force $F_{PA} = F_{PB}$. Resolve these forces in the horizontal and vertical directions. The horizontal components, being in opposite directions, cancel each other. The vertical components add up.
+
+\begin{equation}
+F_{PA} = F_{PB} = \frac{G (0.01)(0.26)}{(0.1)^2} = 0.26G
+\end{equation}
+
+\end{document}
+```"

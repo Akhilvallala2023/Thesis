@@ -1,0 +1,822 @@
+Question_number,Questions
+3.1,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem: Loop-the-loop}
+
+A particle starts at height \( h \) on the slide and acquires a velocity \( v \) at the bottom of the loop. If \( v < \sqrt{2gR} \), the particle will not be able to climb up beyond the point \( B \). It will oscillate in the lower semicircle about the point \( D \). If \( \sqrt{2gR} < v < \sqrt{5gR} \), the particle will be able to climb up the arc \( BC \) and leave at some point \( E \) and describe a parabolic path. If \( v > \sqrt{5gR} \), the particle will be able to execute a complete circle. This corresponds to a height \( h = 2.5R \).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{loop-the-loop.png}
+    \caption{Loop-the-loop}
+    \label{fig:loop-the-loop}
+\end{figure}
+
+\subsection*{Helix Path}
+
+Show that a particle with coordinates \( x = a \cos t \), \( y = a \sin t \), and \( z = t \) traces a path in time which is a helix.
+
+\begin{flushright}
+[Adapted from Hyderabad Central University 1988]
+\end{flushright}
+
+\end{document}
+```"
+3.2,"To convert the given physics text into properly formatted LaTeX, we need to structure the problem statement and the expression for power using LaTeX syntax. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle of mass $m$ is moving in a circular path of constant radius $r$ such that its centripetal acceleration $a$ varies with time $t$ as $a = k^2 r t^2$, where $k$ is a constant. Show that the power delivered to the particle by the forces acting on it is 
+
+\[
+P = \frac{m k^4 r^2 t^5}{3}
+\]
+
+\end{document}
+```
+
+This LaTeX code sets up the problem statement clearly, using mathematical notation for variables and equations. The `amsmath` package is included to ensure proper formatting of the equations."
+3.3,"To properly format the given physics text in LaTeX, we need to ensure the equations and variables are clearly presented. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle is moving in a plane with constant radial velocity of magnitude $\dot{r} = 5 \, \text{m/s}$ and a constant angular velocity of magnitude $\dot{\theta} = 4 \, \text{rad/s}$. Determine the magnitude of the velocity when the particle is $3 \, \text{m}$ from the origin.
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document with the `amsmath` package for better handling of mathematical expressions. The text is formatted to clearly present the given conditions and the problem statement."
+3.4,"To format the given physics text into LaTeX, we need to clearly present the problem statement and equations involved. Here is the LaTeX code for the problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A point moves along a circle of radius $40 \, \text{cm}$ with a constant tangential acceleration of $10 \, \text{cm/s}^2$. What time is needed after the motion begins for the normal acceleration of the point to be equal to the tangential acceleration?
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document, uses the `amsmath` package for mathematical formatting, and presents the problem statement in a clear and structured manner."
+3.5,"To format the given physics text into LaTeX, we need to ensure that all mathematical expressions and variables are correctly formatted. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A point moves along a circle of radius $4 \, \text{cm}$. The distance $x$ is related to time $t$ by the equation $x = c t^3$, where $c = 0.3 \, \text{cm/s}^3$. Find the normal and tangential acceleration of the point at the instant when its linear velocity is $v = 0.4 \, \text{m/s}$.
+
+\end{document}
+```
+
+This LaTeX code includes the necessary packages and formatting to display the physics problem correctly. The mathematical expressions are enclosed in dollar signs to ensure they are typeset in math mode."
+3.6,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+(a) Using the unit vectors $\hat{\imath}$ and $\hat{\jmath}$, write down an expression for the position vector in the polar form.
+
+(b) Show that the acceleration is directed towards the centre of the circular motion.
+
+\end{document}
+```
+
+This LaTeX code will format the text with proper mathematical notation for unit vectors and clearly separate the two parts of the problem statement."
+3.7,"To format the given physics text into LaTeX, we need to express the problem statement clearly using LaTeX syntax. Here is the properly formatted LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+Find the angular acceleration of a wheel if the vector of the total acceleration of a point on the rim forms an angle of $30^\circ$ with the direction of linear velocity of the point in $1.0 \, \text{s}$ after uniformly accelerated motion begins.
+
+\end{document}
+```
+
+This LaTeX code sets up a simple document with the problem statement formatted correctly, including the use of mathematical symbols and units."
+3.8,"To convert the given physics text into properly formatted LaTeX, we need to ensure that all symbols, units, and mathematical expressions are correctly represented. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A wheel rotates with a constant angular acceleration $\alpha = 3 \, \text{rad/s}^2$. At time $t = 1.0 \, \text{s}$ after the motion begins, the total acceleration of the wheel becomes $a = 12\sqrt{10} \, \text{cm/s}^2$. Determine the radius of the wheel.
+
+\end{document}
+```
+
+This LaTeX code includes the necessary formatting for mathematical expressions and units, ensuring clarity and correctness in the presentation of the physics problem."
+3.9,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A car travels around a horizontal bend of radius $R$ at constant speed $V$. 
+
+\begin{enumerate}
+    \item[(i)] If the road surface has a coefficient of friction $\mu_s$, what is the maximum speed, $V_{\text{max}}$, at which the car can travel without sliding?
+    
+    \item[(ii)] Given $\mu_s = 0.85$ and $R = 150 \, \text{m}$, what is $V_{\text{max}}$?
+    
+    \item[(iii)] What is the magnitude and direction of the car’s acceleration at this speed?
+    
+    \item[(iv)] If $\mu_s = 0$, at what angle would the bend need to be banked in order for the car to still be able to round it at the same maximum speed found in part (ii)?
+\end{enumerate}
+
+[University of Durham 2000]
+
+\end{document}
+```"
+3.10,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Conical Pendulum}
+\author{}
+\date{}
+\maketitle
+
+\section*{Description}
+
+The conical pendulum consists of a bob of mass \( m \) attached to the end of an inflexible light string tied to a fixed point \( O \) and swung around so that it describes a circle in a horizontal plane. While revolving, the string generates a conical surface around the vertical axis \( ON \), with the height of the cone being \( ON = H \), the projection of \( OP \) on the vertical axis (see Fig. 3.2).
+
+\section*{Objective}
+
+Show that the angular velocity of the bob is given by 
+\[
+\omega = \sqrt{\frac{g}{H}}
+\]
+where \( g \) is the acceleration due to gravity.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{conical_pendulum.png}
+    \caption{Conical Pendulum}
+    \label{fig:conical_pendulum}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code provides a structured document with sections for the description and objective, and includes a placeholder for a figure of the conical pendulum. Adjust the path of the image file as necessary."
+3.11,"To convert the given physics text into properly formatted LaTeX, we need to express the problem statement clearly using LaTeX syntax. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+If the number of steady revolutions per minute of a conical pendulum is increased from 70 to 80, what would be the difference in the level of the bob?
+
+\end{document}
+```
+
+This code sets up a simple LaTeX document with the problem statement clearly formatted. If you need to include equations or further details, you can expand this template accordingly."
+3.12,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A central wheel can rotate about its central axis, which is vertical. From a point on the rim hangs a simple pendulum. When the wheel is caused to rotate uniformly, the angle of inclination of the pendulum to the vertical is $\theta_0$. If the radius of the wheel is $R$ cm and the length of the pendulum is 1 cm, obtain an expression for the number of rotations of the wheel per second. [University of Newcastle]
+
+\end{document}
+```"
+3.13,"To convert the given physics text into properly formatted LaTeX, we can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A coin is placed at a distance $r$ from the center of a gramophone record rotating with angular frequency $\omega = 2\pi f$. Find the maximum frequency $f$ for which the coin will not slip if $\mu$ is the coefficient of friction.
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document with the necessary mathematical expressions formatted correctly, including subscripts, Greek letters, and mathematical symbols."
+3.14,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle of mass $m$ is attached to a spring of initial length $L_0$ and spring constant $k$. It is rotated in a horizontal plane with an angular velocity $\omega$. What is the new length of the spring and the tension in the spring?
+
+\end{document}
+```"
+3.15,"To convert the given text into properly formatted LaTeX, we need to structure the problem statement clearly and use appropriate mathematical symbols and formatting. Here's how you can present it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A hollow cylindrical drum of radius $r$ is placed with its axis vertical. It is rotated about an axis passing through its center and perpendicular to the face, and a coin is placed on the inside surface of the drum. If the coefficient of friction is $\mu$, what is the frequency of rotation so that the coin does not fall down?
+
+\end{document}
+```
+
+This LaTeX document includes the necessary formatting for the physics problem statement, using inline math mode for the variables and symbols."
+3.16,"To properly format the given physics text into LaTeX, we can structure it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+A bead is threaded on a smooth circular wire frame of radius $r$, the radius vector $\vec{r}$ making an angle $\theta$ with the negative $z$-axis (see Fig. 3.3). If the frame is rotated with angular velocity $\omega$ about the $z$-axis, then show that the bead will be in equilibrium if $\omega = \sqrt{\frac{g}{r \cos \theta}}$. 
+
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{figure3_3.png} % Placeholder for Fig. 3.3
+    \captionof{figure}{Illustration of the bead on the circular wire frame.}
+\end{center}
+
+\end{document}
+```
+
+Note: Replace `figure3_3.png` with the actual file name of the figure you have, and ensure the graphic file is in the same directory as your LaTeX document. The `\includegraphics` command is used to insert the figure, and the `\captionof{figure}` command provides a caption for it."
+3.17,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+\begin{document}
+
+As wire \( AB \) passes through a ring \( B \) (see Fig. 3.4), the ring rotates with constant speed in a horizontal circle of radius \( r \). Show that the speed of rotation is \( \sqrt{gr} \) if the wires are to maintain the form.
+
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}
+        % Draw the circle
+        \draw[thick] (0,0) circle (3cm);
+        
+        % Draw the radius
+        \draw[thick, ->] (0,0) -- (3,0) node[midway, below] {\(r\)};
+        
+        % Draw the angles
+        \draw[thick] (0,0) -- (3,0);
+        \draw[thick] (0,0) -- (3*0.5,3*0.866);
+        \draw[thick] (0,0) -- (3*0.866,3*0.5);
+        
+        % Label the points
+        \node at (3.3,0) {\(A\)};
+        \node at (3*0.5+0.3,3*0.866) {\(C\)};
+        \node at (3*0.866+0.3,3*0.5) {\(B\)};
+        
+        % Draw the angles
+        \draw[thick, ->] (1,0) arc (0:30:1);
+        \node at (1.2,0.2) {\(30^\circ\)};
+        
+        \draw[thick, ->] (0.5,0) arc (0:60:0.5);
+        \node at (0.7,0.1) {\(60^\circ\)};
+    \end{tikzpicture}
+    \caption{Diagram illustrating the rotation of the ring with angles \(30^\circ\) and \(60^\circ\).}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes a figure with a circle representing the horizontal rotation, labeled points \(A\), \(B\), and \(C\), and angles \(30^\circ\) and \(60^\circ\). The text explains the scenario and asks to show that the speed of rotation is \(\sqrt{gr}\)."
+3.18,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+A small cube placed on the inside of a funnel rotates about a vertical axis at a constant rate of $f$ revolutions per second. The wall of the funnel makes an angle $\theta$ with the horizontal (see Fig. 3.5). If the coefficient of static friction is $\mu$ and the center of the cube is at a distance $r$ from the axis of rotation, show that the largest frequency for which the block will not move with respect to the funnel is given by:
+
+\[
+f_{\text{max}} = \frac{1}{2\pi} \sqrt{\frac{g(\sin\theta + \mu\cos\theta)}{r(\cos\theta - \mu\sin\theta)}}
+\]
+
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{funnel_diagram.png} % Replace with actual figure file
+    \\
+    \textbf{Fig. 3.5:} Diagram of the funnel and cube setup.
+\end{center}
+
+\end{document}
+```
+
+Note: Replace `funnel_diagram.png` with the actual filename of the figure you intend to include."
+3.19,"To properly format the given physics text into LaTeX, you can use the following code:
+
+```latex
+In problem (3.18), show that the minimum frequency for which the block will not move with respect to the funnel is given by
+
+\[
+f_{\text{min}} = \frac{1}{2\pi} \sqrt{\frac{g(\sin\theta - \mu \cos\theta)}{r(\cos\theta + \mu \sin\theta)}}
+\]
+
+where \( g \) is the acceleration due to gravity, \( \theta \) is the angle, \( \mu \) is the coefficient of friction, and \( r \) is the radius.
+```
+
+This LaTeX code will correctly format the equation and provide a clear presentation of the variables involved."
+3.20,"To convert the given physics text into properly formatted LaTeX, we need to structure the problem description and include the necessary equations and symbols. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Problem}
+
+A large mass $M$ and a small mass $m$ hang at the two ends of a string that passes through a smooth tube as in Fig. 3.6. The mass $m$ moves around in a circular path which lies in a horizontal plane. The length of the string from the mass $m$ to the top of the tube is $L$, and $\theta$ is the angle this length makes with the vertical. What should be the frequency of rotation of the mass $m$ so that the mass $M$ remains stationary? [Indian Institute of Technology 1978]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Fig3_6.png} % Replace with actual figure path
+    \caption{Illustration of the system described in the problem.}
+    \label{fig:3_6}
+\end{figure}
+
+\end{document}
+```
+
+Notes:
+- Replace `Fig3_6.png` with the actual path to the figure file if you have it.
+- The problem description is formatted in a way that highlights the variables and the scenario.
+- The figure environment is used to include a reference to Fig. 3.6, which you should replace with the actual figure if available."
+3.21,"To format the given physics problem in LaTeX, we need to represent the information clearly using mathematical notation and structure. Below is the LaTeX code for the problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+An object is being weighed on a spring balance going around a curve of radius \( R = 100 \, \text{m} \) at a speed of \( v = 7 \, \text{m/s} \). The object has a weight of \( 50 \, \text{kg wt} \). What reading is registered on the spring balance?
+
+\end{document}
+```
+
+This LaTeX code sets up a simple document with the problem statement formatted using inline math mode for the variables and units. The problem is presented clearly, ready for further analysis or solution."
+3.22,"To convert the given physics text into properly formatted LaTeX, we need to focus on the key parameters and equations involved. Here's how you can present the problem in LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+An railway carriage has its center of gravity at a height of $1 \, \text{m}$ above the rails, which are $1.5 \, \text{m}$ apart. Find the maximum safe speed at which it could travel around the unbanked curve of radius $100 \, \text{m}$.
+
+\end{document}
+```
+
+This LaTeX code snippet sets up a simple document with the problem statement formatted correctly, using math mode for the numerical values and units."
+3.23,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+A curved highway has a radius of curvature \( r \). The curved road is banked at an angle \( \theta \) with the horizontal. If the coefficient of static friction is \( \mu \), 
+
+\begin{enumerate}
+    \item[(a)] Obtain an expression for the maximum speed \( v \) with which a car can go over the curve without skidding.
+    \item[(b)] Find \( v \) if \( r = \SI{100}{m} \), \( \theta = 30^\circ \), \( g = \SI{9.8}{m/s^2} \), \( \mu = 0.25 \).
+\end{enumerate}
+
+\end{document}
+```"
+3.24,"To properly format the given physics text into LaTeX, we can structure it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+Determine the linear velocity of rotation of points on the Earth's surface at a latitude of \(60^\circ\).
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document with the problem statement clearly presented. The use of `amsmath` is optional here, but it is often included for more complex mathematical formatting needs."
+3.25,"To format the given physics text into LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{physics}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+With what speed must an aeroplane on the equator fly towards the west so that the passenger in the plane may see the sun motionless?
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document with the problem statement formatted as a section. The `amsmath` and `physics` packages are included for any potential mathematical expressions or physics-related formatting you might need to add later."
+3.26,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle is placed at the highest point of a smooth sphere of radius $R$ and is given an infinitesimal displacement. At what point will it leave the sphere? [University of Cambridge]
+
+\end{document}
+```"
+3.27,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A mass \( m \) attached to a fixed point by a string of length \( 30 \, \text{cm} \) whirls around in a vertical circle under the action of gravity. The speed is such that the tension in the string when the sphere is at the lowest point is three times the tension when the sphere is at the highest point. Find the speed of the sphere at the highest point.
+
+\end{document}
+```"
+3.28,"To convert the given physics text into properly formatted LaTeX, we need to ensure that the symbols, equations, and formatting are correctly represented. Here is the LaTeX code for the description provided:
+
+```latex
+A light rigid rod of length $L$ has a mass $m$ attached to its end, forming a simple pendulum. The pendulum is put in the horizontal position and released from rest. Show that the tension in the suspension will be equal to the magnitude of weight at an angle $\theta = \cos^{-1}\left(\frac{1}{3}\right)$ with the vertical.
+```
+
+This LaTeX code correctly formats the text with mathematical symbols and functions, ensuring clarity and precision in the representation of the physics problem."
+3.29,"To format the given physics problem in LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+In a hollow sphere of diameter \(20 \, \text{m}\) in a circus, a motorcyclist rides with sufficient speed in the vertical plane to prevent him from sliding down. If the coefficient of friction is \(0.8\), find the minimum speed of the motorcyclist.
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document with the necessary mathematical formatting for the problem statement. You can compile this code using a LaTeX editor to produce a properly formatted document."
+3.30,"To properly format the given physics text into LaTeX, we can structure it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The bob of a pendulum of mass $m$ and length $L$ is displaced $90^\circ$ from the vertical and gently released. What should be the minimum strength of the string in order that it may not break upon passing through the lowest point?
+
+\end{document}
+```
+
+This LaTeX code includes the necessary formatting for the physics problem, with the variables \( m \) and \( L \) properly typeset in math mode, and the angle \( 90^\circ \) correctly formatted."
+3.31,"To format the given physics text into LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The bob of a simple pendulum of length $L$ is deflected through a small arc $s$ from the equilibrium position and released. Show that when it passes through the equilibrium position, its velocity will be $v = \sqrt{\frac{g}{L}}$, where $g$ is the acceleration due to gravity.
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document and uses the `amsmath` package for better mathematical formatting. The variables and equations are properly formatted within the text."
+3.32,"To properly format the given physics text into LaTeX, we need to structure the problem statement with appropriate mathematical symbols and formatting. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{siunitx}
+
+\begin{document}
+
+A simple pendulum of length \( l = \SI{1.0}{\meter} \) with a bob of mass \( m \) swings with an angular amplitude of \( \theta_0 = 60^\circ \). What would be the tension in the string when its angular displacement is \( \theta = 45^\circ \)?
+
+\end{document}
+```
+
+This LaTeX code sets up a document that includes the problem statement with proper use of mathematical symbols and units. The `siunitx` package is used for consistent unit formatting."
+3.33,"To convert the given physics text into properly formatted LaTeX, we need to express the problem using mathematical notation and equations. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The bob of a pendulum is displaced through an angle $\theta$ with the vertical line and is gently released so that it begins to swing in a vertical circle. When it passes through the lowest point, the string experiences a tension equal to double the weight of the bob. Determine $\theta$.
+
+\begin{align*}
+    \text{Let } m & \text{ be the mass of the bob,} \\
+    g & \text{ be the acceleration due to gravity, and} \\
+    T & \text{ be the tension in the string at the lowest point.}
+\end{align*}
+
+At the lowest point, the forces acting on the bob are:
+\begin{itemize}
+    \item The tension $T$ in the string, acting upwards.
+    \item The weight of the bob $mg$, acting downwards.
+\end{itemize}
+
+According to the problem, the tension is double the weight of the bob:
+\[
+T = 2mg
+\]
+
+Using the centripetal force equation at the lowest point, we have:
+\[
+T - mg = \frac{mv^2}{r}
+\]
+
+Substituting $T = 2mg$ into the equation:
+\[
+2mg - mg = \frac{mv^2}{r}
+\]
+
+Simplifying, we get:
+\[
+mg = \frac{mv^2}{r}
+\]
+
+The velocity $v$ at the lowest point can be found using energy conservation between the highest point and the lowest point:
+\[
+mgh = \frac{1}{2}mv^2
+\]
+
+Where $h = r(1 - \cos\theta)$ is the vertical height difference. Thus:
+\[
+mgr(1 - \cos\theta) = \frac{1}{2}mv^2
+\]
+
+Substitute $v^2 = 2gr(1 - \cos\theta)$ into the centripetal force equation:
+\[
+mg = \frac{m(2gr(1 - \cos\theta))}{r}
+\]
+
+Simplifying, we have:
+\[
+g = 2g(1 - \cos\theta)
+\]
+
+Solving for $\cos\theta$, we get:
+\[
+1 = 2(1 - \cos\theta)
+\]
+
+\[
+1 = 2 - 2\cos\theta
+\]
+
+\[
+2\cos\theta = 1
+\]
+
+\[
+\cos\theta = \frac{1}{2}
+\]
+
+Therefore, the angle $\theta$ is:
+\[
+\theta = \cos^{-1}\left(\frac{1}{2}\right)
+\]
+
+\end{document}
+```
+
+This LaTeX code provides a structured and formatted representation of the problem, including the necessary equations and logical steps to determine the angle $\theta$."
+3.34,"To properly format the given physics text into LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The bob of a simple pendulum of length \( L = 1.0 \, \text{m} \) has a velocity of \( v = 6 \, \text{m/s} \) when it is at the lowest point. At what height above the centre of the vertical circle will the bob leave the path?
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document with the necessary mathematical formatting for the given physics problem."
+3.35,"To convert the given physics text into properly formatted LaTeX, we need to structure the problem statement clearly. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A block of mass \( m \) is released on an inclined plane. It describes a circle of radius \( r = 12 \, \text{cm} \) in the vertical plane upon reaching the bottom. What is the minimum height \( h \) of the incline?
+
+\end{document}
+```
+
+This LaTeX code sets up a simple document that clearly states the problem using mathematical notation for the radius and the height of the incline. Adjust the document class and packages as needed based on your specific requirements."
+3.36,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle slides down an incline from rest and enters the loop-the-loop. If the particle starts from a point that is level with the highest point on the circular track, then find the point where the particle leaves the circular groove above the lowest point.
+
+\end{document}
+```"
+3.37,"To convert the given physics text into properly formatted LaTeX, we need to structure the problem statement clearly and use appropriate LaTeX commands for mathematical expressions. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+As a mass $m$ slides along the frictionless loop-the-loop track as shown in Fig. 3.7, if it starts at point $A$ at the height $h = 5R$ from the bottom of the track, then show that the resultant force acting on the track at point $B$ at height $R$ will be $\sqrt{65} \, mg$.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{loop-the-loop.png} % Replace with actual image path
+    \caption{Loop-the-loop track.}
+    \label{fig:loop-the-loop}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes:
+- Proper mathematical notation for variables and expressions.
+- A figure environment to include the referenced figure (note that you need to replace `loop-the-loop.png` with the actual path to your image file).
+- A structured sentence to clearly state the physics problem."
+3.38,"To convert the given physics text into properly formatted LaTeX, we can write:
+
+```latex
+In problem (3.37), the block is released from a height \( h \) above the bottom of the loop such that the force it exerts against the track at the top of the loop is equal to its weight. Show that \( h = 3R \).
+```
+
+Here's the LaTeX code for the text:
+
+```latex
+In problem (3.37), the block is released from a height \( h \) above the bottom of the loop such that the force it exerts against the track at the top of the loop is equal to its weight. Show that \( h = 3R \).
+```
+
+This code uses inline math mode with `\( ... \)` to format the variables and equation properly."
+3.39,"To convert the given physics text into properly formatted LaTeX, we need to ensure that all mathematical expressions and symbols are correctly formatted. Here is the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+A particle of mass $m$ is moving in a vertical circle of radius $R$. When $m$ is at the lowest position, its speed is $0.8944\sqrt{5gR}$. The particle will move up the track to some point $p$ at which it will lose contact with the track and travel along a path shown by the dotted line (see Fig. 3.8). Show that the angular position $\theta$ will be $30^\circ$. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure3_8.png} % Replace with actual image file
+    \caption{Illustration of the particle's path in a vertical circle.}
+    \label{fig:3_8}
+\end{figure}
+
+\end{document}
+```
+
+In this LaTeX code:
+- The mass of the particle is denoted by $m$.
+- The radius of the circle is denoted by $R$.
+- The speed of the particle at the lowest position is given as $0.8944\sqrt{5gR}$.
+- The angular position $\theta$ is to be shown as $30^\circ$.
+- A placeholder for the figure (Fig. 3.8) is included, which you should replace with the actual image file of the figure."
+3.40,"To properly format the given physics text into LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A block is allowed to slide down a frictionless track freely under gravity. The track ends in a circular loop of radius \( R \). Show that the minimum height from which the block must start is \( 2.5R \) so that it completes the circular track.
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem statement correctly, using mathematical notation for the radius \( R \) and the minimum height \( 2.5R \)."
+3.41,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+
+\geometry{a4paper, margin=1in}
+
+\begin{document}
+
+An \textit{a i li sl o c a t e d} at a certain distance vertically below the point of suspension of a simple pendulum. The pendulum bob is released from a position where the string makes an angle $60^\circ$ with the vertical. Calculate the distance of the nail from the point of suspension such that the bob will just perform revolutions with the nail as center. Assume the length of the pendulum to be $1 \, \text{m}$. [Indian Institute of Technology 1975]
+
+\end{document}
+```
+
+Note: The phrase ""An a i li sl o c a t e d"" seems to be garbled text and may need clarification or correction. The rest of the text has been formatted appropriately in LaTeX."
+3.42,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A test tube of mass \(10 \, \text{g}\) closed with a cork of mass \(1 \, \text{g}\) contains some ether. When the test tube is heated, the cork flies out under the pressure of the ether gas. The test tube is suspended by a weightless rigid bar of length \(5 \, \text{cm}\). What is the minimum velocity with which the cork would fly out of the test tube so that the test tube describes a full vertical circle about the point of suspension? Neglect the mass of ether. 
+
+\begin{flushright}
+[Indian Institute of Technology 1969]
+\end{flushright}
+
+\end{document}
+```"
+3.43,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A car travels at a constant speed of \(14.0 \, \text{m/s}\) around a level circular bend of radius \(45 \, \text{m}\). What is the minimum coefficient of static friction between the tyres and the road in order for the car to go round the bend without skidding? [University of Manchester 2008]
+
+\section*{3.1}
+
+\begin{align}
+    x &= a \cos t \quad \text{(1)} \\
+    y &= a \sin t \quad \text{(2)} \\
+    z &= t \quad \text{(3)}
+\end{align}
+
+Squaring (1) and (2) and adding:
+
+\[
+x^2 + y^2 = a^2 (\cos^2 t + \sin^2 t) = a^2
+\]
+
+which is the equation of a circle. Since \(z = t\), the circular path drifts along the \(z\)-axis so that the path is a helix.
+
+\section*{3.2}
+
+\begin{align}
+    a &= \frac{dv}{dt} = k^2 r t^2 \\
+    v &= \int dv = k^2 r \int t^2 \, dt = k^2 r \frac{t^3}{3}
+\end{align}
+
+Power, \(P\):
+
+\[
+P = Fv = mav = m k^2 r t^2 \cdot k^2 r \frac{t^3}{3} = m k^4 r^2 \frac{t^5}{3}
+\]
+
+\end{document}
+```"

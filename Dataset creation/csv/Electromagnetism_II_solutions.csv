@@ -1,0 +1,3573 @@
+Question_number,Question
+14.1,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a)}
+
+The reactance of the capacitor \( X_c \) is given by:
+\[
+X_c = \frac{1}{2\pi f c} = \frac{1}{2\pi \times \left(\frac{1000}{2\pi}\right) \times 2.5 \times 10^{-6}} = 400 \, \Omega
+\]
+
+The impedance of the circuit \( Z \) is:
+\[
+Z = \sqrt{R^2 + X_c^2} = \sqrt{(300)^2 + (400)^2} = 500 \, \Omega
+\]
+
+The rms current \( I_e \) is:
+\[
+I_e = \frac{V_e}{Z} = \frac{50}{500} = 0.1 \, \text{A}
+\]
+
+The potential difference across the capacitor \( V_c \) is:
+\[
+V_c = I_e X_c = 0.1 \times 400 = 40 \, \text{V}
+\]
+
+\subsection*{(b)}
+
+The power \( P \) is given by:
+\[
+P = V_e I_e \cos \alpha = V_e I_e \frac{R}{Z} = 50 \times 0.1 \times \frac{300}{500} = 3.0 \, \text{W}
+\]
+
+\end{document}
+```"
+14.2,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Problem Solution}
+
+\subsection*{(a)}
+
+Calculate the inductive reactance $X_L$:
+
+\[
+X_L = 2\pi f L = 2\pi \times 200 \times \pi \times 10 \times 10^{-3} = 4 \, \Omega
+\]
+
+Calculate the impedance $Z$:
+
+\[
+Z = \sqrt{R^2 + X_L^2} = \sqrt{3^2 + 4^2} = 5 \, \Omega
+\]
+
+Calculate the effective current $I_e$:
+
+\[
+I_e = \frac{V_e}{Z} = \frac{5}{5} = 1.0 \, \text{A}
+\]
+
+Calculate the voltage across the resistor $V_R$:
+
+\[
+V_R = I_e R = 1.0 \times 3 = 3.0 \, \text{V}
+\]
+
+Calculate the voltage across the inductor $V_L$:
+
+\[
+V_L = I_e X_L = 1.0 \times 4 = 4.0 \, \text{V}
+\]
+
+\subsection*{(b)}
+
+The phase angle $\alpha$ between $V_e$ and $I_e$ is given by:
+
+\[
+\tan \alpha = \frac{X_L}{R} = \frac{4}{3} \implies \alpha = 53^\circ
+\]
+
+Thus, $V_e$ leads $I_e$ by $53^\circ$.
+
+\end{document}
+```"
+14.3,"To properly format the given physics expression in LaTeX, we need to ensure clarity and correct mathematical representation. Here's the formatted LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The expression for the energy stored in an inductor is given by:
+\[
+U = \frac{1}{2} L I^2
+\]
+
+Given:
+\[
+L = 2 \, \text{H}, \quad I = 2 \times 10^5 \, \text{A}
+\]
+
+Substituting the values into the formula:
+\[
+U = \frac{1}{2} \times 2 \times (2 \times 10^5)^2
+\]
+
+Calculating the inductance:
+\[
+L = 0.8 \, \text{H}
+\]
+
+\end{document}
+```
+
+This LaTeX code includes the necessary mathematical expressions and formatting for clarity. Adjust the values and units as needed for your specific problem."
+14.4,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{enumerate}
+    \item[(a)] Calculate the frequency \( f \):
+    \[
+    f = \frac{1}{2\pi \sqrt{LC}} = \frac{1}{2\pi \sqrt{4 \times 10^{-6} \times 5 \times 10^{-11}}} = 1.125 \times 10^{7} \, \text{Hz}
+    \]
+
+    \item[(b)] Calculate the wavelength \( \lambda \):
+    \[
+    \lambda = \frac{c}{f} = \frac{3 \times 10^{8}}{1.125 \times 10^{7}} = 26.67 \, \text{m}
+    \]
+\end{enumerate}
+
+\end{document}
+```"
+14.5,"Certainly! Below is the properly formatted LaTeX code for the given physics equations:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{enumerate}
+    \item[(a)] 
+    \begin{align*}
+        Z &= \sqrt{(X_L - X_C)^2 + R^2} \\
+          &= \sqrt{(12 - 20)^2 + 6^2} \\
+          &= 10 \, \Omega
+    \end{align*}
+
+    \item[(b)] 
+    \begin{align*}
+        P &= I_e V_e \frac{R}{Z} \\
+          &= \frac{V_e^2 R}{Z^2} \\
+          &= \frac{(250)^2 \times 6}{10^2} \\
+          &= 3750 \, \text{W}
+    \end{align*}
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code will correctly format the equations and calculations for impedance \( Z \) and power \( P \) as described in the problem."
+14.6,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+At \(\omega_0 = 600 \, \text{rad/s}\), we have \(X_L = X_C\). Therefore,
+
+\[
+\omega_0 L = \frac{1}{\omega_0 C} \implies \frac{1}{LC} = \omega_0^2
+\]
+
+At \(\omega = 60 \, \text{rad/s}\),
+
+\[
+X_C = \frac{1}{\omega C}, \quad X_L = \omega L
+\]
+
+Thus,
+
+\[
+\frac{1}{\omega^2 LC} = \omega_0^2
+\]
+
+Solving for \(\omega^2\), we get:
+
+\[
+\omega^2 = \frac{(600)^2}{60^2} = 100
+\]
+
+\end{document}
+```
+
+This LaTeX code will format the physics equations and expressions correctly, ensuring clarity and proper mathematical representation."
+14.7,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\section*{Physics Problem Solutions}
+
+\begin{enumerate}
+    \item[(a)] 
+    \begin{align*}
+        X_C &= \frac{1}{\omega C} = \frac{1}{2\pi f C} \\
+        C &= \frac{1}{2\pi f X_C} \\
+        &= \frac{1}{2\pi \times 250 \times 4} \\
+        &= 1.57 \times 10^{-4} \, \text{F}
+    \end{align*}
+
+    \item[(b)] 
+    \begin{align*}
+        X'_C &= \frac{1}{2\pi f' C} \\
+        &= \frac{1}{2\pi \times 100 \times 1.57 \times 10^{-4}} \\
+        &= 10 \, \Omega
+    \end{align*}
+
+    \item[(c)] 
+    \begin{align*}
+        I_e &= \frac{V_e}{X'_C} \\
+        &= \frac{220}{10} \\
+        &= 22 \, \text{A}
+    \end{align*}
+\end{enumerate}
+
+\end{document}
+```"
+14.8,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{siunitx}
+
+\begin{document}
+
+Given the expression for the effective voltage \( V_e \) in terms of angular frequency \(\omega\), inductance \(L\), and resistance \(R\), we have:
+
+\[
+V_e = I_e = \sqrt{\omega^2 L^2 + R^2} = \sqrt{4\pi^2 f^2 L^2 + R^2}
+\]
+
+Substituting the given values:
+
+\[
+12 = 0.05 \times \sqrt{4\pi^2 \times (50)^2 L^2 + R^2} \tag{1}
+\]
+
+Also, the tangent of the phase angle \(\alpha\) is given by:
+
+\[
+\tan \alpha = \frac{\omega L}{R} = \frac{2\pi f L}{R}
+\]
+
+Given \(\tan 60^\circ = \sqrt{3}\), we have:
+
+\[
+\sqrt{3} = \frac{2\pi \times 50 \times L}{R} \tag{2}
+\]
+
+Solving equations (1) and (2), we find:
+
+\[
+R = 120 \, \Omega \quad \text{and} \quad L = 0.66 \, \text{H}
+\]
+
+When a capacitor of capacitance \(C\) is connected in series with the above circuit and \(\alpha = 0\), we have:
+
+\[
+\tan \alpha = \tan 0^\circ = \frac{1}{R} \left( \omega L - \frac{1}{\omega C} \right)
+\]
+
+Solving for \(C\):
+
+\[
+C = \frac{1}{\omega^2 L} = \frac{1}{(2\pi \times 50)^2 \times 0.66} = 15.37 \times 10^{-6} \, \text{F} = 15.37 \, \mu\text{F}
+\]
+
+\end{document}
+```
+
+This LaTeX code correctly formats the given physics problem and solution, using appropriate mathematical symbols and structures."
+14.9,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem Solution}
+
+\begin{enumerate}
+    \item[(a)] The root mean square (rms) current, \( I_e \), is given by:
+    \[
+    I_e = \frac{V_e}{\omega L} = \frac{V_e}{2\pi f L} = \frac{220}{2\pi \times 50 \times 0.6} = 1.17 \, \text{A}
+    \]
+
+    \item[(b)] The peak current, \( I_0 \), is calculated as:
+    \[
+    I_0 = \sqrt{2} I_e = 1.414 \times 1.17 = 1.65 \, \text{A}
+    \]
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and solution with proper mathematical notation and alignment."
+14.10,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{enumerate}
+    \item[(a)] Calculate the current \( I_e \):
+    \[
+    I_e = \frac{V_e}{\sqrt{4\pi^2 f^2 L^2 + R^2}} = \frac{24}{\sqrt{4\pi^2 \times (50)^2 \times (0.01)^2 + 4^2}} = 4.72 \, \text{A}
+    \]
+
+    \item[(b)] Calculate the power \( P \):
+    \[
+    P = I_e^2 R = (4.72)^2 \times 4 = 89 \, \text{W}
+    \]
+
+    \item[(c)] Calculate the voltage across the resistor \( V_R \) and the inductor \( V_L \):
+    \[
+    V_R = I_e R = 4.72 \times 4 = 18.88 \, \text{V}
+    \]
+    \[
+    V_L = 2\pi f L I_e = 2\pi \times 50 \times 0.01 \times 4.72 = 13.82 \, \text{V}
+    \]
+\end{enumerate}
+
+\end{document}
+```"
+14.11,"Certainly! Below is the properly formatted LaTeX code for the given physics problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The voltage is given by:
+\[
+V = V_m \sin(\omega t)
+\]
+
+Given that:
+\[
+0.5 V_m = V_m \sin\left(2\pi f \frac{1}{360}\right)
+\]
+
+We can deduce:
+\[
+\sin\left(2\pi f \frac{1}{360}\right) = \frac{1}{2}
+\]
+
+This implies:
+\[
+2\pi f \frac{1}{360} = \frac{\pi}{6}
+\]
+
+Solving for \( f \), we have:
+\[
+2\pi f = \frac{\pi}{6} \times 360
+\]
+
+\[
+f = \frac{360}{12} = 30 \, \text{Hz}
+\]
+
+\end{document}
+```
+
+This LaTeX code will render the physics problem and solution with proper mathematical formatting."
+14.12,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+For the parallel RLC circuit, as shown in Fig. 14.1, we start with the following relationships:
+
+\begin{align*}
+    Q &= CV, \\
+    I_2 &= -\frac{dQ}{dt} = -C\frac{dV}{dt}, \\
+    V &= R_p(I_2 + I_1) = -L\frac{dI_1}{dt}.
+\end{align*}
+
+Taking the derivative of the voltage equation, we have:
+
+\begin{equation*}
+    \frac{dV}{dt} = R_p \left( \frac{dI_2}{dt} + \frac{dI_1}{dt} \right) = -CR_p \frac{d^2V}{dt^2} - \frac{R_p}{L} V.
+\end{equation*}
+
+Thus, the differential equation for the parallel arrangement is:
+
+\begin{equation}
+    \frac{d^2V}{dt^2} + \frac{1}{R_p C} \frac{dV}{dt} + \frac{V}{LC} = 0 \quad (\text{parallel arrangement}).
+\end{equation}
+
+Compare the above equation with the given equation:
+
+\begin{equation}
+    \frac{d^2V}{dt^2} + \frac{R}{L} \frac{dV}{dt} + \frac{V}{LC} = 0.
+\end{equation}
+
+From this comparison, we find:
+
+\begin{equation}
+    R_p = \frac{L}{CR}.
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will properly format the equations and their derivations for the parallel RLC circuit in a document."
+14.13,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+We can find the dimensions of $\mu_0$ and $\varepsilon_0$ from the following set of formulae:
+
+\begin{enumerate}
+    \item Force on the current-carrying wire:
+    \begin{equation}
+        F = i l B
+    \end{equation}
+    
+    \item Magnetic field due to a current-carrying wire:
+    \begin{equation}
+        B = \frac{\mu_0 i}{2 \pi r}
+    \end{equation}
+    
+    \item Electrostatic force between charges:
+    \begin{equation}
+        F = \frac{Q^2}{4 \pi \varepsilon_0 r^2}
+    \end{equation}
+    
+    \item Current defined as charge per unit time:
+    \begin{equation}
+        i = \frac{Q}{t}
+    \end{equation}
+\end{enumerate}
+
+Combining equations (1)–(4), we find:
+
+\[
+[\mu_0 \varepsilon_0] = \left[\frac{T^2}{L^2}\right]
+\]
+
+or
+
+\[
+\left[\frac{1}{\sqrt{\mu_0 \varepsilon_0}}\right] = [L T^{-1}] = [v] = [c]
+\]
+
+\end{document}
+```"
+14.14,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+We first derive the dimensional formulae for \( R \), \( C \), and \( L \) from the defining equations.
+
+The power equation is given by:
+\[
+\text{Power} = i^2 R
+\]
+The dimensional formula for power is:
+\[
+[\text{Power}] = [ML^2T^{-3}]
+\]
+Since \([\text{Power}] = [A^2R] = [A^2][R]\), we have:
+\[
+[R] = [ML^2T^{-3}A^{-2}]
+\]
+\begin{equation}
+[R] = [ML^2T^{-3}A^{-2}]
+\end{equation}
+
+The energy of a capacitor is given by:
+\[
+E = \frac{1}{2} \frac{Q^2}{C}
+\]
+and since \( Q = it \), we find:
+\[
+[C] = [M^{-1}L^{-2}T^4A^2]
+\]
+\begin{equation}
+[C] = [M^{-1}L^{-2}T^4A^2]
+\end{equation}
+
+The energy of an inductance is given by:
+\[
+E = \frac{1}{2} Li^2
+\]
+Thus, the dimensional formula for \( L \) is:
+\[
+[L] = [ML^2T^{-2}A^{-2}]
+\]
+\begin{equation}
+[L] = [ML^2T^{-2}A^{-2}]
+\end{equation}
+
+Using equations (1), (2), and (3), it is observed that the given combinations have the dimension of time and therefore are expressed in seconds:
+\[
+[RC] = \left[\frac{L}{R}\right] = [\sqrt{LC}] = [T]
+\]
+
+\end{document}
+```"
+14.15,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The angular frequency is given by:
+\begin{equation}
+    \omega = \frac{1}{\sqrt{LC}}
+\end{equation}
+
+The damped angular frequency is:
+\begin{equation}
+    \omega' = \sqrt{\frac{1}{LC} - \left(\frac{R}{2L}\right)^2}
+\end{equation}
+
+The relative difference between the angular frequencies is:
+\begin{align}
+    \frac{\omega - \omega'}{\omega} &= 1 - \frac{\omega'}{\omega} \\
+    &= 1 - \sqrt{1 - \frac{R^2C}{4L}} \\
+    &\approx 1 - \left(1 - \frac{R^2C}{8L}\right) = \frac{R^2C}{8L}
+\end{align}
+
+where we have used equations (1) and (2) and expanded the radical binomially.
+
+The charge \( q \) is given by:
+\begin{equation}
+    q = q_m e^{-Rt/2L}
+\end{equation}
+
+When \( q/q_m = \frac{1}{2} \), we have:
+\begin{equation}
+    t = \frac{2L}{R} \ln \left(\frac{q_m}{q}\right) = \frac{2L}{R} \ln 2
+\end{equation}
+
+If \( n \) is the number of cycles and \( \nu \) the oscillating frequency, then:
+\begin{equation}
+    t = \frac{n}{\nu} = 2\pi n \sqrt{LC} = \frac{2L}{R} \ln 2
+\end{equation}
+
+or
+\begin{equation}
+    \frac{CR^2}{L} = \frac{(\ln 2)^2}{(\pi n)^2}
+\end{equation}
+
+Combining equations (3) and (5), we have:
+\begin{equation}
+    \frac{\omega - \omega'}{\omega} = \rho \Delta \sigma \omega = \frac{(\ln 2)^2}{8\pi^2 n^2} = 0.006085
+\end{equation}
+
+where we have put \( n = 4 \), resulting in:
+\begin{equation}
+    \frac{\omega - \omega'}{\omega} = 0.00038
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code formats the given physics text into a structured document with equations numbered and aligned properly."
+14.16,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The charge oscillation of a damped oscillator is given by:
+\[
+q = q_m e^{-\frac{Rt}{2L}} \cos(\omega' t)
+\]
+
+Differentiating with respect to time, we find the current \(i\):
+\[
+i = \frac{dq}{dt} = -q_m \omega' e^{-\frac{Rt}{2L}} \left( \frac{R}{2L \omega'} \cos(\omega' t) + \sin(\omega' t) \right)
+\]
+
+This can be rewritten using the substitution \(\frac{R}{2L \omega'} = \tan \phi\):
+\[
+i = -q_m \omega' e^{-\frac{Rt}{2L}} (\tan \phi \cos(\omega' t) + \sin(\omega' t))
+\]
+
+Simplifying further, we have:
+\[
+i = -q_m \omega' e^{-\frac{Rt}{2L}} \cos \phi (\sin \phi \cos(\omega' t) + \cos \phi \sin(\omega' t))
+\]
+
+Using the trigonometric identity, this becomes:
+\[
+i = -q_m \omega' e^{-\frac{Rt}{2L}} \sin(\omega' t + \phi) \cos \phi
+\]
+
+For low damping, as \(\phi \to 0\) when \(\frac{R}{2L \omega'} \to 0\), it follows that \(\cos \phi \to 1\). Thus, the expression for the current simplifies to:
+\[
+i = -q_m \omega' e^{-\frac{Rt}{2L}} \sin(\omega' t + \phi)
+\]
+
+\end{document}
+```"
+14.17,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The equation of the circuit is given by:
+\begin{equation}
+    L \frac{d^2q}{dt^2} + \frac{1}{C} q = \xi
+\end{equation}
+
+Multiply equation (1) by \( i = \frac{dq}{dt} \):
+\begin{equation}
+    L i \frac{di}{dt} + \frac{1}{C} q \frac{dq}{dt} = \xi t
+\end{equation}
+
+This can be rewritten as:
+\begin{equation}
+    \frac{d}{dt} \left( \frac{1}{2} L i^2 \right) + \frac{d}{dt} \left( \frac{q^2}{2C} \right) = P_{\text{input}}
+\end{equation}
+
+Thus, the input power is the sum of the powers delivered to the inductor and the capacitor.
+
+\end{document}
+```
+
+This LaTeX code will correctly format the equations and text, ensuring that the mathematical expressions are displayed properly."
+14.18,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The circuit equation is given by:
+\begin{equation}
+    L \frac{d^2q}{dt^2} + R \frac{dq}{dt} + \frac{1}{C} q = 0 \tag{1}
+\end{equation}
+
+Multiply equation (1) by \( i = \frac{dq}{dt} \):
+\begin{equation}
+    L i \frac{di}{dt} + R i^2 + \frac{1}{C} q \frac{dq}{dt} = 0
+\end{equation}
+
+This can be rewritten as:
+\begin{equation}
+    \frac{d}{dt} \left( \frac{1}{2} L i^2 + \frac{q^2}{2C} \right) = - R i^2
+\end{equation}
+
+or
+\begin{equation}
+    \frac{dE}{dt} = -i^2 R \tag{2}
+\end{equation}
+
+where \( E = \frac{1}{2} L i^2 + \frac{q^2}{2C} \) is the total energy.
+
+\end{document}
+```"
+14.19,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+If \( U \) is the total field energy, then
+
+\begin{equation}
+    U = U_B + U_E = \frac{1}{2} L i^2 + \frac{1}{2} \frac{Q^2}{C}
+\end{equation}
+
+which shows that at any time the energy is stored partly in the magnetic field in the conductor and partly in the electric field in the capacitor. In the presence of the resistance \( R \), the energy is transferred to Joule heat, being given by
+
+\begin{equation}
+    \frac{dU}{dt} = -i^2 R
+\end{equation}
+
+the minus sign signifying that the stored energy \( U \) decreases with time. Differentiating (1) with respect to time and equating the result with (2) gives
+
+\begin{equation}
+    L i \frac{di}{dt} + \frac{Q}{C} \frac{dQ}{dt} = -i^2 R
+\end{equation}
+
+Substituting \( i = \frac{dQ}{dt} \) and \( \frac{di}{dt} = \frac{d^2Q}{dt^2} \), (3) becomes
+
+\begin{equation}
+    \frac{d^2Q}{dt^2} + \frac{R}{L} \frac{dQ}{dt} + \frac{Q}{LC} = 0
+\end{equation}
+
+Writing \( \frac{R}{L} = 2\gamma \) and \( \frac{1}{LC} = \omega_0^2 \), (4) takes the required form
+
+\begin{equation}
+    \frac{d^2Q}{dt^2} + 2\gamma \frac{dQ}{dt} + \omega_0^2 Q = 0
+\end{equation}
+
+\noindent
+(a) \( f_0 = \frac{1}{2\pi} \sqrt{\frac{1}{LC}} = \frac{1}{2\pi} \sqrt{\frac{1}{80 \times 10^{-3} \times 700 \times 10^{-12}}} = 2.128 \times 10^4 \, \text{Hz} \)
+
+\noindent
+(b) \( \tau = \frac{L}{R} = \frac{80 \times 10^{-3}}{100} = 8 \times 10^{-4} \, \text{s} \)
+
+\end{document}
+```"
+14.20,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The differential equation for a damped harmonic oscillator is given by:
+
+\begin{equation}
+    \frac{d^2Q}{dt^2} + 2\gamma \frac{dQ}{dt} + \omega_0^2 Q = 0
+\end{equation}
+
+Assume a solution of the form \( Q = e^{\lambda t} \), which implies:
+
+\[
+\frac{dQ}{dt} = \lambda e^{\lambda t}, \quad \frac{d^2Q}{dt^2} = \lambda^2 e^{\lambda t}
+\]
+
+Substituting these into the differential equation gives the characteristic equation:
+
+\begin{equation}
+    \lambda^2 + 2\gamma \lambda + \omega_0^2 = 0
+\end{equation}
+
+The roots of this equation are:
+
+\begin{equation}
+    \lambda = -\gamma \pm \sqrt{\gamma^2 - \omega_0^2}
+\end{equation}
+
+Let \(\alpha = \sqrt{\gamma^2 - \omega_0^2}\), then:
+
+\[
+\lambda_1 = -\gamma + \alpha, \quad \lambda_2 = -\gamma - \alpha
+\]
+
+The general solution is:
+
+\begin{equation}
+    Q = C_1 e^{(-\gamma + \alpha)t} + C_2 e^{(-\gamma - \alpha)t}
+\end{equation}
+
+The constants \(C_1\) and \(C_2\) are determined from the initial conditions. Suppose at \(t = 0\), \(Q = Q_0\) and \(\frac{dQ}{dt} = 0\):
+
+\begin{equation}
+    Q_0 = C_1 + C_2
+\end{equation}
+
+\begin{equation}
+    \frac{dQ}{dt} = C_1(-\gamma + \alpha) e^{(-\gamma + \alpha)t} + C_2(-\gamma - \alpha) e^{(-\gamma - \alpha)t} = 0
+\end{equation}
+
+Solving equations (4) and (5), we find:
+
+\[
+C_1 = \frac{Q_0(\gamma + \alpha)}{2\alpha}, \quad C_2 = \frac{Q_0(\alpha - \gamma)}{2\alpha}
+\]
+
+Substituting \(C_1\) and \(C_2\) into equation (3):
+
+\begin{equation}
+    Q = \frac{1}{2} Q_0 e^{-\gamma t} \left[ (1 + \frac{\gamma}{\alpha}) e^{\alpha t} + (1 - \frac{\gamma}{\alpha}) e^{-\alpha t} \right]
+\end{equation}
+
+For the underdamping condition, resistance \(R\) is small so that \(\gamma < \omega_0\) and \(\alpha\) is imaginary. Let \(\alpha = j\omega'\), where \(j\) is imaginary. The roots of the characteristic equation are complex conjugates:
+
+\begin{equation}
+    \omega'^2 = \omega_0^2 - \gamma^2
+\end{equation}
+
+Equation (6) reduces to:
+
+\begin{equation}
+    Q = Q_0 e^{-\gamma t} \left[ \cos(\omega' t) + \frac{\gamma}{\omega'} \sin(\omega' t) \right]
+\end{equation}
+
+Let \(\sin \epsilon = -\frac{\gamma}{\omega_0}\) and \(\cos \epsilon = \frac{\omega'}{\omega_0}\), then equation (8) becomes:
+
+\begin{equation}
+    Q = \left( \frac{\omega_0 Q_0}{\omega'} \right) e^{-\gamma t} \cos(\omega' t + \epsilon)
+\end{equation}
+
+or
+
+\begin{equation}
+    Q = A e^{-\gamma t} \cos(\omega' t + \epsilon)
+\end{equation}
+
+where the amplitude \(A = \frac{\omega_0 Q_0}{\omega'}\) and the phase \(\epsilon = \tan^{-1} \left( -\frac{\gamma}{\omega'} \right)\). The constants \(A\) and \(\epsilon\), which are real, are determined by initial"
+14.21,Error: Unable to process request after multiple attempts.
+14.22,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Solution}
+
+The capacitive reactance \( X_C \) is given by:
+\[
+X_C = \frac{1}{2\pi f C} = \frac{1}{(2\pi)(300)(50 \times 10^{-6})} = 10.6 \, \Omega
+\]
+
+The impedance \( Z \) is calculated as:
+\[
+Z = \sqrt{R^2 + X_C^2} = \sqrt{(300)^2 + (10.6)^2} = 300.19 \, \Omega
+\]
+
+The current \( I \) is given by:
+\[
+I = \frac{V}{Z} = \frac{5}{300.19} = 0.0166 \, \text{A}
+\]
+
+\end{document}
+```
+
+This LaTeX code will render the equations with proper formatting and alignment. Make sure to compile it with a LaTeX editor to see the formatted output."
+14.23,Error: Unable to process request after multiple attempts.
+14.24,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Physics Problems and Solutions}
+
+\begin{enumerate}
+    \item[(a)] Electric current is the time rate of flow of charge; in symbols:
+    \[
+    I = \frac{dQ}{dt}
+    \]
+
+    \item[(b)] The charge \( Q \) is an integral multiple of the unit of electron's charge \( e \), that is,
+    \[
+    Q = ne
+    \]
+    where \( n \) is a number. The charge \( Q \) is said to be quantized.
+
+    \item[(c)] 
+    \begin{enumerate}
+        \item[(i)] Current density \( j \) is given by:
+        \[
+        j = \frac{I}{A} = \frac{2.4 \times 10^{-4}}{5.6 \times 10^{-3} \times 50 \times 10^{-6}} = 857 \, \si{\ampere\per\meter\squared}
+        \]
+
+        \item[(ii)] Drift speed \( V_d \) is calculated as:
+        \[
+        V_d = \frac{j}{ne} = \frac{857}{8.5 \times 10^{28} \times 1.6 \times 10^{-19}} = 6.3 \times 10^{-8} \, \si{\meter\per\second}
+        \]
+
+        \item[(iii)] Collisions with atoms and ions of the conductor make it possible for large currents to pass.
+    \end{enumerate}
+\end{enumerate}
+
+\end{document}
+```"
+14.25,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+By the problem, we have the angular frequency given by:
+\begin{equation}
+    \omega = \frac{1}{\sqrt{L_1 C_1}} = \frac{1}{\sqrt{L_2 C_2}}
+\end{equation}
+
+When the combinations $L_1 C_1$ and $L_2 C_2$ are connected in series, the combination will have inductance $L$ and capacitance $C$ given by:
+\begin{equation}
+    L = L_1 + L_2
+\end{equation}
+\begin{equation}
+    C = \frac{C_1 C_2}{C_1 + C_2}
+\end{equation}
+
+Now, the product $LC$ is:
+\begin{equation}
+    LC = (L_1 + L_2) \frac{C_1 C_2}{C_1 + C_2}
+\end{equation}
+
+From equation (1), we have:
+\begin{equation}
+    L_2 = \frac{L_1 C_1}{C_2}
+\end{equation}
+
+Substituting equation (5) into equation (4), we get upon simplification:
+\begin{equation}
+    LC = L_1 C_1 = \frac{1}{\omega^2}
+\end{equation}
+
+It follows that:
+\begin{equation}
+    \omega = \frac{1}{\sqrt{LC}}
+\end{equation}
+
+\end{document}
+```
+This LaTeX document formats the given physics problem and solution with equations aligned and numbered for clarity."
+14.26,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+Given:
+\[
+Z_c = 1, \quad \omega_c = \frac{1}{2\pi f_c}
+\]
+
+Therefore, the capacitance \( C \) is given by:
+\[
+C = \frac{1}{2\pi f Z_c} = \frac{1}{2\pi \times 1000 \times 500} = 3.18 \times 10^{-7} \, \text{F} = 0.318 \, \mu\text{F}
+\]
+
+For the inductance \( L \), we have:
+\[
+Z_L = \omega L = 2\pi f L
+\]
+
+Therefore, solving for \( L \):
+\[
+L = \frac{Z_L}{2\pi f} = \frac{100}{2\pi \times 5000} = 3.18 \times 10^{-3} \, \text{H} = 3.18 \, \text{mH}
+\]
+
+\end{document}
+```
+
+This LaTeX code will properly format the given physics problem and solution, ensuring clarity and correct mathematical representation."
+14.27,"```latex
+The maximum stored energy in the capacitor must equal the maximum stored energy in the inductor, from the principle of energy conservation. Therefore, we have:
+
+\[
+\frac{1}{2} q_m^2 C = \frac{1}{2} L i_m^2
+\]
+
+where \( i_m \) is the maximum current and \( q_m \) is the maximum charge. Substituting \( CV_0 \) for \( q_m \) and solving for \( i_m \) in equation (1), we get:
+
+\[
+i_m = V_0 \sqrt{\frac{C}{L}} = 100 \sqrt{\frac{0.01 \times 10^{-6}}{10 \times 10^{-3}}} = 0.1 \, \text{A}
+\]
+```"
+14.28,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+For resonance, the angular frequency is given by:
+\[
+\omega = \frac{1}{\sqrt{LC}}
+\]
+
+Solving for \( C \):
+\[
+C = \frac{1}{4\pi^2 f^2 L}
+\]
+
+Substitute the given values:
+\[
+C = \frac{1}{4\pi^2 (5 \times 10^5)^2 \times 10^{-3}}
+\]
+
+Calculating the capacitance:
+\[
+C = 1.013 \times 10^{-9} \, \text{F}
+\]
+
+The quality factor \( Q \) is given by:
+\[
+Q = \frac{\omega L}{R}
+\]
+
+Solving for \( R \):
+\[
+R = \frac{2\pi f L}{Q}
+\]
+
+Substitute the given values:
+\[
+R = \frac{2\pi (500 \times 10^3) (10^{-3})}{150}
+\]
+
+Calculating the resistance:
+\[
+R = 20.944 \, \Omega
+\]
+
+The resistance to be included in series is:
+\[
+20.944 - 5.0 = 15.944 \, \Omega
+\]
+
+\end{document}
+```
+This LaTeX code properly formats the physics problem and solution with equations aligned and symbols correctly displayed."
+14.29,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+For a parallel resonance circuit, the resonant angular frequency is given by:
+
+\[
+\omega = \omega_0 \sqrt{1 - \frac{CR^2}{L}}
+\]
+
+where
+
+\[
+\omega_0 = \frac{1}{\sqrt{LC}} = \frac{1}{\sqrt{10^{-3} \times 5 \times 10^{-6}}} = 1.414214 \times 10^6 \, \text{rad/s}
+\]
+
+The frequency \( f \) is related to the angular frequency by:
+
+\[
+f = \frac{\omega}{2\pi} = \frac{\omega_0}{2\pi} \sqrt{1 - \frac{CR^2}{L}}
+\]
+
+Substituting the given values:
+
+\[
+f = \frac{1.414214 \times 10^6}{2\pi} \sqrt{1 - \frac{5 \times 10^{-10} \times 10^2}{10^{-3}}} = 2.250736 \times 10^5 \, \text{s}^{-1}
+\]
+
+The quality factor \( Q \) is defined as:
+
+\[
+Q = \frac{\omega L}{R} = \frac{1.414 \times 10^6 \times 10^{-3}}{10} = 141.4
+\]
+
+\end{document}
+```"
+14.30,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The voltage across a capacitor discharging through a resistor is given by:
+\[
+V = V_0 e^{-\frac{t}{RC}}
+\]
+
+Taking the natural logarithm of both sides, we have:
+\[
+\ln V = \ln V_0 - \frac{t}{RC}
+\]
+
+Considering the uncertainty propagation for voltage, we have:
+\[
+\frac{\Delta V}{V} = -\frac{t}{C} \frac{d}{dR} \left( \frac{1}{R} \right) \Delta R - \frac{t}{R} \frac{d}{dC} \left( \frac{1}{C} \right) \Delta C
+\]
+
+This simplifies to:
+\[
+\frac{\Delta V}{V} = \frac{t}{CR} \left( \frac{\Delta R}{R} + \frac{\Delta C}{C} \right)
+\]
+
+Substituting the given values:
+\[
+\frac{\Delta V}{V} = \frac{50 \times 10^{-6}}{10^{-8} \times 5 \times 10^4} \left( \frac{5}{100} + \frac{10}{100} \right) = 0.015
+\]
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the equations properly formatted and aligned, suitable for a physics problem involving exponential decay and uncertainty propagation."
+14.31,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a) Voltage Decay on a Capacitor}
+
+The voltage on the capacitor is given by:
+\[
+V = \xi e^{-t/RC}
+\]
+
+The voltage will fall to \(1/e\) of its initial value when the time \(t = RC\). Given \(RC = 10^4 \times 10^{-5} = 0.1 \, \text{s}\).
+
+\subsection*{(b) Error Analysis on Time}
+
+The error in \(t\) will result from the error in \(R\). We have:
+\[
+\Delta t = C \Delta R
+\]
+
+Thus, the relative error is:
+\[
+\frac{\Delta t}{t} = \frac{\Delta R}{R}
+\]
+
+\subsection*{Power Calculation}
+
+The power \(P\) is given by:
+\[
+P = i^2 R = \frac{\xi^2}{e^2 R} = \frac{(3000)^2}{(2.718)^2 \times 10^4} = 121.8 \, \text{W}
+\]
+
+\subsection*{Energy Calculation}
+
+The energy \(U\) is:
+\[
+U = P \cdot t = 121.8 \times 0.1 = 12.18 \, \text{J}
+\]
+
+\subsection*{Heat Calculation}
+
+The heat \(H\) is:
+\[
+H = \frac{12.18}{4.18} = 2.914 \, \text{cal}
+\]
+
+\subsection*{Temperature Rise}
+
+The rise in temperature \(\Delta T\) is:
+\[
+\Delta T = \frac{\text{Heat}}{\text{thermal capacity}} = \frac{2.914}{0.9} = 3.24^\circ \text{C}
+\]
+
+\subsection*{Resistance Change}
+
+The resistance \(R\) is:
+\[
+R = R_0(1 + \alpha \Delta T) = 10^4(1 + 0.004 \times 3.24) = 1.01296 \times 10^4
+\]
+
+The change in resistance \(\Delta R\) is:
+\[
+\Delta R = R - R_0 = 129.6
+\]
+
+Thus, the relative error in \(t\) is:
+\[
+\frac{\Delta t}{t} = \frac{\Delta R}{R_0} = \frac{129.6}{10^4} = 0.01296
+\]
+
+The percentage error is:
+\[
+\frac{\Delta t}{t} \times 100 = 1.3\%
+\]
+
+\end{document}
+```"
+14.32,"```latex
+The amplitude of the current oscillations is given by
+
+\[
+i_m = \frac{E_m}{\sqrt{\left(\omega' L - \frac{1}{\omega' C}\right)^2 + R^2}}
+\]
+
+At resonance, \(\omega' = \omega\) and \(i_m = \frac{E_m}{R}\). Set
+
+\[
+i_m = \frac{E_m}{\sqrt{\left(\omega L - \frac{1}{\omega C}\right)^2 + R^2}} = \frac{1}{2} \frac{E_m}{R}
+\]
+
+Squaring and simplifying,
+
+\[
+\left(\omega L - \frac{1}{\omega C}\right)^2 = 3R^2
+\]
+
+or
+
+\[
+\omega^2 LC \pm \sqrt{3}\omega RC - 1 = 0
+\]
+
+The only acceptable solutions are
+
+\[
+\omega_1 = \frac{\sqrt{3}}{2} \frac{R}{L} + \sqrt{\frac{3R^2}{4L^2} + \frac{1}{LC}}
+\]
+
+\[
+\omega_2 = -\frac{\sqrt{3}}{2} \frac{R}{L} + \sqrt{\frac{3R^2}{4L^2} + \frac{1}{LC}}
+\]
+
+Subtracting the last equation from the previous one,
+
+\[
+\Delta \omega = \omega_1 - \omega_2 = \frac{\sqrt{3}R}{L}
+\]
+
+\[
+\therefore \frac{\Delta \omega}{\omega} = \frac{\sqrt{3} \omega R}{L}
+\]
+
+\section{14.3.2 Maxwell’s Equations and Electromagnetic Waves, Poynting Vector}
+```
+
+This LaTeX code formats the given physics text into a structured and readable mathematical document, complete with equations and section headings."
+14.33,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The given electric field is:
+\begin{equation}
+    E_z = 100 \cos(6 \times 10^8 t + 4x) \tag{1}
+\end{equation}
+
+The standard form of a wave equation is:
+\begin{equation}
+    E_z = A \cos(\omega t + kx) \tag{2}
+\end{equation}
+
+By comparing equations (1) and (2), we identify:
+\[
+    \omega = 6 \times 10^8 \quad \text{and} \quad k = 4
+\]
+
+The phase velocity \( v \) is given by:
+\[
+    v = \frac{\omega}{k} = \frac{6 \times 10^8}{4} = 1.5 \times 10^8 \, \text{m/s}
+\]
+
+The dielectric constant \( K \) is calculated as:
+\[
+    K = \frac{c}{v} = \frac{3 \times 10^8}{1.5 \times 10^8} = 2.0
+\]
+
+\end{document}
+```"
+14.34,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\begin{document}
+
+\section*{Physics Equations}
+
+\subsection*{Gauss' Law}
+\begin{equation}
+    \oint \mathbf{E} \cdot d\mathbf{s} = \frac{q}{\varepsilon_0}
+\end{equation}
+For a cylindrical surface, this becomes:
+\begin{equation}
+    E(2\pi rl) = \frac{q}{\varepsilon_0} \quad \therefore \quad E = \frac{\lambda \hat{e}_r}{2\pi r \varepsilon_0} \tag{1}
+\end{equation}
+
+\subsection*{Ampere's Law}
+\begin{equation}
+    \oint \mathbf{B} \cdot d\mathbf{s} = \mu_0 I
+\end{equation}
+For a circular path, this becomes:
+\begin{equation}
+    2\pi r B = \mu_0 I \quad \therefore \quad B = \frac{\mu_0 I}{2\pi r} \hat{e}_\phi \tag{2}
+\end{equation}
+
+\subsection*{Lorentz Transformation}
+The transformation of the electric field component is given by:
+\begin{equation}
+    E'_r = \gamma (E_r - v B_\phi) \tag{3}
+\end{equation}
+Substituting the expressions for \(E_r\) and \(B_\phi\):
+\begin{align*}
+    E'_r &= \gamma \left( \frac{\lambda}{2\pi r \varepsilon_0} - v \frac{\mu_0 I}{2\pi r} \right) \\
+         &= \frac{\gamma}{2\pi r} \left( \frac{\lambda}{\varepsilon_0} - v \mu_0 I \right)
+\end{align*}
+Thus, \(E'_r = 0\) if:
+\begin{equation}
+    v \mu_0 I = \frac{\lambda}{\varepsilon_0} \quad \text{or} \quad v = \frac{\lambda}{I \mu_0 \varepsilon_0} = \frac{\lambda c^2}{I}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code formats the physics equations and transformations using the appropriate mathematical symbols and structures, ensuring clarity and correctness in presentation."
+14.35,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+Maxwell's equations in vacuum are given by:
+
+\begin{align}
+    \nabla \cdot \mathbf{E} &= 0 \quad \text{(1)} \\
+    \nabla \cdot \mathbf{B} &= 0 \quad \text{(2)} \\
+    \nabla \times \mathbf{E} &= -\frac{\partial \mathbf{B}}{\partial t} \quad \text{(3)} \\
+    \nabla \times \mathbf{B} &= \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t} \quad \text{(4)}
+\end{align}
+
+Using the vector identity:
+\[
+\nabla \times (\nabla \times \mathbf{B}) = \nabla (\nabla \cdot \mathbf{B}) - \nabla^2 \mathbf{B}
+\]
+
+Since \(\nabla \cdot \mathbf{B} = 0\) by equation (2), we have:
+\[
+\nabla \times \left( \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t} \right) = -\nabla^2 \mathbf{B}
+\]
+
+Therefore, substituting from equation (3):
+\[
+\mu_0 \varepsilon_0 \frac{\partial}{\partial t} (\nabla \times \mathbf{E}) = -\mu_0 \varepsilon_0 \frac{\partial}{\partial t} \left( \frac{\partial \mathbf{B}}{\partial t} \right) = -\nabla^2 \mathbf{B}
+\]
+
+Thus, we arrive at:
+\[
+\nabla^2 \mathbf{B} = \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{B}}{\partial t^2}
+\]
+
+\end{document}
+```"
+14.36,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Equations in LaTeX}
+
+\subsection*{Ampere's Law}
+\begin{equation}
+    \nabla \times \mathbf{B} = \mu_0 \mathbf{j}
+\end{equation}
+
+\subsection*{Vector Identity}
+Using the vector identity \( \mathbf{A} \cdot (\mathbf{A} \times \mathbf{B}) = 0 \), let \( \mathbf{A} = \nabla \). Thus, we have:
+\begin{equation}
+    \nabla \cdot (\nabla \times \mathbf{B}) = 0
+\end{equation}
+which implies:
+\begin{equation}
+    \nabla \cdot \mathbf{j} = 0
+\end{equation}
+
+\subsection*{Continuity Equation}
+More generally, the continuity equation is given by:
+\begin{equation}
+    \nabla \cdot \mathbf{j} + \frac{\partial \rho}{\partial t} = 0
+\end{equation}
+
+\subsection*{Gauss' Law}
+Gauss' law is expressed as:
+\begin{equation}
+    \nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}
+\end{equation}
+
+\subsection*{Combining Continuity and Gauss' Law}
+Combining equations (3) and (4), we obtain:
+\begin{equation}
+    \nabla \cdot \left( \mathbf{j} + \frac{1}{\varepsilon_0} \frac{\partial \mathbf{E}}{\partial t} \right) = 0
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code organizes the given physics text into a structured document with equations properly formatted and numbered. Each section is clearly labeled, and the equations are aligned and formatted according to standard conventions."
+14.37,"To convert the given physics text into properly formatted LaTeX, we need to ensure that all mathematical symbols and equations are correctly typeset. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The free-space wave equation is given by:
+\[
+\nabla^2 \mathbf{B} = \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{B}}{\partial t^2}
+\]
+
+Compare this with the standard three-dimensional wave equation:
+\[
+\nabla^2 \Psi = \frac{1}{v^2} \frac{\partial^2 \Psi}{\partial t^2}
+\]
+
+From this comparison, we find:
+\[
+v = \frac{1}{\sqrt{\mu_0 \varepsilon_0}} = \frac{1}{\sqrt{(4\pi \times 10^{-7})(8.854 \times 10^{-12})}} = 2.998 \times 10^8 \, \text{m/s} = c
+\]
+
+\end{document}
+```
+
+This code will correctly format the equations and text in a LaTeX document. Make sure to include the `amsmath` package for proper mathematical formatting."
+14.38,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+Given the angular frequency \(\omega\), which is related to the frequency \(\nu\) and the wavelength \(\lambda\), we have:
+\[
+\omega = 2\pi\nu = \frac{2\pi c}{\lambda}
+\]
+
+Substituting the given values:
+\[
+\omega = \frac{2\pi \times 3 \times 10^8}{530 \times 10^{-9}} = 3.55 \times 10^{15} \, \text{rad/s}
+\]
+
+The conductivity \(\sigma\) is given by the reciprocal of resistivity \(\rho\):
+\[
+\sigma = \frac{1}{\rho} = \frac{1}{26.5 \times 10^{-9}} = 3.77 \times 10^7 \, \text{S/m}
+\]
+
+The skin depth \(\delta\) is calculated using the formula:
+\[
+\delta = \sqrt{\frac{2}{\mu_0 \sigma \omega}}
+\]
+
+Substituting the known values (\(\mu_0 = 4\pi \times 10^{-7} \, \text{H/m}\)):
+\[
+\delta = \sqrt{\frac{2}{4\pi \times 10^{-7} \times 3.77 \times 10^7 \times 3.55 \times 10^{15}}}
+\]
+
+Calculating \(\delta\):
+\[
+\delta = 3.45 \times 10^{-9} \, \text{m} = 3.45 \, \text{nm}
+\]
+
+\end{document}
+```"
+14.39,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The equations describing the electromagnetic wave can be expressed as follows:
+
+\begin{align}
+    E &= E_0 \cos(kx - \omega t) \label{eq:1} \\
+    \frac{\partial E_y}{\partial x} &= -kE_0 \sin(kx - \omega t) \label{eq:2} \\
+    B &= B_0 \cos(kx - \omega t) \label{eq:3} \\
+    \frac{\partial B_z}{\partial t} &= \omega B_0 \sin(kx - \omega t) \label{eq:4}
+\end{align}
+
+From the relation:
+\begin{equation}
+    \frac{\partial E_y}{\partial x} = -\frac{\partial E_z}{\partial t} \label{eq:5}
+\end{equation}
+
+Combining equations \eqref{eq:2}, \eqref{eq:4}, and \eqref{eq:5}, we obtain:
+\begin{equation}
+    E_0 = \frac{\omega}{k} B_0 = cB_0
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will format the given physics equations and their relationships properly, ensuring clarity and correctness in the presentation."
+14.40,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Maxwell's equations for a non-ferromagnetic homogeneous isotropic medium can be written as:
+
+\begin{align}
+    \nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon} \tag{1} \\
+    \nabla \cdot \mathbf{B} &= 0 \tag{2} \\
+    \nabla \times \mathbf{E} &= -\frac{\partial \mathbf{B}}{\partial t} \tag{3} \\
+    \nabla \times \mathbf{B} &= \mu \sigma \mathbf{E} + \mu \varepsilon \frac{\partial \mathbf{E}}{\partial t} \tag{4}
+\end{align}
+
+Taking the curl of (4),
+
+\begin{equation}
+    \nabla \times (\nabla \times \mathbf{B}) = \mu \sigma (\nabla \times \mathbf{E}) + \mu \varepsilon \frac{\partial}{\partial t} (\nabla \times \mathbf{E}) \tag{5}
+\end{equation}
+
+where the time and space derivatives are interchanged as \(\mathbf{E}\) is assumed to be a well-behaved function. Expression (3) can be substituted in (5) to obtain
+
+\begin{equation}
+    \nabla \times (\nabla \times \mathbf{B}) = -\mu \sigma \frac{\partial \mathbf{B}}{\partial t} - \mu \varepsilon \frac{\partial^2 \mathbf{B}}{\partial t^2} \tag{6}
+\end{equation}
+
+Using the vector identity
+
+\begin{equation}
+    \nabla \times (\nabla \times \mathbf{B}) = \nabla (\nabla \cdot \mathbf{B}) - \nabla^2 \mathbf{B} \tag{7}
+\end{equation}
+
+By virtue of (2), \(\nabla \cdot \mathbf{B} = 0\) and (6) becomes
+
+\begin{equation}
+    \nabla^2 \mathbf{B} = \mu \varepsilon \frac{\partial^2 \mathbf{B}}{\partial t^2} + \mu \sigma \frac{\partial \mathbf{B}}{\partial t} \tag{8}
+\end{equation}
+
+A similar procedure applied to (3) yields a similar equation for the \(\mathbf{E}\)-field. Taking the curl of (3),
+
+\begin{equation}
+    \nabla \times (\nabla \times \mathbf{E}) = -\frac{\partial}{\partial t} (\nabla \times \mathbf{B}) \tag{9}
+\end{equation}
+
+Using (4) in (9),
+
+\begin{equation}
+    \nabla \times (\nabla \times \mathbf{E}) = -\mu \sigma \frac{\partial \mathbf{E}}{\partial t} - \mu \varepsilon \frac{\partial^2 \mathbf{E}}{\partial t^2} \tag{10}
+\end{equation}
+
+But
+
+\begin{equation}
+    \nabla \times (\nabla \times \mathbf{E}) = \nabla (\nabla \cdot \mathbf{E}) - \nabla^2 \mathbf{E} \tag{11}
+\end{equation}
+
+and \(\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon}\) (1). Combining (10), (11), and (1) we obtain for an uncharged medium (\(\rho = 0\))
+
+\begin{equation}
+    \nabla^2 \mathbf{E} = \mu \sigma \frac{\partial \mathbf{E}}{\partial t} + \mu \varepsilon \frac{\partial^2 \mathbf{E}}{\partial t^2}
+\end{equation}
+
+\end{document}
+```"
+14.41,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a)}
+
+Gauss' Law is given by:
+\begin{equation}
+    \varepsilon_0 \oint \mathbf{E} \cdot d\mathbf{S} = q
+\end{equation}
+
+For a cylindrical surface, the electric field is:
+\begin{equation}
+    \varepsilon_0 E (2\pi rl) = q \quad \Rightarrow \quad E = \frac{q}{2\pi \varepsilon_0 rl}
+\end{equation}
+
+The flux is entirely through the cylindrical surface and zero through the end caps. The potential difference between the conductors is:
+\begin{equation}
+    V = \int_a^b E \, dr = \int_a^b \frac{q}{2\pi \varepsilon_0 l} \frac{dr}{r} = \frac{q}{2\pi \varepsilon_0 l} \ln \left( \frac{b}{a} \right)
+\end{equation}
+
+The capacitance \( C \) is given by:
+\begin{equation}
+    C = \frac{q}{V} = \frac{2\pi \varepsilon_0 l}{\ln(b/a)}
+\end{equation}
+
+Thus, the capacitance per unit length of the cable is:
+\begin{equation}
+    \frac{C}{l} = \frac{2\pi \varepsilon_0}{\ln(b/a)}
+\end{equation}
+
+\subsection*{(b)}
+
+The magnetic induction between the conductors is:
+\begin{equation}
+    B = \frac{\mu_0 i}{2\pi r}
+\end{equation}
+
+The energy density \( u \) is:
+\begin{equation}
+    u = \frac{1}{2\mu_0} B^2 = \frac{\mu_0 i^2}{8\pi^2 r^2}
+\end{equation}
+
+Consider a volume element \( dV \) for the cylindrical shell of radii \( r \) and \( r + dr \) and of length \( l \). The energy contained in the volume element is:
+\begin{equation}
+    dU = u \, dV = \frac{\mu_0 i^2}{8\pi^2 r^2} (2\pi r l \, dr) = \frac{\mu_0 i^2 l}{4\pi} \frac{dr}{r}
+\end{equation}
+
+The total energy \( U \) is:
+\begin{equation}
+    U = \int dU = \frac{\mu_0 i^2 l}{4\pi} \int_a^b \frac{dr}{r} = \frac{\mu_0 i^2 l}{4\pi} \ln(b/a)
+\end{equation}
+
+But \( U = \frac{1}{2} L i^2 \), so comparing with the above expression:
+\begin{equation}
+    L = \frac{\mu_0 l}{2\pi} \ln(b/a)
+\end{equation}
+
+Thus, the inductance per unit length of the cable is:
+\begin{equation}
+    \frac{L}{l} = \frac{\mu_0}{2\pi} \ln(b/a)
+\end{equation}
+
+\end{document}
+```"
+14.42,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a)}
+
+By problem (14.41), the potential difference between the conductors is given by
+
+\begin{equation}
+V = \frac{q}{2\pi\varepsilon_0 l} \ln\left(\frac{b}{a}\right) = \frac{\lambda}{2\pi\varepsilon_0} \ln\left(\frac{b}{a}\right)
+\end{equation}
+
+where \(\lambda = \frac{q}{l}\) is the charge density. Now, the electric field \(E\) is
+
+\begin{equation}
+E = \frac{\lambda}{2\pi\varepsilon_0 r} = \frac{\xi}{r \ln(b/a)}
+\end{equation}
+
+where we have set \(V = \xi\).
+
+\subsection*{(b)}
+
+The magnetic field \(B\) is given by
+
+\begin{equation}
+B = \frac{\mu_0 i}{2\pi r} = \frac{\mu_0 \xi}{2\pi r R} \quad (a < r < b)
+\end{equation}
+
+\subsection*{(c)}
+
+The Poynting vector \(\mathbf{S}\) is
+
+\begin{equation}
+\mathbf{S} = \frac{1}{\mu_0} \mathbf{E} \times \mathbf{B} = \frac{1}{\mu_0} EB = \frac{\xi^2}{2\pi r^2 R \ln(b/a)}
+\end{equation}
+
+where we have used equations (2) and (3).
+
+\end{document}
+```"
+14.43,"To convert the given text into properly formatted LaTeX code, we will structure the equations and ensure clarity by using appropriate LaTeX commands. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The magnetic energy density \( u_B \) is given by the equation:
+\begin{equation}
+    u_B = \frac{1}{2} \mathbf{B} \cdot \mathbf{H} \tag{1}
+\end{equation}
+
+The relationship between the magnetic flux density \( \mathbf{B} \) and the magnetic field intensity \( \mathbf{H} \) is:
+\begin{equation}
+    \mathbf{B} = \mu \mathbf{H} \tag{2}
+\end{equation}
+
+Substituting equation (2) into equation (1), we have:
+\begin{align*}
+    u_B &= \frac{1}{2} \mu \mathbf{H} \cdot \mathbf{H} \\
+        &= \frac{1}{2} \mu H^2 \\
+        &= \frac{B^2}{2\mu} \tag{3}
+\end{align*}
+
+In free space, the permeability \( \mu \) is equal to \( \mu_0 \). Therefore, in a vacuum:
+\begin{equation}
+    u_B = \frac{B^2}{2\mu_0}
+\end{equation}
+
+\end{document}
+```
+
+This code uses the `amsmath` package for better formatting of mathematical expressions and aligns the equations properly. Each equation is numbered and referenced accordingly."
+14.44,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The energy density in the electric field \( \mathbf{E} \) is given by:
+\begin{equation}
+    u_E = \frac{1}{2} \varepsilon_0 E^2
+\end{equation}
+
+The energy density in the magnetic field \( \mathbf{B} \) is given by:
+\begin{equation}
+    u_B = \frac{1}{2} \frac{B^2}{\mu_0}
+\end{equation}
+
+The fields for the plane wave are:
+\begin{align}
+    \mathbf{E} &= E_m \sin(kx - \omega t) \\
+    \mathbf{B} &= B_m \sin(kx - \omega t)
+\end{align}
+
+Substituting equations (3) and (4) into equations (1) and (2), we have:
+\begin{align}
+    u_E &= \frac{1}{2} \varepsilon_0 E_m^2 \sin^2(kx - \omega t) \\
+    u_B &= \frac{1}{2} \frac{B_m^2}{\mu_0} \sin^2(kx - \omega t)
+\end{align}
+
+Dividing equation (5) by equation (6), we obtain:
+\begin{equation}
+    \frac{u_E}{u_B} = \varepsilon_0 \mu_0 \frac{E_m^2}{B_m^2}
+\end{equation}
+
+But since \( \varepsilon_0 \mu_0 = \frac{1}{c^2} \) and \( E_m = c B_m \), it follows that:
+\begin{equation}
+    \frac{u_E}{u_B} = 1 \quad \text{or} \quad u_E = u_B
+\end{equation}
+
+\end{document}
+```"
+14.45,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+By problem (14.41), the magnetic energy stored in a coaxial cable is given by:
+
+\begin{equation}
+    U_B = \frac{\mu_0 i^2 l}{4\pi} \ln\left(\frac{b}{a}\right)
+\end{equation}
+
+where \( i \) is the current and \( l \) is the length of the cable. Further, its capacitance is given by:
+
+\begin{equation}
+    C = \frac{2\pi\varepsilon_0 l}{\ln(b/a)}
+\end{equation}
+
+The electric energy stored in the cable is:
+
+\begin{equation}
+    U_E = \frac{1}{2} \xi^2 C = \frac{1}{2} (i^2 R^2) \left( \frac{2\pi\varepsilon_0 l}{\ln(b/a)} \right)
+\end{equation}
+
+By the problem, \( U_E = U_M \). Therefore,
+
+\begin{equation}
+    \frac{1}{2} (i^2 R^2) \left( \frac{2\pi\varepsilon_0 l}{\ln(b/a)} \right) = \frac{\mu_0 i^2 l}{4\pi} \ln\left(\frac{b}{a}\right)
+\end{equation}
+
+Thus, solving for \( R \),
+
+\begin{equation}
+    R = \frac{1}{2\pi} \sqrt{\frac{\mu_0}{\varepsilon_0}} \ln\left(\frac{b}{a}\right) = \frac{1}{2\pi} \sqrt{\frac{4\pi \times 10^{-7}}{8.85 \times 10^{-12}}} \ln\left(\frac{b}{a}\right) = \frac{376.7}{2\pi} \ln\left(\frac{b}{a}\right) \, \Omega \, \sigma
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code formats the given physics problem and solution with proper mathematical notation and alignment."
+14.46,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+As the kinetic energy of a proton (\SI{20}{\mega\electronvolt}) is much smaller than its rest mass energy (\SI{938}{\mega\electronvolt}), non-relativistic calculations will be valid. In the classical picture, a charged particle undergoing acceleration \(a\) emits electromagnetic radiation. The electromagnetic energy radiated per second is given by
+
+\begin{equation}
+    P = \frac{q^2 a^2}{6 \pi \varepsilon_0 c^3}
+\end{equation}
+
+Now, \(a = \frac{v^2}{R} = \frac{1}{2} \frac{mv^2}{mR} = \frac{2K}{mR}\)
+
+\begin{equation}
+    a = \frac{2K}{mR}
+\end{equation}
+
+Substituting equation (2) into equation (1) and putting \(q = e\) for the charge of a proton, we get
+
+\begin{equation}
+    P = \frac{2e^2 K^2}{3 \pi \varepsilon_0 c^3 m^2 R^2}
+\end{equation}
+
+The energy radiated per orbit is given by multiplying \(P\) by the time period \(\frac{2\pi R}{v} = 2\pi R \sqrt{\frac{m}{2K}}\):
+
+\begin{equation}
+    \Delta E = \frac{4e^2 K^{3/2}}{3 \sqrt{2} \varepsilon_0 c^3 m^{3/2} R}
+\end{equation}
+
+Substituting the values:
+
+\[
+\Delta E = \frac{4 \times (1.6 \times 10^{-19})^2 \times (20 \times 1.6 \times 10^{-13})^{3/2}}{3 \sqrt{2} \times (8.85 \times 10^{-12}) \times (3 \times 10^8)^3 \times (1.67 \times 10^{-27})^{3/2} \times 0.5}
+\]
+
+\[
+= 1.89 \times 10^{-31} \, \text{J} = 1.18 \times 10^{-12} \, \text{eV}
+\]
+
+which is quite negligible.
+
+\end{document}
+```"
+14.47,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+Consider a sphere of radius $r$ with its center at the point source of power $P$. The intensity of radiation at distance $r$ is given by:
+
+\[
+I = \frac{P}{4\pi r^2}
+\]
+
+We also have:
+
+\[
+I = \frac{c\varepsilon_0 E_0^2}{2}
+\]
+
+Equating the two expressions for intensity, we get:
+
+\[
+\frac{P}{4\pi r^2} = \frac{c\varepsilon_0 E_0^2}{2}
+\]
+
+Solving for $E_0$, we find:
+
+\[
+E_0 = \left[ \frac{P}{2\pi r^2 c \varepsilon_0} \right]^{1/2}
+\]
+
+Substituting the given values:
+
+\[
+E_0 = \left[ \frac{40}{2\pi (1.0)^2 (3 \times 10^8 \times 8.85 \times 10^{-12})} \right]^{1/2} = 49 \, \text{V/m}
+\]
+
+\end{document}
+```
+
+This LaTeX code will produce a well-formatted document with the equations properly aligned and typeset."
+14.48,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\begin{enumerate}
+    \item[(a)] 
+    \begin{align*}
+        I_0 &= \frac{P}{A} = \frac{1.2 \times 10^{-3}}{4 \times 10^{-6}} = 300 \, \si{\watt\per\meter\squared}
+    \end{align*}
+
+    \item[(b)] 
+    \begin{align*}
+        I_0 &= \frac{c \varepsilon_0 E_0^2}{2} \\
+        \Rightarrow E_0 &= \sqrt{\frac{2I_0}{c \varepsilon_0}} = \sqrt{\frac{2 \times 300}{3 \times 10^8 \times 8.85 \times 10^{-12}}} = 475 \, \si{\volt\per\meter}
+    \end{align*}
+
+    \item[(c)] 
+    \begin{align*}
+        B_0 &= \frac{E_0}{c} = \frac{475}{3 \times 10^8} = 1.58 \times 10^{-6} \, \si{\tesla} = 1.58 \, \si{\micro\tesla}
+    \end{align*}
+\end{enumerate}
+
+\end{document}
+```"
+14.49,"Certainly! Below is the given physics text converted into properly formatted LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\[
+I = P A = P \pi r^2 = \frac{314 \times 10^{-3}}{3.14 \times (0.5 \times 10^{-3})^2} = 4 \times 10^5 \, \text{W/m}^2
+\]
+
+\end{document}
+```
+
+This LaTeX code will correctly format the equation for intensity \( I \) in terms of power \( P \) and area \( A \), using the given numerical values."
+14.50,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+
+\begin{document}
+
+The average value of the Poynting vector $\vb{S}$ over a period of oscillation of the electromagnetic wave is known as the radiant flux density. If the energy is incident on a surface, it is called irradiance. 
+
+The electric and magnetic fields of the wave are given by:
+\[
+E = E_0 \cos(kx - \omega t), \quad B = B_0 \cos(kx - \omega t)
+\]
+
+The Poynting vector is:
+\[
+\vb{S} = c^2 \varepsilon_0 \vb{E} \times \vb{B} = c^2 \varepsilon_0 E_0 \times B_0 \cos^2(kx - \omega t)
+\]
+
+The average value of the Poynting vector over one period $T$ is:
+\[
+\langle \vb{S} \rangle = c^2 \varepsilon_0 \abs{E_0 \times B_0} \left\langle \cos^2(kx - \omega t) \right\rangle
+\]
+
+We know that:
+\[
+\left\langle \cos^2(kx - \omega t) \right\rangle = \frac{1}{T} \int_0^T \cos^2(kx - \omega t) \, dt = \frac{1}{2}
+\]
+
+Furthermore, $E \perp B$ and $E_0 = c B_0$. Thus, the average irradiance is:
+\[
+\langle \vb{S} \rangle = I = \frac{1}{2} c \varepsilon_0 E_0^2 = \frac{1}{2} \frac{E_0^2}{\mu_0 c}
+\]
+
+\end{document}
+```
+
+This LaTeX code properly formats the given physics text, using appropriate mathematical symbols and environments to clearly present the equations and relationships described."
+14.51,"To convert the given physics text into properly formatted LaTeX, we need to write the electric field equation and the intensity calculation clearly. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The electric field \( E_z \) is given by:
+\[
+E_z = 50 \sin \left[ 4\pi \times 10^{14} \left( t - \frac{x}{3 \times 10^8} \right) \right]
+\]
+
+The intensity \( I \) of the wave is calculated as:
+\[
+I = \frac{c \varepsilon_0 E_0^2}{2} = \frac{1}{2} (3 \times 10^8) (8.85 \times 10^{-12}) (50^2) = 0.066 \, \text{W/m}^2
+\]
+
+\end{document}
+```
+
+This LaTeX code will correctly format the electric field equation and the intensity calculation, ensuring proper mathematical notation and alignment."
+14.52,"To convert the given physics text into properly formatted LaTeX, we can structure it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The magnitude of the cross product of the electric field \(\mathbf{E}\) and the magnetic field \(\mathbf{H}\) is given by:
+\[
+|\mathbf{E} \times \mathbf{H}| = |\mathbf{E} \times \mathbf{B}| \mu_0 = E^2 \mu_0 c
+\]
+where we use the relation \(\mathbf{B} = \frac{\mathbf{E}}{c}\).
+
+The vector \(\mathbf{E} \times \mathbf{H}\) will be in the direction of the Poynting vector \(\mathbf{S}\), which is given by:
+\[
+\mathbf{S} = \frac{\mathbf{E} \times \mathbf{B}}{\mu_0}
+\]
+This is the direction of propagation.
+
+\end{document}
+```
+
+This LaTeX code uses the `amsmath` and `amssymb` packages for better mathematical formatting. The equations are presented in a clear and structured manner, with appropriate vector notations and relations."
+14.53,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+The given wave equation is:
+\[
+E_z = 10 \sin \pi \left( 2 \times 10^6 x - 6 \times 10^{14} t \right) = 10 \sin \left( 2\pi \times 10^6 x - 6\pi \times 10^{14} t \right)
+\]
+
+Compare this with the standard wave equation:
+\[
+E_z = E_{z0} \sin(kx - \omega t)
+\]
+
+\begin{enumerate}
+    \item[(a)] \(\omega = 2\pi f = 6\pi \times 10^{14} \Rightarrow f = 3 \times 10^{14} \, \text{Hz}\)
+    \item[(b)] \(k = 2\pi \times 10^6 \Rightarrow \lambda = \frac{2\pi}{k} = 10^{-6} \, \text{m}\)
+    \item[(c)] \(v = \frac{\omega}{k} = \frac{6\pi \times 10^{14}}{2\pi \times 10^6} = 3 \times 10^8 \, \text{m/s}\)
+    \item[(d)] \(E_{z0} = 10 \, \text{V/m}\)
+    \item[(e)] The wave is linearly polarized in the \(z\)-direction and propagates along the \(x\)-axis.
+\end{enumerate}
+
+\end{document}
+```"
+14.54,"```latex
+The wave propagates in the \( x \)-direction while the \( \mathbf{E} \)-field oscillates along the \( z \)-direction, that is, the \( \mathbf{E} \)-field is contained in the \( xz \)-plane. Since \( \mathbf{B} \) is normal to both \( \mathbf{E} \) and the direction of propagation, it must be contained in the \( xy \)-plane. Thus, \( B_x = B_z = 0 \), and \( B = B_y(x, t) \).
+
+Now, \( B = \frac{E}{c} \).
+
+\[
+\therefore B_y(x, t) = 3.33 \times 10^{-8} \sin \left( \pi \left( 2 \times 10^6 x - 6 \times 10^{14} t \right) \right) \, \text{T}
+\]
+```"
+14.55,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let $\nu$ be the frequency of the incident microwave beam. Let the car be approaching with speed $v$ towards the observer. Then the frequency seen by the car is given by the formula for Doppler shift:
+
+\begin{equation}
+\nu' = \nu \left(1 + \frac{v}{c}\right)
+\end{equation}
+
+Upon reflection, the microwave returns as if it was emitted by a moving source traveling with speed $v$ towards the observer. Therefore, the observed frequency is:
+
+\begin{equation}
+\nu'' = \nu' \left(1 + \frac{v}{c}\right) = \nu \left(1 + \frac{v}{c}\right)^2
+\end{equation}
+
+where we have used equation (1). The change in frequency $\Delta \nu$ is:
+
+\begin{align}
+\Delta \nu &= \nu'' - \nu \\
+&= \nu \left(1 + \frac{v}{c}\right)^2 - \nu \\
+&= 2\nu \frac{v}{c} \left(1 + \frac{v}{2c}\right)
+\end{align}
+
+Assuming that $v/c \ll 1$, the beat frequency is:
+
+\begin{equation}
+\Delta \nu = 2\nu \frac{v}{c} \quad \text{(beat frequency)}
+\end{equation}
+
+For a receding car, proceeding along similar lines, the change in frequency is:
+
+\begin{equation}
+\Delta \nu = \nu'' - \nu = -2\nu \frac{v}{c}
+\end{equation}
+
+\end{document}
+```"
+14.56,"To convert the given physics text into properly formatted LaTeX, we will use the appropriate mathematical symbols and formatting. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+By prob. (14.55),
+\begin{align*}
+    \rho \Delta \sigma_\nu &= \nu'' - \nu = -2 \nu \frac{v}{c} \\
+    \rho \Delta \sigma_\nu &= -2 \times 800 \times 10^6 \times \frac{3 \times 10^8}{c} \times \left( \frac{5}{18 \times 90} \right) = -133 \, \text{Hz}
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary mathematical symbols and formatting to represent the equations correctly. The `align*` environment is used to align the equations properly, and the multiplication and division operations are clearly presented."
+14.57,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+The relation between the current $i$ and the magnetic field $B$ expressed as 
+\[
+\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 i
+\]
+is known as Ampere’s law. There are equal and opposite currents $i$ in the conductors.
+
+\begin{enumerate}
+    \item[(a)] $r < a$. Then the net current passing through the conductor bounded by the closed path corresponds to that flowing through the inner conductor, as shown in Fig. 14.7. Hence by Ampere’s theorem:
+    \[
+    \oint \mathbf{B} \cdot d\mathbf{l} = (B)(2\pi r) = \mu_0 i \left(\frac{\pi r^2}{\pi a^2}\right)
+    \]
+    Therefore, the magnetic field $B$ is given by:
+    \[
+    B = \frac{\mu_0 i r}{2\pi a^2}
+    \]
+
+    \item[(b)] $a < r < b$. Here, the current through the outer conductor does not contribute to $B$. Thus:
+    \[
+    \oint \mathbf{B} \cdot d\mathbf{l} = (B)(2\pi r) = \mu_0 i
+    \]
+    Therefore, the magnetic field $B$ is:
+    \[
+    B = \frac{\mu_0 i}{2\pi r}
+    \]
+
+    \item[(c)] $b < r < c$. Here, currents through both the conductors contribute to $B$. Thus:
+    \[
+    \oint \mathbf{B} \cdot d\mathbf{l} = (B)(2\pi r) = \mu_0 i - \mu_0 i \frac{\pi (r^2 - b^2)}{\pi (c^2 - b^2)}
+    \]
+    Therefore, the magnetic field $B$ is:
+    \[
+    B = \frac{\mu_0 i}{2\pi r} \left(\frac{c^2 - r^2}{c^2 - b^2}\right)
+    \]
+
+    \item[(d)] $r > c$. As the net current flowing through the closed path is zero, the magnetic field $B$ is:
+    \[
+    B = 0
+    \]
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig14_7.png}
+    \caption{Magnetic field due to current carrying coaxial cylinder}
+\end{figure}
+
+\end{document}
+```"
+14.58,"To convert the given physics text into properly formatted LaTeX, we need to ensure that the equations are clear and correctly formatted. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The magnetic energy density is given by:
+\[
+u_B = \frac{1}{2} \frac{B^2}{\mu_0}
+\]
+
+Substituting the given values:
+\[
+u_B = \frac{1}{2} \frac{4^2}{4\pi \times 10^{-7}} = \frac{2}{\pi} \times 10^7 \, \text{J/m}^3
+\]
+
+The energy stored in the magnetic field \( U_B \) is calculated as:
+\[
+U_B = u_B \times \text{volume} = u_B \pi r^2 l
+\]
+
+Substituting the given values for \( r \) and \( l \):
+\[
+U_B = 2 \times 10^7 \times \pi \times 3^2 \times 12.5 = 2.25 \times 10^9 \, \text{J}
+\]
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the equations properly formatted and aligned. Make sure to compile this code with a LaTeX editor that supports packages like `amsmath` and `amssymb` for optimal results."
+14.59,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+If $P_0$ is the power radiated by the sun of radius $r$, then using the results of problem (14.51), we have:
+
+\[
+P_0 = \langle S \rangle 4 \pi r^2 = \frac{1}{2 \mu_0 c} E_m^2 4 \pi r^2
+\]
+
+Thus, solving for $E_m$, we get:
+
+\[
+E_m = \frac{1}{r} \sqrt{\frac{P_0 \mu_0 c}{2 \pi}}
+\]
+
+Substituting the given values:
+
+\[
+E_m = \frac{1}{7 \times 10^8} \sqrt{\frac{4 \times 10^{26} \times 4 \pi \times 10^{-7} \times 3 \times 10^8}{2 \pi}} = 2.21 \times 10^5 \, \text{V/m}
+\]
+
+For the magnetic field amplitude $B_m$, we have:
+
+\[
+B_m = \frac{E_m}{c} = \frac{2.21 \times 10^5}{3 \times 10^8} = 7.37 \times 10^{-4} \, \text{T} = 7.37 \, \text{G}
+\]
+
+\end{document}
+```
+
+This LaTeX code formats the physics problem and solution with the correct mathematical expressions and units, ensuring clarity and readability."
+14.60,"Certainly! Here's the given physics text formatted in LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+By prob. (14.51), the average Poynting vector is given by:
+
+\[
+\langle S \rangle = \frac{E^2}{2\mu_0 c}
+\]
+
+Solving for the electric field magnitude \( E_m \), we have:
+
+\[
+E_m = \sqrt{2\mu_0 c \langle S \rangle}
+\]
+
+Substituting the given values:
+
+\[
+E_m = \sqrt{2 \times 4\pi \times 10^{-7} \, \text{H/m} \times 3 \times 10^8 \, \text{m/s} \times 1300 \, \text{W/m}^2}
+\]
+
+Calculating the above expression, we find:
+
+\[
+E_m \approx 990 \, \text{V/m}
+\]
+
+\end{document}
+```
+
+This LaTeX code will format the equations and text properly, with the necessary mathematical symbols and units. Make sure to compile this code with a LaTeX editor to see the formatted output."
+14.61,"To convert the given physics text into properly formatted LaTeX, we will structure the equations clearly and ensure all symbols and operations are correctly represented. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+Given:
+\[
+B_m = E_m \cdot c = 300 \, \text{V/m} \times 3 \times 10^8 \, \text{m/s} = 1 \times 10^{-6} \, \text{T}
+\]
+
+The average Poynting vector is given by:
+\[
+\langle S \rangle = \frac{E_m^2}{2\mu_0 c} = \frac{(300)^2}{2 \times 4\pi \times 10^{-7} \, \text{T}\cdot\text{m/A} \times 3 \times 10^8 \, \text{m/s}}
+\]
+
+Calculating:
+\[
+\langle S \rangle = \frac{90000}{2 \times 4\pi \times 10^{-7} \times 3 \times 10^8} = 119.4 \, \text{W/m}^2
+\]
+
+\end{document}
+```
+
+This code includes the necessary packages for mathematical formatting and uses LaTeX's math mode to clearly present the equations. The units are specified within the text to maintain clarity."
+14.62,"To convert the given physics text into properly formatted LaTeX, we need to ensure that all mathematical symbols and equations are correctly represented. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\[
+|E| \, |H| = E \mu_0 B = (Bc) \mu_0 B = \mu_0 \sqrt{\mu_0 \varepsilon_0} = \sqrt{\mu_0 \varepsilon_0}
+\]
+
+where we have used the equations \( B = \mu_0 H \) and \( c = \frac{1}{\sqrt{\mu_0 \varepsilon_0}} \).
+
+\[
+\sqrt{\mu_0 \varepsilon_0} = \sqrt{\frac{4\pi \times 10^{-7}}{8.85 \times 10^{-12}}} = 377 \, \Omega
+\]
+
+Units of \( |E| \, |H| \) are \(\frac{\text{Volt}}{\text{metre}} \cdot \frac{\text{Ampere}}{\text{metre}} = \frac{\text{Volt}}{\text{Ampere}} = \text{Resistance}
+\)
+
+\end{document}
+```
+
+This LaTeX code will properly format the physics equations and text, ensuring that all symbols and units are correctly displayed."
+14.63,"To format the given physics text into LaTeX, we need to ensure that all mathematical symbols and expressions are correctly represented. Here's the LaTeX code for the provided expression:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The skin depth \(\delta\) is given by:
+
+\[
+\delta = \sqrt{\frac{2}{2\pi f \sigma \mu_0 \mu}}
+\]
+
+Substituting the values:
+
+\[
+\delta = \sqrt{\frac{2}{2\pi \times 20 \times 10^3 \times 6 \times 10^7 \times 4\pi \times 10^{-7} \times 1}}
+\]
+
+Calculating the above expression, we find:
+
+\[
+\delta = 4.6 \times 10^{-4} \, \text{m} = 0.46 \, \text{mm}
+\]
+
+\end{document}
+```
+
+This LaTeX code will correctly format the expression for the skin depth calculation, including the substitution of values and the final result."
+14.64,"To format the given physics equation in LaTeX, we need to ensure that the mathematical expressions are clear and properly aligned. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+The skin depth, denoted by \(\delta\), is given by the formula:
+
+\[
+\delta = \sqrt{\frac{2}{2\pi f \sigma \mu_0 \mu}}
+\]
+
+Substituting the given values:
+
+\[
+\delta = \sqrt{\frac{1}{\pi \times 3 \times 10^8 \times 5.6 \times 10^7 \times 4\pi \times 10^{-7} \times 1}}
+\]
+
+Calculating the above expression, we find:
+
+\[
+\delta = 1.23 \times 10^{-4} \, \text{m} = 0.123 \, \text{mm} = 3.88 \, \mu\text{m}
+\]
+
+\end{document}
+```
+
+This LaTeX code will format the equation and its solution correctly, ensuring that all mathematical symbols and expressions are displayed properly."
+14.65,Error: Unable to process request after multiple attempts.
+14.66,"To properly format the given physics text into LaTeX, we will use the appropriate mathematical symbols and align the equations for clarity. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The average value of the Poynting vector is given by:
+
+\begin{align*}
+\langle \mathbf{S} \rangle &= \frac{1}{2\mu_0} E_m B_m \\
+&= \frac{1}{2\mu_0} E_m \left( \frac{E_m}{c} \right) \\
+&= \frac{E_m^2}{2\mu_0 c} \\
+&= \frac{(10^{-3})^2}{2 \times 4\pi \times 10^{-7} \times 3 \times 10^8} \\
+&= 1.327 \times 10^{-9} \, \text{W/m}^2 \\
+&= 1.327 \times 10^{-13} \, \text{W/cm}^2.
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code uses the `align*` environment to neatly align the equations and includes necessary mathematical symbols and formatting for clarity."
+14.67,Error: Unable to process request after multiple attempts.
+14.68,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+In one dimension, the given equation reduces to
+\begin{equation}
+    \frac{\partial^2 E}{\partial x^2} - \mu_0 \varepsilon_0 \varepsilon_r \frac{\partial^2 E}{\partial t^2} - \mu_0 \sigma_N \frac{\partial E}{\partial t} = 0
+    \label{eq:wave_equation}
+\end{equation}
+
+Let the travelling wave be given by
+\begin{equation}
+    E = E_0 e^{i(kx - \omega t)}
+    \label{eq:travelling_wave}
+\end{equation}
+
+The derivatives of \( E \) are
+\begin{equation}
+    \frac{\partial^2 E}{\partial x^2} = -k^2 E, \quad \frac{\partial E}{\partial t} = -i \omega E, \quad \text{and} \quad \frac{\partial^2 E}{\partial t^2} = -\omega^2 E
+    \label{eq:derivatives}
+\end{equation}
+
+Inserting \eqref{eq:derivatives} into \eqref{eq:wave_equation} and rearranging, we obtain
+\begin{equation}
+    k^2 = \mu_0 \varepsilon_0 \varepsilon_r \omega^2 + i \mu_0 \sigma_N \omega
+    \label{eq:dispersion_relation}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code provides a well-structured and formatted representation of the physics equations and their derivations, suitable for inclusion in a scientific document."
+14.69,Error: Unable to process request after multiple attempts.
+14.70,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The electric field of the cable is radial and is given by
+
+\begin{equation}
+    E = E_r = \frac{V}{r \ln(b/a)}
+\end{equation}
+
+where \( a \) and \( b \) are the radii of the inner and outer cable. The corresponding magnetic intensity is tangential and is given by
+
+\begin{equation}
+    H = H_\phi = \frac{I}{2\pi r}
+\end{equation}
+
+As the angle between \( E \) and \( H \) is \( 90^\circ \), the Poynting vector magnitude is
+
+\begin{equation}
+    |S| = |E \times H| = EH
+\end{equation}
+
+So that
+
+\begin{equation}
+    S = S_z = \frac{VI}{2\pi r^2 \ln(b/a)}
+\end{equation}
+
+and the direction of \( S \) is that of the current in the positive conductor. The power flow is confined to the space between the conductors, and for any plane perpendicular to the axis of the conductor
+
+\begin{equation}
+    P = \int_a^b S_z 2\pi r \, dr = \int_a^b \frac{VI}{\ln(b/a)} \frac{dr}{r}
+\end{equation}
+
+where we have substituted \( S_z \) from (4). But
+
+\begin{equation}
+    \int_a^b \frac{dr}{r} = \ln(b/a)
+\end{equation}
+
+Therefore,
+
+\begin{equation}
+    P = VI
+\end{equation}
+
+This is the entire power transmitted by the cable. It follows that the Poynting theorem indicates that the entire flow of energy resides in the space between the conductors. If the resistance of the cable cannot be neglected, then \( V \) is no longer constant. An axial component of \( E \) is necessary to maintain the flow of current to compensate for the Ohmic energy loss.
+
+\end{document}
+```"
+14.71,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+
+\begin{document}
+
+The current density in the wire is given by 
+\[
+\bm{J} = \frac{I}{\pi a^2} \hat{\bm{e}}_z.
+\]
+Therefore, the electric field in the wire, including on the surface of the wire, will be 
+\[
+\bm{E} = \frac{I}{\pi a^2 \sigma} \hat{\bm{e}}_z.
+\]
+The magnetic field intensity by Ampere’s theorem is 
+\[
+\bm{H} = \frac{I}{2\pi a^2} \hat{\bm{e}}_\phi.
+\]
+The Poynting vector at the surface is given by 
+\[
+\bm{S} = \bm{E} \times \bm{H} = \left( \frac{I}{\pi a^2 \sigma} \hat{\bm{e}}_z \right) \times \left( \frac{I}{2\pi a} \hat{\bm{e}}_\phi \right) = -\frac{I^2}{2\pi^2 a^3 \sigma} \hat{\bm{e}}_r.
+\]
+\begin{equation}
+\bm{S} = -\frac{I^2}{2\pi^2 a^3 \sigma} \hat{\bm{e}}_r
+\end{equation}
+
+Now, Poynting’s theorem is 
+\[
+- \int_S (\bm{E} \times \bm{H}) \cdot d\bm{s} = \frac{\partial}{\partial t} \int_V \frac{\varepsilon |\bm{E}|^2}{2} \, dV + \frac{\partial}{\partial t} \int_V \frac{\mu |\bm{H}|^2}{2} \, dV + \int_V \bm{E} \cdot \bm{J} \, dV.
+\]
+Since the fields are constant in time, the first two terms on the right of (2), which contain the time derivative \(\partial/\partial t\), vanish. The power dissipated in the wire is then 
+\[
+P = \int \bm{E} \cdot \bm{J} \, dV = -\int (\bm{E} \times \bm{H}) \cdot d\bm{s} = -\frac{I^2}{2\pi^2 \sigma a^3} (2\pi a L) = \frac{I^2 L}{\pi \sigma a^2} = I^2 R.
+\]
+
+\end{document}
+```"
+14.72,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+Given:
+\begin{equation}
+    \mathbf{B} = -\frac{m_e}{ne^2} \nabla \times \mathbf{J}
+\end{equation}
+
+Use the vector identity:
+\begin{equation}
+    \nabla \times (\nabla \times \mathbf{B}) = -\nabla^2 \mathbf{B} + \nabla (\nabla \cdot \mathbf{B})
+\end{equation}
+
+Use Maxwell’s equations:
+\begin{equation}
+    \nabla \cdot \mathbf{B} = 0
+\end{equation}
+\begin{equation}
+    \nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}
+\end{equation}
+
+Here, 
+\begin{equation}
+    \frac{\partial \mathbf{D}}{\partial t} = \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t} = 0
+\end{equation}
+
+so that (4) becomes:
+\begin{equation}
+    \nabla \times \mathbf{B} = \mu_0 \mathbf{J}
+\end{equation}
+
+Using (3) and (6) in (2):
+\begin{equation}
+    \mu_0 \nabla \times \mathbf{J} = -\nabla^2 \mathbf{B}
+\end{equation}
+
+Using (1) in (7):
+\begin{equation}
+    \nabla^2 \mathbf{B} = \frac{\mu_0 n e^2}{m_e} \mathbf{B}
+\end{equation}
+
+\end{document}
+```"
+14.73,"To properly format the given physics text into LaTeX, we will use the appropriate syntax for equations and symbols. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Physics Equations}
+
+The high-frequency resistance is given by:
+\begin{equation}
+    R_s = \sqrt{\omega \mu 2 \sigma}
+\end{equation}
+
+The direct current resistance per metre is:
+\begin{equation}
+    R = \frac{1}{\sigma A} = \frac{1}{\sigma \pi r^2}
+\end{equation}
+
+The skin thickness is defined as:
+\begin{equation}
+    \delta = \sqrt{\frac{2}{\mu \sigma \omega}}
+\end{equation}
+
+For metals, assume $\mu = \mu_0$. Combining equations (1), (2), and (3), we have:
+\begin{equation}
+    \frac{R_s}{R} = \frac{\pi r^2}{\delta} \sqrt{\frac{\mu_0}{2}}
+\end{equation}
+
+Substituting the given values:
+\begin{equation}
+    \frac{R_s}{R} = \frac{\pi (10^{-3})^2}{6.6 \times 10^{-5}} \sqrt{\frac{4\pi \times 10^{-7}}{2}} = 3.77 \times 10^{-5}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will format the equations with proper alignment and mathematical notation, ensuring clarity and correctness in the representation of the physics problem and its solution."
+14.74,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+
+\begin{document}
+
+When a charge $q$ moves in a magnetic field, it experiences a magnetic force 
+\begin{equation}
+    \vb{F}_m = q \vb{v} \times \vb{B}
+\end{equation}
+
+When an electric conductor is physically moved across a magnetic field, the free electrons in the conductor will experience a force on them in the direction of the force. The flow of electrons implies the existence of a potential difference between the ends of the conductor. The situation is the same as if an electric field had been set up in the conductor, which is expressed by the relation 
+\begin{equation}
+    \vb{E}_m = \frac{\vb{F}_m}{q} = \frac{\vb{v} \times \vb{B}}{m}
+\end{equation}
+
+Equation (2) implies that every moving magnetic field is accompanied by an electric field. From (2) and the definition of the emf $\xi$ of a source, the instant emf of the source is 
+\begin{equation}
+    \xi = \int \vb{E}_m \cdot \dd{\vb{l}} = \int \vb{v} \times \vb{B} \cdot \dd{\vb{l}}
+\end{equation}
+
+This is the general expression for motional emf. Now Faraday’s law states that 
+\begin{equation}
+    \oint \vb{E}_m \cdot \dd{\vb{l}} = -\dv{\phi}{t}
+\end{equation}
+
+This equation states that every time-changing magnetic field has an electric field associated with it. Now the total flux through the surface is 
+\begin{equation}
+    \phi = \int_S \vb{B} \cdot \hat{\vb{n}} \dd{s}
+\end{equation}
+
+Therefore 
+\begin{equation}
+    \dv{\phi}{t} = \dv{t} \int \vb{B} \cdot \hat{\vb{n}} \dd{s}
+\end{equation}
+
+If the source and only the induction are changing, $\dv{t}$ outside the integral may be replaced by $\pdv{t}$ inside the integral. The expression becomes 
+\begin{equation}
+    \dv{\phi}{t} = \int \pdv{\vb{B}}{t} \cdot \hat{\vb{n}} \dd{s}
+\end{equation}
+
+Combining (7) with (4) 
+\begin{equation}
+    \oint_C \vb{E}_m \cdot \dd{\vb{l}} = - \int \pdv{\vb{B}}{t} \cdot \hat{\vb{n}} \dd{s}
+\end{equation}
+
+Transforming the line integral in (8) into a surface integral by the use of Stokes’ theorem 
+\begin{equation}
+    \oint_C \vb{E} \cdot \dd{\vb{l}} = - \int_S \hat{\vb{n}} \cdot (\nabla \times \vb{E}) \dd{s}
+\end{equation}
+
+Combining (8) and (9) 
+\begin{equation}
+    \int_S \hat{\vb{n}} \cdot (\nabla \times \vb{E}) \dd{s} = - \int_S \hat{\vb{n}} \cdot \pdv{\vb{B}}{t} \dd{s}
+\end{equation}
+
+Since this expression is true for any surface, the two integrals in (10) can be equated to yield 
+\begin{equation}
+    \nabla \times \vb{E} = -\pdv{\vb{B}}{t}
+\end{equation}
+
+This is known as Faraday’s law in point form or differential form.
+
+\end{document}
+```"
+14.75,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+Ampere's law is expressed by
+\begin{equation}
+    \oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 i
+\end{equation}
+where $\mathbf{B}$ is known as magnetic induction or magnetic field. Its unit is weber per metre square or tesla. If magnetic materials are placed in the field of induction, the elementary magnetic dipoles, permanent or induced, will set up their own field that will modify the original field. A large value of $\mathbf{B}$ in an iron core is explained by a subsidiary vector, the magnetization $\mathbf{M}$, which is the magnetic moment per unit volume of the core material. A hypothetical current $i_M$ is introduced and Ampere's law, (1), is modified accordingly:
+\begin{equation}
+    \oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 (i + i_M)
+\end{equation}
+Writing
+\begin{equation}
+    \oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 i + \mu_0 \oint \mathbf{M} \cdot d\mathbf{l}
+\end{equation}
+we find
+\begin{equation}
+    \oint \left( \mathbf{B} - \mu_0 \mathbf{M} \right) \cdot d\mathbf{l} = i
+\end{equation}
+or
+\begin{equation}
+    \oint \mathbf{H} \cdot d\mathbf{l} = i
+\end{equation}
+where
+\begin{equation}
+    \mathbf{H} = \frac{\mathbf{B} - \mu_0 \mathbf{M}}{\mu_0}
+\end{equation}
+is known as the magnetic field strength. Therefore,
+\begin{equation}
+    \mathbf{B} = \mu_0 (\mathbf{H} + \mathbf{M})
+\end{equation}
+The unit of $\mathbf{H}$ is henry per metre.
+
+\begin{itemize}
+    \item[(a)] For paramagnetic material, $\mathbf{B}$ is directly proportional to $\mathbf{H}$, the relation being $\mathbf{B} = k_m \mu_0 \mathbf{H}$, where $k_m$ is the permeability of the magnetic medium, which is a constant for a given temperature and density of the material.
+    \item[(b)] In ferromagnetic materials, the relationship between $\mathbf{B}$ and $\mathbf{H}$ is far from linear. The $\mathbf{B}$–$\mathbf{H}$ curve is known as the familiar hysteresis curve. $k_m$ is a function not only of the value of $\mathbf{H}$ but also because of hysteresis and is a function of the magnetic and thermal history of the specimen.
+\end{itemize}
+
+\end{document}
+```"
+14.76,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Consider Maxwell's equations:
+\begin{align}
+    \nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon} \tag{1} \\
+    \nabla \times \mathbf{H} &= \mathbf{J} + \frac{\partial \mathbf{D}}{\partial t} \tag{2}
+\end{align}
+
+Define a new electric potential function $\phi(\mathbf{r}, t)$ such that:
+\begin{equation}
+    \mathbf{E} = -\nabla \phi - \frac{\partial \mathbf{A}}{\partial t} \tag{3}
+\end{equation}
+
+The reason for redefining the scalar potential in this fashion is that equation (3) is consistent with Faraday's law:
+\begin{equation}
+    \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}
+\end{equation}
+as can be verified by substitution. On the other hand, the electrostatic definition $\mathbf{E} = -\nabla V$ is inconsistent with Faraday's law and therefore cannot be used in electrodynamics. However, the relation $\mathbf{B} = \nabla \times \mathbf{A}$ continues to be correct.
+
+Substituting equation (3) in (1), we obtain:
+\begin{equation}
+    \nabla^2 \phi + \frac{\partial}{\partial t} (\nabla \cdot \mathbf{A}) = -\frac{\rho}{\varepsilon} \tag{4}
+\end{equation}
+
+Substituting $\mathbf{B} = \nabla \times \mathbf{A}$ in (2), we get:
+\begin{equation}
+    \nabla^2 \mathbf{A} - \nabla (\nabla \cdot \mathbf{A}) = -\mu \mathbf{J} - \mu \varepsilon \frac{\partial \mathbf{E}}{\partial t} \tag{5}
+\end{equation}
+
+It is convenient to choose a Lorentz gauge given by:
+\begin{equation}
+    \nabla \cdot \mathbf{A} = -\frac{1}{c^2} \frac{\partial \phi}{\partial t} \tag{Lorentz condition}
+\end{equation}
+
+With the use of (6), equations (4) and (5) are simplified to:
+\begin{align}
+    \nabla^2 \phi - \frac{1}{c^2} \frac{\partial^2 \phi}{\partial t^2} &= -\frac{\rho}{\varepsilon} \tag{7} \\
+    \nabla^2 \mathbf{A} - \frac{1}{c^2} \frac{\partial^2 \mathbf{A}}{\partial t^2} &= -\mu \mathbf{J} \tag{8}
+\end{align}
+
+\end{document}
+```"
+14.77,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Electromagnetic Wave Equations}
+
+Faraday's law of induction is given by:
+\begin{equation}
+    \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t} \tag{1}
+\end{equation}
+
+Writing the curl in rectangular form gives:
+\begin{equation}
+    \frac{\partial E_y}{\partial z} = -\frac{\partial B_x}{\partial t}
+\end{equation}
+
+Integrating with respect to time and choosing the constant of integration as zero, we obtain:
+\begin{equation}
+    B_x = \frac{1}{v} f(z - vt) \tag{2}
+\end{equation}
+
+Notice that the variation of $\mathbf{B}$ is exactly the same as the variation of $\mathbf{E}$, except that $E_y$ and $B_x$ are at right angles to each other and perpendicular to the direction of propagation.
+
+From equation (2) and the relation $H_x = \frac{B_x}{\mu_0}$, we find:
+\begin{equation}
+    H_x = \frac{1}{\mu_0 v} f(x - vt) \tag{3}
+\end{equation}
+
+Thus, we have:
+\begin{equation}
+    E_y = \mu_0 v H_x \tag{4}
+\end{equation}
+
+Using the relation $v = \frac{1}{\sqrt{\mu_0 \varepsilon_0}}$, we can rewrite equation (4) in the form:
+\begin{equation}
+    E_y = Z_0 H_x
+\end{equation}
+where $Z_0 = \sqrt{\frac{\mu_0}{\varepsilon_0}} = 376.6 \, \Omega$.
+
+\end{document}
+```
+
+This LaTeX document provides a structured and formatted presentation of the electromagnetic wave equations, including Faraday's law, and the derived relationships between the electric and magnetic fields."
+14.78,Error: Unable to process request after multiple attempts.
+14.79,Error: Unable to process request after multiple attempts.
+14.80,Error: Unable to process request after multiple attempts.
+14.81,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a)}
+
+Reflectance \( R = 0 \) if 
+
+\begin{equation}
+n_2 \cos \theta - n_1 \cos \phi = 0
+\end{equation}
+
+Given 
+\begin{equation}
+\tan \theta = \frac{n_2}{n_1} \quad \text{(Brewster's law of polarization)}
+\end{equation}
+
+\begin{equation}
+\frac{\sin \theta}{\sin \phi} = \frac{n_2}{n_1} \quad \text{(Snell's law of refraction)}
+\end{equation}
+
+Combining equations (2) and (3), we have (see Fig. 14.11)
+
+\begin{equation}
+\sin \phi = \cos \theta
+\end{equation}
+
+or
+
+\begin{equation}
+\phi = 90^\circ - \theta
+\end{equation}
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Fig14_11.png} % Placeholder for Fig. 14.11
+\end{center}
+
+Eliminating \( n_2 \) between equations (1) and (2):
+
+\[
+n_2 \cos \theta - n_1 \cos \phi = n_1 (\sin \theta - \cos \phi) = n_1 (\sin \theta - \sin \theta) = 0
+\]
+
+where we have used equation (5).
+
+\subsection*{(b)}
+
+\[
+\tan \theta = \frac{n_2}{n_1} = \frac{1.5}{1} = 1.5
+\]
+
+Therefore,
+
+\[
+\theta = 56.31^\circ
+\]
+
+\end{document}
+```
+
+This LaTeX code formats the given physics text into a structured document with equations, explanations, and a placeholder for a figure. Make sure to replace `Fig14_11.png` with the actual image file path if you have the figure to include."
+14.82,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a)}
+
+The reflectance \( R \) is given by:
+
+\[
+R = \left( \frac{n_1 - n_2}{n_1 + n_2} \right)^2 = \left( \frac{n_1 n_2 - 1}{n_1 n_2 + 1} \right)^2 = \left( \frac{x - 1}{x + 1} \right)^2
+\]
+
+where \( x = \frac{n_1}{n_2} \).
+
+The transmittance \( T \) is:
+
+\[
+T = 1 - R = \frac{4x}{(x+1)^2}
+\]
+
+\subsection*{(b)}
+
+Setting \( R = T \) yields the quadratic equation:
+
+\[
+x^2 - 6x + 1 = 0
+\]
+
+The solution to this equation is:
+
+\[
+x = 3 + 2\sqrt{2} \quad \text{or} \quad x = \frac{5 + \sqrt{8}}{2}
+\]
+
+Thus, for \( \frac{n_1}{n_2} = 5.828 \), we get \( R = T = 0.5 \).
+
+\end{document}
+```
+
+This LaTeX code formats the given physics problem and solution with proper equations and structure."
+14.83,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+Using Maxwell's equations:
+\begin{align}
+    \nabla \cdot \mathbf{E} &= 0 \quad (1) \\
+    \nabla \cdot \mathbf{B} &= 0 \quad (2) \\
+    \nabla \times \mathbf{E} &= -\frac{\partial \mathbf{B}}{\partial t} \quad (3)
+\end{align}
+
+(a) Let the electric and magnetic fields be given by:
+\begin{align}
+    \mathbf{E} &= \mathbf{E}_0 e^{i(\omega t - \mathbf{k} \cdot \mathbf{r} + \phi)} \quad (4) \\
+    \mathbf{B} &= \mathbf{B}_0 e^{i(\omega t - \mathbf{k} \cdot \mathbf{r} + \phi)} \quad (5)
+\end{align}
+
+Let the wave be propagated in the $z$-direction. Then:
+\begin{align*}
+    \nabla \cdot \mathbf{E} &= -i \mathbf{k} \cdot \mathbf{E} = 0 \\
+    \nabla \cdot \mathbf{B} &= -i \mathbf{k} \cdot \mathbf{B} = 0
+\end{align*}
+
+This shows that both $\mathbf{E}$ and $\mathbf{B}$ are perpendicular to $\mathbf{k}$, which is the direction of propagation. Therefore, both $\mathbf{E}$ and $\mathbf{B}$ are transverse oscillations.
+
+(b) $\mathbf{B}$ and $\mathbf{E}$ are in phase.
+
+(c) Using equation (3):
+\begin{align*}
+    \nabla \times \mathbf{E} &= -i \mathbf{k} \times \mathbf{E} = -i \omega \mathbf{B} \\
+    \therefore \mathbf{B} &= \frac{\mathbf{k} \times \mathbf{E}}{\omega} = \frac{1}{c} \frac{\mathbf{k} \times \mathbf{E}}{k} \\
+    \therefore \mathbf{B} &= \frac{1}{c} \hat{\mathbf{s}} \times \mathbf{E} \quad (6)
+\end{align*}
+
+where $\hat{\mathbf{s}} = \mathbf{k}/k$ is a unit vector in the direction of propagation. The three vectors $\mathbf{E}$, $\mathbf{B}$, and $\mathbf{k}$ form a right-handed rectangular coordinate system. From equation (6), we obtain $\mathbf{B} = \mathbf{E}/c$.
+
+\end{document}
+```
+
+This LaTeX code formats the given physics text into a structured document with equations properly aligned and labeled."
+14.84,"To convert the given physics text into properly formatted LaTeX, we need to ensure that all symbols, equations, and units are correctly formatted. Here's the LaTeX code for the given expression:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+The electric field \( E \) is given by:
+
+\[
+E = \frac{\sigma}{2 \varepsilon_r \varepsilon_0}
+\]
+
+Solving for \(\sigma\), we have:
+
+\[
+\sigma = 2 \varepsilon_0 \varepsilon_r E
+\]
+
+Substituting the given values:
+
+\[
+\sigma = 2 \times 8.85 \times 10^{-12} \, \si{\farad\per\meter} \times 6 \times 2 \times 10^{3} \, \si{\volt\per\meter}
+\]
+
+Calculating the result:
+
+\[
+\sigma = 2.124 \times 10^{-7} \, \si{\coulomb\per\meter\squared}
+\]
+
+\end{document}
+```
+
+This LaTeX code includes the necessary packages for formatting equations and units, and it clearly presents the calculation process."
+14.85,Error: Unable to process request after multiple attempts.
+14.86,"Certainly! Below is the properly formatted LaTeX code for the given physics equations:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Equations}
+
+Given the dispersion relation:
+\[
+\omega = a k^2
+\]
+
+\begin{enumerate}
+    \item The phase velocity \( v_p \) is given by:
+    \[
+    v_p = \frac{\omega}{k} = a k
+    \]
+
+    \item The group velocity \( v_g \) is given by:
+    \[
+    v_g = \frac{d\omega}{dk} = 2 a k = 2 v_p
+    \]
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code will render the equations with proper formatting and alignment. The document class used is `article`, and the `amsmath` package is included to handle the mathematical expressions."
+14.87,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item[(a)] 
+    \[
+    v_p = \frac{1}{\sqrt{\varepsilon \mu}} \tag{1}
+    \]
+
+    \item[(b)] 
+    \[
+    n = \sqrt{\varepsilon_r} \quad \Rightarrow \quad \varepsilon_r = n^2 = 1 - \frac{D^2}{\omega^2} \quad \therefore \quad n = \sqrt{1 - \frac{D^2}{\omega^2}} \tag{2}
+    \]
+    \[
+    v_p = \frac{c}{n} = \frac{c}{\sqrt{1 - \frac{D^2}{\omega^2}}} \tag{3}
+    \]
+
+    Squaring (3) and rearranging:
+    \[
+    \omega^2 = D^2 + \frac{\omega^2 c^2}{v_p^2} = D^2 + k^2 c^2 \tag{4}
+    \]
+    \[
+    \therefore \quad v_p = \frac{\omega}{k}
+    \]
+
+    \item[(c)]
+    Differentiating with \( D \) with \( c \) constant,
+    \[
+    \omega \frac{d\omega}{dk} = c^2 k \quad \therefore \quad v_g = \frac{d\omega}{dk} = \frac{c^2 k}{\omega} = \frac{c^2}{v_p} = c \sqrt{1 - \frac{D^2}{\omega^2}}
+    \]
+    \[
+    \therefore \quad v_p v_g = c^2 \tag{5}
+    \]
+
+    \item[(d)]
+    Substituting \( D = 1.2 \times 10^{11} \, \text{s}^{-1} \), \( \omega = 2\pi \times 20 \times 10^9 \, \text{Hz} \), and \( c = 3 \times 10^8 \, \text{m/s} \) in (3), we find
+    \[
+    v_p = 1.016 \times 10^9 \, \text{m/s}
+    \]
+
+    Substituting \( v_p = 1.016 \times 10^9 \, \text{m/s} \) in (5), we find
+    \[
+    v_g = 8.858 \times 10^7 \, \text{m/s}
+    \]
+
+    It is observed that while \( v_p > c \), \( v_g < c \).
+\end{enumerate}
+
+\end{document}
+```"
+14.88,"Certainly! Below is the properly formatted LaTeX code for the given physics equations:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{align}
+    V_g &= \frac{d\omega}{dk} \tag{1} \\
+    \omega &= vk \tag{2} \\
+    \therefore V_g &= \frac{d}{dk}(vk) = v + k\frac{dv}{dk} \tag{3}
+\end{align}
+
+\end{document}
+```
+
+This code uses the `align` environment from the `amsmath` package to properly align the equations and includes tags for equation numbering."
+14.89,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The group velocity \( V_g \) is given by:
+
+\begin{equation}
+    V_g = v + k \frac{dv}{dk} \quad \text{(by prob. 14.88)}
+\end{equation}
+
+Given the phase velocity:
+
+\begin{equation}
+    V = \frac{c}{n}
+\end{equation}
+
+Substituting equation (2) into equation (1), we have:
+
+\begin{align}
+    V_g &= \frac{c}{n} + k \frac{d}{dk} \left( \frac{c}{n} \right) \\
+    &= \frac{c}{n} - ck \frac{1}{n^2} \frac{dn}{dk}
+\end{align}
+
+Now, consider the derivative \(\frac{dn}{dk}\):
+
+\begin{align}
+    \frac{dn}{dk} &= \frac{dn}{d\lambda} \cdot \frac{d\lambda}{dk} \\
+    &= \frac{dn}{d\lambda} \cdot \frac{d}{dk} \left( \frac{2\pi}{k} \right) \\
+    &= -\frac{2\pi}{k^2} \frac{dn}{d\lambda}
+\end{align}
+
+Using equation (4) in equation (3), we find:
+
+\begin{equation}
+    V_g = \frac{c}{n} + \frac{\lambda c}{n^2} \frac{dn}{d\lambda}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and solution with equations properly aligned and numbered."
+14.90,"To convert the given physics text into properly formatted LaTeX, we need to structure the equations clearly and use appropriate LaTeX syntax. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Given that \( v \propto \frac{1}{\lambda} \) (by problem), we have:
+
+\[
+v = A k \quad \text{(where \( A \) is a constant)}
+\]
+
+The group velocity \( v_g \) is given by:
+
+\[
+v_g = v + k \frac{dv}{dk}
+\]
+
+Substituting \( v = A k \) into the expression for \( v_g \):
+
+\[
+\frac{dv}{dk} = \frac{d}{dk}(A k) = A
+\]
+
+Thus, the expression for the group velocity becomes:
+
+\[
+v_g = A k + k \cdot A = A k + A k = 2 A k = 2 v
+\]
+
+\end{document}
+```
+
+This LaTeX code will properly format the equations and ensure they are displayed correctly in a document. The use of `\propto`, `\frac{}`, and `\cdot` ensures that the mathematical relationships are clearly represented."
+14.91,"To convert the given physics text into properly formatted LaTeX, we need to ensure that the equations are clear and well-structured. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+We start with the group velocity equation:
+
+\begin{equation}
+    v_g = v + k \frac{dv}{dk} = v + k v_g \frac{dv}{d\omega}
+\end{equation}
+
+Now, using the relation for phase velocity:
+
+\begin{equation}
+    v = \frac{c}{n}
+\end{equation}
+
+we find:
+
+\begin{equation}
+    \frac{dv}{d\omega} = \frac{dv}{dn} \cdot \frac{dn}{d\omega} = -\frac{c}{n^2} \frac{dn}{d\omega}
+\end{equation}
+
+Substituting equations (2) and (3) into equation (1), and using the relation \(\omega = k v\), we rearrange to get:
+
+\begin{equation}
+    v_g = \frac{c}{n + \omega \left(\frac{dn}{d\omega}\right)}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary equations and ensures that each step is clearly presented. The equations are numbered for easy reference, and the use of `amsmath` package ensures proper alignment and formatting of the mathematical expressions."
+14.92,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The group velocity \( V_g \) is given by the formula:
+
+\[
+V_g = \frac{\text{distance}}{\text{time}} = \frac{50}{1 \times 10^{-6}} = 5 \times 10^7 \, \text{m/s}
+\]
+
+The relationship between group velocity \( V_g \) and the speed of light \( c \) is:
+
+\[
+V_g = c \sqrt{1 - \left(\frac{\lambda}{2a}\right)^2}
+\]
+
+Substituting the known values:
+
+\[
+5 \times 10^7 = 3 \times 10^8 \sqrt{1 - \left(\frac{\lambda}{5}\right)^2}
+\]
+
+Solving for \(\lambda\), we find the free-space wavelength:
+
+\[
+\lambda = 4.93 \, \text{cm}
+\]
+
+The phase velocity \( V_p \) is given by:
+
+\[
+V_p = \frac{c^2}{V_g} = \frac{(3 \times 10^8)^2}{5 \times 10^7} = 1.8 \times 10^9 \, \text{m/s}
+\]
+
+\end{document}
+```"
+14.93,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The group velocity \( V_g \) is given by the derivative of angular frequency \(\omega\) with respect to the wave number \( k \):
+
+\begin{equation}
+V_g = \frac{d\omega}{dk}
+\end{equation}
+
+Rewriting equation (1), we have:
+
+\begin{equation}
+\frac{1}{V_g} = \frac{dk}{d\omega}
+\end{equation}
+
+Thus,
+
+\begin{equation}
+\frac{1}{V_g} = \frac{d}{d\omega} \left( \frac{\omega}{V_p} \right) = \frac{1}{V_p} - \frac{\omega}{V_p^2} \frac{dV_p}{d\omega}
+\end{equation}
+
+Substituting \( V_p = \frac{c}{n} \) into equation (2), we get:
+
+\begin{equation}
+\frac{1}{V_g} = \frac{1}{V_p} - \frac{\omega n^2 c}{c^2} \left( -\frac{1}{n^2} \frac{dn}{d\omega} \right) = \frac{1}{V_p} + \frac{\omega}{c} \frac{dn}{d\omega}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will format the physics equations correctly, ensuring clarity and proper mathematical notation."
+14.94,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The group velocity \( V_g \) is given by the derivative of angular frequency \( \omega \) with respect to the wave number \( k \):
+
+\[
+V_g = \frac{\partial \omega}{\partial k}
+\]
+
+Therefore, the reciprocal of the group velocity is:
+
+\[
+\frac{1}{V_g} = \frac{\partial k}{\partial \omega} = \frac{\partial (2\pi/\lambda)}{\partial (2\pi \nu)} = \frac{\partial (1/\lambda)}{\partial \nu}
+\]
+
+Given that the refractive index \( n \) is related to the phase velocity \( v_p \) by:
+
+\[
+n = \frac{c}{v_p} = \frac{c}{\nu \lambda} \rightarrow \frac{1}{\lambda} = \frac{n \nu}{c}
+\]
+
+Thus, the group velocity can be expressed as:
+
+\[
+V_g = \frac{\partial \nu}{\partial (1/\lambda)} = \frac{\partial \nu}{\partial (n \nu / c)} = c \frac{\partial \nu}{\partial (n \nu)}
+\]
+
+\end{document}
+```
+
+This LaTeX code formats the given physics equations and relationships in a clear and structured manner, using appropriate mathematical notation and alignment."
+14.95,"To convert the given physics text into properly formatted LaTeX, we need to ensure that each equation is clearly presented with appropriate mathematical symbols and formatting. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The group velocity \( v_g \) is given by:
+
+\[
+v_g = \frac{d\omega}{dk} = \frac{d(\hbar \omega)}{d(\hbar k)} = \frac{dE}{dp}
+\]
+
+For a free particle, the energy \( E \) is given by:
+
+\[
+E = \frac{p^2}{2m}
+\]
+
+Taking the derivative with respect to \( p \), we have:
+
+\[
+\frac{dE}{dp} = \frac{d}{dp}\left(\frac{p^2}{2m}\right) = \frac{1}{2m} \cdot \frac{d(p^2)}{dp} = \frac{2p}{2m} = \frac{p}{m} = v
+\]
+
+Thus, the group velocity \( v_g \) is equal to the particle velocity \( v \).
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the equations properly formatted and aligned. The use of `\frac` ensures that fractions are displayed correctly, and the equations are presented in a clear and readable manner."
+14.96,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+By problem (14.85), we have:
+\begin{equation}
+    \frac{V_p - V_g}{V_p} = -n \lambda \frac{dn}{d\lambda}
+\end{equation}
+where
+\begin{equation}
+    V_p = \frac{c}{n}
+\end{equation}
+
+Re-arranging equation (1) with the aid of equation (2) and writing $\mu$ for $n$, we find:
+\begin{equation}
+    V_g = c \left[ 1 + \mu + \lambda \frac{d\mu}{d\lambda} \right]
+\end{equation}
+
+Given:
+\begin{equation}
+    \mu = 1.420 + 3.60 \times 10^{-14} \lambda^2 \quad \text{(by problem)}
+\end{equation}
+
+Substituting $\lambda = 500 \, \text{nm} = 5 \times 10^{-7} \, \text{m}$ in equation (4), we get:
+\begin{equation}
+    \mu = 1.564
+\end{equation}
+
+Differentiating $\mu$ with respect to $\lambda$ in equation (4):
+\begin{equation}
+    \frac{d\mu}{d\lambda} = -7.2 \times 10^{-14} \lambda^3
+\end{equation}
+
+Thus,
+\begin{equation}
+    \lambda \frac{d\mu}{d\lambda} = -7.2 \times 10^{-14} \lambda^2 = -0.288
+\end{equation}
+
+Substituting equations (5) and (6) in equation (3), we find:
+\begin{equation}
+    V_g = 0.35 \, c
+\end{equation}
+
+\end{document}
+```"
+14.97,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Waveguide Analysis}
+
+\begin{enumerate}
+    \item[(a)] Assuming the dominant mode for \( a = 2.5 \, \text{cm} \) and \( b = 2.5 \, \text{cm} \) for the rectangular waveguide, and \( c = 3 \times 10^8 \, \text{m/s} \), the velocity of electromagnetic waves in free space, the phase velocity \( V_p \) is given by:
+    \[
+    V_p = \frac{c}{\sqrt{1 - \left(\frac{\lambda}{2a}\right)^2}} = \frac{3 \times 10^8}{\sqrt{1 - \left(\frac{4}{5}\right)^2}} = 5 \times 10^8 \, \text{m/s}
+    \]
+
+    \item[(b)] The group velocity \( V_g \) is given by:
+    \[
+    V_g = c \sqrt{1 - \left(\frac{\lambda}{2a}\right)^2} = 3 \times 10^8 \sqrt{1 - \left(\frac{4}{5}\right)^2} = 1.8 \times 10^8 \, \text{m/s}
+    \]
+
+    \item[(c)] The guided wavelength \( \lambda_g \) is given by:
+    \[
+    \lambda_g = \frac{\lambda}{\sqrt{1 - \left(\frac{\lambda}{2a}\right)^2}} = \frac{4}{\sqrt{1 - \left(\frac{4}{5}\right)^2}} = 6.67 \, \text{cm}
+    \]
+\end{enumerate}
+
+\end{document}
+```"
+14.98,"To convert the given physics text into properly formatted LaTeX, we need to clearly define the equations and their relationships. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Given the equations:
+
+\begin{equation}
+    \lambda_g = \lambda \sqrt{1 - \left(\frac{\lambda}{2a}\right)^2}
+\end{equation}
+
+and 
+
+\begin{equation}
+    \lambda_g = 3\lambda
+\end{equation}
+
+By combining equations (1) and (2), and solving for \(\lambda\) with \(a = 3 \, \text{cm}\), we find the free-space wavelength:
+
+\begin{equation}
+    \lambda = 4\sqrt{2} \, \text{cm}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the equations properly formatted and aligned, clearly showing the relationships and the solution."
+14.99,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem}
+
+\begin{enumerate}
+    \item[(a)] Calculate the guided wavelength \(\lambda_g\):
+    \[
+    \lambda_g = \lambda \sqrt{1 - \left(\frac{\lambda}{2a}\right)^2}
+    \]
+    Given \(\lambda = 8 \, \text{cm}\) and \(a = 5 \, \text{cm}\), we have:
+    \[
+    \lambda_g = 8 \sqrt{1 - \left(\frac{8}{10}\right)^2} = 13.33 \, \text{cm}
+    \]
+
+    \item[(b)] Calculate the cut-off wavelength \(\lambda_c\):
+    \[
+    \lambda_c = 2a = 2 \times 5 = 10 \, \text{cm}
+    \]
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code will display the equations and calculations in a clear and structured manner, suitable for a physics problem set."
+14.100,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+The number of modes \( N \) in a given frequency range is given by:
+
+\[
+N = \frac{8\pi \nu^2 \, d\nu \, V}{c^3} = \frac{8\pi \, d\lambda \cdot V}{\lambda^4}
+\]
+
+Given:
+\begin{align*}
+\text{Mean wavelength, } \lambda &= 5500 \, \text{\AA} = 5.5 \times 10^{-7} \, \text{cm} \\
+d\lambda &= (6000 - 5000) \, \text{\AA} = 10^{-7} \, \text{cm} \\
+V &= (0.5)^3 \, \text{cm}^3
+\end{align*}
+
+Substituting these values into the equation for \( N \):
+
+\[
+N = \frac{8\pi \times 10^{-7} \times (0.5)^3}{(5.5 \times 10^{-7})^4} = 3.43 \times 10^{18}
+\]
+
+\end{document}
+```
+
+This LaTeX code will correctly format the physics problem and solution with the appropriate mathematical notation and alignment."
+14.101,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The cut-off frequency of the TM$_{mn}$ or TE$_{mn}$ mode is given by:
+
+\[
+\omega_{mn} = c \left[ \left(\frac{\pi m}{a}\right)^2 + \left(\frac{\pi n}{b}\right)^2 \right]^{1/2}
+\]
+
+The lowest value we can have for $\nu_{mn}$ is for the choice $m = 1$, $a = 15$, and $n = 0$, that is, for the TM$_{10}$ wave. Therefore,
+
+\[
+\nu_{10} = \frac{c}{2} \times \frac{1}{15} = \frac{3 \times 10^8}{30} = 10^7 \, \text{Hz} = 10^4 \, \text{kHz}
+\]
+
+This is much above the range of AM waves (530–1600 kHz). Hence, AM waves cannot propagate in the tunnel.
+
+\end{document}
+```
+
+This LaTeX code will format the given physics text into a well-structured document, with equations properly aligned and typeset."
+14.102,"To properly format the given physics text into LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The cut-off frequency will be least for TE$_{10}$ waves. Of course, TM$_{10}$ waves do not exist. The cut-off frequency for TE$_{10}$ waves is given by:
+
+\[
+\nu_{10} = \frac{c}{2\pi} \cdot \frac{\pi}{a} = \frac{c}{2a}
+\]
+
+Substituting the values, where \( c = 3 \times 10^8 \, \text{m/s} \) and \( a = 0.05 \, \text{m} \):
+
+\[
+\nu_{10} = \frac{3 \times 10^8}{2 \times 0.05} = 3 \times 10^9 \, \text{Hz} = 3 \, \text{GHz}
+\]
+
+Note that we take the higher dimension (5 cm) for the lower value of the cut-off frequency.
+
+\end{document}
+```
+
+This LaTeX code will format the physics text with equations and explanations correctly, ensuring clarity and proper mathematical representation."
+14.103,Error: Unable to process request after multiple attempts.
+14.104,Error: Unable to process request after multiple attempts.

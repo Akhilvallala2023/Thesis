@@ -1,0 +1,3070 @@
+Question_number,Question
+4.1,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Moment of Inertia of a Sphere}
+
+Imagine the sphere of mass $M$ and radius $R$ to be made of a series of circular discs, a typical one being of thickness $dx$ at distance $x$ from the center, as shown in Fig. 4.16. The area of the disc is $\pi(R^2 - x^2)$, and if the density of the sphere is $\rho$, the mass of the disc is $\rho \pi (R^2 - x^2) dx$.
+
+The elementary moment of inertia of the disc about the axis OX is given by:
+
+\[
+dI = \frac{1}{2} \text{(mass)} \times \text{(radius)}^2 = \frac{1}{2} \pi \rho (R^2 - x^2) dx (R^2 - x^2)
+\]
+
+Hence, the moment of inertia of the sphere is:
+
+\[
+I = \int dI = \int_0^R \frac{\pi \rho}{2} (R^2 - x^2)^2 \, dx
+\]
+
+Evaluating the integral, we find:
+
+\[
+I = \frac{8\pi \rho}{15} R^5
+\]
+
+Substituting $\rho = \frac{3M}{4\pi R^3}$, we have:
+
+\[
+I = \frac{2}{5} M R^2
+\]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{sphere_diagram.png} % Replace with actual image file
+    \caption{Fig. 4.16: Cross-section of the sphere showing a typical disc.}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary formatting for the physics problem and solution, with equations properly aligned and formatted. The figure reference is included, assuming an image file named `sphere_diagram.png` is available. Adjust the image file name as necessary."
+4.2,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the masses \( m_1 \) and \( m_2 \) be at distances \( r_1 \) and \( r_2 \), respectively, from the center of mass. Then, the distances are given by:
+
+\[
+r_1 = \frac{m_2 r}{m_1 + m_2}, \quad r_2 = \frac{m_1 r}{m_1 + m_2}
+\]
+
+The moment of inertia of the masses about the center of mass is given by:
+
+\[
+I = m_1 r_1^2 + m_2 r_2^2
+\]
+
+Substituting the expressions for \( r_1 \) and \( r_2 \), we have:
+
+\[
+I = m_1 \left( \frac{m_2 r}{m_1 + m_2} \right)^2 + m_2 \left( \frac{m_1 r}{m_1 + m_2} \right)^2
+\]
+
+Simplifying, we get:
+
+\[
+I = \frac{m_1 m_2^2 r^2}{(m_1 + m_2)^2} + \frac{m_2 m_1^2 r^2}{(m_1 + m_2)^2}
+\]
+
+\[
+I = \frac{m_1 m_2 (m_2 + m_1) r^2}{(m_1 + m_2)^2}
+\]
+
+\[
+I = \frac{m_1 m_2}{m_1 + m_2} r^2
+\]
+
+Thus, the moment of inertia can be expressed as:
+
+\[
+I = \mu r^2
+\]
+
+where \( \mu = \frac{m_1 m_2}{m_1 + m_2} \).
+
+\end{document}
+```"
+4.3,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Moment of Inertia of a Cone}
+
+Consider the cone to be made up of a series of discs, a typical one of radius $r$ and of thickness $dz$ at distance $z$ from the apex. The volume of the disc is given by:
+
+\[
+dV = \pi r^2 dz
+\]
+
+Its mass will be:
+
+\[
+dm = \rho dV = \pi \rho r^2 dz
+\]
+
+where $\rho$ is the mass density of the cone. The moment of inertia $dI$ of the disc about the $z$-axis is given by:
+
+\[
+dI = \frac{1}{2} r^2 dm = \frac{\pi}{2} \rho r^4 dz
+\]
+
+From the geometry of the figure, we have the relation:
+
+\[
+\frac{r}{a} = \frac{z}{h} \quad \text{or} \quad r = \frac{az}{h}
+\]
+
+where $h$ is the height of the cone and $a$ is the radius of the base. Substituting for $r$, we get:
+
+\[
+dI = \frac{\pi}{2} \rho \left(\frac{az}{h}\right)^4 dz = \frac{\pi}{2} \rho \frac{a^4}{h^4} z^4 dz
+\]
+
+The total moment of inertia $I$ is obtained by integrating $dI$ from $z = 0$ to $z = h$:
+
+\[
+I = \int dI = \frac{\pi}{2} \rho \frac{a^4}{h^4} \int_0^h z^4 dz
+\]
+
+Evaluating the integral, we have:
+
+\[
+I = \frac{\pi}{2} \rho \frac{a^4}{h^4} \left[ \frac{z^5}{5} \right]_0^h = \frac{\pi}{10} \rho a^4 h
+\]
+
+Given that the mass density $\rho$ is:
+
+\[
+\rho = \frac{3M}{\pi a^2 h}
+\]
+
+Substituting $\rho$ into the expression for $I$, we find:
+
+\[
+I = \frac{3M a^2}{10}
+\]
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Fig4_17.png} % Replace with the actual path to the figure
+\end{center}
+
+\end{document}
+```
+
+This LaTeX code formats the given physics problem and solution, including the necessary equations and logical steps, and provides a placeholder for the referenced figure (Fig. 4.17)."
+4.4,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Consider a slice of the cylinder of thickness \( dz \) at distance \( z \) from the center of mass of the cylinder \( O \). The moment of inertia about an axis passing through the center of the slice and perpendicular to the \( z \)-axis will be 
+
+\[
+dI = \frac{1}{4} dm R^2
+\]
+
+Refer to Fig. 4.18. Then the moment of inertia about an axis parallel to the slice and passing through the center of mass is given by the parallel axis theorem, as shown in Fig. 4.18. Thus,
+
+\[
+dI_C = \frac{1}{4} dm R^2 + dm z^2 = \pi R^2 \rho \left( \frac{R^2}{4} + z^2 \right) dz
+\]
+
+where \( dm = \pi R^2 \rho dz \) is the mass of the slice and \( \rho \) is the density. Therefore,
+
+\[
+I_C = \int dI_C = \pi R^2 \rho \int_{-h/2}^{h/2} \left( \frac{R^2}{4} + z^2 \right) dz
+\]
+
+Evaluating the integral, we have:
+
+\[
+I_C = \pi R^2 \rho \left[ \frac{R^2}{4} h + \frac{h^3}{12} \right]
+\]
+
+But since \( \rho = \frac{M}{\pi R^2 h} \), substituting this into the equation gives:
+
+\[
+I_C = \frac{M}{12} \left( 3R^2 + h^2 \right)
+\]
+
+\end{document}
+```
+
+This LaTeX code includes the necessary equations and explanations, formatted correctly for a physics problem involving the moment of inertia of a cylindrical slice."
+4.5,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The moment of inertia of the larger solid sphere of mass \( M \) is given by
+\begin{equation}
+    I_1 = \frac{2}{5} M a^2
+\end{equation}
+
+The moment of inertia of the smaller solid sphere of mass \( m \), which is removed to hollow the sphere, is
+\begin{equation}
+    I_2 = \frac{2}{5} m b^2
+\end{equation}
+
+As the axis about which the moment of inertia is calculated is common to both spheres, the moment of inertia of the hollow sphere will be
+\begin{align}
+    I &= I_1 - I_2 \\
+      &= \frac{2}{5} (M a^2 - m b^2) \\
+      &= (M - m) k^2
+\end{align}
+where \( (M - m) \) is the mass of the hollow sphere and \( k \) is the radius of gyration.
+
+Now, 
+\begin{equation}
+    M = \frac{4}{3} \pi a^3 \rho \quad \text{and} \quad m = \frac{4}{3} \pi b^3 \rho
+\end{equation}
+
+Using equation (4) in equation (3) and simplifying, we get
+\begin{equation}
+    k = \sqrt{\frac{2}{5} \frac{a^5 - b^5}{a^3 - b^3}}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will format the given physics problem and solution with proper mathematical notation and alignment."
+4.6,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Problem}
+
+\begin{enumerate}
+    \item[(a)] Let \( AB \) represent a thin rod of length \( L \) and mass \( M \), as shown in Fig. 4.19. Choose the \( x \)-axis along the length of the rod and the \( y \)-axis perpendicular to it, passing through its center of mass \( O \). Consider a differential element of length \( dx \) at a distance \( x \) from \( O \). The mass associated with this element is \(\frac{M}{L} dx\). The contribution to the moment of inertia about the \( y \)-axis by this element of length will be \(\frac{M}{L} dx \cdot x^2\). The moment of inertia of the rod about the \( y \)-axis passing through the center of mass is
+
+    \[
+    I_C = \int dI_C = \int_{-L/2}^{L/2} \frac{M}{L} x^2 \, dx = \frac{ML^2}{12}
+    \]
+
+    \item[(b)] The moment of inertia about the \( y \)-axis passing through the end of the rod (either \( A \) or \( B \)) is given by the parallel axis theorem:
+
+    \[
+    I_A = I_B = I_C + M \left(\frac{L}{2}\right)^2 = \frac{ML^2}{3}
+    \]
+
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig4_19.png}
+    \caption{Diagram of the rod \( AB \) with center of mass \( O \).}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code correctly formats the physics problem and solution, including the use of integrals and the parallel axis theorem for calculating moments of inertia. The figure reference is included as a placeholder, assuming the figure is available as `fig4_19.png`. Adjust the figure path as necessary."
+4.7,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The moment of inertia of the plate about the \( x \)-axis is 
+\[
+I_x = \frac{1}{3} M b^2
+\]
+and about the \( y \)-axis is 
+\[
+I_y = \frac{1}{3} M a^2.
+\]
+
+It can be shown that the moment of inertia about the line \( BD \) is 
+\[
+I_{BD} = \frac{1}{3} M b^2 \cos^2 \theta + \frac{1}{3} M a^2 \sin^2 \theta
+\]
+where \( \theta \) is the angle made by \( BD \) with the \( x \)-axis.
+
+From Fig. 4.20, 
+\[
+\cos \theta = \frac{a}{\sqrt{a^2 + b^2}} \quad \text{and} \quad \sin \theta = \frac{b}{\sqrt{a^2 + b^2}}.
+\]
+
+Therefore, 
+\[
+I_{BD} = \frac{1}{3} M b^2 \frac{a^2}{a^2 + b^2} + \frac{1}{3} M a^2 \frac{b^2}{a^2 + b^2} = \frac{2}{3} M \frac{a^2 b^2}{a^2 + b^2}.
+\]
+
+\begin{center}
+\textbf{Fig. 4.20}
+\end{center}
+
+\end{document}
+```"
+4.8,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The moment of inertia about any side of a triangle is given by the product of one-sixth the mass $m$ of the triangle and the square of the distance $p$ from the opposite vertex, i.e.,
+\[
+I = \frac{mp^2}{6}.
+\]
+
+The perpendicular $BD$ on $AC$ is found to be equal to $\frac{12}{5}$ from the geometry of Fig. 4.21.
+
+\begin{figure}[h]
+    \centering
+    % Insert the figure here, e.g., \includegraphics{figure.png}
+    \caption{Geometry of the triangle}
+    \label{fig:triangle}
+\end{figure}
+
+For the sides of the triangle, the moments of inertia are calculated as follows:
+
+\[
+I_1 = \frac{m}{6} (AB)^2 = \frac{m}{6} \times 64 = \frac{8m}{3}
+\]
+
+\[
+I_2 = \frac{m}{6} (BC)^2 = \frac{m}{6} \times 36 = \frac{3m}{2}
+\]
+
+\[
+I_3 = \frac{m}{6} (BD)^2 = \frac{m}{6} \left(\frac{12}{5}\right)^2 = \frac{24m}{25}
+\]
+
+Thus, we have the inequality:
+\[
+I_1 > I_2 > I_3
+\]
+
+\end{document}
+```"
+4.9,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+If the radius of the sphere is \( r \), then the volume of the sphere must be equal to that of the disc:
+
+\[
+\frac{4}{3} \pi r^3 = \pi R^2 \cdot \frac{R}{6}
+\]
+
+Solving for \( r \), we get:
+
+\[
+r = \frac{R}{2}
+\]
+
+The moment of inertia of the disc \( I_D \) is given by:
+
+\[
+I_D = \frac{1}{2} m R^2
+\]
+
+The moment of inertia of the sphere \( I_S \) is:
+
+\[
+I_S = \frac{2}{5} m r^2 = \frac{2}{5} m \left(\frac{R}{2}\right)^2 = \frac{2}{5} m \frac{R^2}{4} = \frac{1}{5} \times \frac{1}{2} m R^2 = \frac{1}{5} I_D
+\]
+
+\end{document}
+```"
+4.10,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Consider a strip of radius \( r \) on the surface of the sphere symmetrical about the \( z \)-axis and width \( R \, d\theta \), where \( R \) is the radius of the hollow sphere, as shown in Fig. 4.22.
+
+The area of the strip is given by:
+\[
+dA = 2\pi r \cdot R \, d\theta = 2\pi R^2 \sin\theta \, d\theta
+\]
+
+If \( \sigma \) is the surface mass density (mass per unit area), then the mass of the strip is:
+\[
+dm = 2\pi R^2 \sigma \sin\theta \, d\theta
+\]
+
+The moment of inertia of the elementary strip about the \( z \)-axis is:
+\[
+dI = dm \cdot r^2 = 2\pi R^4 \sigma \sin^3\theta \, d\theta
+\]
+
+The moment of inertia contributed by the entire surface will be:
+\[
+I = \int dI = 2\pi R^4 \sigma \int_0^{\pi} \sin^3\theta \, d\theta
+\]
+
+Evaluating the integral:
+\[
+\int_0^{\pi} \sin^3\theta \, d\theta = \frac{4}{3}
+\]
+
+Thus, the moment of inertia is:
+\[
+I = 2\pi R^4 \sigma \cdot \frac{4}{3}
+\]
+
+Given that \( \sigma = \frac{M}{4\pi R^2} \), we substitute to find:
+\[
+I = 2\pi R^4 \cdot \frac{M}{4\pi R^2} \cdot \frac{4}{3} = \frac{2}{3} M R^2
+\]
+
+\end{document}
+```"
+4.11,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+By prob. (4.5), the radius of gyration of a hollow sphere of external radius \( a \) and internal radius \( b \) is given by
+
+\begin{equation}
+    k = \sqrt{\frac{2}{5} \frac{a^5 - b^5}{a^3 - b^3}}
+\end{equation}
+
+The derivation of (1) is based on the assumed value of the moment of inertia for a solid sphere about its diameter \( I = \frac{2}{5} MR^2 \). Squaring (1) and multiplying by \( M \), the mass of the hollow cylinder, we have
+
+\begin{equation}
+    I = Mk^2 = \frac{2}{5} M \frac{a^5 - b^5}{a^3 - b^3}
+\end{equation}
+
+Let \( a = b + \Delta_1 \) \quad (3)
+
+where \( \Delta_1 \) is a small quantity. Then (2) becomes
+
+\begin{align*}
+    I &= \frac{2}{5} M \frac{[(b + \Delta_1)^5 - b^5]}{[(b + \Delta_1)^3 - b^3]} \\
+      &= \frac{2}{5} M \frac{[b^5 + 5b^4\Delta_1 + \cdots - b^5]}{[b^3 + 3b^2\Delta_1 + \cdots - b^3]}
+\end{align*}
+
+where we have neglected higher order terms in \( \Delta_1 \). Thus,
+
+\begin{align*}
+    I &= \frac{2}{5} M \frac{5b^4\Delta_1}{3b^2\Delta_1} \\
+      &= \frac{2}{3} Mb^2 \\
+      &= \frac{2}{3} MR^2
+\end{align*}
+
+where \( b = a = R \) is the radius of the hollow sphere.
+
+\end{document}
+```"
+4.12,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Energy Conservation in Rolling Motion}
+
+Consider an object rolling down a height \( h \). Initially, the potential energy is \( mgh \) and the kinetic energy is zero. At the bottom, the potential energy is assumed to be zero. The kinetic energy \( K \) consists of translational energy and rotational energy:
+
+\[
+K = \frac{1}{2} mv^2 + \frac{1}{2} I \omega^2
+\]
+
+For a rolling object, the moment of inertia \( I \) can be expressed as \( \frac{1}{2} m R^2 \) for a solid sphere, where \( R \) is the radius of the sphere. The angular velocity \( \omega \) is related to the linear velocity \( v \) by \( \omega = \frac{v}{R} \). Substituting these into the equation for kinetic energy, we have:
+
+\[
+K = \frac{1}{2} mv^2 + \frac{1}{2} \left(\frac{1}{2} m R^2\right) \left(\frac{v}{R}\right)^2
+\]
+
+Simplifying the rotational energy term:
+
+\[
+K = \frac{1}{2} mv^2 + \frac{1}{4} mv^2 = \frac{3}{4} mv^2
+\]
+
+According to the conservation of energy, the gain in kinetic energy is equal to the loss of potential energy:
+
+\[
+\frac{3}{4} mv^2 = mgh
+\]
+
+Solving for \( v \), we get:
+
+\[
+v = \sqrt{\frac{4gh}{3}}
+\]
+
+\end{document}
+```"
+4.13,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem: Angular Momentum and Kinetic Energy}
+
+\subsection*{(a) Angular Momentum}
+
+The initial angular momentum \( L_1 \) is given by:
+\[
+L_1 = I_1 \omega_1 = \frac{2}{5} M R_1^2 \frac{2\pi}{T_1}
+\]
+
+The final angular momentum \( L_2 \) is given by:
+\[
+L_2 = I_2 \omega_2 = \frac{2}{5} M R_2^2 \frac{2\pi}{T_2}
+\]
+
+The ratio of the initial to final angular momentum is:
+\[
+\frac{L_1}{L_2} = \frac{R_1^2}{R_2^2} \frac{T_2}{T_1} = \left(\frac{6 \times 10^8}{10^4}\right)^2 \left(\frac{0.1}{30 \times 86,400}\right) = 138.9
+\]
+
+\subsection*{(b) Kinetic Energy}
+
+The initial kinetic energy (rotational) \( K_1 \) is:
+\[
+K_1 = \frac{1}{2} I_1 \omega_1^2 = \frac{1}{2} \times \frac{2}{5} M R_1^2 \left(\frac{2\pi}{T_1}\right)^2
+\]
+
+The final kinetic energy \( K_2 \) is:
+\[
+K_2 = \frac{1}{2} I_2 \omega_2^2 = \frac{1}{2} \times \frac{2}{5} M R_2^2 \left(\frac{2\pi}{T_2}\right)^2
+\]
+
+The ratio of the initial to final kinetic energy is:
+\[
+\frac{K_1}{K_2} = \left(\frac{R_1}{R_2} \frac{T_2}{T_1}\right)^2 = \left(\frac{6 \times 10^8}{10^4} \times \frac{0.1}{30 \times 86,400}\right)^2 = 5.36 \times 10^{-6}
+\]
+
+\end{document}
+```"
+4.14,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a)}
+
+Let \( M \) be the mass of the sphere, \( R \) its radius, \( \theta \) the angle of incline. Let \( F \) and \( N \) be the friction and normal reaction at \( A \), the point of contact, as shown in Fig. 4.23. Denoting the acceleration \(\frac{d^2x}{dt^2}\) by \(\ddot{x}\), the equations of motion are:
+
+\begin{align}
+    M\ddot{x} &= Mg\sin\theta - F \tag{1} \\
+    Mg\cos\theta - N &= 0 \tag{2} \\
+    \text{Torque } I\alpha &= FR \tag{3}
+\end{align}
+
+or
+
+\[
+\frac{2}{5}MR^2 \frac{a}{R} = FR \quad \Rightarrow \quad F = \frac{2}{5}M\ddot{x} \tag{4}
+\]
+
+Using (4) in (1):
+
+\[
+a = \ddot{x} = \frac{5}{7}g \sin\theta \tag{5}
+\]
+
+Thus, the center of the sphere moves with a constant acceleration. The assumption made in the derivation is that we have pure rolling without sliding.
+
+\subsection*{(b)}
+
+\[
+v = \sqrt{2as} = \sqrt{2 \times \frac{5}{7} \times 9.8 \times \sin 30^\circ \times 3} = 4.58 \, \text{m/s}
+\]
+
+\subsection*{(c)}
+
+\[
+L = I\omega = \frac{2}{5} MR^2 \frac{v}{R} = \frac{2}{5} MvR = \frac{2}{5} \times 0.1 \times 4.58 \times 0.25 = 0.0458 \, \text{kg m}^2/\text{T}
+\]
+
+\subsection*{(d)}
+
+Using (5) in (1):
+
+\[
+F = \frac{2}{7} Mg \sin\theta \tag{4.9}
+\]
+
+\[
+\therefore \frac{F}{N} = \frac{2}{7} \tan\theta \tag{4.10}
+\]
+
+For no slipping, \( F/N \) must be less than \( \mu \), the coefficient of friction between the surfaces in contact. Therefore, the condition for pure rolling is that \( \mu \) must exceed \(\frac{2}{7}\tan\theta\).
+
+\[
+\mu = \frac{2}{7} \tan\theta \tag{4.11}
+\]
+
+\[
+\therefore \tan\theta = \frac{7\mu}{2} = \frac{7}{2 \times 0.26} = 0.91 \tag{4.12}
+\]
+
+or
+
+\[
+\theta = 42.3^\circ \tag{4.13}
+\]
+
+\end{document}
+```"
+4.15,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem: Cylinder on an Incline}
+
+\subsection*{(a) Equation of Motion for Sliding}
+
+The equation of motion for a cylinder sliding down an incline is given by:
+
+\begin{equation}
+    ma_s = mg \sin \theta - \mu mg \cos \theta
+\end{equation}
+
+which simplifies to:
+
+\begin{equation}
+    a_s = g (\sin \theta - \mu \cos \theta)
+\end{equation}
+
+When the cylinder rolls down without slipping, the linear acceleration is given by:
+
+\begin{equation}
+    a_R = R \alpha = \frac{R \tau}{I_{\text{CM}}} = \frac{R (\mu mg \cos \theta)}{\frac{1}{2} m R^2} = 2 \mu g \cos \theta
+\end{equation}
+
+The least coefficient of friction for the cylinder to roll down without slipping is obtained by setting \( a_R = a_s \):
+
+\begin{align*}
+    2 \mu g \cos \theta &= g (\sin \theta - \mu \cos \theta) \\
+    \Rightarrow \mu &= \frac{1}{3} \tan \theta
+\end{align*}
+
+\subsection*{(b) Equation of Motion for the Loop}
+
+Equation (2) remains the same for sliding. For rolling, the equation is:
+
+\begin{equation}
+    a_R = \frac{R \tau}{I_{\text{CM}}} = \frac{R (\mu mg \cos \theta)}{m R^2} = \mu g \cos \theta
+\end{equation}
+
+Setting \( a_R = a_s \) gives:
+
+\begin{align}
+    \mu g \cos \theta &= g (\sin \theta - \mu \cos \theta) \tag{4.14} \\
+    \Rightarrow \mu &= \frac{1}{2} \tan \theta \tag{4.15}
+\end{align}
+
+\end{document}
+```"
+4.16,"To convert the given physics text into properly formatted LaTeX, we need to ensure that the equations are clearly presented and the text is structured for readability. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Since the thread is being drawn at constant velocity $v_0$, the angular momentum of the mass may be assumed to be constant. Further, the particle velocities $v$ and $r$ are perpendicular. The angular momentum $J$ is given by:
+
+\begin{equation}
+    J = mvr = \text{constant} \quad \therefore \quad v \propto \frac{1}{r}
+\end{equation}
+
+Now, the tension $T$ arises from the centripetal force:
+
+\begin{equation}
+    T = \frac{mv^2}{r} \quad \therefore \quad T \propto \frac{1}{r^2} \quad \text{or} \quad T \propto \frac{1}{r^3}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary equations and logical steps, formatted for clarity and readability. The use of `\propto` indicates proportionality, and `\therefore` is used to denote logical conclusions."
+4.17,"To convert the given physics text into properly formatted LaTeX, we will write the equations with appropriate alignment and numbering. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Solution}
+
+(a) Conservation of angular momentum gives:
+\begin{equation}
+    I_1 \omega_1 = I_2 \omega_2
+    \label{eq:angular_momentum}
+\end{equation}
+
+Substituting the given values:
+\begin{equation}
+    I_1 (4\pi) = \frac{80}{100} I_1 \omega_2
+    \label{eq:substitution}
+\end{equation}
+
+Solving for \(\omega_2\):
+\begin{equation}
+    \therefore \omega_2 = 5\pi
+    \label{eq:solution}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code includes the equations with proper alignment and numbering, using the `amsmath` package for enhanced mathematical formatting. Each equation is labeled for reference, and the solution is clearly presented."
+4.18,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem (b)}
+
+Given the change in kinetic energy:
+
+\[
+\Delta_1 K = \frac{K_2 - K_1}{K_1} = \frac{K_2}{K_1} - 1
+\]
+
+Substituting the rotational kinetic energy terms:
+
+\[
+\frac{1}{2} I_2 \omega_2^2 \text{ and } \frac{1}{2} I_1 \omega_1^2
+\]
+
+We have:
+
+\[
+\frac{1}{2} I_2 \omega_2^2 \frac{1}{2} I_1 \omega_1^2 - 1 = (0.8) \left(\frac{5\pi}{4\pi}\right)^2 - 1 = \frac{1}{4}
+\]
+
+At the bottom of the incline, the translational energy is:
+
+\[
+\frac{1}{2} M v_0^2
+\]
+
+while the rotational energy is:
+
+\[
+\frac{1}{2} I \omega^2 = \frac{1}{2} \times \frac{2}{5} M R^2 \frac{v_0^2}{R^2} = \frac{1}{5} M v_0^2
+\]
+
+Total initial kinetic energy is:
+
+\[
+\frac{1}{2} M v_0^2 + \frac{1}{5} M v_0^2 = \frac{7}{10} M v_0^2
+\]
+
+Let the sphere reach a distance \( s \) up the incline or a height \( h \) above the bottom of the incline. Taking potential energy at the bottom of the incline as zero, the potential energy at the highest point reached is:
+
+\[
+Mgh
+\]
+
+Since the entire kinetic energy is converted into potential energy, conservation of energy gives:
+
+\[
+\frac{7}{10} M v_0^2 = Mgh
+\]
+
+But \( h = s \sin \theta \), so that:
+
+\[
+s = \frac{7}{10} \frac{v_0^2}{g \sin \theta}
+\]
+
+\end{document}
+```
+
+This LaTeX code will render the physics problem and solution with proper formatting, including equations and logical flow."
+4.19,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The equation of motion is given by
+\begin{equation}
+    Ma = mg - T \tag{1}
+\end{equation}
+
+The resultant torque $\tau$ on the wheel is $TR$, and the moment of inertia is $\frac{1}{2}MR^2$. Therefore, we have
+\begin{equation}
+    \tau = I\alpha \quad \Rightarrow \quad TR = \frac{1}{2}MR^2 \cdot \frac{a}{R}
+\end{equation}
+which simplifies to
+\begin{equation}
+    T = \frac{1}{2}Ma \tag{2}
+\end{equation}
+
+Solving equations (1) and (2), we find:
+\begin{align}
+    a &= \frac{2mg}{M + 2m} \\
+    T &= \frac{Mmg}{M + 2m}
+\end{align}
+
+\end{document}
+```
+
+This code will render the equations and their solutions in a clear and structured manner, using the `amsmath` package for better alignment and formatting."
+4.20,"To properly format the given physics equations in LaTeX, we need to ensure that each equation is clearly presented and aligned where necessary. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The equation of motion is given by:
+\begin{equation}
+    Ma = Mg - T \tag{1}
+\end{equation}
+
+The torque is expressed as:
+\begin{equation}
+    \tau = TR = I\alpha = \frac{1}{2}MR^2 \frac{a}{R} \tag{2}
+\end{equation}
+
+From equation (2), we can deduce:
+\begin{equation}
+    T = \frac{1}{2}Ma \tag{3}
+\end{equation}
+
+By solving equations (1) and (3), we find:
+\begin{align}
+    a &= \frac{2}{3}g \\
+    T &= \frac{Mg}{3}
+\end{align}
+
+\end{document}
+```
+
+This code includes the necessary LaTeX commands to format the equations, ensuring they are numbered and aligned correctly. The `amsmath` package is used to enhance the mathematical formatting capabilities."
+4.21,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem Solution}
+
+\subsection*{(a)}
+
+Obviously, $m_1$ moves down and $m_2$ moves up with the same acceleration $a$ if the string is taut. Let the tension in the string be $T_1$ and $T_2$ (see Fig. 4.5). The equations of motion are:
+
+\begin{align}
+    m_1 a &= m_1 g - T_1 \tag{1} \\
+    m_2 a &= T_2 - m_2 g \tag{2}
+\end{align}
+
+Taking moments about the axis of rotation $O$:
+
+\begin{equation}
+    T_1 R - T_2 R = I \alpha = \frac{MR^2}{2} \alpha \tag{3}
+\end{equation}
+
+where $\alpha$ is the angular acceleration of the pulley and $I$ is the moment of inertia of the pulley about the axis through $O$. But $\alpha = \frac{a}{R}$, therefore:
+
+\begin{equation}
+    T_1 - T_2 = \frac{Ma}{2} \tag{4}
+\end{equation}
+
+Adding equations (1) and (2):
+
+\begin{equation}
+    (m_1 + m_2) a = T_2 - T_1 + (m_1 - m_2) g \tag{5}
+\end{equation}
+
+Using equation (4) in (5) and solving for $a$, we find:
+
+\begin{equation}
+    a = \frac{(m_1 - m_2) g}{m_1 + m_2 + \frac{1}{2}M} \tag{6}
+\end{equation}
+
+\subsection*{(b)}
+
+\begin{equation}
+    \alpha = \frac{a}{R} = \frac{(m_1 - m_2) g}{(m_1 + m_2 + \frac{1}{2}M) R}
+\end{equation}
+
+\subsection*{(c)}
+
+Using equation (5) in (1) and (2), the values of $T_1$ and $T_2$ can be obtained, from which the ratio $\frac{T_1}{T_2}$ can be found:
+
+\begin{equation}
+    \frac{T_1}{T_2} = \frac{m_1 (4m_2 + M)}{m_2 (4m_1 + M)}
+\end{equation}
+
+\end{document}
+```"
+4.22,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem: Conservation of Angular Momentum and Work Done}
+
+\subsection*{(a) Conservation of Angular Momentum}
+
+Conservation of angular momentum gives:
+\[
+I_1 \omega_1 + I_2 \omega_2 = I \omega = (I_1 + I_2) \omega
+\]
+
+The two moments of inertia \(I_1\) and \(I_2\) are additive because of the common axis of rotation. Therefore:
+\[
+\omega = \frac{I_1 \omega_1 + I_2 \omega_2}{I_1 + I_2}
+\]
+
+\subsection*{(b) Work Done and Loss of Energy}
+
+The work done is equal to the loss of energy:
+\[
+W = \frac{1}{2}(I_1 + I_2)\omega^2 - \left(\frac{1}{2}I_1 \omega_1^2 + \frac{1}{2}I_2 \omega_2^2\right)
+\]
+
+Substituting for \(\omega\), we have:
+\[
+W = \frac{1}{2}(I_1 + I_2)\left(\frac{I_1 \omega_1 + I_2 \omega_2}{I_1 + I_2}\right)^2 - \frac{1}{2}I_1 \omega_1^2 - \frac{1}{2}I_2 \omega_2^2
+\]
+
+Simplifying, the work done is:
+\[
+W = -\frac{1}{2} \frac{I_1 I_2 (\omega_1 - \omega_2)^2}{I_1 + I_2}
+\]
+
+\end{document}
+```"
+4.23,"To properly format the given physics text into LaTeX, we need to set up the equation or description in a clear and structured manner. Here's how you can format the text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Potential Energy of a Falling Rod}
+
+(a) Measure the potential energy from the bottom of the rod in the upright position. The height through which it falls is the distance of the center of mass from the ground, i.e., \(\frac{1}{2}L\).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{rod_figure.png} % Replace with actual figure file
+    \caption{Diagram showing the rod in the upright position.}
+    \label{fig:rod}
+\end{figure}
+
+\end{document}
+```
+
+### Explanation:
+- The document is set up using the `article` class, which is suitable for short documents like problem sets.
+- The `amsmath` package is included for better handling of mathematical expressions.
+- The `graphicx` package is used to include figures, assuming you have a figure file named `rod_figure.png`.
+- The potential energy description is placed in a section for clarity.
+- The mathematical expression \(\frac{1}{2}L\) is formatted using LaTeX math mode.
+- A placeholder for a figure is included with a caption and label for referencing. You should replace `rod_figure.png` with the actual file name of your figure."
+4.24,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+When the rod falls on the ground, the potential energy is converted into kinetic energy (rotational):
+
+\begin{equation}
+mg \cdot \frac{1}{2}L = \frac{1}{2}I\omega^2 = \frac{1}{2} \times \frac{1}{3}mL^2\omega^2 = \frac{1}{6}mv^2
+\end{equation}
+
+where \( I \) is the moment of inertia of the rod about one end, and \( v = \omega L \) is the linear velocity of the top end of the pole. Therefore, \( v = \sqrt{3gL} \).
+
+(b) The additional mass has to be attached at the bottom of the rod.
+
+\begin{figure}[h]
+    \centering
+    % Insert figure here, e.g., \includegraphics{figure4_24.png}
+    \caption{Figure 4.24}
+    \label{fig:4.24}
+\end{figure}
+
+If \( I_1 \) and \( I_2 \) are the initial and final moments of inertia, and \( \omega_1 \) and \( \omega_2 \) are the initial and final angular velocities, respectively, the conservation of angular momentum gives:
+
+\begin{equation}
+I_1 \omega_1 = I_2 \omega_2
+\end{equation}
+
+Given that:
+
+\begin{equation}
+MR^2 \omega_1 = (MR^2 + 2mR^2) \omega_2
+\end{equation}
+
+Solving for \( \omega_2 \):
+
+\begin{equation}
+\omega_2 = \omega_1 \frac{M}{M + 2m}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code includes the equations and explanations formatted properly, with the necessary mathematical symbols and structure. The figure environment is included for completeness, though you would need to insert the actual image file if you have one."
+4.25,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The angular momentum \( \mathbf{L} \) is given by the cross product of the position vector \( \mathbf{r} \) and the momentum vector \( \mathbf{p} \):
+
+\[
+\mathbf{L} = \mathbf{r} \times \mathbf{p} = m (\mathbf{r} \times \mathbf{v})
+\]
+
+Given the vectors \(\mathbf{r} = \begin{pmatrix} 1 \\ 2 \\ -3 \end{pmatrix}\) and \(\mathbf{v} = \begin{pmatrix} 2 \\ -3 \\ 1 \end{pmatrix}\), we can express the cross product as a determinant:
+
+\[
+\mathbf{L} = m 
+\begin{vmatrix}
+\hat{\imath} & \hat{\jmath} & \hat{k} \\
+1 & 2 & -3 \\
+2 & -3 & 1
+\end{vmatrix}
+\]
+
+Calculating the determinant, we have:
+
+\[
+\mathbf{L} = m \left( \hat{\imath}(2 \cdot 1 - (-3) \cdot (-3)) - \hat{\jmath}(1 \cdot 1 - (-3) \cdot 2) + \hat{k}(1 \cdot (-3) - 2 \cdot 2) \right)
+\]
+
+\[
+= m \left( \hat{\imath}(2 - 9) - \hat{\jmath}(1 + 6) + \hat{k}(-3 - 4) \right)
+\]
+
+\[
+= m \left( -7\hat{\imath} - 7\hat{\jmath} - 7\hat{k} \right)
+\]
+
+\[
+= -7m (\hat{\imath} + \hat{\jmath} + \hat{k})
+\]
+
+Thus, the angular momentum is:
+
+\[
+\mathbf{L} = -7m (\hat{\imath} + \hat{\jmath} + \hat{k})
+\]
+
+\end{document}
+```"
+4.26,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Solution}
+
+\subsection*{(a)}
+
+The acceleration \( a \) is given by:
+\[
+a = \frac{g \sin \theta}{1 + \frac{k^2}{r^2}}
+\]
+
+Substituting the given values:
+\[
+a = \frac{9.8 \sin 30^\circ}{1 + \frac{2}{5}} = \frac{9.8 \times 0.5}{1 + 0.4} = \frac{4.9}{1.4} \approx 3.5 \, \text{m/s}^2
+\]
+
+The time \( t \) is calculated using:
+\[
+t = \sqrt{\frac{2s}{a}} = \sqrt{\frac{2 \times 7}{3.5}} = \sqrt{4} = 2 \, \text{s}
+\]
+
+\subsection*{(b)}
+
+The torque \( \tau \) is given by:
+\[
+\tau = I \alpha = \frac{2}{5} m R^2 \cdot \frac{a}{R}
+\]
+
+Substituting the given values:
+\[
+\tau = \frac{2}{5} \times 0.2 \times 0.5 \times 3.5 = 0.14 \, \text{kg} \cdot \text{m}^2/\text{s}^2
+\]
+
+\end{document}
+```
+
+This LaTeX code provides a clear and structured solution to the physics problem, with all equations properly formatted and aligned."
+4.27,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a) Equation of Motion}
+
+The equation of motion is given by:
+\begin{equation}
+    ma = mg - T \tag{1}
+\end{equation}
+
+The torque is expressed as:
+\begin{equation}
+    \tau = TR = I\alpha = \frac{1}{2}mR^2 \frac{a}{R} \implies T = \frac{1}{2}ma \tag{2}
+\end{equation}
+
+Solving equations (1) and (2), we find:
+\begin{equation}
+    a = \frac{2g}{3} \tag{3}
+\end{equation}
+
+\subsection*{(b) Work Done and Kinetic Energy}
+
+The work done is equal to the increase in kinetic energy:
+\begin{equation}
+    W = \frac{1}{2}I\omega^2 = \frac{1}{2} \left(\frac{1}{2}mR^2\right) \omega^2 = \frac{1}{4}mR^2\omega^2 \tag{4}
+\end{equation}
+
+\subsection*{(c) Alternative Expression for Work Done}
+
+The work done can also be expressed as:
+\begin{equation}
+    W = \int \tau \, d\theta = \tau \theta = mgR\theta \tag{5}
+\end{equation}
+(where $\theta$ is the angular displacement).
+
+Equating equations (4) and (5) and simplifying, we get:
+\begin{equation}
+    \theta = \frac{1}{4}\frac{\omega^2 R}{g} \tag{6}
+\end{equation}
+
+The length of the string unwound is:
+\begin{equation}
+    \theta R = \frac{1}{4} \frac{\omega^2 R^2}{g} \tag{7}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX document includes the equations and explanations formatted correctly, ensuring clarity and proper mathematical representation."
+4.28,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+Given the equations of motion and torque, we need to solve for the tension \( T \) and acceleration \( a \).
+
+\subsection*{Equations}
+
+1. Equation of Motion:
+\begin{equation}
+    ma = mg - 2T \tag{1}
+\end{equation}
+
+2. Net Torque:
+\begin{align}
+    \tau &= \tau_1 + \tau_2 = 2TR = I\alpha \\
+    &= \frac{1}{2}mR^2 \frac{a}{R} = \frac{1}{2}maR \\
+    \therefore T &= \frac{ma}{4} \tag{2}
+\end{align}
+
+\subsection*{Solution}
+
+Solving equations (1) and (2), we find:
+
+(a) Tension \( T \):
+\begin{equation}
+    T = \frac{mg}{6}
+\end{equation}
+
+(b) Acceleration \( a \):
+\begin{equation}
+    a = \frac{2}{3}g
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX document includes the equations of motion and torque, and provides the solutions for tension and acceleration, formatted correctly for a physics context."
+4.29,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The total kinetic energy (translational + rotational) at the bottom of the incline is given by
+
+\begin{equation}
+K = \frac{1}{2} m u^2 + \frac{1}{2} I \omega^2 = \frac{1}{2} m u^2 + \frac{1}{2} m k^2 \frac{u^2}{R^2} = \frac{1}{2} m u^2 \left( 1 + \frac{k^2}{R^2} \right)
+\end{equation}
+
+where \( k \) is the radius of gyration. At the maximum height, the kinetic energy is transformed into potential energy:
+
+\begin{equation}
+\frac{1}{2} m u^2 \left( 1 + \frac{k^2}{R^2} \right) = mgh = mg \frac{3u^2}{4g}
+\end{equation}
+
+Solving, we get \( k = \frac{R}{\sqrt{2}} \). Therefore, the body can be either a disc or a solid cylinder.
+
+\end{document}
+```"
+4.30,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The time taken for a body to roll down an incline of angle $\theta$ over a distance $s$ is given by 
+\[
+t = \sqrt{\frac{2s}{a}}
+\]
+where 
+\[
+a = g \sin \theta \left(1 + \frac{k^2}{R^2}\right).
+\]
+The quantity $\frac{k^2}{R^2}$ for various bodies is as follows:
+\begin{itemize}
+    \item Solid cylinder: $\frac{1}{2}$
+    \item Hollow cylinder: $1$
+    \item Solid sphere: $\frac{2}{5}$
+    \item Hollow sphere: $\frac{2}{3}$
+\end{itemize}
+
+These bodies reach the bottom of the incline in the ascending order of acceleration $a$, or equivalently, in ascending order of $\frac{k^2}{R^2}$. Therefore, the order in which the bodies reach the bottom is:
+\begin{enumerate}
+    \item Solid sphere
+    \item Solid cylinder
+    \item Hollow sphere
+    \item Hollow cylinder
+\end{enumerate}
+
+The physical reason is that the larger the value of $k$, the greater will be the moment of inertia $I$, and a larger fraction of kinetic energy will go into rotational motion. Consequently, less energy will be available for translational motion, and the travelling time will be greater.
+
+\end{document}
+```"
+4.31,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Consider an element of length \( \mathrm{d}x \) at distance \( x \) from the axis of rotation (Fig. 4.25). The corresponding mass will be 
+\[
+\mathrm{d}m = \rho A \, \mathrm{d}x
+\]
+where \( \rho \) is the liquid density and \( A \) is the area of cross-section of the tube. The centrifugal force arising from the rotation of \( \mathrm{d}m \) will be 
+\[
+\mathrm{d}F = (\mathrm{d}m) \omega^2 x = \omega^2 \rho A x \, \mathrm{d}x
+\]
+The total force exerted at \( A \), the other end of the tube, will be 
+\[
+F = \int \mathrm{d}F = \omega^2 \rho A \int_0^L x \, \mathrm{d}x = \frac{1}{2} \omega^2 \rho A L^2
+\]
+Given \( \rho = \frac{M}{LA} \), we have 
+\[
+F = \frac{1}{2} M \omega^2 L
+\]
+
+\begin{center}
+\textit{Fig. 4.25}
+\end{center}
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and solution with proper mathematical notation and alignment."
+4.32,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Solution}
+
+\begin{enumerate}
+    \item[(a)] The total initial momentum is given by:
+    \[
+    (2m)v - m(2v) = 0
+    \]
+    Therefore, the center of mass system is the laboratory system, and \( v_c = 0 \).
+
+    \item[(b)] The angular momentum \( J \) is calculated as:
+    \[
+    J = (2m)(v)(a) + (m)(2v)(2a) = 6mva
+    \]
+
+    \item[(c)] Using the conservation of angular momentum, \( J = I\omega \):
+    \[
+    6mva = \left[\frac{1}{12}8m(6a)^2 + 2ma^2 + m(2a)^2\right] \omega = 30ma^2 \omega
+    \]
+    The first term in the square brackets is the moment of inertia (M.I.) of the bar, and the second and third terms are for the M.I. of the particles which stick to the bar. Thus,
+    \[
+    \omega = \frac{v}{5a}
+    \]
+
+    \item[(d)] The energy \( E \) is given by:
+    \[
+    E = \frac{1}{2} I \omega^2 = \frac{1}{2} \times 30ma^2 \left(\frac{v}{5a}\right)^2 = \frac{3}{5} mv^2
+    \]
+\end{enumerate}
+
+\end{document}
+```
+This LaTeX code formats the given physics problem and solution into a structured and readable document with equations properly aligned and typeset."
+4.33,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the potential energy be zero when the rod is in the horizontal position. In the vertical position, the loss in potential energy of the system will be:
+
+\[
+mg(d + 2d) = 3mgd
+\]
+
+The gain in rotational kinetic energy will be:
+
+\[
+\frac{1}{2} I \omega^2 = \frac{1}{2} (I_1 + I_2) \omega^2 = \frac{1}{2} \left[ md^2 + m(2d)^2 \right] \omega^2 = \frac{5}{2} md^2 \omega^2
+\]
+
+Setting the gain in kinetic energy equal to the loss of potential energy:
+
+\[
+\frac{5}{2} md^2 \omega^2 = 3mgd
+\]
+
+Solving for \(\omega\):
+
+\[
+\omega = \sqrt{\frac{6g}{5d}}
+\]
+
+The linear velocity of the lower mass in the vertical position will be:
+
+\[
+v = \omega \cdot (2d) = \sqrt{\frac{24}{5} gd}
+\]
+
+\end{document}
+```"
+4.34,"To convert the given physics text into properly formatted LaTeX, we need to clearly define the equations and ensure that they are displayed correctly. Here's the LaTeX code for the problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Conservation of Angular Momentum}
+
+The conservation of angular momentum is given by:
+
+\[
+I_1 \omega_1 = I_2 \omega_2
+\]
+
+For a solid sphere, the moment of inertia \( I \) is given by:
+
+\[
+I = \frac{2}{5} M R^2
+\]
+
+Substituting the expression for the moment of inertia, we have:
+
+\[
+I_1 = \frac{2}{5} M (R_1)^2, \quad I_2 = \frac{2}{5} M (R_2)^2
+\]
+
+Thus, the equation becomes:
+
+\[
+\frac{2}{5} M (R_1)^2 \omega_1 = \frac{2}{5} M (R_2)^2 \omega_2
+\]
+
+Simplifying, we find:
+
+\[
+(R_1)^2 \omega_1 = (R_2)^2 \omega_2
+\]
+
+Given that \( R_2 = 2\pi \), we can express the time period \( T \) as:
+
+\[
+T_1 = \frac{2}{5} M (R_1)^2 \cdot 2\pi, \quad T_2 = \frac{2}{5} M (R_2)^2 \cdot 2\pi
+\]
+
+Therefore, the relationship between the time periods is:
+
+\[
+T_2 = \frac{T_1}{4} = \frac{24}{4} = 6 \, \text{h}
+\]
+
+\end{document}
+```
+
+This LaTeX code will properly format the equations and expressions related to the conservation of angular momentum and the calculation of the time period \( T_2 \). Make sure to compile this code with a LaTeX editor to see the formatted output."
+4.35,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem: Moment of Inertia and Torque}
+
+The moment of inertia of a pole of length $L$ and mass $M$ about point $O$ is given by (see Fig. 4.26):
+
+\begin{equation}
+    I = \frac{ML^2}{3}
+\end{equation}
+
+The torque $\tau$ is expressed as:
+
+\begin{equation}
+    \tau = I \alpha = Mgx
+\end{equation}
+
+where $x$ is the projection of the center of mass on the ground from point $O$ and $\alpha$ is the angular acceleration. Now, 
+
+\begin{equation}
+    x = \frac{L}{2} \sin \theta
+\end{equation}
+
+Using equations (1) and (3) in equation (2), we have:
+
+\begin{equation}
+    \alpha = \frac{3}{2} \frac{g}{L} \sin \theta
+\end{equation}
+
+The angular acceleration $\alpha$ can also be expressed as:
+
+\[
+    \alpha = \frac{d\omega}{dt} = \frac{d\omega}{d\theta} \frac{d\theta}{dt} = \omega \frac{d\omega}{d\theta} = \frac{3g}{2L} \sin \theta
+\]
+
+Integrating both sides:
+
+\[
+    \int \omega \, d\omega = \frac{3}{2} \frac{g}{L} \int \sin \theta \, d\theta + C
+\]
+
+where $C$ is a constant. This yields:
+
+\begin{equation}
+    \frac{\omega^2}{2} = -\frac{3}{2} \frac{g}{L} \cos \theta + C
+\end{equation}
+
+When $\theta = 0$, $\omega = 0$, thus:
+
+\begin{equation}
+    C = \frac{3}{2} \frac{g}{L}
+\end{equation}
+
+Substituting equation (6) into equation (5), we find:
+
+\begin{equation}
+    \omega^2 = \frac{3g}{2L} (1 - \cos \theta)
+\end{equation}
+
+The radial acceleration $a_R$ is given by:
+
+\begin{equation}
+    a_R = \omega^2 L = \frac{3}{2} g (1 - \cos \theta)
+\end{equation}
+
+The tangential acceleration of the top of the pole $a_T$ is:
+
+\begin{equation}
+    a_T = \alpha L = \frac{3}{2} g \sin \theta
+\end{equation}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Fig4_26.png}
+    \caption{Diagram illustrating the pole and its parameters.}
+    \label{fig:4.26}
+\end{figure}
+
+\end{document}
+```"
+4.36,"To convert the provided physics text into properly formatted LaTeX, we can structure the equations and text as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+Given:
+\begin{equation}
+    \mathbf{J} = at^2 \hat{\imath} + b \hat{\jmath} \tag{1}
+\end{equation}
+
+Therefore, the torque is:
+\begin{equation}
+    \boldsymbol{\tau} = \frac{d\mathbf{J}}{dt} = 2at \hat{\imath} \tag{2}
+\end{equation}
+
+Take the scalar product of \(\mathbf{J}\) and \(\boldsymbol{\tau}\):
+\begin{align*}
+    \mathbf{J} \cdot \boldsymbol{\tau} &= 2a^2t^3 \\
+    &= \left(\sqrt{a^2t^4 + b^2}\right)(2at)\cos 45^\circ
+\end{align*}
+
+Simplify and solve for \(t\):
+\begin{equation}
+    t = \sqrt{\frac{b}{a}} \tag{3}
+\end{equation}
+
+Using equation (3) in equation (2), we find:
+\begin{equation}
+    |\boldsymbol{\tau}| = 2\sqrt{ab}
+\end{equation}
+
+Using equation (3) in equation (1), we find:
+\begin{equation}
+    |\mathbf{J}| = \sqrt{2b}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and solution with proper mathematical notation and alignment. Each equation is numbered, and the text is structured to clearly show the steps of the solution."
+4.37,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Consider a ring of radii $r$ and $r + \mathrm{d}r$, concentric with the disc ($r < R$). If the surface density is $\sigma$, the mass of the ring is 
+\[
+\mathrm{d}m = 2\pi r \mathrm{d}r \sigma.
+\]
+The moment of inertia of the ring about the central axis will be 
+\[
+\mathrm{d}I = (2\pi r \mathrm{d}r \sigma) r^2 = 2\pi \sigma r^3 \mathrm{d}r \tag{1}
+\]
+and the corresponding torque will be 
+\[
+\mathrm{d}\tau = \alpha \mathrm{d}I = 2\pi \sigma \alpha r^3 \mathrm{d}r. \tag{2}
+\]
+The frictional force on the ring is $\mu \mathrm{d}m g = \mu (2\pi r \mathrm{d}r \sigma) g$ and the corresponding torque will be 
+\[
+\mathrm{d}\tau = \mu (2\pi r \mathrm{d}r \sigma) g r = 2\pi \sigma \mu g r^2 \mathrm{d}r. \tag{3}
+\]
+Calculating the torques from (2) and (3) for the whole disc and equating them:
+\[
+\int_0^R 2\pi \sigma \alpha r^3 \mathrm{d}r = \int_0^R 2\pi \sigma \mu g r^2 \mathrm{d}r.
+\]
+Solving the integrals, we get:
+\[
+\alpha = \frac{4\mu g}{3R}. \tag{4}
+\]
+But we have $0 = \omega - \alpha t$, thus:
+\[
+t = \frac{\omega}{\alpha} = \frac{3\omega R}{4\mu g}.
+\]
+
+\end{document}
+```"
+4.38,"To convert the given physics text into properly formatted LaTeX, we need to ensure that the equations and expressions are clearly presented. Here is the LaTeX code for the problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The horizontal component of force at point \( Q \) is given by:
+
+\[
+F_Q = \frac{mv^2}{R}
+\]
+
+The drop in height coming down to \( Q \) is:
+
+\[
+(6R - R) = 5R
+\]
+
+The gain in kinetic energy is equal to the loss in potential energy:
+
+\[
+\frac{7}{10} mv^2 = mg \cdot (5R)
+\]
+
+Solving for the horizontal component of force, we have:
+
+\[
+\frac{mv^2}{R} = \frac{50}{7} mg
+\]
+
+\end{document}
+```
+
+This LaTeX code uses the `amsmath` package for better handling of mathematical expressions and ensures that each part of the problem is clearly formatted and easy to read."
+4.39,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the velocity at the top be \( v \). Energy conservation gives:
+
+\begin{equation}
+    \frac{1}{2} m v_0^2 = m g r \cos \theta_0 + \frac{1}{2} m v^2
+\end{equation}
+
+where \( r \cos \theta_0 \) is the height to which the particle is raised. Angular momentum conservation gives:
+
+\begin{equation}
+    m v r = m v_0 r \sin \theta_0
+\end{equation}
+
+Eliminating \( v \) between (1) and (2) and simplifying, we find:
+
+\begin{equation}
+    v_0 = \sqrt{2 g r \cos \theta_0}
+\end{equation}
+
+\end{document}
+```
+"
+4.40,"To convert the given physics text into properly formatted LaTeX, we need to clearly define the equations and ensure proper alignment and notation. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The equation of motion is given by:
+\begin{equation}
+    ma = mg \sin \theta - T \tag{1}
+\end{equation}
+
+The torque is expressed as:
+\begin{equation}
+    \tau = TR = I\alpha = \frac{1}{2}mR^2 \frac{a}{R}
+\end{equation}
+
+From this, we find:
+\begin{equation}
+    T = \frac{1}{2}ma \tag{2}
+\end{equation}
+
+Using equation (2) in equation (1), we have:
+\begin{align*}
+    ma &= mg \sin \theta - \frac{1}{2}ma \\
+    \Rightarrow \frac{3}{2}ma &= mg \sin \theta \\
+    \Rightarrow a &= \frac{2}{3}g \sin \theta \\
+    &= \frac{2}{3}g \sin 30^\circ \\
+    &= \frac{g}{3}
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary equations and steps, formatted with the `amsmath` package for better alignment and readability. The equations are numbered where appropriate, and the trigonometric function is evaluated for \(\theta = 30^\circ\)."
+4.41,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The average angular velocity is given by:
+
+\[
+\langle \omega \rangle = \frac{\int \omega \, dt}{\int \, dt} \tag{1}
+\]
+
+The torque is related to angular acceleration by:
+
+\[
+\tau = I \alpha = C \sqrt{\omega}
+\]
+
+where \( C \) is a constant. Therefore, we have:
+
+\[
+\alpha = C_1 \sqrt{\omega}
+\]
+
+where \( C_1 = \text{constant} \).
+
+Since angular acceleration is the derivative of angular velocity, we can write:
+
+\[
+\alpha = \frac{d\omega}{dt} = C_1 \sqrt{\omega}
+\]
+
+This implies:
+
+\[
+dt = \frac{d\omega}{C_1 \sqrt{\omega}} \tag{2}
+\]
+
+Using equation (2) in equation (1), we find:
+
+\[
+\langle \omega \rangle = \frac{\int_{0}^{\omega_0} \sqrt{\omega} \, d\omega}{\int_{0}^{\omega_0} \frac{d\omega}{\sqrt{\omega}}}
+\]
+
+Evaluating the integrals, we have:
+
+\[
+\langle \omega \rangle = \frac{\left[ \frac{2}{3} \omega^{3/2} \right]_{0}^{\omega_0}}{\left[ 2 \omega^{1/2} \right]_{0}^{\omega_0}}
+\]
+
+Simplifying gives:
+
+\[
+\langle \omega \rangle = \frac{\frac{2}{3} \omega_0^{3/2}}{2 \omega_0^{1/2}} = \frac{\omega_0}{3}
+\]
+
+\end{document}
+```
+
+This LaTeX code will correctly format the given physics problem and solution, ensuring the equations are properly aligned and the mathematical notation is clear."
+4.42,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Problem Description}
+
+Consider a rod of length $OC = L$ with its center of mass $G$ at the midpoint, as shown in Fig. 4.27. As the rod rotates with an angular velocity $\omega$, it makes an angle $\theta$ with the vertical line $OA$ through $O$. Drop a perpendicular $GD = r$ on the vertical $OA$ and a perpendicular $GB$ on $OC$. The perpendicular distance $r$ is given by:
+
+\[
+r = \frac{L}{2} \sin \theta
+\]
+
+The acceleration of the rod at $G$ at any instant is $\omega^2 r = \omega^2 \left(\frac{L}{2}\right) \sin \theta$, horizontally and in the plane containing the rod and $OA$. The component at right angles to $OG$ is:
+
+\[
+\omega^2 \left(\frac{L}{2}\right) \sin \theta \cos \theta
+\]
+
+The angular acceleration $\alpha$ about $O$ in the vertical plane containing the rod and $OA$ will be:
+
+\[
+\omega^2 \sin \theta \cos \theta
+\]
+
+The torque about $O$ is given by:
+
+\[
+\text{Torque} = mgr = mg \frac{L}{2} \sin \theta = I \alpha = m \frac{L^2}{3} \omega^2 \sin \theta \cos \theta
+\]
+
+This simplifies to:
+
+\[
+m \frac{L}{2} \sin \theta \left[ g - \frac{2L}{3} \omega^2 \cos \theta \right] = 0
+\]
+
+Solving for $\theta$, we get:
+
+\[
+\theta = 0 \quad \text{or} \quad \theta = \cos^{-1} \left( \frac{3g}{2\omega^2 L} \right)
+\]
+
+If $3g > 2\omega^2 L$, i.e., $\omega^2 < \frac{3g}{2L}$, the only possible solution is $\theta = 0$, i.e., the rod hangs vertically. If $\omega^2 > \frac{3g}{2L}$, then:
+
+\[
+\theta = \cos^{-1} \left( \frac{3g}{2\omega^2 L} \right)
+\]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure4_27.png} % Replace with actual figure path
+    \caption{Diagram illustrating the rotating rod and angles.}
+    \label{fig:4.27}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX document provides a structured and formatted representation of the physics problem described, including equations and conditions for the angle $\theta$. Make sure to replace `figure4_27.png` with the actual path to your figure file."
+4.43,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a) Pure Sliding and Rolling}
+
+For pure sliding, the equation of motion is given by:
+\begin{equation}
+    ma = -\mu mg \quad \Rightarrow \quad a = -\mu g
+\end{equation}
+
+The velocity as a function of time is:
+\begin{equation}
+    v = v_0 - \mu gt
+\end{equation}
+
+At the instant pure rolling sets in, the torque equation is:
+\begin{equation}
+    I\alpha = FR
+\end{equation}
+
+Substituting the moment of inertia for a solid sphere, \( I = \frac{2}{5}mR^2 \), we have:
+\begin{equation}
+    \frac{2}{5}mR^2 \alpha = \mu mgR \quad \Rightarrow \quad \alpha = \frac{5}{2} \frac{\mu g}{R}
+\end{equation}
+
+The angular velocity \(\omega\) is:
+\begin{equation}
+    \omega = \alpha t = \frac{5}{2} \frac{\mu gt}{R}
+\end{equation}
+
+Using equation (5) in equation (2):
+\begin{align}
+    v &= v_0 - \frac{2}{5} \omega R \\
+    &= v_0 - \frac{2}{5} v \quad \Rightarrow \quad v = \frac{5}{7} v_0
+\end{align}
+
+\subsection*{(b) Time for Transition to Pure Rolling}
+
+The time \( t \) for the transition to pure rolling is:
+\begin{align}
+    v &= v_0 - \mu gt \\
+    t &= \frac{v_0 - v}{\mu g} = \frac{v_0 - \frac{5}{7}v_0}{\mu g} = \frac{2v_0}{7\mu g}
+\end{align}
+
+\subsection*{(c) Distance Covered During Transition}
+
+The distance \( s \) covered during the transition is given by:
+\begin{align}
+    v^2 &= v_0^2 + 2as \\
+    \left(\frac{5}{7}v_0\right)^2 &= v_0^2 - 2\mu gs \\
+    s &= \frac{12}{49} \frac{v_0^2}{\mu g}
+\end{align}
+
+\subsection*{Assumption}
+
+The assumption made is that we have either pure sliding or pure rolling. Actually, in the transition, both may be present.
+
+\end{document}
+```
+
+This LaTeX document is structured to clearly present the physics problem and its solution, with equations properly formatted and aligned for clarity."
+4.44,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The angular momentum \( \mathbf{L} \) is given by the cross product of position vector \( \mathbf{r} \) and momentum vector \( \mathbf{p} \):
+
+\[
+\mathbf{L} = \mathbf{r} \times \mathbf{p}
+\]
+
+Differentiating with respect to time, we have:
+
+\[
+\frac{d\mathbf{L}}{dt} = \frac{d}{dt}(\mathbf{r} \times \mathbf{p}) = \mathbf{r} \times \frac{d\mathbf{p}}{dt} + \mathbf{p} \times \frac{d\mathbf{r}}{dt}
+\]
+
+Since \(\frac{d\mathbf{p}}{dt} = \mathbf{F}\) (force) and \(\frac{d\mathbf{r}}{dt} = \mathbf{v}\) (velocity), this becomes:
+
+\[
+\frac{d\mathbf{L}}{dt} = \mathbf{r} \times \mathbf{F} + \mathbf{p} \times \mathbf{v} = \boldsymbol{\tau} + 0 = \boldsymbol{\tau}
+\]
+
+because the momentum and velocity vectors are in the same direction. Angular momentum conservation requires that:
+
+\[
+|\mathbf{L}_i| = |\mathbf{L}_f| = mv \left(\frac{l}{2}\right)
+\]
+
+The expression \( L = \left(\frac{l}{2}\right)mv \) is not correct because \( \mathbf{L} \) is perpendicular to \( \mathbf{v} \). Angular momentum conservation gives:
+
+\[
+mv \frac{l}{2} = \frac{1}{3}Ml^2 \omega + m \omega \frac{l^2}{4}
+\]
+
+Solving for \( \omega \), we find:
+
+\[
+\omega = \frac{6mv}{(4M + 3m)l} \tag{1}
+\]
+
+The rotational kinetic energy \( K_{\text{rot}} \) is:
+
+\[
+K_{\text{rot}} = \frac{1}{2}I\omega^2 + \frac{1}{2}m \left(\omega \frac{l}{2}\right)^2 = \frac{3m^2v^2}{2(4M + 3m)}
+\]
+
+where we have used equation (1). Therefore:
+
+\[
+\frac{K_{\text{rot}}}{\frac{1}{2}mv^2} = \frac{3m}{4M + 3m} = \frac{3}{23}
+\]
+
+where we have used \( M = 5m \) (as given by the problem).
+
+\end{document}
+```"
+4.45,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Let the small sphere break off from the large sphere at angle $\theta$ with the vertical, as shown in Fig. 4.28. At that point, the component of gravitational force minus the centrifugal force equals the reaction, which is zero. This is expressed as:
+
+\begin{equation}
+    mg \cos \theta = \frac{mv^2}{R + r} \tag{1}
+\end{equation}
+
+The loss in potential energy equals the gain in kinetic energy:
+
+\begin{equation}
+    mg(R + r)(1 - \cos \theta) = \frac{7}{10} mv^2 \tag{2}
+\end{equation}
+
+Solving equations (1) and (2), we find:
+
+\begin{equation}
+    g(R + r) = \frac{17}{10} v^2 = \frac{17}{10} \omega^2 r^2
+\end{equation}
+
+Therefore, the angular velocity $\omega$ is given by:
+
+\begin{equation}
+    \omega = \sqrt{\frac{10}{17} \frac{g(R + r)}{r^2}}
+\end{equation}
+
+And the angle $\theta$ is:
+
+\begin{equation}
+    \theta = \cos^{-1} \left(\frac{10}{17}\right)
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and solution with proper mathematical notation and structure."
+4.46,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+Let \( N \) be the reaction of the floor and \( \theta \) the angle which the rod makes with the vertical after time \( t \), as shown in Fig. 4.29. The only forces acting on the rod are the weight and the reaction, which act vertically, and consequently, the center of mass moves in a straight line vertically downwards. The equation of motion for the center of mass is given by
+
+\[
+mg - N = m \frac{d^2}{dt^2}(a - a \cos \theta)
+\]
+
+or
+
+\[
+mg - N = ma \left[ \cos \theta \left( \frac{d\theta}{dt} \right)^2 + \sin \theta \frac{d^2\theta}{dt^2} \right] \tag{1}
+\]
+
+The work-energy theorem gives
+
+\[
+mga(1 - \cos \theta) = \frac{1}{2}m \left( \frac{d\theta}{dt} \right)^2 \left[ \frac{a^2}{3} + a^2 \sin^2 \theta \right]
+\]
+
+where the square bracket has been written using the parallel axis theorem. Solving for \(\left( \frac{d\theta}{dt} \right)^2\), we have
+
+\[
+\left( \frac{d\theta}{dt} \right)^2 = \frac{6g(1 - \cos \theta)}{a(1 + 3 \sin^2 \theta)} \tag{2}
+\]
+
+Thus,
+
+\[
+\frac{d^2\theta}{dt^2} = \frac{3g}{a} \left[ \frac{\sin \theta (7 - 6 \cos \theta - 3 \sin^2 \theta)}{(1 + 3 \sin^2 \theta)^2} \right] \tag{3}
+\]
+
+By substituting \(\left( \frac{d\theta}{dt} \right)^2\) and \(\frac{d^2\theta}{dt^2}\) from (2) and (3) into (1), the reaction \( N \) is obtained as a function of \( \theta \).
+
+When the rod is about to strike the floor, \( \theta = \frac{\pi}{2} \); 
+
+\[
+\left( \frac{d\theta}{dt} \right)^2 = \frac{3g}{2a}
+\]
+
+and
+
+\[
+\frac{d^2\theta}{dt^2} = \frac{3g}{4a}
+\]
+
+Thus the reaction from (1) will be
+
+\[
+N = m \left[ g - \frac{3g}{4} \right] = \frac{1}{4}mg
+\]
+
+\end{document}
+```"
+4.47,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Solution}
+
+\subsection*{(a)}
+
+For $\alpha_{\text{net}} = 0$, the two torques which act in the opposite sense must be equal (Fig. 4.30), i.e., $\tau_1 = \tau_2$ or $m_1 g R_1 = m_2 g R_2$. Solving for $m_2$, we have:
+
+\[
+m_2 = m_1 \frac{R_1}{R_2} = \frac{25 \times 1.2}{0.5} = 60 \, \text{kg}
+\]
+
+\subsection*{(b)}
+
+\subsubsection*{(i)}
+
+The linear accelerations are related to the angular acceleration $\alpha$ by:
+
+\[
+a_1 = \alpha R_1, \quad a_2 = \alpha R_2
+\]
+
+Since $R_1 > R_2$, it follows that $a_1 > a_2$.
+
+\subsubsection*{(ii)}
+
+The equations of motion are:
+
+\begin{align}
+m_1 a_1 &= m_1 g - T_1 \quad (2) \\
+m_2 a_2 &= T_2 - m_2 g \quad (3) \\
+T_1 R_1 - T_2 R_2 &= I \alpha \quad (4)
+\end{align}
+
+Combining equations (1), (2), (3), and (4) and substituting $m_1 = 35 \, \text{kg}$, $m_2 = 60 \, \text{kg}$, $R_1 = 1.2 \, \text{m}$, $R_2 = 0.5 \, \text{m}$, $I = 38 \, \text{kg} \cdot \text{m}^2$, and $g = 9.8 \, \text{m/s}^2$, we find:
+
+\[
+a_1 = \frac{(m_1 R_1 - m_2 R_2) R_1 g}{m_1 R_1^2 + m_2 R_2^2 + I} = \frac{(35 \times 1.2 - 60 \times 0.5) \times 1.2 \times g}{35 \times 1.2^2 + 60 \times 0.5^2 + 38} = 0.139g
+\]
+
+\[
+a_2 = a_1 \frac{R_2}{R_1} = 0.139 \times \frac{0.5}{1.2} = 0.058g
+\]
+
+\[
+T_1 = m_1 (g - a_1) = 35g (1 - 0.139) = 295.3 \, \text{N}
+\]
+
+\[
+T_2 = m_2 (g + a_2) = 60g (1 + 0.058) = 622.1 \, \text{N}
+\]
+
+\[
+\alpha = \frac{T_1 R_1 - T_2 R_2}{I} = \frac{295.3 \times 1.2 - 622.1 \times 0.5}{38} = 1.14 \, \text{rad/s}^2
+\]
+
+\end{document}
+```"
+4.48,"Certainly! Below is the LaTeX code for the given physics text, formatted appropriately:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+\begin{align*}
+    \mathbf{J} &= \mathbf{J}_1 + \mathbf{J}_2 \\
+    &= \mathbf{x} \hat{\mathbf{i}} \times (-m \mathbf{v} \hat{\mathbf{j}}) + (x + d) \hat{\mathbf{i}} \times (m \mathbf{v} \hat{\mathbf{j}}) \\
+    &= m v d \hat{\mathbf{i}} \times \hat{\mathbf{j}} \\
+    &= m v d \hat{\mathbf{k}}
+\end{align*}
+
+This result is independent of $x$ and therefore independent of the origin.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Fig4_30.png}
+    \caption{Illustration corresponding to the calculation.}
+    \label{fig:4_30}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `Fig4_30.png` with the actual path to your figure file if you have an image to include. This LaTeX code will format the equations correctly and include a placeholder for a figure as referenced in your text."
+4.49,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem Solution}
+
+\subsection*{(a)}
+
+The rotational kinetic energy is given by:
+\[
+K_{\text{rot}} = \frac{1}{2} I \omega^2 = \frac{1}{2} \cdot \frac{2}{5} m r^2 \frac{v^2}{r^2} = \frac{1}{5} m v^2
+\]
+
+The total kinetic energy is:
+\[
+K_{\text{total}} = \frac{1}{2} m v^2 + \frac{1}{5} m v^2 = \frac{7}{10} m v^2
+\]
+
+Thus, the ratio of rotational kinetic energy to total kinetic energy is:
+\[
+\frac{K_{\text{rot}}}{K_{\text{total}}} = \frac{\left(\frac{1}{5} m v^2\right)}{\left(\frac{7}{10} m v^2\right)} = \frac{2}{7}
+\]
+
+\subsection*{(b)}
+
+When the sphere comes down to the bottom of the hemisphere, the loss of potential energy is converted into kinetic energy:
+\[
+mgh = mgR
+\]
+
+The gain in kinetic energy is:
+\[
+\frac{7}{10} m v^2
+\]
+
+Equating the potential energy loss to the kinetic energy gain:
+\[
+\frac{7}{10} m v^2 = mgR
+\]
+
+Solving for \( v^2 \):
+\[
+m v^2 = \frac{10}{7} mgR \quad \Rightarrow \quad \frac{v^2}{R} = \frac{10g}{7}
+\]
+
+The normal force exerted by the small sphere at the bottom of the large sphere is:
+\[
+N = mg + \frac{m v^2}{R} = mg + \frac{10mg}{7} = \frac{17mg}{7}
+\]
+
+\end{document}
+```"
+4.50,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Work Done in Rotational Motion}
+
+The work done \( W \) in rotational motion can be expressed as:
+\[
+W = \tau \theta = I \alpha \theta = \frac{I \omega^2}{2}
+\]
+
+Where:
+- \( \tau \) is the torque,
+- \( \theta \) is the angular displacement,
+- \( I \) is the moment of inertia,
+- \( \alpha \) is the angular acceleration,
+- \( \omega \) is the angular velocity.
+
+\subsection*{Moments of Inertia for Different Shapes}
+
+The moment of inertia \( I \) varies for different shapes:
+
+- For a hoop along the diameter:
+  \[
+  I = \frac{mR^2}{2}
+  \]
+
+- For a solid sphere:
+  \[
+  I = \frac{2}{5}mR^2
+  \]
+
+- For a hollow sphere:
+  \[
+  I = \frac{2}{3}mR^2
+  \]
+
+- For a disc:
+  \[
+  I = \frac{1}{4}mR^2
+  \]
+
+\subsection*{Maximum Work to Stop a Rotating Object}
+
+To stop a rotating object, the maximum work will have to be done on the hollow sphere, assuming the angular velocity \( \omega \) is identical for all objects. This is because the hollow sphere has the maximum moment of inertia.
+
+\end{document}
+```
+
+This LaTeX code provides a structured and clear presentation of the physics concepts related to work done in rotational motion and the moments of inertia for various shapes."
+4.51,"To convert the given physics text into properly formatted LaTeX, we need to ensure that all mathematical expressions are correctly structured. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The work done \( W \) is given by:
+
+\[
+W = \tau \theta = I \alpha \theta = \frac{I \omega^2}{2} = \frac{J^2}{2I}
+\]
+
+where we have used the formula \( J = I \omega \).
+
+Maximum work will have to be done for the disc since \( I \) is the least, \(\tau\) being identical.
+
+\end{document}
+```
+
+This code uses the `amsmath` package for enhanced mathematical typesetting and includes all the necessary equations and text in a clear and structured format."
+4.52,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The work done \( W \) is given by the equation:
+\[
+W = \frac{1}{2} I \omega^2 = \frac{1}{2} (I \omega) \omega = \frac{1}{2} J \omega
+\]
+Since \( J \) and \( \omega \) are the same for all four objects, the work done is the same.
+
+\end{document}
+```"
+4.53,"To properly format the given physics text into LaTeX, we need to ensure that the equations are clear and correctly structured. Here's the formatted LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The torque equation is given by:
+\[
+\tau = I \alpha = I \frac{a}{R} = MgR \sin \theta \left(1 + \frac{R^2}{k^2}\right)
+\]
+
+For different objects, the quantity \(1 + \frac{R^2}{k^2}\) takes the following values:
+\begin{itemize}
+    \item Solid sphere: \(\frac{7}{2}\)
+    \item Hollow sphere: \(\frac{5}{2}\)
+    \item Solid cylinder: \(3\)
+    \item Hollow cylinder: \(2\)
+\end{itemize}
+
+Therefore, \(\tau\) will be least for the solid sphere.
+
+\end{document}
+```
+
+This LaTeX code will produce a document with a properly formatted equation and a list detailing the values of the quantity \(1 + \frac{R^2}{k^2}\) for different objects. The conclusion about the torque \(\tau\) being least for the solid sphere is also clearly stated."
+4.54,"To convert the given physics text into properly formatted LaTeX, we need to ensure that vectors are properly denoted, derivatives are correctly formatted, and cross products are clearly expressed. Here is the LaTeX code for the provided physics problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+Given:
+\[
+\mathbf{r} = 3t \, \hat{\imath} + 2 \, \hat{\jmath}
+\]
+
+The velocity is given by the derivative of the position vector with respect to time:
+\[
+\mathbf{v} = \frac{d\mathbf{r}}{dt} = 3 \, \hat{\imath}
+\]
+
+The angular momentum \(\mathbf{L}\) is given by:
+\[
+\mathbf{L} = \mathbf{r} \times \mathbf{p} = m (\mathbf{r} \times \mathbf{v})
+\]
+
+Substituting the expressions for \(\mathbf{r}\) and \(\mathbf{v}\):
+\[
+\mathbf{L} = m \left( (3t \, \hat{\imath} + 2 \, \hat{\jmath}) \times 3 \, \hat{\imath} \right)
+\]
+
+Calculating the cross product:
+\[
+\mathbf{L} = m \left( 6 \, (\hat{\jmath} \times \hat{\imath}) \right) = -6m \, \hat{k} \quad \text{(constant)}
+\]
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem with vectors, derivatives, and cross products clearly and correctly."
+4.55,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem: Conservation Laws}
+
+\subsection*{Equations}
+
+1. **Angular Momentum Conservation:**
+   \[
+   J = mvd = I\omega
+   \]
+
+2. **Linear Momentum Conservation:**
+   \[
+   mv = Mv_c
+   \]
+
+3. **Energy Conservation:**
+   \[
+   \frac{1}{2}mv^2 = \frac{1}{2}I\omega^2 + \frac{1}{2}Mv_c^2
+   \]
+
+4. **Moment of Inertia:**
+   \[
+   I = \frac{Ml^2}{12}
+   \]
+
+\subsection*{Eliminating \(\omega\) and \(v_c\)}
+
+From equations (1) and (2), and using equation (3), we have:
+\[
+\frac{1}{2}mv^2 = \frac{1}{2} \frac{m^2v^2d^2}{I} + \frac{1}{2} \frac{m^2v^2}{M}
+\]
+
+\subsection*{Simplification Using Equation (4)}
+
+Substituting equation (4) into the above equation:
+\[
+d = \frac{l}{2} \sqrt{\frac{M-m}{3m}}
+\]
+
+\end{document}
+```
+
+This LaTeX code formats the given physics problem and solution with clear sections for each step, using appropriate mathematical notation for clarity and precision."
+4.56,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem}
+
+\begin{enumerate}
+    \item[(a)] Let the initial velocity be \( v_0 \). Then at instant \( t \), the velocity is given by:
+    \begin{equation}
+        v = v_0 - at = v_0 - \mu g t \tag{1}
+    \end{equation}
+    Torque \( \tau \) is given by:
+    \begin{align*}
+        \tau &= I \alpha = FR \\
+        \frac{1}{2} m R^2 \alpha &= \mu mgR \\
+        \alpha &= \frac{2\mu g}{R}
+    \end{align*}
+    From the equation of motion, we have:
+    \[
+    \mu gt = \alpha Rt = \frac{\omega R}{2}
+    \]
+    Therefore, equation (1) becomes:
+    \[
+    v = v_0 - \frac{\omega R}{2} = v_0 - \frac{v}{2}
+    \]
+    Solving for \( v \), we get:
+    \begin{equation}
+        v = \frac{2}{3} v_0 \tag{2}
+    \end{equation}
+    Using equation (2) in equation (1):
+    \[
+    \frac{2}{3} v_0 = v_0 - \mu gt
+    \]
+    Solving for \( t \), we find:
+    \[
+    t = \frac{v_0}{3\mu g}
+    \]
+
+    \item[(b)] The work done \( W \) is given by the change in kinetic energy:
+    \begin{align*}
+        W &= \Delta K = \frac{1}{2} m v^2 - \frac{1}{2} m v_0^2 \\
+        &= \frac{1}{2} m \left( \frac{4}{9} v_0^2 - v_0^2 \right) \\
+        &= -\frac{5}{18} m v_0^2
+    \end{align*}
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and solution correctly, using proper mathematical notation and structure."
+4.57,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The equation of motion is given by
+\begin{equation}
+    ma = mg - 2T \tag{1}
+\end{equation}
+where \( a \) is the linear acceleration and \( T \) is the tension in each thread.
+
+The torque equation is
+\begin{equation}
+    I\alpha = 2Tr \quad (\text{since there are two threads})
+\end{equation}
+Substituting the moment of inertia \( I = \frac{1}{2}mr^2 \), we have
+\begin{align}
+    \frac{1}{2}mr^2\alpha &= 2Tr \\
+    \alpha &= \frac{4T}{mr} \tag{2}
+\end{align}
+
+As both the cylinders are rotating, the linear acceleration is related to the angular acceleration by
+\begin{equation}
+    a = 2\alpha r = \frac{8T}{m} \tag{3}
+\end{equation}
+Substituting this into the equation of motion (1), we get
+\begin{equation}
+    ma = 8T \tag{4}
+\end{equation}
+
+Using equation (4) in equation (1), we find
+\begin{equation}
+    T = \frac{1}{10}mg
+\end{equation}
+
+Note that if the lower cylinder is not wound, then
+\begin{equation}
+    a = \frac{4T}{m}
+\end{equation}
+and
+\begin{equation}
+    T = \frac{1}{6}mg
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will format the physics equations and explanations correctly, ensuring clarity and proper mathematical representation."
+4.58,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Angular Momentum and Moment of Inertia}
+
+Consider the center of the disc and point \( A \) which is fixed, as shown in Fig. 4.31. The forces acting at \( A \) have no torque at \( A \), so the angular momentum is conserved. Initially, the moment of inertia of the disc about the axis passing through its center and perpendicular to its plane is given by
+
+\begin{equation}
+    I_c = I = \frac{1}{2}mr^2
+\end{equation}
+
+When the point \( A \) is fixed, the moment of inertia about an axis parallel to the central axis and passing through \( A \) will be
+
+\begin{equation}
+    I_A = I_c + mr^2 = m \left(\frac{1}{2}r^2 + r^2\right) = \frac{3}{2}mr^2
+\end{equation}
+
+by the parallel axis theorem. Angular momentum conservation requires
+
+\begin{equation}
+    I_A \omega' = I_c \omega
+\end{equation}
+
+Substituting equations (1) and (2) into equation (3), we obtain
+
+\begin{equation}
+    \omega' = \frac{\omega}{3}
+\end{equation}
+
+If \( X \) and \( Y \) are the impulses of the forces at \( A \) perpendicular and along \( CA \), respectively, then
+
+\begin{equation}
+    X = mr\omega' = \frac{mr\omega}{3}
+\end{equation}
+
+and
+
+\begin{equation}
+    Y = 0
+\end{equation}
+
+Thus, the impulse of the blow at \( A \) is \(\frac{mr\omega}{3}\) at right angles to \( CA \).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig4_31.png}
+    \caption{Diagram illustrating the forces and axes.}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX document includes equations for the moment of inertia, angular momentum conservation, and the resulting impulses, along with a placeholder for the figure (Fig. 4.31). Adjust the figure path and size as needed."
+4.59,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The torque of the air resistance on an element \( dx \) at distance \( x \) from the fixed end, about this end, will be:
+
+\[
+d\tau = k(\omega x)^2 x \, dx = k \omega^2 x^3 \, dx
+\]
+
+The total torque is given by:
+
+\[
+\tau = \int d\tau = -k \omega^2 \int_0^L x^3 \, dx = I \alpha
+\]
+
+Evaluating the integral:
+
+\[
+-k \omega^2 \left[ \frac{x^4}{4} \right]_0^L = \frac{1}{3} m L^2 \frac{d\omega}{dt}
+\]
+
+This simplifies to:
+
+\[
+-\frac{k \omega^2 L^4}{4} = \frac{1}{3} m L^2 \frac{d\omega}{dt}
+\]
+
+Rearranging gives:
+
+\[
+-3kL^2 \, dt = 4m \, d\omega \, \omega^2
+\]
+
+Integrating both sides:
+
+\[
+-3kL^2 t = -4m \frac{1}{\omega} + C
+\]
+
+where \( C \) is the constant of integration. Using the initial condition: when \( t = 0 \), \( \omega = \Omega_1 \), we find:
+
+\[
+C = \frac{4m}{\Omega_1}
+\]
+
+Substituting back, we have:
+
+\[
+-3kL^2 t = 4m \left( \frac{1}{\Omega_1} - \frac{1}{\omega} \right)
+\]
+
+Solving for \( \omega \), we get:
+
+\[
+\omega = \frac{4m/\Omega_1}{4m + 3kL^2 t/\Omega_1}
+\]
+
+\end{document}
+```
+
+This LaTeX code formats the given physics text into a structured and readable document, complete with equations and integrals."
+4.60,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+OA is the vertical radius of the cylinder and $a$ the radius of the sphere which is vertical in the lowest position and shown as CA, Fig 4.32. In the time the centre of mass of the sphere $C$ has moved to $C'$ through an angle $\theta$, the sphere has rotated through $\phi$ so that the reference line CA has gone into the place of $C'D$. If there is no slipping, 
+
+\begin{equation}
+    a(\phi + \theta) = b\theta \tag{1}
+\end{equation}
+
+The velocity of the centre of mass is $(b-a)\dot{\theta}$ and the angular velocity of the sphere about its centre is 
+
+\begin{equation}
+    \dot{\phi} = \frac{b-a}{a} \dot{\theta} \tag{2}
+\end{equation}
+
+Taking $A$ as zero level, the potential energy 
+
+\begin{equation}
+    U = mg(b-a)(1-\cos\theta) \tag{3}
+\end{equation}
+
+\textbf{Fig. 4.32}
+
+The kinetic energy $T = T_{\text{trans}} + T_{\text{rot}}$ is given by
+
+\begin{align}
+    T &= \frac{1}{2}m(b-a)^2\dot{\theta}^2 + \frac{1}{2}I \dot{\phi}^2 \notag \\
+      &= \frac{1}{2}m(b-a)^2\dot{\theta}^2 + \frac{1}{2} \cdot \frac{2}{5}ma^2 \left(\frac{b-a}{a}\right)^2 \dot{\theta}^2 \notag \\
+      &= \frac{7}{10}m(b-a)^2\dot{\theta}^2 \tag{4}
+\end{align}
+
+where we have used (2). The total energy $E = T + U$ is
+
+\begin{equation}
+    E = \frac{7}{10}m(b-a)^2\dot{\theta}^2 + mg(b-a)(1-\cos\theta) = \text{constant} \tag{5}
+\end{equation}
+
+Differentiating with respect to time and cancelling common factors,
+
+\begin{equation}
+    \frac{dE}{dt} = \frac{7}{5}m(b-a)\ddot{\theta}\cdot \dot{\theta} + g\sin\theta\cdot \dot{\theta} = 0 \tag{6}
+\end{equation}
+
+or 
+
+\begin{equation}
+    \ddot{\theta} + \frac{5g}{7(b-a)}\sin\theta = 0 \tag{7}
+\end{equation}
+
+For small oscillation angles $\sin\theta \to \theta$. Therefore,
+
+\begin{equation}
+    \ddot{\theta} + \frac{5g\theta}{7(b-a)} = 0 \tag{8}
+\end{equation}
+
+which is the equation for simple harmonic motion with frequency 
+
+\begin{equation}
+    \omega = \sqrt{\frac{5g}{7(b-a)}} \tag{9}
+\end{equation}
+
+and time period 
+
+\begin{equation}
+    T = 2\pi \sqrt{\frac{7(b-a)}{5g}} \tag{10}
+\end{equation}
+
+\end{document}
+```"
+4.61,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem}
+
+\begin{enumerate}
+    \item[(a)] Let the disc be composed of a number of concentric rings of infinitesimal width. Consider a ring of radius $r$, width $dr$, and surface density $\sigma$ (mass per unit area). Then its mass will be $(2\pi r \, dr) \sigma$. The moment of inertia of the ring about an axis passing through the center of the ring and perpendicular to its plane will be 
+    \[
+    dI = (2\pi r \, dr) \sigma r^2.
+    \]
+    Then the moment of inertia of the disc $I$ is given by
+    \[
+    I = \int dI = 2\pi \sigma \int_0^R r^3 \, dr = \frac{1}{2} \pi \sigma R^4.
+    \]
+    If $M$ is the mass of the disc, then 
+    \[
+    \sigma = \frac{M}{\pi R^2}.
+    \]
+    Therefore,
+    \[
+    I = \frac{1}{2} M R^2.
+    \]
+
+    \item[(b)] The total kinetic energy $T$ of the disc on the horizontal surface is
+    \[
+    T_{\text{initial}} = \frac{1}{2} M u^2 + \frac{1}{2} I \omega^2 = \frac{1}{2} M u^2 + \frac{1}{2} \cdot \frac{1}{2} M R^2 \frac{u^2}{R^2} = \frac{3}{4} M u^2.
+    \]
+    By energy conservation, the final kinetic energy is
+    \[
+    T_{\text{final}} = \frac{3}{4} M v^2 = \frac{3}{4} M u^2 + Mgh.
+    \]
+    Solving for $v$, we get
+    \[
+    v = \sqrt{u^2 + \frac{4}{3} gh}.
+    \]
+\end{enumerate}
+
+\end{document}
+```"
+4.62,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+In Fig.~4.33, let \( O \) be the center of the ring, \( P \) the instantaneous position of the insect, and \( G \) the center of mass of the system. Suppose the insect crawls around the ring in the counterclockwise sense. The only forces acting in a horizontal plane are the reactions at \( P \), which are equal and opposite. Consequently, \( G \) will not move, and the angular momentum about \( G \), which was zero initially, will remain zero throughout the motion due to its conservation.
+
+The equation for the conservation of angular momentum is given by:
+\[
+m \cdot PG(v - PG\omega) - I_G\omega = 0 \tag{1}
+\]
+where \(\omega\) is the angular velocity of the ring.
+
+Now, we have:
+\[
+PG = \frac{Mr}{M+m}, \quad OG = \frac{mr}{M+m} \tag{2}
+\]
+
+The moment of inertia \( I \) about the center of mass \( G \) is:
+\[
+I\omega = I_{\text{CM}} + M(OG)^2 = Mr^2 + \frac{M m^2 r^2}{(M+m)^2} \tag{3}
+\]
+
+Using equations (2) and (3) in equation (1) and simplifying, we obtain:
+\[
+\omega = \frac{mv}{(M+2m)r} \tag{4}
+\]
+
+\end{document}
+```
+
+This LaTeX code properly formats the given physics problem and solution, including equations and references to the figure."
+4.63,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{enumerate}
+    \item[(a)] The angular velocity $\omega$ points in the south to north direction along the rotational axis of the Earth. It is given by:
+    \[
+    \omega = \frac{2\pi}{T} = \frac{2\pi}{86,160} = 7.292 \times 10^{-5} \, \text{rad/s}
+    \]
+
+    \item[(b)] The period of rotation of the plane of oscillation is given by:
+    \[
+    T' = \frac{2\pi}{\omega'} = \frac{2\pi}{\omega \sin \lambda} = \frac{T_0}{\sin \lambda} = \frac{24}{\sin 30^\circ} = 48 \, \text{h}
+    \]
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and solution with proper mathematical notation and structure."
+4.64,"To convert the given physics text into properly formatted LaTeX, we will structure the equation clearly and ensure all mathematical symbols and operations are correctly represented. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The object undergoes an eastward deviation through a distance \( d \), given by:
+
+\[
+d = \frac{1}{3} \omega \cos \lambda \sqrt{\frac{8h^3}{g}}
+\]
+
+Substituting the values:
+
+\[
+d = \frac{1}{3} \times 7.29 \times 10^{-5} \times \cos 0^\circ \times \sqrt{\frac{8 \times 400^3}{9.8}}
+\]
+
+Calculating the above expression:
+
+\[
+d = 0.1756 \, \text{m} = 17.56 \, \text{cm}
+\]
+
+\end{document}
+```
+
+This LaTeX code will properly format the physics problem and solution, displaying the equation and substitution steps clearly."
+4.65,"To convert the given physics text into properly formatted LaTeX, we need to ensure that the mathematical expressions are correctly formatted and aligned. Here is the LaTeX code for the given expression:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\[
+y' = \frac{4}{3} u^3 g^2 \omega \cos \lambda = \frac{4}{3} \times (20)^3 \times (9.8)^2 \times 7.29 \times 10^{-5} \times \cos 0^\circ = 0.0081 \, \text{m} = 8.1 \, \text{mm}
+\]
+
+\end{document}
+```
+
+### Explanation:
+- The fraction \(\frac{4}{3}\) is formatted using the `\frac` command.
+- Superscripts are used for powers, e.g., \(u^3\) and \(g^2\).
+- Multiplication is indicated with `\times`.
+- The angle is expressed in degrees using `^\circ`.
+- Units are specified using `\, \text{unit}` for proper spacing and formatting.
+- The conversion from meters to millimeters is clearly indicated."
+4.66,"To convert the given text into properly formatted LaTeX, we need to ensure that mathematical expressions are correctly typeset. Here's the LaTeX code for the given physics problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Given the equation:
+\[
+y' = \frac{4}{3} u^3 g^2 \omega \cos \lambda
+\]
+
+For \(\lambda = 0^\circ\), the expression for \(u\) becomes:
+\[
+u = \left[ \frac{3y' g^2}{4 \omega \cos \lambda} \right]^{1/3}
+\]
+
+Substituting the values:
+\[
+u = \left[ \frac{3}{4} \times 1 \times (9.8)^2 \times \frac{1}{7.27 \times 10^{-5}} \right]^{1/3} = 99.7 \, \text{m/s}
+\]
+
+\end{document}
+```
+
+This LaTeX code will correctly format the physics equations and ensure they are displayed properly in a document."
+4.67,Error: Unable to process request after multiple attempts.
+4.68,"To convert the given physics text into properly formatted LaTeX, we need to clearly define the Coriolis force equation and its evaluation. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The Coriolis force is given by:
+
+\begin{equation}
+    \mathbf{F}_{\text{Coriolis}} = -2m \boldsymbol{\omega} \times \mathbf{v}_R
+\end{equation}
+
+For the specific case where the angle $\theta = 90^\circ$, the magnitude of the Coriolis force simplifies to:
+
+\begin{equation}
+    F_{\text{cor}} = 2m \omega v_R \sin \theta
+\end{equation}
+
+Substituting the given values:
+
+\begin{align*}
+    F_{\text{cor}} &= 2 \times 5 \times 10^8 \times 7.27 \times 10^{-5} \times \frac{8000}{86,400} \\
+    &= 6730 \, \text{N}
+\end{align*}
+
+The force is directed due north.
+
+\end{document}
+```
+
+This LaTeX code will format the equations and calculations correctly, ensuring clarity and readability in the document."
+4.69,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Coriolis Action on a Mass of Water}
+
+Consider the Coriolis action on a mass $m$ of water moving towards the eastern side, as shown in Fig. 4.35. The equation of motion is given by:
+
+\begin{equation}
+    m\ddot{y}' = 2mv\omega \sin \lambda
+\end{equation}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure_placeholder.png} % Replace with actual figure file
+    \caption{Illustration of the Coriolis effect on water mass.}
+    \label{fig:4.35}
+\end{figure}
+
+Let $N$ be the normal reaction and let the water level be tilted through an angle $\theta$. Resolve $N$ into horizontal and vertical components and balance them with the Coriolis force and the weight, respectively:
+
+\begin{align}
+    N \sin \theta &= 2mv\omega \sin \lambda \\
+    N \cos \theta &= mg
+\end{align}
+
+Dividing the equations, we find:
+
+\begin{equation}
+    \tan \theta = \frac{d}{b} = \frac{2v\omega \sin \lambda}{g}
+\end{equation}
+
+Thus, the expression for $d$ is:
+
+\begin{equation}
+    d = \frac{2bv\omega}{g} \sin \lambda
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary equations and figure placeholder for the Coriolis effect problem, formatted with proper syntax and alignment. Make sure to replace ""figure_placeholder.png"" with the actual image file for Fig. 4.35."
+4.70,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+By equation (15) problem (4.67), we have:
+
+\begin{align}
+    y' &= \frac{1}{3} \omega g t^3 \cos \lambda \tag{1} \\
+    z' &= \frac{1}{2} g t^2 \tag{2}
+\end{align}
+
+Eliminate \( t \) between equations (1) and (2) to find:
+
+\[
+y'^2 z'^3 = \frac{8}{9} \omega^2 \cos^2 \lambda \, g
+\]
+
+or
+
+\[
+y'^2 = C z'^3
+\]
+
+where \( C = \text{constant} \).
+
+\end{document}
+```"
+4.71,"To convert the given physics text into properly formatted LaTeX, we need to ensure that the equation is clear and correctly typeset. Here's the LaTeX code for the given expression:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+The Coriolis force is given by:
+
+\begin{equation}
+    F_{\text{cor}} = 2 m v \omega \sin \lambda
+\end{equation}
+
+Substituting the given values:
+
+\begin{align*}
+    F_{\text{cor}} &= 2 \times 106 \, \text{kg} \times 15 \, \text{m/s} \times 7.27 \times 10^{-5} \, \text{rad/s} \times \sin 60^\circ \\
+    &= 1889 \, \text{N} \quad \text{on the right rail.}
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code includes:
+- The use of `amsmath` for better equation formatting.
+- The `siunitx` package for consistent unit formatting (though not strictly necessary here, it is often useful in physics documents).
+- Clear separation of the equation and the substitution steps.
+- Proper use of subscripts and trigonometric functions."
+4.72,"To properly format the given physics text in LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The difference between the lateral forces on the rails arises because when the train reverses its direction of motion, the Coriolis force also changes its sign, while the magnitude remains the same. Therefore, the difference between the lateral force on the rails will be equal to:
+
+\begin{align*}
+    2mv\omega \cos \lambda - (-2mv\omega \cos \lambda) &= 4mv\omega \cos \lambda.
+\end{align*}
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document, uses the `amsmath` package for better mathematical formatting, and includes the equation with proper alignment and formatting."
+4.73,"To convert the given physics text into properly formatted LaTeX, we need to ensure that mathematical expressions are correctly typeset, and any constants or units are clearly presented. Here's the LaTeX code for the given problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx} % For SI units
+
+\begin{document}
+
+The displacement from the vertical is given by:
+
+\[
+y' = \left(\frac{1}{3}gt^3 - ut^2\right) \omega \cos \lambda
+\]
+
+Substituting the given values:
+
+\[
+y' = \left(\frac{1}{3} \times 9.8 \times 10^3 - 100 \times 10^2\right) \times 7.27 \times 10^{-5} \cos 60^\circ
+\]
+
+Calculating the expression:
+
+\[
+y' = -0.245 \, \text{m} = -24.5 \, \text{cm}
+\]
+
+Thus, the body has a displacement of \SI{24.5}{\centi\meter} to the west.
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the displacement calculation clearly formatted, including the use of SI units for the final result."

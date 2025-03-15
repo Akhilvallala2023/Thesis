@@ -1,0 +1,4163 @@
+Question_number,Question
+11.1,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a)}
+
+\subsubsection*{(i)}
+
+The force between two charges is given by Coulomb's law:
+
+\[
+F = \frac{q_1 q_2}{4 \pi \varepsilon_0 r^2}
+\]
+
+Substituting the given values:
+
+\[
+F = \frac{(8 \times 1.6 \times 10^{-19})(-4 \times 1.6 \times 10^{-19})}{4 \pi \times 8.85 \times 10^{-12} \times (0.2)^2}
+\]
+
+Calculating the above expression:
+
+\[
+F = -1.8432 \times 10^{-25} \, \text{N}
+\]
+
+\subsubsection*{(ii)}
+
+For the position of zero electric field, the forces due to the two charges must be equal in magnitude but oppositely directed. Clearly, the neutral point must be on the \( x \)-axis. 
+
+On the left of \( Q_1 \), the forces will be oppositely directed but cannot be equal as \( |Q_1| > |Q_2| \). Between \( Q_1 \) and \( Q_2 \), the forces are exerted in the same direction. On the right of \( Q_2 \), conditions are favorable for a null point.
+
+Let the zero electric field be situated at a distance \( x \) from \( Q_2 \) on the right. The equation for the electric field is:
+
+\[
+\frac{8e}{(x+0.2)^2} - \frac{4e}{x^2} = 0
+\]
+
+Solving for \( x \):
+
+\[
+x = 0.4828 \, \text{(on the right of \( Q_2 \))}
+\]
+
+\subsection*{(b)}
+
+The electric field \( E \) is given by:
+
+\[
+E = \frac{e}{4 \pi \varepsilon_0 r^2}
+\]
+
+Substituting the given values:
+
+\[
+E = \frac{1.6 \times 10^{-19}}{4 \pi \times 8.85 \times 10^{-12} \times (5.3 \times 10^{-11})^2}
+\]
+
+Calculating the above expression:
+
+\[
+E = 5.12 \times 10^{18} \, \text{N/C}
+\]
+
+The force \( F \) is then:
+
+\[
+F = E \cdot e = 5.12 \times 10^{18} \times 1.6 \times 10^{-19}
+\]
+
+Calculating the force:
+
+\[
+F = 81.92 \, \text{N}
+\]
+
+\end{document}
+```"
+11.2,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem}
+
+(a) As the electric field is downwards, the force on the positive charge will be downwards and the force on the negative charge will be upwards.
+
+\begin{enumerate}
+    \item[(i)] For \( q = +8\,\mu\text{C} \):
+    \begin{align*}
+        F_q &= qE = +8 \times 10^{-6} \times 300 = 2.4 \times 10^{-3}\,\text{N}, \\
+        F_g &= mg = 0.6 \times 10^{-3} \times 9.8 = 5.88 \times 10^{-3}\,\text{N}, \\
+        \therefore \text{Tension in the thread } T &= F_g + F_q = 5.88 \times 10^{-3} + 2.4 \times 10^{-3} = 8.28 \times 10^{-3}\,\text{N}.
+    \end{align*}
+
+    \item[(ii)] For \( q = -8\,\mu\text{C} \):
+    \begin{align*}
+        F_q &= qE = -2.4 \times 10^{-3}\,\text{N}, \\
+        \text{Tension in the thread } T &= 5.88 \times 10^{-3} - 2.4 \times 10^{-3} = 3.48 \times 10^{-3}\,\text{N}.
+    \end{align*}
+\end{enumerate}
+
+(b) As the electric field is in the negative \( x \)-direction, point \( b \) will be at a higher potential than \( a \).
+
+\begin{enumerate}
+    \item[(i)] Therefore, \( V_b - V_a \) will be positive.
+    \item[(ii)] Given \( E = \frac{V_b - V_a}{d} = 10^5 \), for \( d = (6 - 2) \):
+    \begin{align*}
+        E &= \frac{V_b - V_a}{4} = 10^5, \\
+        V_b - V_a &= 2.5 \times 10^4\,\text{N/C}.
+    \end{align*}
+\end{enumerate}
+
+\end{document}
+```"
+11.3,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The total charge on the circular loop is given by 
+\[
+Q = 2\pi R \lambda.
+\]
+
+The distance of the point \( P(0, 0, Z) \) from the loop is 
+\[
+r = \sqrt{Z^2 + R^2}.
+\]
+
+Therefore, the electric potential \( V \) at point \( P \) will be 
+\[
+V = \frac{Q}{4\pi \varepsilon_0 r} = \frac{\lambda R}{2 \varepsilon_0 \sqrt{Z^2 + R^2}}.
+\]
+
+The electric field \( E \) is given by the negative gradient of the potential, specifically in the \( z \)-direction:
+\[
+E = -\frac{\partial V}{\partial z} = \frac{\lambda R Z}{2 \varepsilon_0 (Z^2 + R^2)^{3/2}}.
+\]
+
+\end{document}
+```"
+11.4,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Solution}
+
+\subsection*{(a)}
+
+The force between two charges is given by:
+\[
+F = \frac{q}{4\pi \varepsilon_0 r^2} \quad \text{(where \( Q = 1 \))}
+\]
+
+The potential \( V \) is given by the integral of the force:
+\[
+V = - \int F \, dr = - \frac{q}{4\pi \varepsilon_0} \int \frac{dr}{r^2} = \frac{q}{4\pi \varepsilon_0 r} + C
+\]
+
+When \( r = \infty \), \( V = 0 \). Therefore, \( C = 0 \).
+
+\subsection*{(b)}
+
+The potential energy \( U \) for a system of charges is:
+\[
+U = \frac{q^2}{4\pi \varepsilon_0} \left[ \frac{1}{d} - \frac{1}{d} + \frac{1}{d} - \frac{1}{d} - \frac{1}{\sqrt{2}d} - \frac{1}{\sqrt{2}d} \right]
+\]
+
+For six pairs of charges, the potential energy simplifies to:
+\[
+U = -\frac{q^2}{\sqrt{2}\pi \varepsilon_0 d}
+\]
+
+The potential energy does not depend on the order in which the charges are assembled.
+
+\subsection*{(c)}
+
+Consider the forces on the top left-hand charge due to the three other charges. The components of the electric field are:
+\[
+E_x = E_y = -\frac{q^2}{8\pi \varepsilon_0 d^2}
+\]
+
+Thus, the magnitude of the electric field is:
+\[
+E = \sqrt{E_x^2 + E_y^2} = \sqrt{2} \frac{q^2}{8\pi \varepsilon_0 d^2} \neq 0
+\]
+
+Therefore, the charge is not in equilibrium. The same conclusion holds for the other three charges.
+
+\end{document}
+```
+This LaTeX code will render the physics problem and solution with proper formatting, including equations and mathematical symbols."
+11.5,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item[(i)] 
+    \[
+    V_1 = \frac{q}{4\pi \varepsilon_0 r} = \frac{2 \times 10^{-15} \times 9 \times 10^9}{10^{-3}} = 0.018 \, \text{V}
+    \]
+
+    \item[(ii)] 
+    If \( n \) droplets each of radius \( r \) coalesce to form a large drop of radius \( R \), then assuming that the droplets are incompressible, the volume does not change. Therefore,
+    \[
+    \frac{4}{3} \pi R^3 = n \frac{4}{3} \pi r^3
+    \]
+    which implies
+    \[
+    R = n^{1/3} r
+    \]
+    As charge is conserved, we have
+    \[
+    Q = nq
+    \]
+    where \( Q \) and \( q \) are the charges on the drop and droplet, respectively. Then the potential of the droplet is
+    \[
+    V_2 = \frac{Q}{4\pi \varepsilon_0 R} = \frac{nq}{4\pi \varepsilon_0 n^{1/3} r} = \frac{n^{2/3} q}{4\pi \varepsilon_0 r} = n^{2/3} V_1
+    \]
+    Substituting \( n = 2 \) and \( V_1 = 0.018 \, \text{V} \) from (i), we find
+    \[
+    V_2 = 2^{2/3} V_1 = 0.0286 \, \text{V}
+    \]
+\end{enumerate}
+
+\end{document}
+```"
+11.6,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+Consider the electric and gravitational forces acting on a particle. The electric force \( F \) is given by:
+
+\[
+F = qE = 2 \times 10^{-8} \times 20,000 = 4 \times 10^{-4} \, \text{N}
+\]
+
+The gravitational force \( mg \) is calculated as:
+
+\[
+mg = 80 \times 10^{-6} \times 9.8 = 7.84 \times 10^{-4} \, \text{N}
+\]
+
+Balancing the horizontal and vertical components of forces, as shown in Fig. 11.19, we have:
+
+\[
+T \sin \theta = F \tag{1}
+\]
+
+\[
+T \cos \theta = mg \tag{2}
+\]
+
+where \( T \) is the tension in the thread. From Fig. 11.19, we can express \(\tan \theta\) as:
+
+\[
+\tan \theta = \frac{F}{mg} = \frac{4 \times 10^{-4}}{7.84 \times 10^{-4}} = 0.51
+\]
+
+Thus, the angle \(\theta\) is:
+
+\[
+\theta = 27^\circ
+\]
+
+To find the tension \( T \), we square equations (1) and (2), add them, and then take the square root:
+
+\[
+T = \sqrt{F^2 + (mg)^2} = \sqrt{(4 \times 10^{-4})^2 + (7.84 \times 10^{-4})^2} = 8.8 \times 10^{-4} \, \text{N}
+\]
+
+\end{document}
+```
+"
+11.7,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The electric potential \( V \) is given by:
+
+\[
+V = \frac{1}{4\pi\varepsilon_0} \left( q + \frac{q}{2} + \frac{q}{4} + \frac{q}{8} + \cdots \right) = \frac{q}{4\pi\varepsilon_0} \left( 1 + \frac{1}{2} + \frac{1}{2^2} + \frac{1}{2^3} + \cdots \right)
+\]
+
+The terms in brackets form a geometric progression of infinite terms whose sum is:
+
+\[
+S = \frac{a}{1-r} = \frac{1}{1-\frac{1}{2}} = 2
+\]
+
+Thus, the electric potential becomes:
+
+\[
+V = \frac{q}{2\pi\varepsilon_0}
+\]
+
+The electric field \( E \) is given by:
+
+\[
+E = \frac{1}{4\pi\varepsilon_0} \left( q + \frac{q}{2^2} + \frac{q}{4^2} + \frac{q}{8^2} + \cdots \right) = \frac{1}{4\pi\varepsilon_0} q \left( 1 - \frac{1}{4} \right) = \frac{q}{3\pi\varepsilon_0}
+\]
+
+\end{document}
+```"
+11.8,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The potential \( V \) is given by:
+
+\begin{align*}
+    V &= \frac{1}{4\pi\varepsilon_0} \left( q - \frac{q}{2} + \frac{q}{4} - \frac{q}{8} + \frac{q}{16} - \frac{q}{32} + \cdots \right) \\
+    &= \frac{q}{4\pi\varepsilon_0} \left( 1 + \frac{1}{4} + \frac{1}{16} + \cdots \right) - \frac{q}{8\pi\varepsilon_0} \left( 1 + \frac{1}{4} + \frac{1}{16} + \cdots \right) \\
+    &= \frac{1}{4\pi\varepsilon_0} \left( q - \frac{q}{2} \right) \left( 1 + \frac{1}{4} + \frac{1}{16} + \cdots \right) \\
+    &= \frac{q}{8\pi\varepsilon_0} \cdot \frac{1}{1 - \frac{1}{4}} \\
+    &= \frac{q}{6\pi\varepsilon_0}
+\end{align*}
+
+The electric field \( E \) is given by:
+
+\begin{align*}
+    E &= \frac{1}{4\pi\varepsilon_0} \left( q - \frac{q}{2^2} + \frac{q}{4^2} - \frac{q}{8^2} + \frac{q}{16^2} + \cdots \right) \\
+    &= \frac{q}{4\pi\varepsilon_0} \left( 1 + \frac{1}{4^2} + \frac{1}{16^2} + \cdots \right) - \frac{q}{16\pi\varepsilon_0} \left( 1 + \frac{1}{4^2} + \frac{1}{16^2} + \cdots \right) \\
+    &= \frac{1}{4\pi\varepsilon_0} \left( q - \frac{q}{4} \right) \left( 1 + \frac{1}{4^2} + \frac{1}{16^2} + \cdots \right) \\
+    &= \frac{3q}{16\pi\varepsilon_0} \cdot \frac{1}{1 - \frac{1}{16}} \\
+    &= \frac{q}{5\pi\varepsilon_0}
+\end{align*}
+
+\end{document}
+```"
+11.9,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+By problem (11.3), the electric field \( E \) is given by:
+
+\[
+E = \frac{Qx}{4\pi \varepsilon_0 (x^2 + R^2)^{3/2}}
+\]
+
+where we have replaced \( z \) by \( x \) and substituted \( \lambda = \frac{Q}{2\pi R} \). As \( x \ll R \) and \( F = qE \), we have:
+
+\[
+F = \frac{Qqx}{4\pi \varepsilon_0 R^3} = -kx
+\]
+
+where \( q \) is negative and 
+
+\[
+k = \frac{Qq}{4\pi \varepsilon_0 R^3} = 10^{-5} \times 10^{-6} \times 9 \times 10^9 \times \frac{1}{3} = 0.09
+\]
+
+Thus, the motion of the negatively charged particle is approximately simple harmonic with angular frequency 
+
+\[
+\omega = \sqrt{\frac{k}{m}} = \sqrt{\frac{0.09}{0.9 \times 10^{-3}}} = 10
+\]
+
+The period \( T \) is given by:
+
+\[
+T = \frac{2\pi}{\omega} = \frac{2\pi}{10} = 0.628 \, \text{s}
+\]
+
+\end{document}
+```
+
+This LaTeX code will render the physics problem and solution with proper mathematical formatting and alignment."
+11.10,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Let \( a \) be the side of the equilateral triangle. The forces on the charge \( q \) placed at \( C \) due to the charges at \( A \) and \( B \) are repulsive and represented by \( \overrightarrow{CE} \) and \( \overrightarrow{CD} \), respectively, each given by 
+
+\[
+\frac{q^2}{4\pi\varepsilon_0 a^2}.
+\]
+
+The resultant of these two forces is given by \( \overrightarrow{CP} \), the diagonal of the parallelogram \( CDPE \), as shown in Fig. 11.20. Thus,
+
+\[
+CP = 2CD \cos 30^\circ = 2 \cdot \frac{q^2}{4\pi\varepsilon_0 a^2} \cdot \frac{\sqrt{3}}{2} = \frac{\sqrt{3}q^2}{4\pi\varepsilon_0 a^2}.
+\]
+
+The force on \( q \) at \( C \) due to \( Q \) at the center of the triangle is 
+
+\[
+\frac{Qq}{4\pi\varepsilon_0 (OC)^2} = \frac{3Qq}{4\pi\varepsilon_0 a^2}.
+\]
+
+\begin{enumerate}
+    \item If \( Q = -q \), this force will be attractive and will be directed along \( CO \). As the attractive force due to \(-q\) is greater than the combined repulsive force due to charges \( +q \) at \( A \) and \( B \), the charge at \( C \) will be attracted towards \( O \). The same is true for the charges placed at \( A \) and \( B \).
+
+    \item For equilibrium, the attractive force must balance the repulsive force:
+
+    \[
+    \frac{\sqrt{3}q^2}{4\pi\varepsilon_0 a^2} - \frac{3Qq}{4\pi\varepsilon_0 a^2} = 0 \quad \Rightarrow \quad Q = -\frac{q}{\sqrt{3}}.
+    \]
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Fig11_20.png}
+    \caption{Diagram illustrating forces on charge \( q \) at \( C \).}
+    \label{fig:11_20}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes equations and a figure placeholder for Fig. 11.20, formatted according to the description provided. Adjust the figure path and size as necessary."
+11.11,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Referring to Fig. 11.21, the Coulomb force between the spheres in air is given by
+\[
+F = \frac{q^2}{4\pi\varepsilon_0 x^2}
+\]
+In liquid, the force is
+\[
+F' = \frac{q^2}{4\pi\varepsilon_0 K x^2}
+\]
+
+The weight of the sphere in air is \( mg \).
+
+The apparent weight of the sphere in liquid is
+\[
+mg \left( 1 - \frac{\rho'}{\rho} \right)
+\]
+where \(\rho\) is the density of the material of the sphere and \(\rho'\) is that of the liquid.
+
+For equilibrium, the vertical and horizontal components of the force must separately balance. If \( T \) is the tension in the string when the sphere is in air and \( T' \) when it is in the liquid, we have:
+\[
+T \sin \theta = F, \quad T \cos \theta = mg
+\]
+\[
+T' \sin \theta = F', \quad T' \cos \theta = mg \left( 1 - \frac{\rho'}{\rho} \right)
+\]
+
+Thus, we can write:
+\[
+\tan \theta = \frac{F}{mg} = \frac{F'}{mg \left( 1 - \frac{\rho'}{\rho} \right)}
+\]
+
+This implies:
+\[
+\frac{F}{F'} = K = \frac{1}{1 - \frac{\rho'}{\rho}} = \frac{\rho}{\rho - \rho'} = \frac{1.6}{1.6 - 0.8} = 2
+\]
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{fig11_21.png} % Placeholder for Fig. 11.21
+\end{center}
+
+\end{document}
+```
+
+Make sure to replace `fig11_21.png` with the actual path to the image file for Fig. 11.21 if you have it. This LaTeX code properly formats the physics problem and solution, using equations and aligning them correctly."
+11.12,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+From the geometry of Fig. 11.22, we have the following distances:
+\[
+AB = 0.1 \, \text{m}, \quad OB = OC = 0.05\sqrt{2} \, \text{m}, \quad AC = (0.1)\sqrt{2} \, \text{m}.
+\]
+
+The potential energy of charge \( q \) at point \( B \) is given by:
+\[
+U(B) = \frac{q}{4\pi\varepsilon_0} \left[ \frac{q_1}{AB} + \frac{q_2}{OB} \right].
+\]
+
+The potential energy of charge \( q \) at point \( C \) is given by:
+\[
+U(C) = \frac{q}{4\pi\varepsilon_0} \left[ \frac{q_1}{AC} + \frac{q_2}{OC} \right].
+\]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure11_22.png}
+    \caption{Fig. 11.22}
+\end{figure}
+
+The work done in carrying the charge \( q \) from \( C \) to \( B \) is:
+\[
+W_{CB} = U(B) - U(C) = \frac{qq_1}{4\pi\varepsilon_0} \left[ \frac{1}{AB} - \frac{1}{AC} \right].
+\]
+
+Substituting the given values:
+\[
+W_{CB} = 5 \times 10^{-9} \times 6 \times 10^{-8} \times 9 \times 10^9 \left( \frac{1}{0.1} - \frac{1}{(0.1)\sqrt{2}} \right).
+\]
+
+Calculating the expression:
+\[
+W_{CB} = 7.9 \times 10^{-6} \, \text{J}.
+\]
+
+\end{document}
+```
+
+This LaTeX code includes the necessary equations and a placeholder for the figure (Fig. 11.22). You can replace the `figure11_22.png` with the actual image file name if you have it. The equations are formatted to display the potential energy expressions and the work done calculation clearly."
+11.13,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+The problem is similar to problem (11.6), as shown in Fig. 11.23. For equilibrium, we have the following conditions:
+
+\[
+T \sin \theta = qE
+\]
+
+\[
+T \cos \theta = mg
+\]
+
+From these, we can derive:
+
+\[
+\tan \theta = \frac{qE}{mg} \approx \frac{2}{50} = 0.04
+\]
+
+Therefore, solving for \( E \):
+
+\[
+E = \frac{0.04mg}{q} = \frac{(0.04)(0.5 \times 10^{-3})(9.8)}{3 \times 10^{-10}}
+\]
+
+Calculating the above expression gives:
+
+\[
+E = 6.53 \times 10^5 \, \text{N/C}
+\]
+
+This electric field \( E \) is directed away from the equilibrium position.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Fig11_23.png} % Replace with actual figure file
+    \caption{Diagram of the system in equilibrium (Fig. 11.23)}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `Fig11_23.png` with the actual filename of your figure if you have it. This LaTeX document will correctly format the physics problem and its solution, including the equations and figure reference."
+11.14,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The electric field \( E \) is given by:
+\[
+E = \frac{V}{d}
+\]
+where \( V \) is the potential difference (PD) and \( d \) is the distance of separation between the plates.
+
+The electric force on the droplet is:
+\[
+F = qE = \frac{qV}{d}
+\]
+
+If the upper plate is negative, the condition for equilibrium against the gravitational force acting downwards is:
+\[
+\frac{qV}{d} = mg
+\]
+
+Solving for \( V \), we have:
+\[
+V = \frac{mgd}{q}
+\]
+
+Substituting the given values:
+\[
+V = \frac{10^{-14} \times 9.8 \times 0.01}{3.2 \times 10^{-19}} = 3062.5 \, \text{V}
+\]
+
+If the polarity of the plates is reversed, both the electric and gravitational forces would act downwards. The net force would become:
+\[
+F' = qE + mg = 2mg
+\]
+
+The acceleration \( a \) is then:
+\[
+a = \frac{F'}{m} = 2g = 2 \times 9.8 = 19.6 \, \text{m/s}^2
+\]
+
+\end{document}
+```"
+11.15,"To convert the given physics text into properly formatted LaTeX, we need to ensure that all mathematical expressions are correctly formatted and aligned. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let \( q \) be the charge on each body. The condition for equilibrium between electric and gravitational forces is given by:
+
+\[
+\frac{q^2}{4\pi \varepsilon_0 r^2} = \frac{GMm}{r^2}
+\]
+
+Solving for \( q \), we have:
+
+\[
+q = \sqrt{4\pi \varepsilon_0 GMm}
+\]
+
+Substituting the given values:
+
+\[
+q = \left[\frac{6.67 \times 10^{-11} \times 6 \times 10^{24} \times 7.4 \times 10^{22}}{9 \times 10^{9}}\right]^{1/2}
+\]
+
+Calculating the above expression, we find:
+
+\[
+q = 5.736 \times 10^{13} \, \text{C}
+\]
+
+\end{document}
+```
+
+This code will render the physics problem and solution with proper mathematical formatting. Make sure to compile this with a LaTeX editor that supports mathematical typesetting, such as Overleaf or TeXShop."
+11.16,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem Solution}
+
+The energy \( W \) is given by the equation:
+\[
+W = qV
+\]
+where \( q \) is the charge and \( V \) is the potential difference.
+
+Given:
+\[
+V = 5 \times 10^6 \, \text{V} \quad \text{and} \quad W = 10^{-5} \, \text{J}
+\]
+
+We can solve for \( q \):
+\[
+q = \frac{W}{V} = \frac{10^{-5}}{5 \times 10^6} = 2 \times 10^{-12} \, \text{C}
+\]
+
+Next, we calculate the number of electrons that have flowed out using the charge of an electron \( e = 1.6 \times 10^{-19} \, \text{C} \):
+\[
+\text{Number of electrons} = \frac{q}{e} = \frac{2 \times 10^{-12}}{1.6 \times 10^{-19}} = 1.25 \times 10^7
+\]
+
+\end{document}
+```
+This LaTeX code will format the physics problem and solution with clear equations and calculations."
+11.17,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Consider an element \( dx \) of the rod at distance \( x \) from the point \( P \) on the axis of the rod. In the length \( dx \), the charge is \( dq = \lambda \, dx \), as shown in Fig. 11.24. The field at \( P \) due to \( dq \) will be 
+
+\[
+dE = \frac{\lambda \, dx}{4 \pi \varepsilon_0 x^2}
+\]
+
+The total electric field will be 
+
+\[
+E = \int dE = \int_{0.1}^{0.35} \frac{\lambda \, dx}{4 \pi \varepsilon_0 x^2}
+\]
+
+Evaluating the integral, we have
+
+\[
+E = \frac{\lambda}{4 \pi \varepsilon_0} \left[ \frac{1}{x} \right]_{0.1}^{0.35} = \frac{\lambda}{4 \pi \varepsilon_0} \left( \frac{1}{0.1} - \frac{1}{0.35} \right)
+\]
+
+Substituting the given values,
+
+\[
+E = 200 \times 10^{-6} \times 9 \times 10^9 \times \left( \frac{1}{0.1} - \frac{1}{0.35} \right) = 1.286 \times 10^7 \, \text{N/C}
+\]
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Fig_11_24.png} % Replace with actual figure file if available
+\end{center}
+
+\end{document}
+```
+
+This LaTeX document includes the necessary equations and formatting for the problem and solution, along with a placeholder for the figure. Adjust the figure path as needed."
+11.18,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Electric Field on the Axis of a Charged Disc}
+
+Let \( P \) be the field point on the axis of the disc at a distance \( z \) from the origin. Consider a ring of radius \( r \) and width \( dr \). The charge on the ring is \( dq = 2\pi r \, dr \, \sigma \) where \( \sigma \) is the charge density (charge per unit area), as shown in Fig. 11.25.
+
+The electric field at \( P \) can be resolved into a component along the \( z \)-axis and a component perpendicular to it. The perpendicular components, when added, become zero due to symmetry. The components along the \( z \)-axis are added as follows:
+
+\[
+dE_{||} = \frac{dq \, z}{4\pi \varepsilon_0 (z^2 + r^2)^{3/2}} = \frac{2\pi r \, dr \, \sigma \, z}{4\pi \varepsilon_0 (z^2 + r^2)^{3/2}}
+\]
+
+The total electric field \( E \) at point \( P \) is given by integrating \( dE_{||} \):
+
+\[
+E = \int dE_{||} = \frac{\sigma}{2\varepsilon_0} z \int_0^R \frac{r \, dr}{(z^2 + r^2)^{3/2}}
+\]
+
+Evaluating the integral, we find:
+
+\[
+E = \frac{\sigma}{2\varepsilon_0} \left( 1 - \frac{z}{(z^2 + R^2)^{1/2}} \right)
+\]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure11_25.png}
+    \caption{Electric field on the axis of a charged disc.}
+    \label{fig:11_25}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code formats the physics problem and solution with appropriate mathematical expressions and includes a placeholder for a figure (Fig. 11.25). Adjust the figure path and size as needed."
+11.19,"Certainly! Below is the given physics text formatted into LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The equations of motion for a charged particle in an electric field are given by:
+
+\begin{align}
+    eE + mg - 6\pi \eta \frac{v_1}{r} &= 0 \quad \text{(downward field)} \label{eq:downward} \\
+    eE - mg - 6\pi \eta \frac{v_2}{r} &= 0 \quad \text{(upward field)} \label{eq:upward}
+\end{align}
+
+Adding equations \eqref{eq:downward} and \eqref{eq:upward}, and solving for $e$, we get:
+
+\begin{equation}
+    e = \frac{3\pi \eta}{E} (v_1 + v_2) r
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the equations of motion formatted correctly, including labels for downward and upward fields, and the solution for \( e \)."
+11.20,"To properly format the given physics text into LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Consider an element of the circular wire \( ds \) (see Fig. 11.26). Then, the charge element is given by:
+
+\[
+dq = \lambda ds
+\]
+
+where \( ds = r \, d\theta \). Therefore, we have:
+
+\[
+dq = (\lambda \cos^2 \theta)(r \, d\theta)
+\]
+
+To find the total charge \( q \), we integrate over the entire circle:
+
+\[
+q = \int dq = \lambda r \int_0^{2\pi} \cos^2 \theta \, d\theta
+\]
+
+Using the trigonometric identity \(\cos^2 \theta = \frac{1 + \cos(2\theta)}{2}\), the integral becomes:
+
+\[
+q = \lambda r \int_0^{2\pi} \frac{1 + \cos(2\theta)}{2} \, d\theta = \lambda r \left[ \frac{\theta}{2} + \frac{\sin(2\theta)}{4} \right]_0^{2\pi}
+\]
+
+Evaluating the integral, we find:
+
+\[
+q = \lambda r \left( \pi \right) = \pi \lambda r
+\]
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Fig11_26.png} % Replace with the actual path to the image
+\end{center}
+
+\textbf{Fig. 11.26:} An element of the circular wire.
+
+\end{document}
+```
+
+This LaTeX code includes the necessary mathematical expressions and a placeholder for the figure (Fig. 11.26). Make sure to replace `Fig11_26.png` with the actual path to your image file. The code uses the `amsmath` package for better formatting of mathematical expressions and the `graphicx` package for including images."
+11.21,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+The electric force is given by:
+\begin{equation}
+    F_e = \frac{q^2}{4\pi \varepsilon_0 r^2} \tag{11.48}
+\end{equation}
+
+The gravitational force is given by:
+\begin{equation}
+    F_g = \frac{G M m}{r^2} \tag{11.49}
+\end{equation}
+
+The ratio of the electric force to the gravitational force is:
+\begin{equation}
+    \frac{F_e}{F_g} = \frac{q^2}{4\pi \varepsilon_0} \cdot \frac{1}{G M m} = \frac{(1.6 \times 10^{-19})^2 \times 9 \times 10^9}{6.67 \times 10^{-11} \times 1.66 \times 10^{-27} \times 9.1 \times 10^{-31}} \tag{11.50}
+\end{equation}
+
+Calculating the above expression gives:
+\begin{equation}
+    = 2.29 \times 10^{39} \tag{11.51}
+\end{equation}
+
+The distance is immaterial. Note that the gravitational force at the atomic and sub-atomic levels is small simply because the masses are small.
+
+\end{document}
+```
+
+This LaTeX code formats the given physics equations and text into a structured document with equations numbered as specified. The `amsmath` package is used for better handling of mathematical expressions, and `siunitx` is included for potential use with units, though not directly used in this snippet."
+11.22,"To convert the given physics text into properly formatted LaTeX, we will structure the equations and align them for clarity. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+We are given the following equations:
+
+\begin{align}
+    q_1 + q_2 &= 15 \, \mu\text{C} \tag{1} \\
+    F &= \frac{q_1 q_2}{4 \pi \varepsilon_0 r^2} = 9 \times 10^9 \frac{(0.3)^2}{q_1 q_2} = 5.4 \quad \Rightarrow \quad q_1 q_2 = 54 \, (\mu\text{C})^2 \tag{2}
+\end{align}
+
+Solving equations (1) and (2), we find:
+
+\begin{align*}
+    q_1 &= 6 \, \mu\text{C}, \\
+    q_2 &= 9 \, \mu\text{C}.
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code uses the `align` environment to align the equations properly and includes the necessary mathematical symbols and formatting for clarity."
+11.23,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+At point $P$, the electric field due to the charge $+q$ is given by:
+\[
+E_{+q} = \frac{q}{4\pi \varepsilon_0 \left(\frac{a}{\sqrt{2}}\right)^2} = \frac{2q}{4\pi \varepsilon_0 a^2}
+\]
+and it points towards the charge $+2q$. 
+
+The electric field due to the charge $+2q$ is:
+\[
+E_{+2q} = \frac{4q}{4\pi \varepsilon_0 a^2}
+\]
+and it points towards the charge $+q$. 
+
+The resultant field due to the pair of charges $(q, 2q)$ is:
+\[
+E_1 = \frac{4q}{4\pi \varepsilon_0 a^2} - \frac{2q}{4\pi \varepsilon_0 a^2} = \frac{2q}{4\pi \varepsilon_0 a^2}
+\]
+and it points towards the charge $+q$.
+
+Similarly, the resultant field due to the pair of charges $(-q, -2q)$ will be:
+\[
+E_2 = -\frac{2q}{4\pi \varepsilon_0 a^2}
+\]
+which points towards the charge $-2q$, or equivalently:
+\[
+E_2 = \frac{2q}{4\pi \varepsilon_0 a^2}
+\]
+and it points towards the charge $-q$.
+
+Now, $E_1$ and $E_2$ are equal in magnitude and act at right angles to each other (from the geometry of the diagram). The overall field will then be:
+\[
+E = \sqrt{2}E_1 = \frac{2\sqrt{2}q}{4\pi \varepsilon_0 a^2}
+\]
+and it is directed along the positive $y$-axis.
+
+\end{document}
+```"
+11.24,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+Consider an infinitesimal length \( \mathrm{d}x \) at distance \( x \) from \( O \), the center of the rod. The charge on \( \mathrm{d}x \) will be 
+\[
+\mathrm{d}q = \frac{q \, \mathrm{d}x}{L}.
+\]
+The field at \( P \) due to \( \mathrm{d}q \), shown by an arrow, can be resolved into \( x \)- and \( y \)-components. The \( x \)-component of the field will be canceled by a symmetric charge on the negative side at equal distance. The \( y \)-components of the field will be added up, as shown in Fig. 11.27.
+
+The \( y \)-component of the electric field is given by
+\[
+\mathrm{d}E_y = \mathrm{d}E \cos \theta = \frac{q \, \mathrm{d}x}{4 \pi \varepsilon_0 L (x^2 + y^2)} \cdot \frac{y}{(x^2 + y^2)^{1/2}}.
+\]
+
+Thus, the total electric field \( E \) is
+\[
+E = \int \mathrm{d}E_y = \frac{qy}{4 \pi \varepsilon_0 L} \int \frac{\mathrm{d}x}{(x^2 + y^2)^{3/2}}.
+\]
+
+Substitute \( x = y \tan \theta \), \( \mathrm{d}x = y \sec^2 \theta \, \mathrm{d}\theta \):
+\[
+E = \frac{q}{4 \pi \varepsilon_0 L y} \int_{-\alpha}^{\alpha} \cos \theta \, \mathrm{d}\theta = \frac{q}{2 \pi \varepsilon_0 L y} \sin \alpha = \frac{q}{2 \pi \varepsilon_0 (4y^2 + L^2)^{1/2}}
+\]
+where we have used \( \sin \alpha = \frac{L/2}{(y^2 + L^2/4)^{1/2}} \).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure11_27.png}
+    \caption{Illustration of the electric field components at point \( P \).}
+    \label{fig:11_27}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary mathematical expressions and a placeholder for a figure (Fig. 11.27) that illustrates the problem setup. Adjust the figure path and size as needed."
+11.25,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Consider an element of angle between $\theta$ and $\theta + d\theta$. Let $OP$ be the bisector of angle $\theta_0$ subtended by the arc $AB$ at the centre $O$. The charge on the element of the arc $ad\theta$ will be $\frac{q \, d\theta}{\theta_0}$. The electric field at $O$ due to this element of arc can be resolved into $E_\parallel$ along $PO$ and $E_\perp$ perpendicular to it. The perpendicular components will be cancelled for reasons of symmetry while the parallel components get added up, as shown in Fig. 11.28.
+
+\[
+dE = dE_\parallel = \frac{q \, d\theta}{4\pi\varepsilon_0 \theta_0 a^2} \cos\theta
+\]
+
+\[
+E = \int dE_\parallel = \frac{q}{4\pi\varepsilon_0 \theta_0 a^2} \int_{-\theta_0/2}^{\theta_0/2} \cos\theta \, d\theta = \frac{q}{2\pi\varepsilon_0 a^2} \frac{\sin(\theta_0/2)}{\theta_0}
+\]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Fig11_28.png} % Replace with the actual path to the figure
+    \caption{Electric field components due to an arc element.}
+    \label{fig:11_28}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary mathematical expressions and a placeholder for the figure (Fig. 11.28). Ensure to replace `""Fig11_28.png""` with the actual path to your figure file."
+11.26,"To convert the given physics text into properly formatted LaTeX, we will structure the equations and explanations clearly. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The electric field at a distance $z$ from the center of the ring on the axis of the ring is given by:
+
+\begin{equation}
+    E = \frac{\lambda r}{2 \varepsilon_0} \frac{z}{(z^2 + r^2)^{3/2}}
+\end{equation}
+
+To find the maximum field, we set the derivative of $E$ with respect to $z$ to zero:
+
+\begin{equation}
+    \frac{\partial E}{\partial z} = 0
+\end{equation}
+
+This gives:
+
+\begin{equation}
+    (z^2 + r^2)^{1/2} (r^2 - 2z^2) = 0
+\end{equation}
+
+Since the first factor $(z^2 + r^2)^{1/2}$ cannot be zero for any real value of $z$, the second factor gives:
+
+\begin{equation}
+    z = \frac{r}{\sqrt{2}}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX document includes the necessary equations and explanations, formatted correctly for a physics context."
+11.27,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem: Electric Field and Potential of a Circular Strip}
+
+Consider a circular strip symmetric about the $z$-axis with radius $r$ and width $a \, d\theta$ (see Fig. 11.29). The charge on the strip is given by:
+
+\[
+dq = \frac{q}{2\pi a} r \, d\theta = \frac{q r \, d\theta}{a} = q \sin\theta \, d\theta
+\]
+
+\subsection*{(a) Electric Field at the Centre of the Hemisphere}
+
+At the centre of the hemisphere, the $x$-component of the field will be cancelled due to symmetry. Therefore, the entire field is contributed by the $z$-component alone. The differential electric field is:
+
+\[
+dE = dE_z = \frac{q \sin\theta \, d\theta \cos\theta}{4\pi\varepsilon_0 a^2}
+\]
+
+Thus, the total electric field $E$ is:
+
+\[
+E = \int dE_z = \frac{q}{4\pi\varepsilon_0 a^2} \int_0^{\pi/2} \sin\theta \cos\theta \, d\theta
+\]
+
+Evaluating the integral:
+
+\[
+E = \frac{q}{8\pi\varepsilon_0 a^2}
+\]
+
+\subsection*{(b) Electric Potential at the Centre of the Hemisphere}
+
+The differential potential $dV$ is given by:
+
+\[
+dV = \frac{q \sin\theta \, d\theta}{4\pi\varepsilon_0 a}
+\]
+
+Thus, the total potential $V$ is:
+
+\[
+V = \int dV = \frac{q}{4\pi\varepsilon_0 a} \int_0^{\pi/2} \sin\theta \, d\theta
+\]
+
+Evaluating the integral:
+
+\[
+V = \frac{q}{4\pi\varepsilon_0 a}
+\]
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Fig11_29.png} % Placeholder for the actual figure
+\end{center}
+
+\end{document}
+```
+
+This LaTeX document includes the necessary equations and formatting for the physics problem, with sections for the electric field and potential calculations. The figure reference is included as a placeholder for ""Fig. 11.29""."
+11.28,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+The $x$-component of the field due to the front charges will get cancelled, and the $y$-component is added up to 
+
+\[
+\frac{2q}{4\pi\varepsilon_0} \frac{a/2}{\left[\left(r - \frac{a}{2}\right)^2 + \frac{a^2}{4}\right]^{1/2}}
+\]
+
+along the negative $y$-axis, as shown in Fig. 11.30. Similarly, the field due to the other two charges will be 
+
+\[
+\frac{2q \cdot a/2}{4\pi\varepsilon_0 \left[\left(r + \frac{a}{2}\right)^2 + \frac{a^2}{4}\right]^{3/2}}
+\]
+
+along the positive $y$-axis. Neglecting terms of the order of $a^2$, the net field will be 
+
+\[
+E = \frac{qa}{4\pi\varepsilon_0 r^3} \left[\left(1 - \frac{a}{r}\right)^{-3/2} - \left(1 + \frac{a}{r}\right)^{-3/2}\right]
+\]
+
+Using the binomial expansion and retaining terms linear in $a$, we get
+
+\[
+E = \frac{3qa^2}{4\pi\varepsilon_0 r^4}
+\]
+
+Thus, \( E \propto \frac{1}{r^4} \).
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Fig11_30.png} % Placeholder for Fig. 11.30
+\end{center}
+
+\end{document}
+```
+
+This LaTeX code will format your physics problem and solution correctly, including equations and references to the figure. Make sure to replace the placeholder for Fig. 11.30 with the actual image file path if needed."
+11.29,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The electric force \( F_e \) is equal to the gravitational force:
+
+\[
+F_e = \frac{q^2}{4\pi\varepsilon_0 r^2} = \frac{Gm^2}{r^2}
+\]
+
+Equating the two forces, we have:
+
+\[
+\frac{q^2}{4\pi\varepsilon_0} = Gm^2
+\]
+
+Solving for the charge-to-mass ratio, \( \frac{q}{m} \):
+
+\[
+\frac{q}{m} = \left( 4\pi\varepsilon_0 G \right)^{1/2}
+\]
+
+Substituting the values for the constants:
+
+\[
+\frac{q}{m} = \left( 6.67 \times 10^{-11} \times 9 \times 10^9 \right)^{1/2} = 8.65 \times 10^{-9} \, \text{C/kg}
+\]
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the equations properly formatted and aligned."
+11.30,"Certainly! To convert the given physics text into properly formatted LaTeX, we can start by setting up a basic structure. Since the text mentions the equilibrium of a sphere, we might include a diagram and some equations related to equilibrium. Here's a sample LaTeX document that includes a description and a placeholder for a figure:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Equilibrium of a Sphere}
+\author{}
+\date{}
+
+\maketitle
+
+\section{Introduction}
+
+Consider the equilibrium of one of the spheres, as illustrated in Fig. \ref{fig:sphere}. In this scenario, we analyze the forces acting on the sphere to determine the conditions for equilibrium.
+
+\begin{figure}[h]
+    \centering
+    % Replace 'sphere-diagram.png' with the actual file name of the diagram
+    \includegraphics[width=0.5\textwidth]{sphere-diagram.png}
+    \caption{Diagram of the sphere in equilibrium.}
+    \label{fig:sphere}
+\end{figure}
+
+\section{Equilibrium Conditions}
+
+For the sphere to be in equilibrium, the net force and net torque acting on it must be zero. The conditions can be expressed as:
+
+\begin{align}
+    \sum \vec{F} &= 0, \\
+    \sum \vec{\tau} &= 0.
+\end{align}
+
+Where:
+\begin{itemize}
+    \item $\sum \vec{F}$ is the sum of all forces acting on the sphere.
+    \item $\sum \vec{\tau}$ is the sum of all torques acting on the sphere.
+\end{itemize}
+
+\section{Conclusion}
+
+By analyzing the forces and torques, we can ensure that the sphere remains in equilibrium under the given conditions.
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document with sections for introduction, equilibrium conditions, and conclusion. It includes a placeholder for a figure of the sphere and uses equations to express the conditions for equilibrium. You can replace `'sphere-diagram.png'` with the actual file name of your diagram. Adjust the content as needed to fit the specific details of your problem."
+11.31,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem Solution}
+
+If $T$ is the tension in the string, then we have the following equations:
+
+\begin{align}
+    T \cos \theta &= mg, \\
+    T \sin \theta &= \frac{q^2}{4 \pi \varepsilon_0 x^2}.
+\end{align}
+
+Therefore, we find that:
+
+\begin{equation}
+    \tan \theta \approx \theta = \frac{x}{2L} = \frac{q^2}{4 \pi \varepsilon_0 mg x^2}.
+\end{equation}
+
+Solving for $q$, we get:
+
+\begin{equation}
+    q = \left(2 \pi \varepsilon_0 mg L \right)^{1/2} x^{3/2}.
+\end{equation}
+
+Refer to Fig. 11.31 for the setup.
+
+The derivative of $q$ with respect to $x$ is:
+
+\begin{equation}
+    \frac{dq}{dx} = \frac{3}{2} \sqrt{2 \pi \varepsilon_0 mg L} \sqrt{x}.
+\end{equation}
+
+The rate of change of $q$ with respect to time $t$ is given by:
+
+\begin{equation}
+    \frac{dq}{dt} = \frac{dq}{dx} \frac{dx}{dt} = \frac{dq}{dx} v = \frac{dq}{dx} a \sqrt{x} = \frac{3}{2} a \sqrt{2 \pi \varepsilon_0 mg L}.
+\end{equation}
+
+Consider an element of length $dx$ of the thread at a distance $x$ from the center of the ring. The force between the ring and the element $dx$ can be resolved into $x$- and $y$-components. See Fig. 11.31 for a visual representation.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig11_31.png}
+    \caption{Diagram illustrating the forces on the element of the thread.}
+    \label{fig:11_31}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes equations for the tension in the string, the derivation of charge $q$, and the rate of change of $q$ with respect to time. It also references a figure for visual aid. Make sure to replace `fig11_31.png` with the actual path to your image file if you include it in your document."
+11.32,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The $y$-component will get cancelled for reasons of symmetry. The field is entirely contributed by the $x$-component. The charge in length $dx$ is $\lambda \, dx$. The electric force between the wire and the ring is given by
+
+\[
+F = F_x = \int \frac{1}{4\pi\varepsilon_0} \frac{q \lambda \, dx \cos \theta}{(R^2 + x^2)} = \frac{q \lambda}{4\pi\varepsilon_0} \int_0^{\infty} \frac{x \, dx}{(x^2 + R^2)^{3/2}}
+\]
+
+Substitute $x = R \cot \theta$, $dx = -R \csc^2 \theta \, d\theta$, then
+
+\[
+F = -\frac{q \lambda}{4\pi\varepsilon_0 R} \int_0^{\pi/2} \cos \theta \, d\theta = \frac{q \lambda}{4\pi\varepsilon_0 R}
+\]
+
+\begin{center}
+\textit{Fig. 11.32}
+\end{center}
+
+Consider an element of wire $dx$ at distance $x$ from $O$, as shown in Fig. 11.32.
+
+\end{document}
+```
+
+This LaTeX document includes the necessary mathematical expressions and substitutions, formatted correctly for clarity and readability."
+11.33,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+
+\begin{document}
+
+The charge in $dx$ will be $\lambda \, dx$. The $x$-component of the electric field will be 
+\[
+E_x = \int E \sin \theta = \int \frac{\lambda \, dx \sin \theta}{4 \pi \varepsilon_0 (x^2 + y^2)} = \frac{\lambda}{4 \pi \varepsilon_0} \int_{0}^{\infty} \frac{x \, dx}{(x^2 + y^2)^{3/2}}
+\]
+
+Let $x^2 + y^2 = z^2$, then $x \, dx = z \, dz$ where $y$ is constant. Thus,
+\[
+E_x = \frac{\lambda}{4 \pi \varepsilon_0} \int_{y}^{\infty} \frac{dz}{z^2} = \frac{\lambda}{4 \pi \varepsilon_0 y}
+\]
+
+Similarly, the $y$-component is
+\[
+E_y = \int E \cos \theta = \frac{\lambda}{4 \pi \varepsilon_0 y}
+\]
+
+The magnitude of the electric field is
+\[
+E = \sqrt{E_x^2 + E_y^2} = \sqrt{2} \frac{\lambda}{4 \pi \varepsilon_0 y}
+\]
+
+The angle $\alpha$ is given by
+\[
+\tan \alpha = \frac{E_y}{E_x} = 1 \implies \alpha = 45^\circ
+\]
+
+Thus, $\vec{E}$ makes an angle of $45^\circ$ with the $y$-axis.
+
+\[
+\text{Fig. 11.33}
+\]
+
+Given $\phi = Cxy$, the components of the electric field are
+\[
+E_x = -\frac{\partial \phi}{\partial x} = -Cy, \quad E_y = \frac{\partial \phi}{\partial y} = -Cx
+\]
+
+Therefore, the electric field vector is
+\[
+\vec{E} = -C(y \hat{i} + x \hat{j})
+\]
+
+\end{document}
+```
+
+This LaTeX code correctly formats the physics equations and explanations, ensuring clarity and proper mathematical representation."
+11.34,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Let the charges \( Q \) and \( -2Q \) be located on the \( x \)-axis at distance \( a \) on the opposite side of the \( y \)-axis. Let the point \( P(x, y) \) be at distance \( r_1 \) from \( Q \) and at \( r_2 \) from \( -2Q \), as shown in Fig. 11.34. By problem
+
+\[
+\frac{1}{4\pi\varepsilon_0} \left[ \frac{Q}{r_1} - \frac{2Q}{r_2} \right] = 0
+\]
+
+or
+
+\[
+r_2 = 2r_1 \tag{1}
+\]
+
+Writing
+
+\[
+r_1^2 = (x + a)^2 + y^2 \tag{2}
+\]
+
+and
+
+\[
+r_2^2 = (a - x)^2 + y^2 \tag{3}
+\]
+
+and eliminating \( r_1 \) and \( r_2 \) in (1), (2), and (3) and simplifying, we get
+
+\[
+3x^2 + 3y^2 + 10xa + 3a^2 = 0
+\]
+
+or
+
+\[
+\left( x + \frac{5}{3}a \right)^2 + y^2 = \frac{16}{9}a^2
+\]
+
+which is the equation of a circle. See Fig. 11.34.
+
+\end{document}
+```
+
+This LaTeX code provides a clear and structured presentation of the problem and solution, using equations and proper formatting to enhance readability."
+11.35,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Let the charge \( q \) be taken from the center of ring A to the center of ring B, as shown in Fig. 11.35.
+
+At A, the potential energy \( U_A \) is given by:
+\[
+U_A = \frac{qQ_1}{4\pi\varepsilon_0 R} + \frac{qQ_2}{4\pi\varepsilon_0 (\sqrt{2}R)}
+\]
+
+At B, the potential energy \( U_B \) is:
+\[
+U_B = \frac{qQ_2}{4\pi\varepsilon_0 R} + \frac{qQ_1}{4\pi\varepsilon_0 (\sqrt{2}R)}
+\]
+
+The work done, \( W \), in moving the charge from A to B is:
+\[
+W = U_B - U_A = \frac{(\sqrt{2} - 1)q(Q_2 - Q_1)}{4\sqrt{2}\pi\varepsilon_0 R}
+\]
+
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{figure_11_35.png}
+    \captionof{figure}{Fig. 11.35}
+\end{center}
+
+\end{document}
+```
+
+Make sure to replace `figure_11_35.png` with the actual path to your figure file if you are compiling this document."
+11.36,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Problem}
+
+(a) Consider an infinitesimal length of the rod, at distance $y$ from the origin, as shown in Fig. 11.36. The charge in $dy$ will be $\lambda \, dy$. The distance of $P_1$ from $dy$ will be $2a - y$. The potential at $P_1$ is given by
+
+\begin{equation}
+V_1 = \frac{1}{4\pi\varepsilon_0} \int_{-a}^{a} \frac{\lambda \, dy}{2a - y} = \frac{\lambda}{4\pi\varepsilon_0} \ln 3
+\end{equation}
+
+The potential at $P_2$ is
+
+\begin{equation}
+V_2 = \frac{1}{4\pi\varepsilon_0} \int_{-a}^{a} \frac{\lambda \, dy}{\sqrt{y^2 + x^2}} = \frac{2\lambda}{4\pi\varepsilon_0} \ln \left( \frac{a + \sqrt{a^2 + x^2}}{x} \right)
+\end{equation}
+
+By the problem, $V_2 = V_1$, therefore
+
+\begin{equation}
+\left( \frac{a + \sqrt{a^2 + x^2}}{x} \right)^2 = 3 \quad \Rightarrow \quad x = \sqrt{3}a
+\end{equation}
+
+Thus, $V_1 = V_2 = \lambda \times 9 \times 10^9 \times \ln 3 = 9.89 \times 10^9 \, \text{V}$.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig11_36}
+    \caption{Illustration of the problem.}
+    \label{fig:11_36}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary equations and formatting for the physics problem, with appropriate mathematical notation and a placeholder for the figure. Make sure to replace `fig11_36` with the actual path to your figure file."
+11.37,"To convert the given physics text into properly formatted LaTeX, we need to ensure that the equations are clear and correctly structured. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The potential energy \( U \) is given by:
+
+\[
+U = U_{Qq} + U_{Qq} + U = \frac{1}{4\pi\varepsilon_0} \left[ \frac{Qq}{a} + \frac{Qq}{a} + \frac{q^2}{\sqrt{2}a} \right] = 0
+\]
+
+Therefore, solving the problem, we find:
+
+\[
+Q = -\frac{q}{2\sqrt{2}}
+\]
+
+\end{document}
+```
+
+Explanation:
+- The equation for \( U \) is formatted using fractions and square roots to clearly represent the terms.
+- The constants and variables are enclosed in math mode using `\( \)` or `\[ \]` for inline and display math, respectively.
+- The solution for \( Q \) is formatted as a separate equation for clarity."
+11.38,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The work done \( W \) is given by the sum of the potential energies between the charges:
+
+\[
+W = U_{12} + U_{23} + U_{34} + U_{41} + U_{13} + U_{24}
+\]
+
+where charges 1 and 3 are positive, and charges 2 and 4 are negative. We assume that the potential energy is zero for infinite separation of charges. The expression for the work done is:
+
+\[
+W = \frac{q^2}{4\pi\varepsilon_0} \left[ -\frac{1}{a} - \frac{1}{a} - \frac{1}{a} - \frac{1}{a} + \frac{1}{\sqrt{2}a} + \frac{1}{\sqrt{2}a} \right]
+\]
+
+Simplifying, we get:
+
+\[
+W = -\frac{q^2}{4\pi\varepsilon_0 a} \left( 4 - \sqrt{2} \right)
+\]
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and solution correctly, ensuring that all mathematical expressions are displayed properly."
+11.39,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Problem}
+
+(a) The charge density is given by \(\rho = \frac{3q}{4\pi R^3}\). Consider a shell of radius \(r\) and thickness \(dr\) concentric with the sphere. The volume of the shell is \(4\pi r^2 dr\) and the charge in it will be 
+\[
+dq = 4\pi r^2 dr \rho.
+\]
+The charge of the sphere of radius \(r\) is 
+\[
+dq' = \frac{4}{3}\pi r^3 \rho
+\]
+and may be considered to be concentrated at the centre. The interaction energy between the shell and the sphere of radius \(r\) will be 
+\[
+dU = \frac{1}{4\pi \varepsilon_0} \frac{(dq)(dq')}{r} = \frac{1}{4\pi \varepsilon_0} \frac{(4\pi r^2 dr \rho) \left(\frac{4}{3}\pi r^3 \rho \right)}{r} = \frac{4\pi \rho^2 r^4 dr}{3 \varepsilon_0}.
+\]
+Total interaction energy 
+\[
+U = \int dU = \frac{4\pi \rho^2}{3 \varepsilon_0} \int_0^R r^4 dr = \frac{4\pi \rho^2 R^5}{15 \varepsilon_0} = \frac{3q^2}{20\pi \varepsilon_0 R}
+\]
+where we have substituted the value of \(\rho\).
+
+(b) 
+\[
+U = \frac{3}{5} \times 9 \times 10^9 \times \left(9^2 \times (1.6 \times 10^{-19})^2\right) \div \left(1.5 \times (238)^{1/3} \times 10^{-15}\right) = 1.259 \times 10^{-11} \, \text{J} = 78.7 \, \text{MeV}.
+\]
+
+\begin{center}
+    \textbf{Fig. 11.37}
+\end{center}
+
+\end{document}
+```
+
+This LaTeX code provides a clear and structured representation of the given physics problem, with all equations properly formatted and aligned."
+11.40,"Here is the given physics text converted into properly formatted LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item[(i)] 
+    \[
+    E = \frac{Q}{4\pi\varepsilon_0} \left[ \frac{2x^2 - 1}{(x+d)^2} - \frac{1}{(x-d)^2} \right] = -\frac{2Qd^2(3x^2 - d^2)}{4\pi\varepsilon_0 x^2 (x^2 - d^2)^2}
+    \]
+
+    \item[(ii)] 
+    For \( x \gg d \), we have \( 3x^2 - d^2 \approx 3x^2 \) and \( x^2 - d^2 \approx x^2 \). Thus,
+    \[
+    E = -\frac{6Qd^2}{4\pi\varepsilon_0 x^4}
+    \]
+
+    \item[(iii)] 
+    \[
+    E = -6 \times 9 \times 10^9 \times 2 \times 10^{-6} \times (10^{-4})^2 \div (0.2)^2 = 0.675 \, \text{N/C}
+    \]
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code will produce a neatly formatted document with the physics equations properly aligned and typeset."
+11.41,"Certainly! Below is the properly formatted LaTeX code for the given physics equations:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{enumerate}
+    \item[(a)] 
+    \begin{align*}
+        q &= CV = 4 \pi \varepsilon_0 r V \\
+        &= \frac{5 \times 10^6 \times 10^{-3}}{9 \times 10^9} \\
+        &= 5.5 \times 10^{-7} \, \text{C}
+    \end{align*}
+
+    \item[(b)] 
+    \begin{align*}
+        V &= \frac{q}{4 \pi \varepsilon r} \\
+        &= \frac{5.5 \times 10^{-7} \times 9 \times 10^9}{1 \times 10^{-3}} \\
+        &= 1.65 \times 10^6 \, \text{V}
+    \end{align*}
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code will format the equations neatly, using proper mathematical notation and alignment."
+11.42,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The initial potential energy is given by:
+\[
+U_1 = -\frac{q_e}{4\pi \varepsilon_0 r_1}
+\]
+
+The final potential energy is:
+\[
+U_2 = -\frac{q_e}{4\pi \varepsilon_0 r_2}
+\]
+
+The change in potential energy is:
+\[
+\Delta U = U_1 - U_2 = \frac{q_e}{4\pi \varepsilon_0} \left( \frac{1}{r_2} - \frac{1}{r_1} \right)
+\]
+
+According to the work-energy theorem, the gain in kinetic energy is equal to the loss in potential energy:
+\[
+\frac{1}{2}mv^2 = \frac{q_e}{4\pi \varepsilon_0} \left( \frac{1}{r_2} - \frac{1}{r_1} \right)
+\]
+
+Solving for \( v \), we have:
+\[
+v = \left[ \frac{2q_e}{4\pi \varepsilon_0 m} \left( \frac{1}{r_2} - \frac{1}{r_1} \right) \right]^{1/2}
+\]
+
+Substituting the given values:
+\[
+v = \left[ \frac{2 \times 2 \times 10^{-9} \times 1.6 \times 10^{-19} \times 9 \times 10^9}{9.1 \times 10^{-31}} \left( \frac{1}{0.18} - \frac{1}{1.2} \right) \right]^{1/2}
+\]
+
+Calculating the result:
+\[
+v = 5.467 \times 10^6 \, \text{m/s}
+\]
+
+\end{document}
+```"
+11.43,"To convert the given physics text into properly formatted LaTeX, we need to ensure that all mathematical expressions are correctly typeset. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+The potential \( V(r) \) is given by:
+
+\[
+V(r) = \frac{Q}{4\pi\varepsilon_0} \left[ \frac{2}{r} - \frac{1}{\sqrt{r^2 + d^2}} - \frac{1}{\sqrt{r^2 + d^2}} \right]
+\]
+
+Simplifying, we have:
+
+\[
+V(r) = \frac{2Q}{4\pi\varepsilon_0} \left[ \frac{1}{r} - \frac{1}{r} \left( 1 + \frac{d^2}{r^2} \right)^{-1/2} \right]
+\]
+
+For small \( \frac{d^2}{r^2} \), we can approximate:
+
+\[
+V(r) \approx \frac{Qd^2}{4\pi\varepsilon_0 r^3}
+\]
+
+Thus, \( V(r) \propto \frac{1}{r^3} \).
+
+\end{document}
+```
+
+This LaTeX code correctly formats the equations and uses appropriate mathematical symbols and notation."
+11.44,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem Solution}
+
+\begin{enumerate}
+    \item[(i)] The force on the electron due to the electric field is given by:
+    \[
+    F = qE = (1.6 \times 10^{-19} \, \text{C})(2 \times 10^{3} \, \text{N/C}) = 3.2 \times 10^{-16} \, \text{N}
+    \]
+
+    \item[(ii)] The acceleration of the electron can be calculated using Newton's second law:
+    \[
+    a = \frac{F}{m} = \frac{3.2 \times 10^{-16} \, \text{N}}{9.1 \times 10^{-31} \, \text{kg}} = 3.516 \times 10^{14} \, \text{m/s}^2
+    \]
+
+    The final velocity of the electron after traveling a distance \( s \) is given by:
+    \[
+    v = \sqrt{2as} = \sqrt{2 \times 3.516 \times 10^{14} \, \text{m/s}^2 \times 0.015 \, \text{m}} = 3.25 \times 10^{6} \, \text{m/s}
+    \]
+
+    \item[(iii)] Outside the plates, there is no force on the electron as there is no electric field.
+\end{enumerate}
+
+\end{document}
+```"
+11.45,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+The potential \( V(r) \) due to a point charge \( Q \) is given by:
+
+\begin{equation}
+V(r) = \frac{Q}{4\pi \varepsilon_0 r}
+\end{equation}
+
+For a continuous distribution of charge, each element \( dq \) can be treated as a point charge, so that the contribution \( dV \) to the potential can be written according to Equation (1), as shown in Fig. 11.38:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics{fig11_38.png}
+    \caption{Illustration of charge distribution.}
+\end{figure}
+
+\begin{equation}
+dV = \frac{1}{4\pi \varepsilon_0} \frac{dQ}{r}
+\end{equation}
+
+For the potential due to the entire distribution of all the elements, Equation (2) is integrated:
+
+\begin{equation}
+V = \int dV = \frac{1}{4\pi \varepsilon_0} \int \frac{dQ}{r}
+\end{equation}
+
+In the case of a uniform charge distribution, we can write \( dQ = \lambda \, ds \), \( dQ = \sigma \, dA \), or \( dQ = \rho \, dV \) depending on the geometry of the problem. Here, \( \lambda \) is the linear charge density, \( \sigma \) is the surface charge density, and \( \rho \) is the volume charge density.
+
+\begin{enumerate}
+    \item[(a)] \( q = \pi R^2 \sigma \)
+    \item[(b)] Consider a ring of radius \( r \) and width \( dr \) concentric with the disc of radius \( R \). The charge on the ring is \( dq = \sigma 2\pi r \, dr \). The potential at point \( P \), at a distance \( x \) on the axis of the disc, will be
+
+    \begin{equation}
+    dV = \frac{1}{4\pi \varepsilon_0} \frac{dq}{y} = \frac{1}{4\pi \varepsilon_0} \frac{\sigma 2\pi r \, dr}{\sqrt{r^2 + x^2}}
+    \end{equation}
+
+    The potential due to the disc will be
+
+    \begin{equation}
+    V = \int dV = \frac{\sigma}{2\varepsilon_0} \int_0^R \frac{r \, dr}{\sqrt{r^2 + x^2}}
+    \end{equation}
+
+    Let \( r^2 + x^2 = y^2 \), then \( rdr = ydy \), and Equation (5) becomes
+
+    \begin{equation}
+    V = \frac{\sigma}{2\varepsilon_0} \int \frac{dy}{y} = \frac{\sigma}{2\varepsilon_0} \left[ \ln(y) \right]_{x}^{\sqrt{x^2 + R^2}} = \frac{\sigma}{2\varepsilon_0} \left[ \sqrt{x^2 + R^2} - x \right]
+    \end{equation}
+
+    \item[(c)] If \( x \gg R \), Equation (6) can be expanded binomially:
+
+    \begin{equation}
+    V \rightarrow \frac{\sigma}{2\varepsilon_0} \left[ x \left( 1 + \frac{R^2}{x^2} \right)^{1/2} - x \right] = \frac{\sigma R^2}{4\varepsilon_0 x} = \frac{q}{4\pi \varepsilon_0 x}
+    \end{equation}
+
+    This expression is appropriate for the point charge. This result is reasonable since at very large distances, the disc appears as a point.
+\end{enumerate}
+
+\end{document}
+```"
+11.46,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+For circular motion of an electron, the speed is given by:
+\begin{equation}
+    v = \frac{2\pi r}{T} \tag{1}
+\end{equation}
+
+For a stable orbit, the centripetal force is equal to the electric force:
+\begin{equation}
+    \frac{mv^2}{r} = \frac{1}{4\pi\varepsilon_0} \frac{e^2}{r^2} \tag{2}
+\end{equation}
+
+Eliminating \( v \) between equations (1) and (2), we get:
+\begin{equation}
+    T^2 = \frac{16\pi^3\varepsilon_0mr^3}{e^2}
+\end{equation}
+
+or
+
+\begin{equation}
+    T^2 \propto r^3
+\end{equation}
+
+which is Kepler's third law.
+
+\end{document}
+```
+
+This LaTeX code formats the given physics text into a structured document with equations properly numbered and aligned."
+11.47,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Figure11_39.png} % Replace with the actual path to the image
+    \caption{Forces on charge 2 due to charges 1, 3, and 4.}
+    \label{fig:forces}
+\end{figure}
+
+The forces on charge 2 due to charges 1, 3, and 4 are given by:
+
+\[
+F_{12} = F_{32} = \frac{1}{4\pi \varepsilon_0} \frac{Q^2}{a^2}
+\]
+
+\[
+F_{42} = \frac{1}{4\pi \varepsilon_0} \frac{Q^2}{(\sqrt{2}a)^2} = \frac{1}{4\pi \varepsilon_0} \frac{Q^2}{2a^2}
+\]
+
+Now, since \( F_{12} \) and \( F_{32} \) act at right angles and are equal in magnitude, we have:
+
+\[
+|F_{32} + F_{12}| = \sqrt{2} F_{12}
+\]
+
+Further, \( F_{42} \) acts in the same direction as the combined force of \( F_{32} \) and \( F_{12} \). Therefore:
+
+\[
+|F_{12} + F_{32} + F_{42}| = \frac{Q^2}{4\pi \varepsilon_0 a^2} \left( \sqrt{2} + \frac{1}{2} \right) = 1.914 \frac{Q^2}{4\pi \varepsilon_0 a^2}
+\]
+
+\end{document}
+```
+
+This LaTeX code includes the necessary formatting for the physics problem, with equations properly aligned and formatted. The figure is referenced and labeled, assuming you have an image file named `Figure11_39.png`. Adjust the image path as needed."
+11.48,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Electric Field of a Dipole}
+
+\subsection*{(a) Electric Field on the Perpendicular Bisector}
+
+A dipole consists of two equal and opposite charges. To find the electric field at point $A$, which is on the perpendicular bisector of the dipole at a distance $x$, we note that point $A$ is equidistant from the two charges. Thus, the magnitudes of the electric fields due to each charge, $E_+$ and $E_-$, are equal. The net electric field $E$ at $A$ is given by the vector addition of $E_+$ and $E_-$ (see Fig. 11.40):
+
+\begin{equation}
+    E = E_+ + E_-
+\end{equation}
+
+The magnitudes of $E_+$ and $E_-$ are:
+
+\begin{equation}
+    E_+ = E_- = \frac{1}{4\pi\varepsilon_0} \frac{q}{r^2} = \frac{1}{4\pi\varepsilon_0} \frac{q}{[x^2 + (d/2)^2]}
+\end{equation}
+
+Since both $E_+$ and $E_-$ are equal and equally inclined to the $y$-axis, their $x$-components cancel out, and the combined field is contributed by the $y$-component alone. Therefore, the net electric field is:
+
+\begin{equation}
+    E = E_y = E_+ \cos\theta + E_- \cos\theta = 2E_+ \cos\theta = \frac{1}{4\pi\varepsilon_0} \frac{qd}{[x^2 + (d/2)^2]^{3/2}}
+\end{equation}
+
+\subsection*{(b) Electric Field for $x \gg d/2$}
+
+For $x \gg d/2$, the electric field simplifies to:
+
+\begin{equation}
+    E = \frac{1}{4\pi\varepsilon_0} \frac{p}{x^3}
+\end{equation}
+
+where $p = qd$ is the dipole moment. Thus, the electric field at large distances varies inversely as the third power of distance, which is much more rapid than the inverse square dependence for a point charge.
+
+\subsection*{(c) Potential Energy}
+
+The potential energy $U$ is given by:
+
+\begin{equation}
+    U = -\mathbf{p} \cdot \mathbf{E} = -pE \cos\theta
+\end{equation}
+
+For parallel alignment, $\theta = 0$, and:
+
+\begin{equation}
+    U_1 = -pE = -(6 \times 10^{-32})(3 \times 10^6) = -1.8 \times 10^{-25} \, \text{J}
+\end{equation}
+
+For antiparallel arrangement, $\theta = 180^\circ$, and:
+
+\begin{equation}
+    U_2 = +pE = +1.8 \times 10^{-25} \, \text{J}
+\end{equation}
+
+Therefore, the difference in the potential energy is:
+
+\begin{equation}
+    \Delta U = U_2 - U_1 = 3.6 \times 10^{-25} \, \text{J}
+\end{equation}
+
+\end{document}
+```"
+11.49,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a) Electric Flux and Gauss's Law}
+
+If $\Phi_E$ is the electric flux, $E$ the electric field, $q$ the charge enclosed, and $dA$ the element of area, then according to Gauss's Law:
+
+\[
+q = \varepsilon_0 \oint E \cdot dA
+\]
+
+The integration is to be carried over the entire surface. The circle on the integral sign indicates that the surface of integration is a closed surface.
+
+\subsection*{(b) Electric Field from a Charged Sheet}
+
+Figure 11.41 shows a portion of a thin non-conducting infinite sheet of charge with constant charge density $\sigma$ (charge per unit area). To calculate the electric field at points close to the sheet, construct a Gaussian surface in the form of a closed cylinder of cross-sectional area $A$, piercing the plane of the sheet, as shown in Fig. 11.41.
+
+From symmetry, it is obvious that $E$ points are at right angles to the end caps, away from the plane, and are positive at both the end caps. There is no contribution to the flux from the curved wall of the cylinder as $E$ does not pierce it. By Gauss's law:
+
+\[
+\varepsilon_0 \oint E \cdot dA = q \quad \Rightarrow \quad \varepsilon_0 (EA + EA) = q
+\]
+
+where $\sigma A$ is the enclosed charge. Thus:
+
+\[
+E = \frac{\sigma}{2\varepsilon_0}
+\]
+
+For a non-conducting sheet, the field $E = \frac{\sigma}{2\varepsilon_0}$ \hspace{1cm} (1)
+
+The electric force acting on the sphere is:
+
+\[
+F = qE = \frac{q\sigma}{2\varepsilon_0} \hspace{1cm} (2)
+\]
+
+\subsection*{(c) Equilibrium of Forces}
+
+The sphere is held in equilibrium under the joint action of three forces:
+\begin{enumerate}
+    \item Weight acting vertically down,
+    \item Electric force $F$ acting horizontally, and
+    \item Tension in the thread acting along the thread at an angle $\theta$ with the vertical.
+\end{enumerate}
+
+From Fig. 11.42, we have:
+
+\[
+\frac{F}{mg} = \tan \theta \hspace{1cm} (3)
+\]
+
+Combining equations (2) and (3), we find:
+
+\[
+\sigma = \frac{2\varepsilon_0 mg \tan \theta}{q} = \frac{2 \times 8.9 \times 10^{-12} \times 2 \times 10^{-6} \times 9.8 \times \tan 10^\circ}{5 \times 10^{-8}} = 2.15 \times 10^{-11} \, \text{C/m}^2
+\]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure11_41.png}
+    \caption{Gaussian surface piercing the plane of the sheet.}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure11_42.png}
+    \caption{Forces acting on the sphere.}
+\end{figure}
+
+\end{document}
+```"
+11.50,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Gauss' Law in Integral and Differential Forms}
+
+\begin{enumerate}
+    \item[(a)] \textbf{Integral form of Gauss' law:}
+    \[
+    \oint \mathbf{E} \cdot d\mathbf{s} = \frac{\Sigma Q}{\varepsilon_0}
+    \]
+
+    \textbf{Differential form:}
+    \[
+    \nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}
+    \]
+
+    \item[(b)] \textbf{Case: \( r > R \)}
+
+    Construct a Gaussian surface in the form of a sphere of radius \( r > R \), concentric with the charged sphere of radius \( R \), as shown in Fig. 11.43a. By Gauss' law:
+    \[
+    \oint \mathbf{E} \cdot d\mathbf{A} = (E)4\pi r^2 = \frac{Q}{\varepsilon_0}
+    \]
+    Therefore,
+    \[
+    E = \frac{Q}{4\pi \varepsilon_0 r^2} \tag{1}
+    \]
+
+    \item[(c)] \textbf{Case: \( r < R \)}
+
+    Construct a Gaussian surface in the form of a sphere of radius \( r < R \), concentric with the charged sphere of radius \( R \), as shown in Fig. 11.43b. Let charge \( q' \) reside inside the Gaussian surface. Then by Gauss' law:
+    \[
+    \varepsilon_0 \oint \mathbf{E} \cdot d\mathbf{A} = (\varepsilon_0 E)(4\pi r^2) = q'
+    \]
+    Therefore,
+    \[
+    E = \frac{q'}{4\pi \varepsilon_0 r^2} \tag{2}
+    \]
+
+    Now, the charge outside the sphere of radius \( r \) does not contribute to the electric field. Assuming that \( \rho \) is constant throughout the charge distribution,
+    \[
+    \frac{q'}{q} = \frac{\frac{4}{3}\pi r^3}{\frac{4}{3}\pi R^3} \quad \text{or} \quad q' = q \frac{r^3}{R^3} \tag{3}
+    \]
+
+    Using (3) in (2),
+    \[
+    E = \frac{1}{4\pi \varepsilon_0} \frac{qr}{R^3} \tag{4}
+    \]
+
+    Thus for \( r < R \), \( E \) varies linearly with \( r \). Note that at \( r = R \), both (1) and (4) give the same value as they should.
+\end{enumerate}
+
+\end{document}
+```"
+11.51,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+The electric field on the surface of the original sphere is given by:
+\[
+E_R = \frac{q}{4\pi \varepsilon_0 R^2}
+\]
+
+After creating the cavity, the charge in the remaining part of the sphere will be:
+\[
+q' = \left[ \frac{\frac{4}{3} \pi R^3 \rho - \frac{4}{3} \pi \left(\frac{R}{2}\right)^3 \rho}{\frac{4}{3} \pi R^3 \rho} \right] q = \frac{7}{8}q
+\]
+
+Therefore, the electric field on the surface is now:
+\[
+E'_R = \frac{q'}{4\pi \varepsilon_0 R^2} = \frac{7}{8} \frac{q}{4\pi \varepsilon_0 R^2} = \frac{7}{8}E
+\]
+
+\end{document}
+```
+
+This LaTeX code formats the physics problem and solution with proper mathematical notation and alignment."
+11.52,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a)}
+
+The electric field is given by:
+\[
+E = \frac{q}{4\pi \varepsilon_0 r} \frac{r}{R^3}
+\]
+
+The potential \( V(r) \) is calculated as:
+\[
+V(r) = - \int E \, dr = - \frac{q}{4\pi \varepsilon_0 R^3} \int r \, dr = - \frac{qr^2}{8\pi \varepsilon_0 R^3} + C
+\]
+
+Now, the potential at the surface (\( r = R \)) is:
+\[
+V(R) = \frac{q}{4\pi \varepsilon_0 R} = - \frac{q}{8\pi \varepsilon_0 R} + C
+\]
+
+Solving for \( C \):
+\[
+C = \frac{3q}{8\pi \varepsilon_0 R}
+\]
+
+Thus, the potential \( V(r) \) is:
+\[
+V(r) = \frac{q}{8\pi \varepsilon_0 R} \left( 3 - \frac{r^2}{R^2} \right)
+\]
+
+\subsection*{(b)}
+
+At the center \( r = 0 \). From the result of (a):
+\[
+V(0) = \frac{3q}{8\pi \varepsilon_0 R} = \frac{3}{2} V(R)
+\]
+
+\end{document}
+```"
+11.53,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item[(a)] 
+    \[
+    E = 0 \quad \text{when} \quad r < b \quad \text{as no charge exists in this region.}
+    \]
+
+    \item[(b)] 
+    \text{Region } b < r < a: \\
+    Consider a Gaussian surface, a sphere of radius \( r \), where \( b < r < a \). \\
+    Charge at distance \( a \) between \( b \) and \( r \) only will contribute to the field. The charge residing in the shell of radii \( b \) and \( r \) is:
+    \[
+    Q' = \frac{4}{3}\pi(r^3 - b^3) \cdot \frac{Q}{\frac{4}{3}\pi(a^3 - b^3)} = \frac{(r^3 - b^3)}{(a^3 - b^3)}Q
+    \]
+    Therefore, the electric field \( E \) is:
+    \[
+    E = \frac{Q'}{4\pi\varepsilon_0 r^2} = \frac{\left(\frac{(r^3 - b^3)}{(a^3 - b^3)}Q\right)}{4\pi\varepsilon_0 r^2}
+    \]
+
+    \item[(c)] 
+    \text{Region } r > a: \\
+    \[
+    E = \frac{Q}{4\pi\varepsilon_0 r^2}
+    \]
+\end{enumerate}
+
+\end{document}
+```"
+11.54,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Solution}
+
+\begin{enumerate}
+    \item[(a)] Construct a Gaussian surface in the form of a cylinder of radius \( r > R \) and height \( h \). By Gauss's law:
+
+    \[
+    \varepsilon_0 E (2\pi rh) = Q = \rho \pi R^2 h
+    \]
+
+    Solving for \( E \), we find:
+
+    \[
+    E = \frac{1}{2} \frac{\rho R^2}{\varepsilon_0 r}
+    \]
+
+    \item[(b)] Construct a Gaussian surface in the form of a cylinder of height \( h \) and radius \( r < R \) coaxial with the cylinder of radius \( R \) and height \( h \). By Gauss's law:
+
+    \[
+    \varepsilon_0 E (2\pi rh) = Q' = \rho \pi R^2 h
+    \]
+
+    Solving for \( E \), we find:
+
+    \[
+    E = \frac{1}{2} \frac{\rho R^2}{\varepsilon_0 r} \quad (r < R)
+    \]
+
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code will format the physics problem and solution with proper mathematical notation and structure."
+11.55,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem Solutions}
+
+\begin{enumerate}
+    \item[(a)] 
+    \begin{align*}
+        E &= \frac{q}{4\pi \varepsilon_0 r^2} \\
+        \therefore q &= 4\pi \varepsilon_0 r^2 E \\
+        &= \frac{1}{9 \times 10^9} \times (0.5)^2 \times 800 \\
+        &= 2.22 \times 10^{-8} \, \text{C}
+    \end{align*}
+
+    \item[(b)] 
+    \begin{align*}
+        E &= \frac{\sigma}{\varepsilon_0} \\
+        \therefore \sigma &= E \varepsilon_0 \\
+        &= 120 \times 8.85 \times 10^{-12} \\
+        &= 1.062 \times 10^{-9} \, \text{C/m}^2
+    \end{align*}
+
+    \item[(c)] 
+    \begin{align*}
+        q &= \varepsilon_0 \phi \\
+        \phi &= EA \\
+        &= 120 \times (100 \times 75) \\
+        &= 9 \times 10^5 \, \text{Nm}^2/\text{C}
+    \end{align*}
+\end{enumerate}
+
+\end{document}
+```"
+11.56,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Physics Problems and Solutions}
+
+\subsection*{(a)}
+
+Consider Gauss's law:
+
+\begin{equation}
+    \varepsilon_0 \oint \mathbf{E} \cdot d\mathbf{A} = q
+\end{equation}
+
+Consider an isolated positive point charge. Construct a Gaussian surface, a sphere of radius $r$ centered at the charge. At every point on the spherical surface, the field is perpendicular to the surface. As both $\mathbf{E}$ and $d\mathbf{A}$ are directed radially outwards, the angle $\theta$ between them is zero, so that the dot product $\mathbf{E} \cdot d\mathbf{A}$ reduces to $E \, dA$ and equation (1) can be written as:
+
+\begin{equation}
+    \varepsilon_0 \oint \mathbf{E} \cdot d\mathbf{A} = \varepsilon_0 \int E \, dA = q
+\end{equation}
+
+As $E$ is constant, it can be factored out of the integral:
+
+\begin{equation}
+    \varepsilon_0 E \int dA = (\varepsilon_0 E)(4\pi r^2) = q
+\end{equation}
+
+Thus, solving for $E$, we find:
+
+\begin{equation}
+    E = \frac{q}{4\pi \varepsilon_0 r^2} \quad \text{(Coulomb's law)}
+\end{equation}
+
+\subsection*{(b)}
+
+\subsubsection*{(i) $r < R$}
+
+By problem (11.50), the electric field $E$ is given by:
+
+\begin{equation}
+    E = \frac{Qr}{4\pi \varepsilon_0 R^3}
+\end{equation}
+
+The electric flux $\phi$ through the surface is:
+
+\begin{equation}
+    \phi = E A = \frac{Qr}{4\pi \varepsilon_0 R^3} \cdot 4\pi r^2 = \frac{Qr^3}{\varepsilon_0 R^3}
+\end{equation}
+
+\subsubsection*{(ii) $r > R$}
+
+For $r > R$, the electric field $E$ is:
+
+\begin{equation}
+    E = \frac{Q}{4\pi \varepsilon_0 r^2}
+\end{equation}
+
+The electric flux $\phi$ through the surface is:
+
+\begin{equation}
+    \phi = E A = \frac{Q}{4\pi \varepsilon_0 r^2} \cdot 4\pi r^2 = \frac{Q}{\varepsilon_0}
+\end{equation}
+
+\end{document}
+```"
+11.57,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{Problem Statement}
+
+Given the equations:
+\[
+\phi = \oint \mathbf{E} \cdot d\mathbf{A}, \quad q = \varepsilon_0 A
+\]
+
+\subsection*{Solution}
+
+\begin{enumerate}
+    \item[(a)] Construct a Gaussian surface, a sphere of radius $r_1$ concentric with the spherical shells. Since no charge is enclosed by the Gaussian surface with $r < R_1$, we have $E = 0$.
+
+    \item[(b)] Here, the net charge enclosed by the Gaussian surface is $Q_1$. As $\mathbf{E}$ is normal to the spherical surface, by Gauss' law:
+    \[
+    (\varepsilon_0 E)(4\pi r^2) = Q_1 \quad \Rightarrow \quad E = \frac{Q_1}{4\pi \varepsilon_0 r^2}
+    \]
+
+    \item[(c)] Here, the net charge enclosed by the Gaussian surface is $Q_1 + Q_2$ and $\mathbf{E}$ is normal to the spherical surface (see Fig. 11.44). By Gauss' law:
+    \[
+    (\varepsilon_0 E)(4\pi r^2) = Q_1 + Q_2 \quad \Rightarrow \quad E = \frac{Q_1 + Q_2}{4\pi \varepsilon_0 r^2}
+    \]
+    In case (c), if $Q_1 + Q_2 = 0$, then $\frac{Q_1}{Q_2} = -1$.
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure_11_44.png}
+    \caption{Illustration of the Gaussian surface and charge distribution.}
+    \label{fig:11_44}
+\end{figure}
+
+\end{document}
+```
+
+This code will produce a neatly formatted LaTeX document that includes the problem statement, solution steps, and a placeholder for the figure (Fig. 11.44). Make sure to replace `figure_11_44.png` with the actual path to your image file if you have one."
+11.58,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the charges be \( q_1 = q_2 \) on the two spheres before contact. The force is given by
+
+\begin{equation}
+F = \frac{q_1 q_2}{4 \pi \varepsilon_0 r^2} = \frac{q_1^2}{4 \pi \varepsilon_0 r^2}
+\end{equation}
+
+When the spheres are brought into contact and separated, they are at a common potential. Let the new charges be \( q'_1 \) and \( q'_2 \), respectively. From charge conservation, we have
+
+\begin{equation}
+q'_1 + q'_2 = q_1 + q_2 = 2q_1
+\end{equation}
+
+Also, the potential \( V \) is given by
+
+\begin{equation}
+V = \frac{q'_1}{4 \pi \varepsilon_0 R_1} = \frac{q'_2}{4 \pi \varepsilon_0 R_2}
+\end{equation}
+
+or
+
+\begin{equation}
+\frac{q'_1}{q'_2} = \frac{R_1}{R_2}
+\end{equation}
+
+Solving equations (2) and (4), we find
+
+\begin{equation}
+q'_1 = \frac{2q_1 R_1}{R_1 + R_2}, \quad q'_2 = \frac{2q_1 R_2}{R_1 + R_2}
+\end{equation}
+
+After separation, the force \( F' \) is
+
+\begin{equation}
+F' = \frac{q'_1 q'_2}{4 \pi \varepsilon_0 r^2}
+\end{equation}
+
+The ratio of the forces is
+
+\begin{equation}
+\frac{F}{F'} = \frac{q_1^2}{q'_1 q'_2} = \frac{(R_1 + R_2)^2}{4 R_1 R_2} = \frac{(1 + 3)^2}{4 \times 1 \times 3} = \frac{4}{3}
+\end{equation}
+
+\end{document}
+```
+"
+11.59,"To convert the given physics text into properly formatted LaTeX, we need to ensure that the equations are clear and correctly structured. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The potential \( V \) is given by the formula:
+
+\[
+V = \frac{q}{4 \pi \varepsilon_0 r}
+\]
+
+Solving for \( q \), we have:
+
+\[
+q = 4 \pi \varepsilon_0 r V
+\]
+
+Substituting the given values:
+
+\[
+q = 4 \pi \varepsilon_0 r V = \frac{(5)(2 \times 10^4)}{9 \times 10^9} = 1.11 \times 10^{-5} \, \text{C}
+\]
+
+\end{document}
+```
+
+This LaTeX code will properly format the physics equations, ensuring clarity and correct mathematical representation."
+11.60,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item[(a)] 
+    \[
+    V = \frac{q}{4\pi \varepsilon_0 a} \quad \therefore \quad \text{Capacitance } C = \frac{q}{V} = 4\pi \varepsilon_0 a
+    \]
+
+    \item[(b)]
+    \[
+    q_1 = 4\pi \varepsilon_0 a V_1, \quad q_2 = 4\pi \varepsilon_0 a V_2
+    \]
+    \[
+    U_1 = \frac{1}{2} q_1 V_1 = \frac{1}{2} \frac{q_1^2}{4\pi \varepsilon_0 a}, \quad U_2 = \frac{1}{2} \frac{q_2^2}{4\pi \varepsilon_0 a}
+    \]
+    Initially, the total energy is
+    \[
+    U = U_1 + U_2 = \frac{q_1^2 + q_2^2}{8\pi \varepsilon_0 a} \tag{1}
+    \]
+
+    When the spheres are connected, they reach a common potential. When disconnected, let the charges be \( q'_1 \) and \( q'_2 \).
+    \[
+    q'_1 = 4\pi \varepsilon_0 a V, \quad q'_2 = 4\pi \varepsilon_0 a V \quad \therefore \quad q'_2 = q'_1
+    \]
+    The final energy in the spheres is
+    \[
+    U'_1 = \frac{1}{2} q'_1 V = \frac{q'_1^2}{8\pi \varepsilon_0 a}, \quad U'_2 = \frac{q'_2^2}{8\pi \varepsilon_0 a}
+    \]
+    Total final energy is
+    \[
+    U' = U'_1 + U'_2 = \frac{q'_1^2 + q'_2^2}{8\pi \varepsilon_0 a} \tag{2}
+    \]
+
+    Charge conservation gives
+    \[
+    q_1 + q_2 = q'_1 + q'_2 = 2q'_1 \tag{3}
+    \]
+
+    The change in energy is
+    \[
+    \Delta U = U_1 - U_2 = \frac{1}{8\pi \varepsilon_0 a} (q_1^2 + q_2^2 - 2q'_1^2) \tag{4}
+    \]
+
+    Eliminating \( q'_1 \) between (3) and (4) and simplifying, we get
+    \[
+    \Delta U = \frac{1}{16\pi \varepsilon_0 a} (q_1 - q_2)^2 \tag{5}
+    \]
+
+    This energy is dissipated in Joule heating of the wire.
+\end{enumerate}
+
+\end{document}
+```"
+11.61,"Here is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+When the spheres are brought into contact, they reach a common potential, say $V$. If the charges on them are now $Q'_1$ and $Q'_2$, we have:
+
+\begin{equation}
+    V = \frac{Q'_1}{4\pi\varepsilon_0 R_1} = \frac{Q'_2}{4\pi\varepsilon_0 R_2}
+\end{equation}
+
+The surface charge density $\sigma'_1$ is given by:
+
+\begin{equation}
+    \sigma'_1 = \frac{Q'_1}{4\pi R_1^2} = \frac{\varepsilon_0 V}{R_1}
+\end{equation}
+
+where we have used equation (1). Similarly, for the second sphere:
+
+\begin{equation}
+    \sigma'_2 = \frac{\varepsilon_0 V}{R_2}
+\end{equation}
+
+Thus, $\sigma'_\alpha R$.
+
+\end{document}
+```
+
+This LaTeX code includes the necessary equations and ensures that all mathematical symbols and variables are correctly formatted."
+11.62,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\section*{Physics Problem Solutions}
+
+\begin{enumerate}
+    \item[(a)] Calculate the potential \( V \):
+    \[
+    V = E \cdot r = 5 \times 10^6 \, \text{V/m} \times 0.1 \, \text{m} = 5 \times 10^5 \, \text{V}
+    \]
+
+    \item[(b)] Calculate the pressure \( p \):
+    \[
+    p = \frac{1}{2} \sigma^2 \varepsilon_0 = \frac{1}{2 \varepsilon_0} (E \varepsilon_0)^2 = \frac{1}{2 \varepsilon_0} E^2
+    \]
+    \[
+    p = \frac{1}{2} \times 8.85 \times 10^{-12} \, \text{F/m} \times (5 \times 10^6 \, \text{V/m})^2 = 110.6 \, \text{N/m}^2
+    \]
+
+    \item[(c)] Calculate the electrostatic energy \( U \):
+    \[
+    U = \frac{1}{2} \frac{q^2}{C} = \frac{1}{2} \frac{q^2}{4 \pi \varepsilon_0 r}
+    \]
+    Given:
+    \[
+    q = 4 \pi \varepsilon_0 r^2 E = (0.1)^2 \times 5 \times 10^6 \, \text{V/m} \times 9 \times 10^9 \, \text{N m}^2/\text{C}^2 = 5.55 \times 10^{-6} \, \text{C}
+    \]
+    Therefore:
+    \[
+    U = \frac{1}{2} \times 9 \times 10^9 \, \text{N m}^2/\text{C}^2 \times \frac{(5.55 \times 10^{-6} \, \text{C})^2}{0.1 \, \text{m}} = 1.386 \, \text{J}
+    \]
+\end{enumerate}
+
+\end{document}
+```"
+11.63,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{Work Done in Isobaric Expansion}
+
+The work done in the isobaric expansion (constant pressure) is given by:
+
+\begin{equation}
+W = P \Delta V = \frac{4\pi}{3} (R_2^3 - R_1^3) P
+\end{equation}
+
+where we have written \( V \) for volume.
+
+\subsection*{Increase in Electrostatic Energy}
+
+The increase in electrostatic energy is:
+
+\begin{equation}
+\Delta U = \frac{1}{2} \frac{q^2}{C_1} - \frac{1}{2} \frac{q^2}{C_2} = \frac{q^2}{2} \left( \frac{1}{4\pi \varepsilon_0} \right) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)
+\end{equation}
+
+where \( C \) is the capacitance of the spherical bubble.
+
+\subsection*{Equating and Simplifying}
+
+By equating equations (1) and (2) and simplifying, we obtain:
+
+\begin{equation}
+q = \left[ \frac{32}{3} \pi^2 \varepsilon_0 p R_1 R_2 (R_1^2 + R_1 R_2 + R_2^2) \right]^{1/2}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code provides a structured and properly formatted representation of the physics problem and solution, using equations and mathematical symbols appropriately."
+11.64,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Problem Solution}
+
+The charge $q$ enclosed in a spherical shell is given by:
+
+\[
+q = \int_{r_1}^{r_2} \rho(r) \, dV = \int_{r_1}^{r_2} A r \cdot 4\pi r^2 \, dr = 2\pi A (r_2^2 - r_1^2)
+\]
+
+\textbf{Region (i):} $0 \leq r < r_1$, $\rho(r) = 0$
+
+Since no charge is enclosed, the electric field $E = 0$.
+
+\textbf{Region (ii):} $r_1 \leq r \leq r_2$, $\rho(r) = \frac{A}{r}$
+
+By Gauss' law:
+
+\[
+\varepsilon_0 \oint \mathbf{E} \cdot d\mathbf{S} = \int_{r_1}^{r} \rho(r) \, dV = \int_{r_1}^{r} \frac{A}{r} \cdot 4\pi r^2 \, dr = 2\pi A (r^2 - r_1^2)
+\]
+
+Thus:
+
+\[
+(\varepsilon_0 E)(4\pi r^2) = 2\pi A (r^2 - r_1^2)
+\]
+
+Solving for $E$, we get:
+
+\[
+E = \frac{A}{2\varepsilon_0 r^2} (r^2 - r_1^2)
+\]
+
+\textbf{Region (iii):} $r > r_2$, $\rho(r) = 0$
+
+Using the result from equation (1):
+
+\[
+\varepsilon_0 \oint \mathbf{E} \cdot d\mathbf{S} = q = 2\pi A (r_2^2 - r_1^2)
+\]
+
+Thus:
+
+\[
+(\varepsilon_0 E)(4\pi r^2) = 2\pi A (r_2^2 - r_1^2)
+\]
+
+Solving for $E$, we find:
+
+\[
+E = \frac{A}{2\varepsilon_0 r^2} (r_2^2 - r_1^2)
+\]
+
+\end{document}
+```
+
+This LaTeX code properly formats the physics problem and its solution, including the use of integrals, Gauss' law, and the calculation of the electric field in different regions."
+11.65,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Problem}
+
+(a) In order to show that the electric field is conservative, it is sufficient to establish the existence of a potential. Now, if potential \( V \) exists, it must be such that:
+
+\[
+\mathbf{F} \cdot d\mathbf{r} = -dV
+\]
+
+where \( \mathbf{F} = f(r) \mathbf{e}_r \) is the central force and \( \mathbf{e}_r \) is the unit vector along the radius vector \( \mathbf{r} \).
+
+\[
+\mathbf{F} \cdot d\mathbf{r} = f(r) \mathbf{e}_r \cdot d\mathbf{r} = f(r) dr
+\]
+
+Thus,
+
+\[
+-dV = f(r) dr
+\]
+
+or
+
+\[
+V = -\int f(r) dr
+\]
+
+We conclude that the field is conservative and \( V \) represents the potential given by the above relation.
+
+(b) Initial electrostatic energy:
+
+\[
+U_1 = \frac{1}{2} qV = \frac{1}{2} CV^2 = \frac{1}{2} \frac{1}{4\pi\varepsilon_0 r_1} V^2 = \frac{1}{2} \times \frac{1}{9 \times 10^9} \times 0.01 \times 10^2 = 5.55 \times 10^{-11} \, \text{J}
+\]
+
+Final electrostatic energy:
+
+\[
+U_2 = \frac{1}{2} \frac{1}{4\pi\varepsilon_0 r_2} V^2 = \frac{1}{2} \times \frac{1}{9 \times 10^9} \times 0.001 \times 10^2 = 5.55 \times 10^{-12} \, \text{J}
+\]
+
+Therefore, the energy decrease is:
+
+\[
+U_1 - U_2 = (5.55 - 0.555) \times 10^{-11} = 5 \times 10^{-11} \, \text{J}
+\]
+
+\end{document}
+```"
+11.66,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+Construct a Gaussian cylindrical surface of radius \( r \) and length \( L \) coaxial with the cylinder.
+
+\begin{enumerate}
+    \item \( r > a \):
+    \begin{align*}
+        \text{The charge enclosed is } q &= \pi a^2 L \rho. \\
+        \text{By Gauss's law, } \varepsilon_0 \oint \mathbf{E} \cdot d\mathbf{A} &= q \\
+        \varepsilon_0 E (2 \pi r L) &= \pi a^2 L \rho \\
+        E &= \frac{a^2 \rho}{2 \varepsilon_0 r}
+    \end{align*}
+
+    \item \( 0 < r < a \):
+    \begin{align*}
+        \text{By Gauss's law, } \varepsilon_0 \oint \mathbf{E} \cdot d\mathbf{A} &= q' \\
+        (\varepsilon_0 E)(2 \pi r L) &= \pi (a^2 - r^2) L \rho \\
+        E &= \frac{(a^2 - r^2) \rho}{2 \varepsilon_0 r}
+    \end{align*}
+\end{enumerate}
+
+Centripetal force \( = \) Electric force:
+\begin{align*}
+    \frac{mv^2}{r} &= Ee = \frac{a^2 \rho e}{2 \varepsilon_0 r} \\
+    \therefore v &= \sqrt{\frac{a^2 \rho e}{2 \varepsilon_0 m}}
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code formats the given physics problem and solution with proper mathematical notation and alignment, using Gauss's law and relating it to centripetal and electric forces."
+11.67,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+For an infinite non-conducting charge sheet, the electric field is given by:
+\[
+E = \frac{\sigma}{2\varepsilon_0}
+\]
+Solving for \(\sigma\), we have:
+\[
+\sigma = 2E\varepsilon_0 = 2 \times 200 \times 8.85 \times 10^{-12} = 3.54 \times 10^{-9} \, \text{C/m}^2
+\]
+The electric field is independent of the distance.
+
+For an infinite conducting sheet, the surface charge density \(\sigma\) is given by:
+\[
+\sigma = E\varepsilon_0 = 200 \times 8.85 \times 10^{-12} = 1.77 \times 10^{-9} \, \text{C/m}^2
+\]
+
+\end{document}
+```
+
+This LaTeX code formats the physics problem and solution with appropriate mathematical expressions, ensuring clarity and correctness."
+11.68,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The field strength \( E_0 \) between the plates of a parallel plate capacitor in vacuum is given by
+
+\begin{equation}
+E_0 = \frac{V}{d} = \frac{\sigma}{\varepsilon_0}
+\end{equation}
+
+where \( V \) is the applied voltage, \( \sigma \) is the charge density (charge per unit area), and \( \varepsilon_0 \) is the permittivity in vacuum. Now, \( \sigma = \frac{q}{A} \). Therefore, the capacitance in air or vacuum will be
+
+\begin{equation}
+C_0 = \frac{q}{V} = \frac{A \varepsilon_0}{d}
+\end{equation}
+
+With the introduction of the dielectric slab, the electric field in the slab will be \( \frac{E_0}{K} \), and the potential across the capacitor becomes
+
+\[
+V = E_0(d - t) + \frac{E_0 t}{K} = E_0 \left[ (d - t) + \frac{t}{K} \right] = \frac{q}{A \varepsilon_0} \left[ (d - t) + \frac{t}{K} \right]
+\]
+
+Thus, the capacitance is
+
+\begin{equation}
+C = \frac{q}{V} = \frac{\varepsilon_0 A}{d - t \left( 1 - \frac{1}{K} \right)}
+\end{equation}
+
+If a metal of thickness \( t \) is to be introduced, the effective distance between the capacitor plates is reduced, and the capacitance becomes
+
+\begin{equation}
+C = \frac{\varepsilon_0 A}{d - t}
+\end{equation}
+
+a result which is obtained by putting \( K = \infty \) in equation (3).
+
+\end{document}
+```"
+11.69,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+We are given the following equations for capacitors in parallel and series:
+
+\begin{align}
+    C_1 + C_2 &= 9 \quad \text{(parallel)} \tag{1} \\
+    \frac{C_1 C_2}{C_1 + C_2} &= 2 \quad \text{(series)} \tag{2}
+\end{align}
+
+We also have the equation:
+
+\begin{align*}
+    (C_1 - C_2)^2 &= (C_1 + C_2)^2 - 4C_1C_2 \\
+    &= (C_1 + C_2)^2 - 8(C_1 + C_2) = 9 \quad \text{where we have used (1)}
+\end{align*}
+
+Therefore, 
+
+\begin{equation}
+    C_1 - C_2 = 3 \tag{3}
+\end{equation}
+
+Solving equations (1) and (3), we find:
+
+\begin{align*}
+    C_1 &= 6 \, \mu\text{F} \\
+    C_2 &= 3 \, \mu\text{F}
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code formats the given physics problem and solution with proper alignment and notation for the equations."
+11.70,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem Solutions}
+
+\begin{enumerate}
+    \item[(a)] 
+    \begin{align*}
+    U_1 &= \frac{1}{2} C_1 V^2 = \frac{1}{2} \times 2 \times 10^{-6} \times (100)^2 = 0.01 \, \text{J} \\
+    U_2 &= \frac{1}{2} C_2 V^2 = \frac{1}{2} \times 4 \times 10^{-6} \times (100)^2 = 0.02 \, \text{J}
+    \end{align*}
+
+    \item[(b)] 
+    \begin{align*}
+    C &= \frac{C_1 C_2}{C_1 + C_2} = \frac{2 \times 10^{-6} \times 4 \times 10^{-6}}{(2 + 4) \times 10^{-6}} = \frac{4}{3} \times 10^{-6} \, \text{F} \\
+    U &= \frac{1}{2} C V^2 = \frac{1}{2} \times \frac{4}{3} \times 10^{-6} \times (100)^2 = 0.0067 \, \text{J}
+    \end{align*}
+
+    \item[(c)] 
+    \begin{align*}
+    C &= C_1 + C_2 = (2 + 4) \times 10^{-6} = 6 \times 10^{-6} \, \text{F} \\
+    U &= \frac{1}{2} C V^2 = \frac{1}{2} \times 6 \times 10^{-6} \times (100)^2 = 0.03 \, \text{J}
+    \end{align*}
+\end{enumerate}
+
+\end{document}
+```"
+11.71,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+Given the initial capacitance \( C_0 \) and energy \( U_0 \):
+
+\[
+C_0 = \frac{\varepsilon_0 A}{d} = \frac{8.85 \times 10^{-12} \times 1}{0.01} = 8.85 \times 10^{-10} \, \text{F}
+\]
+
+The initial energy stored in the capacitor is:
+
+\[
+U_0 = \frac{1}{2} \frac{Q^2}{C_0} = \frac{1}{2} \times \frac{(10^{-6})^2}{8.85 \times 10^{-10}} = 5.65 \times 10^{-4} \, \text{J}
+\]
+
+When a dielectric is introduced, the energy \( U \) is given by:
+
+\[
+U = \frac{1}{2} \frac{Q^2}{C} = \frac{1}{2} \frac{Q^2}{C_0 K} = \frac{U_0}{K}
+\]
+
+Assuming \( K = 2 \), the energy becomes:
+
+\[
+U = \frac{5.65 \times 10^{-4}}{2} = 2.83 \times 10^{-4} \, \text{J}
+\]
+
+The energy is decreased by:
+
+\[
+\Delta U = U_0 - U = (5.65 - 2.83) \times 10^{-4} = 2.82 \times 10^{-4} \, \text{J}
+\]
+
+Thus, the energy is decreased by a factor of 2.
+
+\end{document}
+```"
+11.72,"To convert the given physics text into properly formatted LaTeX, we need to ensure that the equations are clear and correctly aligned. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The capacitance \( C \) is given by the formula:
+\[
+C = \frac{\varepsilon_0 K A}{d}
+\]
+
+Solving for \( K \), we have:
+\[
+K = \frac{C d}{\varepsilon_0 A}
+\]
+
+Substituting the given values:
+\[
+K = \frac{0.1 \times 10^{-6} \times 0.001}{8.85 \times 10^{-12} \times 1.0} = 11.3
+\]
+
+\end{document}
+```
+
+This code will produce a neatly formatted document with the equations properly displayed. Make sure to compile it with a LaTeX editor that supports the `amsmath` package for proper alignment and formatting."
+11.73,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+For the given problem, we start with the charge equation:
+
+\[
+Q = C_1 V = 5 \times 10^{-6} \, \text{F} \times 250 \, \text{V} = 1.25 \times 10^{-3} \, \text{C}
+\]
+
+For the parallel connection, the total capacitance is given by:
+
+\[
+C = C_1 + C_2 = 5 \times 10^{-6} \, \text{F} + 20 \times 10^{-6} \, \text{F} = 25 \times 10^{-6} \, \text{F}
+\]
+
+The resulting voltage across the capacitors is:
+
+\[
+V' = \frac{Q}{C} = \frac{1.25 \times 10^{-3} \, \text{C}}{25 \times 10^{-6} \, \text{F}} = 50 \, \text{V}
+\]
+
+\end{document}
+```"
+11.74,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The combination of \(2\,\mu\text{F}\) and \(2\,\mu\text{F}\) in parallel is equivalent to \(4\,\mu\text{F}\). This, in series with \(8\,\mu\text{F}\), gives a combined capacitance of 
+\[
+\frac{8}{3}\,\mu\text{F}.
+\]
+The \(12\,\mu\text{F}\) and \(6\,\mu\text{F}\) in series give an equivalent capacitance of \(4\,\mu\text{F}\). The \(4\,\mu\text{F}\) with \(4\,\mu\text{F}\) in parallel gives \(8\,\mu\text{F}\), which in series with \(1\,\mu\text{F}\) yields 
+\[
+\frac{8}{9}\,\mu\text{F}.
+\]
+The combination of \(\frac{8}{9}\,\mu\text{F}\) and \(\frac{8}{3}\,\mu\text{F}\) in parallel gives 
+\[
+\frac{32}{9}\,\mu\text{F}.
+\]
+The effective value of \(C\) with \(\frac{32}{9}\,\mu\text{F}\) in series gives the equation
+\[
+\frac{32}{9} + C = 1.
+\]
+Solving for \(C\), we find
+\[
+C = 1 - \frac{32}{9} = \frac{1}{9}\,\mu\text{F}.
+\]
+
+\end{document}
+```"
+11.75,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Solution}
+
+The combined capacitance $C$ for the three capacitors in series is given by:
+
+\[
+C = \frac{C_1 C_2 C_3}{C_1 C_2 + C_2 C_3 + C_3 C_1}
+\]
+
+Substituting the given values:
+
+\[
+C = \frac{(4 \times 3 \times 2) \times 10^{-18}}{(4 \times 3 + 3 \times 2 + 2 \times 4) \times 10^{-12}} = 0.923 \times 10^{-6} \, \text{F}
+\]
+
+\subsection*{(a) Charge on each capacitor}
+
+The charge $q$ is given by:
+
+\[
+q = C V = 0.923 \times 10^{-6} \times 260 = 240 \times 10^{-6} \, \text{C}
+\]
+
+Since the capacitors are in series, the charge on each capacitor is the same:
+
+\[
+q_1 = q_2 = q_3 = 240 \times 10^{-6} \, \text{C}
+\]
+
+\subsection*{(b) Voltage across each capacitor}
+
+The voltage across each capacitor is given by:
+
+\[
+V_1 = \frac{q}{C_1} = \frac{240 \times 10^{-6}}{4 \times 10^{-6}} = 60 \, \text{V}
+\]
+
+\[
+V_2 = \frac{q}{C_2} = \frac{240 \times 10^{-6}}{3 \times 10^{-6}} = 80 \, \text{V}
+\]
+
+\[
+V_3 = \frac{q}{C_3} = \frac{240 \times 10^{-6}}{2 \times 10^{-6}} = 120 \, \text{V}
+\]
+
+\subsection*{(c) Energy stored in each capacitor}
+
+The energy stored in each capacitor is given by:
+
+\[
+W_1 = \frac{1}{2} C_1 V_1^2 = \frac{1}{2} \times 4 \times 10^{-6} \times (60)^2 = 0.0072 \, \text{J}
+\]
+
+\[
+W_2 = \frac{1}{2} C_2 V_2^2 = \frac{1}{2} \times 3 \times 10^{-6} \times (80)^2 = 0.0096 \, \text{J}
+\]
+
+\[
+W_3 = \frac{1}{2} C_3 V_3^2 = \frac{1}{2} \times 2 \times 10^{-6} \times (120)^2 = 0.0144 \, \text{J}
+\]
+
+\end{document}
+```"
+11.76,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Capacitor Charges and Capacitance}
+
+\subsection*{Charge on the Capacitors}
+
+The charge on the first capacitor is given by:
+\[
+q_1 = C_1 V = 1 \times 10^{-6} \times 12 = 12 \times 10^{-6} \, \text{C}
+\]
+
+The charge on the second capacitor is given by:
+\[
+q_2 = C_2 V = 2 \times 10^{-6} \times 12 = 24 \times 10^{-6} \, \text{C}
+\]
+
+\subsection*{Capacitance for the Parallel Combination}
+
+(a) The total capacitance for the parallel combination is:
+\[
+C = C_1 + C_2 = (1 + 2) \times 10^{-6} = 3 \times 10^{-6} \, \text{F}
+\]
+
+The total charge is:
+\[
+q = q_1 + q_2 = (12 + 24) \times 10^{-6} = 36 \times 10^{-6} \, \text{C}
+\]
+
+The voltage across the combination is:
+\[
+V = \frac{q}{C} = \frac{36 \times 10^{-6}}{3 \times 10^{-6}} = 12 \, \text{V}
+\]
+
+(b) The charge difference is:
+\[
+q' = q_2 - q_1 = (24 - 12) \times 10^{-6} = 12 \times 10^{-6} \, \text{C}
+\]
+
+The voltage for this charge difference is:
+\[
+V = \frac{q'}{C} = \frac{12 \times 10^{-6}}{3 \times 10^{-6}} = 4 \, \text{V}
+\]
+
+\end{document}
+```"
+11.77,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a)}
+
+If the positive end of a capacitor of capacitance $C_1$, charged to potential difference $V_1$, is connected in parallel to the positive end of the capacitor of capacitance $C_2$ charged to potential difference $V_2$, then conservation of charge gives the equation:
+
+\begin{equation}
+(C_1 + C_2)V = C_1 V_1 + C_2 V_2
+\end{equation}
+
+Thus, the common potential $V$ is given by:
+
+\begin{equation}
+V = \frac{C_1 V_1 + C_2 V_2}{C_1 + C_2}
+\end{equation}
+
+The energy loss $\Delta W$ is:
+
+\begin{align}
+\Delta W &= \frac{1}{2} C_1 V_1^2 + \frac{1}{2} C_2 V_2^2 - \frac{1}{2} (C_1 + C_2) V^2 \\
+&= \frac{1}{2} \frac{C_1 C_2}{C_1 + C_2} (V_1 - V_2)^2
+\end{align}
+
+where we have used equation (2).
+
+\subsection*{(b)}
+
+If the positive end is joined to the negative end, the common potential difference will be:
+
+\begin{equation}
+V = \frac{C_1 V_1 - C_2 V_2}{C_1 + C_2}
+\end{equation}
+
+and the energy loss will be:
+
+\begin{equation}
+\Delta W = \frac{1}{2} \frac{C_1 C_2}{C_1 + C_2} (V_1 + V_2)^2
+\end{equation}
+
+\end{document}
+```"
+11.78,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem: Dielectric Effects on a Capacitor}
+
+\subsection*{(a) Battery remains connected}
+
+\begin{enumerate}
+    \item[(i)] \( V' = V \); potential remains unchanged.
+    \item[(ii)] \( E' = E \); electric field is unchanged.
+    \item[(iii)] \( q' = Kq \); charge is increased by a factor \( K \). The additional charge \((K - 1)q\) is moved from the negative to the positive plate by the battery, as the dielectric slab is inserted.
+    \item[(iv)] \( C' = KC \); capacitance is increased by a factor \( K \).
+    \item[(v)] \( U' = \frac{1}{2} q' V' = \frac{1}{2} KqV = KU \). Energy is increased by a factor \( K \).
+\end{enumerate}
+
+\subsection*{(b) The battery is disconnected}
+
+\begin{enumerate}
+    \item[(i)] \( V' = \frac{V}{K} \); potential is decreased by a factor \( K \).
+    \item[(ii)] \( E' = \frac{E}{K} \); electric field is decreased by a factor \( K \). Both (i) and (ii) follow from the fact that \( q' = q \) so that \( C'V' = CV \) and \( V' = \frac{CV}{C'} = \frac{V}{K} \). The same reasoning holds good for \( E' \).
+    \item[(iii)] \( q' = q \); charge remains unchanged as there is no path for charge transfer.
+    \item[(iv)] \( C' = KC \); capacitance is increased by a factor \( K \).
+    \item[(v)] \( U' = \frac{1}{2} q' V' = \frac{1}{2} \frac{qV}{K} = \frac{U}{K} \). The energy is lowered by a factor \( K \).
+\end{enumerate}
+
+\end{document}
+```"
+11.79,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem Solution}
+
+\subsection*{(a) The battery remains connected}
+
+\begin{enumerate}
+    \item[(i)] \( V' = V \); the potential remains unchanged.
+    \item[(ii)] \( E' < E \); the electric field is decreased since \( E = \frac{V}{d} \), and \( V \) is constant.
+    \item[(iii)] \( C' < C \); capacitance is reduced since \( C \propto \frac{1}{d} \).
+    \item[(iv)] \( q' < q \); the charge is reduced since \( q = CV \), with \( C \) decreasing and \( V \) remaining constant. Some charge is transferred from the capacitor to the charging battery.
+    \item[(v)] \( U' < U \); the energy is decreased since \( U = \frac{1}{2} qV \), with \( q \) decreasing and \( V \) remaining constant.
+\end{enumerate}
+
+\subsection*{(b) Battery is disconnected}
+
+\begin{enumerate}
+    \item[(i)] \( V' > V \); the potential increases because \( q = CV \), with \( C \) decreasing and \( q \) remaining constant.
+    \item[(ii)] \( E' = E \); the electric field is constant because \( q = CV = \varepsilon_0 \frac{A V}{d} = \varepsilon_0 AE \), with \( q \) remaining constant.
+    \item[(iii)] \( C' < C \); the capacitance is decreased since \( C \propto \frac{1}{d} \).
+    \item[(iv)] \( q' = q \); the charge remains constant.
+    \item[(v)] \( U' > U \); energy increases because \( U = \frac{1}{2} qV \), with \( V \) increasing and \( q \) remaining constant.
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code is structured to clearly present the physics problem and its solution with proper mathematical formatting."
+11.80,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+As the plates carry equal but opposite charges, the force of attraction, which is conservative, is given by
+\[
+F = -\frac{dU}{dx}
+\]
+But
+\[
+U = \frac{1}{2} \frac{q^2}{C}
+\]
+For the parallel plate capacitor, 
+\[
+C = \frac{\varepsilon_0 A}{x}
+\]
+where \( x \) is the distance of separation. Combining the above equations,
+\[
+F = -\frac{d}{dx} \left[\frac{1}{2} \frac{q^2 x}{\varepsilon_0 A} \right] = -\frac{q^2}{2 \varepsilon_0 A}
+\]
+This can also be expressed as
+\[
+F = -\frac{1}{2} \varepsilon_0 A \frac{V^2}{d^2}
+\]
+where we have set \( x = d \).
+
+\end{document}
+```
+
+This LaTeX document will correctly format the physics problem and solution with the appropriate mathematical expressions and alignments."
+11.81,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\begin{enumerate}
+    \item[(a)] As the drops are assumed to be incompressible, the volume does not change:
+    \[
+    \frac{4}{3}\pi R^3 = n \frac{4}{3}\pi r^3 \implies R = n^{1/3} r
+    \]
+
+    \item[(b)] Capacitance:
+    \[
+    C' = 4\pi \varepsilon_0 R = 4\pi \varepsilon_0 r n^{1/3} \implies C' = n^{1/3} C
+    \]
+
+    \item[(c)] Charge conservation and potential:
+    \[
+    Q = nq \quad \text{(charge conservation)}
+    \]
+    \[
+    V' = \frac{Q}{4\pi \varepsilon_0 R} = \frac{nq}{4\pi \varepsilon_0 n^{1/3} r} = \frac{n^{2/3} q}{4\pi \varepsilon_0 r} = n^{2/3} V
+    \]
+
+    \item[(d)] Surface charge density:
+    \[
+    \sigma' = \frac{Q}{4\pi R^2} = \frac{nq}{4\pi r^2 n^{2/3}} = n^{1/3} \sigma
+    \]
+
+    \item[(e)] Energy:
+    \[
+    U' = \frac{1}{2} Q V' = \frac{1}{2} n q n^{2/3} V = n^{5/3} U
+    \]
+\end{enumerate}
+
+\end{document}
+```"
+11.82,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The electric field for a cylindrical capacitor is given by
+\begin{equation}
+    E = \frac{q}{2 \pi \varepsilon_0 l r}
+\end{equation}
+where \( l \) is the length and \( r \) the radius. The energy density (energy per unit volume) is
+\begin{equation}
+    u = \frac{1}{2} \varepsilon_0 E^2 = \frac{q^2}{8 \pi^2 \varepsilon_0 l^2 r^2}
+\end{equation}
+where we have used equation (1). The energy stored between the coaxial cylinders of length \( l \) and radii \( R \) and \( a \) is
+\begin{equation}
+    U = \int u \, dv = \int_a^R u (2 \pi r l) \, dr
+\end{equation}
+where \( dv = (2 \pi r \, dr) l \) is the volume element. Using equation (2) in equation (3), we have
+\begin{align}
+    U &= \frac{q^2}{4 \pi \varepsilon_0 l} \int_a^R \frac{dr}{r} \\
+    &= \frac{q^2}{4 \pi \varepsilon_0 l} \ln \frac{R}{a}
+\end{align}
+
+Similarly, the energy stored between the coaxial cylinders of radii \( b \) and \( a \) is
+\begin{equation}
+    U_0 = \frac{q^2}{4 \pi \varepsilon_0 l} \ln \frac{b}{a}
+\end{equation}
+
+Thus, the ratio of energies is
+\begin{equation}
+    \frac{U}{U_0} = \frac{\ln(R/a)}{\ln(b/a)}
+\end{equation}
+
+Set \(\frac{U}{U_0} = \frac{1}{2}\), then
+\begin{equation}
+    \frac{\ln(R/a)}{\ln(b/a)} = \frac{1}{2}
+\end{equation}
+which implies
+\begin{equation}
+    \ln \frac{b}{a} = 2 \ln \frac{R}{a} = \ln \frac{R^2}{a^2}
+\end{equation}
+or
+\begin{equation}
+    \frac{b}{a} = \frac{R^2}{a^2} \quad \Rightarrow \quad R = \sqrt{ab}
+\end{equation}
+
+\end{document}
+```"
+11.83,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The charge on \( C_1 \) is 
+\[
+q_1 = C_1 V_1 = 3 \times 10^{-6} \times 4000 = 0.012 \, \text{C}
+\]
+
+The charge on \( C_2 \) is 
+\[
+q_2 = C_2 V_2 = 6 \times 10^{-6} \times 3000 = 0.018 \, \text{C}
+\]
+
+The combined capacitance \( C \) is given by
+\[
+C = \frac{C_1 C_2}{C_1 + C_2} = \frac{3 \times 6}{3 + 6} \times 10^{-6} = 2 \times 10^{-6} \, \text{F}
+\]
+
+Take the lower charge to find the maximum voltage \( V \):
+\[
+V = \frac{q_1}{C} = \frac{0.012}{2 \times 10^{-6}} = 6000 \, \text{V}
+\]
+
+\end{document}
+```"
+11.84,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+If the dielectric is present, Gauss' law gives
+\begin{equation}
+    \varepsilon_0 \oint \mathbf{E} \cdot d\mathbf{s} = q - q' = \frac{q}{K}
+\end{equation}
+where $-q'$ is the induced surface charge, $q$ is the free charge, and $K$ is the dielectric constant. Construct a Gaussian surface in the form of a coaxial cylinder of radius $r$ and length $l$, closed by end caps. Applying (1),
+\begin{equation}
+    \varepsilon_0 E (2\pi rl) = \frac{q}{K} \quad \text{or} \quad E = \frac{q}{2\pi \varepsilon_0 rl K}
+\end{equation}
+In (1) the integral is contributed only by the curved surface and not the end caps. The potential difference between the central rod and the surrounding tube is given by
+\begin{align}
+    V &= -\int_a^b \mathbf{E} \cdot d\mathbf{r} = \int_a^b E \, dr \\
+    &= \int_a^b \frac{q}{2\pi \varepsilon_0 l K} \frac{dr}{r} \\
+    &= \frac{q}{2\pi \varepsilon_0 l K} \ln \frac{b}{a}
+\end{align}
+The capacitance is given by
+\begin{equation}
+    C = \frac{q}{V} = \frac{2\pi \varepsilon_0 l K}{\ln(b/a)}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code correctly formats the given text into a structured document with equations, ensuring clarity and proper mathematical representation."
+11.85,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+The field at point \( P \) is caused entirely by the charge \( Q \) on the inner sphere, as shown in Fig. 11.45, and has the value 
+\[
+E = \frac{Q}{4\pi\varepsilon_0 r^2}
+\]
+
+The potential difference between the two spheres is given by
+\[
+V = -\int_a^b \mathbf{E} \cdot \mathrm{d}\mathbf{r} = -\int_a^b \frac{Q}{4\pi\varepsilon_0 r^2} \, \mathrm{d}r = \frac{Q(b-a)}{4\pi\varepsilon_0 ab}
+\]
+
+whence the capacitance \( C \) is 
+\[
+C = \frac{Q}{V} = \frac{4\pi\varepsilon_0 ab}{b-a}
+\]
+
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{figure_11_45.png} % Placeholder for Fig. 11.45
+    \captionof{figure}{Fig. 11.45}
+\end{center}
+
+\end{document}
+```
+
+This LaTeX code formats the given physics text into a structured document with equations and a placeholder for the figure. Make sure to replace `""figure_11_45.png""` with the actual path to your figure file."
+11.86,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+By prob. (11.85), the capacitance \( C \) is given by
+\begin{equation}
+    C = \frac{4 \pi \varepsilon_0 ab}{b-a}
+\end{equation}
+
+Let \( b = a + \xi \Delta_1 \) where \( \xi \Delta_1 \) is a small quantity. Then equation (1) can be rewritten as
+\begin{align}
+    C &= \frac{4 \pi \varepsilon_0 a (a + \xi \Delta_1 a)}{\xi \Delta_1 a} \\
+    &\approx \frac{4 \pi \varepsilon_0 a^2}{\xi \Delta_1 a}
+\end{align}
+
+Now, the surface area \( A = 4 \pi a^2 \) and \( \xi \Delta_1 a = d \), the distance between the surfaces, so that
+\begin{equation}
+    C \approx \frac{\varepsilon_0 A}{d}
+\end{equation}
+which is the expression for a parallel plate capacitor.
+
+\end{document}
+```
+
+This LaTeX code correctly formats the given physics text into a structured and readable document, including equations and explanations."
+11.87,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem Solutions}
+
+\subsection*{(i)}
+
+The charge \( q \) as a function of time is given by:
+\[
+q = q_0 e^{-t/RC}
+\]
+
+Given that \( e^{-t/RC} = \frac{q}{q_0} = \frac{90}{100} \), we can solve for \( t \):
+\[
+t = RC \ln \left(\frac{10}{9}\right) = 1 \times 10^6 \times 10 \times 10^{-6} \times 0.1056 = 1.056 \, \text{s}
+\]
+
+\subsection*{(ii)}
+
+At one time constant \( t = RC \), the voltage \( V \) is:
+\[
+V = V_0 e^{-1} = \frac{120}{2.718} = 44.15 \, \text{V}
+\]
+
+The energy \( U \) stored in the capacitor is:
+\[
+U = \frac{1}{2} C V^2 = \frac{1}{2} \times 10 \times 10^{-6} \times (44.15)^2 = 0.097 \, \text{J}
+\]
+
+\subsection*{(iii)}
+
+The heat \( H \) dissipated in the resistor is given by:
+\[
+H = i^2 R t = \frac{V^2}{R} t = V^2 C = (44.15)^2 \times 10 \times 10^{-6} = 0.0195 \, \text{J}
+\]
+
+\end{document}
+```"
+11.88,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Energy in a Capacitor}
+
+The equilibrium energy stored in a capacitor is given by:
+\[
+U_0 = \frac{1}{2} C V_0^2
+\]
+
+The energy at time \( t \) is:
+\[
+U = \frac{1}{2} C V^2 = \frac{1}{2} C V_0^2 \left( 1 - e^{-t/RC} \right)^2 = U_0 \left( 1 - e^{-t/RC} \right)^2
+\]
+
+The ratio of the energy at time \( t \) to the equilibrium energy is:
+\[
+\frac{U}{U_0} = \frac{1}{2} = \left( 1 - e^{-t/RC} \right)^2
+\]
+
+Solving for \( t \), we find:
+\[
+t = 1.228 \, RC
+\]
+
+Thus, after \( 1.228 \) time constants, the energy stored in the capacitor will reach half of its equilibrium value.
+
+\end{document}
+```"
+11.89,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Let the capacitor be divided into differential strips which are practically parallel. Consider a strip at distance $x$ of length $a$ perpendicular to the plane of paper and of width $dx$ in the plane of paper, the area of the strip being $dA = a \, dx$, as shown in Fig. 11.46. At the distance $x$, the separation of the plates is seen to be $t = D + x \theta$. The capacitance due to the differential strip facing each plate is 
+
+\[
+dC = \frac{\varepsilon_0 \, dA}{D + x \theta} = \frac{\varepsilon_0 \, a \, dx}{D + x \theta}
+\]
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Fig11_46.png}
+    \caption{Illustration of the differential strip in the capacitor.}
+\end{figure}
+
+The capacitance is given by
+
+\[
+C = \int dC = \int_0^a \frac{\varepsilon_0 \, a \, dx}{D + x \theta} = \varepsilon_0 a \int_0^a \frac{dx}{D + x \theta}
+\]
+
+Using the approximation for small $\theta$, we have
+
+\[
+C = \frac{\varepsilon_0 a}{D} \int_0^a \left(1 + \frac{x \theta}{D}\right)^{-1} dx \approx \frac{\varepsilon_0 a}{D} \int_0^a \left(1 - \frac{x \theta}{D} + \cdots \right) dx
+\]
+
+Evaluating the integral, we find
+
+\[
+C \approx \frac{\varepsilon_0 a}{D} \left[ x - \frac{x^2 \theta}{2D} \right]_0^a = \frac{\varepsilon_0 a^2}{D} \left(1 - \frac{a \theta}{2D}\right)
+\]
+
+Note that for $\theta = 0$, the capacitance reduces to that for the parallel plate capacitor.
+
+\end{document}
+```"
+11.90,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Solution}
+
+\subsection*{(a)}
+
+The equivalent capacitance of \( C_1 \) and \( C_2 \) in parallel is:
+\[
+C_{12} = C_1 + C_2 = 8\,\mu\text{F} + 4\,\mu\text{F} = 12\,\mu\text{F}.
+\]
+
+The combined capacitance of \( C_{12} \) and \( C_3 \) in series is:
+\[
+C = \frac{C_3 C_{12}}{C_3 + C_{12}} = \frac{3 \times 12}{3 + 12} = 2.4\,\mu\text{F}.
+\]
+
+The applied charge \( q \) is given by:
+\[
+q = C \cdot V = 2.4\,\mu\text{F} \times 100\,\text{V} = 240\,\mu\text{C}.
+\]
+
+Therefore, the charge on \( C_3 \) will be \( q_3 = 240\,\mu\text{C} \).
+
+The potential difference (PD) across \( C_3 \) will be:
+\[
+V_3 = \frac{q_3}{C_3} = \frac{240\,\mu\text{C}}{3\,\mu\text{F}} = 80\,\text{V}.
+\]
+
+The PD across \( C_1 \) and \( C_2 \) will be equal:
+\[
+V_1 = V_2 = V - V_3 = 100\,\text{V} - 80\,\text{V} = 20\,\text{V}.
+\]
+
+\subsection*{(b)}
+
+Since \( V_1 = V_2 \), we have:
+\[
+\frac{q_1}{C_1} = \frac{q_2}{C_2} \quad \Rightarrow \quad q_1 = \frac{C_1}{C_2} q_2 = \frac{8}{4} q_2 = 2q_2.
+\]
+
+Also, \( q_1 + q_2 = 240\,\mu\text{C} \).
+
+Substituting, we get:
+\[
+q_1 = 160\,\mu\text{C} \quad \text{and} \quad q_2 = 80\,\mu\text{C}.
+\]
+
+\subsection*{(c)}
+
+The energy stored in \( C_1 \) is:
+\[
+U_1 = \frac{1}{2} C_1 V_1^2 = \frac{1}{2} \times 8 \times 10^{-6}\,\text{F} \times (20\,\text{V})^2 = 0.0016\,\text{J}.
+\]
+
+The energy stored in \( C_2 \) is:
+\[
+U_2 = \frac{1}{2} C_2 V_2^2 = \frac{1}{2} \times 4 \times 10^{-6}\,\text{F} \times (20\,\text{V})^2 = 0.0008\,\text{J}.
+\]
+
+The energy stored in \( C_3 \) is:
+\[
+U_3 = \frac{1}{2} C_3 V_3^2 = \frac{1}{2} \times 3 \times 10^{-6}\,\text{F} \times (80\,\text{V})^2 = 0.0096\,\text{J}.
+\]
+
+Note that:
+\[
+U_1 + U_2 + U_3 = 0.0016\,\text{J} + 0.0008\,\text{J} + 0.0096\,\text{J} = 0.012\,\text{J} = U = \frac{1}{2} C V^2.
+\]
+
+\end{document}
+```"
+11.91,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem Solution}
+
+\begin{enumerate}
+    \item[(a)] The combination of $C_1$ and $C_2$ in series yields:
+    \[
+    C_{12} = \frac{C_1 \times C_2}{C_1 + C_2} = \frac{8 \times 4}{8 + 4} \times 10^{-6} = 2.667 \times 10^{-6} \, \text{F}
+    \]
+    The total capacitance $C$ is:
+    \[
+    C = C_{12} + C_3 = (2.667 + 3.0) \times 10^{-6} = 5.667 \times 10^{-6} \, \text{F}
+    \]
+    The total charge $q$ is:
+    \[
+    q = CV = 5.667 \times 10^{-6} \times 100 = 5.667 \times 10^{-4} \, \text{C}
+    \]
+    The charge on $C_3$ is:
+    \[
+    q_3 = C_3 V = 3 \times 10^{-6} \times 100 = 3 \times 10^{-4} \, \text{C}
+    \]
+    The charge on $C_1$ and $C_2$ is:
+    \[
+    q_1 = q_2 = q - q_3 = (5.667 - 3.0) \times 10^{-4} = 2.667 \times 10^{-4} \, \text{C}
+    \]
+
+    \item[(b)] The voltages across the capacitors are:
+    \[
+    V_3 = 100 \, \text{V}
+    \]
+    \[
+    V_1 = \frac{q_1}{C_1} = \frac{2.667 \times 10^{-4}}{8 \times 10^{-6}} = 33.33 \, \text{V}
+    \]
+    \[
+    V_2 = \frac{q_2}{C_2} = \frac{2.667 \times 10^{-4}}{4 \times 10^{-6}} = 66.66 \, \text{V}
+    \]
+
+    \item[(c)] The energy stored in each capacitor is:
+    \[
+    U_1 = \frac{1}{2} C_1 V_1^2 = \frac{1}{2} \times 8 \times 10^{-6} \times (33.33)^2 = 0.00444 \, \text{J}
+    \]
+    \[
+    U_2 = \frac{1}{2} C_2 V_2^2 = \frac{1}{2} \times 4 \times 10^{-6} \times (66.66)^2 = 0.00889 \, \text{J}
+    \]
+    \[
+    U_3 = \frac{1}{2} C_3 V_3^2 = \frac{1}{2} \times 3 \times 10^{-6} \times 100^2 = 0.015 \, \text{J}
+    \]
+
+    Note that $U_1 + U_2 + U_3 = U = \frac{1}{2} C V^2$, as it should.
+\end{enumerate}
+
+\end{document}
+```"
+11.92,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Let the effective capacitance between points \( a \) and \( b \) be \( C \). Apply a potential difference \( V \) between \( a \) and \( b \) and let \( C \) be charged to \( q \), as shown in Fig. 11.47. Let the charge across \( C_1 \) and \( C_5 \) be \( q_1 \) and \( q_5 \), respectively; the charges across various capacitors are shown in Fig. 11.47.
+
+\begin{figure}[h]
+    \centering
+    % Include the figure here
+    \caption{The potential drop across \( C_1 \) plus that across \( C_4 \) must be equal to the potential drop across \( C_2 \) plus that across \( C_3 \).}
+    \label{fig:11.47}
+\end{figure}
+
+The potential drop across \( C_1 \) plus that across \( C_4 \) must be equal to the potential drop across \( C_2 \) plus that across \( C_3 \):
+\begin{equation}
+    V_1 + V_4 = V_2 + V_3 = V
+\end{equation}
+
+Thus, we have:
+\begin{equation}
+    \frac{q_1}{C_1} + \frac{q_1 - q_2}{C_4} = \frac{q - q_1}{C_2} + \frac{q - q_1 + q_2}{C_3}
+\end{equation}
+
+By problem statement, \( C_1 = C_2 = C_3 = C_4 \). Therefore, we can simplify:
+\begin{equation}
+    2q_1 - q_2 = C_1 V
+\end{equation}
+\begin{equation}
+    2q - 2q_1 + q_2 = C_1 V
+\end{equation}
+
+Adding equations (3) and (4), we get:
+\begin{equation}
+    2q = 2C_1 V \quad \Rightarrow \quad C = \frac{q}{V} = C_1 = 2 \, \mu\text{F}
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX document includes the equations and logic described in the problem, formatted correctly with appropriate mathematical notation. The figure reference is included as a placeholder, assuming that Fig. 11.47 would be added in the actual document."
+11.93,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Applying the loop theorem to the circuit, traversing clockwise from the negative terminal of the battery, we have the equation:
+
+\begin{equation}
+    \mathcal{E} - iR - \frac{q}{C} = 0 \tag{1}
+\end{equation}
+
+where \(\mathcal{E}\) is the emf of the battery, and the second and third terms represent the potential drop across the resistor and the capacitor. Now,
+
+\begin{equation}
+    i = \frac{dq}{dt} \tag{2}
+\end{equation}
+
+Using (2) in (1):
+
+\begin{equation}
+    R \frac{dq}{dt} + \frac{q}{C} = \mathcal{E} \tag{3}
+\end{equation}
+
+This differential equation describes the time variation of the charge on the capacitor. Re-arranging (3):
+
+\begin{equation}
+    \frac{dq}{C\mathcal{E} - q} = \frac{dt}{RC} \tag{4}
+\end{equation}
+
+Integrating (4):
+
+\begin{equation}
+    -\ln(C\mathcal{E} - q) = \frac{t}{RC} + A \tag{5}
+\end{equation}
+
+where \(A\) is the constant of integration, which can be determined from the initial condition. At \(t = 0\), \(q = 0\) since the capacitor was uncharged. Therefore,
+
+\begin{equation}
+    A = -\ln(C\mathcal{E}) \tag{6}
+\end{equation}
+
+Using (6) in (5) and re-arranging:
+
+\begin{equation}
+    q = C\mathcal{E}(1 - e^{-t/RC}) \tag{a}
+\end{equation}
+
+\begin{equation}
+    i = \frac{dq}{dt} = \frac{\mathcal{E}}{R} e^{-t/RC} \tag{b}
+\end{equation}
+
+\begin{equation}
+    P = i\mathcal{E} = \frac{\mathcal{E}^2}{R} e^{-t/RC} \tag{c}
+\end{equation}
+
+\begin{equation}
+    H = i^2R = \frac{\mathcal{E}^2}{R} e^{-2t/RC} \tag{d}
+\end{equation}
+
+\begin{equation}
+    \frac{dU}{dt} = \frac{d}{dt}\left(\frac{1}{2} q^2 e\right) = \frac{1}{2} \frac{d}{dt} \left[C^2\mathcal{E}^2(1 - e^{-t/RC})^2\right] = \frac{C}{R}\mathcal{E}^2 e^{-t/RC}
+\end{equation}
+
+\end{document}
+```"
+11.94,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item[(i)] By problem (11.93), the charge \( q \) on the capacitor is given by:
+    \[
+    q = C\xi \left(1 - e^{-t/RC}\right)
+    \]
+    Therefore, the current \( i \) is:
+    \[
+    i = \frac{dq}{dt} = \frac{\xi}{R} e^{-t/RC}
+    \]
+    Given \( R = (1200 + 600) \times 10^3 = 1.8 \times 10^6 \, \Omega \) and \( RC = 1.8 \times 10^6 \times 2.5 \times 10^{-6} = 4.5 \).
+
+    At \( t = 0 \), the current \( i \) is:
+    \[
+    i = \frac{\xi}{R} = \frac{50}{1.8 \times 10^6} = 27.8 \times 10^{-6} \, \text{A} = 27.8 \, \mu\text{A}
+    \]
+
+    \item[(ii)] At \( t = \infty \), the current \( i = 0 \).
+
+    \item[(iii)] The current \( i \) as a function of time is:
+    \[
+    i = -\frac{\xi}{R} e^{-t/RC} = -\frac{50 \times e^{-t/4.5}}{1.8 \times 10^6} = -27.8 e^{-0.222t} \, \mu\text{A}
+    \]
+\end{enumerate}
+
+\end{document}
+```"
+11.95,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(i) Time Constant Calculation}
+
+The time constant is given by:
+\[
+RC = 200 \times 10^3 \times 500 \times 10^{-6} = 100
+\]
+When the switch is closed, there is no emf in the circuit, and equation (3) in problem (11.93) reduces to:
+
+\subsection*{(ii) Differential Equation and Solution}
+
+The differential equation for the circuit is:
+\[
+R \frac{dq}{dt} + \frac{q}{C} = 0 \tag{1}
+\]
+or
+\[
+\frac{dq}{q} = -\frac{dt}{RC} \tag{2}
+\]
+Integrating, we have:
+\[
+\ln q = -\frac{t}{RC} + A
+\]
+where \( A \) is the constant of integration. When \( t = 0 \), \( q = q_0 \). Therefore, \( A = \ln q_0 \). Thus:
+\[
+\ln \frac{q}{q_0} = -\frac{t}{RC} \quad \Rightarrow \quad q = q_0 e^{-t/RC} \tag{3}
+\]
+If \( \frac{q}{q_0} = \frac{1}{2} = e^{-t/RC} \), then:
+\[
+t = RC \ln 2 = 100 \ln 2 = 69.3 \, \text{s}
+\]
+
+\subsection*{(iii) Initial Charge Calculation}
+
+In equation (3), put \( t = 0 \). Then:
+\[
+q = q_0 = C \xi = 500 \times 10^{-6} \times 200 \times 10^3 = 100 \, \text{C}
+\]
+
+\subsection*{(iv) Current Calculation}
+
+Differentiating equation (3) with respect to time:
+\[
+i = \frac{dq}{dt} = -\frac{\xi}{R} e^{-t/RC} \tag{4}
+\]
+The negative sign indicates that the current in the discharging process flows opposite to that in the charging process. At \( t = 0 \):
+\[
+i = -\frac{\xi}{R} = -\frac{900}{200 \times 10^3} = -4.5 \times 10^{-3} \, \text{A}
+\]
+
+\subsection*{(v) Voltage Calculation}
+
+From equation (4), the voltage is:
+\[
+V = iR = -\xi e^{-t/RC}
+\]
+At \( t = 25 \, \text{s} \):
+\[
+V = -900 e^{-25/100} = -701 \, \text{V}
+\]
+
+\end{document}
+```
+This LaTeX document provides a structured and formatted presentation of the physics problem, including equations and calculations."
+11.96,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\begin{enumerate}
+    \item[(i)] By equation (4), problem (11.50), the electric field inside the sphere is given by
+    \begin{equation}
+        E = \frac{qr}{4\pi \varepsilon_0 R^3}
+    \end{equation}
+    Thus, the divergence of \( E \) is
+    \begin{equation}
+        \nabla \cdot E = \frac{q}{4\pi \varepsilon_0 R^3} \nabla \cdot \mathbf{r}
+    \end{equation}
+    Now, 
+    \begin{align*}
+        \nabla \cdot \mathbf{r} &= \left( \hat{\imath} \frac{\partial}{\partial x} + \hat{\jmath} \frac{\partial}{\partial y} + \hat{k} \frac{\partial}{\partial z} \right) \cdot (\hat{\imath} x + \hat{\jmath} y + \hat{k} z) \\
+        &= \left( \frac{\partial x}{\partial x} + \frac{\partial y}{\partial y} + \frac{\partial z}{\partial z} \right) \\
+        &= 1 + 1 + 1 = 3
+    \end{align*}
+    Therefore,
+    \[
+    \nabla \cdot \mathbf{r} = \frac{3q}{4\pi \varepsilon_0 R^3} = \frac{3 \times 10^{-9} \times 9 \times 10^9}{1^3} = 27
+    \]
+
+    \item[(ii)] The force is given by
+    \begin{equation}
+        F = QE = \frac{Qqr}{4\pi \varepsilon_0 R^3}
+    \end{equation}
+    Substituting the values,
+    \[
+    F = 1.6 \times 10^{-19} \times 10^{-9} \times 9 \times 10^9 \times 0.8 \times \frac{1}{1^3} = 1.152 \times 10^{-18} \, \text{N}
+    \]
+
+    \item[(iii)] By problem (11.52), the potential \( V(r) \) is given by
+    \begin{equation}
+        V(r) = \frac{q}{8\pi \varepsilon_0 R} \left( 3 - \frac{r^2}{R^2} \right)
+    \end{equation}
+    The potential energy of the proton at \( r \) will be
+    \begin{equation}
+        U(r) = QV(r) = \frac{Qq}{8\pi \varepsilon_0 R} \left( 3 - \frac{r^2}{R^2} \right)
+    \end{equation}
+    Therefore,
+    \[
+    U(r = 0.8\, \text{m}) = \frac{1.6 \times 10^{-19} \times 10^{-9} \times 9 \times 10^9}{2 \times 1.0} \left( 3 - \left(\frac{0.8}{1.0}\right)^2 \right) = 1.7 \times 10^{-19} \, \text{J}
+    \]
+    Since \( U(r = \infty) = 0 \), the work done is \( 1.7 \times 10^{-19} \, \text{J} \).
+\end{enumerate}
+
+\end{document}
+```"
+11.97,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a) Gauss' Law with Dielectric}
+
+If the dielectric is present, Gauss' law in integral form is given by:
+
+\[
+\varepsilon_0 \oint \mathbf{E} \cdot d\mathbf{s} = \varepsilon_0 E A = q - q'
+\]
+
+where \( q \) is the free charge and \( -q' \) is the induced charge. This can be expressed as:
+
+\[
+E = \frac{1}{\varepsilon_0 A} (q - q')
+\]
+
+In differential form, Gauss' law is:
+
+\[
+\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon}
+\]
+
+\subsection*{(b) Displacement Vector}
+
+The displacement vector is given by:
+
+\[
+\mathbf{D} = \frac{q}{A} \tag{1}
+\]
+
+where \( A \) is the area. The electric field is:
+
+\[
+E = \frac{E_0}{K} = \frac{q}{K \varepsilon_0 A} \tag{2}
+\]
+
+Combining equations (1) and (2), we have:
+
+\[
+\mathbf{D} = K \varepsilon_0 E \tag{3}
+\]
+
+As \( E \) is uniform in a parallel plate capacitor, \( \mathbf{D} \) will also be uniform via equation (3).
+
+\subsection*{(c) Electric Field with Spatially Varying Dielectric}
+
+By Gauss' law:
+
+\[
+\varepsilon_0 \oint K(x) \mathbf{E}(x) \cdot d\mathbf{s} = q = \varepsilon_0 \oint \mathbf{E}_0 \cdot d\mathbf{s}
+\]
+
+Thus, the electric field is:
+
+\[
+E(x) = \frac{E_0}{K(x)} \tag{4}
+\]
+
+where
+
+\[
+E_0 = \frac{q}{\varepsilon_0 A} = \frac{\sigma A}{\varepsilon_0 A} = \frac{\sigma}{\varepsilon_0} \quad (\because \sigma = \frac{q}{A}) \tag{5}
+\]
+
+\subsection*{(d) Potential Difference}
+
+The potential difference is:
+
+\[
+V = \int E(x) \, dx = E_0 \int_0^d \frac{dx}{ax + b} \tag{6}
+\]
+
+Let \( y = ax + b \), then \( dx = \frac{dy}{a} \). Substituting, equation (6) becomes:
+
+\[
+V = \frac{E_0}{a} \int_b^{ad+b} \frac{dy}{y} = \frac{E_0}{a} \ln \left. y \right|_b^{ad+b} = \frac{\sigma_0}{\varepsilon_0 a} \ln \left( 1 + \frac{ad}{b} \right) \tag{7}
+\]
+
+where we have used equation (5). The capacitance \( C \) is:
+
+\[
+C = \frac{q}{V} = \frac{A \varepsilon_0 a}{\ln \left( 1 + \frac{ad}{b} \right)} \tag{8}
+\]
+
+where we have used equation (7) and \( q = \sigma A \).
+
+\subsection*{(e) Vacuum Polarization Charge Density}
+
+The vacuum polarization charge density is:
+
+\[
+P(x) = \varepsilon_0 (k(x) - 1) E = \varepsilon_0 E_0 k(x) (k(x) - 1) = \varepsilon_0 E_0 \left[ 1 - \frac{1}{ax + b} \right] \tag{9}
+\]
+
+\end{document}
+```"
+11.98,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+Newton's law of gravitation is given by:
+\begin{equation}
+    \mathbf{F} = -\frac{GMm}{r^2} \hat{\mathbf{e}}_r = mg
+\end{equation}
+
+Gauss' law for gravitation can be expressed as:
+\begin{equation}
+    \oint \mathbf{g} \cdot d\mathbf{s} = -\frac{GM}{r^2} \cdot 4\pi r^2 = -4\pi GM
+\end{equation}
+
+The divergence theorem states:
+\begin{equation}
+    \oint \nabla \cdot \mathbf{g} \, d^3r = \oint \mathbf{g} \cdot d\mathbf{s}
+\end{equation}
+
+Thus, we have:
+\begin{equation}
+    \nabla \cdot \mathbf{g} \cdot \frac{4}{3}\pi r^3 = -4\pi GM
+\end{equation}
+
+Therefore, the divergence of the gravitational field is:
+\begin{equation}
+    \nabla \cdot \mathbf{g} = -4\pi G \rho_m
+\end{equation}
+
+This is analogous to the law for the electric field:
+\begin{equation}
+    \nabla \cdot \mathbf{E} = \frac{\rho_q}{\varepsilon_0}
+\end{equation}
+
+\end{document}
+```"

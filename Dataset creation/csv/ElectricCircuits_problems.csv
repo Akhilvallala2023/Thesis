@@ -1,0 +1,3134 @@
+Question_number,Questions
+12.1,"To properly format the given physics problem in LaTeX, we need to ensure that the text is clearly presented and any figures or equations are referenced correctly. Since the figure is not provided, I'll include a placeholder for it. Here's how you can format the text:
+
+```latex
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Physics Problem: Effective Resistance Calculation}
+\author{Indian Institute of Technology 1979}
+\date{}
+
+\maketitle
+
+\section*{Problem Statement}
+
+All resistors in Fig.~\ref{fig:circuit} are in ohms. Find the effective resistance between the points A and B.
+
+\begin{figure}[h]
+    \centering
+    % Replace 'circuit_diagram.png' with the actual file name of your figure
+    \includegraphics[width=0.5\textwidth]{circuit_diagram.png}
+    \caption{Circuit diagram for the problem}
+    \label{fig:circuit}
+\end{figure}
+
+\end{document}
+```
+
+In this LaTeX document:
+
+- The `\title`, `\author`, and `\date` commands are used to format the title section.
+- The `\section*{Problem Statement}` command creates an unnumbered section for the problem statement.
+- The `figure` environment is used to include a placeholder for the circuit diagram, with a label for referencing.
+- The `\includegraphics` command is used to include the image of the circuit diagram. You need to replace `'circuit_diagram.png'` with the actual file name of your figure.
+
+Make sure to compile this LaTeX code with a LaTeX editor that supports graphics inclusion, such as Overleaf, or use a local LaTeX installation with the `graphicx` package."
+12.2,"To solve this problem, we need to understand the relationship between the resistance of a wire and its physical dimensions. The resistance \( R \) of a wire is given by the formula:
+
+\[
+R = \rho \frac{L}{A}
+\]
+
+where:
+- \( R \) is the resistance,
+- \( \rho \) is the resistivity of the material,
+- \( L \) is the length of the wire,
+- \( A \) is the cross-sectional area of the wire.
+
+When the wire is stretched to make it 0.1% longer, the new length \( L' \) is:
+
+\[
+L' = L + 0.001L = 1.001L
+\]
+
+Since the volume of the wire remains constant during stretching, we have:
+
+\[
+L \cdot A = L' \cdot A'
+\]
+
+Thus, the new cross-sectional area \( A' \) is:
+
+\[
+A' = \frac{L \cdot A}{L'} = \frac{L \cdot A}{1.001L} = \frac{A}{1.001}
+\]
+
+The new resistance \( R' \) is:
+
+\[
+R' = \rho \frac{L'}{A'} = \rho \frac{1.001L}{\frac{A}{1.001}} = \rho \frac{1.001^2 L}{A}
+\]
+
+The percentage change in resistance is given by:
+
+\[
+\text{Percentage change in resistance} = \left( \frac{R' - R}{R} \right) \times 100\%
+\]
+
+Substituting the values of \( R' \) and \( R \):
+
+\[
+\frac{R' - R}{R} = \frac{\rho \frac{1.001^2 L}{A} - \rho \frac{L}{A}}{\rho \frac{L}{A}} = \frac{1.001^2 - 1}{1} = 1.001^2 - 1
+\]
+
+Calculating \( 1.001^2 \):
+
+\[
+1.001^2 = 1.002001
+\]
+
+Thus, the percentage change in resistance is:
+
+\[
+\text{Percentage change} = (1.002001 - 1) \times 100\% = 0.2001\%
+\]
+
+Therefore, the percentage change in the resistance of the copper wire when it is stretched to make it 0.1% longer is approximately \( 0.2\% \).
+
+The final LaTeX formatted solution is:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem}
+
+If a copper wire is stretched to make it 0.1\% longer, what is the percentage change in its resistance? [Indian Institute of Technology 1978]
+
+\section*{Solution}
+
+The resistance \( R \) of a wire is given by the formula:
+\[
+R = \rho \frac{L}{A}
+\]
+where:
+\begin{itemize}
+    \item \( R \) is the resistance,
+    \item \( \rho \) is the resistivity of the material,
+    \item \( L \) is the length of the wire,
+    \item \( A \) is the cross-sectional area of the wire.
+\end{itemize}
+
+When the wire is stretched to make it 0.1\% longer, the new length \( L' \) is:
+\[
+L' = L + 0.001L = 1.001L
+\]
+
+Since the volume of the wire remains constant during stretching, we have:
+\[
+L \cdot A = L' \cdot A'
+\]
+Thus, the new cross-sectional area \( A' \) is:
+\[
+A' = \frac{L \cdot A}{L'} = \frac{L \cdot A}{1.001L} = \frac{A}{1.001}
+\]
+
+The new resistance \( R' \) is:
+\[
+R' = \rho \frac{L'}{A'} = \rho \frac{1.001L}{\frac{A}{1.001}} = \rho \frac{1.001^2 L}{A}
+\]
+
+The percentage change in resistance is given by:
+\[
+\text{Percentage change in resistance} = \left( \frac{R' - R}{R} \right) \times 100\%
+\]
+
+Substituting the values of \( R' \) and \( R \):
+\[
+\frac{R' - R}{R} = \frac{\rho \frac{1.001^"
+12.3,"To convert the given physics text into properly formatted LaTeX, we need to define the problem statement clearly using mathematical notation. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The equivalent resistance of the series combination of two resistors is \( p \). When they are joined in parallel, the equivalent resistance is \( q \). If \( p = n q \), find the minimum possible value of \( n \).
+
+\section*{Solution}
+
+Let the resistances of the two resistors be \( R_1 \) and \( R_2 \).
+
+For resistors in series, the equivalent resistance is given by:
+\[
+p = R_1 + R_2
+\]
+
+For resistors in parallel, the equivalent resistance is given by:
+\[
+\frac{1}{q} = \frac{1}{R_1} + \frac{1}{R_2}
+\]
+
+This can be rewritten as:
+\[
+q = \frac{R_1 R_2}{R_1 + R_2}
+\]
+
+Given that \( p = n q \), we substitute the expressions for \( p \) and \( q \):
+\[
+R_1 + R_2 = n \left(\frac{R_1 R_2}{R_1 + R_2}\right)
+\]
+
+Multiplying both sides by \( R_1 + R_2 \), we get:
+\[
+(R_1 + R_2)^2 = n R_1 R_2
+\]
+
+Rearranging gives:
+\[
+n = \frac{(R_1 + R_2)^2}{R_1 R_2}
+\]
+
+To find the minimum possible value of \( n \), we apply the AM-GM inequality:
+\[
+R_1 + R_2 \geq 2\sqrt{R_1 R_2}
+\]
+
+Squaring both sides:
+\[
+(R_1 + R_2)^2 \geq 4R_1 R_2
+\]
+
+Thus:
+\[
+n = \frac{(R_1 + R_2)^2}{R_1 R_2} \geq 4
+\]
+
+Therefore, the minimum possible value of \( n \) is \( \boxed{4} \).
+
+\end{document}
+```
+
+This LaTeX document provides a clear and structured solution to the problem, using appropriate mathematical notation and logical steps to find the minimum possible value of \( n \)."
+12.4,"To properly format the given text into LaTeX, you would typically include a description of the circuit, a reference to the figure, and the calculation of the equivalent resistance. Here's how you might structure it:
+
+```latex
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Problem}
+
+Five resistors are connected as shown in Fig. 12.4. Find the equivalent resistance between points A and C.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Fig12_4.png} % Replace with the actual path to the image
+    \caption{Circuit diagram with five resistors.}
+    \label{fig:circuit}
+\end{figure}
+
+\section*{Solution}
+
+To find the equivalent resistance between points A and C, we need to analyze the configuration of the resistors in the circuit. Depending on whether they are in series or parallel, we can use the following formulas:
+
+\begin{itemize}
+    \item For resistors in series: 
+    \[
+    R_{\text{eq, series}} = R_1 + R_2 + \cdots + R_n
+    \]
+    \item For resistors in parallel:
+    \[
+    \frac{1}{R_{\text{eq, parallel}}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n}
+    \]
+\end{itemize}
+
+Assuming the resistors are configured in a combination of series and parallel, calculate the equivalent resistance step by step:
+
+1. Identify resistors in series and calculate their combined resistance.
+2. Identify resistors in parallel and calculate their combined resistance.
+3. Repeat the process until you find the total equivalent resistance between points A and C.
+
+\[
+R_{\text{eq, AC}} = \ldots
+\]
+
+\end{document}
+```
+
+Make sure to replace `Fig12_4.png` with the actual path to your figure file. The solution section is left generic since the specific configuration of resistors is not provided. You would need to adjust the solution based on the actual circuit configuration."
+12.5,"To format the given text in LaTeX, you would typically include a description of the problem, a reference to the figure, and the solution or equation if applicable. Here's how you can structure it:
+
+```latex
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Problem}
+
+Five resistors are arranged as shown in Fig. 12.5. Find the effective resistance between points A and B.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig12_5.png} % Replace with the actual path to the image file
+    \caption{Arrangement of resistors}
+    \label{fig:resistors}
+\end{figure}
+
+\section*{Solution}
+
+To find the effective resistance between points A and B, we need to analyze the arrangement of the resistors in the circuit. Depending on whether the resistors are in series or parallel, we can use the following formulas:
+
+\begin{itemize}
+    \item For resistors in series: 
+    \[
+    R_{\text{series}} = R_1 + R_2 + \cdots + R_n
+    \]
+    \item For resistors in parallel:
+    \[
+    \frac{1}{R_{\text{parallel}}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n}
+    \]
+\end{itemize}
+
+(Insert detailed steps here to calculate the effective resistance based on the specific arrangement in Fig. 12.5.)
+
+\end{document}
+```
+
+Make sure to replace `fig12_5.png` with the actual path to your figure file. The solution section should include the specific steps and calculations needed to find the effective resistance, based on the configuration shown in your figure."
+12.6,"To format the given text into LaTeX, you can use the following code. This includes the description of the problem and a placeholder for the figure (which you would replace with the actual figure code or file path).
+
+```latex
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+Each of the resistances in the network, as shown in Fig. 12.6, is equal to \( R \). Find the resistance between the terminals \( A \) and \( B \).
+
+\begin{figure}[h]
+    \centering
+    % Replace 'path/to/figure' with the actual path to your figure file
+    \includegraphics[width=0.5\textwidth]{path/to/figure}
+    \caption{Network of resistances}
+    \label{fig:network}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code sets up a document with a figure and a description of the problem. Make sure to replace `'path/to/figure'` with the actual path to your figure file. The figure is labeled for reference, and the text is formatted to clearly present the problem statement."
+12.7,"To format the given physics problem in LaTeX, you can use the following code. This includes a placeholder for the figure, which you should replace with the actual figure file or code once you have it.
+
+```latex
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Problem}
+
+Find the equivalent resistance between the terminals $x$ and $y$ of the network shown in Fig. 12.7.
+
+\begin{figure}[h]
+    \centering
+    % Replace 'network_figure.png' with the actual file name or TikZ code for the figure
+    \includegraphics[width=0.5\textwidth]{network_figure.png}
+    \caption{Network diagram for finding equivalent resistance.}
+    \label{fig:network}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code sets up a document with a section for the problem statement and includes a placeholder for the figure. Make sure to replace `'network_figure.png'` with the actual image file or use TikZ or another method to draw the figure directly in LaTeX."
+12.8,"To convert the given physics text into properly formatted LaTeX, we will structure it as a problem statement with parts (i), (ii), and (iii) clearly defined. Here's how it can be formatted:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem}
+
+A circuit is set up as shown in Fig. 12.8, in which certain resistors are known; the current in some of the branches has been measured by an ammeter. Calculate:
+
+\begin{enumerate}
+    \item The resistance $R$ in CB.
+    \item The potential difference between points A and B.
+    \item The heat developed per second between points A and B.
+\end{enumerate}
+
+\begin{center}
+    \includegraphics[width=0.5\textwidth]{fig12_8.png} % Placeholder for Fig. 12.8
+\end{center}
+
+\textit{[Northern Universities of U.K.]}
+
+\end{document}
+```
+
+**Notes:**
+- The `\includegraphics` command is used to include the figure (Fig. 12.8). You need to replace `fig12_8.png` with the actual file name and path of your figure.
+- The `enumerate` environment is used to list the parts of the problem.
+- The problem statement is clearly divided into three parts for clarity.
+- Ensure that the figure is available in the same directory or provide the correct path to include it in the document."
+12.9,"To format the given text into LaTeX, we need to include the description of the problem and a placeholder for the figure. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+Five resistances are connected as shown in Fig.~\ref{fig:circuit}. Find the equivalent resistance between the points A and B.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{circuit_diagram.png} % Replace with actual file name
+    \caption{Circuit diagram with five resistances.}
+    \label{fig:circuit}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `circuit_diagram.png` with the actual file name of your circuit diagram image. This code snippet will format the problem statement and include a figure with a caption and label for referencing in the text."
+12.10,"To convert the given text into properly formatted LaTeX, we'll create a document that includes the description and a placeholder for the figure. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+An electrical network of infinite resistors is shown in Fig. 12.10. Find the effective resistance of the network between terminal points \( A \) and \( B \).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure12_10.png} % Replace with actual image file
+    \caption{Network of infinite resistors}
+    \label{fig:network}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `figure12_10.png` with the actual file name of your figure. This code will create a document with a description of the problem and a figure labeled as Fig. 12.10."
+12.11,"To format the given physics problem into LaTeX, we need to clearly define the problem and use appropriate mathematical notation. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem}
+
+Determine the equal length of an iron wire and a constantan wire, each with a diameter of 1 mm, that must be joined in parallel to achieve an equivalent resistance of \(2 \, \Omega\). The resistivity of iron is \(10 \, \mu\Omega \cdot \text{cm}\) and the resistivity of constantan is \(49 \, \mu\Omega \cdot \text{cm}\).
+
+\section*{Solution}
+
+Given:
+\begin{itemize}
+    \item Diameter of each wire, \(d = 1 \, \text{mm} = 0.1 \, \text{cm}\)
+    \item Resistivity of iron, \(\rho_{\text{iron}} = 10 \, \mu\Omega \cdot \text{cm}\)
+    \item Resistivity of constantan, \(\rho_{\text{constantan}} = 49 \, \mu\Omega \cdot \text{cm}\)
+    \item Equivalent resistance, \(R_{\text{eq}} = 2 \, \Omega\)
+\end{itemize}
+
+The resistance \(R\) of a wire is given by:
+\[
+R = \frac{\rho \cdot L}{A}
+\]
+where \(L\) is the length of the wire and \(A\) is the cross-sectional area. The cross-sectional area \(A\) of the wire is:
+\[
+A = \pi \left(\frac{d}{2}\right)^2 = \pi \left(\frac{0.1}{2}\right)^2 = \frac{\pi}{400} \, \text{cm}^2
+\]
+
+For wires in parallel, the equivalent resistance is given by:
+\[
+\frac{1}{R_{\text{eq}}} = \frac{1}{R_{\text{iron}}} + \frac{1}{R_{\text{constantan}}}
+\]
+
+Substitute the resistance formula for each wire:
+\[
+\frac{1}{R_{\text{eq}}} = \frac{A}{\rho_{\text{iron}} \cdot L} + \frac{A}{\rho_{\text{constantan}} \cdot L}
+\]
+
+Substitute the given values:
+\[
+\frac{1}{2} = \frac{\frac{\pi}{400}}{10 \cdot L} + \frac{\frac{\pi}{400}}{49 \cdot L}
+\]
+
+Simplify and solve for \(L\):
+\[
+\frac{1}{2} = \frac{\pi}{400L} \left(\frac{1}{10} + \frac{1}{49}\right)
+\]
+
+\[
+\frac{1}{2} = \frac{\pi}{400L} \left(\frac{49 + 10}{490}\right)
+\]
+
+\[
+\frac{1}{2} = \frac{\pi \times 59}{400 \times 490 \times L}
+\]
+
+\[
+L = \frac{\pi \times 59}{400 \times 490 \times \frac{1}{2}}
+\]
+
+\[
+L = \frac{59 \times \pi}{98000}
+\]
+
+Thus, the required length \(L\) of each wire is:
+\[
+L \approx \frac{59 \times 3.1416}{98000} \approx 0.00189 \, \text{cm}
+\]
+
+Therefore, the length of each wire must be approximately \(0.00189 \, \text{cm}\).
+
+\end{document}
+```
+
+This LaTeX code will format the problem and solution properly, using mathematical notation to express the equations and calculations clearly. Adjustments can be made based on specific formatting preferences or additional details."
+12.12,"To convert the given physics text into properly formatted LaTeX, we need to clearly present the problem statement and the solution steps. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Problem}
+
+A coil of wire has a resistance of \SI{20}{\ohm} at \SI{25}{\degreeCelsius} and \SI{25.7}{\ohm} at \SI{100}{\degreeCelsius}. Calculate the temperature coefficient. [University of London]
+
+\section*{Solution}
+
+The temperature coefficient of resistance, \(\alpha\), can be calculated using the formula:
+
+\[
+\alpha = \frac{R_2 - R_1}{R_1 \times (T_2 - T_1)}
+\]
+
+where:
+\begin{align*}
+R_1 &= \SI{20}{\ohm} \quad \text{(resistance at } T_1 = \SI{25}{\degreeCelsius}\text{)} \\
+R_2 &= \SI{25.7}{\ohm} \quad \text{(resistance at } T_2 = \SI{100}{\degreeCelsius}\text{)} \\
+T_1 &= \SI{25}{\degreeCelsius} \\
+T_2 &= \SI{100}{\degreeCelsius}
+\end{align*}
+
+Substituting the given values into the formula:
+
+\[
+\alpha = \frac{\SI{25.7}{\ohm} - \SI{20}{\ohm}}{\SI{20}{\ohm} \times (\SI{100}{\degreeCelsius} - \SI{25}{\degreeCelsius})}
+\]
+
+\[
+\alpha = \frac{\SI{5.7}{\ohm}}{\SI{20}{\ohm} \times \SI{75}{\degreeCelsius}}
+\]
+
+\[
+\alpha = \frac{\SI{5.7}{\ohm}}{\SI{1500}{\ohm \degreeCelsius}}
+\]
+
+\[
+\alpha = \SI{0.0038}{\per\degreeCelsius}
+\]
+
+Thus, the temperature coefficient of resistance is \(\alpha = \SI{0.0038}{\per\degreeCelsius}\).
+
+\end{document}
+```
+
+This LaTeX code will produce a well-formatted document with the problem statement and the solution, including all necessary calculations and units."
+12.13,"To solve this problem, we need to calculate the effective resistance between points A and C, and then determine the total power dissipated when a battery is connected across these points. Here is the solution formatted in LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+A wire of resistance \(0.1 \, \Omega/\text{cm}\) is bent to form a square \(ABCD\) with side \(10 \, \text{cm}\). A similar wire is connected between the corners \(B\) and \(D\) to form the diagonal \(BD\). Find the effective resistance of this combination between \(A\) and \(C\). A battery of negligible internal resistance is connected across \(A\) and \(C\). Calculate the total power dissipated.
+
+\section*{Solution}
+
+First, calculate the resistance of each side of the square. Since each side is \(10 \, \text{cm}\) and the resistance per cm is \(0.1 \, \Omega/\text{cm}\), the resistance of each side is:
+\[
+R_{\text{side}} = 10 \, \text{cm} \times 0.1 \, \Omega/\text{cm} = 1 \, \Omega
+\]
+
+The diagonal \(BD\) is formed by a similar wire of length:
+\[
+BD = \sqrt{10^2 + 10^2} = \sqrt{200} = 10\sqrt{2} \, \text{cm}
+\]
+
+The resistance of the diagonal \(BD\) is:
+\[
+R_{\text{BD}} = 10\sqrt{2} \, \text{cm} \times 0.1 \, \Omega/\text{cm} = \sqrt{2} \, \Omega
+\]
+
+Now, consider the circuit formed by these resistances. The resistances \(AB\), \(BC\), \(CD\), and \(DA\) are each \(1 \, \Omega\). The diagonal \(BD\) is \(\sqrt{2} \, \Omega\).
+
+The resistances between \(A\) and \(C\) are:
+- \(R_{AC1} = R_{AB} + R_{BC} = 1 \, \Omega + 1 \, \Omega = 2 \, \Omega\)
+- \(R_{AC2} = R_{AD} + R_{DC} = 1 \, \Omega + 1 \, \Omega = 2 \, \Omega\)
+
+These two paths are in parallel with the diagonal \(BD\), so the effective resistance \(R_{\text{eff}}\) between \(A\) and \(C\) is given by:
+\[
+\frac{1}{R_{\text{eff}}} = \frac{1}{R_{AC1}} + \frac{1}{R_{AC2}} + \frac{1}{R_{\text{BD}}}
+\]
+\[
+\frac{1}{R_{\text{eff}}} = \frac{1}{2} + \frac{1}{2} + \frac{1}{\sqrt{2}}
+\]
+\[
+\frac{1}{R_{\text{eff}}} = 1 + \frac{1}{\sqrt{2}}
+\]
+\[
+R_{\text{eff}} = \frac{\sqrt{2}}{\sqrt{2} + 1} \, \Omega
+\]
+
+Now, calculate the total power dissipated when a battery is connected across \(A\) and \(C\). Let the voltage of the battery be \(V\).
+
+The power dissipated \(P\) is given by:
+\[
+P = \frac{V^2}{R_{\text{eff}}}
+\]
+
+Substitute the value of \(R_{\text{eff}}\):
+\[
+P = \frac{V^2 (\sqrt{2} + 1)}{\sqrt{2}} \, \text{W}
+\]
+
+This completes the solution to the problem.
+
+\end{document}
+```
+
+This LaTeX code provides a clear and structured solution to the problem, including all necessary calculations and formulas."
+12.14,"To convert the given text into properly formatted LaTeX, we need to structure the problem statement clearly and use appropriate LaTeX commands for mathematical symbols and units. Here's the formatted LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Problem}
+
+A \SI{60}{\watt} - \SI{100}{\volt} tungsten lamp has a resistance of \SI{20}{\ohm} at air temperature (\SI{0}{\degreeCelsius}). What is the rise in temperature of the filament under normal working conditions? The temperature coefficient of resistance of tungsten is \SI{0.0052}{\per\degreeCelsius}. \textit{[University of London]}
+
+\section*{Solution}
+
+To find the rise in temperature of the filament, we use the formula for the resistance of a material as a function of temperature:
+
+\begin{equation}
+    R = R_0 (1 + \alpha \Delta T)
+\end{equation}
+
+where:
+\begin{align*}
+    R & = \text{resistance at the working temperature} \\
+    R_0 & = \text{resistance at \SI{0}{\degreeCelsius}} = \SI{20}{\ohm} \\
+    \alpha & = \text{temperature coefficient of resistance} = \SI{0.0052}{\per\degreeCelsius} \\
+    \Delta T & = \text{rise in temperature}
+\end{align*}
+
+The power \( P \) is given by
+
+\begin{equation}
+    P = \frac{V^2}{R}
+\end{equation}
+
+where \( P = \SI{60}{\watt} \) and \( V = \SI{100}{\volt} \).
+
+Rearranging for \( R \), we have:
+
+\begin{equation}
+    R = \frac{V^2}{P} = \frac{(100)^2}{60} = \SI{166.67}{\ohm}
+\end{equation}
+
+Substituting \( R \) and \( R_0 \) into the resistance-temperature equation:
+
+\begin{equation}
+    166.67 = 20 (1 + 0.0052 \Delta T)
+\end{equation}
+
+Solving for \( \Delta T \):
+
+\begin{align*}
+    166.67 &= 20 + 20 \times 0.0052 \Delta T \\
+    166.67 - 20 &= 20 \times 0.0052 \Delta T \\
+    146.67 &= 0.104 \Delta T \\
+    \Delta T &= \frac{146.67}{0.104} \approx \SI{1410.29}{\degreeCelsius}
+\end{align*}
+
+Thus, the rise in temperature of the filament under normal working conditions is approximately \SI{1410.29}{\degreeCelsius}.
+
+\end{document}
+```
+
+This LaTeX code includes sections for the problem statement and solution, uses the `siunitx` package for consistent unit formatting, and provides a step-by-step solution to the problem."
+12.15,"To convert the given physics problem into properly formatted LaTeX, we need to structure the text into equations and descriptions. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Physics Problem: Resistance of a Wire Cube}
+\author{University of London}
+\date{}
+\maketitle
+
+\section*{Problem Statement}
+
+A skeleton cube is made of wires soldered together at the corners of the cube, with the resistance of each wire being $10 \, \Omega$. A current of $6 \, \text{A}$ enters at one corner (see Fig. 12.11) and leaves the diagonally opposite corner. Calculate the equivalent resistance of the network and the fall of potential across it.
+
+\section*{Solution}
+
+To solve this problem, we need to find the equivalent resistance $R_{\text{eq}}$ of the network formed by the cube. The cube has 12 edges, each with a resistance of $10 \, \Omega$.
+
+The current enters at one corner and exits at the diagonally opposite corner. Due to symmetry, the problem can be simplified by considering the cube as a network of resistors with symmetrical paths for the current.
+
+The equivalent resistance between two diagonally opposite corners of a cube made of identical resistors can be calculated using the symmetry of the cube. The equivalent resistance $R_{\text{eq}}$ is given by:
+
+\[
+R_{\text{eq}} = \frac{5}{6} \times R
+\]
+
+where $R = 10 \, \Omega$ is the resistance of each wire.
+
+Thus, the equivalent resistance is:
+
+\[
+R_{\text{eq}} = \frac{5}{6} \times 10 \, \Omega = \frac{50}{6} \, \Omega \approx 8.33 \, \Omega
+\]
+
+Next, we calculate the potential difference (fall of potential) across the cube using Ohm's Law:
+
+\[
+V = I \times R_{\text{eq}}
+\]
+
+where $I = 6 \, \text{A}$ is the current.
+
+\[
+V = 6 \, \text{A} \times 8.33 \, \Omega = 49.98 \, \text{V}
+\]
+
+Therefore, the fall of potential across the cube is approximately $50 \, \text{V}$.
+
+\section*{Conclusion}
+
+The equivalent resistance of the network is approximately $8.33 \, \Omega$, and the fall of potential across it is approximately $50 \, \text{V}$.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{cube_diagram.png}
+    \caption{Current entering and exiting diagonally opposite corners of the cube.}
+    \label{fig:cube}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX document includes a title, problem statement, solution with equations, and a conclusion. It also references a figure (Fig. 12.11) which you would need to include as an image file named `cube_diagram.png` in the same directory as the LaTeX file for it to be displayed. Adjust the image path and name as necessary."
+12.16,"To convert the given text into properly formatted LaTeX, we need to structure it clearly, including any figures or references. Since the figure is mentioned but not provided, I'll include a placeholder for it. Here's how you can format the text:
+
+```latex
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Physics Problem: Bulbs in Series}
+\author{}
+\date{}
+\maketitle
+
+\section*{Problem Statement}
+
+Two bulbs, \(A_2\) with a power rating of 5 W and \(B_1\) with a power rating of 100 W, are connected in series and joined to the mains (see Fig. \ref{fig:bulbs}). Which bulb will glow brighter? \\
+\textit{[Indian Institute of Technology 1979]}
+
+\begin{figure}[h]
+    \centering
+    % Replace 'example-image' with the actual image file name
+    \includegraphics[width=0.5\textwidth]{example-image}
+    \caption{Circuit diagram of bulbs connected in series.}
+    \label{fig:bulbs}
+\end{figure}
+
+\section*{Solution}
+
+When two bulbs are connected in series, the same current flows through both bulbs. The brightness of a bulb is determined by the power it dissipates, which is given by \(P = I^2 R\), where \(I\) is the current and \(R\) is the resistance of the bulb.
+
+Given:
+\begin{itemize}
+    \item Bulb \(A_2\): 5 W
+    \item Bulb \(B_1\): 100 W
+\end{itemize}
+
+Assuming both bulbs are rated for the same voltage, the resistance \(R\) of each bulb can be calculated using the formula \(P = \frac{V^2}{R}\), where \(V\) is the voltage rating of the bulb.
+
+The bulb with the higher resistance will dissipate more power when connected in series, as the current is constant. Therefore, the bulb with the lower power rating (5 W) will have a higher resistance and will glow brighter.
+
+Thus, bulb \(A_2\) will glow brighter than bulb \(B_1\).
+
+\end{document}
+```
+
+This LaTeX document includes a title, problem statement, a placeholder for the figure, and a brief solution explaining which bulb will glow brighter and why. You can replace `example-image` with the actual image file name for the figure."
+12.17,"To convert the given text into properly formatted LaTeX, we need to structure it clearly, especially since it seems to describe a physics problem involving bulbs connected in parallel. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem}
+
+Two bulbs, labeled as $A_2$ with a power rating of 5 W and $A_1$ with a power rating of 100 W, are connected in parallel and joined to the mains. Refer to Figure 12.13 for the circuit diagram. Which bulb will glow brighter?
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig12_13.png} % Replace with the actual path to your image file
+    \caption{Circuit diagram showing bulbs $A_2$ and $A_1$ connected in parallel.}
+    \label{fig:12_13}
+\end{figure}
+
+\end{document}
+```
+
+### Explanation:
+
+- **Document Class and Packages**: We use the `article` class and include the `graphicx` package to handle images.
+- **Section**: The problem is introduced with a section heading.
+- **Text**: The problem statement is clearly written, with bulb labels and power ratings formatted using math mode for clarity.
+- **Figure**: A placeholder for Figure 12.13 is included, with a caption and label for referencing. You need to replace `fig12_13.png` with the actual path to your image file.
+
+Make sure to compile this LaTeX code with a LaTeX editor that supports images, and ensure the image file is in the same directory or provide the correct path."
+12.18,"To convert the given physics text into properly formatted LaTeX, we will structure the problem clearly, using appropriate mathematical symbols and formatting. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\title{Physics Problem: Potential Drop Across Parallel Resistors}
+\author{University of Newcastle}
+\date{}
+\maketitle
+
+\section*{Problem}
+
+Three resistors of \SI{4}{\ohm}, \SI{6}{\ohm}, and \SI{12}{\ohm} are connected together in parallel. This parallel arrangement is then connected in series with \SI{1}{\ohm} and \SI{2}{\ohm} resistors. If a potential difference of \SI{120}{V} is applied across the end of the circuit, what will be the potential drop across the part of the circuit connected in parallel?
+
+\section*{Solution}
+
+To solve this problem, we first calculate the equivalent resistance of the parallel resistors. The formula for the equivalent resistance \( R_p \) of resistors in parallel is given by:
+
+\[
+\frac{1}{R_p} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}
+\]
+
+Substituting the given values:
+
+\[
+\frac{1}{R_p} = \frac{1}{4} + \frac{1}{6} + \frac{1}{12}
+\]
+
+Calculating the right-hand side:
+
+\[
+\frac{1}{R_p} = \frac{3}{12} + \frac{2}{12} + \frac{1}{12} = \frac{6}{12} = \frac{1}{2}
+\]
+
+Thus, the equivalent resistance of the parallel resistors is:
+
+\[
+R_p = 2 \, \Omega
+\]
+
+Next, we calculate the total resistance of the circuit. The total resistance \( R_t \) is the sum of the equivalent parallel resistance and the series resistors:
+
+\[
+R_t = R_p + R_4 + R_5 = 2 + 1 + 2 = 5 \, \Omega
+\]
+
+The total current \( I \) flowing through the circuit is given by Ohm's Law:
+
+\[
+I = \frac{V}{R_t} = \frac{120}{5} = 24 \, \text{A}
+\]
+
+The potential drop \( V_p \) across the parallel section is:
+
+\[
+V_p = I \times R_p = 24 \times 2 = 48 \, \text{V}
+\]
+
+Therefore, the potential drop across the part of the circuit connected in parallel is \SI{48}{V}.
+
+\end{document}
+```
+
+This LaTeX code provides a clear and structured solution to the problem, using appropriate mathematical notation and units."
+12.19,"To properly format the given physics text into LaTeX, we need to include the necessary mathematical expressions and ensure the text is well-structured. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+In the given circuit, as shown in Fig. 12.14, demonstrate that the maximum power delivered to the external resistor $R$ is given by
+
+\begin{equation}
+P = \frac{\xi^2}{4r}
+\end{equation}
+
+where $r$ is the internal resistance of the battery with electromotive force (emf) $\xi$.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure12_14.png} % Replace with the actual path to the figure
+    \caption{Circuit diagram for the problem.}
+    \label{fig:circuit}
+\end{figure}
+
+\end{document}
+```
+
+### Explanation:
+
+1. **Document Class**: We use the `article` class for a simple document structure.
+2. **Packages**: 
+   - `amsmath` is used for enhanced mathematical formatting.
+   - `graphicx` is used for including images.
+3. **Equation**: The equation for maximum power is formatted using the `equation` environment.
+4. **Figure**: A placeholder for the figure is included using the `figure` environment. You should replace `figure12_14.png` with the actual path to your image file.
+5. **Text**: The problem statement is clearly written with proper spacing and formatting.
+
+This LaTeX code will produce a well-formatted document with the equation and a placeholder for the figure. Make sure to replace the placeholder image path with the actual image file path you have."
+12.20,"To convert the given physics problem into properly formatted LaTeX, we will define the problem, equations, and solutions clearly. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem}
+
+Two heater coils of power $P_1$ and $P_2$ (resistance $R_1$ and $R_2$, respectively) take individually time $t_1$ and $t_2$ to boil a fixed quantity of water. Find the time $t$ in terms of $t_1$ and $t_2$, when they are connected to the mains in (a) series and (b) parallel to boil the same quantity of water.
+
+\section*{Solution}
+
+\subsection*{(a) Series Connection}
+
+When the coils are connected in series, the total resistance $R_s$ is given by:
+\[
+R_s = R_1 + R_2
+\]
+
+The power in series connection $P_s$ is given by:
+\[
+P_s = \frac{V^2}{R_s} = \frac{V^2}{R_1 + R_2}
+\]
+
+The energy required to boil the water is the same in both cases, so:
+\[
+P_1 t_1 = P_s t
+\]
+
+Substituting for $P_1$ and $P_s$, we have:
+\[
+\frac{V^2}{R_1} t_1 = \frac{V^2}{R_1 + R_2} t
+\]
+
+Solving for $t$, we get:
+\[
+t = t_1 \left( \frac{R_1 + R_2}{R_1} \right)
+\]
+
+Similarly, using $P_2 t_2 = P_s t$, we find:
+\[
+t = t_2 \left( \frac{R_1 + R_2}{R_2} \right)
+\]
+
+Thus, the time $t$ in series is:
+\[
+t = \frac{t_1 R_2 + t_2 R_1}{R_1 + R_2}
+\]
+
+\subsection*{(b) Parallel Connection}
+
+When the coils are connected in parallel, the total resistance $R_p$ is given by:
+\[
+\frac{1}{R_p} = \frac{1}{R_1} + \frac{1}{R_2}
+\]
+
+The power in parallel connection $P_p$ is given by:
+\[
+P_p = \frac{V^2}{R_p}
+\]
+
+The energy required to boil the water is the same, so:
+\[
+P_1 t_1 = P_p t
+\]
+
+Substituting for $P_1$ and $P_p$, we have:
+\[
+\frac{V^2}{R_1} t_1 = \frac{V^2}{R_p} t
+\]
+
+Solving for $t$, we get:
+\[
+t = t_1 \left( \frac{R_p}{R_1} \right)
+\]
+
+Similarly, using $P_2 t_2 = P_p t$, we find:
+\[
+t = t_2 \left( \frac{R_p}{R_2} \right)
+\]
+
+Thus, the time $t$ in parallel is:
+\[
+t = \frac{t_1 t_2}{t_1 + t_2}
+\]
+
+\end{document}
+```
+
+This LaTeX code provides a structured solution to the problem, with equations formatted using the `amsmath` package for clarity and readability."
+12.21,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\title{Physics Problem: Power Expended in Resistances}
+\author{University of London}
+\date{}
+\maketitle
+
+\section*{Problem Statement}
+
+A battery having an electromotive force (emf) of \SI{24}{\volt} and an internal resistance of \SI{2}{\ohm} is connected to two resistances arranged (a) in series and (b) in parallel. If the resistances are \SI{4}{\ohm} and \SI{6}{\ohm}, respectively, calculate the watts expended in each resistance, in each of the two cases.
+
+\section*{Solution}
+
+\subsection*{(a) Series Connection}
+
+In a series connection, the total resistance \( R_{\text{total}} \) is the sum of all resistances:
+
+\[
+R_{\text{total}} = R_{\text{internal}} + R_1 + R_2 = 2 + 4 + 6 = \SI{12}{\ohm}
+\]
+
+The current \( I \) through the circuit is given by Ohm's law:
+
+\[
+I = \frac{V_{\text{emf}}}{R_{\text{total}}} = \frac{24}{12} = \SI{2}{\ampere}
+\]
+
+The power expended in each resistance is given by \( P = I^2 R \).
+
+For the \SI{4}{\ohm} resistor:
+
+\[
+P_1 = I^2 R_1 = (2)^2 \times 4 = \SI{16}{\watt}
+\]
+
+For the \SI{6}{\ohm} resistor:
+
+\[
+P_2 = I^2 R_2 = (2)^2 \times 6 = \SI{24}{\watt}
+\]
+
+\subsection*{(b) Parallel Connection}
+
+In a parallel connection, the total resistance \( R_{\text{total}} \) is given by:
+
+\[
+\frac{1}{R_{\text{total}}} = \frac{1}{R_{\text{internal}}} + \frac{1}{R_1} + \frac{1}{R_2} = \frac{1}{2} + \frac{1}{4} + \frac{1}{6}
+\]
+
+Calculating the total resistance:
+
+\[
+\frac{1}{R_{\text{total}}} = \frac{6 + 3 + 2}{12} = \frac{11}{12}
+\]
+
+Thus,
+
+\[
+R_{\text{total}} = \frac{12}{11} \approx \SI{1.09}{\ohm}
+\]
+
+The total current \( I \) is:
+
+\[
+I = \frac{V_{\text{emf}}}{R_{\text{total}}} = \frac{24}{\frac{12}{11}} = \frac{24 \times 11}{12} = \SI{22}{\ampere}
+\]
+
+The voltage across each resistor in parallel is the same as the emf minus the voltage drop across the internal resistance:
+
+\[
+V_{\text{across}} = V_{\text{emf}} - I \times R_{\text{internal}} = 24 - 22 \times 2 = \SI{20}{\volt}
+\]
+
+The power expended in each resistance is given by \( P = \frac{V^2}{R} \).
+
+For the \SI{4}{\ohm} resistor:
+
+\[
+P_1 = \frac{V_{\text{across}}^2}{R_1} = \frac{20^2}{4} = \SI{100}{\watt}
+\]
+
+For the \SI{6}{\ohm} resistor:
+
+\[
+P_2 = \frac{V_{\text{across}}^2}{R_2} = \frac{20^2}{6} \approx \SI{66.67}{\watt}
+\]
+
+\end{document}
+```"
+12.22,"To convert the given physics problem into properly formatted LaTeX, we need to define the problem clearly with all the given parameters, and then calculate the rate of energy loss using the appropriate formulas. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\title{Power Transmission Problem}
+\author{University of Dublin}
+\date{}
+\maketitle
+
+\section*{Problem Statement}
+
+Power at the rate of \(104 \, \text{kW}\) has to be supplied through \(30 \, \text{km}\) of cable with a resistance of \(0.7 \, \Omega/\text{km}\). Find the rate of energy loss if the power is transmitted at \(100 \, \text{kV}\).
+
+\section*{Solution}
+
+Given:
+\begin{align*}
+    P &= 104 \, \text{kW} = 104 \times 10^3 \, \text{W}, \\
+    L &= 30 \, \text{km}, \\
+    R_{\text{per km}} &= 0.7 \, \Omega/\text{km}, \\
+    V &= 100 \, \text{kV} = 100 \times 10^3 \, \text{V}.
+\end{align*}
+
+The total resistance \(R\) of the cable is given by:
+\[
+R = R_{\text{per km}} \times L = 0.7 \, \Omega/\text{km} \times 30 \, \text{km} = 21 \, \Omega.
+\]
+
+The current \(I\) flowing through the cable can be calculated using the formula for power:
+\[
+P = VI \implies I = \frac{P}{V} = \frac{104 \times 10^3 \, \text{W}}{100 \times 10^3 \, \text{V}} = 1.04 \, \text{A}.
+\]
+
+The rate of energy loss due to the resistance in the cable is given by:
+\[
+P_{\text{loss}} = I^2 R = (1.04 \, \text{A})^2 \times 21 \, \Omega = 22.7136 \, \text{W}.
+\]
+
+Therefore, the rate of energy loss is approximately \(22.71 \, \text{W}\).
+
+\end{document}
+```
+
+This LaTeX document includes the problem statement, the given data, and the solution with all necessary calculations. The equations are formatted using the `align*` environment for clarity, and all units and conversions are explicitly stated."
+12.23,"To solve this problem, we need to use the formulas for power dissipation in resistors connected in series and parallel. Let's format the solution in LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem}
+
+Three equal resistors, connected in series across a source of emf, together dissipate 10 W of power. What would be the power dissipated if the same resistors are connected in parallel across the same source of emf? [Indian Institute of Technology 1972]
+
+\section*{Solution}
+
+Let the resistance of each resistor be \( R \). When connected in series, the total resistance \( R_s \) is given by:
+\[
+R_s = R + R + R = 3R
+\]
+
+Let the emf of the source be \( V \). The power dissipated in the series connection is given by:
+\[
+P_s = \frac{V^2}{R_s} = \frac{V^2}{3R} = 10 \, \text{W}
+\]
+
+From this, we can express \( V^2 \) in terms of \( R \):
+\[
+V^2 = 30R
+\]
+
+Now, consider the resistors connected in parallel. The total resistance \( R_p \) for resistors in parallel is:
+\[
+\frac{1}{R_p} = \frac{1}{R} + \frac{1}{R} + \frac{1}{R} = \frac{3}{R}
+\]
+\[
+R_p = \frac{R}{3}
+\]
+
+The power dissipated in the parallel connection is given by:
+\[
+P_p = \frac{V^2}{R_p} = \frac{V^2}{\frac{R}{3}} = 3 \cdot \frac{V^2}{R}
+\]
+
+Substituting the expression for \( V^2 \) from the series connection:
+\[
+P_p = 3 \cdot \frac{30R}{R} = 90 \, \text{W}
+\]
+
+Thus, the power dissipated when the resistors are connected in parallel is \(\boxed{90 \, \text{W}}\).
+
+\end{document}
+```
+
+This LaTeX document provides a clear, step-by-step solution to the problem, using the appropriate physics formulas and calculations."
+12.24,"To convert the given physics problem into LaTeX, we need to format the text properly, include the necessary equations, and ensure clarity. Here's how you can present it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+A heater is designed to operate with a power of $1000 \, \text{W}$ in a $100 \, \text{V}$ line. It is connected in combination with a resistance of $100 \, \Omega$ and a resistance $R$ to a $100 \, \text{V}$ mains as shown in Fig. 12.15. What should be the value of $R$ so that the heater operates with a power of $62.5 \, \text{W}$? [Indian Institute of Technology 1978]
+
+\begin{figure}[h]
+    \centering
+    % Placeholder for the figure
+    \fbox{\rule{0pt}{2in} \rule{0.9\linewidth}{0pt}}
+    \caption{Circuit diagram for the heater and resistances.}
+    \label{fig:heater_circuit}
+\end{figure}
+
+\section*{Solution}
+
+Given:
+\begin{align*}
+    P_{\text{heater}} &= 1000 \, \text{W}, \\
+    V_{\text{line}} &= 100 \, \text{V}, \\
+    R_1 &= 100 \, \Omega, \\
+    P_{\text{desired}} &= 62.5 \, \text{W}.
+\end{align*}
+
+The power consumed by the heater is given by:
+\[
+P = \frac{V^2}{R_{\text{total}}}
+\]
+
+For the heater to operate at $62.5 \, \text{W}$, we have:
+\[
+62.5 = \frac{100^2}{R_{\text{total}}}
+\]
+
+Solving for $R_{\text{total}}$:
+\[
+R_{\text{total}} = \frac{100^2}{62.5} = 160 \, \Omega
+\]
+
+The total resistance $R_{\text{total}}$ is the sum of the resistances in series:
+\[
+R_{\text{total}} = R_1 + R
+\]
+
+Substituting the known values:
+\[
+160 = 100 + R
+\]
+
+Solving for $R$:
+\[
+R = 160 - 100 = 60 \, \Omega
+\]
+
+Thus, the value of $R$ should be $60 \, \Omega$.
+
+\end{document}
+```
+
+This LaTeX document includes the problem statement, a placeholder for the figure, and a detailed solution with the necessary equations. Adjust the figure environment as needed to include the actual diagram."
+12.25,"To solve this problem, we need to set up equations based on the given conditions and solve for the number of wrongly connected cells. Here's the LaTeX code for the problem and its solution:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem}
+
+Twelve cells having the same emf are connected in series and are kept in a closed box. Some of the cells are wrongly connected. This battery is connected in series with an ammeter and two cells identical with others. The current is 3 A when the cells and the battery aid each other and is 2 A when the cells and the battery oppose each other. How many cells in the battery are wrongly connected? [Indian Institute of Technology 1976]
+
+\section*{Solution}
+
+Let the emf of each cell be \( E \) and the internal resistance of each cell be \( r \).
+
+\begin{itemize}
+    \item Let \( n \) be the number of cells wrongly connected.
+    \item The effective emf when all cells aid each other is \( (12 - 2n)E + 2E \).
+    \item The effective emf when the cells and the battery oppose each other is \( (12 - 2n)E - 2E \).
+\end{itemize}
+
+The total internal resistance of the battery is \( 14r \) (since there are 12 cells in the battery and 2 external cells).
+
+Using Ohm's Law \( V = IR \), we have:
+
+\begin{equation}
+    \frac{(12 - 2n)E + 2E}{14r} = 3 \quad \text{(when aiding)}
+\end{equation}
+
+\begin{equation}
+    \frac{(12 - 2n)E - 2E}{14r} = 2 \quad \text{(when opposing)}
+\end{equation}
+
+Solving these equations:
+
+\begin{align*}
+    (12 - 2n)E + 2E &= 42r \\
+    (12 - 2n)E - 2E &= 28r
+\end{align*}
+
+Subtract the second equation from the first:
+
+\begin{align*}
+    [(12 - 2n)E + 2E] - [(12 - 2n)E - 2E] &= 42r - 28r \\
+    4E &= 14r \\
+    E &= \frac{7r}{2}
+\end{align*}
+
+Substitute \( E = \frac{7r}{2} \) into one of the original equations:
+
+\begin{align*}
+    (12 - 2n)\left(\frac{7r}{2}\right) + 2\left(\frac{7r}{2}\right) &= 42r \\
+    (12 - 2n) \cdot \frac{7}{2} + 7 &= 42 \\
+    42 - 7n + 7 &= 42 \\
+    49 - 7n &= 42 \\
+    7 &= 7n \\
+    n &= 1
+\end{align*}
+
+Thus, the number of cells wrongly connected is \(\boxed{1}\).
+
+\end{document}
+```
+
+This LaTeX document includes the problem statement and a detailed solution using equations to find the number of wrongly connected cells."
+12.26,"To properly format the given physics problem in LaTeX, we can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Consider a configuration of cells arranged in a grid with $m$ rows, each containing $n$ cells in series. Each cell has an internal resistance $r$. We aim to show that the maximum current in the external resistance $R$ is achieved when $R = \frac{nr}{m}$.
+
+\section*{Solution}
+
+The total internal resistance of one row of $n$ cells in series is given by:
+\[
+R_{\text{internal, row}} = nr
+\]
+
+Since there are $m$ rows in parallel, the equivalent internal resistance $R_{\text{internal, total}}$ is:
+\[
+R_{\text{internal, total}} = \frac{nr}{m}
+\]
+
+The total resistance in the circuit, including the external resistance $R$, is:
+\[
+R_{\text{total}} = R + \frac{nr}{m}
+\]
+
+The current $I$ through the external resistance $R$ can be expressed using Ohm's Law:
+\[
+I = \frac{V}{R_{\text{total}}} = \frac{V}{R + \frac{nr}{m}}
+\]
+
+To maximize the current $I$, we differentiate $I$ with respect to $R$ and set the derivative equal to zero:
+\[
+\frac{dI}{dR} = \frac{d}{dR} \left( \frac{V}{R + \frac{nr}{m}} \right) = 0
+\]
+
+Solving this equation, we find that the maximum current occurs when:
+\[
+R = \frac{nr}{m}
+\]
+
+Thus, the maximum current in the external resistance $R$ is achieved when $R = \frac{nr}{m}$.
+
+\end{document}
+```
+
+This LaTeX code provides a structured and clear presentation of the problem and its solution, using mathematical expressions and logical steps to demonstrate the condition for maximum current."
+12.27,"To format the given physics problem in LaTeX, we need to clearly define the variables and equations involved. Here is the LaTeX code for the problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Two cells with the same electromotive force (emf) $\mathcal{E}$ and internal resistances $r_1$ and $r_2$ are connected in series to an external resistance $R$. Find the value of $R$ so that the potential difference across the first cell is zero.
+
+\section*{Solution}
+
+When the two cells are connected in series, the total emf of the system is $2\mathcal{E}$, and the total internal resistance is $r_1 + r_2$. The total resistance in the circuit is $R + r_1 + r_2$.
+
+The current $I$ flowing through the circuit can be calculated using Ohm's law:
+
+\[
+I = \frac{2\mathcal{E}}{R + r_1 + r_2}
+\]
+
+For the potential difference across the first cell to be zero, the voltage drop across its internal resistance $r_1$ must equal its emf $\mathcal{E}$. Thus, we have:
+
+\[
+\mathcal{E} = I \cdot r_1
+\]
+
+Substituting the expression for $I$, we get:
+
+\[
+\mathcal{E} = \frac{2\mathcal{E} \cdot r_1}{R + r_1 + r_2}
+\]
+
+Solving for $R$, we rearrange the equation:
+
+\[
+R + r_1 + r_2 = 2r_1
+\]
+
+\[
+R = 2r_1 - r_1 - r_2
+\]
+
+\[
+R = r_1 - r_2
+\]
+
+Thus, the value of $R$ that makes the potential difference across the first cell zero is:
+
+\[
+R = r_1 - r_2
+\]
+
+\end{document}
+```
+
+This code provides a structured explanation of the problem and solution, using LaTeX to format the equations and text appropriately."
+12.28,"To convert the given physics problem into properly formatted LaTeX, we can structure it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Physics Problem}
+
+A certain circuit consists of three resistors connected in parallel across 200 V mains. The rate of production of heat in them is in the ratio of 5:3:2, and together they generate heat at the rate of 1 kWh in 2 hours. Find the power used if the three resistances are connected in series across 248 V mains. [Northern Universities of UK]
+
+\section*{Solution}
+
+Given:
+\begin{itemize}
+    \item Voltage across parallel connection: \( V = 200 \, \text{V} \)
+    \item Heat generation ratio: \( 5:3:2 \)
+    \item Total heat generated: \( 1 \, \text{kWh in 2 hours} \)
+\end{itemize}
+
+First, calculate the total power generated in the parallel connection:
+\[
+\text{Total energy} = 1 \, \text{kWh} = 1000 \, \text{Wh}
+\]
+\[
+\text{Total power} = \frac{1000 \, \text{Wh}}{2 \, \text{h}} = 500 \, \text{W}
+\]
+
+Let the power dissipated in the resistors be \( P_1, P_2, \) and \( P_3 \) such that:
+\[
+P_1 : P_2 : P_3 = 5:3:2
+\]
+
+Thus, we have:
+\[
+P_1 = 5x, \quad P_2 = 3x, \quad P_3 = 2x
+\]
+\[
+5x + 3x + 2x = 500
+\]
+\[
+10x = 500 \implies x = 50
+\]
+
+Therefore, the individual powers are:
+\[
+P_1 = 250 \, \text{W}, \quad P_2 = 150 \, \text{W}, \quad P_3 = 100 \, \text{W}
+\]
+
+Now, find the resistances \( R_1, R_2, \) and \( R_3 \):
+\[
+P = \frac{V^2}{R} \implies R = \frac{V^2}{P}
+\]
+\[
+R_1 = \frac{200^2}{250} = 160 \, \Omega, \quad R_2 = \frac{200^2}{150} \approx 266.67 \, \Omega, \quad R_3 = \frac{200^2}{100} = 400 \, \Omega
+\]
+
+When connected in series across 248 V:
+\[
+R_{\text{total}} = R_1 + R_2 + R_3 = 160 + 266.67 + 400 = 826.67 \, \Omega
+\]
+
+The total power used in series connection:
+\[
+P_{\text{series}} = \frac{V^2}{R_{\text{total}}} = \frac{248^2}{826.67} \approx 74.4 \, \text{W}
+\]
+
+Thus, the power used when the resistors are connected in series across 248 V mains is approximately \( 74.4 \, \text{W} \).
+
+\end{document}
+```
+
+This LaTeX code provides a structured and clear presentation of the physics problem and its solution, using appropriate mathematical notation and formatting."
+12.29,"To convert the given physics text into properly formatted LaTeX, we need to clearly define the problem and provide the necessary equations. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\title{Physics Problem: Battery Charging}
+\author{Indian Institute of Technology 1980}
+\date{}
+\maketitle
+
+\section*{Problem}
+
+A battery of electromotive force $E = 2 \, \text{V}$ and internal resistance $r = 0.1 \, \Omega$ is being charged with a current of $I = 5 \, \text{A}$. In what direction will the current flow inside the battery? What is the potential difference between the two terminals of the battery?
+
+\section*{Solution}
+
+When a battery is being charged, the current flows into the positive terminal of the battery. Therefore, inside the battery, the current flows from the positive terminal to the negative terminal.
+
+To find the potential difference between the two terminals of the battery, we use the formula for the terminal voltage $V$ of a battery being charged:
+
+\[
+V = E + Ir
+\]
+
+where:
+\begin{align*}
+E & = 2 \, \text{V} \quad \text{(electromotive force)}, \\
+I & = 5 \, \text{A} \quad \text{(current)}, \\
+r & = 0.1 \, \Omega \quad \text{(internal resistance)}.
+\end{align*}
+
+Substituting the given values into the equation, we have:
+
+\[
+V = 2 \, \text{V} + (5 \, \text{A})(0.1 \, \Omega) = 2 \, \text{V} + 0.5 \, \text{V} = 2.5 \, \text{V}
+\]
+
+Thus, the potential difference between the two terminals of the battery is $2.5 \, \text{V}$.
+
+\end{document}
+```
+
+This LaTeX document includes a title, problem statement, and solution section. The solution provides the direction of current flow and calculates the potential difference using the given values."
+12.30,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\title{Physics Problem: Circuit Analysis}
+\author{University of Newcastle}
+\date{}
+\maketitle
+
+\section*{Problem Statement}
+
+A 6 V battery of negligible internal resistance is connected in series with a $3\,\Omega$ and a $5\,\Omega$ resistance. A further resistance of $2\,\Omega$ is connected in parallel with the $5\,\Omega$ resistance. 
+
+\begin{enumerate}
+    \item[(a)] Find the current flowing in each resistance.
+    \item[(b)] Find the power dissipated in each resistance.
+    \item[(c)] Compare the total value for the power dissipated in the resistances with the value for the power supplied by the battery.
+\end{enumerate}
+
+\section*{Solution}
+
+\subsection*{(a) Current in Each Resistance}
+
+First, calculate the equivalent resistance of the $5\,\Omega$ and $2\,\Omega$ resistors in parallel:
+
+\[
+R_{\text{parallel}} = \left(\frac{1}{5} + \frac{1}{2}\right)^{-1} = \left(\frac{2 + 5}{10}\right)^{-1} = \frac{10}{7}\,\Omega
+\]
+
+The total resistance in the circuit is then:
+
+\[
+R_{\text{total}} = 3\,\Omega + R_{\text{parallel}} = 3\,\Omega + \frac{10}{7}\,\Omega = \frac{31}{7}\,\Omega
+\]
+
+The total current supplied by the battery is:
+
+\[
+I_{\text{total}} = \frac{V}{R_{\text{total}}} = \frac{6\,\text{V}}{\frac{31}{7}\,\Omega} = \frac{42}{31}\,\text{A}
+\]
+
+The current through the $3\,\Omega$ resistor is the same as the total current:
+
+\[
+I_{3\Omega} = \frac{42}{31}\,\text{A}
+\]
+
+For the parallel resistors, the voltage across them is:
+
+\[
+V_{\text{parallel}} = I_{\text{total}} \times R_{\text{parallel}} = \frac{42}{31}\,\text{A} \times \frac{10}{7}\,\Omega = \frac{60}{31}\,\text{V}
+\]
+
+The current through the $5\,\Omega$ resistor is:
+
+\[
+I_{5\Omega} = \frac{V_{\text{parallel}}}{5\,\Omega} = \frac{60}{31}\,\text{V} \times \frac{1}{5}\,\Omega = \frac{12}{31}\,\text{A}
+\]
+
+The current through the $2\,\Omega$ resistor is:
+
+\[
+I_{2\Omega} = \frac{V_{\text{parallel}}}{2\,\Omega} = \frac{60}{31}\,\text{V} \times \frac{1}{2}\,\Omega = \frac{30}{31}\,\text{A}
+\]
+
+\subsection*{(b) Power Dissipated in Each Resistance}
+
+The power dissipated in the $3\,\Omega$ resistor is:
+
+\[
+P_{3\Omega} = I_{3\Omega}^2 \times 3\,\Omega = \left(\frac{42}{31}\right)^2 \times 3\,\Omega = \frac{1764}{961} \times 3\,\Omega = \frac{5292}{961}\,\text{W}
+\]
+
+The power dissipated in the $5\,\Omega$ resistor is:
+
+\[
+P_{5\Omega} = I_{5\Omega}^2 \times 5\,\Omega = \left(\frac{12}{31}\right)^2 \times 5\,\Omega = \frac{144}{961} \times 5\,\Omega = \frac{720}{961}\,\text{W}
+\]
+
+The power dissipated in the $2\,\Omega$ resistor is:
+
+\[
+P_{2\Omega} = I_{2\Omega}^2 \times 2\,\Omega = \left(\frac{30}{31}\right)^2 \times 2\,\Omega = \frac{900}{961} \times 2\,\Omega = \frac{1800}{961}\,\text{W}
+\]
+
+\subsection*{(c) Total Power Dissipated vs. Power Supplied}
+
+The total power dissipated in the resistances is:
+
+\[
+P_{\text"
+12.31,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Physics Problem: Internal Resistance of a Cell}
+\author{University of London}
+\date{}
+\maketitle
+
+\section*{Problem Statement}
+
+The terminals of a cell are connected to a resistance, and the fall of potential across $R$ is balanced against the fall across the potentiometer wire. When $R$ is $20 \, \Omega$ and $10 \, \Omega$, respectively, the corresponding lengths on the potentiometer are 150 cm and 120 cm. Calculate the internal resistance of the cell (Fig. 12.16).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig12_16.png} % Replace with actual image file
+    \caption{Schematic of the experimental setup}
+    \label{fig:12_16}
+\end{figure}
+
+\section*{Solution}
+
+Let $E$ be the electromotive force (emf) of the cell, $r$ be the internal resistance of the cell, and $l_1 = 150 \, \text{cm}$ and $l_2 = 120 \, \text{cm}$ be the lengths on the potentiometer wire for resistances $R_1 = 20 \, \Omega$ and $R_2 = 10 \, \Omega$, respectively.
+
+The potential difference across the potentiometer wire is proportional to the length of the wire balanced. Thus, we have:
+
+\[
+\frac{E}{R_1 + r} = k \cdot l_1
+\]
+
+\[
+\frac{E}{R_2 + r} = k \cdot l_2
+\]
+
+where $k$ is a constant of proportionality.
+
+Dividing the two equations, we get:
+
+\[
+\frac{R_2 + r}{R_1 + r} = \frac{l_2}{l_1}
+\]
+
+Substituting the given values:
+
+\[
+\frac{10 + r}{20 + r} = \frac{120}{150}
+\]
+
+Simplifying the right-hand side:
+
+\[
+\frac{10 + r}{20 + r} = \frac{4}{5}
+\]
+
+Cross-multiplying gives:
+
+\[
+5(10 + r) = 4(20 + r)
+\]
+
+Expanding both sides:
+
+\[
+50 + 5r = 80 + 4r
+\]
+
+Solving for $r$:
+
+\[
+5r - 4r = 80 - 50
+\]
+
+\[
+r = 30 \, \Omega
+\]
+
+Thus, the internal resistance of the cell is $\boxed{30 \, \Omega}$.
+
+\end{document}
+```
+
+This LaTeX code provides a structured and formatted solution to the problem, including the necessary equations and calculations to determine the internal resistance of the cell. Make sure to replace the placeholder image file name `fig12_16.png` with the actual file name if you have the figure available."
+12.32,"To convert the given physics problem into a properly formatted LaTeX document, we need to structure the text, equations, and any references to figures or diagrams. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Physics Problem: EMF Calculation}
+\author{Northern Universities of UK}
+\date{}
+
+\maketitle
+
+\section*{Problem Statement}
+
+A uniform wire of length \(50 \, \text{cm}\) and resistance \(1 \, \Omega\) is connected to the terminals of an accumulator with an electromotive force (emf) of \(2.2 \, \text{V}\) and an internal resistance of \(0.1 \, \Omega\) (see Fig. 12.17). If the terminals of another cell can be connected to two points \(26 \, \text{cm}\) apart on the wire without altering the current in the wire, what is the emf of the cell?
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig12_17.png} % Placeholder for the actual figure
+    \caption{Schematic of the wire and accumulator setup.}
+    \label{fig:12_17}
+\end{figure}
+
+\section*{Solution}
+
+Let's denote:
+\begin{itemize}
+    \item \(L = 50 \, \text{cm}\) as the total length of the wire.
+    \item \(R = 1 \, \Omega\) as the total resistance of the wire.
+    \item \(r = 0.1 \, \Omega\) as the internal resistance of the accumulator.
+    \item \(V = 2.2 \, \text{V}\) as the emf of the accumulator.
+    \item \(l = 26 \, \text{cm}\) as the length of the wire between the two points where the cell is connected.
+\end{itemize}
+
+The resistance of the wire segment between the two points is given by:
+\[
+R_{\text{segment}} = \frac{l}{L} \times R = \frac{26}{50} \times 1 \, \Omega = 0.52 \, \Omega
+\]
+
+The current \(I\) flowing through the circuit is given by Ohm's law:
+\[
+I = \frac{V}{R + r} = \frac{2.2}{1 + 0.1} = \frac{2.2}{1.1} = 2 \, \text{A}
+\]
+
+For the current in the wire to remain unchanged when the cell is connected, the potential difference across the \(26 \, \text{cm}\) segment must equal the emf of the cell. The potential difference across this segment is:
+\[
+V_{\text{segment}} = I \times R_{\text{segment}} = 2 \times 0.52 = 1.04 \, \text{V}
+\]
+
+Thus, the emf of the cell is:
+\[
+\boxed{1.04 \, \text{V}}
+\]
+
+\end{document}
+```
+
+This LaTeX document includes the problem statement, a figure placeholder, and a detailed solution with equations. Make sure to replace `fig12_17.png` with the actual path to your figure file if you have one."
+12.33,"To properly format the given physics text into LaTeX, we need to ensure that the equations and references are correctly structured. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+In a Wheatstone bridge, four resistors $P$, $Q$, $R$, and $S$ are arranged as in Fig. 12.18. Show that:
+
+\begin{enumerate}
+    \item[(a)] The condition for null deflection in the galvanometer $G$ is 
+    \begin{equation}
+        \frac{P}{Q} = \frac{R}{S}
+    \end{equation}
+
+    \item[(b)] If a non-zero current $i_g$ flows through the galvanometer, then 
+    \begin{equation}
+        \frac{i_g}{i} = \frac{QR - PS}{G(Q + S) + (P + R)(G + Q + S)}
+    \end{equation}
+\end{enumerate}
+
+\begin{center}
+    \textbf{Fig. 12.18}
+\end{center}
+
+\end{document}
+```
+
+This LaTeX code includes:
+
+- Proper mathematical formatting for equations using the `equation` environment.
+- Use of fractions to represent the ratios in the equations.
+- The use of `enumerate` to list the parts (a) and (b).
+- A placeholder for the figure reference, which you would replace with the actual figure in your document."
+12.34,"To convert the given text into properly formatted LaTeX, you would typically include a description of the problem, reference to the figure, and any necessary equations or expressions. Since the figure itself (Fig. 12.19) is not provided, I'll assume it is referenced correctly in the document. Here's how you might format the problem statement:
+
+```latex
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+Figure~\ref{fig:network} shows a network carrying various currents. Find the current through the ammeter \( A \).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure12_19.png} % Replace with actual file name
+    \caption{Network carrying various currents}
+    \label{fig:network}
+\end{figure}
+
+\section*{Solution}
+
+% Solution steps go here. For example:
+
+To find the current through the ammeter \( A \), we apply Kirchhoff's laws to the network. Assume the currents in the branches are \( I_1, I_2, \ldots, I_n \).
+
+\begin{itemize}
+    \item Apply Kirchhoff's Current Law (KCL) at the junctions.
+    \item Apply Kirchhoff's Voltage Law (KVL) around the loops.
+\end{itemize}
+
+% Example equations (replace with actual equations from the problem)
+\begin{align*}
+    I_1 + I_2 &= I_3, \\
+    V_1 - I_1R_1 - I_2R_2 &= 0, \\
+    V_2 - I_3R_3 &= 0.
+\end{align*}
+
+% Solve the system of equations to find the current through the ammeter \( A \).
+
+\end{document}
+```
+
+This template includes sections for the problem statement and solution, a placeholder for the figure, and a basic structure for solving the problem using Kirchhoff's laws. You would need to replace the placeholder text and equations with specific details from the actual problem and figure."
+12.35,"To solve this problem, we need to analyze the circuit configurations and apply Ohm's Law and the concept of internal resistance. Let's format the solution in LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+A galvanometer together with an unknown resistance in series is connected across two identical batteries, each of 1.5 V. When the batteries are connected in series, the galvanometer records a current of 1 A, and when the batteries are in parallel, the current is 0.6 A. What is the internal resistance of the battery? [Indian Institute of Technology 1973]
+
+\section*{Solution}
+
+Let \( R \) be the unknown resistance and \( r \) be the internal resistance of each battery.
+
+\subsection*{Case 1: Batteries in Series}
+
+When the batteries are connected in series, the total voltage is:
+\[
+V_{\text{series}} = 1.5\, \text{V} + 1.5\, \text{V} = 3\, \text{V}
+\]
+
+The total resistance in the circuit is \( R + 2r \). According to Ohm's Law:
+\[
+I_{\text{series}} = \frac{V_{\text{series}}}{R + 2r} = 1\, \text{A}
+\]
+
+Thus, we have:
+\[
+R + 2r = \frac{3\, \text{V}}{1\, \text{A}} = 3\, \Omega \quad \text{(Equation 1)}
+\]
+
+\subsection*{Case 2: Batteries in Parallel}
+
+When the batteries are connected in parallel, the total voltage remains 1.5 V. The equivalent internal resistance of the batteries is \( \frac{r}{2} \). The total resistance in the circuit is \( R + \frac{r}{2} \). According to Ohm's Law:
+\[
+I_{\text{parallel}} = \frac{V_{\text{parallel}}}{R + \frac{r}{2}} = 0.6\, \text{A}
+\]
+
+Thus, we have:
+\[
+R + \frac{r}{2} = \frac{1.5\, \text{V}}{0.6\, \text{A}} = 2.5\, \Omega \quad \text{(Equation 2)}
+\]
+
+\subsection*{Solving the Equations}
+
+From Equation 1:
+\[
+R + 2r = 3
+\]
+
+From Equation 2:
+\[
+R + \frac{r}{2} = 2.5
+\]
+
+Subtract Equation 2 from Equation 1:
+\[
+(R + 2r) - \left(R + \frac{r}{2}\right) = 3 - 2.5
+\]
+
+Simplifying gives:
+\[
+2r - \frac{r}{2} = 0.5
+\]
+
+\[
+\frac{4r - r}{2} = 0.5
+\]
+
+\[
+\frac{3r}{2} = 0.5
+\]
+
+\[
+3r = 1
+\]
+
+\[
+r = \frac{1}{3} \, \Omega
+\]
+
+Thus, the internal resistance of each battery is \( \frac{1}{3} \, \Omega \).
+
+\end{document}
+```
+
+This LaTeX document provides a structured solution to the problem, using equations and logical steps to find the internal resistance of the battery."
+12.36,"To format the given physics problem using LaTeX, we need to ensure that all symbols, units, and equations are properly formatted. Here is the LaTeX code for the problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+In a potentiometer experiment, it is found that no current passes through the galvanometer when the terminals of the cell are connected across 52 cm of the potentiometer wire. If the cell is shunted by a resistance of $5\,\Omega$, a balance is found when the cell is connected across 40 cm of the wire. Find the internal resistance of the cell.
+
+\section*{Solution}
+
+Let $E$ be the emf of the cell and $r$ be its internal resistance. When no current passes through the galvanometer, the potential difference across the 52 cm of the wire is equal to the emf of the cell:
+
+\[
+E = k \times 52
+\]
+
+where $k$ is the potential gradient along the wire.
+
+When the cell is shunted by a resistance of $5\,\Omega$, the balance point is at 40 cm. The potential difference across 40 cm of the wire is:
+
+\[
+V = k \times 40
+\]
+
+The current through the cell when shunted is given by:
+
+\[
+I = \frac{E}{r + 5}
+\]
+
+The potential difference across the shunt is also $V$, so:
+
+\[
+V = I \times 5 = \frac{E}{r + 5} \times 5
+\]
+
+Substituting $V = k \times 40$ and $E = k \times 52$, we get:
+
+\[
+k \times 40 = \frac{k \times 52}{r + 5} \times 5
+\]
+
+Simplifying, we find:
+
+\[
+40(r + 5) = 52 \times 5
+\]
+
+\[
+40r + 200 = 260
+\]
+
+\[
+40r = 60
+\]
+
+\[
+r = \frac{60}{40} = 1.5\,\Omega
+\]
+
+Thus, the internal resistance of the cell is $1.5\,\Omega$.
+
+\end{document}
+```
+
+This LaTeX code will produce a well-formatted document with the problem statement and the detailed solution, including the necessary equations and calculations."
+12.37,"To format the given physics problem in LaTeX, we need to ensure that all the mathematical symbols and units are correctly represented. Here's the LaTeX code for the problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+A potentiometer wire of length \SI{100}{\centi\meter} has a resistance of \SI{10}{\ohm}. It is connected in series with an external resistance $R$ and a cell of emf \SI{2}{\volt} with negligible internal resistance. A source of emf \SI{10}{\milli\volt} is balanced against a length of \SI{40}{\centi\meter} of the potentiometer wire. What is the value of the external resistance $R$? \textit{[Indian Institute of Technology 1976]}
+
+\end{document}
+```
+
+This LaTeX document uses the `siunitx` package to format units correctly and presents the problem in a clear and structured manner. Make sure to compile this with a LaTeX editor that supports the `siunitx` package."
+12.38,"To convert the given physics problem into properly formatted LaTeX, we will structure the text and equations clearly. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Problem}
+
+A potential difference of $220 \, \text{V}$ is maintained across a $12,000 \, \Omega$ rheostat $ab$ (see Fig. 12.20). The voltmeter $V$ has a resistance of $6000 \, \Omega$ and point $c$ is at one-fourth the distance from $a$ to $b$. What is the reading in the voltmeter? [Indian Institute of Technology 1977]
+
+\section*{Solution}
+
+To find the reading on the voltmeter, we need to determine the potential difference between point $c$ and point $b$. 
+
+Given:
+\begin{align*}
+    V_{\text{total}} &= 220 \, \text{V}, \\
+    R_{ab} &= 12,000 \, \Omega, \\
+    R_V &= 6,000 \, \Omega.
+\end{align*}
+
+Point $c$ is at one-fourth the distance from $a$ to $b$, so the resistance from $a$ to $c$ is:
+\[
+R_{ac} = \frac{1}{4} \times 12,000 \, \Omega = 3,000 \, \Omega.
+\]
+
+The resistance from $c$ to $b$ is:
+\[
+R_{cb} = R_{ab} - R_{ac} = 12,000 \, \Omega - 3,000 \, \Omega = 9,000 \, \Omega.
+\]
+
+The voltmeter is connected across $cb$, and its resistance is in parallel with $R_{cb}$. The equivalent resistance $R_{\text{eq}}$ of $R_{cb}$ and $R_V$ is given by:
+\[
+\frac{1}{R_{\text{eq}}} = \frac{1}{R_{cb}} + \frac{1}{R_V} = \frac{1}{9,000 \, \Omega} + \frac{1}{6,000 \, \Omega}.
+\]
+
+Calculating $R_{\text{eq}}$:
+\[
+R_{\text{eq}} = \left(\frac{1}{9,000} + \frac{1}{6,000}\right)^{-1} \Omega = \left(\frac{2}{18,000} + \frac{3}{18,000}\right)^{-1} \Omega = \left(\frac{5}{18,000}\right)^{-1} \Omega = \frac{18,000}{5} \, \Omega = 3,600 \, \Omega.
+\]
+
+The current $I$ through the circuit is:
+\[
+I = \frac{V_{\text{total}}}{R_{ab}} = \frac{220 \, \text{V}}{12,000 \, \Omega} = \frac{11}{600} \, \text{A}.
+\]
+
+The potential difference across $cb$ is:
+\[
+V_{cb} = I \times R_{\text{eq}} = \frac{11}{600} \, \text{A} \times 3,600 \, \Omega = 66 \, \text{V}.
+\]
+
+Therefore, the reading on the voltmeter is $66 \, \text{V}$.
+
+\end{document}
+```
+
+This LaTeX code includes the problem statement and a detailed solution with all necessary calculations and equations formatted appropriately."
+12.39,"To convert the given text into properly formatted LaTeX, we need to set up the problem statement and the equation for the meter bridge experiment. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Meter Bridge Experiment Problem}
+
+The balance point in a meter bridge experiment is obtained at 30 cm from the left. If the right-hand gap contains a resistance of \(3.5 \, \Omega\), what is the value of the resistance in the left-hand gap?
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Fig12_20.png} % Replace with actual figure file if available
+    \caption{Meter Bridge Setup}
+    \label{fig:meter_bridge}
+\end{figure}
+
+\subsection*{Solution}
+
+In a meter bridge experiment, the balance condition is given by the formula:
+
+\[
+\frac{R_1}{R_2} = \frac{l_1}{l_2}
+\]
+
+where \( R_1 \) is the resistance in the left-hand gap, \( R_2 = 3.5 \, \Omega \) is the resistance in the right-hand gap, \( l_1 = 30 \, \text{cm} \) is the length from the left to the balance point, and \( l_2 = 100 \, \text{cm} - l_1 = 70 \, \text{cm} \) is the length from the balance point to the right.
+
+Substituting the known values into the equation, we have:
+
+\[
+\frac{R_1}{3.5} = \frac{30}{70}
+\]
+
+Solving for \( R_1 \):
+
+\[
+R_1 = 3.5 \times \frac{30}{70}
+\]
+
+\[
+R_1 = 3.5 \times \frac{3}{7}
+\]
+
+\[
+R_1 = 1.5 \, \Omega
+\]
+
+Therefore, the resistance in the left-hand gap is \( 1.5 \, \Omega \).
+
+\end{document}
+```
+
+This LaTeX code sets up the problem statement, includes a placeholder for the figure (which you should replace with the actual image file if available), and provides a step-by-step solution to find the resistance in the left-hand gap using the meter bridge formula."
+12.40,"To properly format the given physics problem in LaTeX, we need to ensure that the text is clear and the symbols are correctly represented. Here is the formatted LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\title{Physics Problem: Measuring Current and Voltage}
+\author{University of Manchester}
+\date{}
+\maketitle
+
+\section*{Problem Statement}
+
+A moving coil meter has a full-scale reading of $1 \, \text{mA}$ and a resistance of $80 \, \Omega$. How could the meter be used to measure (a) $100 \, \text{mA}$ full scale and (b) $80 \, \text{V}$ full scale?
+
+\end{document}
+```
+
+This LaTeX document includes the necessary packages for mathematical symbols and provides a clear layout for the problem statement. The units are formatted using `\,` for proper spacing, and the text is organized for readability."
+12.41,"To convert the given text into properly formatted LaTeX, we need to structure the problem statement clearly and use appropriate LaTeX commands for symbols and equations. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\title{Physics Problem: Voltmeter Reading}
+\author{University of Oxford}
+\date{}
+\maketitle
+
+\section*{Problem Statement}
+
+A pocket voltmeter has a resistance of $120 \, \Omega$. What will it read when connected to a battery with an emf of $9 \, \text{V}$ and an internal resistance of $15 \, \Omega$?
+
+\section*{Solution}
+
+To find the reading of the voltmeter, we need to consider the circuit formed by the battery and the voltmeter. The total resistance in the circuit is the sum of the internal resistance of the battery and the resistance of the voltmeter:
+
+\[
+R_{\text{total}} = R_{\text{internal}} + R_{\text{voltmeter}} = 15 \, \Omega + 120 \, \Omega = 135 \, \Omega
+\]
+
+The current $I$ flowing through the circuit can be calculated using Ohm's Law:
+
+\[
+I = \frac{\text{emf}}{R_{\text{total}}} = \frac{9 \, \text{V}}{135 \, \Omega} = \frac{1}{15} \, \text{A}
+\]
+
+The voltage across the voltmeter, which is the reading of the voltmeter, is given by:
+
+\[
+V_{\text{voltmeter}} = I \times R_{\text{voltmeter}} = \left(\frac{1}{15} \, \text{A}\right) \times 120 \, \Omega = 8 \, \text{V}
+\]
+
+Therefore, the voltmeter will read $8 \, \text{V}$.
+
+\end{document}
+```
+
+This LaTeX code includes the problem statement and a detailed solution with the necessary equations and calculations. It uses basic LaTeX commands to structure the document and display the equations properly."
+12.42,"To solve this problem, we can use the concept of shunt resistance in parallel with a galvanometer. The key is to understand that the shunt resistance allows a certain percentage of the total current to bypass the galvanometer. Here's how you can format the solution in LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem}
+
+When a galvanometer is shunted with a $1/\Omega_1$ resistance, only 1\% of the main current passes through it. What is the resistance of the galvanometer?
+
+\section*{Solution}
+
+Let \( R_g \) be the resistance of the galvanometer, and \( R_s = \frac{1}{\Omega_1} \) be the shunt resistance. According to the problem, only 1\% of the total current \( I \) passes through the galvanometer, which means 99\% of the current passes through the shunt. 
+
+Using the current division rule, we have:
+\[
+\frac{I_g}{I} = \frac{R_s}{R_g + R_s}
+\]
+where \( I_g \) is the current through the galvanometer.
+
+Given that \( \frac{I_g}{I} = 0.01 \), we can write:
+\[
+0.01 = \frac{R_s}{R_g + R_s}
+\]
+
+Substituting \( R_s = \frac{1}{\Omega_1} \), we get:
+\[
+0.01 = \frac{\frac{1}{\Omega_1}}{R_g + \frac{1}{\Omega_1}}
+\]
+
+Solving for \( R_g \), we multiply both sides by \( R_g + \frac{1}{\Omega_1} \):
+\[
+0.01 (R_g + \frac{1}{\Omega_1}) = \frac{1}{\Omega_1}
+\]
+
+Expanding and simplifying:
+\[
+0.01 R_g + \frac{0.01}{\Omega_1} = \frac{1}{\Omega_1}
+\]
+
+Subtracting \( \frac{0.01}{\Omega_1} \) from both sides:
+\[
+0.01 R_g = \frac{1}{\Omega_1} - \frac{0.01}{\Omega_1}
+\]
+
+\[
+0.01 R_g = \frac{0.99}{\Omega_1}
+\]
+
+Finally, solving for \( R_g \):
+\[
+R_g = \frac{0.99}{0.01 \Omega_1} = \frac{99}{\Omega_1}
+\]
+
+Thus, the resistance of the galvanometer is \( \frac{99}{\Omega_1} \).
+
+\end{document}
+```
+
+This LaTeX document provides a clear and structured solution to the problem, using the current division rule and algebraic manipulation to find the resistance of the galvanometer."
+12.43,"To properly format the given physics problem in LaTeX, we need to ensure that all the mathematical symbols and units are correctly represented. Below is the LaTeX code for the problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Physics Problem: Battery Current and Energy Expenditure}
+\author{University of Cambridge}
+\date{}
+
+\maketitle
+
+\section*{Problem Statement}
+
+A 10 V battery, having an internal resistance of $1.0 \, \Omega$, is joined in parallel with another battery of 20 V and internal resistance of $2 \, \Omega$. Calculate the current flowing through each battery, and the rates of expenditure of energy in the two batteries and the $30 \, \Omega$ resistance (see Fig. 12.21).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig12_21.png} % Placeholder for the actual figure
+    \caption{Circuit diagram for the problem}
+    \label{fig:12_21}
+\end{figure}
+
+\section*{Solution}
+
+To solve this problem, we need to apply Kirchhoff's laws and Ohm's law. Let's denote the current through the 10 V battery as $I_1$ and the current through the 20 V battery as $I_2$.
+
+Using Kirchhoff's loop rule for the parallel circuit, we have:
+
+\begin{align}
+    10 - I_1 \cdot 1 - I \cdot 30 &= 0, \\
+    20 - I_2 \cdot 2 - I \cdot 30 &= 0,
+\end{align}
+
+where $I$ is the total current through the $30 \, \Omega$ resistor.
+
+Solving these equations will give us the values of $I_1$, $I_2$, and $I$. The rate of energy expenditure (power) in each battery and the resistor can be calculated using the formula:
+
+\begin{equation}
+    P = I^2 \cdot R,
+\end{equation}
+
+where $P$ is the power, $I$ is the current, and $R$ is the resistance.
+
+\end{document}
+```
+
+This LaTeX code provides a structured format for the problem statement, including the necessary equations and placeholders for the solution. You can replace the placeholder image path with the actual path to the figure if available."
+12.44,"To solve the problem and format it in LaTeX, we need to find the currents in the circuit. Here's how you can present the problem and its solution using LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+A battery of electromotive force (emf) $E_1 = 1 \, \text{V}$ and internal resistance $r_1 = 2 \, \Omega$ is connected in parallel to another battery of emf $E_2 = 2 \, \text{V}$ and internal resistance $r_2 = 1 \, \Omega$. This combination is connected to an external resistance $R = 10 \, \Omega$. Find the currents in the circuit.
+
+\section*{Solution}
+
+To solve for the currents, we first need to determine the equivalent resistance of the internal resistances in parallel with the external resistance. The total resistance $R_{\text{total}}$ is given by:
+
+\[
+\frac{1}{R_{\text{total}}} = \frac{1}{r_1} + \frac{1}{r_2} + \frac{1}{R}
+\]
+
+Substituting the given values:
+
+\[
+\frac{1}{R_{\text{total}}} = \frac{1}{2} + \frac{1}{1} + \frac{1}{10}
+\]
+
+\[
+\frac{1}{R_{\text{total}}} = \frac{1}{2} + 1 + \frac{1}{10} = \frac{5}{10} + \frac{10}{10} + \frac{1}{10} = \frac{16}{10}
+\]
+
+\[
+R_{\text{total}} = \frac{10}{16} = \frac{5}{8} \, \Omega
+\]
+
+Next, we apply Kirchhoff's loop rule to find the current $I$ through the circuit. The total emf in the circuit is the sum of the emfs since they are in parallel:
+
+\[
+E_{\text{total}} = E_1 + E_2 = 1 \, \text{V} + 2 \, \text{V} = 3 \, \text{V}
+\]
+
+Using Ohm's Law, the total current $I$ is:
+
+\[
+I = \frac{E_{\text{total}}}{R_{\text{total}}} = \frac{3}{\frac{5}{8}} = \frac{3 \times 8}{5} = \frac{24}{5} = 4.8 \, \text{A}
+\]
+
+Thus, the current in the circuit is $4.8 \, \text{A}$.
+
+\end{document}
+```
+
+This LaTeX document provides a clear and structured solution to the problem, using the appropriate physics and mathematical principles."
+12.45,"To solve this problem, we need to use the concept of resistances in parallel and the relationship between resistance, length, and diameter of the wires. Here's the LaTeX formatted solution:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem}
+The electric current of 5 A is divided into three branches, forming a parallel combination. The lengths of the wire in the three branches are in the ratio 2, 3, and 4; the diameters are in the ratio 3, 4, and 5. Find the current in each branch, if the wires are of the same material. [Indian Institute of Technology 1975]
+
+\section*{Solution}
+
+Given:
+\begin{itemize}
+    \item Total current, $I = 5 \, \text{A}$
+    \item Lengths ratio: $L_1 : L_2 : L_3 = 2 : 3 : 4$
+    \item Diameters ratio: $d_1 : d_2 : d_3 = 3 : 4 : 5$
+\end{itemize}
+
+Since the wires are of the same material, the resistance $R$ of a wire is given by:
+\[
+R = \rho \frac{L}{A}
+\]
+where $\rho$ is the resistivity, $L$ is the length, and $A$ is the cross-sectional area. The area $A$ is related to the diameter $d$ by $A = \frac{\pi d^2}{4}$.
+
+Thus, the resistance can be expressed as:
+\[
+R \propto \frac{L}{d^2}
+\]
+
+Let the resistances be $R_1$, $R_2$, and $R_3$. Then:
+\[
+R_1 : R_2 : R_3 = \frac{L_1}{d_1^2} : \frac{L_2}{d_2^2} : \frac{L_3}{d_3^2} = \frac{2}{3^2} : \frac{3}{4^2} : \frac{4}{5^2}
+\]
+
+Calculating each term:
+\[
+R_1 = \frac{2}{9}, \quad R_2 = \frac{3}{16}, \quad R_3 = \frac{4}{25}
+\]
+
+To find the currents $I_1$, $I_2$, and $I_3$ in each branch, we use the formula for parallel resistances:
+\[
+\frac{1}{R_{\text{eq}}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}
+\]
+
+The current in each branch is inversely proportional to the resistance:
+\[
+I_1 = \frac{I}{R_1} \cdot \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}}, \quad I_2 = \frac{I}{R_2} \cdot \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}}, \quad I_3 = \frac{I}{R_3} \cdot \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}}
+\]
+
+Calculating the equivalent resistance:
+\[
+\frac{1}{R_{\text{eq}}} = \frac{9}{2} + \frac{16}{3} + \frac{25}{4}
+\]
+
+Finding a common denominator and solving:
+\[
+\frac{1}{R_{\text{eq}}} = \frac{54}{12} + \frac{64}{12} + \frac{75}{12} = \frac{193}{12}
+\]
+
+Thus, $R_{\text{eq}} = \frac{12}{193}$.
+
+Now, calculate the currents:
+\[
+I_1 = 5 \times \frac{\frac{9}{2}}{\frac{193}{12}}, \quad I_2 = 5 \times \frac{\frac{16}{3}}{\frac{193}{12}}, \quad I_3 = 5 \times \frac{\frac{25}{4}}{\frac{193}{12}}
+\]
+
+Simplifying each:
+\[
+I_1 = 5 \times \frac{54}{193}, \quad I_2 = "
+12.46,"To format the given physics problem into LaTeX, we need to structure the text clearly, define the circuit components, and use appropriate symbols for the resistances and voltages. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{circuitikz}
+
+\begin{document}
+
+\section*{Problem}
+
+Calculate the current through the $3\,\Omega$ resistor and the power dissipated in the entire circuit shown in Fig. 12.22. The electromotive force (emf) of the battery is $1.8\,\text{V}$ and its internal resistance is $\frac{2}{3}\,\Omega$. [Indian Institute of Technology 1971]
+
+\begin{figure}[h]
+    \centering
+    \begin{circuitikz}
+        \draw
+        (0,0) to[battery, l=$1.8\,\text{V}$] (0,4)
+        to[R=$\frac{2}{3}\,\Omega$] (4,4)
+        to[R=$3\,\Omega$] (4,0)
+        -- (0,0);
+    \end{circuitikz}
+    \caption{Circuit Diagram}
+    \label{fig:circuit}
+\end{figure}
+
+\section*{Solution}
+
+To find the current through the $3\,\Omega$ resistor, we first calculate the total resistance in the circuit. The total resistance $R_{\text{total}}$ is the sum of the internal resistance of the battery and the resistance of the $3\,\Omega$ resistor:
+
+\[
+R_{\text{total}} = \frac{2}{3}\,\Omega + 3\,\Omega = \frac{11}{3}\,\Omega
+\]
+
+Using Ohm's Law, the current $I$ through the circuit is given by:
+
+\[
+I = \frac{V}{R_{\text{total}}} = \frac{1.8\,\text{V}}{\frac{11}{3}\,\Omega} = \frac{1.8 \times 3}{11}\,\text{A} = \frac{5.4}{11}\,\text{A} \approx 0.491\,\text{A}
+\]
+
+Next, we calculate the power dissipated in the entire circuit. The power $P$ is given by:
+
+\[
+P = I^2 \times R_{\text{total}} = \left(\frac{5.4}{11}\right)^2 \times \frac{11}{3}\,\Omega
+\]
+
+Simplifying, we have:
+
+\[
+P = \frac{5.4^2}{11^2} \times \frac{11}{3} = \frac{29.16}{121} \times \frac{11}{3} = \frac{29.16 \times 11}{363} = \frac{320.76}{363} \approx 0.884\,\text{W}
+\]
+
+Thus, the current through the $3\,\Omega$ resistor is approximately $0.491\,\text{A}$, and the power dissipated in the entire circuit is approximately $0.884\,\text{W}$.
+
+\end{document}
+```
+
+This LaTeX code includes the problem statement, a circuit diagram using the `circuitikz` package, and a detailed solution with calculations for the current and power. Make sure you have the `circuitikz` package installed to render the circuit diagram."
+12.47,"To convert the given physics text into properly formatted LaTeX, we will structure the problem statement clearly and use appropriate LaTeX commands for symbols and formatting. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\title{Physics Problem: Series Circuit with Cells and Coils}
+\author{University of London}
+\date{}
+\maketitle
+
+\textbf{Problem:}
+
+A series circuit is made up of two cells of electromotive force (emf) $1.5 \, \text{V}$ and $3 \, \text{V}$, respectively, and two coils each of resistance $10 \, \Omega$, arranged in the order: cell, coil, cell, coil. The center points of the two coils are joined by a sensitive galvanometer which shows no deflection. If the cell of $1.5 \, \text{V}$ has an internal resistance of $5 \, \Omega$, calculate the internal resistance of the other cell.
+
+\textbf{Solution:}
+
+Given:
+\begin{itemize}
+    \item Emf of first cell, $E_1 = 1.5 \, \text{V}$
+    \item Internal resistance of first cell, $r_1 = 5 \, \Omega$
+    \item Emf of second cell, $E_2 = 3 \, \text{V}$
+    \item Resistance of each coil, $R = 10 \, \Omega$
+\end{itemize}
+
+Since the galvanometer shows no deflection, the potential difference across both coils must be equal. Therefore, the potential drop across the first coil due to the first cell must equal the potential drop across the second coil due to the second cell.
+
+For the first cell and coil:
+\[
+V_1 = \frac{E_1}{R + r_1} \times R
+\]
+
+For the second cell and coil:
+\[
+V_2 = \frac{E_2}{R + r_2} \times R
+\]
+
+Setting $V_1 = V_2$, we have:
+\[
+\frac{E_1}{R + r_1} \times R = \frac{E_2}{R + r_2} \times R
+\]
+
+Canceling $R$ from both sides, we get:
+\[
+\frac{E_1}{R + r_1} = \frac{E_2}{R + r_2}
+\]
+
+Substitute the known values:
+\[
+\frac{1.5}{10 + 5} = \frac{3}{10 + r_2}
+\]
+
+Solving for $r_2$:
+\[
+\frac{1.5}{15} = \frac{3}{10 + r_2}
+\]
+
+Cross-multiplying gives:
+\[
+1.5 \times (10 + r_2) = 3 \times 15
+\]
+
+\[
+15 + 1.5r_2 = 45
+\]
+
+\[
+1.5r_2 = 45 - 15
+\]
+
+\[
+1.5r_2 = 30
+\]
+
+\[
+r_2 = \frac{30}{1.5}
+\]
+
+\[
+r_2 = 20 \, \Omega
+\]
+
+Thus, the internal resistance of the second cell is $20 \, \Omega$.
+
+\end{document}
+```
+
+This LaTeX document includes the problem statement, given data, and a step-by-step solution using equations and proper formatting for clarity."
+12.48,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+\subsection*{(a) Analysis of the Series-Parallel Resistive Circuit}
+
+Figure 12.23 shows a series-parallel resistive circuit connected to a 320 V DC supply. For the circuit shown, work out the following:
+
+\begin{enumerate}
+    \item[(i)] The total equivalent resistance $R_T$ of the circuit and the total current $I_T$.
+    \item[(ii)] The voltage $V_{p1}$ across resistors $R_1$ and $R_2$.
+    \item[(iii)] The voltage $V_{p2}$ across resistors $R_3$ and $R_4$.
+    \item[(iv)] The currents $I_1$ and $I_3$.
+    \item[(v)] The total power for the whole circuit and the power dissipated in resistor $R_3$.
+\end{enumerate}
+
+\subsection*{(b) Short Circuit Analysis of a Heavy Duty Battery}
+
+Consider the case of a heavy-duty battery whose electromotive force $\xi = 24 \, \text{V}$ and internal resistance $r = 0.01 \, \Omega$. If the terminals were accidentally short-circuited by a heavy copper bar of negligible resistance, what power would be dissipated within the battery?
+
+\begin{flushright}
+[University of Aberystwyth, Wales 2005]
+\end{flushright}
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{figure12_23.png} % Replace with the actual path to the figure
+\end{center}
+
+\end{document}
+```
+
+This LaTeX code provides a structured format for the given physics problem, including sections for each part of the problem and placeholders for the figure. Make sure to replace `figure12_23.png` with the actual path to your figure file."
+12.49,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\section*{Physics Problem and Solution}
+
+A battery with electromotive force (emf) $\mathcal{E} = 24 \, \text{V}$ has an internal resistance $r = 0.02 \, \Omega$. A load resistor $R = 140 \, \Omega$ is connected to the terminals of the battery. 
+
+\begin{enumerate}
+    \item[(i)] \textbf{Find the current flowing in the circuit under load conditions.}
+
+    The total resistance in the circuit is the sum of the internal resistance and the load resistance:
+    \[
+    R_{\text{total}} = r + R = 0.02 \, \Omega + 140 \, \Omega = 140.02 \, \Omega
+    \]
+
+    Using Ohm's Law, the current $I$ flowing through the circuit is given by:
+    \[
+    I = \frac{\mathcal{E}}{R_{\text{total}}} = \frac{24 \, \text{V}}{140.02 \, \Omega} \approx 0.1714 \, \text{A}
+    \]
+
+    \item[(ii)] \textbf{Find the terminal voltage of the battery under load conditions.}
+
+    The terminal voltage $V_{\text{terminal}}$ is given by:
+    \[
+    V_{\text{terminal}} = \mathcal{E} - I \cdot r = 24 \, \text{V} - (0.1714 \, \text{A} \times 0.02 \, \Omega) \approx 23.9966 \, \text{V}
+    \]
+
+    \item[(iii)] \textbf{Find the power dissipated in the resistor $R$ and in the battery's internal resistance $r$.}
+
+    The power dissipated in the load resistor $R$ is:
+    \[
+    P_R = I^2 \cdot R = (0.1714 \, \text{A})^2 \times 140 \, \Omega \approx 4.114 \, \text{W}
+    \]
+
+    The power dissipated in the internal resistance $r$ is:
+    \[
+    P_r = I^2 \cdot r = (0.1714 \, \text{A})^2 \times 0.02 \, \Omega \approx 0.000588 \, \text{W}
+    \]
+
+    \item[(iv)] \textbf{Find the open circuit voltage of the battery under no load conditions and explain your answer.}
+
+    The open circuit voltage of the battery is equal to the emf of the battery, as there is no current flowing through the internal resistance. Therefore, the open circuit voltage is:
+    \[
+    V_{\text{open}} = \mathcal{E} = 24 \, \text{V}
+    \]
+
+    This is because, under no load conditions, the internal resistance does not drop any voltage since the current is zero.
+
+\end{enumerate}
+
+\end{document}
+```"
+12.50,"To format the given physics problem using LaTeX, we will structure it with sections for clarity and use appropriate mathematical symbols and environments. Here's how you can present it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{circuitikz}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Physics Problem: Series-Parallel Resistive Circuit}
+\author{}
+\date{}
+\maketitle
+
+\section*{Problem Statement}
+
+Figure 12.24 shows a series-parallel resistive circuit connected to a DC supply. Solve the following:
+
+\begin{enumerate}
+    \item Find the total equivalent resistance of the circuit.
+    \item Find currents $I_T$, $I_1$, and $I_3$.
+    \item Find voltages $V_1$, $V_2$, and $V_3$.
+    \item Find power dissipated in resistor $R_5$ and the total power dissipated in the circuit.
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure12_24.png} % Replace with actual figure file
+    \caption{Series-Parallel Resistive Circuit}
+    \label{fig:circuit}
+\end{figure}
+
+\section*{Solution}
+
+\subsection*{(i) Total Equivalent Resistance}
+
+To find the total equivalent resistance $R_{\text{eq}}$, we first identify the series and parallel combinations in the circuit.
+
+\begin{align*}
+    R_{\text{eq}} &= \text{(Expression for total equivalent resistance)}
+\end{align*}
+
+\subsection*{(ii) Currents $I_T$, $I_1$, and $I_3$}
+
+Using Ohm's Law and Kirchhoff's Laws, we calculate the currents in the circuit.
+
+\begin{align*}
+    I_T &= \frac{V_{\text{total}}}{R_{\text{eq}}} \\
+    I_1 &= \text{(Expression for } I_1\text{)} \\
+    I_3 &= \text{(Expression for } I_3\text{)}
+\end{align*}
+
+\subsection*{(iii) Voltages $V_1$, $V_2$, and $V_3$}
+
+Calculate the voltages across the resistors using Ohm's Law.
+
+\begin{align*}
+    V_1 &= I_1 \cdot R_1 \\
+    V_2 &= I_2 \cdot R_2 \\
+    V_3 &= I_3 \cdot R_3
+\end{align*}
+
+\subsection*{(iv) Power Dissipation}
+
+Calculate the power dissipated in resistor $R_5$ and the total power dissipated in the circuit.
+
+\begin{align*}
+    P_{R_5} &= I_5^2 \cdot R_5 \\
+    P_{\text{total}} &= I_T^2 \cdot R_{\text{eq}}
+\end{align*}
+
+\end{document}
+```
+
+Ensure you replace the placeholder text and expressions with the actual values and calculations specific to your circuit. The figure should be included in the document directory and referenced correctly. If you have specific values or a diagram for Figure 12.24, you can update the LaTeX code accordingly."
+12.51,"To apply Kirchhoff's rules to a circuit, we typically use Kirchhoff's Current Law (KCL) and Kirchhoff's Voltage Law (KVL). Without the specific details of Fig. 12.25, I'll provide a general template for how you might write the equations in LaTeX. You can adjust the equations based on the actual circuit details.
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Application of Kirchhoff's Rules}
+
+To apply Kirchhoff's rules to the circuit shown in Fig. 12.25, we will derive three equations for the three unknown branch currents, \(I_1\), \(I_2\), and \(I_3\).
+
+\subsection*{Kirchhoff's Current Law (KCL)}
+
+At a junction, the sum of currents entering the junction is equal to the sum of currents leaving the junction. Assuming a junction where currents \(I_1\), \(I_2\), and \(I_3\) meet, we have:
+\[
+I_1 = I_2 + I_3
+\]
+
+\subsection*{Kirchhoff's Voltage Law (KVL)}
+
+For a closed loop in the circuit, the sum of the electromotive forces (emf) is equal to the sum of the potential drops (voltage drops). Assuming two loops in the circuit, we can write:
+
+\paragraph{Loop 1:}
+\[
+E_1 - R_1 I_1 - R_2 I_2 = 0
+\]
+
+\paragraph{Loop 2:}
+\[
+E_2 - R_3 I_3 - R_2 I_2 = 0
+\]
+
+\subsection*{Summary of Equations}
+
+The three equations derived from Kirchhoff's rules are:
+\begin{align*}
+1. & \quad I_1 = I_2 + I_3 \\
+2. & \quad E_1 - R_1 I_1 - R_2 I_2 = 0 \\
+3. & \quad E_2 - R_3 I_3 - R_2 I_2 = 0
+\end{align*}
+
+These equations can be solved to find the values of the branch currents \(I_1\), \(I_2\), and \(I_3\).
+
+\end{document}
+```
+
+This template assumes a simple circuit with two loops and a junction, involving resistors \(R_1\), \(R_2\), \(R_3\) and electromotive forces \(E_1\), \(E_2\). You should adjust the resistances, emfs, and loop equations according to the actual circuit in Fig. 12.25."
+12.52,"To format the given physics text into LaTeX, we will structure it into sections and use appropriate LaTeX commands for equations and text. Since there is a reference to a figure (Fig. 12.26), I'll include a placeholder for it. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section*{Kirchhoff's Rules}
+
+\begin{enumerate}
+    \item \textbf{Kirchhoff's Current Law (KCL):} The sum of currents entering a junction equals the sum of currents leaving the junction. Mathematically, this can be expressed as:
+    \[
+    \sum I_{\text{in}} = \sum I_{\text{out}}
+    \]
+
+    \item \textbf{Kirchhoff's Voltage Law (KVL):} The sum of the electromotive forces (emfs) and potential differences (voltage drops) around any closed loop in a circuit is zero. This can be written as:
+    \[
+    \sum \mathcal{E} - \sum IR = 0
+    \]
+\end{enumerate}
+
+\section*{Application of Kirchhoff's Rules}
+
+Consider the circuit shown in Fig. 12.26. We apply Kirchhoff's rules to obtain the following three equations for the unknown branch currents \(I_1\), \(I_2\), and \(I_3\):
+
+\begin{enumerate}
+    \item Applying KCL at junction \(A\):
+    \[
+    I_1 = I_2 + I_3
+    \]
+
+    \item Applying KVL to loop 1 (assuming clockwise direction):
+    \[
+    \mathcal{E}_1 - I_1 R_1 - I_2 R_2 = 0
+    \]
+
+    \item Applying KVL to loop 2 (assuming clockwise direction):
+    \[
+    \mathcal{E}_2 - I_3 R_3 - I_2 R_2 = 0
+    \]
+\end{enumerate}
+
+% Placeholder for the figure
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{circuit_diagram.png}
+    \caption{Circuit diagram for Fig. 12.26}
+    \label{fig:circuit}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes sections for Kirchhoff's rules, applies them to a hypothetical circuit, and provides a placeholder for a figure. Ensure that the actual figure is included in your LaTeX document by replacing `""circuit_diagram.png""` with the correct file name and path."
+12.53,"To properly format the given physics problem in LaTeX, we will structure it with equations, circuit descriptions, and references to the figure. Here's how you can present it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Analysis of a Series-Parallel Resistive Circuit}
+\author{}
+\date{}
+\maketitle
+
+\section*{Problem Statement}
+
+Figure 12.27 shows a series-parallel resistive circuit connected to a DC supply. For the circuit shown, work out the following:
+
+\begin{enumerate}
+    \item The voltages $V_1$ and $V_2$ across resistors $R_1$ and $R_2$.
+    \item The voltage $V_p$ across resistors $R_3$ and $R_4$.
+    \item The currents $I_T$, $I_2$, and $I_3$.
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Figure12_27.png}
+    \caption{Series-Parallel Resistive Circuit}
+    \label{fig:12_27}
+\end{figure}
+
+\section*{Solution}
+
+To solve this problem, we will apply Ohm's Law and the rules for series and parallel circuits.
+
+\subsection*{(i) Voltages $V_1$ and $V_2$}
+
+Assuming the total voltage supplied by the DC source is $V_S$, the voltage across $R_1$ and $R_2$ can be calculated using the voltage division rule:
+
+\[
+V_1 = \frac{R_1}{R_1 + R_2} \cdot V_S
+\]
+
+\[
+V_2 = \frac{R_2}{R_1 + R_2} \cdot V_S
+\]
+
+\subsection*{(ii) Voltage $V_p$}
+
+Resistors $R_3$ and $R_4$ are in parallel, so the voltage across them is the same:
+
+\[
+V_p = V_1
+\]
+
+\subsection*{(iii) Currents $I_T$, $I_2$, and $I_3$}
+
+The total current $I_T$ supplied by the source is:
+
+\[
+I_T = \frac{V_S}{R_{\text{total}}}
+\]
+
+where $R_{\text{total}}$ is the equivalent resistance of the circuit.
+
+The current $I_2$ through $R_2$ is:
+
+\[
+I_2 = \frac{V_2}{R_2}
+\]
+
+The current $I_3$ through $R_3$ and $R_4$ (in parallel) is:
+
+\[
+I_3 = \frac{V_p}{R_3} = \frac{V_p}{R_4}
+\]
+
+\end{document}
+```
+
+Make sure to replace `Figure12_27.png` with the actual image file name of the circuit diagram if you have it. This LaTeX code provides a structured approach to solving the problem, including equations and references to the figure."
+12.54,"To convert the given text into properly formatted LaTeX, we need to create a document that includes Kirchhoff's rules applied to a hypothetical circuit. Since we don't have the actual figure, I'll assume a generic circuit with three loops and three unknown branch currents \(I_1\), \(I_2\), and \(I_3\). Here is how you can format it in LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\title{Application of Kirchhoff's Rules}
+\author{University of Aberystwyth, Wales 2006}
+\date{}
+\maketitle
+
+\section*{Problem Statement}
+
+Apply Kirchhoff’s rules to the circuit shown in Fig. 12.28 to produce three equations with three unknown branch currents. You do not have to solve these equations for individual currents \(I\).
+
+\section*{Solution}
+
+Assume a circuit with three loops and three branch currents \(I_1\), \(I_2\), and \(I_3\). According to Kirchhoff's rules, we have:
+
+\begin{itemize}
+    \item \textbf{Kirchhoff's Current Law (KCL):} At any junction, the sum of currents entering the junction equals the sum of currents leaving the junction.
+    \item \textbf{Kirchhoff's Voltage Law (KVL):} The sum of the electromotive forces (emf) and potential differences (voltage drops) in any closed loop is zero.
+\end{itemize}
+
+Assuming the circuit has the following components and voltages:
+\begin{itemize}
+    \item \(R_1, R_2, R_3\) are the resistances in the circuit.
+    \item \(E_1, E_2\) are the electromotive forces (batteries) in the circuit.
+\end{itemize}
+
+The equations based on Kirchhoff's rules are:
+
+\begin{align}
+    \text{Loop 1:} \quad & E_1 - I_1 R_1 - I_2 R_2 = 0, \\
+    \text{Loop 2:} \quad & I_2 R_2 - I_3 R_3 - E_2 = 0, \\
+    \text{Junction:} \quad & I_1 = I_2 + I_3.
+\end{align}
+
+These equations represent the application of Kirchhoff's rules to the circuit in Fig. 12.28. The unknowns \(I_1\), \(I_2\), and \(I_3\) can be solved using these equations.
+
+\end{document}
+```
+
+This LaTeX document sets up the problem and applies Kirchhoff's rules to produce three equations with three unknowns. Adjust the components and values according to the actual circuit depicted in Fig. 12.28 if available."
+12.55,"To apply Kirchhoff's rules to a circuit, we need to write down the Kirchhoff's loop and junction equations based on the given circuit diagram (Fig. 12.29). Since I don't have the specific details of the circuit diagram, I'll provide a general template for writing these equations. You can adjust the variables and coefficients according to your specific circuit.
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{circuitikz}
+
+\begin{document}
+
+\section*{Applying Kirchhoff's Rules}
+
+To analyze the circuit shown in Fig. 12.29 using Kirchhoff's rules, we write down the equations for the loops and junctions. Assume the circuit has three branches with currents \(I_1\), \(I_2\), and \(I_3\). The resistances in the branches are \(R_1\), \(R_2\), and \(R_3\), and the electromotive forces (emf) are \(E_1\) and \(E_2\).
+
+\subsection*{Junction Rule}
+At a junction, the sum of currents entering the junction equals the sum of currents leaving the junction. Assuming the currents \(I_1\), \(I_2\), and \(I_3\) meet at a junction, we have:
+\[
+I_1 = I_2 + I_3
+\]
+
+\subsection*{Loop Rules}
+For Loop 1, which includes \(E_1\), \(R_1\), and \(R_2\):
+\[
+E_1 - I_1 R_1 - I_2 R_2 = 0
+\]
+
+For Loop 2, which includes \(E_2\), \(R_2\), and \(R_3\):
+\[
+E_2 - I_2 R_2 - I_3 R_3 = 0
+\]
+
+For Loop 3, which includes \(E_1\), \(E_2\), \(R_1\), and \(R_3\):
+\[
+E_1 - E_2 - I_1 R_1 + I_3 R_3 = 0
+\]
+
+These equations can be solved simultaneously to find the values of the currents \(I_1\), \(I_2\), and \(I_3\).
+
+\end{document}
+```
+
+This LaTeX code provides a framework for writing Kirchhoff's equations. You should replace \(R_1\), \(R_2\), \(R_3\), \(E_1\), and \(E_2\) with the actual values or symbols from your circuit diagram in Fig. 12.29. Adjust the equations according to the specific components and their arrangement in your circuit."
+12.56,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Physics Problem: Circuit Analysis}
+\author{Indian Institute of Technology 1973}
+\date{}
+\maketitle
+
+In the circuit shown in Fig. 12.30, the cells $E_1$ and $E_2$ have electromotive forces (emfs) of 4 V and 8 V, and internal resistances of 0.5 $\Omega$ and 1 $\Omega$, respectively. Calculate the current in each resistor and the potential difference across each cell.
+
+\section{Resistance, EMF, Current, Power}
+
+\subsection{Resistance Calculation}
+
+In the segment ACD, the two 3 $\Omega$ resistances give a total resistance of 6 $\Omega$, which in parallel with another 6 $\Omega$ yields:
+\[
+R_{\text{parallel}} = \frac{6 \times 6}{6 + 6} = 3 \, \Omega.
+\]
+This, together with a 3 $\Omega$ resistance across DE in series, gives a total of:
+\[
+R_{\text{series}} = 6 \, \Omega.
+\]
+Which, together with another 6 $\Omega$ across AE in parallel, gives:
+\[
+R_{\text{parallel}} = \frac{6 \times 6}{6 + 6} = 3 \, \Omega.
+\]
+By similar reasoning, the resistance along AFB is 6 $\Omega$, which with a 3 $\Omega$ across AB in parallel yields the effective resistance across AB:
+\[
+R_{AB} = \frac{6 \times 3}{6 + 3} = 2 \, \Omega.
+\]
+
+\subsection{Change in Resistance}
+
+The resistance $R$ is given by:
+\[
+R = \frac{\rho l}{A} = \frac{\rho l^2}{A l} = \frac{\rho l^2}{v_0}
+\]
+where $v_0$ is the constant volume. The change in the resistance $\Delta R$ is:
+\[
+\Delta R = \frac{2 \rho l \Delta l}{v_0}
+\]
+Thus, the relative change in resistance is:
+\[
+\frac{\Delta R}{R} = \frac{2 \Delta l}{l} = \frac{2 \times 0.1}{100} = 0.2\% 
+\]
+
+\end{document}
+```
+
+This LaTeX document provides a structured and formatted solution to the physics problem, including calculations for resistance and changes in resistance. The use of equations and formatting ensures clarity and precision in presenting the solution."

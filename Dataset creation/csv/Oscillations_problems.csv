@@ -1,0 +1,1470 @@
+Question_number,Questions
+6.1,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The total energy of a particle executing Simple Harmonic Motion (SHM) with a period of $2\pi$ seconds is $256 \, \text{J}$. The displacement of the particle at $t = \frac{\pi}{4} \, \text{s}$ is $8\sqrt{2} \, \text{cm}$. Calculate the amplitude of motion and the mass of the particle.
+
+\end{document}
+```
+
+This LaTeX code uses the `amsmath` package for better mathematical formatting and ensures that the physics text is clearly presented."
+6.2,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle makes SHM along a straight line and its velocity when passing through points 3 cm and 4 cm from the centre of its path is 16 cm/s and 12 cm/s, respectively. Find (a) the amplitude; (b) the time period of motion. [Northern Universities of UK]
+
+\end{document}
+```"
+6.3,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+As a mass \( m \) bob of mass \( 50 \, \text{g} \) oscillates as a simple pendulum, with amplitude \( 5 \, \text{cm} \) and period \( 2 \, \text{s} \). Find the velocity of the bob and the tension in the supporting thread when the velocity of the bob is maximum. [University of Aberystwyth, Wales]
+
+\end{document}
+```"
+6.4,"To format the given physics text in LaTeX, we need to structure it properly with equations and text. Here's how you can present it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle performs Simple Harmonic Motion (SHM) with a period of \( T = 16 \, \text{s} \). At time \( t = 2 \, \text{s} \), the particle passes through the origin, while at \( t = 4 \, \text{s} \), its velocity is \( 4 \, \text{m/s} \).
+
+Show that the amplitude of the motion is \( \frac{32\sqrt{2}}{\pi} \).
+
+\end{document}
+```
+
+This LaTeX code uses the `amsmath` package for better handling of mathematical expressions. The text is structured to clearly present the problem statement, and the mathematical expressions are properly formatted using inline math mode with the `\( ... \)` delimiters."
+6.5,"To show that a floating body performs simple harmonic motion when given a small vertical displacement from its equilibrium position, we start by considering the buoyant force acting on the body. The buoyant force is equal to the weight of the displaced liquid. When the body is displaced vertically by a small distance \( x \), the change in the volume of the displaced liquid is \( A x \), where \( A \) is the area of the plane of floatation.
+
+The change in the buoyant force, which acts as the restoring force, is given by:
+
+\[
+F = -\rho g A x
+\]
+
+where \( \rho \) is the density of the liquid, and \( g \) is the acceleration due to gravity. According to Hooke's Law for simple harmonic motion, the restoring force can be expressed as:
+
+\[
+F = -k x
+\]
+
+where \( k \) is the effective spring constant. Equating the two expressions for the restoring force, we have:
+
+\[
+k = \rho g A
+\]
+
+The equation of motion for the floating body is then:
+
+\[
+m \frac{d^2 x}{dt^2} = -\rho g A x
+\]
+
+where \( m \) is the mass of the body. The mass \( m \) can be related to the volume of the displaced liquid \( V \) by:
+
+\[
+m = \rho V
+\]
+
+Substituting this into the equation of motion gives:
+
+\[
+\rho V \frac{d^2 x}{dt^2} = -\rho g A x
+\]
+
+Simplifying, we find:
+
+\[
+V \frac{d^2 x}{dt^2} = -g A x
+\]
+
+This is the standard form of the differential equation for simple harmonic motion, which has a solution of the form:
+
+\[
+x(t) = A \cos\left(\omega t + \phi\right)
+\]
+
+where the angular frequency \( \omega \) is given by:
+
+\[
+\omega = \sqrt{\frac{g A}{V}}
+\]
+
+The period \( T \) of the simple harmonic motion is related to the angular frequency by:
+
+\[
+T = \frac{2\pi}{\omega} = 2\pi \sqrt{\frac{V}{g A}}
+\]
+
+Thus, the period of the simple harmonic motion of the floating body is:
+
+\[
+T = 2\pi \sqrt{\frac{V}{g A}}
+\]
+
+This completes the demonstration that a floating body, when given a small vertical displacement from its equilibrium position, performs simple harmonic motion with the period \( 2\pi \sqrt{\frac{V}{g A}} \). Viscous forces are ignored in this analysis."
+6.6,"To format the given physics problem in LaTeX, we need to clearly present the problem statement and the tasks involved. Here's how you can structure it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+Imagine a tunnel bored along the diameter of the Earth, which is assumed to have constant density. A box is thrown into the tunnel (chute). 
+
+\begin{enumerate}
+    \item[(a)] Show that the box executes Simple Harmonic Motion (SHM) inside the tunnel about the center of the Earth.
+    \item[(b)] Find the time period of oscillations.
+\end{enumerate}
+
+\section*{Solution}
+
+\subsection*{(a) Simple Harmonic Motion}
+
+To show that the box executes SHM, we start by considering the gravitational force acting on the box. Assuming a constant density $\rho$, the gravitational force inside the Earth at a distance $r$ from the center is given by:
+
+\[
+F = -\frac{G M(r)}{r^2} \cdot m
+\]
+
+where $M(r)$ is the mass enclosed within radius $r$, $G$ is the gravitational constant, and $m$ is the mass of the box. Since the Earth has constant density, $M(r)$ is proportional to $r^3$:
+
+\[
+M(r) = \rho \cdot \frac{4}{3} \pi r^3
+\]
+
+Substituting $M(r)$ into the force equation, we have:
+
+\[
+F = -\frac{G \rho \cdot \frac{4}{3} \pi r^3}{r^2} \cdot m = -\frac{4}{3} \pi G \rho m r
+\]
+
+This force is proportional to $-r$, indicating that the motion is simple harmonic. The angular frequency $\omega$ is given by:
+
+\[
+\omega^2 = \frac{4}{3} \pi G \rho
+\]
+
+\subsection*{(b) Time Period of Oscillations}
+
+The time period $T$ of the oscillations is related to the angular frequency by:
+
+\[
+T = \frac{2\pi}{\omega}
+\]
+
+Substituting the expression for $\omega$, we find:
+
+\[
+T = 2\pi \sqrt{\frac{3}{4 \pi G \rho}}
+\]
+
+Thus, the time period of oscillations is:
+
+\[
+T = 2\pi \sqrt{\frac{3}{4 \pi G \rho}}
+\]
+
+\end{document}
+```
+
+This LaTeX code provides a structured presentation of the problem, including the necessary equations and logical steps to demonstrate that the box executes SHM and to find the time period of oscillations."
+6.7,"```latex
+A particle which executes SHM along a straight line has its motion represented by 
+\[ x = 4 \sin\left(\frac{\pi t}{3} + \frac{\pi}{6}\right). \]
+Find 
+\begin{itemize}
+    \item (a) the amplitude;
+    \item (b) time period;
+    \item (c) frequency;
+    \item (d) phase difference;
+    \item (e) velocity;
+    \item (f) acceleration, at \( t = 1 \, \text{s} \), \( x \) being in cm.
+\end{itemize}
+```"
+6.8,"To format the given physics text into LaTeX, we need to write the problem statement clearly and include the necessary equations for simple harmonic motion (SHM). Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+\begin{enumerate}
+    \item[(a)] At what distance from the equilibrium position is the kinetic energy equal to the potential energy for a simple harmonic motion (SHM)?
+    
+    \item[(b)] In SHM, if the displacement is one-half of the amplitude, show that the kinetic energy and potential energy are in the ratio 3:1.
+\end{enumerate}
+
+\section*{Solution}
+
+\subsection*{(a) Equal Kinetic and Potential Energy}
+
+For a simple harmonic oscillator, the total energy \( E \) is given by:
+\[
+E = K + U
+\]
+where \( K \) is the kinetic energy and \( U \) is the potential energy.
+
+The kinetic energy \( K \) is given by:
+\[
+K = \frac{1}{2} m v^2
+\]
+
+The potential energy \( U \) is given by:
+\[
+U = \frac{1}{2} k x^2
+\]
+
+At the point where \( K = U \), we have:
+\[
+\frac{1}{2} m v^2 = \frac{1}{2} k x^2
+\]
+
+\subsection*{(b) Ratio of Kinetic and Potential Energy}
+
+Given that the displacement \( x \) is one-half of the amplitude \( A \), i.e., \( x = \frac{A}{2} \).
+
+The potential energy at this displacement is:
+\[
+U = \frac{1}{2} k \left(\frac{A}{2}\right)^2 = \frac{1}{8} k A^2
+\]
+
+The total energy \( E \) is:
+\[
+E = \frac{1}{2} k A^2
+\]
+
+The kinetic energy \( K \) is:
+\[
+K = E - U = \frac{1}{2} k A^2 - \frac{1}{8} k A^2 = \frac{3}{8} k A^2
+\]
+
+Thus, the ratio of kinetic energy to potential energy is:
+\[
+\frac{K}{U} = \frac{\frac{3}{8} k A^2}{\frac{1}{8} k A^2} = 3
+\]
+
+Therefore, the ratio of kinetic energy to potential energy is \( 3:1 \).
+
+\end{document}
+```
+
+This LaTeX code provides a structured format for the problem statement and includes the relevant equations for simple harmonic motion, ensuring clarity and correctness in the presentation."
+6.9,"To convert the given text into properly formatted LaTeX, we need to express the problem statement using LaTeX syntax, focusing on the physics context. Here is the LaTeX code for the problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A mass $M$ attached to a spring oscillates with a period $T = 2 \, \text{s}$. If the mass is increased by $2 \, \text{kg}$, the period increases by $1 \, \text{s}$. Assuming that Hooke's law is obeyed, find the initial mass $M$.
+
+\end{document}
+```
+
+This code sets up a simple LaTeX document that includes the problem statement with proper mathematical notation for the variables and units."
+6.10,"```latex
+A particle vibrates with simple harmonic motion (SHM) along a straight line. Its greatest acceleration is \(5\pi^2 \, \text{cm/s}^2\), and when its distance from the equilibrium is \(4 \, \text{cm}\), the velocity of the particle is \(3\pi \, \text{cm/s}\). Find the amplitude and the period of oscillation of the particle.
+```
+"
+6.11,"To format the given physics text into LaTeX, we can structure it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+If the maximum acceleration of a simple harmonic motion (SHM) is $\alpha$ and the maximum velocity is $\beta$, show that the amplitude of vibration is given by $\frac{\beta^2}{\alpha}$ and the period of oscillation by $\frac{2\pi\beta}{\alpha}$.
+
+\end{document}
+```
+
+This LaTeX code uses the `amsmath` package for better handling of mathematical expressions. The variables $\alpha$ and $\beta$ are formatted in math mode, and the expressions for amplitude and period are displayed using fractions."
+6.12,"To convert the given physics text into properly formatted LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Consider a simple pendulum with a bob of mass \( m \) and string length \( L \). The tension \( T \) in the string at the lowest position is given to be 1\% higher than the weight of the bob. Mathematically, this can be expressed as:
+
+\[
+T = mg + 0.01 \cdot mg = 1.01 \, mg
+\]
+
+At the lowest position, the tension in the string is also given by the centripetal force required for the circular motion of the pendulum bob, which can be expressed as:
+
+\[
+T = mg + \frac{mv^2}{L}
+\]
+
+Equating the two expressions for tension, we have:
+
+\[
+1.01 \, mg = mg + \frac{mv^2}{L}
+\]
+
+Simplifying, we find:
+
+\[
+0.01 \, mg = \frac{mv^2}{L}
+\]
+
+Solving for \( v^2 \), we get:
+
+\[
+v^2 = 0.01 \, gL
+\]
+
+The maximum speed \( v \) occurs at the lowest point, and it is related to the angular amplitude \( \theta_0 \) by the energy conservation principle. The potential energy at the maximum height is equal to the kinetic energy at the lowest point:
+
+\[
+\frac{1}{2} m v^2 = mgL (1 - \cos \theta_0)
+\]
+
+Substituting \( v^2 = 0.01 \, gL \) into the energy equation:
+
+\[
+\frac{1}{2} m (0.01 \, gL) = mgL (1 - \cos \theta_0)
+\]
+
+Simplifying, we have:
+
+\[
+0.005 \, mgL = mgL (1 - \cos \theta_0)
+\]
+
+Dividing both sides by \( mgL \), we get:
+
+\[
+0.005 = 1 - \cos \theta_0
+\]
+
+Solving for \( \cos \theta_0 \), we find:
+
+\[
+\cos \theta_0 = 0.995
+\]
+
+For small angles, we can use the approximation \( \cos \theta_0 \approx 1 - \frac{\theta_0^2}{2} \). Thus:
+
+\[
+1 - \frac{\theta_0^2}{2} \approx 0.995
+\]
+
+This simplifies to:
+
+\[
+\frac{\theta_0^2}{2} \approx 0.005
+\]
+
+Solving for \( \theta_0^2 \), we get:
+
+\[
+\theta_0^2 \approx 0.01
+\]
+
+Taking the square root, we find:
+
+\[
+\theta_0 \approx 0.1 \, \text{rad}
+\]
+
+Thus, the angular amplitude of the pendulum is approximately \( 0.1 \, \text{rad} \).
+
+\end{document}
+```
+
+This LaTeX document will properly format the physics problem and its derivation, showing that the angular amplitude of the pendulum is 0.1 rad."
+6.13,"To convert the given text into properly formatted LaTeX, we need to identify the physics problem and structure it accordingly. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle executes Simple Harmonic Motion (SHM) and is located at \( x = a \), \( b \), and \( c \) at times \( t = 0 \), \( 2t_0 \), and \( 3t_0 \), respectively. Show that the frequency of oscillation is 
+
+\[
+\frac{1}{2\pi t_0} \cos^{-1} \left( \frac{a+c}{2b} \right).
+\]
+
+\end{document}
+```
+
+This code sets up a basic document with the necessary mathematical formatting to represent the problem statement and the equation clearly."
+6.14,"To format the given physics problem in LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A 4 kg mass at the end of a spring moves with Simple Harmonic Motion (SHM) on a horizontal frictionless table with period \( T = 2 \, \text{s} \) and amplitude \( A = 2 \, \text{m} \).
+
+\begin{enumerate}
+    \item[(a)] Determine the spring constant \( k \).
+    \item[(b)] Determine the maximum force exerted on the spring.
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code sets up the problem statement with proper formatting, using mathematical symbols for the period and amplitude. The problem is divided into two parts, (a) and (b), for clarity."
+6.15,"To convert the given physics text into properly formatted LaTeX, we need to present the equations clearly and describe the task. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle moves in the $xy$-plane according to the equations:
+\begin{align*}
+    x &= a \sin(\omega t), \\
+    y &= b \cos(\omega t).
+\end{align*}
+Determine the path of the particle.
+
+\end{document}
+```
+
+This LaTeX code sets up a document that includes the equations describing the motion of the particle in the $xy$-plane and states the task of determining the path of the particle. The equations are aligned for clarity."
+6.16,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem}
+
+\begin{enumerate}
+    \item[(a)] Prove that the force \( \mathbf{F} = -k x \hat{\mathbf{i}} \) acting in a simple harmonic oscillator (SHO) is conservative.
+    \item[(b)] Find the potential energy of an SHO.
+\end{enumerate}
+
+\end{document}
+```"
+6.17,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A 2 kg weight placed on a vertical spring stretches it 5 cm. The weight is pulled down a distance of 10 cm and released. Find:
+\begin{enumerate}
+    \item[(a)] the spring constant;
+    \item[(b)] the amplitude;
+    \item[(c)] the frequency of oscillations.
+\end{enumerate}
+
+\end{document}
+```"
+6.18,"To format the given physics problem in LaTeX, we will ensure that all symbols, variables, and equations are properly typeset. Here's the LaTeX code for the problem:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A mass \( m \) is dropped from a height \( h \) onto a scale-pan of negligible weight, suspended from a spring with spring constant \( k \). The collision may be considered to be completely inelastic in that the mass sticks to the pan and the pan begins to oscillate. Find the amplitude of the pan’s oscillations.
+
+\end{document}
+```
+
+This LaTeX code includes the necessary formatting for the physics problem, with all variables and constants properly typeset."
+6.19,"To format the given physics text into LaTeX, we need to ensure that all mathematical expressions are correctly represented. Here's the LaTeX code for the text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle executes simple harmonic motion (SHM) along the $x$-axis according to the law $x = A \sin(\omega t)$. Find the probability $dp(x)$ of finding the particle between $x$ and $x + dx$.
+
+\end{document}
+```
+
+This code snippet sets up a basic LaTeX document, uses the `amsmath` package for enhanced mathematical formatting, and includes the given physics text with proper mathematical notation."
+6.20,"Certainly! Below is the LaTeX code for the given physics text, formatted appropriately for a document that includes equations and physics notation:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+Using the probability density distribution for the simple harmonic oscillator (SHO), calculate the mean potential energy and the mean kinetic energy over an oscillation.
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document, including the necessary packages for mathematical symbols and formatting. The text is placed within the `document` environment, ready for further elaboration with equations and calculations as needed."
+6.21,"To convert the given physics text into properly formatted LaTeX, we need to structure the problem statement clearly and include any relevant equations or expressions. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A cylinder of mass $m$ is allowed to roll on a smooth horizontal table with a spring of spring constant $k$ attached to it, so that it executes simple harmonic motion (SHM) about the equilibrium position. Find the time period of oscillations.
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document with the problem statement formatted for clarity. It uses the `amsmath` package for any potential mathematical expressions, although none are explicitly included in this text. The variables are properly formatted in math mode, ensuring they appear correctly in the final document."
+6.22,"To properly format the given physics problem in LaTeX, we will use the `align` environment to neatly present the equations. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Two simple pendulums of length 60 cm and 63 cm, respectively, hang vertically one in front of the other. If they are set in motion simultaneously, find the time taken for one to gain a complete oscillation on the other.
+
+\begin{align*}
+    \text{Let } L_1 &= 60 \, \text{cm} = 0.60 \, \text{m}, \\
+    L_2 &= 63 \, \text{cm} = 0.63 \, \text{m}.
+\end{align*}
+
+The period of a simple pendulum is given by:
+\[
+    T = 2\pi \sqrt{\frac{L}{g}}
+\]
+
+Thus, the periods for the two pendulums are:
+\begin{align*}
+    T_1 &= 2\pi \sqrt{\frac{L_1}{g}}, \\
+    T_2 &= 2\pi \sqrt{\frac{L_2}{g}}.
+\end{align*}
+
+The time taken for one pendulum to gain a complete oscillation on the other is given by the beat period:
+\[
+    T_{\text{beat}} = \frac{T_1 T_2}{|T_2 - T_1|}
+\]
+
+Substitute the expressions for \(T_1\) and \(T_2\) to find \(T_{\text{beat}}\).
+
+\end{document}
+```
+
+This LaTeX code sets up the problem statement and the necessary equations for solving the problem, without actually solving it, as per your request."
+6.23,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A pendulum that beats seconds and gives correct time on ground at a certain place is moved to the top of a tower 320 m high. How much time will the pendulum lose in 1 day? Assume Earth's radius to be 6400 km.
+
+\end{document}
+```"
+6.24,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Taking the earth’s radius as \( 6400 \, \text{km} \) and assuming that the value of \( g \) inside the earth is proportional to the distance from the earth’s centre, at what depth below the earth’s surface would a pendulum which beats seconds at the earth’s surface lose 5 minutes in a day? 
+
+\textit{[University of London]}
+
+\end{document}
+```"
+6.25,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A U-tube is filled with a liquid, the total length of the liquid column being $h$. If the liquid on one side is slightly depressed by blowing gently down, the levels of the liquid will oscillate about the equilibrium position before finally coming to rest.
+
+\begin{enumerate}
+    \item[(a)] Show that the oscillations are Simple Harmonic Motion (SHM).
+    \item[(b)] Find the period of oscillations.
+\end{enumerate}
+
+\end{document}
+```"
+6.26,"To convert the given physics text into properly formatted LaTeX, we need to structure the problem statement clearly and use appropriate mathematical symbols and formatting. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A gas of mass $m$ is enclosed in a cylinder of cross-section $A$ by means of a frictionless piston. The gas occupies a length $l$ in the equilibrium position and is at pressure $P$.
+
+\begin{enumerate}
+    \item[(a)] If the piston is slightly depressed, show that it will execute Simple Harmonic Motion (SHM).
+    \item[(b)] Find the period of oscillations (assume isothermal conditions).
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code will format the problem statement with proper mathematical notation and structure, making it suitable for a physics document."
+6.27,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The displacement \( y \) is given by the equation:
+\[
+y = 8 \sin \left( \frac{2\pi t}{\tau} + \phi \right)
+\]
+where the time period is \( \tau = 24 \, \text{s} \).
+
+At \( t = 0 \), the displacement is \( 4 \, \text{cm} \).
+
+Find the displacement at \( t = 6 \, \text{s} \).
+
+\end{document}
+```
+
+This LaTeX code includes the necessary formatting for the equation and the description provided."
+6.28,"To format the given physics text into LaTeX, we will use the equation for the period of oscillation of a spring-mass system, which is given by:
+
+\[ T = 2\pi \sqrt{\frac{m}{k}} \]
+
+where \( T \) is the period, \( m \) is the mass, and \( k \) is the spring constant. Here's how the problem can be formatted in LaTeX:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+In a vertical spring-mass system, the period of oscillation is given by the formula:
+
+\[
+T = 2\pi \sqrt{\frac{m}{k}}
+\]
+
+where \( T \) is the period of oscillation, \( m \) is the mass attached to the spring, and \( k \) is the spring constant.
+
+Given:
+\begin{itemize}
+    \item The period \( T_1 = 0.89 \, \text{s} \) when the mass \( m_1 = 1.5 \, \text{kg} \).
+    \item The period \( T_2 = 1.13 \, \text{s} \) when an additional mass of \( 1.0 \, \text{kg} \) is added, making the total mass \( m_2 = 1.5 \, \text{kg} + 1.0 \, \text{kg} = 2.5 \, \text{kg} \).
+\end{itemize}
+
+Calculate the mass of the spring.
+
+\end{document}
+```
+
+This LaTeX document sets up the problem with the necessary equations and given values, ready for further analysis or calculation."
+6.29,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Consider two springs A and B with spring constants $k_A$ and $k_B$, respectively, A being stiffer than B, that is, $k_A > k_B$. Show that:
+
+\begin{enumerate}
+    \item[(a)] When two springs are stretched by the same amount, more work will be done on the stiffer spring.
+    \item[(b)] When two springs are stretched by the same force, less work will be done on the stiffer spring.
+\end{enumerate}
+
+\end{document}
+```"
+6.30,"To properly format the given physics text into LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+As a solid uniform cylinder of radius $r$ rolls without sliding along the inside surface of a hollow cylinder of radius $R$, performing small oscillations, determine the time period.
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document with the necessary packages for mathematical formatting and includes the physics problem statement. The variables \( r \) and \( R \) are properly formatted in math mode."
+6.31,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Consider the rigid plane object of weight \( Mg \) shown in Fig. 6.7, pivoted about a point at a distance \( D \) from its centre of mass and displaced from equilibrium by a small angle \( \phi \). Such a system is called a physical pendulum. Show that the oscillatory motion of the object is simple harmonic with a period given by
+
+\[
+T = 2\pi \sqrt{\frac{I}{MgD}}
+\]
+
+where \( I \) is the moment of inertia about the pivot point. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure6_7.png}
+    \caption{Diagram of the physical pendulum.}
+    \label{fig:physical_pendulum}
+\end{figure}
+
+\end{document}
+```
+
+Note: Replace `figure6_7.png` with the actual file name of the image you have for Fig. 6.7."
+6.32,"To convert the given text into properly formatted LaTeX, we need to ensure that the physics concepts and equations are clearly presented. Here's the LaTeX code for the problem description:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+At a uniform rod of mass $M$ and length $L$ swings from one of its ends as a physical pendulum (see Fig. 6.8). Given that the moment of inertia of a uniform rod about one end is $I = \frac{1}{3}ML^2$, obtain an equation for the period of the oscillatory motion for small angles. What would be the length $l$ of a simple pendulum that has the same period as the swinging rod?
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig6_8.png}
+    \caption{A uniform rod swinging as a physical pendulum.}
+    \label{fig:pendulum}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary formatting for the physics problem, including the use of mathematical symbols and a placeholder for the figure. Make sure to replace `fig6_8.png` with the actual path to your figure file if you have one."
+6.33,"To properly format the given physics text into LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The physical pendulum has two possible pivot points \( A \) and \( B \), distance \( L \) apart, such that the period of oscillations is the same (see Fig.~6.9). Show that the acceleration due to gravity at the pendulum’s location is given by
+
+\[
+g = \frac{4\pi^2 L}{T^2}
+\]
+
+\noindent where \( T \) is the period of oscillation.
+
+\begin{figure}[h]
+    \centering
+    % \includegraphics{figure6_9.png} % Uncomment and replace with actual figure file if available
+    \caption{Fig. 6.9: Diagram of the physical pendulum with pivot points \( A \) and \( B \).}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary formatting for the physics text, including the equation for the acceleration due to gravity, and a placeholder for the figure (Fig. 6.9). If you have the actual figure file, you can include it by uncommenting the `\includegraphics` line and providing the correct path to the image file."
+6.34,"To convert the given physics text into properly formatted LaTeX, we need to ensure that the text is clear and the mathematical symbols are correctly represented. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A semi-circular homogeneous disc of radius $R$ and mass $m$ is pivoted freely about the centre. If slightly tilted through a small angle and released, find the angular frequency of oscillations.
+
+\end{document}
+```
+
+This LaTeX code will produce a well-formatted document with the given physics problem statement. The mathematical symbols for radius \( R \) and mass \( m \) are properly formatted using math mode."
+6.35,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A ring is suspended on a nail. It can oscillate in its plane with time period \( T_1 \) or it can oscillate back and forth in a direction perpendicular to the plane of the ring with time period \( T_2 \). Find the ratio \( \frac{T_1}{T_2} \).
+
+\end{document}
+```"
+6.36,"To format the given physics text into LaTeX, we need to ensure that the mathematical expressions and variables are correctly typeset. Here's the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A torsional oscillator consists of a flat metal disc suspended by a wire. For small angular displacements, show that the time period is given by
+
+\begin{equation}
+    T = 2\pi \sqrt{\frac{I}{C}}
+\end{equation}
+
+where \( I \) is the moment of inertia about its axis and \( C \) is known as the torsional constant. The torsional constant is given by
+
+\begin{equation}
+    \tau = -C\theta,
+\end{equation}
+
+where \( \tau \) is the torque.
+
+\end{document}
+```
+
+This code will properly format the physics text with equations in LaTeX, ensuring that the mathematical expressions are clear and correctly aligned."
+6.37,"```latex
+In the arrangement shown in Fig.~6.10, the radius of the pulley is \( r \), its moment of inertia about the rotation axis is \( I \), and \( k \) is the spring constant. Assuming that the mass of the thread and the spring is negligible and that the thread does not slide over the frictionless pulley, calculate the angular frequency of small oscillations.
+
+\begin{figure}[h]
+    \centering
+    % Include your figure here, for example:
+    % \includegraphics{fig6_10.png}
+    \caption{Diagram of the pulley system described in the problem.}
+    \label{fig:6_10}
+\end{figure}
+```
+
+Note: Replace the comment `% \includegraphics{fig6_10.png}` with the appropriate command to include your figure file. Make sure the file path and name are correct."
+6.38,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Two unstretched springs with spring constants $k_1$ and $k_2$ are attached to a solid cylinder of mass $m$ as in Fig. 6.11. When the cylinder is slightly displaced and released, it will perform small oscillations about the equilibrium position. Assuming that the cylinder rolls without sliding, find the time period. See Fig. 6.11.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure6_11.png} % Replace with actual figure file
+    \caption{Illustration of the system with springs and cylinder.}
+    \label{fig:6_11}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `""figure6_11.png""` with the actual file name of the figure you are using. This code includes the necessary packages for mathematical formatting and graphics inclusion."
+6.39,"To format the given physics text into LaTeX, we will structure it clearly and use appropriate mathematical symbols and formatting. Here's how it can be done:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A particle of mass $m$ is located in a one-dimensional potential field given by:
+
+\begin{equation}
+    U(x) = ax^2 - bx
+\end{equation}
+
+where $a$ and $b$ are positive constants. Show that the period of small oscillations that the particle performs about the equilibrium position is:
+
+\begin{equation}
+    T = 4\pi \sqrt{\frac{2a^3 m}{b^4}}
+\end{equation}
+
+\begin{flushright}
+    [Osmania University 1999]
+\end{flushright}
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the potential energy function and the expression for the period of small oscillations, formatted correctly with equations and constants."
+6.40,"To convert the given text into properly formatted LaTeX, you need to ensure that the text is structured clearly with the appropriate mathematical notation. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Two springs with spring constants $k_1$ and $k_2$ are connected in series, as shown in Fig. 6.12. Calculate the effective spring constant.
+
+\begin{figure}[h]
+    \centering
+    % Include your figure here, for example:
+    % \includegraphics[width=0.5\textwidth]{figure6_12.png}
+    \caption{Two springs connected in series.}
+    \label{fig:6.12}
+\end{figure}
+
+\end{document}
+```
+
+This LaTeX code includes:
+
+- Proper formatting for the spring constants using math mode (`$k_1$` and `$k_2$`).
+- A placeholder for the figure (Fig. 6.12) with a caption and label for referencing.
+- Clear text structure for the problem statement. 
+
+Make sure to replace the placeholder comment in the `figure` environment with the actual code to include your figure, such as using the `\includegraphics` command if you have an image file."
+6.41,"Certainly! Below is the LaTeX code for the given physics text, formatted appropriately:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+A mass $m$ is connected to two springs of constants $k_1$ and $k_2$ in parallel, as shown in Fig.~\ref{fig:springs}. Calculate the effective (equivalent) spring constant.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Fig6_13.png} % Replace with actual image file
+    \caption{Two springs in parallel connected to a mass $m$.}
+    \label{fig:springs}
+\end{figure}
+
+\end{document}
+```
+
+Please replace `Fig6_13.png` with the actual file name of your figure. This code includes the necessary packages and assumes the figure is available in the same directory as the LaTeX file."
+6.42,"Certainly! Below is the LaTeX code for the given physics text, formatted appropriately:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+A mass $m$ is placed on a frictionless horizontal table and is connected to fixed points $A$ and $B$ by two springs of negligible mass and of equal natural length with spring constants $k_1$ and $k_2$, as shown in Fig. 6.14. The mass is displaced along the $x$-axis and released. Calculate the period of oscillation.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure6_14.png} % Replace with actual figure file path
+    \caption{Fig. 6.14}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `figure6_14.png` with the actual path to your figure file. This code snippet will format the text and include a placeholder for the figure as described."
+6.43,"To format the given physics text into LaTeX, we need to ensure that all variables, constants, and equations are properly typeset. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+One end of a long metallic wire of length $L$ is tied to the ceiling. The other end is tied to a massless spring of spring constant $k$. A mass $m$ hangs freely from the free end of the spring. The area of cross-section and the Young’s modulus of the wire are $A$ and $Y$ respectively. The mass is displaced down and released. Show that it will oscillate with time period $T$ given by:
+
+\[
+T = 2\pi \sqrt{\frac{m(YA + kL)}{YA \cdot k}}
+\]
+
+[Adapted from Indian Institute of Technology 1993]
+
+\end{document}
+```
+
+This LaTeX code includes the necessary mathematical formatting for variables and the equation, ensuring clarity and correctness in the representation of the physics problem."
+6.44,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+The mass $m$ is attached to one end of a weightless stiff rod which is rigidly connected to the center of a uniform cylinder of radius $R$, as shown in Fig. 6.15. Assuming that the cylinder rolls without slipping, calculate the natural frequency of oscillation of the system.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{figure6_15.png} % Replace with actual figure file path
+    \caption{Schematic of the system with mass $m$ and cylinder of radius $R$.}
+    \label{fig:6_15}
+\end{figure}
+
+\end{document}
+```
+
+Note: Replace `figure6_15.png` with the actual path to the image file for Fig. 6.15."
+6.45,"To format the given physics text in LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Find the natural frequency of a semi-circular disc of mass $m$ and radius $r$ which rolls from side to side without slipping.
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document and uses the `amsmath` package for better mathematical formatting. The variables `m` and `r` are formatted in math mode to ensure they appear correctly."
+6.46,"To format the given physics text into LaTeX, we need to ensure that all variables, symbols, and references are properly typeset. Here is the LaTeX code for the provided text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+Determine the eigenfrequencies and describe the normal mode motion for two pendula of equal lengths $b$ and equal masses $m$ connected by a spring of force constant $k$ as shown in Fig.~\ref{fig:pendula}. The spring is unstretched in the equilibrium position. See Fig.~\ref{fig:pendula}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{pendula.png} % Replace with the actual path to the figure
+    \caption{Two pendula of equal lengths and masses connected by a spring.}
+    \label{fig:pendula}
+\end{figure}
+
+\end{document}
+```
+
+Make sure to replace `""pendula.png""` with the actual path to your figure file. This code includes the necessary packages for mathematical formatting and figures, and it properly references the figure in the text."
+6.47,"To properly format the given physics text into LaTeX, we can structure it as follows:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+In problem (6.46), express the equations of motion and the energy in terms of normal coordinates. What are the characteristics of normal coordinates?
+
+\end{document}
+```
+
+This LaTeX code sets up a basic document structure and includes the `amsmath` package, which is commonly used for typesetting equations in physics and mathematics. The text is placed within the `document` environment. If you need to include specific equations or additional formatting, please provide the equations or further details."
+6.48,"To convert the given physics text into properly formatted LaTeX, we need to express the equations and variables clearly. Here's how you can format the text:
+
+```latex
+The superposition of two harmonic oscillations in the same direction leads to the resultant displacement:
+
+\[
+y = A \cos(6\pi t) \sin(90\pi t)
+\]
+
+where \( t \) is expressed in seconds. Find the frequency of the component vibrations and the beat frequency.
+```
+
+This LaTeX code will properly format the equation and the accompanying text."
+6.49,"To format the given physics text into LaTeX, we need to represent the problem statement and the given data using appropriate LaTeX syntax. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Find the fundamental frequency of vibration of the HCl molecule. The masses of H and Cl may be assumed to be \(1.0 \, \text{amu}\) and \(36.46 \, \text{amu}\), respectively. Given:
+\begin{align*}
+    1 \, \text{amu} &= 1.66 \times 10^{-27} \, \text{kg}, \\
+    k &= 480 \, \text{N/m}.
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code sets up a document with the problem statement and the given values formatted using mathematical notation. The `align*` environment is used to align the equations neatly."
+6.50,"To properly format the given physics text into LaTeX, we will present the problem statement with the equations aligned and clearly defined. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Find the resultant of the vibrations given by the following equations, all acting in the same straight line:
+
+\begin{align*}
+    y_1 &= \cos(\omega t), \\
+    y_2 &= \frac{1}{2} \cos\left(\omega t + \frac{\pi}{2}\right), \\
+    y_3 &= 13 \cos(\omega t + \pi).
+\end{align*}
+
+\end{document}
+```
+
+This LaTeX code sets up the problem with each vibration equation clearly defined and aligned for clarity."
+6.51,"To format the given physics text into LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A mass attached to a spring vibrates with a natural frequency of \(20 \, \text{c/s}\) while its frequency for damped vibrations is \(16 \, \text{c/s}\). Determine the logarithmic decrement.
+
+\end{document}
+```
+
+This LaTeX code sets up a simple document that includes the problem statement with properly formatted mathematical expressions. The units ""c/s"" (cycles per second) are included in the text using `\text{}` to ensure they are not italicized like variables."
+6.52,"To convert the given physics text into properly formatted LaTeX, we need to write the equation of motion for a damped oscillator and describe the conditions for underdamped, overdamped, and critically damped motion. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The equation of motion for a damped oscillator is given by:
+
+\begin{equation}
+    4 \frac{d^2 x}{dt^2} + r \frac{dx}{dt} + 32x = 0
+\end{equation}
+
+For what range of values for the damping constant \( r \) will the motion be:
+\begin{itemize}
+    \item (a) underdamped;
+    \item (b) overdamped;
+    \item (c) critically damped?
+\end{itemize}
+
+\end{document}
+```
+
+This LaTeX document includes the equation of motion and lists the conditions for different types of damping. Adjust the document class and packages as needed for your specific use case."
+6.53,"Certainly! Below is the properly formatted LaTeX code for the given physics text:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A mass $m$ is softly attached to the lower end of a vertical spring of constant $k = 20 \, \text{N/m}$ and oscillates with a period of $T = 10 \, \text{s}$. Find:
+\begin{enumerate}
+    \item the natural period;
+    \item the damping constant;
+    \item the logarithmic decrement.
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code includes the necessary formatting for the physics problem statement, using standard LaTeX packages and commands."
+6.54,"To properly format the given physics text into LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Solve the equation of motion for the damped oscillator:
+
+\begin{equation}
+    \frac{d^2x}{dt^2} + 2\frac{dx}{dt} + 5x = 0,
+\end{equation}
+
+subject to the initial conditions:
+
+\begin{equation}
+    x(0) = 5, \quad \frac{dx}{dt}\bigg|_{t=0} = -3.
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code sets up the equation of motion for a damped oscillator and specifies the initial conditions. The `amsmath` package is used for better handling of mathematical expressions."
+6.55,"To format the given physics text into LaTeX, we will structure it as a problem statement with parts (a) and (b) clearly labeled. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+A weight is attached to a vertical spring, stretching it by 0.2 m. The weight is then pulled down 1.5 m and released.
+
+\begin{enumerate}
+    \item[(a)] Is the motion underdamped, overdamped, or critically damped?
+    \item[(b)] Find the position of the weight at any time if a damping force numerically equal to 14 times the instantaneous speed is acting.
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code will produce a cleanly formatted document with the problem statement and questions clearly presented. The use of `enumerate` helps in organizing the parts of the question."
+6.56,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A periodic force acts on a 6 kg mass suspended from the lower end of a vertical spring with a spring constant of 150 N/m. The damping force is proportional to the instantaneous speed of the mass and is 80 N when \( v = 2 \, \text{m/s} \). Find the resonance frequency.
+
+\end{document}
+```"
+6.57,"To convert the given physics text into properly formatted LaTeX, we need to write the equation of motion and the tasks in a clear and structured manner. Here is the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The equation of motion for forced oscillations is given by:
+
+\begin{equation}
+    2 \frac{d^2x}{dt^2} + 1.5 \frac{dx}{dt} + 40x = 12 \cos(4t).
+\end{equation}
+
+Find:
+\begin{enumerate}
+    \item Amplitude
+    \item Phase lag
+    \item Q factor
+    \item Power dissipation
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code will produce a document with the equation of motion properly formatted, followed by a list of tasks to find the amplitude, phase lag, Q factor, and power dissipation."
+6.58,"To convert the given physics text into properly formatted LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+An electric bell has a frequency of \( f = 100 \, \text{Hz} \). If its time constant is \( \tau = 2 \, \text{s} \), determine the \( Q \) factor for the bell.
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document, includes the `amsmath` package for better mathematical formatting, and uses inline math mode to present the frequency and time constant. The \( Q \) factor is also properly formatted in math mode."
+6.59,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+An oscillator has a time period of \( T = 3 \, \text{s} \). Its amplitude decreases by 5\% each cycle.
+
+\begin{enumerate}
+    \item[(a)] By how much does its energy decrease in each cycle?
+    \item[(b)] Find the time constant.
+    \item[(c)] Find the \( Q \) factor.
+\end{enumerate}
+
+\end{document}
+```"
+6.60,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+An underdamped oscillator loses 3\% of its energy in each cycle.
+
+\begin{enumerate}
+    \item[(a)] How many cycles elapse before half of its original energy is dissipated?
+    \item[(b)] What is the $Q$ factor?
+\end{enumerate}
+
+\end{document}
+```"
+6.61,"To properly format the given physics text into LaTeX, we need to express the problem statement using mathematical notation and structure. Here's how you can write it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+A damped oscillator has a frequency which is \(\frac{9}{10}\) of its natural frequency. By what factor is its amplitude decreased in each cycle?
+
+\end{document}
+```
+
+This LaTeX code will format the problem statement with the fraction \(\frac{9}{10}\) properly displayed in mathematical notation."
+6.62,"To properly format the given physics text into LaTeX, we will use the appropriate mathematical symbols and structure. Here's the LaTeX code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Show that for small damping, the damped angular frequency \(\omega'\) is approximately given by:
+
+\[
+\omega' \approx \left(1 - \frac{r^2}{8mk}\right)\omega_0
+\]
+
+where \(\omega_0\) is the natural angular frequency, \(\omega'\) is the damped angular frequency, \(r\) is the resistance constant, \(k\) is the spring constant, and \(m\) is the particle mass.
+
+\end{document}
+```
+
+This code sets up a basic LaTeX document with the necessary mathematical formatting to display the equation and its components clearly."
+6.63,"To show that the time elapsed between successive maximum displacements of a damped harmonic oscillator is constant, we need to consider the equation of motion for a damped harmonic oscillator. The time between successive maximum displacements can be derived from the properties of the damped oscillation.
+
+Here is the properly formatted LaTeX code for the given problem statement:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Problem Statement}
+
+Show that the time elapsed between successive maximum displacements of a damped harmonic oscillator is constant and equal to 
+\[
+\frac{4\pi m}{\sqrt{4km - r^2}},
+\]
+where \( m \) is the mass of the vibrating body, \( k \) is the spring constant, and \( 2b = \frac{r}{m} \), with \( r \) being the resistance constant.
+
+\end{document}
+```
+
+This LaTeX code sets up a document that includes the problem statement with the equation formatted correctly. The equation is displayed in a centered block for clarity, and all variables are properly typeset in mathematical notation."
+6.64,"To convert the given physics text into properly formatted LaTeX, we need to structure the information clearly and use appropriate LaTeX commands for units and mathematical expressions. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+A dead weight attached to a light spring extends it by \SI{9.8}{\centi\meter}. It is then slightly pulled down and released. Assuming that the logarithmic decrement is equal to 3.1, find the period of oscillation.
+
+\end{document}
+```
+
+This LaTeX code uses the `siunitx` package for consistent unit formatting and `amsmath` for any potential mathematical expressions. The text is structured to clearly present the problem statement."
+6.65,"To convert the given physics text into properly formatted LaTeX, we need to represent the differential equation and the questions clearly. Here's how you can format it:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The position of a particle moving along the \(x\)-axis is determined by the equation:
+
+\begin{equation}
+\frac{d^2x}{dt^2} + 2\frac{dx}{dt} + 8x = 16 \cos(2t).
+\end{equation}
+
+\begin{enumerate}
+    \item[(a)] What is the natural frequency of the vibrator?
+    \item[(b)] What is the frequency of the driving force?
+\end{enumerate}
+
+\end{document}
+```
+
+This LaTeX code will format the differential equation and the questions in a clear and structured manner. The equation is displayed using the `equation` environment, and the questions are listed using the `enumerate` environment."
+6.66,"To properly format the given physics text in LaTeX, you can use the following code:
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+Show that the time $t_{1/2}$ for the energy to decrease to half its initial value is related to the time constant by
+
+\begin{equation}
+t_{1/2} = \tau \ln 2.
+\end{equation}
+
+\end{document}
+```
+
+This LaTeX code uses the `amsmath` package for better equation formatting and includes the necessary mathematical symbols and formatting for the expression."
+6.67,"```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+The amplitude of a swing drops by a factor \( \frac{1}{e} \) in 8 periods when no energy is pumped into the swing. Find the \( Q \) factor.
+
+\section{Simple Harmonic Motion (SHM)}
+
+\subsection{Equation of Motion}
+
+The displacement in simple harmonic motion is given by:
+\[
+x = A \sin(\omega t)
+\]
+
+where \( \omega \) is the angular frequency:
+\[
+\omega = \frac{2\pi}{T}
+\]
+
+Given:
+\[
+\omega = 2\pi \quad \Rightarrow \quad T = \frac{2\pi}{2\pi} = 1 \, \text{rad/s}
+\]
+
+\subsection{Example Calculation}
+
+Given:
+\[
+8\sqrt{2} = A \sin\left(\frac{\pi}{4}\right)
+\]
+
+Amplitude:
+\[
+A = 16 \, \text{cm} = 0.16 \, \text{m}
+\]
+
+Energy in SHM:
+\[
+E = \frac{1}{2} m A^2 \omega^2
+\]
+
+Solving for mass \( m \):
+\[
+m = \frac{2E}{A^2 \omega^2} = \frac{2 \times 0.256}{(0.16)^2 \times 1^2} = 20.0 \, \text{kg}
+\]
+
+\end{document}
+```
+
+This LaTeX document includes sections for simple harmonic motion, the equation of motion, and example calculations, formatted with appropriate mathematical expressions and units."
